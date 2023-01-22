@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/historie-moc/","title":"Historie MOC","tags":["historie","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/kunnskap/historie-moc/","title":"Historie MOC","tags":["historie","gardenEntry","gardenEntry","gardenEntry"]}
 ---
 
 # Historie MOC
