@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/tidslinje-historie/","title":"Tidslinje historie","tags":["historie","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/kunnskap/tidslinje-historie/","title":"Tidslinje historie","tags":["historie","gardenEntry","gardenEntry","gardenEntry"]}
 ---
 
 
@@ -9,7 +9,7 @@
 - [[Kunnskap/De første sivilisasjoner\|De første sivilisasjoner]]
 - [[Kunnskap/Antikken\|Antikken]]
 - [[Kunnskap/Tidlig middelalder i Europa\|Tidlig middelalder i Europa]]
-- [[Kunnskap/Vikingtiden\|Vikingtiden]]
+- [[Kunnskap/Vikingtiden\|Tidlig middelalder i Norge]]
 - [[Kunnskap/Høymiddelalderen i Europa\|Høymiddelalderen i Europa]]
 - [[Kunnskap/Høymiddelalderen i Norge\|Høymiddelalderen i Norge]]
 - [[Kunnskap/Senmiddelalder i Europa\|Senmiddelalder i Europa]]
