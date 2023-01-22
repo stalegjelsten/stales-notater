@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/historie-moc/","title":"Historie MOC","tags":["historie","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/kunnskap/historie-moc/","title":"Historie MOC","tags":["historie","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"]}
 ---
 
 
@@ -29,11 +29,8 @@
 | [[Evernote import/2015-08-17 Sankere og jegere\|2015-08-17 Sankere og jegere]]                                                                                 | <ul><li>forelesning</li><li>hi100</li><li>historie</li></ul> | September 08, 2015 |
 | [[Evernote import/2015-09-14 komplekse samfunn\|2015-09-14 komplekse samfunn]]                                                                                 | <ul><li>forelesning</li><li>hi100</li><li>historie</li></ul> | September 01, 2022 |
 | [[Evernote import/2015-11-16 Statsdannelser i Afrika og slavehandelen\|2015-11-16 Statsdannelser i Afrika og slavehandelen]]                                   | <ul><li>forelesning</li><li>hi100</li><li>historie</li></ul> | December 02, 2015  |
-| [[Kunnskap/Tidlig middelalder i Europa\|Tidlig middelalder i Europa]]                                                                                          | <ul><li>historie</li></ul>                                   | October 26, 2022   |
 | [[Kunnskap/Vi er alle grekere\|Vi er alle grekere]]                                                                                                            | <ul><li>historie</li></ul>                                   | September 10, 2022 |
-| [[Kunnskap/Vikingtiden\|Vikingtiden]]                                                                                                                          | <ul><li>historie</li></ul>                                   | January 20, 2023   |
 | [[Kunnskap/Senmiddelalderen i Norge\|Senmiddelalderen i Norge]]                                                                                                | <ul><li>historie</li></ul>                                   | January 23, 2023   |
-| [[Kunnskap/Høymiddelalderen i Norge\|Høymiddelalderen i Norge]]                                                                                                | <ul><li>historie</li></ul>                                   | January 23, 2023   |
 | [[Kunnskap/Den romerske republikken\|Den romerske republikken]]                                                                                                | <ul><li>historie</li></ul>                                   | October 15, 2022   |
 | [[Kunnskap/Høymiddelalderen i Europa\|Høymiddelalderen i Europa]]                                                                                              | <ul><li>historie</li></ul>                                   | November 09, 2022  |
 | [[Kunnskap/Augustus\|Augustus]]                                                                                                                                | <ul><li>historie</li></ul>                                   | October 15, 2022   |
@@ -42,7 +39,6 @@
 | [[Kunnskap/Hamurabis lover\|Hamurabis lover]]                                                                                                                  | <ul><li>historie</li></ul>                                   | September 12, 2022 |
 | [[Kunnskap/Antikken\|Antikken]]                                                                                                                                | <ul><li>historie</li></ul>                                   | October 15, 2022   |
 | [[Kunnskap/Norgesparagrafen\|Norgesparagrafen]]                                                                                                                | <ul><li>historie</li></ul>                                   | January 22, 2023   |
-| [[Kong Sverre\|Kong Sverre]]                                                                                                                                   | <ul><li>historie</li></ul>                                   | January 22, 2023   |
 | [[Kunnskap/Reformasjonen\|Reformasjonen]]                                                                                                                      | <ul><li>historie</li></ul>                                   | January 22, 2023   |
 | [[Kunnskap/Romerriket\|Romerriket]]                                                                                                                            | <ul><li>historie</li></ul>                                   | October 15, 2022   |
 | [[Kunnskap/Magna Carta\|Magna Carta]]                                                                                                                          | <ul><li>historie</li></ul>                                   | November 09, 2022  |
@@ -63,4 +59,8 @@
 | [[Kunnskap/Keisertiden\|Keisertiden]]                                                                                                                          | <ul><li>historie</li></ul>                                   | January 23, 2023   |
 | [[Kunnskap/Investiturstriden\|Investiturstriden]]                                                                                                              | <ul><li>historie</li></ul>                                   | January 23, 2023   |
 | [[Kunnskap/Historie MOC\|Historie MOC]]                                                                                                                        | <ul><li>historie</li></ul>                                   | January 23, 2023   |
+| [[Kunnskap/Høymiddelalderen i Norge\|Høymiddelalderen i Norge]]                                                                                                | <ul><li>historie</li></ul>                                   | January 23, 2023   |
+| [[Kunnskap/Kong Sverre\|Kong Sverre]]                                                                                                                          | <ul><li>historie</li></ul>                                   | January 23, 2023   |
+| [[Kunnskap/Tidlig middelalder i Europa\|Tidlig middelalder i Europa]]                                                                                          | <ul><li>historie</li></ul>                                   | January 23, 2023   |
+| [[Kunnskap/Vikingtiden\|Vikingtiden]]                                                                                                                          | <ul><li>historie</li></ul>                                   | January 23, 2023   |
 
