@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/historie-moc/","title":"Historie MOC","tags":["historie","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/kunnskap/historie-moc/","title":"Historie MOC","tags":["historie"]}
 ---
 
 
@@ -55,12 +55,12 @@
 | [[Kunnskap/Salving\|Salving]]                                                                                                                                  | <ul><li>historie</li></ul>                                   | January 22, 2023   |
 | [[Kunnskap/Sigurd Jordsalfare\|Sigurd Jordsalfare]]                                                                                                            | <ul><li>historie</li></ul>                                   | January 22, 2023   |
 | [[Kunnskap/Svartedauden\|Svartedauden]]                                                                                                                        | <ul><li>historie</li></ul>                                   | January 22, 2023   |
-| [[Kunnskap/Tidslinje historie\|Tidslinje historie]]                                                                                                            | <ul><li>historie</li></ul>                                   | January 23, 2023   |
 | [[Kunnskap/Keisertiden\|Keisertiden]]                                                                                                                          | <ul><li>historie</li></ul>                                   | January 23, 2023   |
 | [[Kunnskap/Investiturstriden\|Investiturstriden]]                                                                                                              | <ul><li>historie</li></ul>                                   | January 23, 2023   |
-| [[Kunnskap/Historie MOC\|Historie MOC]]                                                                                                                        | <ul><li>historie</li></ul>                                   | January 23, 2023   |
 | [[Kunnskap/Høymiddelalderen i Norge\|Høymiddelalderen i Norge]]                                                                                                | <ul><li>historie</li></ul>                                   | January 23, 2023   |
 | [[Kunnskap/Kong Sverre\|Kong Sverre]]                                                                                                                          | <ul><li>historie</li></ul>                                   | January 23, 2023   |
 | [[Kunnskap/Tidlig middelalder i Europa\|Tidlig middelalder i Europa]]                                                                                          | <ul><li>historie</li></ul>                                   | January 23, 2023   |
 | [[Kunnskap/Vikingtiden\|Vikingtiden]]                                                                                                                          | <ul><li>historie</li></ul>                                   | January 23, 2023   |
+| [[Kunnskap/Historie MOC\|Historie MOC]]                                                                                                                        | <ul><li>historie</li></ul>                                   | January 23, 2023   |
+| [[Kunnskap/Tidslinje historie\|Tidslinje historie]]                                                                                                            | <ul><li>historie</li></ul>                                   | January 23, 2023   |
 
