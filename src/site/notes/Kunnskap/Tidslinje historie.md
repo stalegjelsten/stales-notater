@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/tidslinje-historie/","title":"Tidslinje historie","tags":["historie","gardenEntry","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/kunnskap/tidslinje-historie/","title":"Tidslinje historie","tags":["historie","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"]}
 ---
 
 
