@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/sparta/","title":"Sparta","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Sparta/","title":"Sparta","tags":["historie"]}
 ---
 
 # Sparta
