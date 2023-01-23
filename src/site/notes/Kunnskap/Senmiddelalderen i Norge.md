@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/senmiddelalderen-i-norge/","title":"Senmiddelalderen i Norge","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Senmiddelalderen i Norge/","title":"Senmiddelalderen i Norge","tags":["historie"]}
 ---
 
 
