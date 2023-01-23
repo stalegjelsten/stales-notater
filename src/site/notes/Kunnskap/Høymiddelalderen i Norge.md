@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/hoymiddelalderen-i-norge/","title":"Høymiddelalderen i Norge","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Høymiddelalderen i Norge/","title":"Høymiddelalderen i Norge","tags":["historie"]}
 ---
 
 
