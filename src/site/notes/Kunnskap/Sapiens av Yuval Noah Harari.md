@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/sapiens-av-yuval-noah-harari/","tags":["historie","bok"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Sapiens av Yuval Noah Harari/","tags":["historie","bok"]}
 ---
 
 # Sapiens av Yuval Noah Harari
