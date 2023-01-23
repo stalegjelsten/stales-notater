@@ -4,7 +4,7 @@
 
 
 # Tidlig middelalder i Norge
-Tidlig middelalder i Norge varer fra 800–1130. Perioden starter med [[Kunnskap/Vikingtiden\|Vikingtiden]] og avsluttes med starten på [[Kunnskap/Borgerkrigstiden\|Borgerkrigstiden]].
+Tidlig middelalder i Norge varer fra 800–1130. Perioden starter med [[Kunnskap/Vikingtiden\|Vikingtiden]] og avsluttes med starten på [[Kunnskap/Eksamensoppgave om borgerkrigstiden\|Eksamensoppgave om borgerkrigstiden]].
 
 ## Vikingtiden
 
