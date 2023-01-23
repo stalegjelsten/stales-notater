@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/magna-carta/","title":"Magna Carta","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Magna Carta/","title":"Magna Carta","tags":["historie"]}
 ---
 
 # Magna Carta
