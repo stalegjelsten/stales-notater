@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/romerriket/","title":"Romerriket","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Romerriket/","title":"Romerriket","tags":["historie"]}
 ---
 
 # Romerriket
