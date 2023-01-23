@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/kong-sverre/","title":"Kong Sverre","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Kong Sverre/","title":"Kong Sverre","tags":["historie"]}
 ---
 
 
