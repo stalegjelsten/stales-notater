@@ -4,9 +4,7 @@
 
 
 # Vikingtiden
-Vikingtiden er tiden fra omtrent 800–1100. Det har vært vanlig å bruke angrepet på klosteret Lindisfarne utenfor den engelske østkysten i 793 som starttidspunkt for perioden, og Harald Hardrådes nederlag i Slaget ved Stamford Bridge i 1066 som avslutning
-
-Tidlig middelalder i Norge varer fra 800–1130.
+Vikingtiden regnes vanligvis som tiden mellom 793–1066 e.Kr. Det har vært vanlig å bruke angrepet på klosteret Lindisfarne utenfor den engelske østkysten i 793 som starttidspunkt for perioden, og Harald Hardrådes nederlag i Slaget ved Stamford Bridge i 1066 som avslutning.
 
 ## Vikinger
 > Å dra i viking var å dra på plyndringstokt over sjøen. 
@@ -49,12 +47,16 @@ Nordmenn dro over sjøen til øyene vestover og bosatte seg bl.a. på:
 - Grønland
 
 ## Kirka
+### Privatkirkeordningen
 Norge hadde en *privatkirkeordning*. Denne ordningen gikk ut på at hvis bønder og stormenn bygget kirker, så kunne de selv utnevne prestene i kirka. Det var imidlertid kongen som utpekte biskopene. 
 
+### Kristningen av Norge
 [[Olav Tryggvason\|Olav Tryggvason]] og [[Olav den Hellige\|Olav den Hellige]] så trolig på kristningen av Norge som et nyttig redskap for å samle landet under kongemakten. En konge og en Gud ville styrke kongemakten. Det er også mulig at kongene lot seg imponere av de flotte kirkene i utlandet. Etter 1030 så bygget kongen kirker (det ble fremdeles bygd privatkirker også) og utnevnte biskoper. 
 
 ## Bønder og dagligliv
 Bøndene var selveiere.
+>[!TODO]
+>Utvid dette avsnittet
 
 ## Konsekvenser
 Etter 1066
