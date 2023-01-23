@@ -46,6 +46,7 @@ Neste: [[Kunnskap/Reformasjonen\|Reformasjonen]]
 ## 1400-tallet
 >[!TODO]
 >Skriv noe om 1400-tallet
+>
 
 ## Reformasjonen
 
