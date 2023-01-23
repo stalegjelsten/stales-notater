@@ -4,3 +4,4 @@
 
 
 # Kong Sverre
+Sverre Sigurdsson kom som prest fra Færøyene og påstod at han var sønn av Sigurd Munn.
