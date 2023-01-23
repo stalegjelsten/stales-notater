@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/perserkrigene/","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Perserkrigene/","tags":["historie"]}
 ---
 
 # Perserkrigene
