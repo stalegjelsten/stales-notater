@@ -27,7 +27,6 @@
 | [[Kunnskap/Peloponnesiske krig\|Peloponnesiske krig]]                                                                                                          | <ul><li>historie</li></ul>                                   | January 23, 2023   |
 | [[Kunnskap/Norgesparagrafen\|Norgesparagrafen]]                                                                                                                | <ul><li>historie</li></ul>                                   | January 22, 2023   |
 | [[Kunnskap/Magna Carta\|Magna Carta]]                                                                                                                          | <ul><li>historie</li></ul>                                   | November 09, 2022  |
-| [[Kunnskap/Kong Sverre\|Kong Sverre]]                                                                                                                          | <ul><li>historie</li></ul>                                   | January 23, 2023   |
 | [[Kunnskap/Investiturstriden\|Investiturstriden]]                                                                                                              | <ul><li>historie</li></ul>                                   | January 23, 2023   |
 | [[Kunnskap/Keisertiden\|Keisertiden]]                                                                                                                          | <ul><li>historie</li></ul>                                   | January 23, 2023   |
 | [[Kunnskap/Jordbruksrevolusjonen\|Jordbruksrevolusjonen]]                                                                                                      | <ul><li>historie</li></ul>                                   | January 23, 2023   |
@@ -64,4 +63,5 @@
 | [[Evernote import/2015-08-17 Sankere og jegere\|2015-08-17 Sankere og jegere]]                                                                                 | <ul><li>forelesning</li><li>hi100</li><li>historie</li></ul> | September 08, 2015 |
 | [[Evernote import/2015-08-17 sosiale og økonomiske systemer\|2015-08-17 sosiale og økonomiske systemer]]                                                       | <ul><li>forelesning</li><li>hi100</li><li>historie</li></ul> | September 08, 2015 |
 | [[Evernote import/2015-08-17 Mennesket\|2015-08-17 Mennesket]]                                                                                                 | <ul><li>forelesning</li><li>hi100</li><li>historie</li></ul> | September 01, 2022 |
+| [[Kunnskap/Kong Sverre\|Kong Sverre]]                                                                                                                          | <ul><li>historie</li></ul>                                   | January 23, 2023   |
 
