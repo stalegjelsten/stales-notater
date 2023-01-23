@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/den-greske-antikken/","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Den greske antikken/","tags":["historie"]}
 ---
 
 # Den greske antikken
