@@ -65,6 +65,6 @@
 | [[Kunnskap/Kongerekka\|Kongerekka]]                                                                                                                            | <ul><li>historie</li></ul>                                   | January 23, 2023   |
 | [[Kunnskap/Kong Sverre\|Kong Sverre]]                                                                                                                          | <ul><li>historie</li></ul>                                   | January 23, 2023   |
 | [[Kunnskap/Høymiddelalderen i Norge\|Høymiddelalderen i Norge]]                                                                                                | <ul><li>historie</li></ul>                                   | January 23, 2023   |
-| [[Kunnskap/Tronfølgelovene\|Tronfølgelovene]]                                                                                                                  | <ul><li>historie</li></ul>                                   | January 23, 2023   |
 | [[Kunnskap/Borgerkrigstiden\|Borgerkrigstiden]]                                                                                                                | <ul><li>historie</li></ul>                                   | January 19, 2023   |
+| [[Kunnskap/Tronfølgelovene\|Tronfølgelovene]]                                                                                                                  | <ul><li>historie</li></ul>                                   | January 23, 2023   |
 
