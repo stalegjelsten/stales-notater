@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/polisstaten/","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Polisstaten/","tags":["historie"]}
 ---
 
 # Polisstaten
