@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/hamurabis-lover/","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Hamurabis lover/","tags":["historie"]}
 ---
 
 # Hamurabis lover
