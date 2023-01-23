@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/de-forste-sivilisasjoner/","title":"De første sivilisasjoner","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/De første sivilisasjoner/","title":"De første sivilisasjoner","tags":["historie"]}
 ---
 
 # De første sivilisasjoner
