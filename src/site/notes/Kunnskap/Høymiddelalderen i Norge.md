@@ -4,10 +4,10 @@
 
 
 # Høymiddelalderen i Norge
-Høymiddelalderen i Norge varte fra 1130–1350, fra [[Kunnskap/Borgerkrigstiden\|Borgerkrigstiden]] til [[Kunnskap/Svartedauden\|Svartedauden]].
+Høymiddelalderen i Norge varte fra 1130–1350, fra [[Kunnskap/Høymiddelalderen i Norge#Borgerkrigstiden\|#Borgerkrigstiden]] til [[Kunnskap/Svartedauden\|Svartedauden]].
 
 ## Borgerkrigstiden
-Se [[Kunnskap/Borgerkrigstiden\|Borgerkrigstiden]]
+For Ståles eksamensoppgave om borgerkrigstiden, se [[Kunnskap/Eksamensoppgave om borgerkrigstiden\|Eksamensoppgave om borgerkrigstiden]]
 
 ### Periodisering
 Borgerkrigstiden (eller *Innbyrdeskrigene*) er tiden fra 1130–1240. I 1130 døde kong [[Kunnskap/Sigurd Jordsalfare\|Sigurd Jordsalfare]], og det var uklart hvem som skulle overta etter ham. Vi setter avslutningen av borgerkrigstiden til 1240 da kong Håkon Håkonsson dreper Skule Bårdsson (som var både hertug, riksforstander og lot seg utrope til konge). Andre historikere avslutter borgerkrigstiden i 1217 (Håkon Håkonsson blir konge) eller 1227 (ribbungenes nederlag).
@@ -32,10 +32,10 @@ Det kjente maleriet av birkebeinerne over fjellet viser Håkon Håkonsson og to 
 Ribbungene er ny flokk som gjør opprør mot Håkon. Flokken består i stor grad av gamle baglere som føler at de ikke har fått nok innflytelse som Håkons menn. Håkon Håkonsson og jarl Skule Bårdsson slår ned opprøret flere kamper over flere år. I 1227 er opprøret endelig slått ned.
 
 ### Skule Bårdsson prøver å ta makten
-Skule Bårdsson forsøkte å ta makten fra Håkon ved å la seg utrope til konge i 1239, men han taper et slag mot Håkon i Oslo nesten umiddelbart og flykter. I mai 1240 blir han funnet i Elgseter kloster i Nidaros, hvor Håkons menn tenner fyr på klosteret for å få ham ut og hugger ham ned.
+Jarl Skule Bårdsson ble mektigere og mektigere. I 1237 ble han utnevnt til hertug,av Håkon. Muligens var dette et forsøk fra Håkons side på å blidgjøre Skule..[^1] Skule forsøkte senere å ta makten fra Håkon ved å la seg utrope til konge i 1239, men han taper et slag mot Håkon i Oslo nesten umiddelbart og flykter. I mai 1240 blir han funnet i Elgseter kloster i Nidaros, hvor Håkons menn tenner fyr på klosteret for å få ham ut og hugger ham ned.
 
 ## Ekspansjonstid
-Ekspansjonstiden eller Norges storhetstid kom etter [[Kunnskap/Borgerkrigstiden\|Borgerkrigstiden]]. Norge var på den tiden på sitt største geografisk, og med Magnus Lagabøtes Landslov i 1277 så lignet Norge på en stat.
+Ekspansjonstiden eller Norges storhetstid kom etter [[Kunnskap/Eksamensoppgave om borgerkrigstiden\|Eksamensoppgave om borgerkrigstiden]]. Norge var på den tiden på sitt største geografisk, og med Magnus Lagabøtes Landslov i 1277 så lignet Norge på en stat.
 
 Etter alle årene med krig var nå adelen redusert i antall og gjennom konfiskasjoner ble stadig flere eiendommer omgjort til krongods. For de gjenlevende som hadde støttet «riktig» konge ble det svært viktig å skaffe seg ombuds-, lende- og sysselmannstillinger. Vi ser derfor en overgang til et tjenestearistokrati, hvor tjenestestillingen blir viktigere enn jordeiendommene. Dette fører også til at adelen i mindre grad enn tidligere har stående hærstyrker som kan utfordre kongemakten. 
 
@@ -50,3 +50,5 @@ Høymiddelalderen avsluttes med [[Kunnskap/Svartedauden\|Svartedauden]].
 #### Related
 Forrige: [[Kunnskap/Vikingtiden\|Vikingtiden]]
 Neste: [[Kunnskap/Senmiddelalderen i Norge\|Senmiddelalderen i Norge]]
+
+[^1]: Se [Aarstad, Knut (2021). *Veien mot opprør. Nytt lys på konflikten mellom Håkon og Skule*](https://www.idunn.no/doi/10.18261/ht.101.2.2) for en dypere gjennomgang av bakgrunnen for konflikten.
