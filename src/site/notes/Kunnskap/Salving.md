@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/salving/","title":"Salving","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Salving/","title":"Salving","tags":["historie"]}
 ---
 
 
