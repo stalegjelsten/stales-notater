@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Tidslinje historie/","title":"Tidslinje historie","tags":["historie","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Tidslinje historie/","title":"Tidslinje historie","tags":["historie","gardenEntry","gardenEntry","gardenEntry"]}
 ---
 
 
@@ -16,6 +16,7 @@
 - [[Kunnskap/Senmiddelalderen i Norge\|Senmiddelalderen i Norge]]
 - [[Renessansen\|Renessansen]]
 - [[Opplysningstiden\|Opplysningstiden]]
+* [[Kunnskap/Dansketiden\|Dansketiden]]
 - [[Den industrielle revolusjon\|Den industrielle revolusjon]]
 - [[Kunnskap/Revolusjonstid\|Revolusjonstid]]
 - [[Imperialismen\|Imperialismen]]
