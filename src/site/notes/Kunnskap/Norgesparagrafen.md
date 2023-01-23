@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/norgesparagrafen/","title":"Norgesparagrafen","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Norgesparagrafen/","title":"Norgesparagrafen","tags":["historie"]}
 ---
 
 
