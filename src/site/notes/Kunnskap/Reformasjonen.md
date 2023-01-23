@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/reformasjonen/","title":"Reformasjonen","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Reformasjonen/","title":"Reformasjonen","tags":["historie"]}
 ---
 
 
