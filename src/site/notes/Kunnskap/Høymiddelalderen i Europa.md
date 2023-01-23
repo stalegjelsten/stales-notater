@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/hoymiddelalderen-i-europa/","title":"Høymiddelalderen","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Høymiddelalderen i Europa/","title":"Høymiddelalderen","tags":["historie"]}
 ---
 
 # Høymiddelalderen
