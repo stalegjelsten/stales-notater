@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/perikles/","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Perikles/","tags":["historie"]}
 ---
 
 # Perikles
