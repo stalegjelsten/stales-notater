@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/det-tysk-romerske-riket/","title":"Det tysk-romerske riket","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Det tysk-romerske riket/","title":"Det tysk-romerske riket","tags":["historie"]}
 ---
 
 
