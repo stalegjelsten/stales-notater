@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/antikken/","title":"Antikken","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Antikken/","title":"Antikken","tags":["historie"]}
 ---
 
 # Antikken
