@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/jeger-og-sankersamfunnet/","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Jeger- og sankersamfunnet/","tags":["historie"]}
 ---
 
 # Jeger- og sankersamfunnet
