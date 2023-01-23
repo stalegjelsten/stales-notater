@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/foydalisme/","title":"Føydalisme","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Føydalisme/","title":"Føydalisme","tags":["historie"]}
 ---
 
 # Føydalisme
