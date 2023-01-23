@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/tidlig-middelalder-i-europa/","title":"Tidlig middelalder i Europa","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Tidlig middelalder i Europa/","title":"Tidlig middelalder i Europa","tags":["historie"]}
 ---
 
 
