@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/vikingtiden/","title":"Vikingtiden","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Vikingtiden/","title":"Vikingtiden","tags":["historie"]}
 ---
 
 
