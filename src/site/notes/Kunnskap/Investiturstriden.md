@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/investiturstriden/","title":"Investiturstriden","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Investiturstriden/","title":"Investiturstriden","tags":["historie"]}
 ---
 
 
