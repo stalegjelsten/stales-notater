@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/keisertiden/","title":"Keisertiden","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Keisertiden/","title":"Keisertiden","tags":["historie"]}
 ---
 
 
