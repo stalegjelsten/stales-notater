@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/borgerkrigstiden/","title":"Borgerkrigstiden","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Borgerkrigstiden/","title":"Borgerkrigstiden","tags":["historie"]}
 ---
 
 
