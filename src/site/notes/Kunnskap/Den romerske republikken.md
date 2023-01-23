@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/den-romerske-republikken/","title":"Den romerske republikken","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Den romerske republikken/","title":"Den romerske republikken","tags":["historie"]}
 ---
 
 # Den romerske republikken
