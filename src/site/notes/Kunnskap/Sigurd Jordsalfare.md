@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/sigurd-jordsalfare/","title":"Sigurd Jordsalfare","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Sigurd Jordsalfare/","title":"Sigurd Jordsalfare","tags":["historie"]}
 ---
 
 
