@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/augustus/","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Augustus/","tags":["historie"]}
 ---
 
 # Augustus
