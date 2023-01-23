@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/svartedauden/","title":"Svartedauden","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Svartedauden/","title":"Svartedauden","tags":["historie"]}
 ---
 
 
