@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/athen/","title":"Athen","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Athen/","title":"Athen","tags":["historie"]}
 ---
 
 
