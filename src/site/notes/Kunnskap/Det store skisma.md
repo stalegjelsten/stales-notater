@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/kunnskap/det-store-skisma/","title":"Det store skisma","tags":["historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Det store skisma/","title":"Det store skisma","tags":["historie"]}
 ---
 
 # Det store skisma
