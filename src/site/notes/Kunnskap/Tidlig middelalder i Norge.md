@@ -32,7 +32,7 @@ Nordmenn etablerte bosetninger på Island, danskene langs østkysten av England 
 - [[Harald Hårfagre\|Harald Hårfagre]] 850–932
 - [[Håkon den Gode\|Håkon den Gode]] 920-961
 - [[Olav Tryggvason\|Olav Tryggvason]] 963–1000
-- [[Olav den Hellige\|Olav den Hellige]] 995–1030
+- [[Kunnskap/Olav den Hellige\|Olav den Hellige]] 995–1030
 - [[Harald Hardråde\|Harald Hardråde]] 1015–1066
 
 ## Rikssamling
@@ -62,7 +62,7 @@ Nordmenn dro over sjøen til øyene vestover og bosatte seg bl.a. på:
 Norge hadde en *privatkirkeordning*. Denne ordningen gikk ut på at hvis bønder og stormenn bygget kirker, så kunne de selv utnevne prestene i kirka. Det var imidlertid kongen som utpekte biskopene. 
 
 ### Kristningen av Norge
-[[Olav Tryggvason\|Olav Tryggvason]] og [[Olav den Hellige\|Olav den Hellige]] så trolig på kristningen av Norge som et nyttig redskap for å samle landet under kongemakten. En konge og en Gud ville styrke kongemakten. Det er også mulig at kongene lot seg imponere av de flotte kirkene i utlandet. Etter 1030 så bygget kongen kirker (det ble fremdeles bygd privatkirker også) og utnevnte biskoper. 
+[[Olav Tryggvason\|Olav Tryggvason]] og [[Kunnskap/Olav den Hellige\|Olav den Hellige]] så trolig på kristningen av Norge som et nyttig redskap for å samle landet under kongemakten. En konge og en Gud ville styrke kongemakten. Det er også mulig at kongene lot seg imponere av de flotte kirkene i utlandet. Etter 1030 så bygget kongen kirker (det ble fremdeles bygd privatkirker også) og utnevnte biskoper. 
 
 ## Bønder og dagligliv
 Bøndene var selveiere.
