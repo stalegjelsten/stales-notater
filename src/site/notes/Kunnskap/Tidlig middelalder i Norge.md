@@ -86,10 +86,22 @@ Neste: [[Kunnskap/Høymiddelalderen i Norge\|Høymiddelalderen i Norge]]
 
 
 ## 1066–1130
+
 ### Historiske hendelser
 Det er ingen store historiske hendeer i perioden som vi skal se på i historiefaget på Videregående. Det var en relativt fredlig periode, og det mest imponerende er kanskje at ulike kongebrødre klarte å regjere sammen. For eksempel klarte de tre sønnene til Magnus III Berrføtt å styre landet sammen (det vil egentlig si at de delte landet mellom seg). 
 
-
-
-
 På 1000-tallet ble det bygget mange kirker på grunn av [[Kunnskap/Vikingtiden#Privatkirkeordningen\|privatkirkeordningen]].
+
+>[!TODO]
+>Utvid dette avsnittet
+
+## Related
+[[Kunnskap/Tidslinje historie\|Tidslinje historie]]
+
+### Forelesningsnotater
+- [[Kunnskap/Forelesningsnotater/2015-08-18 Europa og Norge 800–1750\|2015-08-18 Europa og Norge 800–1750]]
+- [[Kunnskap/Forelesningsnotater/2015-08-25 Høvdingmakt og kongemakt i Norge 800–1130\|2015-08-25 Høvdingmakt og kongemakt i Norge 800–1130]]
+- [[Kunnskap/Forelesningsnotater/2015-09-15 befolkning, økonomi og samfunn, Norge 800-1350\|2015-09-15 befolkning, økonomi og samfunn, Norge 800-1350]]
+- [[Kunnskap/Forelesningsnotater/2015-09-22 Norge økonomisk og sosialt 700-1300\|2015-09-22 Norge økonomisk og sosialt 700-1300]]
+
+Neste: [[Kunnskap/Høymiddelalderen i Norge\|Høymiddelalderen i Norge]]
