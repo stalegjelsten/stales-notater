@@ -98,6 +98,10 @@ I 1536 innførte kong Christian III protestantismen i Danmark-Norge og samtidig 
 
 ## Related
 [[Kunnskap/Tidslinje historie\|Tidslinje historie]]
+Forelesningsnotater:
+- [[Kunnskap/Forelesningsnotater/2015-09-29 Norge 1350-1536\|2015-09-29 Norge 1350-1536]]
+- [[Kunnskap/Forelesningsnotater/2015-09-29 Nordiske Unioner 1319-1536\|2015-09-29 Nordiske Unioner 1319-1536]]
+- [[Kunnskap/Forelesningsnotater/2015-09-29 Statsmakt og styringsformer og kirken\|2015-09-29 Statsmakt og styringsformer og kirken]]
 
 Forrige: [[Kunnskap/Høymiddelalderen i Norge\|Høymiddelalderen i Norge]]
 Neste: [[Kunnskap/Dansketiden\|Dansketiden]]
