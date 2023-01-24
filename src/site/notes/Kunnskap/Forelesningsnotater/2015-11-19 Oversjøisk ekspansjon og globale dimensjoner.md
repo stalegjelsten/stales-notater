@@ -10,13 +10,13 @@ To hovedtema innen oversjøisk ekspansjon:
 * Hvilke kulturelle forbindelser ble knyttet gjennom den europeiske oversjøiske ekspansjonen?
 
 Konsekvenser:
-![[2. POL.REV..pdf]]
+![[_resources/2. POL.REV..pdf]]
 * 1688-89 Den ærerike revolusjonen i England: makten skal ligge hos parlamentet, kongedømmet blir mer symbolsk. Innføringen av konstitusjonelt monarki.
 * 1776 Den amerikanske revolusjonen: det revolusjonære aspektet: makten kommer nedenfra gjennom folket
 * 1789 Den franske revolusjonen: Opphevelse av den gamle sosiale orden med stender hvor hver stand hadde spesielle rettigheter. Innføring av menneskerettigheter/borgerrettigheter.
 * Stikkord: stenderforsamlinger og kontraktstenkning
 
-![[3. IND.REV.pdf]]
+![[_resources/3. IND.REV.pdf]]
 
 * Nyere historikere peker mer og mer på bruken av nye energikilder
 * Overgang til maskinell produksjon og en enorm produktivitetsøkning
