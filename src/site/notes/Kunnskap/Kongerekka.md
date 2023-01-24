@@ -4,11 +4,12 @@
 
 
 # Kongerekka
+Denne kongerekka er hentet fra [Kongehuset](https://www.kongehuset.no/artikkel.html?tid=27626). Det er selvsagt mye som kan diskuteres her, f.eks. om Harald Hårfagre noensinne egentlig var konge over Norge, men dette er altså Kongehusets versjon.
 
 ## Hårfagreslekta og ladejarlene
 
 ### Vikingtiden
-- Harald I Hårfagre: cirka 865 (872-) - cirka 932 *
+- Harald I Hårfagre: cirka 865 (872-) - cirka 932
 - Eirik I (Haraldsson) Blodøks: cirka 932 - cirka 935
 - Håkon I (Haraldsson) Adelstensfostre - den gode: 930-tallet - cirka 960
 - Harald II (Eriksson) Gråfell: cirka 961 - cirka 970
