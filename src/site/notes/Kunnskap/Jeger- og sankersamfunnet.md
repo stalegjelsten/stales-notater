@@ -14,9 +14,9 @@ Tiden fram til 6000 fvt. er preget av gjensidighetsøkonomi eller gaveøkonomi.
 >Det er utrolig deilig å kunne kjøpe en Pepsi max i kantina og betale med penger, for så å slippe å skylde kantinemannen noe som helst. Andreas Aase 2015
 
 ### Kilder
-[[Evernote import/2015-08-17 Mennesket\|2015-08-17 Mennesket]]
-[[Evernote import/2015-08-17 sosiale og økonomiske systemer\|2015-08-17 sosiale og økonomiske systemer]]
-[[Evernote import/2015-08-17 Sankere og jegere\|2015-08-17 Sankere og jegere]]
+[[Kunnskap/Forelesningsnotater/2015-08-17 Mennesket\|2015-08-17 Mennesket]]
+[[Kunnskap/Forelesningsnotater/2015-08-17 sosiale og økonomiske systemer\|2015-08-17 sosiale og økonomiske systemer]]
+[[Kunnskap/Forelesningsnotater/2015-08-17 Sankere og jegere\|2015-08-17 Sankere og jegere]]
 #### Related
 [[Kunnskap/Tidslinje historie\|Tidslinje historie]]
 
