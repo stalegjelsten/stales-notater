@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-10-13 17 bondepolitikk før under og etter 1814/","tags":["hi110","forelesning"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-10-13 17 bondepolitikk før under og etter 1814/","tags":["historie","hi110","forelesning"]}
 ---
 
 
