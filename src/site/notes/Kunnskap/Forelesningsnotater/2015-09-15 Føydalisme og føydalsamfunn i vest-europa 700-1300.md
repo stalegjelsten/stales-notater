@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-09-15 Føydalisme og føydalsamfunn i vest-europa 700-1300/","tags":["hi110","forelesning"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-09-15 Føydalisme og føydalsamfunn i vest-europa 700-1300/","tags":["historie","hi110","forelesning"]}
 ---
 
 
