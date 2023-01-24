@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Tidslinje historie/","title":"Tidslinje historie","tags":["historie","gardenEntry","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Tidslinje historie/","title":"Tidslinje historie","tags":["historie","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"]}
 ---
 
 
@@ -17,7 +17,7 @@
 - [[Renessansen\|Renessansen]]
 - [[Opplysningstiden\|Opplysningstiden]]
 * [[Kunnskap/Dansketiden\|Dansketiden]]
-- [[Den industrielle revolusjon\|Den industrielle revolusjon]]
+- [[Kunnskap/Forelesningsnotater/Den industrielle revolusjon\|Den industrielle revolusjon]]
 - [[Kunnskap/Revolusjonstid\|Revolusjonstid]]
 - [[Imperialismen\|Imperialismen]]
 - [[Første verdenskrig\|Første verdenskrig]]
