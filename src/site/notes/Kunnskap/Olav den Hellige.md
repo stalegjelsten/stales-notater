@@ -16,3 +16,5 @@ I 1028 kommer Knut den Mektige til Norge med 50 skip, og Olav må flykte. Han ve
 Olav drev med hardhendt kristning, akkurat som Olav Tryggvason hadde gjort før ham. Han fikk innført lover som gjorde kristendommen til den eneste tillatte religionen.
 
 ## Olav som helgen
+>[!TODO]
+>Forklar hvorfor han ble gjort til helgen og om Olavskultusen som oppstod
