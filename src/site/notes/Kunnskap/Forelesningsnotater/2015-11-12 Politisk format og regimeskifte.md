@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-11-12 Politisk format og regimeskifte/","tags":["hi110","forelesning"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-11-12 Politisk format og regimeskifte/","tags":["historie","hi110","forelesning"]}
 ---
 
 
