@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-09-22 Norge økonomisk og sosialt 700-1300/","tags":["hi110","forelesning"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-09-22 Norge økonomisk og sosialt 700-1300/","tags":["historie","hi110","forelesning"]}
 ---
 
 
