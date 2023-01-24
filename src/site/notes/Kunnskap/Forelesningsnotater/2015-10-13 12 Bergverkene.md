@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-10-13 12 Bergverkene/","tags":["hi110","forelesning"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-10-13 12 Bergverkene/","tags":["historie","hi110","forelesning"]}
 ---
 
 
