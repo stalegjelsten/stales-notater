@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-11-19 Oversjøisk ekspansjon og globale dimensjoner/","title":"2015-11-19 Oversjøisk ekspansjon og globale dimensjoner","tags":["hi110","forelesning"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-11-19 Oversjøisk ekspansjon og globale dimensjoner/","title":"2015-11-19 Oversjøisk ekspansjon og globale dimensjoner","tags":["historie","hi110","forelesning"]}
 ---
 
 
