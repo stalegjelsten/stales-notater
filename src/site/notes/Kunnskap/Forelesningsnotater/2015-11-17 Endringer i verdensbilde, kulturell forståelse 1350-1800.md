@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-11-17 Endringer i verdensbilde, kulturell forståelse 1350-1800/","tags":["hi110","forelesning"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-11-17 Endringer i verdensbilde, kulturell forståelse 1350-1800/","tags":["historie","hi110","forelesning"]}
 ---
 
 
