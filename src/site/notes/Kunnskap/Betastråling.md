@@ -4,7 +4,7 @@
 
 
 # Betastråling
-Betastråling er et elektron som blir skutt ut i høy fart fra en radioaktiv atomkjerne. Betastråling har følgende egenskaper:
+Betastråling er et elektron som blir skutt ut i høy fart fra en [[Kunnskap/Radioaktivitet\|radioaktiv]] atomkjerne. Betastråling har følgende egenskaper:
 - Elektronet er relativt lite og lett og vil påvirkes mye av magnetfelter. Siden elektronet er negativt ladet vil tiltrekkes av den positive siden.
 - Et stoff sender ut betastråling ved at et nøytron i atomkjernen omdannes til et proton og elektron ($\ce{n->p^{+} + e^{-}}$). 
 - Et stoff som sender ut betastråling vil ha samme nukleontall, men atomnummeret vil øke med 1. Altså har vi fått et nytt grunnstoff.
