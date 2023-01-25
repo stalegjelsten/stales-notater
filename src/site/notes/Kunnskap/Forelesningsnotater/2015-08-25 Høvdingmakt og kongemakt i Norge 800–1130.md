@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-08-25 Høvdingmakt og kongemakt i Norge 800–1130/","tags":["historie","hi110","forelesning"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-08-25 Høvdingmakt og kongemakt i Norge 800–1130/","title":"2015-08-25 Høvdingmakt og kongemakt i Norge 800–1130","tags":["historie","hi110","forelesning"]}
 ---
 
 
@@ -67,7 +67,6 @@ De to viktigste resultatene og temaene i middelalderen er:
 * Dannelsen av stater
 
 ### Kjennetegn for vikingtiden:
-
 * befolkningsvekst med nye gårder og befolkningsoverskudd i hele skandinavia
 * jordbruker øker, man får mer overskudd og tid til å dra ut for å røve plyndre
 * langsom utvikling mot territoriell kontroll
@@ -76,23 +75,17 @@ De to viktigste resultatene og temaene i middelalderen er:
 * jordbruksområder blir mer verdt enn skog
 * Kolonier
 	* Island, Grønland, Shetland, Man, Orknøyene, Wales, Skottland, Irland og Amerika
-	
 
 ### Kjennetegn for stater:
-
 * administrativt system
 * sentralisering
 * territorial suverenitet (en enhet har kontroll over et område)
 * voldsmonopol: det er kun staten som har rett til å utøve makt og ha militære styrker og politi
 	* Hvis man ikke har et voldsmonopol vil det dannes gjenger og geriljaer
 
- 
-
 **Ingen av statene i middelalderen klarte å etablere et vondsmonopol, dette skjer kanskje først på 1500- og 1600-tallet.**
 
 * blant annet har føydalherrene domstoler
-
- 
 
 **Ustabile høvdingdømmer**
 
@@ -107,7 +100,6 @@ De to viktigste resultatene og temaene i middelalderen er:
 * Hirden var kongens personlige garde. Prestisjefylt oppdrag. Blir tatt med ut i krig og får gjenytelser som makt og rikdom.
 
 ## Kongedømme
-
 * sentralisering av makt i motsetning til høvdingdømme
 * institusjoner knyttet til kongen
 * tradisjonell politisk historie legger stor vekt på institusjoner som lovverk og sagaer nevner. -> tendens til å overvurdere makten
@@ -119,15 +111,13 @@ De to viktigste resultatene og temaene i middelalderen er:
 **Kan man da definere Norge i 1100 som en stat?**
 
 ## 900-1050 territoriell rikssamling
-
-Begynner med Harald Hårfagre, som trolig stammer fra Sogn på vestlandet. Han samlet det sentrale vestlandet til sitt rike og var trolig dessuten overkonge for Trøndelag og Viken. Fra disse stedene fikk han tributt og underholdning.
+Den territorielle rikssamlingen begynner med Harald Hårfagre, som trolig stammer fra Sogn på vestlandet. Han samlet det sentrale vestlandet til sitt rike og var trolig dessuten overkonge for Trøndelag og Viken. Fra disse stedene fikk han tributt og underholdning.
 
 Harald Hårfagre hadde trolig ingen intensjon om å samle landet, han handlet kun i den hensikt å øke sine landområder. En viktig forutsetning for at han klarte å få så store landområder som han faktisk samlet var at den danske kongemakten var svært svak på 800-tallet.
 
 Det finnes flere alternative rikssamlinger som også kunne samlet riket. Danskekongene kunne skap ulike former for skandinavisk samling. Ladejarlene, etterkommere av konger fra Nord-Norge bosatt på Lade, hadde også svært mye makt.
 
 #### Etter Hårfagre: rivalisering mellom Ladejarlene og Hårfagre-slekta
-
 * Eirik Blodøks og Håkon Adelsteinfostre var sønner av Harald. Etter et kort styre av Eirik ble Håkon konge.
 * Harald Blåtann av Danmark tar makta og styrer som overkonge fra ca 960 e.Kr. Eiriks sønner blir satt som regenter, stedfortredere
 * Harald bryter med eiriksønnene og slår seg sammen med Ladejarlene
