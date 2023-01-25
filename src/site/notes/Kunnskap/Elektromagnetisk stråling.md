@@ -12,6 +12,9 @@ Elektromagnetisk stråling er energi som overføres i form av elektromagnetiske 
 All elektromagnetisk stråling beveger seg med samme hastighet i vakuum: $c = 300\,000\, \text{km/s}$. Strålingen går nesten like fort i luft, men i andre stoffer så beveger strålingen seg saktere (saktere jo tettere stoffet er).
 
 ## Typer elektromagnetisk stråling
+>[!Todo]
+>Gjør ferdig tabellen
+
 | Type stråling         | Bølgelengde ($\lambda$) | Frekvens ($f$) |
 | --------------------- | --------------------- | -------------- |
 | Radiobølger           | $> 1$ m               | $< 10^{8}$ Hz  |
