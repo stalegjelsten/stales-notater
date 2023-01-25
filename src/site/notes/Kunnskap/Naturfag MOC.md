@@ -6,7 +6,6 @@
 # Naturfag MOC
 | File                                                                                                                                  | tags                                                    |
 | ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| [[Kunnskap/Ioniserende stråling\|Ioniserende stråling]]                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Molekyler\|Molekyler]]                                                                                                  | <ul><li>kjemi</li><li>fysikk</li><li>naturfag</li></ul> |
 | [[Kunnskap/Betastråling\|Betastråling]]                                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Naturfag MOC\|Naturfag MOC]]                                                                                            | <ul><li>naturfag</li></ul>                              |
@@ -18,4 +17,6 @@
 | [[Kunnskap/Elektronegativitet\|Elektronegativitet]]                                                                                | <ul><li>kjemi</li><li>naturfag</li></ul>                |
 | [[Kunnskap/Halveringstid\|Halveringstid]]                                                                                          | <ul><li>fysikk</li><li>naturfag</li></ul>               |
 | [[Kunnskap/Radioaktivitet\|Radioaktivitet]]                                                                                        | <ul><li>naturfag</li><li>fysikk</li></ul>               |
+| [[Kunnskap/Ioniserende stråling\|Ioniserende stråling]]                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>               |
+| [[Kunnskap/Gammastråling\|Gammastråling]]                                                                                          | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 
