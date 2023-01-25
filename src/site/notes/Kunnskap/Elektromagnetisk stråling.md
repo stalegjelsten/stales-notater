@@ -9,7 +9,7 @@
 
 Elektromagnetisk stråling er energi som overføres i form av elektromagnetiske [[Kunnskap/Bølger\|Bølger]]. De forplanter seg som bølger i rommet og består av et elektrisk felt og et magnetisk felt.
 
-All elektromagnetisk stråling beveger seg med samme hastighet i vakuum: $c = 300\,000\, \text{km/s}$. Strålingen går nesten like fort i luft, men andre stoffer så beveger strålingen seg saktere (saktere jo tettere stoffet er).
+All elektromagnetisk stråling beveger seg med samme hastighet i vakuum: $c = 300\,000\, \text{km/s}$. Strålingen går nesten like fort i luft, men i andre stoffer så beveger strålingen seg saktere (saktere jo tettere stoffet er).
 
 ## Typer elektromagnetisk stråling
 | Type stråling         | Bølgelengde ($\lambda$) | Frekvens ($f$) |
