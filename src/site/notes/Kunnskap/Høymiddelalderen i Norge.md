@@ -49,7 +49,7 @@ Høymiddelalderen avsluttes med [[Kunnskap/Svartedauden\|Svartedauden]].
 
 #### Related
 Forelesningsnotater:
-- [[Kunnskap/Forelesningsnotater/2015-08-18 Europa og Norge 800–1750\|2015-08-18 Europa og Norge 800–1750]]
+- [[Kunnskap/2015-08-18 Europa og Norge 800–1750\|2015-08-18 Europa og Norge 800–1750]]
 - [[Kunnskap/Forelesningsnotater/2015-09-01 Norge mot en stat 1130-1350\|2015-09-01 Norge mot en stat 1130-1350]]
 - [[Kunnskap/Forelesningsnotater/2015-09-15 befolkning, økonomi og samfunn, Norge 800-1350\|2015-09-15 befolkning, økonomi og samfunn, Norge 800-1350]]
 - [[Kunnskap/Forelesningsnotater/2015-09-22 Norge økonomisk og sosialt 700-1300\|2015-09-22 Norge økonomisk og sosialt 700-1300]]
