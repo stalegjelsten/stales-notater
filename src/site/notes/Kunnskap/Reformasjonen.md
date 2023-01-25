@@ -38,3 +38,9 @@ I 1536 innførte kong Christian III protestantismen i Danmark-Norge og samtidig 
 
 </div></div>
 
+
+## Related
+### Forelesningsnotater
+- [[Kunnskap/Forelesningsnotater/2015-11-05 reformasjonen\|2015-11-05 reformasjonen]]
+- [[Kunnskap/Forelesningsnotater/2015-09-29 Norge 1350-1536\|2015-09-29 Norge 1350-1536]]
+- [[Kunnskap/Forelesningsnotater/2015-10-06 Norge 1536-1800\|2015-10-06 Norge 1536-1800]]
