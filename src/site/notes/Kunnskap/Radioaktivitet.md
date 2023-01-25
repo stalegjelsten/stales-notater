@@ -7,7 +7,7 @@
 Radioaktivitet er [[Kunnskap/Ioniserende stråling\|Ioniserende stråling]] som blir sendt ut fra ustabile atomkjerner.[^1] Noen kaller denne typen stråling for *nukleær stråling*[^2] siden den kommer fra kjernen (*nukleus*). Vi har tre hovedtyper stråling fra radioaktive kilder:
 1. [[Kunnskap/Alfastråling\|Alfastråling]] ($\alpha$)
 2. [[Kunnskap/Betastråling\|Betastråling]] ($\beta$)
-3. [[Gammastråling\|Gammastråling]] ($\gamma$)
+3. [[Kunnskap/Gammastråling\|Gammastråling]] ($\gamma$)
 
 ## Related
 [[Kunnskap/Halveringstid\|Halveringstid]]
