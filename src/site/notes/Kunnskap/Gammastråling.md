@@ -4,7 +4,7 @@
 
 
 # Gammastråling
-Gammastråling ($\gamma$-stråling) er [[Kunnskap/Ioniserende stråling\|ioniserende]] [[Elektromagnetisk stråling\|Elektromagnetisk stråling]] fra [[Kunnskap/Radioaktivitet\|radioaktive]] [[Atom\|atomkjerner]]. Gammastråling oppstår ved endringer i strukturen til atomkjernen – derfor vil en atomkjerne som har sendt ut [[Kunnskap/Alfastråling\|Alfastråling]] eller [[Kunnskap/Betastråling\|Betastråling]] også sende ut gammastråling i etterkant.
+Gammastråling ($\gamma$-stråling) er [[Kunnskap/Ioniserende stråling\|ioniserende]] [[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]] fra [[Kunnskap/Radioaktivitet\|radioaktive]] [[Atom\|atomkjerner]]. Gammastråling oppstår ved endringer i strukturen til atomkjernen – derfor vil en atomkjerne som har sendt ut [[Kunnskap/Alfastråling\|Alfastråling]] eller [[Kunnskap/Betastråling\|Betastråling]] også sende ut gammastråling i etterkant.
 
 ## Egenskaper
 - Gammastråling er elektromagnetisk stråling på samme måte som blant annet synlig lys og røntgenstråling. Strålingen beveger seg derfor med lysfarten $c = 300\,000\, \textrm{km/s}$.
