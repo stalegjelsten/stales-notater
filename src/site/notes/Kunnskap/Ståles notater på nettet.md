@@ -20,4 +20,5 @@ Finner dere feil eller har forslag til forbedringer så setter jeg veldig stor p
 	- Alle forelesningsnotater (jeg skal renskrive flere etter hvert og legge ut): [[Kunnskap/Forelesningsnotater/Forelesningsnotater MOC\|Forelesningsnotater MOC]]
 
 ### Naturfag
+- Kapittel 7 [[Kunnskap/Radioaktivitet\|Radioaktivitet]]
 - Oversikt over alle notater tagget med naturfag: [[Kunnskap/Naturfag MOC\|Naturfag MOC]]
