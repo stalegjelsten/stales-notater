@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Ståles notater på nettet/","title":"Ståles notater på nettet","tags":[null,"gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Ståles notater på nettet/","title":"Ståles notater på nettet","tags":[null,"gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"]}
 ---
 
 
