@@ -4,7 +4,7 @@
 
 
 # Elektromagnetisk stråling
->[!Warning]
+>[!Warning] OBS!
 >Her vil jeg brukes ordene elektromagnetisk stråling og elektromagnetiske bølger som synonymer. Det er ikke helt presist. Les mer hos [SNL](https://snl.no/elektromagnetisk_str%C3%A5ling)
 
 Elektromagnetisk stråling er energi som overføres i form av elektromagnetiske [[Kunnskap/Bølger\|Bølger]]. De forplanter seg som bølger i rommet og består av et elektrisk felt og et magnetisk felt.
