@@ -7,7 +7,7 @@
 Sola er en 4,6 milliarder år gammel [[Kunnskap/Stjerne\|Stjerne]] i [[Solsystemet\|Solsystemet]]. Sola kommer til å bli en [[Kunnskap/Stjerne#Røde kjemper\|rød kjempe]] når den er 10–11 milliarder år gammel og blir til slutt en [[Kunnskap/Stjerne#Hvite dverger\|hvit dverg]].
 
 ## Fysiske mål
-- Solas radius og diameter er omtrent 109 × Jorda
+- Solas radius og diameter er omtrent 109 ganger Jordas
 - Massen er 330 × Jorda eller ca $2 \cdot 10^{30} \,\mathrm{kg}$.
 - Luminositeten er $3.828 \cdot 10^{26} \,\mathrm{W}$
 - Temperaturen ved overflaten er 5 778 K og i kjernen omtrent 16 millioner K. 
