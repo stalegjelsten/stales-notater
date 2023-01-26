@@ -43,10 +43,64 @@ Neste: [[Kunnskap/Reformasjonen\|Reformasjonen]]
 </div></div>
 
 
-## 1400-tallet
+## 1350–1536
 >[!TODO]
->Skriv noe om 1400-tallet
+>Skriv mer om denne perioden.
 >
+
+### Rask kronologi
+- Olav blir konge i Danmark og Norge, men dør i 1387
+	- Margrete blir da regent i Norge og Danmark
+- Kalmarunionen i 1397: redsel for den sterke hanseatligaen
+	- Dronning Margrete sikret støtte i alle land for unionen.
+	- Aristokratiet var også inngiftet over landegrensene i norden, dette gjorde det enklere å godta union
+- 1450 Kristan I konge i Danmark og Norge
+	- Prinsipp: to uavhengige stater
+	- I praksis: Norge blir gradvis innlemmet i Danmark
+
+### Sosiale, politiske og økonomiske forhold
+
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/kunnskap/forelesningsnotater/2015-09-29-norge-1350-1536/#sosiale-politiske-og-oknomiske-forhold" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+
+
+
+## Sosiale, politiske og øknomiske forhold
+En tidligere oppfatning blant historikere at Svartedauden rammet Norge hardere enn nabolandene og tvang Norge inn i union. En mer moderne tolkning er at agrarkrisen fikk en enda større negativ effekt siden Norge allerede før unionen var en svakere stat.
+
+* Ødelegging/fraflytting av gårder -> folk flytter til bedre jordbruksområder
+* Agrarkrisen ble utløst av pestepidemier
+* Jordpriser, befolkning og skatteinnetktene faller
+* Mer husdyr, mindre korn (mindre intensivt jordbruk og større områder tilgjengelig)
+* Utjevning av sosiale forskjeller pga bedre jordtilgang og skattebortfall
+* Norske adelsmenn mistet monopolet på norske ombud
+* Kirken klarte seg relativt bra og fikk store gaver pga pesten
+* I Sverige og Danmark hadde man mye mektigere og rikere adel
+	* Over 100 borger i disse landene. 2 festningsanlegg i Norge
+* Europa i samme periode
+	* Befolkningsnedgang ➡ billig korn
+	* I Vest-europa blir mange leilendinger frigitt. 
+	* I Øst-Europa bruker adelen brutal tvang mot bøndene
+* I Norge dør adelen ut
+* Statsmyndigheten blir delegert til lokalsamfunnene
+* Færre og større administrasjonsdistrikt
+	* Slottslen
+	* Båhuslen
+	* Akershus
+	* Bergenhus
+* Avgiftslen: fast avgift. Ellers avregning mot inntekt
+* Lenspolitikken hvor man ga len til utenlandske adelsmenn var svært ødeleggende for norsk adel. Gjorde den norske staten svakere. Gode len går til dansker og tyskere.
+* 500 adelsfamilier i 1300, 80 i 1500
+* Kirkens andel av jordegods øker til 50%
+* Byene får et nytt styresett med mer effektiv forvaltning
+* Reformasjonen
+	* Makt fra Pave ➡ Konge
+	* Biskoper ble fengslet.
+	* Norge ble en provins under danmark
+	* Norge var på dette tidspunktet helt motstandsløse. Forringet i makt og formue
+
+
+</div></div>
+
 
 ## Reformasjonen
 
