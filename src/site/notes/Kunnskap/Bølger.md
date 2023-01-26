@@ -15,7 +15,7 @@ Bølger er svigninger som overfører energi fra et sted til et annet. Vi har man
 ## Bølgeegenskaper
 Vi beskriver gjerne bølger ved følgende egenskaper:
 - amplitude $A$ er utslaget fra likevektslinjen.
-- bølgelengde $\lambda$ er avstanden mellom to nabopunkter i samme fase (vanligvis to bølgetopper)
+- [[Kunnskap/Bølgelengde\|bølgelengde]] $\lambda$ er avstanden mellom to nabopunkter i samme fase (vanligvis to bølgetopper)
 - frekvens $f$ er antallet svingninger per sekund
 - periode $T$ er tiden det tar å gjennomføre en hel svingning
 - ~~fase $\omega$~~. *fase er ikke noe vi kommer til å se på i naturfag*
