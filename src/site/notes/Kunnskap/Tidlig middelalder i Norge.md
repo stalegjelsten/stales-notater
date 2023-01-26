@@ -99,7 +99,7 @@ På 1000-tallet ble det bygget mange kirker på grunn av [[Kunnskap/Vikingtiden#
 [[Kunnskap/Tidslinje historie\|Tidslinje historie]]
 
 ### Forelesningsnotater
-- [[Kunnskap/2015-08-18 Europa og Norge 800–1750\|2015-08-18 Europa og Norge 800–1750]]
+- [[Kunnskap/Forelesningsnotater/2015-08-18 Europa og Norge 800–1750\|2015-08-18 Europa og Norge 800–1750]]
 - [[Kunnskap/Forelesningsnotater/2015-08-25 Høvdingmakt og kongemakt i Norge 800–1130\|2015-08-25 Høvdingmakt og kongemakt i Norge 800–1130]]
 - [[Kunnskap/Forelesningsnotater/2015-09-15 befolkning, økonomi og samfunn, Norge 800-1350\|2015-09-15 befolkning, økonomi og samfunn, Norge 800-1350]]
 - [[Kunnskap/Forelesningsnotater/2015-09-22 Norge økonomisk og sosialt 700-1300\|2015-09-22 Norge økonomisk og sosialt 700-1300]]
