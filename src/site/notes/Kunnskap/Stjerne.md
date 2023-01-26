@@ -16,7 +16,7 @@ Stjerner er massive himmellegemer som i store deler av sin livssyklus sender ut 
 - Massen er 330 × Jorda eller ca $2 \cdot 10^{30} \,\mathrm{kg}$.
 - Luminositeten er $3.828 \cdot 10^{26} \,\mathrm{W}$
 - Temperaturen ved overflaten er 5 778 K og i kjernen omtrent 16 millioner K. 
-- Avstand fra Jorda er omtrent 150 millioner km (1,496 × 10⁸ km)
+- Avstand fra Jorda er omtrent 150 millioner km ($1.496\cdot 10^8$ km)
 
 
 </div></div>
