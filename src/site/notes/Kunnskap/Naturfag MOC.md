@@ -23,9 +23,9 @@
 | [[Kunnskap/Halveringstid\|Halveringstid]]                                                                                          | <ul><li>fysikk</li><li>naturfag</li></ul>               |
 | [[Kunnskap/Ioniserende stråling\|Ioniserende stråling]]                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Karboksylsyrer\|Karboksylsyrer]]                                                                                        | <ul><li>naturfag</li><li>kjemi</li></ul>                |
-| [[Kunnskap/Kjemiske bindinger\|Kjemiske bindinger]]                                                                                | <ul><li>naturfag</li><li>kjemi</li></ul>                |
 | [[Kunnskap/Molekyler\|Molekyler]]                                                                                                  | <ul><li>kjemi</li><li>fysikk</li><li>naturfag</li></ul> |
 | [[Kunnskap/Naturfag MOC\|Naturfag MOC]]                                                                                            | <ul><li>naturfag</li></ul>                              |
 | [[Kunnskap/Radioaktivitet\|Radioaktivitet]]                                                                                        | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Temperatur\|Temperatur]]                                                                                                | <ul><li>naturfag</li><li>fysikk</li><li>kjemi</li></ul> |
+| [[Kunnskap/Kjemiske bindinger\|Kjemiske bindinger]]                                                                                | <ul><li>naturfag</li><li>kjemi</li></ul>                |
 
