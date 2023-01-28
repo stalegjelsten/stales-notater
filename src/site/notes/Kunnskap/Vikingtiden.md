@@ -19,7 +19,7 @@ Nordmenn etablerte bosetninger på Island, danskene langs østkysten av England 
 - Vikinger trodde på norrøne guder, mens mange av stedene de plyndret var kristne. Vikingene hadde trolig liten respekt for religioner hvor man ikke vernet bedre om eiendelene sine. I tillegg var kirker og klostre enkle mål for vikingene, og de inneholdt verdigjenstander som var enkle å frakte med seg hjem eller handle med.
 
 ## Vikingkongene
-- [[Harald Hårfagre\|Harald Hårfagre]] 850–932
+- [[Kunnskap/Harald Hårfagre\|Harald Hårfagre]] 850–932
 - [[Håkon den Gode\|Håkon den Gode]] 920-961
 - [[Kunnskap/Olav Tryggvason\|Olav Tryggvason]] 963–1000
 - [[Kunnskap/Olav den Hellige\|Olav den Hellige]] 995–1030
@@ -28,7 +28,7 @@ Nordmenn etablerte bosetninger på Island, danskene langs østkysten av England 
 ## Rikssamling
 Norge ble territorielt sett et rike i løpet av vikingtiden. Snorre skriver sagaen om at Harald Hårfagre samlet Norge til et rike på grunn av Gyda. Det er svært få historikere som tror dette i dag. Sannsynligvis var det først under [[Kunnskap/Olav Tryggvason\|Olav Tryggvason]] eller [[Harald Hardråde\|Harald Hardråde]] at vi kan regne Norge som et rike. 
 
-[[Harald Hårfagre\|Harald Hårfagre]] hadde sin maktkjerne på Vestlandet, og ble akseptert som overkonge hele veien opp til Trøndelag, men han hadde sannsynligvis svært liten/ingen innflytelse på Østlandet. På *kongsgårdene* utnevnte kongene *årmenn* som skulle veitsle (stille med øl og mat når kongen) når kongen kom på besøk.
+[[Kunnskap/Harald Hårfagre\|Harald Hårfagre]] hadde sin maktkjerne på Vestlandet, og ble akseptert som overkonge hele veien opp til Trøndelag, men han hadde sannsynligvis svært liten/ingen innflytelse på Østlandet. På *kongsgårdene* utnevnte kongene *årmenn* som skulle veitsle (stille med øl og mat når kongen) når kongen kom på besøk.
 
 [[Håkon den Gode\|Håkon den Gode]] var oppdratt i den kristne tro hos den engelske kongen Æthelstan. Han omtales som en flink konge, som samarbeidet nært med bøndene. Sannsynligvis ble Gulating og Frostating opprettet av Håkon – for å gi storbøndene et samlingspunkt hvor de kunne vedta lover og avsi dommer. Håkon opprettet *leidangen* som er et sjøforsvar. Hver gård langs kysten skulle stille med skip, proviant og menn dersom fiender truet landet. 
 
