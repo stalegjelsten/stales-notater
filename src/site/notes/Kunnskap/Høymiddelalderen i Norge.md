@@ -43,7 +43,7 @@ Kongemakten kommer styrket ut av innbyrdeskrigene ved at både hærstyrker og ad
 
 Kirken og kongemakten profitterte på hverandre i perioden etter borgerkrigstiden. Kirken hadde nå fått friheter til å føre egne rettsaker i «kristelige anliggender» og utpeke egne prester. De opptrådte også som mellommenn mellom Gud og kongen gjennom kroningen. Kongens makt ble dermed sakralt legitimert av Gud og kirken, samtidig som Guds overhøyhet ble stadfestet. Arvefølgeloven fra 1260 er et resultat av dette fruktbare samarbeidet. Den er både kristelig-moralsk ved å kun anerkjenne ektefødte sønner, samt statsdannende og konfliktdempende ved å kun utpeke én tronfølger.
 
-Mange regner [[Kunnskap/Kongerekka\|Kongerekka]] for avsluttet når Håkon V Magnussons dør i 1319. Dette var den siste norske kongen fra en norsk kongsslekt (vi har jo ikke engang konger fra norsk kongsslekt i dag). 
+Mange regner [[Kunnskap/Kongerekka\|Kongerekka]] for avsluttet når Håkon V Magnussons dør i 1319. Dette var den siste norske kongen fra en norsk kongsslekt. 
 
 Høymiddelalderen avsluttes med [[Kunnskap/Svartedauden\|Svartedauden]].
 
