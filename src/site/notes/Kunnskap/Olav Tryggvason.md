@@ -13,7 +13,8 @@ Olav falt under slaget ved Svolder i Østersjøen eller Øresund i år 1000. Sla
 
 Olav var ombord i krigsskipet Ormen Lange (det flotteste og mest kostbare skip bygget i Norge ifølge Snorre). Da Einar Tambarskjelves bue brakk i to, fikk Einar låne kongens bue. Einar er imidlertid så sterk at han spenner buen slik at pilen blir for kort og han roper da sitt kjente utsagn til Olav: 
 
-> For veik, for veik er kongens bue
+>[!quote] Einar Tambarskjelve
+For veik, for veik er kongens bue
 	
 ![Einar Tambarskjelve](https://media.snl.no/media/70346/standard_Einar_Tambarskjelve.jpg)
 
