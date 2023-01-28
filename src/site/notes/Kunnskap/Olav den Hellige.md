@@ -13,8 +13,11 @@ Olav returnerer til Norge i 1015 og får definitivt makten når han beseirer de 
 I 1028 kommer Knut den Mektige til Norge med 50 skip, og Olav må flykte. Han vendte tilbake i 1030 for å ta tilbake tronen, men falt 29. juli 1030 på Stiklestad.
 
 ## Kristendommen
-Olav drev med hardhendt kristning, akkurat som Olav Tryggvason hadde gjort før ham. Han fikk innført lover som gjorde kristendommen til den eneste tillatte religionen.
+Olav drev med hardhendt kristning, akkurat som [[Kunnskap/Olav Tryggvason\|Olav Tryggvason]] hadde gjort før ham. Han fikk innført lover som gjorde kristendommen til den eneste tillatte religionen.
 
 ## Olav som helgen
 >[!TODO]
 >Forklar hvorfor han ble gjort til helgen og om Olavskultusen som oppstod
+
+## Related
+[[Kunnskap/Kongerekka\|Kongerekka]]
