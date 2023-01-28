@@ -11,23 +11,6 @@ Kjemiske bindinger er tiltrekningskrefter mellom atomer. Alle naturlige systemer
 - Den potensielle energien mellom hvert elektron og hvert proton
 Vi ser altså på et totalbilde av ulike interaksjoner og Hamiltonoperatoren:
 
-<!--$$
-\begin{align*}
-\hat{H} = &- \frac{\hslash
-{ #2}
-}{2m_e}(\nabla_1^2+ \nabla_{2^2)}\\
-&-\frac{\hslash
-{ #2}
-}{2m_p}(\nabla_A^2+\nabla_B^2)\\
-&- \frac{e^2}{4\pi \epsilon_0 r_{1A}}\\
-&- \frac{e^2}{4\pi \epsilon_0 r_{1B}}\\
-&- \frac{e^2}{4\pi \epsilon_0 r_{2A}}\\
-&- \frac{e^2}{4\pi \epsilon_0 r_{2B}}\\
-&+ \frac{e^2}{4\pi \epsilon_0 r_{AB}}\\
-&+\frac{e^2}{4\pi \epsilon_0 r_{12}}\\
-\end{align*}
-$$-->
-
 ## Sterke bindinger
 - [[Elektronparbinding\|Elektronparbinding]]
 - [[Kunnskap/Ionebindinger\|Ionebindinger]]
