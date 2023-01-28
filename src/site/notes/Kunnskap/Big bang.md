@@ -27,3 +27,6 @@ I denne perioden utvidet tidrommet seg fortere enn lysets hastighet fra appelsin
 
 ### Elektroner binder seg til atomkjernene
 Etter 380 000 år (nyere estimater sier 375 000 $\pm$ 3 000 år) så var temperaturen i universet ganske nøyaktig 3000 K. Det vil si at universet var tilstrekkelig avkjølt til at elektroner kunne binde seg til atomkjerner. *Vi fikk altså de første atomene i universet!* Dette gjorde også at [[Kunnskap/Foton\|fotoner]] ([[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]) kunne begynne å spre seg. All strålingen som var «fanget» slapp nå fri og ble sendt ut som infrarød stråling til et objekt med temperatur 3000 K. Det er denne strålingen vi kaller for [[Kunnskap/Bakgrunnsstråling\|Bakgrunnsstråling]].
+
+## Related
+[[Universet\|Universet]]
