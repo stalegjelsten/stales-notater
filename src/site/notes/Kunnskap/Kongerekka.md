@@ -9,7 +9,7 @@ Denne kongerekka er hentet fra [Kongehuset](https://www.kongehuset.no/artikkel.h
 ## Hårfagreslekta og ladejarlene
 
 ### Vikingtiden
-- Harald I Hårfagre: cirka 865 (872-) - cirka 932
+- [[Kunnskap/Harald Hårfagre\|Harald I Hårfagre]]: cirka 865 (872-) - cirka 932
 - Eirik I (Haraldsson) Blodøks: cirka 932 - cirka 935
 - Håkon I (Haraldsson) Adelstensfostre - den gode: 930-tallet - cirka 960
 - Harald II (Eriksson) Gråfell: cirka 961 - cirka 970
@@ -44,7 +44,6 @@ Denne kongerekka er hentet fra [Kongehuset](https://www.kongehuset.no/artikkel.h
 ## Sverreslekta
 
 ### Borgerkrigstiden
-
 - [[Kunnskap/Kong Sverre\|Sverre Sigurdsson]]: 1177 - 1202
 - Håkon III Sverresson: 1202 - 1204
 - Guttorm Sigurdsson: 1204
@@ -54,7 +53,7 @@ Denne kongerekka er hentet fra [Kongehuset](https://www.kongehuset.no/artikkel.h
 
 ### Ekspansjonstiden
 - Håkon IV Håkonsson: 1217 - 1263
-- Magnus VI (Håkonsson) Lagabøte: 1263 - 1280
+- [[Magnus Lagabøte\|Magnus VI (Håkonsson) Lagabøte]]: 1263 - 1280
 - Eirik II Magnusson: 1280 - 1299
 - Håkon V Magnusson (den eldre): 1299 - 1319
 
