@@ -90,7 +90,7 @@ Det finnes flere alternative rikssamlinger som også kunne samlet riket. Danskek
 * Eirik Blodøks og Håkon Adelsteinfostre var sønner av Harald. Etter et kort styre av Eirik ble Håkon konge.
 * Harald Blåtann av Danmark tar makta og styrer som overkonge fra ca 960 e.Kr. Eiriks sønner blir satt som regenter, stedfortredere
 * Harald bryter med eiriksønnene og slår seg sammen med Ladejarlene
-* [[Kunnskap/Forelesningsnotater/Olav Tryggvason\|Olav Tryggvason]] (Hårfagre-slekt) får makten og er konge 995–1000.
+* [[Kunnskap/Olav Tryggvason\|Olav Tryggvason]] (Hårfagre-slekt) får makten og er konge 995–1000.
 	* Han får Trøndelag inn i Hårfagreriket
 * Olav Haraldsson kan så ta makten med dansk støtte (1015–1030).
 	* Skaper den første norske kirkeorganisasjonen
