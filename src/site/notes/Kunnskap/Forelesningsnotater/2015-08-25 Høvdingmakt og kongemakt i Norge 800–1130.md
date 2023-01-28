@@ -106,7 +106,7 @@ Olav den Hellige samlet hele landet opp til Malangen i Troms til ett land. Deler
 
 Ladejarlene ble overvunnet i 1050 med drapet på Einar Tambarskjelve
 
-### Samkongedømme 1046-1130
+## Samkongedømme 1046-1130
 * Mange kongesønner pga tronfølgeordningen
 * Jernbyrde for å bevise rettmessige krav
 * En funksjonell ordning for å fordele makt mellom rivaliserende grupper
@@ -115,9 +115,9 @@ Ladejarlene ble overvunnet i 1050 med drapet på Einar Tambarskjelve
 * Samkongedømmet blir naturlig nok også en kilde til krig
 * Kongedømmet blir viktig for aristokratiet ved at de får rett til å utøve funksjoner på vegne av kongen
 
-### Statsutvikling 1000–1350
+## Statsutvikling 1000–1350
 
-#### Kongedømmets institusjoner
+### Kongedømmets institusjoner
 * Lagting: gulating og  frostating blir trolig representasjonsting tidlig på 900-tallet med nemdmenn som vedtar lover og domsmenn som dømmer
 	* arena for lovgivning og forhandlinger mellom konge og folk
 * leidang: skip og mannskap til forsvar av landet
