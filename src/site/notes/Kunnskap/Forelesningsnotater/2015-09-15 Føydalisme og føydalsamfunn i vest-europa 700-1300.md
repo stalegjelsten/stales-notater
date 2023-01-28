@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-09-15 Føydalisme og føydalsamfunn i vest-europa 700-1300/","tags":["historie","hi110","forelesning"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-09-15 Føydalisme og føydalsamfunn i vest-europa 700-1300/","title":"2015-09-15 Føydalisme og føydalsamfunn i vest-europa 700-1300","tags":["historie","hi110","forelesning"]}
 ---
 
 
@@ -13,7 +13,7 @@
 	* Vilhelm deler ut eiendommer på nytt til sine franske vasaller
 	* Sørger for sterk tilknytning til kongen
 
-Homagium betyr å gjør til mann, troskapsløfte ved ed og sverd. _Commendatio_ og _Homagium_
+Homagium betyr å gjør til mann, troskapsløfte ved ed og sverd. *Commendatio* og *Homagium*
 Konge over kronvasaller, undervasaller og bønder
 
 **Godsøkonomien**
@@ -81,6 +81,5 @@ Konge over kronvasaller, undervasaller og bønder
 * england blir etterhvert mest gjennomføydalisert
 * mange steder med bondeselveie
 	* eller få gods og svak godseiermakt
-	
 
 ![[_resources/Føydalisme.pptx]]
