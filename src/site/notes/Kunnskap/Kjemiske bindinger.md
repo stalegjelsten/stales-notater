@@ -24,7 +24,7 @@ $$
 &- \frac{e^2}{4\pi \epsilon_0 r_{2A}}\\
 &- \frac{e^2}{4\pi \epsilon_0 r_{2B}}\\
 &+ \frac{e^2}{4\pi \epsilon_0 r_{AB}}\\
-&+\frac{e^2}{4\pi \epsilon_0 r_{12}}
+&+\frac{e^2}{4\pi \epsilon_0 r_{12}}\\
 \end{align}
 $$
 
