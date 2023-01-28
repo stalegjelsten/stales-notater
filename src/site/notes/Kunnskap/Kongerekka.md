@@ -14,9 +14,9 @@ Denne kongerekka er hentet fra [Kongehuset](https://www.kongehuset.no/artikkel.h
 - Håkon I (Haraldsson) Adelstensfostre - den gode: 930-tallet - cirka 960
 - Harald II (Eriksson) Gråfell: cirka 961 - cirka 970
 - Håkon Sigurdsson, Ladejarl (dansk styre): cirka 970 - 995
-- Olav I Tryggvason: 995 - 1000
+- [[Kunnskap/Olav Tryggvason\|Olav I Tryggvason]]: 995 - 1000
 - Eirik og Svein Håkonsson, Ladejarler (dansk styre): 1000 - 1015
-- Olav II (Haraldsson) den Hellige: 1015 - 1028
+- [[Kunnskap/Olav den Hellige\|Olav II (Haraldsson) den Hellige]]: 1015 - 1028
 - Håkon Eiriksson, Ladejarl (dansk styre): 1028 - 1029
 - Knud den store (dansk styre): 1029 - 1030
 - Svein Knutsson (Alfivason) (dansk styre): 1030 - 1035
@@ -44,7 +44,8 @@ Denne kongerekka er hentet fra [Kongehuset](https://www.kongehuset.no/artikkel.h
 ## Sverreslekta
 
 ### Borgerkrigstiden
-- Sverre Sigurdsson: 1177 - 1202
+
+- [[Kunnskap/Kong Sverre\|Sverre Sigurdsson]]: 1177 - 1202
 - Håkon III Sverresson: 1202 - 1204
 - Guttorm Sigurdsson: 1204
 - Inge II Bårdsson: 1204 - 1217
