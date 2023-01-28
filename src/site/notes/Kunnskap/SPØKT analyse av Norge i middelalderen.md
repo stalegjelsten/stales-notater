@@ -115,7 +115,10 @@ I 1152 var kirka blitt såpass mektig at den løsrev seg fra kongen og fra høvd
 Etter [[Kunnskap/Landsloven\|Landsloven]] i 1274 ble det tydelig at man behøvde en avklaring av [kristenretten](https://snl.no/kristenrett), og kongemakten klarer etter 1280 å begrense noe av kirkas makt (blant annet kirkens innflytelse ved kongevalg, se [Sættargjerden i Tunsberg](https://snl.no/S%C3%A6ttargjerden_i_Tunsberg)).
 
 ## Økonomisk
-I starten av perioden har vi et samfunn hvor folk var selvforsynte og hvor gaveøkonomien med resiprositet stod sterkt. Utover i perioden så ser vi tegn til at folk trenger et matoverskudd for å kunne handle nødvendige varer. Dette skjedde på handelsplasser (*kaupang*) eller i byene. Det ble arrangert markeder hvor bønder og håndverkere kunne selge og bytte varer.
+I starten av perioden har vi et samfunn hvor folk var selvforsynte og hvor gaveøkonomien med resiprositet stod sterkt. Utover i perioden så ser vi to utviklingstrekk
+- folk trenger et matoverskudd for å kunne handle nødvendige varer. Dette skjedde på handelsplasser (*kaupang*) eller i byene. Det ble arrangert markeder hvor bønder og håndverkere kunne selge og bytte varer.
+- bønder betaler skatter til kongen, tiende til kirken og jordleie til adelen. Vi får en økonomi bygget på redistribusjon istedenfor gaveøkonomien.
+Se [[Kunnskap/Forelesningsnotater/2015-08-17 sosiale og økonomiske systemer\|2015-08-17 sosiale og økonomiske systemer]].
 
 ## Kulturelt
 
