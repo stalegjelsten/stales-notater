@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Ståles notater på nettet/","title":"Ståles notater på nettet","tags":[null,"gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Ståles notater på nettet/","title":"Ståles notater på nettet","tags":[null,"gardenEntry","gardenEntry","gardenEntry"]}
 ---
 
 
@@ -16,7 +16,8 @@ Finner dere feil eller har forslag til forbedringer så setter jeg veldig stor p
 - Tidslinje over historie som er relevant for videregående finner dere her: [[Kunnskap/Tidslinje historie\|Tidslinje historie]]
 - En oversikt over alle notatene tagget med historie: [[Kunnskap/Historie MOC\|Historie MOC]]
 - En oversikt over forelesningsnotater fra universitetet (fordelt på fag)
-	- Hi110 eldre historie i Norge og Europa [[Kunnskap/Forelesningsnotater/Hi110 Forelesningsnotater eldre historie i Norge og Europa MOC\|Hi110 Forelesningsnotater eldre historie i Norge og Europa MOC]]
+	- [[Kunnskap/Forelesningsnotater/Hi110 Forelesningsnotater eldre historie i Norge og Europa MOC\|Hi110 Forelesningsnotater eldre historie i Norge og Europa MOC]]
+	- [[Kunnskap/Forelesningsnotater/Hi100 Forelesningsnotater globalhistorie MOC\|Hi100 Forelesningsnotater globalhistorie MOC]]
 	- Alle forelesningsnotater (jeg skal renskrive flere etter hvert og legge ut): [[Kunnskap/Forelesningsnotater/Forelesningsnotater MOC\|Forelesningsnotater MOC]]
 
 ### Naturfag
