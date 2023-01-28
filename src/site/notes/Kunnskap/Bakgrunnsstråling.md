@@ -18,7 +18,7 @@ Etter 380 000 år (nyere estimater sier 375 000 $\pm$ 3 000 år) så var tempera
 
 Etter hvert som universet har utvidet seg har bølgelengdene til denne bakgrunnsstrålingen blitt lengre. 380 000 år etter Big bang var bølgelengden omtrent 1000 nanometer eller 0,001 mm. Vi kan obsevere denne bakgrunnsstrålingen fremdeles, men nå er bølgelengden omtrent 1,063 mm. Dette tilsvarer en temperatur på 2,7 K (det er ganske nærme det [[Kunnskap/Absolutte nullpunkt\|Absolutte nullpunkt]] ved 0 K). Dette er bølgelengder som tilhører [[Mikrobølger\|Mikrobølger]], på engelsk kalles denne bakgrunnsstrålingen derfor *Cosmic microwave background*. 
 
-![](https://phys.libretexts.org/@api/deki/files/22213/Planck_CMB_Mollweide_565.jpg?revision=1)
+![Cosmic Microwave Background. Kilde: ESA og The Planck Collaboration](https://phys.libretexts.org/@api/deki/files/22213/Planck_CMB_Mollweide_565.jpg?revision=1)
 Bildet viser et kart over temperaturen på bakgrunnsstrålingen i verdensrommet. Det er *ørsmå* forskjeller i temperaturen (røde områder er 1/10000 grad varmere enn blå områder). Figurkilde: ESA og The Planck Collaboration.
 
 Vi kan bruke denne forlengelsen av bølgelengden til bakgrunnsstrålingen til å beregne hvor mye universet må ha utvidet seg og alderen på universet.
