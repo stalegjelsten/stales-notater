@@ -62,6 +62,7 @@ Norge hadde en *privatkirkeordning*. Denne ordningen gikk ut på at hvis bønder
 
 
 ## Sosialt
+Generelt er [[Kunnskap/Tidlig middelalder i Norge\|Tidlig middelalder i Norge]] og [[Kunnskap/Høymiddelalderen i Norge\|Høymiddelalderen i Norge]] preget av befolkningsvekst. Vi har et befolkningsoverskudd i Skaninavia og man får overskudd til å dra i viking og plyndre. 
 
 ### Treller
 
