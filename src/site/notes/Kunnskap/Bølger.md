@@ -27,10 +27,15 @@ Bølgefarten $v$ til en bølge er relatert til frekvensen $f$ og bølgelengden $
 >[!Todo]
 >Gjør ferdig disse
 
-### Resonans
+### Refleksjon
+Hvis en bølge treffer en flate så vil den reflekteres. Innfallsvinkelen = refleksjonsvinkelen.
+
+### Bøyning
+>[!Tip] Refleksjon eller bøyning 🤔
+>Hvis en bølge treffer et legeme så vil enten bølgen bøyes av eller den vil reflekteres. 
+> - Hvis legemet som blir truffet er større enn bølgelengden vil bølgen reflekteres
+> - Hvis legemet som blir truffet er mindre enn bølgelengden vil bølgen avbøyes
 
 ### Interferens
 
 ### Brytning
-
-### Refleksjon
