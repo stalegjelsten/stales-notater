@@ -77,7 +77,7 @@ En tidligere oppfatning blant historikere at Svartedauden rammet Norge hardere e
 * I Sverige og Danmark hadde man mye mektigere og rikere adel
 	* Over 100 borger i disse landene. 2 festningsanlegg i Norge
 * Europa i samme periode
-	* Befolkningsnedgang ➡ billig korn
+	* Befolkningsnedgang → billig korn
 	* I Vest-europa blir mange leilendinger frigitt. 
 	* I Øst-Europa bruker adelen brutal tvang mot bøndene
 * I Norge dør adelen ut
