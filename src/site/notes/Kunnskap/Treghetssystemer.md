@@ -2,8 +2,8 @@
 {"dg-publish":true,"permalink":"/Kunnskap/Treghetssystemer/","title":"Treghetssystemer","tags":["fysikk"]}
 ---
 
-# Treghetssystemer
 
+# Treghetssystemer
 Et treghetssystem eller inertialsystem er et referansesystem i fysikk som ikke er påvirket av akselerasjon.
 
 I klassisk [[Kunnskap/Isaac Newton\|newtonsk]] mekanikk er et treghetssystem enten i ro eller i konstant bevegelse. Man er altså i et treghetssystem hvis sitter på et tog som beveger seg rettlinjet uten akselerasjon.
