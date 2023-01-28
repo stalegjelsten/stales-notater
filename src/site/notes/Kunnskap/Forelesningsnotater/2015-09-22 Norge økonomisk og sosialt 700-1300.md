@@ -14,13 +14,13 @@
 	* Kongelige konfiskasjoner
 * Treller kunne bli frigitt, men
 	* skyldte eieren troskap og lydighet fremdeles
-	* Brudd på tyrmsler -> tap av frihet
+	* Brudd på trymsler → tap av frihet
 	* Først trellens sønnesønn var helt fri
 * Hvorfor blir trellene frigitt?
 	* Slutt på vikingtoktene -> færre nye trellefamilier
 	* Mindre arbeidssomt å gjøre trellene til leilendinger
 	* Kirken var i mot trellehold
-	* Tyrmslene ga egentlig bøndene bedre rettigheter enn trelleholdet
+	* Trymslene ga egentlig bøndene bedre rettigheter enn trelleholdet
 * Kongen er kirkens overhode frem til midten av 1100-tallet
 * Høvdinger bygge lokale kirker
 	* Innsetter i starten egne prester
