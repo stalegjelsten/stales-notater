@@ -12,7 +12,7 @@ Kjemiske bindinger er tiltrekningskrefter mellom atomer. Alle naturlige systemer
 Vi ser altså på et totalbilde av ulike interaksjoner og Hamiltonoperatoren:
 
 ## Sterke bindinger
-- [[Elektronparbinding\|Elektronparbinding]]
+- [[Kunnskap/Elektronparbindinger\|Elektronparbinding]]
 - [[Kunnskap/Ionebindinger\|Ionebindinger]]
 - [[Kunnskap/Metallbindinger\|Metallbindinger]]
 
