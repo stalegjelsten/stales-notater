@@ -23,5 +23,6 @@ Hvis vi tenker på [[Kunnskap/Tid\|Tid]] som et resultat av økende [[Kunnskap/E
 >For vår del går tiden saktere dess nærmere jordas kjerne vi er, siden gravitasjonsfeltet er sterkere.
 
 
+
 </div></div>
 
