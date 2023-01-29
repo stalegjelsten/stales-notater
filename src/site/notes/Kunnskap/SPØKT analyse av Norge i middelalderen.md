@@ -110,7 +110,7 @@ Det er kongene som starter kristninga av Norge, derfor var det naturlig at konge
 
 Kirka blir mektigere og mektigere. Til tross for at prestene hadde ganske lav status, så var de definitivt den maktpersonen folk flest hadde mest kontakt med. Kirka får *tiende*, gaver og egne lover. Klostrene er helt avskjermet fra livet utenfor og blir derfor viktige for separasjonen mellom kirke og kongen.
 
-I 1152 var kirka blitt såpass mektig at den løsrev seg fra kongen og fra høvdingene.[^1] I 1153 får Norge en sin første erkebiskop, og han blir kirkas øverste leder i Norge. Prestene ble nå lønnet av kirka gjennom tienden istedenfor fra høvdingene. **I tillegg får kirka videre egen domsmyndighet**. I sum gjør dette at kirkeorganisasjonen ble lojale mot biskopene og paven istedenfor mot kongen.
+I 1152 var kirka blitt såpass mektig at den løsrev seg fra kongen og fra høvdingene.[^1] I 1153 får Norge en sin første erkebiskop, og han blir kirkas øverste leder i Norge. Prestene ble nå lønnet av kirka gjennom tienden istedenfor fra høvdingene. Biskoper utnevnes av paven istedenfor av kongen. **I tillegg får kirka egen domsmyndighet**. I sum gjør dette at kirkeorganisasjonen ble lojale mot biskopene og paven istedenfor mot kongen.
 
 Etter [[Kunnskap/Landsloven\|Landsloven]] i 1274 ble det tydelig at man behøvde en avklaring av [kristenretten](https://snl.no/kristenrett), og kongemakten klarer etter 1280 å begrense noe av kirkas makt (blant annet kirkens innflytelse ved kongevalg, se [Sættargjerden i Tunsberg](https://snl.no/S%C3%A6ttargjerden_i_Tunsberg)).
 
@@ -121,6 +121,16 @@ I starten av perioden har vi et samfunn hvor folk var selvforsynte og hvor gave�
 Se [[Kunnskap/Forelesningsnotater/2015-08-17 sosiale og økonomiske systemer\|2015-08-17 sosiale og økonomiske systemer]].
 
 ## Kulturelt
+
+### Kulturen i det norrøne samfunnet
+I norrøn religion var det utøvelsen av de hellige handlingene (kulten) som stod i fokus. Det var som oftest høvdingen som ledet seremoniene. Det ble blant annet gjennomført:
+- Blot (med gaver og ofringer)
+- Begravelser
+
+### Kulturen i det kristne Norge
+Mange av de tradisjonelle norrøne tradisjonene ble videreført etter kristendommens inntog. Julefeiringen var en gammel hedensk tradisjon med julablot (fest).
+
+Innføringen av kristendommen gjorde også at nordmenn begynte å tenke på synd og at de begrenset sin seksualitet. Samleie var nå blitt et nødvendig onde for å få barn, men skulle kun gjennomføres under strenge rammer innenfor ekteskapet.
 
 ## Teknologisk
 
