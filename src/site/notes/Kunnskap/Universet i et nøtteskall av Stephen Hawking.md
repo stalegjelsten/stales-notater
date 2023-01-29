@@ -40,16 +40,19 @@ Albert Einstein trodde ikke selv på Big bang-teorien. Han trodde det kunne ha v
 
 Einstein og forskere p hans tid ville ikke erkjenne at tiden kunne ha en begynnelse eller slutt – de var fremdeles låst til tankegangen om at tiden er uendelig. På samme måte var det vanskelig å forestille seg en sigularitet, eller et supermassivt punkt, fordi man tenkte at veldig sterke tyngdekrefter ville bli opphevet av sideveis bevegelse eller trykkrefter.
 
-### Cosmic radiowave backgroud
-Den kosmiske bakgrunnsstrålingen har spekter som tilsvarer svartlegeme på 2,7 K. Det tyder på at strålingen må komme fra områder som ugjennomtrengelige for mikrobølger, eller sagt på en annen måte: strålingen må ha gått gjennom en viss mengde stoff – og denne mengden stoff er stor nok til å krumme tidrommet slik at lysstrålene i vår fortidige lyskjegle er bøyd mot hverandre
+### Cosmic microwave backgroud
+Den kosmiske [[Kunnskap/Bakgrunnsstråling\|bakgrunnsstrålingen]] har spekter som tilsvarer svartlegeme på 2,7 K. Det tyder på at strålingen må komme fra områder som ugjennomtrengelige for mikrobølger, eller sagt på en annen måte: strålingen må ha gått gjennom en viss mengde stoff – og denne mengden stoff er stor nok til å krumme tidrommet slik at lysstrålene i vår fortidige lyskjegle er bøyd mot hverandre.
 > [!quote] Stephen Hawking
 > Tid er pæreformet.
 
 ### Usikkerheten i målinger
-Etter Plancks påstander om lys er kvantifisert så kom [[Kunnskap/Heisenbergs usikkerhetsprinsipp\|Heisenbergs usikkerhetsprinsipp]] i 1927. Problemet med observasjoner i liten målestokk er hvis man bruker lavfrekvente bølger til å observere, så er det stor usikkerhet i målingene. Dersom man bruker høyere frekvens så øker man også energien, og da kan man lett påvirke partikkelen man observerer. Vi har derfor forstyrret hastigheten til partikkelen mer.
+Etter Plancks påstander om at lys er kvantifisert så kom [[Kunnskap/Heisenbergs usikkerhetsprinsipp\|Heisenbergs usikkerhetsprinsipp]] i 1927. Problemet med observasjoner i liten målestokk er hvis man bruker lavfrekvente bølger til å observere, så er det stor usikkerhet i målingene. Dersom man bruker høyere frekvens så øker man også energien, og da kan man lett påvirke partikkelen man observerer. Vi har derfor forstyrret hastigheten til partikkelen mer.
 
 Grunntilstanden til en pendel er ikke når den henger rett ned og er i ro – det ville brutt med [[Kunnskap/Heisenbergs usikkerhetsprinsipp\|Heisenbergs usikkerhetsprinsipp]]. Enhver pendel må ha en viss minimumsenergi (nullpunkfluktasjon) som er mer enn Plancks konstant ($6.026 \cdot 10^{34} \mathrm{J\cdot s}$).
 
+### Subtrahering av uendeligheter
+[[Kunnskap/Casimireffekten\|Casimireffekten]]
+[[Supersymmetri\|Supersymmetri]]
 ## Kapittel 4: Å forutsi framtiden
 
 ### Videre utforskning
