@@ -20,4 +20,4 @@ For veik, for veik er kongens bue
 
 ## Related
 [[Kunnskap/Forelesningsnotater/2015-08-25 Høvdingmakt og kongemakt i Norge 800–1130\|2015-08-25 Høvdingmakt og kongemakt i Norge 800–1130]]
-[[Kunnskap/Kongerekka\|Kongerekka]]
+[[Kongerekka\|Kongerekka]]
