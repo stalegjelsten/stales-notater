@@ -15,10 +15,10 @@ Borgerkrigstiden (eller *Innbyrdeskrigene*) er tiden fra 1130–1240. I 1130 dø
 ### Bakgrunn
 Dette var en tidsperiode hvor ulike kongsemner (menn som *kunne* bli konger) ble støttet av ulike familier og stormennn. Disse kongsemnene stridet mot hverandre om makten i Norge.
 
-Den viktigste årsaken til borgerkrigene var [[Kunnskap/Tronfølgelovene#Tronfølgeloven før 1163\|tronfølgereglene]]. Alle ektefødte sønner av en konge hadde rett til å bli konger i et såkalt samkongedømme. Det var likevel ikke så enkelt å være konge sammen med sine brødre, og kongene kjempet derfor ofte om makten. I tillegg var det flere som påstod at de var sønner av konger, men som historikere mener at løy om sitt opphav (bl.a [[Kunnskap/Olav den Hellige\|Olav den Hellige]] og [[Kunnskap/Kong Sverre\|Kong Sverre]]).
+Den viktigste årsaken til borgerkrigene var [[Tronfølgelovene#Tronfølgeloven før 1163\|tronfølgereglene]]. Alle ektefødte sønner av en konge hadde rett til å bli konger i et såkalt samkongedømme. Det var likevel ikke så enkelt å være konge sammen med sine brødre, og kongene kjempet derfor ofte om makten. I tillegg var det flere som påstod at de var sønner av konger, men som historikere mener at løy om sitt opphav (bl.a [[Kunnskap/Olav den Hellige\|Olav den Hellige]] og [[Kong Sverre\|Kong Sverre]]).
 
 ### Birkebeinere og baglere
-Den største motsetningen mellom konger under borgerkrigstiden var mellom [[Magnus Erlingsson\|Magnus Erlingsson]] og [[Kunnskap/Kong Sverre\|Kong Sverre]]. Magnus (f. 1156) ble kronet og [[Kunnskap/Salving\|salvet]] til konge i 1163. Erling Skakke var far til Magnus, og det var nok han som hadde makten i store deler av Magnus' regjeringstid. Sverre Sigurdsson påstod at han var sønn av kong Sigurd Munn og ble valgt til høvding av en opprørsflokk kalt *Birkebeinerne*. Sverre ble hyllet som konge på Øyrtinget, men mesteparten av Norge (og kirka) mente at [[Magnus Erlingsson\|Magnus]] fremdeles var den rettmessige kongen. 
+Den største motsetningen mellom konger under borgerkrigstiden var mellom [[Magnus Erlingsson\|Magnus Erlingsson]] og [[Kong Sverre\|Kong Sverre]]. Magnus (f. 1156) ble kronet og [[Kunnskap/Salving\|salvet]] til konge i 1163. Erling Skakke var far til Magnus, og det var nok han som hadde makten i store deler av Magnus' regjeringstid. Sverre Sigurdsson påstod at han var sønn av kong Sigurd Munn og ble valgt til høvding av en opprørsflokk kalt *Birkebeinerne*. Sverre ble hyllet som konge på Øyrtinget, men mesteparten av Norge (og kirka) mente at [[Magnus Erlingsson\|Magnus]] fremdeles var den rettmessige kongen. 
 
 Etter flere slag så falt Magnus i Slaget ved Fimreite (i Sogndalsfjorden) i 1184, og kong Sverre ble konge alene. Kirka var ikke fornøyde, og biskopene danner sin egen krigerflokk *baglerne*, oppkalt etter norrønt *bagall* (bispestav). Etter hvert forsvinner flere av de mest kritiske biskopene ut av landet, og de gjenværende biskopene aksepterer Sverre som konge. 
 
@@ -43,7 +43,7 @@ Kongemakten kommer styrket ut av innbyrdeskrigene ved at både hærstyrker og ad
 
 Kirken og kongemakten profitterte på hverandre i perioden etter borgerkrigstiden. Kirken hadde nå fått friheter til å føre egne rettsaker i «kristelige anliggender» og utpeke egne prester. De opptrådte også som mellommenn mellom Gud og kongen gjennom kroningen. Kongens makt ble dermed sakralt legitimert av Gud og kirken, samtidig som Guds overhøyhet ble stadfestet. Arvefølgeloven fra 1260 er et resultat av dette fruktbare samarbeidet. Den er både kristelig-moralsk ved å kun anerkjenne ektefødte sønner, samt statsdannende og konfliktdempende ved å kun utpeke én tronfølger.
 
-Mange regner [[Kunnskap/Kongerekka\|Kongerekka]] for avsluttet når Håkon V Magnussons dør i 1319. Dette var den siste norske kongen fra en norsk kongsslekt. 
+Mange regner [[Kongerekka\|Kongerekka]] for avsluttet når Håkon V Magnussons dør i 1319. Dette var den siste norske kongen fra en norsk kongsslekt. 
 
 Høymiddelalderen avsluttes med [[Kunnskap/Svartedauden\|Svartedauden]].
 
