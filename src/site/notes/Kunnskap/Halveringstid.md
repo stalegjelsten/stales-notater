@@ -4,9 +4,12 @@
 
 
 # Halveringstid
-Halveringstid er tiden det tar før halvparten av et [[Kunnskap/Radioaktivitet\|radioaktivt]] stoff er blitt omdannet. Omdanningshastigheten til et radioaktivt stoff er avhengig av hvor mye radioaktivt stoff vi har. Derfor kan halveringstiden framstilles som en eksponentialfunksjon som nærmer seg null når tiden går. Et kjent eksempel på halveringstid er karbon-14 som har en halveringstid på 5730 år. Hvis vi ønsker å datere (finne ut hvor gammelt) biologisk materiale, så kan vi utnytte at vi kjenner halveringstiden til Karbon-14.
+Halveringstid er tiden det tar før halvparten av et [[Kunnskap/Radioaktivitet\|radioaktivt]] stoff er blitt omdannet. Noen stoffer har halveringstid helt ned til $10^{-24}$ sekunder, mens tellurium-128 har en halveringstid som er 160 billioner ganger lengre enn alderen til [[Universet\|universet]] (13,8 milliarder år).
 
-Hvis vi har mengden $N_0$ av et stoff ved tiden $t_0$ og halveringstiden til stoffet er $t_{\frac{1}{2}}$, så kan vi uttrykke mengden stoff $N$ som er igjen etter tiden $t$ ved formelen:
+Omdanningshastigheten til et radioaktivt stoff er avhengig av hvor mye radioaktivt stoff vi har. Derfor kan halveringstiden framstilles som en eksponentialfunksjon som nærmer seg null når tiden går, se figuren lenger ned. Et kjent eksempel på halveringstid er karbon-14 som har en halveringstid på 5730 år. Hvis vi ønsker å datere (finne ut hvor gammelt) biologisk materiale, så kan vi utnytte at vi kjenner halveringstiden til Karbon-14.
+
+## Matematisk forklaring
+Hvis vi har mengden $N_0$ av et stoff ved tiden $t_0$ og halveringstiden til stoffet er $t_{½}$, så kan vi uttrykke mengden stoff $N$ som er igjen etter tiden $t$ ved formelen:
 
 $$N(t) = N_{0}\cdot \left(\frac{1}{2} \right)^{\frac{t}{t_{\textstyle{1 \over 2}}}}$$
 
