@@ -1,6 +1,6 @@
 # Ståles notater på nett
 
-[LINK](https://historie.stalegjelsten.no)
+[LINK](https://notater.stalegjelsten.no)
 
 Denne repoen inneholder noen av Ståle Gjelstens notater til undervisning i videregående skole og notater fra forelesninger på universitetet. Nettsidene bygges med, og serves av, Vercel.
 
