@@ -12,4 +12,4 @@ Ifølge Snorres saga så ville ikke Gyda gifte seg med Harald før han var konge
 
 Han samlet det sentrale vestlandet til sitt rike og var trolig dessuten overkonge for Trøndelag og Viken. Fra disse stedene fikk han tributt og underholdning (*veitsle*). Han var altså aldri konge over hele Norge. 
 
-[[Kongerekka\|Kongerekka]]
+[[Kunnskap/Kongerekka\|Kongerekka]]
