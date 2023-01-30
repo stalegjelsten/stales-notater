@@ -33,6 +33,7 @@ Strålingsaktivitet til et radioaktivt stoff er proporsjonal med mengden radioak
 - Et stoff med kort halveringstid vil omdanne stoff fort, og vil derfor ha høy strålingsaktivitet. 
 - Et stoff med lang halveringstid vil ha lav strålingsaktivitet. 
 
-## Lisens
-[CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) 
-![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)
+---
+
+## Lisenser
+Figur av halveringstid by OpenStax. [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) ![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)
