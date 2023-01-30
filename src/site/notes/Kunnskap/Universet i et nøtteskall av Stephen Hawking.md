@@ -52,7 +52,7 @@ Grunntilstanden til en pendel er ikke når den henger rett ned og er i ro – de
 
 ### Subtrahering av uendeligheter
 [[Kunnskap/Casimireffekten\|Casimireffekten]]
-[[Supersymmetri\|Supersymmetri]]
+[[Kunnskap/Supersymmetri\|Supersymmetri]]
 ## Kapittel 4: Å forutsi framtiden
 
 ### Videre utforskning
