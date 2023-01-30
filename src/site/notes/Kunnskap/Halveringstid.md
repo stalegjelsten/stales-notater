@@ -11,7 +11,7 @@ Omdanningshastigheten til et radioaktivt stoff er avhengig av hvor mye radioakti
 ## Matematisk forklaring
 Hvis vi har mengden $N_0$ av et stoff ved tiden $t_0$ og halveringstiden til stoffet er $t_{½}$, så kan vi uttrykke mengden stoff $N$ som er igjen etter tiden $t$ ved formelen:
 
-$$N(t) = N_{0}\cdot \left(\frac{1}{2} \right)^{\frac{t}{t_{\textstyle{1 \over 2}}}}$$
+$$N(t) = N_{0}\cdot \left(\frac{1}{2} \right)^{\frac{t}{t_{½}}}$$ 
 
 Eksempelet med karbon-14 blir da
 
