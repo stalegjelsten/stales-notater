@@ -7,7 +7,7 @@
 Denne analysen kommer til å ta for seg det territorielle Norge fra ca 700–1500.
 
 ## Sosialt
-Generelt er [[Kunnskap/Tidlig middelalder i Norge\|Tidlig middelalder i Norge]] og [[Kunnskap/Høymiddelalderen i Norge\|Høymiddelalderen i Norge]] preget av befolkningsvekst. Vi har et befolkningsoverskudd i Skaninavia og man får overskudd til å dra i viking og plyndre. 
+Generelt er [[Tidlig middelalder i Norge\|Tidlig middelalder i Norge]] og [[Kunnskap/Høymiddelalderen i Norge\|Høymiddelalderen i Norge]] preget av befolkningsvekst. Vi har et befolkningsoverskudd i Skaninavia og man får overskudd til å dra i viking og plyndre. 
 
 ### Treller
 
@@ -34,7 +34,7 @@ Noen foreslåtte forklaringer på hvorfor trellene ble frigitt:
 
 
 ### Bønder
-Bøndene var den største gruppen i samfunnet, og i den første delen av [[Kunnskap/Tidlig middelalder i Norge\|tidlig middelalder]] så var nok de bøndene selveiende (altså at de eide jorda si selv).
+Bøndene var den største gruppen i samfunnet, og i den første delen av [[Tidlig middelalder i Norge\|tidlig middelalder]] så var nok de bøndene selveiende (altså at de eide jorda si selv).
 
 I Europa så fikk vi [[Kunnskap/Føydalisme\|Føydalisme]] i denne tidsperioden, og vi ser noen like utviklingstrekk i Norge. I vikingtiden så skaffer eliten seg større eiendommer og blir mektigere og mektigere. Sannsynligvis gikk Norge fra å være et relativt *egalitært* (likeverdig) samfunn til godsdannelse og *hierarki*.
 
@@ -64,7 +64,7 @@ Før Norge ble samlet til et rike var det mange småkonger og høvdinger. Høvdi
 
 Det var vanlig å gi gaver til hverandre, og en gave krevde alltid en motgave, såkalt *resiprositet* (gjenytelse). Høvdinger ga gaver til og holdt gjestebud for andre høvdinger for å danne allianser. I tillegg ga høvdingene gaver til sine undersåtter. Det var forventet at undersåttene ga noe tilbake, og de ga derfor ofte støtte (såkalt *trygg∂*) til høvdingen. Høvdingen ga også bøndene beskyttelse (*traust*).
 
-Siden det ikke var skrevet noen [[Kunnskap/Tronfølgelovene\|tronfølgelov]] på dette tidspunktet hadde alle sønner arverett til tronen til hvert konge- og høvdingdømme. Det gjorde at man fikk mange konflikter om makten.
+Siden det ikke var skrevet noen [[Tronfølgelovene\|tronfølgelov]] på dette tidspunktet hadde alle sønner arverett til tronen til hvert konge- og høvdingdømme. Det gjorde at man fikk mange konflikter om makten.
 
 ### Kongedømme og rikssamling
 
