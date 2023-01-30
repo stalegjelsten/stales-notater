@@ -4,7 +4,7 @@
 
 
 # Halveringstid
-Halveringstid er tiden det tar før halvparten av et [[Kunnskap/Radioaktivitet\|radioaktivt]] stoff er blitt omdannet. Omdanningshastigheten til et radioaktivt stoff er avhengig av hvor mye radioaktivt stoff vi har. Derfor kan halveringstiden framstilles som en eksponentialfunksjon som nærmer seg null når tiden går. Et kjent eksempel på halveringstid er karbon-14 som har en halveringstid på 5730 år. Vi utnytter at vi kjenner til denne halveringstiden for å beregne alder på gammel biologisk materiale, opp til 50 000 år gammelt.
+Halveringstid er tiden det tar før halvparten av et [[Kunnskap/Radioaktivitet\|radioaktivt]] stoff er blitt omdannet. Omdanningshastigheten til et radioaktivt stoff er avhengig av hvor mye radioaktivt stoff vi har. Derfor kan halveringstiden framstilles som en eksponentialfunksjon som nærmer seg null når tiden går. Et kjent eksempel på halveringstid er karbon-14 som har en halveringstid på 5730 år. Hvis vi ønsker å datere (finne ut hvor gammelt) biologisk materiale, så kan vi utnytte at vi kjenner halveringstiden til Karbon-14.
 
 Hvis vi har mengden $N_0$ av et stoff ved tiden $t_0$ og halveringstiden til stoffet er $t_{\frac{1}{2}}$, så kan vi uttrykke mengden stoff $N$ som er igjen etter tiden $t$ ved formelen:
 
@@ -26,6 +26,9 @@ Etter $2\cdot 5{,}27$ år (altså 10,54 år) vil det kun være 2,5 g Kobolt-60 o
 Vi kan sjekke at dette stemmer med formelen vår. $N_0=10$, $t=10{,}54$, $t_\frac{1}{2}=5{,}27$ gir:
 
 $$N(10.54)=10\cdot(\frac{1}{2})^{\frac{10.54}{5.27}} = 10\cdot(\frac{1}{2})^{2}=10\cdot \frac{1}{4}=2.5$$
+
+## Karbon-14 datering
+Datering med karbon-14 utnytter at vi vet at halveringstiden til karbon-14 er 5730 år. Det er omtrent $10^{12}$ vanlige karbon-12 isotoper i lufta per karbon-14 isotop. Så lenge vi lever så vil vi også ha ca $\frac{1}{{10^{12}}}$ karbon-14 isotoper i kroppen, men når vi dør vil vi ikke lenger ta opp nytt karbon-14. Mengden karbon-14 kommer derfor til å minke, og vi kan måle radioaktiviteten med en geigerteller. Vi kan ut fra disse målingene beregne sist gang organismen vi ser på var i live.
 
 ## Strålingsaktivitet
 Strålingsaktivitet er hvor mye stråling et radioaktivt stoff sender ut per tidsenhet. 
