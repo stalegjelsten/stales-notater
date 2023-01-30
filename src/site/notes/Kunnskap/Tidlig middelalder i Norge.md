@@ -18,7 +18,7 @@ Tidlig middelalder i Norge varer fra 800–1130. Perioden starter med [[Kunnskap
 Vikingtiden regnes vanligvis som tiden mellom 793–1066 e.Kr. Det har vært vanlig å bruke angrepet på klosteret Lindisfarne utenfor den engelske østkysten i 793 som starttidspunkt for perioden, og Harald Hardrådes nederlag i Slaget ved Stamford Bridge i 1066 som avslutning.
 
 ## Vikinger
->[!Definition]
+>[!Important] Viking
 Å dra i viking var å dra på plyndringstokt over sjøen. 
 
 Vi tror at de første vikingtoktene fant sted i Østersjøen (fra Sverige til området rundt Polen og Litauen) på midten av 700-tallet. Nordmenn dro gjerne *Austerveg* til Shetlandsøyene, Færøyene, Orknøyene, Irland, Island, Grønland og Vinland. Dansker dro til England og kysten av Frankrike. Svensker dro *Vesterveg* ned elvene fra St. Petersburg til dagens Kyiv og Istanbul. 
