@@ -4,7 +4,7 @@
 
 
 # Atom
-Et atom består av en atomkjerne med [[Proton\|protoner]] og [[Nøytron\|nøytroner]], samt [[Kunnskap/Elektron\|elektroner]] som befinner seg utenfor atomkjernen.
+Et atom består av en atomkjerne med [[Kunnskap/Proton\|protoner]] og [[Kunnskap/Nøytron\|nøytroner]], samt [[Kunnskap/Elektron\|elektroner]] som befinner seg utenfor atomkjernen.
 
 >[!important] Forskjellen på ioner og atomer
 Et atom må ha like mange protoner og elektroner, ellers er det et [[Ion\|Ion]].
