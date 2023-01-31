@@ -15,7 +15,7 @@ Big bang teorien er en av de mest gjennomtestede teoriene i verdenshistorien. Vi
 
 ## Tidslinje
 - $10^{-36}$ til $10^{-33} \,\mathrm{s}$: [[Kunnskap/Big bang#Inflasjon\|#Inflasjon]] 
-- $10^{-6}  \, \mathrm{s}$: [[Proton\|Protoner]] og [[Nøytron\|nøytroner]] dannes
+- $10^{-6}  \, \mathrm{s}$: [[Kunnskap/Proton\|Protoner]] og [[Kunnskap/Nøytron\|nøytroner]] dannes
 - 3 min: Atomkjerner dannes
 - 380 000 år: [[Kunnskap/Big bang#Elektroner binder seg til atomkjernene\|#Elektroner binder seg til atomkjernene]]
 - 400 millioner år: de første stjerner og galakser dannes
