@@ -6,7 +6,7 @@
 # Hi100 Forelesningsnotater globalhistorie MOC
 Dette emnet på UiA tar for seg de «lange linjene» i verdenshistorien. Det ser på økonomiske systemer og hvorfor Europa fikk en fordel sammenlignet med resten av verden.
 
-Min eksamensoppgave i emnet handlet om industrialiseringen i Asia på 1900-tallet [[Evernote import/Levert eksamen Hi100 globalhistorie UiA høst 2015\|Levert eksamen Hi100 globalhistorie UiA høst 2015]]. Denne eksamenen var jeg ikke særlig fornøyd med – jeg burde valgt en annen oppgave.
+Min eksamensoppgave i emnet handlet om industrialiseringen i Asia på 1900-tallet [[Kunnskap/Forelesningsnotater/Levert eksamen Hi100 globalhistorie UiA høst 2015\|Levert eksamen Hi100 globalhistorie UiA høst 2015]]. Denne eksamenen var jeg ikke særlig fornøyd med – jeg burde valgt en annen oppgave.
 
 | File                                                                                                                                                                           | tags                                                         | modified           |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------ | ------------------ |
@@ -27,5 +27,5 @@ Min eksamensoppgave i emnet handlet om industrialiseringen i Asia på 1900-talle
 | [[Kunnskap/Forelesningsnotater/2015-11-16 Statsdannelser i Afrika og slavehandelen\|2015-11-16 Statsdannelser i Afrika og slavehandelen]]                                   | <ul><li>forelesning</li><li>hi100</li><li>historie</li></ul> | December 02, 2015  |
 | [[Evernote import/Eksamensoppgaver 2015\|Eksamensoppgaver 2015]]                                                                                                            | <ul><li>historie</li><li>hi100</li></ul>                     | January 24, 2023   |
 | [[Kunnskap/Forelesningsnotater/Hi100 Forelesningsnotater globalhistorie MOC\|Hi100 Forelesningsnotater globalhistorie MOC]]                                                 | <ul><li>historie</li><li>hi100</li></ul>                     | January 29, 2023   |
-| [[Evernote import/Levert eksamen Hi100 globalhistorie UiA høst 2015\|Levert eksamen Hi100 globalhistorie UiA høst 2015]]                                                    | <ul><li>eksamen</li><li>hi100</li><li>historie</li></ul>     | January 29, 2023   |
+| [[Kunnskap/Forelesningsnotater/Levert eksamen Hi100 globalhistorie UiA høst 2015\|Levert eksamen Hi100 globalhistorie UiA høst 2015]]                                       | <ul><li>eksamen</li><li>hi100</li><li>historie</li></ul>     | January 31, 2023   |
 
