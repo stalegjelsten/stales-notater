@@ -9,4 +9,4 @@ Ioniserende stråling er stråling med så mye energi at den kan slå løs elekt
 - Røntgenstråling
 - [[Kunnskap/Alfastråling\|Alfastråling]]
 - [[Kunnskap/Betastråling\|Betastråling]]
-- [[Kunnskap/Gammastråling\|Gammastråling]]
+- [[Kunnskap/Gammastråling\|Gammastråling]]k
