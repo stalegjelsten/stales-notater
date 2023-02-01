@@ -9,6 +9,10 @@ Radioaktivitet er [[Kunnskap/Ioniserende stråling\|Ioniserende stråling]] som 
 2. [[Kunnskap/Betastråling\|Betastråling]] ($\beta$)
 3. [[Kunnskap/Gammastråling\|Gammastråling]] ($\gamma$)
 
+>[!important] Bequerel
+>Vi måler radioaktivitet eller stråleaktivitet i bequerel, Bq. 
+>1 Bq tilsvarer at ett atom henfaller per sekund.
+
 ## Related
 [[Kunnskap/Halveringstid\|Halveringstid]]
 
