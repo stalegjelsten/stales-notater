@@ -3,7 +3,7 @@
 ---
 
 # Føydalisme
-Føydalisme er et samfunnssystem som var utbredt i Vest-Europa i [[Kunnskap/Tidlig middelalder i Europa\|Tidlig middelalder i Europa]] og gjennom [[Kunnskap/Høymiddelalderen i Europa\|Høymiddelalderen i Europa]].
+Føydalisme er et samfunnssystem som var utbredt i Vest-Europa i [[Kunnskap/Tidlig middelalder i Europa\|Tidlig middelalder i Europa]] og gjennom [[Høymiddelalderen i Europa\|Høymiddelalderen i Europa]].
 
 Det er et system hvor tilnærmet all makt er samlet hos noen få personer i eliter. Disse elitene beholder makten i generasjoner. Monarker delte ut len til sine vasaller i bytte mot troskap og støtte i krig. 
 
