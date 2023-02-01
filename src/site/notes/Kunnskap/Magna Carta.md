@@ -16,4 +16,4 @@ Kongen måtte rådføre seg med aristokrati, kirken og borgere for å skattelegg
 
 ### Related
 
-[[Kunnskap/Høymiddelalderen i Europa\|Høymiddelalderen i Europa]]
+[[Høymiddelalderen i Europa\|Høymiddelalderen i Europa]]
