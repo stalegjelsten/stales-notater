@@ -10,7 +10,7 @@
 - [[Kunnskap/Antikken\|Antikken]]
 - [[Kunnskap/Tidlig middelalder i Europa\|Tidlig middelalder i Europa]]
 - [[Kunnskap/Vikingtiden\|Tidlig middelalder i Norge]]
-- [[Kunnskap/Høymiddelalderen i Europa\|Høymiddelalderen i Europa]]
+- [[Høymiddelalderen i Europa\|Høymiddelalderen i Europa]]
 - [[Kunnskap/Høymiddelalderen i Norge\|Høymiddelalderen i Norge]]
 - [[Kunnskap/Senmiddelalder i Europa\|Senmiddelalder i Europa]]
 - [[Kunnskap/Senmiddelalderen i Norge\|Senmiddelalderen i Norge]]
