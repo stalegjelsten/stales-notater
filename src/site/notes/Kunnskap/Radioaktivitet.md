@@ -14,6 +14,8 @@ Radioaktivitet er [[Kunnskap/Ioniserende stråling\|Ioniserende stråling]] som 
 >1 Bq tilsvarer at ett atom henfaller per sekund.
 
 ## Related
+[[Kunnskap/Bakgrunnsstråling\|Bakgrunnsstråling]]
+[[Kunnskap/Ioniserende stråling\|Ioniserende stråling]]
 [[Kunnskap/Halveringstid\|Halveringstid]]
 
 [^1]: Den elektromagnetiske strålingen vi har jobbet med til nå (synlig lys, IR, UV, mikrobølger, radiobølger) oppstår ved at elektroner "hopper" mellom ulike energinivåer (de *eksiterer* og *emiterer*). Den strålingen vi har sett på tidligere har altså ingenting med atomkjernen å gjøre. 
