@@ -23,4 +23,4 @@ Olav ble gravd opp, lagt i skrin i Nidaros og gjort til helgen i 1031. Visstnok 
 Etter jomfru Maria var han den mest avbildede helgen i *nordisk* middelalderkunst – det viser at han var en viktig helgen i alle de nordiske landene. Olav var en noe omstridt figur etter reformasjonen siden han var katolikk, men han ble i nasjonalromantikken på 1800-tallet trukket fram som en nordmann vi kunne se tilbake til, blant annet av Bjørnstjerne Bjørnsson.
 
 ## Related
-[[Kongerekka\|Kongerekka]]
+[[Kunnskap/Kongerekka\|Kongerekka]]
