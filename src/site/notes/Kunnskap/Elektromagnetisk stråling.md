@@ -15,12 +15,12 @@ All elektromagnetisk stråling beveger seg med samme hastighet i vakuum: $c = 30
 >[!Todo]
 >Gjør ferdig tabellen
 
-| Type stråling         | Bølgelengde ($\lambda$) | Frekvens ($f$) |
-| --------------------- | --------------------- | -------------- |
-| Radiobølger           | $> 1$ m               | $< 10^{8}$ Hz  |
-| Mikrobølger           |                       |                |
-| Infrarød stråling     |                       |                |
-| Synlig lys            | 400 nm – 750 nm       |                |
-| Ultrafiolett stråling |                       |                |
-| Røntgenstråling       |                       |                |
-| [[Kunnskap/Gammastråling\|Gammastråling]]     |                       |                |
+| Type stråling             | Bølgelengde ($\lambda$) | Frekvens ($f$) |
+| ------------------------- | ----------------------- | -------------- |
+| [[Radiobølger\|Radiobølger]]           | $> 1$ mm                | $< 10^{?}$ Hz  |
+| [[Mikrobølger\|Mikrobølger]]           | 1 mm – 30 cm            |                |
+| [[Infrarød stråling\|Infrarød stråling]]     | 700 nm – 1 mm           |                |
+| [[Synlig lys\|Synlig lys]]            | 400 nm – 750 nm         |                |
+| [[Ultrafiolett stråling\|Ultrafiolett stråling]] | 4 nm – 400 nm           |                |
+| [[Kunnskap/Røntgenstråling\|Røntgenstråling]]       | 0,01 nm – 10 nm         |                |
+| [[Kunnskap/Gammastråling\|Gammastråling]]         |                         |                |
