@@ -7,7 +7,7 @@
 Vi kan *diagnostisere* (finne ut hva som er feil med) en pasient ved hjelp av [[Kunnskap/Ioniserende stråling\|Ioniserende stråling]]. 
 
 ## Diagnostisering med røntgenstråler
-Vi kan diagnostisere med [[Røntgenstråling\|Røntgenstråling]]. Vi plasserer da **røntgenapparatet på utsiden av kroppen** og skyter røntgenstråler mot kroppen. Mesteparten av strålingen vil gå gjennom kroppen, men noe stråling blir absorbert av tunge atomkjerner, f.eks. i skjellettet ditt.
+Vi kan diagnostisere med [[Kunnskap/Røntgenstråling\|Røntgenstråling]]. Vi plasserer da **røntgenapparatet på utsiden av kroppen** og skyter røntgenstråler mot kroppen. Mesteparten av strålingen vil gå gjennom kroppen, men noe stråling blir absorbert av tunge atomkjerner, f.eks. i skjellettet ditt.
 
 Hvis vi skal se bløtvev med røntgen så er vi nødt til å ta et kontrastmiddel som inneholder tunge atomkjerner. 
 
