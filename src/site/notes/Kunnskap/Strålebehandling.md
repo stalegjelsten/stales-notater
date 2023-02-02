@@ -9,7 +9,7 @@ I strålebehandling bruker vi [[Kunnskap/Ioniserende stråling\|Ioniserende str�
 Vi ønsker å drepe så mange kreftceller som mulig, men samtidig ikke skade friske celler. Vi har derfor to hovedtyper strålebehandling: ytre og indre.
 
 ## Ytre strålebehandling
-Ved ytre strålebehandling så skyter vi elektromagnetisk [[Kunnskap/Ioniserende stråling\|ioniserende stråling]] inn i kroppen fra utsiden. Vi bruker [[røntgenstråling\|røntgenstråling]] med høy energi eller [[Kunnskap/Gammastråling\|gammastråling]]. 
+Ved ytre strålebehandling så skyter vi elektromagnetisk [[Kunnskap/Ioniserende stråling\|ioniserende stråling]] inn i kroppen fra utsiden. Vi bruker [[Kunnskap/Røntgenstråling\|Røntgenstråling]] med høy energi eller [[Kunnskap/Gammastråling\|gammastråling]]. 
 
 For å ødelegge kreftcellene, men samtidig skåne det friske vevet så bestråler vi svulsten fra mange ulike vinkler. På den måten får svulsten en stor stråledose, mens vevet rundt får en mindre stråledose.
 
