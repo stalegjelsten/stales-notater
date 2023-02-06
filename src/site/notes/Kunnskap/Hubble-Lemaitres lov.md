@@ -36,7 +36,7 @@ Hubble observerte 20 galakser og fant ut at avstanden fra jorda til galaksene va
   </rdf:RDF>
  </metadata>
  <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt; width: 100%}</style>
  </defs>
  <g id="figure_1">
   <g id="patch_1">
