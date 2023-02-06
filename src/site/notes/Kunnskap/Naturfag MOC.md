@@ -38,7 +38,6 @@
 | [[Kunnskap/Lyd\|Lyd]]                                                                                                              | <ul><li>naturfag</li></ul>                              |
 | [[Kunnskap/Molekyler\|Molekyler]]                                                                                                  | <ul><li>kjemi</li><li>fysikk</li><li>naturfag</li></ul> |
 | [[Kunnskap/Naturfag MOC\|Naturfag MOC]]                                                                                            | <ul><li>naturfag</li></ul>                              |
-| [[Kunnskap/Nøytron\|Nøytron]]                                                                                                      | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Proton\|Proton]]                                                                                                        | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Radioaktivitet\|Radioaktivitet]]                                                                                        | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Radium i gamle urvisere\|Radium i gamle urvisere]]                                                                      | <ul><li>naturfag</li><li>fysikk</li></ul>               |
@@ -50,4 +49,5 @@
 | [[Kunnskap/Bølger\|Bølger]]                                                                                                        | <ul><li>fysikk</li><li>naturfag</li></ul>               |
 | [[Kunnskap/Svingning\|Svingning]]                                                                                                  | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Strålingsintensitet\|Strålingsintensitet]]                                                                              | <ul><li>naturfag</li><li>fysikk</li></ul>               |
+| [[Kunnskap/Nøytron\|Nøytron]]                                                                                                      | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 
