@@ -48,6 +48,6 @@
 | [[Kunnskap/Strålingsintensitet\|Strålingsintensitet]]                                                                              | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Nøytron\|Nøytron]]                                                                                                      | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Foton\|Foton]]                                                                                                          | <ul><li>naturfag</li><li>fysikk</li></ul>               |
-| [[Kunnskap/Hubble-Lemaitres lov\|Hubble-Lemaitres lov]]                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Big bang\|Big bang]]                                                                                                    | <ul><li>fysikk</li><li>naturfag</li></ul>               |
+| [[Kunnskap/Hubble-Lemaitres lov\|Hubble-Lemaitres lov]]                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 
