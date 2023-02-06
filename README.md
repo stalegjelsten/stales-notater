@@ -1,7 +1,9 @@
-# Ståles notater på nett
+# Digital Obsidian Garden
+This is the template to be used together with the [Digital Garden Obsidian Plugin](https://github.com/oleeskild/Obsidian-Digital-Garden). 
+See the README in the plugin repo for information on how to set it up.
 
-[LINK](https://notater.stalegjelsten.no)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/oleeskild/digitalgarden)
 
-Denne repoen inneholder noen av Ståle Gjelstens notater til undervisning i videregående skole og notater fra forelesninger på universitetet. Nettsidene bygges med, og serves av, Vercel.
-
-Dette er en fork av [oleeskild/obsidian-digital-garden](https://github.com/oleeskild/obsidian-digital-garden).
+---
+## Custom Styling
+I encourage you to change the default styling to make the site your own. Please modify the custom-style.scss when doing so to avoid future conflict when updating the template.
