@@ -17,7 +17,7 @@ Lemaître foreslo i en artikkel i 1927 at det var selve rommet som utvidet seg, 
 
 Hubble observerte 20 galakser og fant ut at avstanden fra jorda til galaksene var proporsjonal med [[rødforskyvningen\|rødforskyvningen]] (og dermed også farten) til galaksene. Galaksene som Hubble observerte er relativt nærme jorden, og det var derfor egentlig vanskelig å beregne farten deres riktig. Hubble beregnet derfor Hubbleparameteren til $H_{0}\approx 500$. 
 
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="1080pt" viewBox="0 0 720 1080" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -3085,4 +3085,4 @@ z
   </clipPath>
  </defs>
 </svg>
-
+-->
