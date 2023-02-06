@@ -3,7 +3,7 @@
 ---
 
 # Bølgelengde
-Bølgelengde er avstanden mellom to bølgetopper.
+Bølgelengde er avstanden mellom to [[Kunnskap/Bølger\|bølge]]topper.
 
 ## De Broglies bølgelengde
 I kvantefysikken har alle legemer som beveger seg en De Broglie bølgelengde. Denne gir sannsynligheten for at legemet befinner seg i en gitt posisjon. Denne bølgelengden er forholdet mellom [[Kunnskap/Plancks konstant\|Plancks konstant]] og [[Bevegelsesmengden\|Bevegelsesmengden]], altså: $\lambda = {h \over p}$. 
