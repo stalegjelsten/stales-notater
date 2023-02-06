@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Ståles notater på nettet/","title":"Ståles notater på nettet","tags":[null,"gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Ståles notater på nettet/","title":"Ståles notater på nettet","tags":[null,"gardenEntry","gardenEntry","gardenEntry"]}
 ---
 
 
@@ -21,6 +21,7 @@ Finner dere feil eller har forslag til forbedringer så setter jeg veldig stor p
 	- Alle forelesningsnotater (jeg skal renskrive flere etter hvert og legge ut): [[Kunnskap/Forelesningsnotater/Forelesningsnotater MOC\|Forelesningsnotater MOC]]
 
 ### Naturfag
+- Kapittel 1 [[Kunnskap/Big bang\|Big bang]]
 - Kapittel 6 [[Kunnskap/Bølger\|Bølger]]
 - Kapittel 7 [[Kunnskap/Radioaktivitet\|Radioaktivitet]]
 - Oversikt over alle notater tagget med naturfag: [[Kunnskap/Naturfag MOC\|Naturfag MOC]]
