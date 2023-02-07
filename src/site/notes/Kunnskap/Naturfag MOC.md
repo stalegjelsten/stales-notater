@@ -22,7 +22,6 @@
 | [[Kunnskap/Elektronparbindinger\|Elektronparbindinger]]                                                                            | <ul><li>kjemi</li><li>naturfag</li></ul>                |
 | [[Kunnskap/Estere\|Estere]]                                                                                                        | <ul><li>naturfag</li><li>kjemi</li></ul>                |
 | [[Kunnskap/Gammastråling\|Gammastråling]]                                                                                          | <ul><li>naturfag</li><li>fysikk</li></ul>               |
-| [[Kunnskap/Halveringstid\|Halveringstid]]                                                                                          | <ul><li>fysikk</li><li>naturfag</li></ul>               |
 | [[Kunnskap/Hjernen\|Hjernen]]                                                                                                      | <ul><li>naturfag</li><li>psykologi</li></ul>            |
 | [[Kunnskap/Hormese\|Hormese]]                                                                                                      | <ul><li>naturfag</li></ul>                              |
 | [[Kunnskap/Ion\|Ion]]                                                                                                              | <ul><li>naturfag</li></ul>                              |
@@ -30,7 +29,6 @@
 | [[Kunnskap/Ioniserende stråling\|Ioniserende stråling]]                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Karboksylsyrer\|Karboksylsyrer]]                                                                                        | <ul><li>naturfag</li><li>kjemi</li></ul>                |
 | [[Kunnskap/Kjemiske bindinger\|Kjemiske bindinger]]                                                                                | <ul><li>naturfag</li><li>kjemi</li></ul>                |
-| [[Kunnskap/Kosmisk bakgrunnsstråling\|Kosmisk bakgrunnsstråling]]                                                                  | <ul><li>naturfag</li><li>fyikk</li></ul>                |
 | [[Kunnskap/Kosmisk stråling\|Kosmisk stråling]]                                                                                    | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Lyd\|Lyd]]                                                                                                              | <ul><li>naturfag</li></ul>                              |
 | [[Kunnskap/Molekyler\|Molekyler]]                                                                                                  | <ul><li>kjemi</li><li>fysikk</li><li>naturfag</li></ul> |
@@ -48,6 +46,9 @@
 | [[Kunnskap/Strålingsintensitet\|Strålingsintensitet]]                                                                              | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Nøytron\|Nøytron]]                                                                                                      | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Foton\|Foton]]                                                                                                          | <ul><li>naturfag</li><li>fysikk</li></ul>               |
+| [[Kunnskap/Halveringstid\|Halveringstid]]                                                                                          | <ul><li>fysikk</li><li>naturfag</li></ul>               |
 | [[Kunnskap/Hubble-Lemaitres lov\|Hubble-Lemaitres lov]]                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Big bang\|Big bang]]                                                                                                    | <ul><li>fysikk</li><li>naturfag</li></ul>               |
+| [[Kunnskap/Planck vorspiel av Astronytt UiO 2013\|Planck vorspiel av Astronytt UiO 2013]]                                          | <ul><li>naturfag</li><li>fysikk</li></ul>               |
+| [[Kunnskap/Kosmisk bakgrunnsstråling\|Kosmisk bakgrunnsstråling]]                                                                  | <ul><li>naturfag</li><li>fyikk</li></ul>                |
 
