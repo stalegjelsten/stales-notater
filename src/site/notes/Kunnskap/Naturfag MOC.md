@@ -47,8 +47,8 @@
 | [[Kunnskap/Nøytron\|Nøytron]]                                                                                                      | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Foton\|Foton]]                                                                                                          | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Halveringstid\|Halveringstid]]                                                                                          | <ul><li>fysikk</li><li>naturfag</li></ul>               |
-| [[Kunnskap/Hubble-Lemaitres lov\|Hubble-Lemaitres lov]]                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Big bang\|Big bang]]                                                                                                    | <ul><li>fysikk</li><li>naturfag</li></ul>               |
 | [[Kunnskap/Planck vorspiel av Astronytt UiO 2013\|Planck vorspiel av Astronytt UiO 2013]]                                          | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Kosmisk bakgrunnsstråling\|Kosmisk bakgrunnsstråling]]                                                                  | <ul><li>naturfag</li><li>fyikk</li></ul>                |
+| [[Kunnskap/Hubble-Lemaitres lov\|Hubble-Lemaitres lov]]                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 
