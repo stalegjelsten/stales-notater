@@ -10,7 +10,7 @@
 
 
 ### Elektroner binder seg til atomkjernene
-Etter 380 000 år (nyere estimater sier 375 000 $\pm$ 3 000 år) så var temperaturen i universet ganske nøyaktig 3000 K. Det vil si at universet var tilstrekkelig avkjølt til at elektroner kunne binde seg til atomkjerner. *Vi fikk altså de første atomene i universet!* Dette gjorde også at [[Kunnskap/Foton\|fotoner]] ([[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]) kunne begynne å spre seg. All strålingen som var «fanget» slapp nå fri og ble sendt ut som infrarød stråling til et objekt med temperatur 3000 K. Det er denne strålingen vi kaller for [[Kunnskap/Kosmisk bakgrunnsstråling\|Kosmisk bakgrunnsstråling]].
+Etter 380 000 år (nyere estimater sier 375 000 $\pm$ 3 000 år) så var temperaturen i universet ganske nøyaktig 3000 K. Det vil si at universet var tilstrekkelig avkjølt til at elektroner kunne binde seg til atomkjerner. *Vi fikk altså de første atomene i universet!* Dette gjorde også at [[Kunnskap/Foton\|fotoner]] ([[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]) kunne begynne å spre seg – siden fotonene tidligere bare ville kollidert i de frie elektronene. All strålingen som var «fanget» slapp nå fri og ble sendt ut som infrarød stråling til et objekt med temperatur 3000 K. Det er denne strålingen vi kaller for [[Kunnskap/Kosmisk bakgrunnsstråling\|Kosmisk bakgrunnsstråling]].
 
 
 </div></div>
@@ -22,3 +22,6 @@ Etter hvert som universet har utvidet seg har bølgelengdene til denne bakgrunns
 Bildet viser et kart over temperaturen på bakgrunnsstrålingen i verdensrommet. Det er *ørsmå* forskjeller i temperaturen (røde områder er 1/10000 grad varmere enn blå områder). Figurkilde: ESA og The Planck Collaboration.
 
 Vi kan bruke denne forlengelsen av bølgelengden til bakgrunnsstrålingen til å beregne hvor mye universet må ha utvidet seg og alderen på universet.
+
+## Related
+[[Kunnskap/Planck vorspiel av Astronytt UiO 2013\|Planck vorspiel av Astronytt UiO 2013]]
