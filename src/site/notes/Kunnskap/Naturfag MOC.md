@@ -47,9 +47,9 @@
 | [[Etse bort brusboks\|Etse bort brusboks]]                                                                                         | <ul><li>naturfag</li><li>forsøk</li></ul>               |
 | [[Karbohydrater\|Karbohydrater]]                                                                                                   | <ul><li>biologi</li><li>naturfag</li></ul>              |
 | [[Evernote import/Cut a Glass Bottle Using Nail Polish, String, and Fire\|Cut a Glass Bottle Using Nail Polish, String, and Fire]] | <ul><li>naturfag</li><li>forsøk</li></ul>               |
-| [[Kunnskap/Hubble-Lemaitres lov\|Hubble-Lemaitres lov]]                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/George Lemaitre\|George Lemaitre]]                                                                                      | <ul><li>naturfag</li></ul>                              |
 | [[Kunnskap/Halveringstid\|Halveringstid]]                                                                                          | <ul><li>fysikk</li><li>naturfag</li></ul>               |
 | [[Kunnskap/Big bang\|Big bang]]                                                                                                    | <ul><li>fysikk</li><li>naturfag</li></ul>               |
 | [[Kunnskap/Universet\|Universet]]                                                                                                  | <ul><li>fysikk</li><li>naturfag</li></ul>               |
+| [[Kunnskap/Hubble-Lemaitres lov\|Hubble-Lemaitres lov]]                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 
