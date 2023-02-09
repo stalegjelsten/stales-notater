@@ -64,7 +64,7 @@ Før Norge ble samlet til et rike var det mange småkonger og høvdinger. Høvdi
 
 Det var vanlig å gi gaver til hverandre, og en gave krevde alltid en motgave, såkalt *resiprositet* (gjenytelse). Høvdinger ga gaver til og holdt gjestebud for andre høvdinger for å danne allianser. I tillegg ga høvdingene gaver til sine undersåtter. Det var forventet at undersåttene ga noe tilbake, og de ga derfor ofte støtte (såkalt *trygg∂*) til høvdingen. Høvdingen ga også bøndene beskyttelse (*traust*).
 
-Siden det ikke var skrevet noen [[Tronfølgelovene\|tronfølgelov]] på dette tidspunktet hadde alle sønner arverett til tronen til hvert konge- og høvdingdømme. Det gjorde at man fikk mange konflikter om makten.
+Siden det ikke var skrevet noen [[Kunnskap/Tronfølgelovene\|tronfølgelov]] på dette tidspunktet hadde alle sønner arverett til tronen til hvert konge- og høvdingdømme. Det gjorde at man fikk mange konflikter om makten.
 
 ### Kongedømme og rikssamling
 
