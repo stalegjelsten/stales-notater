@@ -13,7 +13,7 @@ $$v=H_{0}\cdot d, \,\,\,\,\, H_0\approx 70$$
 Hubbleparameteren beskriver hvor fort universet utvider seg. Siden universets utvidelse har foregått i ulikt tempo (akkurat nå ser utvidelsen ut til akselerere)
 
 ## Bakgrunn
-Loven er oppkalt etter George Lemaître, en belgisk katolsk prest og kosmolog, og Edwin Hubble, en amerikansk forsker.
+Loven er oppkalt etter [[Kunnskap/George Lemaitre\|George Lemaître]], en belgisk katolsk prest og kosmolog, og Edwin Hubble, en amerikansk forsker.
 
 Lemaître foreslo i en artikkel i 1927 at det var selve rommet som utvidet seg, og at dette var årsaken til at vi observerte rødforskyvning for fjerne galakser.
 
