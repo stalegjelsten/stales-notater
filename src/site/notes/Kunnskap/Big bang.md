@@ -50,7 +50,7 @@ $v=H_{0}\cdot d, \,\,\,\,\, H_0\approx 70$
 Hubbleparameteren beskriver hvor fort universet utvider seg. Siden universets utvidelse har foregått i ulikt tempo (akkurat nå ser utvidelsen ut til akselerere)
 
 ## Bakgrunn
-Loven er oppkalt etter George Lemaître, en belgisk katolsk prest og kosmolog, og Edwin Hubble, en amerikansk forsker.
+Loven er oppkalt etter [[Kunnskap/George Lemaitre\|George Lemaître]], en belgisk katolsk prest og kosmolog, og Edwin Hubble, en amerikansk forsker.
 
 Lemaître foreslo i en artikkel i 1927 at det var selve rommet som utvidet seg, og at dette var årsaken til at vi observerte rødforskyvning for fjerne galakser.
 
@@ -96,20 +96,20 @@ Bildet viser et kart over temperaturen på bakgrunnsstrålingen i verdensrommet.
 Vi kan bruke denne forlengelsen av bølgelengden til bakgrunnsstrålingen til å beregne hvor mye universet må ha utvidet seg og alderen på universet.
 
 ## Related
-[[Kunnskap/Planck vorspiel av Astronytt UiO 2013\|Planck vorspiel av Astronytt UiO 2013]]
+[[Planck vorspiel av Astronytt UiO 2013\|Planck vorspiel av Astronytt UiO 2013]]
 
 
 </div></div>
 
 
-### Fordelingen av grunnstoffer i [[Kunnskap/Universet\|Universet]]
+### Fordelingen av grunnstoffer i [[Universet\|Universet]]
 Vi observerer følgende fordeling av grunnstoffer i universet. Dette stemmer perfekt med hva Big bang modeller har forutsagt at universet består av.
 - 74 % Hydrogen 
 - 24 % Helium
 - 2 % annet
 
 ## Related
-[[Kunnskap/Universet\|Universet]]
+[[Universet\|Universet]]
 
 ---
 
