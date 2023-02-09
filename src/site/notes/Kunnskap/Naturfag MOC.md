@@ -13,7 +13,6 @@
 | [[Kunnskap/Molekyler\|Molekyler]]                                                                                                  | <ul><li>kjemi</li><li>fysikk</li><li>naturfag</li></ul> |
 | [[Kunnskap/Elektron\|Elektron]]                                                                                                    | <ul><li>naturfag</li><li>fysikk</li><li>kjemi</li></ul> |
 | [[Kunnskap/Kjemiske bindinger\|Kjemiske bindinger]]                                                                                | <ul><li>naturfag</li><li>kjemi</li></ul>                |
-| [[Kunnskap/Big bang\|Big bang]]                                                                                                    | <ul><li>fysikk</li><li>naturfag</li></ul>               |
 | [[Kunnskap/Baryon\|Baryon]]                                                                                                        | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Temperatur\|Temperatur]]                                                                                                | <ul><li>naturfag</li><li>fysikk</li><li>kjemi</li></ul> |
 | [[Kunnskap/Radioaktivitet\|Radioaktivitet]]                                                                                        | <ul><li>naturfag</li><li>fysikk</li></ul>               |
@@ -22,7 +21,6 @@
 | [[Kunnskap/Proton\|Proton]]                                                                                                        | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Kosmisk stråling\|Kosmisk stråling]]                                                                                    | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Lyd\|Lyd]]                                                                                                              | <ul><li>naturfag</li></ul>                              |
-| [[Kunnskap/Halveringstid\|Halveringstid]]                                                                                          | <ul><li>fysikk</li><li>naturfag</li></ul>               |
 | [[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]                                                                  | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Strålebehandling\|Strålebehandling]]                                                                                    | <ul><li>naturfag</li></ul>                              |
 | [[Kunnskap/Nøytron\|Nøytron]]                                                                                                      | <ul><li>naturfag</li><li>fysikk</li></ul>               |
@@ -51,4 +49,7 @@
 | [[Evernote import/Cut a Glass Bottle Using Nail Polish, String, and Fire\|Cut a Glass Bottle Using Nail Polish, String, and Fire]] | <ul><li>naturfag</li><li>forsøk</li></ul>               |
 | [[Kunnskap/Hubble-Lemaitres lov\|Hubble-Lemaitres lov]]                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/George Lemaitre\|George Lemaitre]]                                                                                      | <ul><li>naturfag</li></ul>                              |
+| [[Kunnskap/Halveringstid\|Halveringstid]]                                                                                          | <ul><li>fysikk</li><li>naturfag</li></ul>               |
+| [[Kunnskap/Big bang\|Big bang]]                                                                                                    | <ul><li>fysikk</li><li>naturfag</li></ul>               |
+| [[Kunnskap/Universet\|Universet]]                                                                                                  | <ul><li>fysikk</li><li>naturfag</li></ul>               |
 
