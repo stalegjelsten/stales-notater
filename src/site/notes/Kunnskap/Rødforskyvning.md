@@ -4,11 +4,11 @@
 
 
 # Rødforskyvning
-Rødforskyvning vil si at bølgelengdene til en elektromagnetisk bølge strekker seg ut. Hvis strålingen inneholder synlig lys så vil den da se rødere ut.
+Rødforskyvning vil si at bølgelengdene til en [[Kunnskap/Elektromagnetisk stråling\|elektromagnetisk bølge]] strekker seg ut og blir lengre. Hvis strålingen inneholder synlig lys så vil den da se rødere ut.
 
-Rødforskyvning kan blant annet oppstå på grunn av
-- dopplereffekten når strålingskilden er på vei bort fra oss
-- universets utvidelse
+Rødforskyvning kan oppstå på grunn av:
+- [[Dopplereffekt\|Dopplereffekt]]en når strålingskilden er på vei bort fra oss
+- [[Universets utvidelse\|Universets utvidelse]]
 - påvirkning fra tyngdekraften
 
 **Figur:** *The universe is expanding, and that expansion stretches light traveling through space in a phenomenon known as cosmological redshift. The greater the redshift, the greater the distance the light has traveled. Credit: NASA, ESA, and L. Hustak (STScI)*
