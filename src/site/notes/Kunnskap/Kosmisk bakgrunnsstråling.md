@@ -24,4 +24,4 @@ Bildet viser et kart over temperaturen på bakgrunnsstrålingen i verdensrommet.
 Vi kan bruke denne forlengelsen av bølgelengden til bakgrunnsstrålingen til å beregne hvor mye universet må ha utvidet seg og alderen på universet.
 
 ## Related
-[[Planck vorspiel av Astronytt UiO 2013\|Planck vorspiel av Astronytt UiO 2013]]
+[[Kunnskap/Planck vorspiel av Astronytt UiO 2013\|Planck vorspiel av Astronytt UiO 2013]]
