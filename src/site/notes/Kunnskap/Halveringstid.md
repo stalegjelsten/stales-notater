@@ -4,7 +4,7 @@
 
 
 # Halveringstid
-Halveringstid er tiden det tar før halvparten av et [[Kunnskap/Radioaktivitet\|radioaktivt]] stoff er blitt omdannet. Noen stoffer har halveringstid helt ned til $10^{-24}$ sekunder, mens tellurium-128 har en halveringstid som er 160 billioner ganger lengre enn alderen til [[Kunnskap/Universet\|universet]] (13,8 milliarder år).
+Halveringstid er tiden det tar før halvparten av et [[Kunnskap/Radioaktivitet\|radioaktivt]] stoff er blitt omdannet. Noen stoffer har halveringstid helt ned til $10^{-24}$ sekunder, mens tellurium-128 har en halveringstid som er 160 billioner ganger lengre enn alderen til [[Universet\|universet]] (13,8 milliarder år).
 
 Omdanningshastigheten til et radioaktivt stoff er avhengig av hvor mye radioaktivt stoff vi har. Derfor kan halveringstiden framstilles som en eksponentialfunksjon som nærmer seg null når tiden går, se figuren lenger ned. Et kjent eksempel på halveringstid er karbon-14 som har en halveringstid på 5730 år. Hvis vi ønsker å datere (finne ut hvor gammelt) biologisk materiale, så kan vi utnytte at vi kjenner halveringstiden til Karbon-14.
 
