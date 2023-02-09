@@ -102,14 +102,14 @@ Vi kan bruke denne forlengelsen av bølgelengden til bakgrunnsstrålingen til å
 </div></div>
 
 
-### Fordelingen av grunnstoffer i [[Universet\|Universet]]
+### Fordelingen av grunnstoffer i [[Kunnskap/Universet\|Universet]]
 Vi observerer følgende fordeling av grunnstoffer i universet. Dette stemmer perfekt med hva Big bang modeller har forutsagt at universet består av.
 - 74 % Hydrogen 
 - 24 % Helium
 - 2 % annet
 
 ## Related
-[[Universet\|Universet]]
+[[Kunnskap/Universet\|Universet]]
 
 ---
 
