@@ -53,7 +53,7 @@
 | [[Evernote import/Cut a Glass Bottle Using Nail Polish, String, and Fire\|Cut a Glass Bottle Using Nail Polish, String, and Fire]] | <ul><li>naturfag</li><li>forsøk</li></ul>               |
 | [[Etse bort brusboks\|Etse bort brusboks]]                                                                                         | <ul><li>naturfag</li><li>forsøk</li></ul>               |
 | [[Kunnskap/Hubble-Lemaitres lov\|Hubble-Lemaitres lov]]                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>               |
-| [[Kunnskap/Trådløs kommunikasjon\|Trådløs kommunikasjon]]                                                                          | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Amplitudemodulasjon\|Amplitudemodulasjon]]                                                                              | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 | [[Kunnskap/Frekvensmodulasjon\|Frekvensmodulasjon]]                                                                                | <ul><li>naturfag</li><li>fysikk</li></ul>               |
+| [[Kunnskap/Trådløs kommunikasjon\|Trådløs kommunikasjon]]                                                                          | <ul><li>naturfag</li><li>fysikk</li></ul>               |
 
