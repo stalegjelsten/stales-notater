@@ -6,8 +6,7 @@
 # Amplitudemodulasjon
 Amplitudemodulasjon (AM) er en type modulasjon hvor vi slår sammen et signal og en bærebølge. Vi modulerer amplituden til bærebølgen med signalet vårt, slik at høyt signal vi gi høy amplitude. Et lavt signal vil gi lav amplitude.
 
->[!tip] Graf som viser amplitudemodulasjon
-><?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="720pt" viewBox="0 0 864 720" xmlns="http://www.w3.org/2000/svg" version="1.1">
