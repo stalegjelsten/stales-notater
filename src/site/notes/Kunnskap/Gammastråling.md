@@ -9,7 +9,7 @@ Gammastråling ($\gamma$-stråling) er [[Kunnskap/Ioniserende stråling\|ioniser
 Noen ganger sendes gammastrålingen ut samtidig med alfa- eller betastråling, 
 andre ganger sendes alfa- eller betastrålingen ut først og det dannes såkalte metastabile tilstander. For eksempel vil Cesium-137 i 94,6 % av tilfellene sende ut betastråling og danne Barium-137m som er en metastabil tilstand med halveringstid 2,55 minutter, se figuren under.
 
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- Created with Inkscape (http://www.inkscape.org/) --><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.0" width="100%" height="345.15015" id="svg2" inkscape:version="0.48.0 r9654" sodipodi:docname="Cs-137-decay.svg">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- Created with Inkscape (http://www.inkscape.org/) --><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.0" width="auto" height="345.15015" id="svg2" inkscape:version="0.48.0 r9654" sodipodi:docname="Cs-137-decay.svg">
   <metadata id="metadata108">
     <rdf:RDF>
       <cc:Work rdf:about="">
