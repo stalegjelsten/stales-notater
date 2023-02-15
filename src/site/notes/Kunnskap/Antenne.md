@@ -25,4 +25,4 @@ Lengden til en kvartbølgeantenne er 1/4 (en kvart) av bølgelengden til signale
 >En kvartbølgeantenne som skal brukes til kommunikasjon i 2,4 GHz-området (slik som Bluetooth, WiFi) trenger har følgende bølgelengde:
 >Det betyr at kvartbølgeantennen skal være 1/4 av dette, altså $\frac{1}{4}\cdot 0{,}125=0{,}03125$ m, eller 3,125 cm.
 >
-> [[microbit\|Microbit]] bruker kvartbølgeantenner.
+> [[Kunnskap/microbit\|Microbit]] bruker kvartbølgeantenner.
