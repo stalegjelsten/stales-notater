@@ -35,7 +35,7 @@ Et analogt signal kan ha alle mulige forskjellige verdier, det kan altså f.eks.
 >Langs x-aksen har vi tid, og langs y-aksen er spenningen. Legg merke til hvordan spenningen varierer med tiden. Figurkilde: Marc Scott, hentet fra <https://github.com/MarcScott/GCSE_Computing_Fundamentals,> CC-BY-SA 4.0.
 
 #### Digitale signaler
-Digitale signaler kan kun ha to verdier, vi kaller dem gjerne 0 og 1 og vi kan tenke på det som at en bryter enten er avslått eller påskrudd. En microbit vil bruke spenningene 0 V og 3,3 V for å representere avslått og påslått bryter.
+Digitale signaler kan kun ha to verdier, vi kaller dem gjerne 0 og 1 og vi kan tenke på det som at en bryter enten er avslått eller påskrudd. En [[Kunnskap/microbit\|microbit]] vil bruke spenningene 0 V og 3,3 V for å representere avslått og påslått bryter.
 
 Hvis vi ønsker å sende 1 0 1 1 så kan dette altså se slik ut:
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -104,7 +104,7 @@ Frekvensmodulasjon (FM) er en type modulasjon hvor vi slår sammen et signal og 
 
 
 ## Eksempel på sending av radiobølger med microbit
-I dette eksempelet kommer jeg til å bruke en [[microbit\|microbit]] for å forklare – disse kommuniserer med [[Kunnskap/Trådløs kommunikasjon#Digitale signaler\|digitale signaler]]. Vi tenker oss at en microbit skal kommunisere med en annen microbit. 
+I dette eksempelet kommer jeg til å bruke en [[Kunnskap/microbit\|microbit]] for å forklare – disse kommuniserer med [[Kunnskap/Trådløs kommunikasjon#Digitale signaler\|digitale signaler]]. Vi tenker oss at en microbit skal kommunisere med en annen microbit. 
 
 ### Steg 1: Protokoll
 Først må begge microbitene være enige om protokollen. De sender og mottar ved hjelp av Bluetooth på 2,4 GHz. I tillegg er de nødt til å avtale en *radiogruppe* og avtale hva slags informasjon som skal sendes, f.eks. bokstaver i en melding, bilder, kommandoer for å kjøre en bil.
