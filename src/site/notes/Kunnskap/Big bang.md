@@ -4,9 +4,9 @@
 
 
 # Big bang
-Big bang var starten på vårt univers, ca 13,8 milliarder år siden. Teoriene forutsier at universet var infitesimalt lite ved $t=0$, men det vet vi ikke. Det lengste vi kan gå tilbake er til $t=10^{-43} \, \mathrm{s}$ (dette tilsvarer en Plancktid etter Big bang)
+Big bang var starten på vårt univers, ca 13,8 milliarder år siden. Teoriene forutsier at universet var infitesimalt lite ved $t=0$, men det vet vi ikke. Det lengste vi kan gå tilbake er til $t=10^{-43} \, \mathrm{s}$ (dette tilsvarer en Plancktid etter big bang)
 
-Vi kan ikke si så mye om Big bang, siden det ville krevd en fungerende teori for kvantegravitasjon som kan utkonkurrere teoriene om [[Kunnskap/Generell relativitetsteori\|Generell relativitetsteori]] og [[Kunnskap/Kvantemekanikk\|Kvantemekanikk]]. Vi vet likevel at alle de fire kreftene i universet må ha vært samlet. 
+Vi kan ikke si så mye om selve big bang, siden det ville krevd en fungerende teori for kvantegravitasjon som kan utkonkurrere teoriene om [[Kunnskap/Generell relativitetsteori\|Generell relativitetsteori]] og [[Kunnskap/Kvantemekanikk\|Kvantemekanikk]]. Vi vet likevel at alle de fire kreftene i universet må ha vært samlet, og ved hjelp av big bang teorien kan vi forklare store deler av universets utvikling.
 
 Big bang teorien er en av de mest gjennomtestede teoriene i verdenshistorien. Vi skal i [[Kunnskap/Naturfag MOC\|naturfag]] se på tre observasjoner som støtter teorien:
 1. Universets utvidelse
@@ -23,7 +23,7 @@ Big bang teorien er en av de mest gjennomtestede teoriene i verdenshistorien. Vi
 - 13,8 milliarder år: i dag
 
 ### Inflasjon
-I denne perioden utvidet tidrommet seg fortere enn lysets hastighet. Universet utivder seg omtrent $10^{26}$[^2] ganger i alle retninger. Vi vet ikke hvor stort universet var etterpå, men det var i hvert fall fremeles mye mindre enn i dag (kanskje på størrelse med en appelsin??). To partikler som påvirket hverandre før inflasjonen ville ikke ha mulighet til å påvirke hverandre etter inflasjonen siden informasjon ikke kan overføres med høyere hastighet enn $c$.
+I denne perioden utvidet tidrommet seg fortere enn lysets hastighet. Universet utvider seg omtrent $10^{26}$[^2] ganger i alle retninger. Vi vet ikke hvor stort universet var etterpå, men det var i hvert fall fremdeles ekstremt mye mindre enn i dag (kanskje på størrelse med en rosin, appelsin eller et tankskip??). To partikler som påvirket hverandre før inflasjonen vil ikke ha mulighet til å påvirke hverandre etter inflasjonen siden informasjon ikke kan overføres med høyere hastighet enn $c$.
 
 ### Elektroner binder seg til atomkjernene
 Etter 380 000 år (nyere estimater sier 375 000 $\pm$ 3 000 år) så var temperaturen i universet ganske nøyaktig 3000 K. Det vil si at universet var tilstrekkelig avkjølt til at elektroner kunne binde seg til atomkjerner. *Vi fikk altså de første atomene i universet!* Dette gjorde også at [[Kunnskap/Foton\|fotoner]] ([[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]) kunne begynne å spre seg (tidligere ville fotonene bare kollidert i de frie elektronene). All strålingen som var «fanget» slapp nå fri og ble sendt ut som infrarød stråling til et objekt med temperatur 3000 K. Det er denne strålingen vi kaller for [[Kunnskap/Kosmisk bakgrunnsstråling\|Kosmisk bakgrunnsstråling]].
