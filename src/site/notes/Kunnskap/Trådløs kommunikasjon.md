@@ -27,7 +27,7 @@ For å kunne kommunisere må både sender og mottaker være enige om en *protoko
 Signaler i kommunikasjon er elektriske signaler og vi måler signalet i Volt. Et signal kan være analogt eller digitalt. 
 
 #### Analoge signaler
-Et analogt signal kan ha alle mulige forskjellige verdier, det kan altså f.eks. være 0 V, 2,7 V eller 53,824V. Vi bruker veldig sjelden analoge signaler nå til dags, vi finner dem f.eks. i gamle LP-plater (vinylplater med musikk), kasetter eller FM-radioer.
+Et analogt signal kan ha alle mulige forskjellige verdier, det kan altså f.eks. være 0 V, 2,7 V eller 53,824V. Vi bruker veldig sjelden analoge signaler nå til dags, vi finner dem f.eks. i gamle LP-plater (vinylplater med musikk), kassetter eller FM-radioer.
 
 >[!tip] Analogt lydsignal
 >
