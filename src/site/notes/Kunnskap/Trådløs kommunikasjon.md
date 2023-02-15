@@ -29,42 +29,23 @@ Signaler i kommunikasjon er elektriske signaler og vi måler signalet i Volt. Et
 #### Analoge signaler
 Et analogt signal kan ha alle mulige forskjellige verdier, det kan altså f.eks. være 0 V, 2,7 V eller 53,824V. Vi bruker veldig sjelden analoge signaler nå til dags, vi finner dem f.eks. i gamle LP-plater (vinylplater med musikk), kassetter eller FM-radioer.
 
->[!tip] Analogt lydsignal
+>[!example] Eksempel på analogt lydsignal
 >
 >![analogue-sound.jpg|300](/img/user/_resources/analogue-sound.jpg)
->Langs x-aksen har vi tid, og langs y-aksen er spenningen. Legg merke til hvordan spenningen varierer med tiden. Figurkilde: Marc Scott, hentet fra <https://github.com/MarcScott/GCSE_Computing_Fundamentals,> CC-BY-SA 4.0.
+>Langs x-aksen har vi tid, og langs y-aksen er spenningen til signalet. For lydbølger vil det spenningen tilsvare volumet på lyden. 
+>
+>Legg merke til hvordan spenningen varierer med tiden, i tillegg ser dere at frekvensen til bølgen endrer seg med tiden. De stedene hvor det er tett mellom bølgetoppene er det høy frekvens (lys tone) og de stedene hvor det er langt mellom bølgetoppene er det lav frekvens (dyp tone).
+>
+>Figurkilde: Marc Scott, hentet fra <https://github.com/MarcScott/GCSE_Computing_Fundamentals,> CC-BY-SA 4.0.
 
 #### Digitale signaler
 Digitale signaler kan kun ha to verdier, vi kaller dem gjerne 0 og 1 og vi kan tenke på det som at en bryter enten er avslått eller påskrudd. En [[Kunnskap/microbit\|microbit]] vil bruke spenningene 0 V og 3,3 V for å representere avslått og påslått bryter.
 
 Hvis vi ønsker å sende 1 0 1 1 så kan dette altså se slik ut:
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" viewBox="0 0 326.5 188" width="653" height="376" version="1.1" id="svg64" sodipodi:docname="digital-signal.svg" inkscape:version="1.2.2 (b0a8486541, 2022-12-01)">
-  <defs id="defs68"></defs>
-  <g data-name="Arrow bodies" fill="none" stroke="#000000" stroke-miterlimit="10" id="g44" transform="translate(24.096447,0.95431472)">
-    <path d="M 10,181 V 22.2" id="path40"></path>
-    <path d="M 10.715736,170.77614 H 279.51574" id="path42" sodipodi:nodetypes="cc"></path>
-  </g>
-  <path d="m 34.096447,46.750762 c 0,0 54.135323,0.738386 55.059903,0.312183 0.32601,2.855491 -0.954315,124.464975 -0.954315,124.464975 l 64.462945,-0.0675 0.95431,-124.912197 151.35533,-0.06447" id="path36" style="fill:none;stroke:#00c8ff;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:1.94456693;stroke-dasharray:none" sodipodi:nodetypes="cccccc"></path>
-  <path d="m 34.096447,24.854315 -3.6,2.2 -0.1,-0.1 2.3,-5.9 1.4,-6.1 1.4,6.1 2.3,5.9 -0.1,0.1 z" id="path46"></path>
-  <path d="m 303.34366,171.49187 -2.2,-3.6 0.1,-0.1 5.9,2.3 6.1,1.4 -6.1,1.4 -5.9,2.3 -0.1,-0.1 z" id="path48"></path>
-  <text x="59.096447" y="25.954315" id="text52" style="font-size:14px;font-family:'DejaVu Sans', sans-serif">1</text>
-  <text x="119.09644" y="25.954315" id="text54" style="font-size:14px;font-family:'DejaVu Sans', sans-serif">0</text>
-  <text x="179.09645" y="25.954315" id="text56" style="font-size:14px;font-family:'DejaVu Sans', sans-serif">1</text>
-  <text x="239.09645" y="25.954315" id="text58" style="font-size:14px;font-family:'DejaVu Sans', sans-serif">1</text>
-  <text x="16.817245" y="25.77157" style="font-style:italic;font-size:14px;font-family:'DejaVu Sans', sans-serif" id="text60">U</text>
-  <text x="0.085515857" y="50.169792" style="font-style:italic;font-size:10.6667px;font-family:'DejaVu Sans', sans-serif" id="text60-5">
-    <tspan style="font-style:normal;font-size:10.6667px" id="tspan1219">3,3 V</tspan>
-  </text>
-  <text x="314.53223" y="176.85507" style="font-style:italic;font-size:14px;font-family:'DejaVu Sans', sans-serif" id="text60-9">t</text>
-  <path style="fill:#000000;stroke:#000000;stroke-width:0.943875;stroke-dasharray:none;stroke-opacity:1" d="m 29.195728,46.889957 h 9.074835" id="path408" sodipodi:nodetypes="cc"></path>
-</svg>
-
-
-
+![digital-signal.png|70%](/img/user/_resources/digital-signal.png)
 Radiobølger blir utsatt for interferens og støy fra andre radiobølger i lufta. Derfor vil ofte analoge signaler sprake og være vanskelige å høre. Digitale signaler blir også påvirket, men det er mye lettere for en mottaker å tolke om signalet er høyt eller lavt, selv om vi får litt støy i signalet. Se eksempelet under som viser hvordan et litt «skrukkete» digitalt signal kan tolkes slik at man får den opprinnelige meldingen 1 0 1 1.
 
-![](https://upload.wikimedia.org/wikipedia/commons/f/f3/Digital-signal-noise.svg)
+![digital-signal-noise.png|70%](/img/user/_resources/digital-signal-noise.png)
 
 ### Modulasjon
 Modulasjon eller modulering er å kode inn signaler i en bærebølge. Vi skal se på to typer modulasjon i naturfag: AM og FM.
