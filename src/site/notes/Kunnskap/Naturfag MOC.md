@@ -43,7 +43,6 @@
 | [[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]                                                                  | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Diagnostiering med ioniserende stråling\|Diagnostiering med ioniserende stråling]]                                      | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Bølger\|Bølger]]                                                                                                        | <ul><li>fysikk</li><li>naturfag</li></ul>                       |
-| [[Kunnskap/Big bang\|Big bang]]                                                                                                    | <ul><li>fysikk</li><li>naturfag</li></ul>                       |
 | [[Kunnskap/Betastråling\|Betastråling]]                                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Baryon\|Baryon]]                                                                                                        | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Bakgrunnsstråling\|Bakgrunnsstråling]]                                                                                  | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
@@ -58,4 +57,5 @@
 | [[Kunnskap/microbit\|microbit]]                                                                                                    | <ul><li>naturfag</li><li>fysikk</li><li>programmering</li></ul> |
 | [[Kunnskap/Gammastråling\|Gammastråling]]                                                                                          | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Trådløs kommunikasjon\|Trådløs kommunikasjon]]                                                                          | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
+| [[Kunnskap/Big bang\|Big bang]]                                                                                                    | <ul><li>fysikk</li><li>naturfag</li></ul>                       |
 
