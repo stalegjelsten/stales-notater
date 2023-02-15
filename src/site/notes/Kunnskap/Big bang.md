@@ -4,7 +4,7 @@
 
 
 # Big bang
-Big bang var starten på vårt univers, ca 13,8 milliarder år siden. Teoriene forutsier at universet var infitesimalt lite ved $t=0$, men det vet vi ikke. Det lengste vi kan gå tilbake er til $t=10^{-43} \, \mathrm{s}$ (dette tilsvarer en Plancktid etter big bang)
+Big bang er teorien om starten på vårt univers for ca. 13,8 milliarder år siden. Teorien forutsier at universet var infitesimalt lite ved $t=0$, og at det har utvidet seg hele tiden siden dette. Vi kan ikke *vite* at universet var så lite helt i begynnelsen, men vi kan gjøre antakelser om utviklingen fra tiden $t=10^{-43} \, \mathrm{s}$ etter big bang  (dette tilsvarer en [[Kunnskap/Plancks konstant\|Plancktid]])
 
 Vi kan ikke si så mye om selve big bang, siden det ville krevd en fungerende teori for kvantegravitasjon som kan utkonkurrere teoriene om [[Kunnskap/Generell relativitetsteori\|Generell relativitetsteori]] og [[Kunnskap/Kvantemekanikk\|Kvantemekanikk]]. Vi vet likevel at alle de fire kreftene i universet må ha vært samlet, og ved hjelp av big bang teorien kan vi forklare store deler av universets utvikling.
 
