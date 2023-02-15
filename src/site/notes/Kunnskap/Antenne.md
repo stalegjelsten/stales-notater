@@ -6,7 +6,7 @@
 # Antenne
 Antenner brukes til [[Kunnskap/Trådløs kommunikasjon\|trådløs kommunikasjon]] med radiobølger. Ved sending av radiobølger gjør en antenne elektiske signaler om til elektromagnetisk stråling. Ved mottak gjør antennen elektromagnetisk stråling om til elektiske signaler.
 
-Egentlig kan alle slags ledninger brukes som antenner. [[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]] oppstår rundt [[Kunnskap/Elektron\|elektroner]] som beveger seg, og inni en strømledning så beveger elektronene seg (strøm er elektroner i bevegelse).
+Egentlig kan alle slags ledninger brukes som antenner. Husk at [[Kunnskap/Bølger\|bølger]] er svingninger som overfører energi, og elektroner i strømledninger beveger seg i svingninger etter signalet. [[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]] oppstår altså rundt [[Kunnskap/Elektron\|elektroner]] inne i strømledningen. Enkle antenner er egentlig bare ledninger uten all isolasjonen rundt.
 
 ## Antennetyper
 
