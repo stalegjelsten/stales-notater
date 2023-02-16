@@ -44,19 +44,21 @@ Klarer ikke finne noen tastatursnarvei.
 - Mengdeoperatorer:
 	- $\in$ `\in`
 	- $\cup$ `\cup`
+	- $\cap$ `\cap`
+	- $\setminus$ `\setminus`
 - Tavle-fet skrift som tallmengder ($\mathbb{R}$): `\DoubleR`
 
 ## Smarte tips
 - Delt funksjonsuttrykk: `{ \cases(x:=5,x<3@x:=8,x>=3) \close`
 - `\sqrt(5&a^2)<space>` gir $\sqrt[5]{a^2}$
-- Store parenteser (f.eks. hvis du skal nøste flere parenteser) `\left[ x^2 \right]_0^4` gir $\left[ x^2 \right]_0^4$ og `\left( ((x)^m^n)/(2) \right)^n` gir $\left( \frac{(x^m)^n}{2} \right)^p$
+- Store parenteser (f.eks. hvis du skal nøste flere parenteser eller sette inn grenser for integrasjon) `\left[ x^2 \right]_0^4` gir $\left[ x^2 \right]_0^4$ og `\left( ((x)^m^n)/(2) \right)^n` gir $\left( \frac{(x^m)^n}{2} \right)^p$
 - Equationarray for å skrive over flere linjer: `\eqarray(x+1&=2@1+2+3+y&=z@3/x&=6)<space>`
 	- Her angir `&` hvor hvilket tegn man skal justere etter (det er vanlig å bruke `&=` slik at =-tegnene kommer under hverandre.)
 	- `@` angir linjeskift.
-	- Forhåndsvisning:
-	- Forhåndsvisning: $$\begin{align*}
+	- Forhåndsvisning: 
+
+$$\begin{align*}
 x+1 &= 2\\
 1+2+3+y &= z\\
 x &= 6
 \end{align*}$$
-	- Forhåndsvisning:
