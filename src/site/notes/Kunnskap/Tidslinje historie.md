@@ -14,7 +14,7 @@
 - [[Kunnskap/Høymiddelalderen i Norge\|Høymiddelalderen i Norge]]
 - [[Kunnskap/Senmiddelalder i Europa\|Senmiddelalder i Europa]]
 - [[Kunnskap/Senmiddelalderen i Norge\|Senmiddelalderen i Norge]]
-- [[Renessansen\|Renessansen]]
+- [[Kunnskap/Renessansen\|Renessansen]]
 - [[Opplysningstiden\|Opplysningstiden]]
 * [[Kunnskap/Dansketiden\|Dansketiden]]
 - [[Kunnskap/Forelesningsnotater/Den industrielle revolusjon\|Den industrielle revolusjon]]
