@@ -7,7 +7,7 @@
 Trådløs kommunikasjon kan defineres som all deling av informasjon uten bruk av ledninger. Dette kan gjøres på mange måter:
 - [[Kunnskap/Lyd\|lydbølger]] (prating)
 - lyssignaler som morsekode med lykter, røyksignaler
-- IR-stråling slik som du finner i fjernkontrollen til TVer, varmepumper osv.
+- [[Kunnskap/Infrarød stråling\|IR-stråling]] slik som du finner i fjernkontrollen til TVer, varmepumper osv.
 - elektromagnetisk stråling
 
 I naturfag så kommer vi til å fokusere på trådløs kommunikasjon ved hjelp av radiobølger, altså [[Kunnskap/Elektromagnetisk stråling\|elektromagnetisk stråling]] med lang bølgelengde. Det er denne typen stråling som brukes til mobildekning, trådløst internett (WiFi), Bluetooth, radio og TV.
@@ -21,7 +21,7 @@ I all type kommunikasjon så trenger vi en sender, en mottaker og en informasjon
 - Mottaker: den enheten som tar imot det elektriske signalet og tolker det.
 
 ### Protokoll
-For å kunne kommunisere må både sender og mottaker være enige om en *protokoll*. Protokollen bestemmer hvilken form kommunikasjonen skal ha, f.eks. hvilke tidspunkter skal mottaker lytte etter meldinger, hvor lang er hver melding, hvilken form er det på innholdet i meldingene osv. For radiobølger er det også viktig at både sender og mottaker bruker [[Kunnskap/Antenne\|antenner]] som sender og mottar på samme bølgelengde.
+For å kunne kommunisere må både sender og mottaker være enige om en *protokoll*. Protokollen bestemmer hvilken form kommunikasjonen skal ha, f.eks. hvilke tidspunkter skal mottaker lytte etter meldinger, hvor lang hver melding skal være, hvilken form det er på innholdet i meldingene osv. For radiobølger er det også viktig at både sender og mottaker bruker [[Kunnskap/Antenne\|antenner]] som sender og mottar på samme [[Kunnskap/Bølgelengde\|bølgelengde]] (og dermed samme frekvens).
 
 ### Analoge og digitale signaler
 Signaler i kommunikasjon er elektriske signaler og vi måler signalet i Volt. Et signal kan være analogt eller digitalt. 
