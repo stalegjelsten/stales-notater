@@ -108,3 +108,8 @@ I antennen (microbit bruker en [[Kunnskap/Antenne#Kvartbølgeantenne\|kvartbølg
 For å kunne gjøre om elektriske signaler til elektromagnetisk stråling trenger vi en [[Kunnskap/Antenne\|antenne]].
 
 ![microbit-radio-kommunikasjon.excalidraw.png](/img/user/_resources/microbit-radio-kommunikasjon.excalidraw.png)
+
+## Related
+[[Kunnskap/Amplitudemodulasjon\|Amplitudemodulasjon]]
+[[Kunnskap/Frekvensmodulasjon\|Frekvensmodulasjon]]
+[[Kunnskap/Antenne\|Antenne]]
