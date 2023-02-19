@@ -1616,3 +1616,7 @@ L 363.735 100.720438
  </defs>
 </svg>
 
+
+## Related
+[[Kunnskap/Infrarød stråling\|Infrarød stråling]]
+[[Sort legeme\|Sort legeme]]
