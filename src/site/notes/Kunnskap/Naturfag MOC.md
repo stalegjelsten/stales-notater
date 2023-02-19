@@ -57,6 +57,6 @@
 | [[Kunnskap/Big bang\|Big bang]]                                                                                                    | <ul><li>fysikk</li><li>naturfag</li></ul>                       |
 | [[Kunnskap/Kosmisk bakgrunnsstråling\|Kosmisk bakgrunnsstråling]]                                                                  | <ul><li>naturfag</li><li>fyikk</li></ul>                        |
 | [[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]                                                                  | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
-| [[Kunnskap/Trådløs kommunikasjon\|Trådløs kommunikasjon]]                                                                          | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Infrarød stråling\|Infrarød stråling]]                                                                                  | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
+| [[Kunnskap/Trådløs kommunikasjon\|Trådløs kommunikasjon]]                                                                          | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 
