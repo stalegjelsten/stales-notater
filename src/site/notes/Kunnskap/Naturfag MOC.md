@@ -15,16 +15,20 @@
 | [[Kunnskap/Amplitudemodulasjon\|Amplitudemodulasjon]]                                                                              | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Elektron\|Elektron]]                                                                                                    | <ul><li>naturfag</li><li>fysikk</li><li>kjemi</li></ul>         |
 | [[Kunnskap/Kjemiske bindinger\|Kjemiske bindinger]]                                                                                | <ul><li>naturfag</li><li>kjemi</li></ul>                        |
+| [[Kunnskap/Big bang\|Big bang]]                                                                                                    | <ul><li>fysikk</li><li>naturfag</li></ul>                       |
 | [[Kunnskap/Baryon\|Baryon]]                                                                                                        | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Antenne\|Antenne]]                                                                                                      | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Temperatur\|Temperatur]]                                                                                                | <ul><li>naturfag</li><li>fysikk</li><li>kjemi</li></ul>         |
 | [[Kunnskap/Radioaktivitet\|Radioaktivitet]]                                                                                        | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
+| [[Kunnskap/Kosmisk bakgrunnsstråling\|Kosmisk bakgrunnsstråling]]                                                                  | <ul><li>naturfag</li><li>fyikk</li></ul>                        |
 | [[Kunnskap/Absolutte nullpunkt\|Absolutte nullpunkt]]                                                                              | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Planck vorspiel av Astronytt UiO 2013\|Planck vorspiel av Astronytt UiO 2013]]                                          | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
+| [[Kunnskap/Trådløs kommunikasjon\|Trådløs kommunikasjon]]                                                                          | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Proton\|Proton]]                                                                                                        | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Kosmisk stråling\|Kosmisk stråling]]                                                                                    | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Lyd\|Lyd]]                                                                                                              | <ul><li>naturfag</li></ul>                                      |
 | [[Kunnskap/Halveringstid\|Halveringstid]]                                                                                          | <ul><li>fysikk</li><li>naturfag</li></ul>                       |
+| [[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]                                                                  | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Strålebehandling\|Strålebehandling]]                                                                                    | <ul><li>naturfag</li></ul>                                      |
 | [[Kunnskap/Nøytron\|Nøytron]]                                                                                                      | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Betastråling\|Betastråling]]                                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
@@ -43,6 +47,7 @@
 | [[Kunnskap/Radium i gamle urvisere\|Radium i gamle urvisere]]                                                                      | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Estere\|Estere]]                                                                                                        | <ul><li>naturfag</li><li>kjemi</li></ul>                        |
 | [[Kunnskap/Universet\|Universet]]                                                                                                  | <ul><li>fysikk</li><li>naturfag</li></ul>                       |
+| [[Kunnskap/Infrarød stråling\|Infrarød stråling]]                                                                                  | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Svingning\|Svingning]]                                                                                                  | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Radium\|Radium]]                                                                                                        | <ul><li>naturfag</li></ul>                                      |
 | [[Kunnskap/Hubble-Lemaitres lov\|Hubble-Lemaitres lov]]                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
@@ -54,9 +59,5 @@
 | [[Etse bort brusboks\|Etse bort brusboks]]                                                                                         | <ul><li>naturfag</li><li>forsøk</li></ul>                       |
 | [[Karbohydrater\|Karbohydrater]]                                                                                                   | <ul><li>biologi</li><li>naturfag</li></ul>                      |
 | [[Evernote import/Cut a Glass Bottle Using Nail Polish, String, and Fire\|Cut a Glass Bottle Using Nail Polish, String, and Fire]] | <ul><li>naturfag</li><li>forsøk</li></ul>                       |
-| [[Kunnskap/Big bang\|Big bang]]                                                                                                    | <ul><li>fysikk</li><li>naturfag</li></ul>                       |
-| [[Kunnskap/Kosmisk bakgrunnsstråling\|Kosmisk bakgrunnsstråling]]                                                                  | <ul><li>naturfag</li><li>fyikk</li></ul>                        |
-| [[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]                                                                  | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
-| [[Kunnskap/Infrarød stråling\|Infrarød stråling]]                                                                                  | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
-| [[Kunnskap/Trådløs kommunikasjon\|Trådløs kommunikasjon]]                                                                          | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
+| [[Kunnskap/Fusjon\|Fusjon]]                                                                                                        | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 
