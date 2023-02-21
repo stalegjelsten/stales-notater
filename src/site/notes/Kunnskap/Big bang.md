@@ -25,8 +25,13 @@ Big bang teorien er en av de mest gjennomtestede teoriene i verdenshistorien. Vi
 ### Inflasjon
 I denne perioden utvidet tidrommet seg fortere enn lysets hastighet. Universet utvider seg omtrent $10^{26}$[^2] ganger i alle retninger. Vi vet ikke hvor stort universet var etterpå, men det var i hvert fall fremdeles ekstremt mye mindre enn i dag (kanskje på størrelse med en rosin, appelsin eller et tankskip??). To partikler som påvirket hverandre før inflasjonen vil ikke ha mulighet til å påvirke hverandre etter inflasjonen siden informasjon ikke kan overføres med høyere hastighet enn $c$.
 
+### Tyngre atomkjerner dannes
+Fra omtrent 10 s fram til omtrent 20 minutter etter big bang er universet kaldt nok til at deuterium kunne eksistere, samtidig som det er varmt nok til at hydrogen kan [[Kunnskap/Fusjon\|fusjonere]] til helium og lithium.
+
+
+
 ### Elektroner binder seg til atomkjernene
-Etter 380 000 år (nyere estimater sier 375 000 $\pm$ 3 000 år) så var temperaturen i universet ganske nøyaktig 3000 K. Det vil si at universet var tilstrekkelig avkjølt til at elektroner kunne binde seg til atomkjerner. *Vi fikk altså de første atomene i universet!* Dette gjorde også at [[Kunnskap/Foton\|fotoner]] ([[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]) kunne begynne å spre seg (tidligere var det så varmt og tett at reaksjonen hvor protoner og elektroner slår seg sammen til hydrogen ville gått i begge retninger, $\ce{p^{+} + e^{-} <-> H + \gamma}$. Fotonene ville bare kollidert i elektroner og slått dem løs fra hydrogenatomene igjen). All strålingen som var «fanget» slapp nå fri og ble sendt ut som infrarød stråling til et objekt med temperatur 3000 K. Det er denne strålingen vi kaller for [[Kunnskap/Kosmisk bakgrunnsstråling\|Kosmisk bakgrunnsstråling]].
+Etter 380 000 år (nyere estimater sier 375 000 $\pm$ 3 000 år) så var temperaturen i universet ganske nøyaktig 3000 K. Det vil si at universet var tilstrekkelig avkjølt til at elektroner kunne binde seg til atomkjerner. *Vi fikk altså de første atomene i universet!* Dette gjorde også at [[Kunnskap/Foton\|fotoner]] ([[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]) kunne begynne å spre seg (tidligere var det så varmt og tett at reaksjonen hvor protoner og elektroner slår seg sammen til hydrogen ville gått i begge retninger, $\ce{p^{+} + e^{-} <=> H + \gamma}$. Fotonene ville bare kollidert i elektroner og slått dem løs fra hydrogenatomene igjen). All strålingen som var «fanget» slapp nå fri og ble sendt ut som infrarød stråling til et objekt med temperatur 3000 K. Det er denne strålingen vi kaller for [[Kunnskap/Kosmisk bakgrunnsstråling\|Kosmisk bakgrunnsstråling]].
 
 ## Observasjoner som støtter Big bang-teorien
 
@@ -86,7 +91,7 @@ Den nåværende beregningen av Hubblekonstanten
 
 
 ### Elektroner binder seg til atomkjernene
-Etter 380 000 år (nyere estimater sier 375 000 $\pm$ 3 000 år) så var temperaturen i universet ganske nøyaktig 3000 K. Det vil si at universet var tilstrekkelig avkjølt til at elektroner kunne binde seg til atomkjerner. *Vi fikk altså de første atomene i universet!* Dette gjorde også at [[Kunnskap/Foton\|fotoner]] ([[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]) kunne begynne å spre seg (tidligere var det så varmt og tett at reaksjonen hvor protoner og elektroner slår seg sammen til hydrogen ville gått i begge retninger, $\ce{p^{+} + e^{-} <-> H + \gamma}$. Fotonene ville bare kollidert i elektroner og slått dem løs fra hydrogenatomene igjen). All strålingen som var «fanget» slapp nå fri og ble sendt ut som infrarød stråling til et objekt med temperatur 3000 K. Det er denne strålingen vi kaller for [[Kunnskap/Kosmisk bakgrunnsstråling\|Kosmisk bakgrunnsstråling]].
+Etter 380 000 år (nyere estimater sier 375 000 $\pm$ 3 000 år) så var temperaturen i universet ganske nøyaktig 3000 K. Det vil si at universet var tilstrekkelig avkjølt til at elektroner kunne binde seg til atomkjerner. *Vi fikk altså de første atomene i universet!* Dette gjorde også at [[Kunnskap/Foton\|fotoner]] ([[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]) kunne begynne å spre seg (tidligere var det så varmt og tett at reaksjonen hvor protoner og elektroner slår seg sammen til hydrogen ville gått i begge retninger, $\ce{p^{+} + e^{-} <=> H + \gamma}$. Fotonene ville bare kollidert i elektroner og slått dem løs fra hydrogenatomene igjen). All strålingen som var «fanget» slapp nå fri og ble sendt ut som infrarød stråling til et objekt med temperatur 3000 K. Det er denne strålingen vi kaller for [[Kunnskap/Kosmisk bakgrunnsstråling\|Kosmisk bakgrunnsstråling]].
 
 
 </div></div>
@@ -114,11 +119,16 @@ Det er ørsmå forskjeller i den kosmiske bakgrunnsstrålingen. I de områdene h
 </div></div>
 
 
+<https://en.m.wikipedia.org/wiki/Big_Bang#Cosmic_microwave_background_radiation>
+
 ### Fordelingen av grunnstoffer i [[Kunnskap/Universet\|Universet]]
 Vi observerer følgende fordeling av grunnstoffer i universet. Dette stemmer perfekt med hva Big bang modeller har forutsagt at universet består av.
 - 74 % Hydrogen 
 - 24 % Helium
 - 2 % annet
+
+#### Danningen av grunnstoffer
+Les mer om big bangs forutsigelser hos [Wikipedia](https://en.m.wikipedia.org/wiki/Big_Bang_nucleosynthesis#Characteristics)
 
 ## Related
 [[Kunnskap/Universet\|Universet]]
