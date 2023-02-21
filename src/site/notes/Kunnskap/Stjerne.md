@@ -14,7 +14,7 @@ Stjerner er massive himmellegemer som i store deler av sin livssyklus sender ut 
 
 ## Fysiske mål
 - Solas radius og diameter er omtrent 109 × Jorda
-- Massen er 330 × Jorda eller ca $2 \cdot 10^{30} \,\mathrm{kg}$.
+- Massen, $M_{\odot}$, er 330 × Jorda eller ca $2 \cdot 10^{30} \,\mathrm{kg}$.
 - Luminositeten er $3.828 \cdot 10^{26} \,\mathrm{W}$
 - Temperaturen ved overflaten er 5 778 K og i kjernen omtrent 16 millioner K. 
 - Avstand fra Jorda er omtrent 150 millioner km (1,496 × 10⁸ km)
@@ -24,8 +24,18 @@ Stjerner er massive himmellegemer som i store deler av sin livssyklus sender ut 
 
 
 ## Typer stjerner
-![HRDiagram.png](/img/user/_resources/HRDiagram.png)
+>[!figure] Hertzsprung-Russell diagram 
+>![HRDiagram.png](/img/user/_resources/HRDiagram.png)
+>Figurkilde: [Hertzsprung-Russell diagram](http://www.atlasoftheuniverse.com/hr.html) av Richard Powell. CC-BY-SA 2.5. 
+ Hertzsprung-Russell diagrammet ovenfor viser hvordan de fleste stjerner kan kategoriseres etter temperatur. 
+
+### Stjerner på hovedserien
 
 ### Røde kjemper
+Stjerne på hovedserien med masse $\leq 6 \times M_{\odot}$ vil gå innom rød kjempe-fasen. Stjernen vil da ekspandere voldsomt før den trekker seg sammen igjen til en hvit dverg.
 
 ### Hvite dverger
+Stjerne på hovedserien med masse $\leq 6 \times M_{\odot}$ ender opp som hvite dverger. Hvite dverger er mye mindre enn hva stjernen var på hovedserien, og kjernen består av karbon og oksygen (som ikke fusjonerer). [[Kunnskap/Sola\|Sola]] vil ende opp som en hvit dverg.
+
+### Supernova
+Stjerner på hovedserien med masse $\geq 8 \times M_\odot$ vil bli supernovaer – enorme stjerneeksplosjoner. 
