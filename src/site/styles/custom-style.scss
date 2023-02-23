@@ -3135,6 +3135,7 @@ mjx-math {
   --callout-color-note: 145, 125, 105;
   --callout-color-abstract: 34, 152, 225;
   --callout-color-summary: 255, 221, 88;
+  --callout-color-figure: 255, 221, 88;
   --callout-color-tldr: 240, 180, 225;
   --callout-color-info: 0, 171, 197;
   --callout-color-todo: 0, 171, 197;
@@ -3242,6 +3243,10 @@ div.callout[data-callout=help] {
 }
 div.callout[data-callout=faq] {
   --callout-color: var(--callout-color-faq);
+}
+div.callout[data-callout=figure] {
+  --callout-icon: image;
+  --callout-color: var(--callout-color-figure);
 }
 div.callout[data-callout=warning] {
   --callout-color: var(--callout-color-warning);
