@@ -15,7 +15,6 @@
 | [[Kunnskap/Amplitudemodulasjon\|Amplitudemodulasjon]]                                                                              | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Elektron\|Elektron]]                                                                                                    | <ul><li>naturfag</li><li>fysikk</li><li>kjemi</li></ul>         |
 | [[Kunnskap/Kjemiske bindinger\|Kjemiske bindinger]]                                                                                | <ul><li>naturfag</li><li>kjemi</li></ul>                        |
-| [[Kunnskap/Big bang\|Big bang]]                                                                                                    | <ul><li>fysikk</li><li>naturfag</li></ul>                       |
 | [[Kunnskap/Baryon\|Baryon]]                                                                                                        | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Antenne\|Antenne]]                                                                                                      | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Temperatur\|Temperatur]]                                                                                                | <ul><li>naturfag</li><li>fysikk</li><li>kjemi</li></ul>         |
@@ -54,10 +53,11 @@
 | [[Kunnskap/Bølger\|Bølger]]                                                                                                        | <ul><li>fysikk</li><li>naturfag</li></ul>                       |
 | [[Kunnskap/Alfastråling\|Alfastråling]]                                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/George Lemaitre\|George Lemaitre]]                                                                                      | <ul><li>naturfag</li></ul>                                      |
+| [[Kunnskap/Fusjon\|Fusjon]]                                                                                                        | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Elektronparbindinger\|Elektronparbindinger]]                                                                            | <ul><li>kjemi</li><li>naturfag</li></ul>                        |
 | [[Kunnskap/Hjernen\|Hjernen]]                                                                                                      | <ul><li>naturfag</li><li>psykologi</li></ul>                    |
 | [[Etse bort brusboks\|Etse bort brusboks]]                                                                                         | <ul><li>naturfag</li><li>forsøk</li></ul>                       |
 | [[Karbohydrater\|Karbohydrater]]                                                                                                   | <ul><li>biologi</li><li>naturfag</li></ul>                      |
 | [[Evernote import/Cut a Glass Bottle Using Nail Polish, String, and Fire\|Cut a Glass Bottle Using Nail Polish, String, and Fire]] | <ul><li>naturfag</li><li>forsøk</li></ul>                       |
-| [[Kunnskap/Fusjon\|Fusjon]]                                                                                                        | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
+| [[Kunnskap/Big bang\|Big bang]]                                                                                                    | <ul><li>fysikk</li><li>naturfag</li></ul>                       |
 
