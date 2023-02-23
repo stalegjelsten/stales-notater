@@ -14,7 +14,7 @@ Big bang teorien er en av de mest gjennomtestede teoriene i verdenshistorien. Vi
 3. Fordelingen av grunnstoffer i Universet
 
 ## Tidslinje
-- $10^{-36}$ til $10^{-33} \,\mathrm{s}$: [[Kunnskap/Big bang#Inflasjon\|#Inflasjon]][^1]
+- $10^{-36}$ til $10^{-32} \,\mathrm{s}$: [[Kunnskap/Big bang#Inflasjon\|#Inflasjon]][^1]
 - $10^{-6}\,\mathrm{s}$: [[Kunnskap/Proton\|Protoner]] og [[Kunnskap/Nøytron\|nøytroner]] dannes
 - 3 min: Helium, litium og tyngre atomkjerner dannes
 - 380 000 år: [[Kunnskap/Big bang#Elektroner binder seg til atomkjernene\|#Elektroner binder seg til atomkjernene]]
@@ -26,12 +26,12 @@ Big bang teorien er en av de mest gjennomtestede teoriene i verdenshistorien. Vi
 I denne perioden utvidet tidrommet seg fortere enn lysets hastighet. Universet utvider seg omtrent $10^{26}$[^2] ganger i alle retninger. Vi vet ikke hvor stort universet var etterpå, men det var i hvert fall fremdeles ekstremt mye mindre enn i dag (kanskje på størrelse med en rosin, appelsin eller et tankskip??). To partikler som påvirket hverandre før inflasjonen vil ikke ha mulighet til å påvirke hverandre etter inflasjonen siden informasjon ikke kan overføres med høyere hastighet enn $c$.
 
 ### Tyngre atomkjerner dannes
-Fra omtrent 10 s fram til omtrent 20 minutter etter big bang er universet kaldt nok til at deuterium kunne eksistere, samtidig som det er varmt nok til at hydrogen kan [[Kunnskap/Fusjon\|fusjonere]] til helium og lithium.
+Ved tiden $t=10^{-6} \,\mathrm{s}$ ble det dannet protoner og nøytroner. Siden et enkelt proton også er atomkjernen til hydrogen-1 ($\ce{^1_1H}$) så fikk vi altså også våre første atomkjerner på dette tidspunktet.
 
-
+Etter hvert som universet kjølte seg ned så ble det dannet tyngre grunnstoffer. Fra omtrent 10 s fram til omtrent 20 minutter etter big bang var universet kaldt nok til at *deuterium* (hydrogen med et proton og et nøytron, $\ce{^2_1H}$) kunne eksistere, samtidig som det var varmt nok til at hydrogen kunne [[Kunnskap/Fusjon\|fusjonere]] til helium og lithium. Dette var altså de første atomkjernene som var tyngre enn hydrogen, men det skulle ta veldig lang tid før de tyngre grunnstoffene våre ble laget. Vi tror at de fleste grunnstoffer som er jern eller tyngre er blitt skapt i [[Kunnskap/Stjerne#Supernova\|supernovaer]] når andre [[Kunnskap/Stjerne\|stjerner]] har avsluttet sine liv.
 
 ### Elektroner binder seg til atomkjernene
-Etter 380 000 år (nyere estimater sier 375 000 $\pm$ 3 000 år) så var temperaturen i universet ganske nøyaktig 3000 K. Det vil si at universet var tilstrekkelig avkjølt til at elektroner kunne binde seg til atomkjerner. *Vi fikk altså de første atomene i universet!* Dette gjorde også at [[Kunnskap/Foton\|fotoner]] ([[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]) kunne begynne å spre seg (tidligere var det så varmt og tett at reaksjonen hvor protoner og elektroner slår seg sammen til hydrogen ville gått i begge retninger, $\ce{p^{+} + e^{-} <=> H + \gamma}$. Fotonene ville bare kollidert i elektroner og slått dem løs fra hydrogenatomene igjen). All strålingen som var «fanget» slapp nå fri og ble sendt ut som infrarød stråling til et objekt med temperatur 3000 K. Det er denne strålingen vi kaller for [[Kunnskap/Kosmisk bakgrunnsstråling\|Kosmisk bakgrunnsstråling]].
+Etter 380 000 år (nyere estimater sier 375 000 $\pm$ 3 000 år) så var temperaturen i universet ganske nøyaktig 3000 K. Det vil si at universet var tilstrekkelig avkjølt til at elektroner kunne binde seg til atomkjerner. *Vi fikk altså de første **atomene** i universet!* Dette gjorde også at [[Kunnskap/Foton\|fotoner]] ([[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]) kunne begynne å spre seg (tidligere hadde universet vært for varmt og tett til at dette var mulig[^3]). All strålingen som var «fanget» slapp nå fri og ble sendt ut som infrarød stråling til et objekt med temperatur 3000 K. Det er denne strålingen vi kaller for [[Kunnskap/Kosmisk bakgrunnsstråling\|Kosmisk bakgrunnsstråling]].
 
 ## Observasjoner som støtter Big bang-teorien
 
@@ -91,7 +91,7 @@ Den nåværende beregningen av Hubblekonstanten
 
 
 ### Elektroner binder seg til atomkjernene
-Etter 380 000 år (nyere estimater sier 375 000 $\pm$ 3 000 år) så var temperaturen i universet ganske nøyaktig 3000 K. Det vil si at universet var tilstrekkelig avkjølt til at elektroner kunne binde seg til atomkjerner. *Vi fikk altså de første atomene i universet!* Dette gjorde også at [[Kunnskap/Foton\|fotoner]] ([[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]) kunne begynne å spre seg (tidligere var det så varmt og tett at reaksjonen hvor protoner og elektroner slår seg sammen til hydrogen ville gått i begge retninger, $\ce{p^{+} + e^{-} <=> H + \gamma}$. Fotonene ville bare kollidert i elektroner og slått dem løs fra hydrogenatomene igjen). All strålingen som var «fanget» slapp nå fri og ble sendt ut som infrarød stråling til et objekt med temperatur 3000 K. Det er denne strålingen vi kaller for [[Kunnskap/Kosmisk bakgrunnsstråling\|Kosmisk bakgrunnsstråling]].
+Etter 380 000 år (nyere estimater sier 375 000 $\pm$ 3 000 år) så var temperaturen i universet ganske nøyaktig 3000 K. Det vil si at universet var tilstrekkelig avkjølt til at elektroner kunne binde seg til atomkjerner. *Vi fikk altså de første **atomene** i universet!* Dette gjorde også at [[Kunnskap/Foton\|fotoner]] ([[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]) kunne begynne å spre seg (tidligere hadde universet vært for varmt og tett til at dette var mulig[^3]). All strålingen som var «fanget» slapp nå fri og ble sendt ut som infrarød stråling til et objekt med temperatur 3000 K. Det er denne strålingen vi kaller for [[Kunnskap/Kosmisk bakgrunnsstråling\|Kosmisk bakgrunnsstråling]].
 
 
 </div></div>
@@ -137,3 +137,4 @@ Les mer om big bangs forutsigelser hos [Wikipedia](https://en.m.wikipedia.org/wi
 
 [^1]: Læreboka Natufag 5 påstår av inflasjonen starter etter plancktiden $10^{-43}$ s, men det klarer jeg ikke finne andre kilder på.
 [^2]: Læreboka Naturfag 5 påstår at utvidelsen er en faktor $10^{43}$, men jeg forholder meg til [Wikipedia](https://en.wikipedia.org/wiki/Expansion_of_the_universe) akkurat her.
+[^3]: tidligere var det så varmt og tett at reaksjonen hvor protoner og elektroner slår seg sammen til hydrogen ville gått i begge retninger, $\ce{p^{+} + e^{-} <=> H + \gamma}$. Fotonene ville bare kollidert i elektroner og slått dem løs fra hydrogenatomene igjen
