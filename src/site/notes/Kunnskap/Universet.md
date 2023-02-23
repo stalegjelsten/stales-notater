@@ -7,7 +7,7 @@
 >[!warning] Det observerbare universet
 >Dette notatet kommer kun til å dreie seg om det observerbare universet. Det kan være universet et uendelig stort på utsiden av det observerbare området, men det vil vi aldri kunne vite.
 
-Universet er nesten 13,8 milliarder år gammelt og vårt univers ble til ved [[Kunnskap/Big bang\|Big bang]]. Universet inneholder all stråling, energi og materie. Vi regner med at universet består av omtrent 5 % [[Kunnskap/Baryon\|baryonisk]] materie (protoner og nøytroner som vi og alle andre planeter og stjerner består av), mens omtrent 26 % er [[Mørk materie\|mørk materie]] og 69 % [[Mørk energi\|mørk energi]]. Universet er tilnærmet flatt – det forteller oss at utivdelsen av universet en dag vil stoppe opp.
+Universet er nesten 13,8 milliarder år gammelt og vårt univers ble til ved [[Kunnskap/Big bang\|Big bang]]. Universet inneholder all stråling, energi og materie. Vi regner med at universet består av omtrent 5 % [[Kunnskap/Baryon\|baryonisk]] materie (protoner og nøytroner som vi og alle andre planeter og stjerner består av), mens omtrent 26 % er [[Mørk materie\|mørk materie]] og 69 % [[Kunnskap/Mørk energi\|mørk energi]]. Universet er tilnærmet flatt – det forteller oss at utivdelsen av universet en dag vil stoppe opp.
 >[!celebrate]
 >I have to try this
 
