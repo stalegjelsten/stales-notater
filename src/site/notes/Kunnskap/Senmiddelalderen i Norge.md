@@ -143,7 +143,7 @@ Luthers kirkeretningen er siden blitt kalt protestantisme og kjennetegnes av:
 ## Reformasjonen i det tysk-romerske riket
 I [[Kunnskap/Det tysk-romerske riket\|Det tysk-romerske riket]] var det veldig mange småstater med hver sin småfyrste. Disse var igjen samlet under en keiser. Det var mange fyrster som nå så at de kunne overta store eiendommer fra Kirka dersom de støttet Luther. Det var også mange bønder som støttet Luther. Noen av disse var enda mer radikale enn Luther og krevde en omstrukturering av samfunnet hvor det ikke skulle være rike godseiere som eide all jorda. Luther mente at datidens samfunnssystem var gitt fra Gud, og at det ikke burde endres.
 
-I [[Freden i Augsburg 1555\|Freden i Augsburg 1555]] ble det slått fast av hver fyrste skulle kunne bestemme religionen i sin egen stat. Den tysk-romerske keiseren forble katolsk, men mange stater, spesielt i nordvest, ble protestantiske.
+I [[Kunnskap/Freden i Augsburg 1555\|Freden i Augsburg 1555]] ble det slått fast av hver fyrste skulle kunne bestemme religionen i sin egen stat. Den tysk-romerske keiseren forble katolsk, men mange stater, spesielt i nordvest, ble protestantiske.
 
 ## Kalvinisme
 
