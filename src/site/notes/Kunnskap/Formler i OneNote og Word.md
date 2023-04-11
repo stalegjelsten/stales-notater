@@ -46,6 +46,7 @@ Klarer ikke finne noen tastatursnarvei.
 	- $\cup$ `\cup`
 	- $\cap$ `\cap`
 	- $\setminus$ `\setminus`
+- Uendelig ($\infty$): `\oo` eller `\infty`
 - Tavle-fet skrift som tallmengder ($\mathbb{R}$): `\DoubleR`
 
 ## Smarte tips
