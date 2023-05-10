@@ -22,6 +22,7 @@ Fikk Nobelprisen i fysikk i 1921 for oppdagelsen av [[Fotoelektrisk effekt\|Foto
 - [[Fotoelektrisk effekt\|Fotoelektrisk effekt]]
 ## Bøker
 
+{ .block-language-dataview}
 
 #### Related
 [[Kunnskap/Universet i et nøtteskall av Stephen Hawking\|Universet i et nøtteskall av Stephen Hawking]]
