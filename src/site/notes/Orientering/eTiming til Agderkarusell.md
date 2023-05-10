@@ -66,11 +66,11 @@ Hovedprinsipp: **Bruk samme løypenummer i innbydelse, Purple Pen og eTiming**
 I innbydelsene i 2023 så er løype 5 den lengste løypa og løype 1 er N-åpen.
 
 ### Klargjøring av løyper i Purple Pen
-- Løyperekkefølgen i Purple Pen må være stigende. Altså skal løype 1 (N-åpen ligge lengst til venstre). Endre rekkefølgen med menyvalget `Løyper → Løyperekkefølge`.
-- Løypene må inneholde løypenummeret i navnet. Du kan gjerne kalle dem `Løype 1`, `Løype 2` osv.
+- Løyperekkefølgen i Purple Pen må være stigende. Altså skal løype 1 (N1 / N-åpen) ligge lengst til venstre. Endre rekkefølgen med menyvalget `Løyper → Løyperekkefølge`.
+- Løypene **må** inneholde løypenummeret i navnet. Du kan gjerne kalle dem `Løype 1`, `Løype 2` osv.
 - Hver løype **må** inneholde klasselista. Denne legger du inn under `Løype → Egenskaper` i feltet `Klasseliste / sekundær tittel`. Klasselista skal inneholde *navnet på hver klasse adskilt med komma*. *Det er svært viktig at navnene på klassene skrives på nøyaktig samme måte som i Eventor*, det vil som oftest si `D 11-12` med mellomrom mellom kjønnsbokstaven og aldergruppa.
 - Eksporter `.xml` fil med `Fil → Lag IOF XML-fil`. **Velg IOF XML 3.0** som filtype i `Lagre som`-dialogboksen som hopper opp.
-- Lagre også Purple Pen fila slik at du kan laste opp til [[Livelox\|Livelox]].
+- Lagre også Purple Pen fila slik at du kan laste opp til [[Orientering/Livelox\|Livelox]].
 
 ### eTiming import
 - `Fil → Importer → Poster og løyper` (eller bruk venstremenyen)
@@ -81,6 +81,9 @@ I innbydelsene i 2023 så er løype 5 den lengste løypa og løype 1 er N-åpen.
 - Dobbeltsjekk at løypene nå har riktig løypekode sammenlignet med løypenummer i innbydelse.
 - Åpne klasse-oversikten og sjekk at hver klasse har fått riktige løypenummer.
 - Tildel løyper til alle løpere ved å åpne klasse-oversikten og gå til menyvalget `Klasse → Oppdater løypenr på løpere`
+
+## Last opp startliste
+Gå til menyvalget `Data → Datautveksling eventor` og last opp startliste til Eventor. Sjekk på Eventor at den ser korrekt ut.
 
 ## Etteranmeldinger på løpet
 Legg inn etteranmeldte på løpet ved å åpne løper-oversikten. 
@@ -118,6 +121,7 @@ Hvis du heller ønsker å slette løperne med en SQL-kommando så vil følgende 
 delete from name where status like '[IVN]';
 ```
 
+### Generer fakturaer
 Generer fakturaer ved å åpne `Klubber` og deretter gå til menyvalg `Skriv ut → Kontingentrapport → Lagre hver faktura som egen pdf`. PDFer med fakturaer lagres nå i samme katalog som eTiming-databasefila. Du kan åpne denne katalogen ved å trykke på filbanen nederst i eTimingvinduet.
 ![filbane-etiming.png](/img/user/_resources/filbane-etiming.png)
 
@@ -137,6 +141,8 @@ update name set feelevel = 3 where year(date()) - year(fodt) < 17;
 
 update name set feelevel = 1 where (fodt is null) or (year(date()) - year(fodt) >= 17);
 ```
+
+Faktura PDFene sendes til kasserer på [okonomi@kok.no](mailto:okonomi@kok.no). PDFene *bør* ha arrangementets navn og dato + mottakerklubb i filnavnet.
 
 ## Løpsrapport
 Etter løpet skal man levere løpsrapport til Norges Orienteringsforbund. Denne leveres digitalt i Eventor. Etter å ha lastet opp resultatlistene vil du i arrangementssiden i Eventor se at neste steg er å levere løpsrapporten. Jeg anbefaler du gjør deg ferdig med [[Orientering/eTiming til Agderkarusell#Fakturering\|#Fakturering]] og [[Orientering/eTiming til Agderkarusell#Slett ikke startede løpere\|sletter ikke startede løpere]] før du genererer løpsrapporten. På den måten blir antallet løpere som betaler kontingent korrekt, og antallet vi skal betale løpsavgift for til NOF blir korrekt.
