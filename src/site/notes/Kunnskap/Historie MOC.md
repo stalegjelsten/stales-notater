@@ -125,7 +125,7 @@
 | [[Evernote import/Eksamensoppgaver 2015\|Eksamensoppgaver 2015]]                                                                                                            | <ul><li>historie</li><li>hi100</li></ul>                     | January 24, 2023   |
 | [[Excalidraw/Folketall Norge i dansketida\|Folketall Norge i dansketida]]                                                                                                   | <ul><li>historie</li></ul>                                   | May 10, 2023       |
 | [[Kunnskap/Senmiddelalderen i Norge\|Senmiddelalderen i Norge]]                                                                                                             | <ul><li>historie</li></ul>                                   | January 26, 2023   |
-| [[Kunnskap/Dansketiden\|Dansketiden]]                                                                                                                                       | <ul><li>historie</li></ul>                                   | May 10, 2023       |
 | [[Kunnskap/Tidslinje historie\|Tidslinje historie]]                                                                                                                         | <ul><li>historie</li></ul>                                   | May 10, 2023       |
+| [[Kunnskap/Dansketiden\|Dansketiden]]                                                                                                                                       | <ul><li>historie</li></ul>                                   | May 10, 2023       |
 
 { .block-language-dataview}
