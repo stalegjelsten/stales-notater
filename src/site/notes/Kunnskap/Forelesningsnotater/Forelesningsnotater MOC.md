@@ -55,3 +55,4 @@
 | [[Kunnskap/Forelesningsnotater/2015-11-24 Oppsummerende forelesning Sætra\|2015-11-24 Oppsummerende forelesning Sætra]]                                                     | <ul><li>historie</li><li>hi110</li><li>forelesning</li></ul> | November 24, 2015  |
 | [[Kunnskap/Forelesningsnotater/Forelesningsnotater MOC\|Forelesningsnotater MOC]]                                                                                           | <ul><li>historie</li><li>forelesning</li></ul>               | January 24, 2023   |
 
+{ .block-language-dataview}
