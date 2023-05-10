@@ -34,13 +34,13 @@ I [[Orientering/eTiming\|eTiming]] velger du menyvalget `Data → Datautveksling
 Vi er nødt til å gjøre noen endringer på klassene:
 - Vi ønsker å bruke brikketid og fristart i alle klasser.
 - N1 / N-åpen skal ha urangert resultatliste uten tider. 
-- ~~~D/H-10 skal ha urangert resultatliste.~~~ (*I 2023 finnes ikke D/H-10 i Agderkarusellen så du kan se bort denne foreløpig*)
+- D/H-10 skal ha urangert resultatliste. (*I 2023 finnes ikke D/H-10 i Agderkarusellen så du kan se bort fra denne*)
 - Åpne løyper bør ha kjønnskode `X` for å unngå feilmeldinger hele tiden
 - Du må selv vurdere om D1 og H1 skal ha rangerte tider. Hvis det er barn under 10 år i disse klassen så anbefaler jeg at du flytter dem over til N1 slik at de kommer på en resultatliste uten tid.
 
 Du kan sette alle disse valgene for klasse manuelt, eller du kan gjøre det automatisk ved hjelp av SQL-spørringer.
 
-For å bruke SQL åpner du menyvalget `Ønsker → Spørring`. Nedenfor finner du tre spørringer – du er **nødt til å kjøre dem separat**. Kopier den første linjen nedenfor lim inn i SQL-vinduet (ta bort teksten `sql` i vinduet hvis det står der allerede) og trykk på `Kjør spørring` knappen. Gjenta for de neste linjene. *I 2023 så finnes ikke klasse D/H-10 i Agderkarusellen, du trenger derfor ikke kjøre den tredje spørringen.*
+For å bruke SQL åpner du menyvalget `Diverse → Spørring`. Nedenfor finner du tre spørringer – du er **nødt til å kjøre dem separat**. Kopier den første linjen nedenfor lim inn i SQL-vinduet (ta bort teksten `sql` i vinduet hvis det står der allerede) og trykk på `Kjør spørring` knappen. Gjenta for de neste linjene. *I 2023 så finnes ikke klasse D/H-10 i Agderkarusellen, du trenger derfor ikke kjøre den tredje spørringen.*
 
 ```sql
 update class set sex = 'X', freestart = True, direct = True;
@@ -85,7 +85,7 @@ Bruk [[Orientering/LiveRes for etiming\|LiveRes]] for å publisere liveresultate
 Publiser resultater etter løpet via `Data → Datautveksling eventor` og last opp resultatliste. Når du først er inne i `Datautveksling eventor` kan det være lurt å hente ned `Klubber og navn for direktepåmelding` for klubber i Agder slik adressene på fakturaene blir riktig. 
 
 ## Fakturering
-Opprett kobling mellom kontingenter i etiming og Eventor ved `Data → Eventor kontingenter`. I kolonnen `eTiming kontingentnivå 1,2,3` skriver du `1` for voksen påmeldingsavgift og `3` for ungdom.
+Opprett kobling mellom kontingenter i etiming og Eventor ved `Data → Eventor kontingenter`. I kolonnen `eTiming kontingentnivå 1,2,3` skriver du `1` for voksen påmeldingsavgift og `3` for ungdom. Husk å trykke på knappen `Oppdater etiming` i bunnen av dialogboksen for å gjøre endringene gjeldende for løperne.
 
 Generer fakturaer ved å åpne `Klubber` og deretter gå til menyvalg `Skriv ut → Kontingentrapport → Lagre hver faktura som egen pdf`. PDFer med fakturaer lagres nå i samme katalog som eTiming-databasefila. Du finner denne ved å trykke på filbanen nederst i eTimingvinduet.
 ![filbane-etiming.png](/img/user/_resources/filbane-etiming.png)
