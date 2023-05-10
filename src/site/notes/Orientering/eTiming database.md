@@ -4,7 +4,15 @@
 
 
 # eTiming database
-Databasen til [[Orientering/eTiming\|eTiming]] er i MS Access format (`.mdb`) og kan åpnes i programmet [MDB Viewer plus](http://www.alexnolan.net/software/mdb_viewer_plus.htm) og du kan kjøre spørringer fra [[Orientering/eTiming\|eTiming]] ved å bruke Diverse → Spørring
+Databasen til [[Orientering/eTiming\|eTiming]] er i MS Access format (`.mdb`) og kan åpnes i programmet [MDB Viewer plus](http://www.alexnolan.net/software/mdb_viewer_plus.htm). MDB Viewer kan både lese og skrive til database, samt utføre spørringer. Du kan også kjøre spørringer fra [[Orientering/eTiming\|eTiming]] ved å bruke `Diverse → Spørring`.
+
+## Databasens oppbygning med babeller
+- `name` er tabellen med alle løpere
+- `class` er tabellen med klasser
+- `cource` er tabellen med løyper
+- `team` er tabellen med klubber
+- `ecard` er tabellen med stemplinger
+- `controls` er tabellen med alle poster
 
 ## Smarte tips
 
@@ -35,11 +43,3 @@ update name set feelevel = 3 where year(date()) - year(fodt) < 17;
 update name set feelevel = 1 where fodt is null;
 update name set feelevel = 1 where year(date()) - year(fodt) >= 17;
 ```
-
-## Tabeller
-- `name` er tabellen med alle løpere
-- `class` er tabellen med klasser
-- `cource` er tabellen med løyper
-- `team` er tabellen med klubber
-- `ecard` er tabellen med stemplinger
-- `controls` er tabellen med alle poster
