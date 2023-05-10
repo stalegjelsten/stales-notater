@@ -32,8 +32,7 @@ Klarer ikke finne noen tastatursnarvei.
 ## Nyttige kommandoer og tegn
 - Brøkstrek $\frac{a}{b}$: skriv `/` og mellomrom. Det er enklest å lage brøkstreken før du skriver inn telleren og nevneren.
 - Gangetegn $\cdot$ : skriv `\cdot`
-- Dobbel understrek: `\underbar(\underbar(x=3))`
-- Alternativ dobbel understrek: skriv svaret ditt i en parentes, f.eks. `(x=3)` og etterfølg umiddelbart med to stk `\ubar`. Du trenger noen mellomrom for at det skal fomateres pent.
+- Dobbel understrek: skriv inn svaret in en parentes, f.eks `(x=3)\Ubar` og trykk mellomromtasten to ganger.
 - Eksponenter og indekser (superscript og subscript) $a_0^x$: skriv `a_0^x`
 - Uttrykk som eksponent $e^{x+1}$: skriv `a^(x+1)`
 - Kvadratrot: `\sqrt(x)`
@@ -45,14 +44,14 @@ Klarer ikke finne noen tastatursnarvei.
 	- $\in$ `\in`
 	- $\cup$ `\cup`
 	- $\cap$ `\cap`
+	- $\vee$ `\vee`
+	- $\wedge$ `\wedge`
 	- $\setminus$ `\setminus`
-- Uendelig ($\infty$): `\oo` eller `\infty`
 - Tavle-fet skrift som tallmengder ($\mathbb{R}$): `\DoubleR`
 
 ## Smarte tips
+- Store parenteser (f.eks. hvis du skal nøste flere parenteser eller sette inn grenser for integrasjon) `\left[ x^2 \right]_0^4` gir $\left[ x^2 \right]_0^4$ og `\left( ((x)^m^n)/(2) \right)^p` gir $\left( \frac{(x^m)^n}{2} \right)^p$
 - Delt funksjonsuttrykk: `{ \cases(x:=5,x<3@x:=8,x>=3) \close`
-- `\sqrt(5&a^2)<space>` gir $\sqrt[5]{a^2}$
-- Store parenteser (f.eks. hvis du skal nøste flere parenteser eller sette inn grenser for integrasjon) `\left[ x^2 \right]_0^4` gir $\left[ x^2 \right]_0^4$ og `\left( ((x)^m^n)/(2) \right)^n` gir $\left( \frac{(x^m)^n}{2} \right)^p$
 - Equationarray for å skrive over flere linjer: `\eqarray(x+1&=2@1+2+3+y&=z@3/x&=6)<space>`
 	- Her angir `&` hvor hvilket tegn man skal justere etter (det er vanlig å bruke `&=` slik at =-tegnene kommer under hverandre.)
 	- `@` angir linjeskift.
@@ -63,3 +62,8 @@ x+1 &= 2\\
 1+2+3+y &= z\\
 x &= 6
 \end{align*}$$
+
+### Ressurser
+[Igal Khitrons nyttige oversikt](https://www.cs.bgu.ac.il/~khitron/Equation%20Editor.pdf)
+
+![[Equation Editor.pdf]]
