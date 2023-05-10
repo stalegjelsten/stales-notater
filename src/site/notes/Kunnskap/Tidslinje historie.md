@@ -22,6 +22,8 @@
 - [[Opplysningstiden\|Opplysningstiden]]
 - [[Kunnskap/Forelesningsnotater/Den industrielle revolusjon\|Den industrielle revolusjon]]
 - [[Kunnskap/Revolusjonstid\|Revolusjonstid]]
+- [[Norge 1814\|Norge 1814]]
+- [[Det moderne Norge tar form\|Det moderne Norge tar form]]
 - [[Imperialismen\|Imperialismen]]
 - [[Første verdenskrig\|Første verdenskrig]]
 - [[Mellomkrigstida\|Mellomkrigstida]]
