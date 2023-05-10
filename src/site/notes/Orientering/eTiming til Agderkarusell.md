@@ -89,12 +89,12 @@ Legg inn etteranmeldte på løpet ved å åpne løper-oversikten.
 - Hvis løperen er en ungdom under 17 år anbefaler jeg også at du skriver inn en fødselsdato som er mindre enn 17 år siden i `Født`-boksen, f.eks. 1.1.2015. Dette gjør at løperen får riktig kontingentnivå hvis vi gjør en automatisk spørring senere (se [[Orientering/eTiming til Agderkarusell#Fakturering\|#Fakturering]]).
 
 ## Tidtaking under løpet
-Før løpet så starter du tidtakingsmodulen i eTiming og kobler til en MTR4 til avlesning. Nullstill MTR og synkroniser klokka fra PC til MTRen før du begynner å lese av brikker. [Guiden hos Agder o-krets fra 2019](http://www.orientering.no/media/filer_public/78/e3/78e35b05-4f16-4760-b6c4-edb28c884234/oppskrift_eventor_etiming_aaok_karusellen.pdf) har en god forklaring på hvordan du setter opp MTR.
+Før løpet så starter du tidtakingsmodulen i eTiming og kobler til en MTR4 til avlesning. Nullstill MTR og synkroniser klokka fra PC til MTRen før du begynner å lese av brikker. [Guiden hos Agder o-krets fra 2019](http://www.orientering.no/media/filer_public/78/e3/78e35b05-4f16-4760-b6c4-edb28c884234/oppskrift_eventor_etiming_aaok_karusellen.pdf) har en god forklaring på hvordan du setter opp MTR, åpner tidtakingen og behandler disk/problemer som oppstår gjennom løpet.
 
 Bruk [[Orientering/LiveRes for etiming\|LiveRes]] for å publisere liveresultater. 
 
 ## Resultater
-Publiser resultater etter løpet via `Data → Datautveksling eventor` og last opp resultatliste. Når du først er inne i `Datautveksling eventor` kan det være lurt å hente ned `Klubber og navn for direktepåmelding` for klubber i Agder slik adressene på fakturaene blir riktig. 
+Publiser resultater etter løpet via `Data → Datautveksling eventor` og last opp resultatliste. Når du først er inne i `Datautveksling eventor` kan det være lurt å hente ned `Klubber og navn for direktepåmelding` for klubber i Agder slik adressene på fakturaene blir riktige. 
 
 ## Fakturering
 
@@ -121,19 +121,19 @@ Generer fakturaer ved å åpne `Klubber` og deretter gå til menyvalg `Skriv ut 
 
 **Kontroller at beløpene stemmer**. Alle ungdommer skal nå stå med spesialkontingent 50 kr og alle voksne med 90 kr.
 
-Hvis ikke kontingentene er blitt riktige så kan du prøve med følgende SQL-spørringer. Disse gjør følgende:
+Hvis ikke kontingentene er blitt riktige så kan du prøve med SQL-spørringer nedenfor. Disse gjør følgende:
 - Setter kontingentnivå 1 til 90 kr for alle klasser
 - Setter kontingentnivå 3 (spesialkontingent) til 50 kr for alle klasser
 - Setter alle deltakere under 17 år til kontingentnivå 3 (spesialkontingent)
 - Setter alle deltakere uten fødselsdato eller minst 17 år gamle til kontingentnivå 1
 
-Husk: spørringene må kjøres separat fra `Diverse → Spørring`.
+Husk: spørringene må kjøres én-og-én fra `Diverse → Spørring`.
 
 ```sql
 update class set entryfee1 = 90, entryfee2 = 0, entryfee3 = 50;
 update name set feelevel = 3 where year(date()) - year(fodt) < 17;
-update name set feelevel = 1 where fodt is null;
-update name set feelevel = 1 where year(date()) - year(fodt) >= 17;
+
+update name set feelevel = 1 where (fodt is null) or (year(date()) - year(fodt) >= 17);
 ```
 
 ## Løpsrapport
