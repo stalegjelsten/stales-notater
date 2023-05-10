@@ -58,6 +58,8 @@ update class set timingtype = 1 where class like '%10%';
 
 ![etiming-sql.png](/img/user/_resources/etiming-sql.png)
 
+Se [[Orientering/eTiming database\|eTiming database]] for mer informasjon om databasens oppbygning og spørringer.
+
 ## Løyper og poster i Purple Pen og eTiming
 Hovedprinsipp: **Bruk samme løypenummer i innbydelse, Purple Pen og eTiming**
 
@@ -116,7 +118,7 @@ Hvis du heller ønsker å slette løperne med en SQL-kommando så vil følgende 
 delete from name where status like '[IVN]';
 ```
 
-Generer fakturaer ved å åpne `Klubber` og deretter gå til menyvalg `Skriv ut → Kontingentrapport → Lagre hver faktura som egen pdf`. PDFer med fakturaer lagres nå i samme katalog som eTiming-databasefila. Du finner denne ved å trykke på filbanen nederst i eTimingvinduet.
+Generer fakturaer ved å åpne `Klubber` og deretter gå til menyvalg `Skriv ut → Kontingentrapport → Lagre hver faktura som egen pdf`. PDFer med fakturaer lagres nå i samme katalog som eTiming-databasefila. Du kan åpne denne katalogen ved å trykke på filbanen nederst i eTimingvinduet.
 ![filbane-etiming.png](/img/user/_resources/filbane-etiming.png)
 
 **Kontroller at beløpene stemmer**. Alle ungdommer skal nå stå med spesialkontingent 50 kr og alle voksne med 90 kr.
