@@ -22,10 +22,25 @@ På 1600-tallet var all dyrkbar jord oppdyrket og eid. Det var derfor flere som 
 Borgerskapet skaffet seg enerett til å drive sagbruk mot slutten av 1600-tallet. Det gjorde at borgerskapet fikk store inntekter (og mer innflytelse), samt at kongen økte sine skatteinntekter. Borgerskapet vokste på denne måten på bekostning av adelen.
 
 ### Politiske forhold
+
+#### Adelsveldet 1536–1660
 Etter [[Kunnskap/Norgesparagrafen\|Norgesparagrafen]] skulle Norge være en dansk provins, men landet ble fremdeles styrt etter egne lover og kongen titulerte som kongen av Danmark og Norge. 
 
 Fra 1536–1660 ble landet styrt av det danske riksrådet og kongen. Kongen måtte forhandle med adelen i riksrådet i viktige saker, og denne perioden kalles derfor for *adelsveldet*. 
 
+##### Kirka
+Kirka mistet mye av sin politiske makt etter reformasjonen, siden de nå var underlagt kongen. Samtidig var det prestene som hadde den største daglige kontakten med bøndene, og det var her lover og kongelige påbud ble kunngjort. Prestene prøvde å lære opp bøndene i den nye protestantiske troen.
+
+##### Eliten
+Adelen døde nesten helt ut i Norge i løpet av 1600-tallet, men borgerskapet trådte frem. Borgere bodde byene og drev med handel eller håndverk. De kunne få enerett til å drive med flere næringer (blant annet sagbruk).
+
+Kongen ønsket mer handel (for å øke skatteinntektene sine). Han la derfor tilrette for å grunnlegge flere byer (Kristiansand, Arendal m.fl.). Borgerne krevde også politisk innflytelse
+
+*Embetsmenn* var utpekt av kongen til en stilling i staten, eksempler er borgermestere, sorenskrivere, tollere, prester og fogder. De var sentrale i statsapparatet i Norge.
+##### Militæret
+
+##### Bøndene
+#### Eneveldet 1660–1814
 >[!todo]
 >Fyll ut med eneveldet
 
