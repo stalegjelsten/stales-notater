@@ -7,3 +7,4 @@
 ## Bøker
 - [[Kunnskap/Universet i et nøtteskall av Stephen Hawking\|Universet i et nøtteskall av Stephen Hawking]]
 
+{ .block-language-dataview}
