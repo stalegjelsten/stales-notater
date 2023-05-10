@@ -29,7 +29,7 @@ Under `påmeldingsavgifter og frister` i Eventor så velger du `Rediger, avanser
 ![Pasted image 20230510155041.png](/img/user/_resources/Pasted%20image%2020230510155041.png)
 
 ## Last inn påmeldte i eTiming og fiks klasser
-I [[Orientering/eTiming\|eTiming]] velger du menyvalget `Resultat → Datautveksling eventor` og hent påmeldinger til løpet.
+I [[Orientering/eTiming\|eTiming]] velger du menyvalget `Data → Datautveksling eventor` og hent påmeldinger til løpet.
 
 Vi er nødt til å gjøre noen endringer på klassene:
 - Vi ønsker å bruke brikketid og fristart i alle klasser.
@@ -50,11 +50,6 @@ update class set timingtype = 1 where class like '%10%';
 
 ![etiming-sql.png](/img/user/_resources/etiming-sql.png)
 
-## Kontingenter
-Opprett kobling mellom kontingenter i etiming og Eventor ved Data → Eventor kontingenter og par sammen. I Eventor bør man kun bruke fixed beløp etteranmelding. Kontingentnivå 3 bør forbeholdes barn.
-
-Sorter løpere etter `fodt` og sett alle barn til laveste kontingentnivå.
-
 ## Løyper og poster i Purple Pen og eTiming
 Hovedprinsipp: **Bruk samme løypenummer i innbydelse, Purple Pen og eTiming**
 
@@ -65,6 +60,7 @@ I innbydelsene i 2023 så er løype 5 den lengste løypa og løype 1 er N-åpen.
 - Løypene må inneholde løypenummeret i navnet. Du kan gjerne kalle dem `Løype 1`, `Løype 2` osv.
 - Hver løype **må** inneholde klasselista. Denne legger du inn under `Løype → Egenskaper` i feltet `Klasseliste / sekundær tittel`. Klasselista skal inneholde navnet på hver klasse adskilt med komma. *Det er svært viktig at navnene på klassene skrives på nøyaktig samme måte som i Eventor*, det vil som oftest si `D 11-12` med mellomrom mellom kjønnsbokstaven og aldergruppa.
 - Eksporter `.xml` fil med `Fil → Lag IOF XML-fil`. **Velg IOF XML 3.0** som filtype i `Lagre som`-dialogboksen som hopper opp.
+- Lagre også Purple Pen fila slik at du kan laste opp til [[Livelox\|Livelox]].
 
 ### eTiming import
 - `Fil → Importer → Poster og løyper` (eller bruk venstremenyen)
@@ -75,3 +71,36 @@ I innbydelsene i 2023 så er løype 5 den lengste løypa og løype 1 er N-åpen.
 - Dobbeltsjekk at løypene nå har riktig løypekode sammenlignet med løypenummer i innbydelse.
 - Åpne Klasse-oversikten og sjekk at hver klasse har fått riktige løypenummer.
 - Tildel løyper til alle løpere ved å åpne klasse-oversikten og gå til menyvalget `Klass → Oppdater løypenr på løpere`
+
+## Etteranmeldinger på løpet
+>[!todo]
+>Skriv mer her! Husk spesielt å legge inn født år på ungdom
+>
+
+## Tidtaking under løpet
+Før løpet så starter du tidtakingsmodulen i eTiming og kobler til en MTR4 til avlesning. Nullstill MTR og synkroniser klokka fra PC til MTRen før du begynner å lese av brikker.
+
+Bruk [[Orientering/LiveRes for etiming\|LiveRes]] for å publisere liveresultater. 
+
+Publiser resultater etter løpet via `Data → Datautveksling eventor` og last opp resultatliste. Når du først er inne i `Datautveksling eventor` kan det være lurt å hente ned `Klubber og navn for direktepåmelding` for klubber i Agder slik adressene på fakturaene blir riktig. 
+
+## Fakturering
+Opprett kobling mellom kontingenter i etiming og Eventor ved `Data → Eventor kontingenter`. I kolonnen `eTiming kontingentnivå 1,2,3` skriver du `1` for voksen påmeldingsavgift og `3` for ungdom.
+
+Generer fakturaer ved å åpne `Klubber` og deretter gå til menyvalg `Skriv ut → Kontingentrapport → Lagre hver faktura som egen pdf`. PDFer med fakturaer lagres nå i samme katalog som eTiming-databasefila. Du finner denne ved å trykke på filbanen nederst i eTimingvinduet.
+![filbane-etiming.png](/img/user/_resources/filbane-etiming.png)
+
+**Kontroller at beløpene stemmer**. Alle ungdommer skal nå stå med spesialkontingent 50 kr og alle voksne med 90 kr.
+
+Hvis ikke kontingentene er blitt riktige så kan du prøve med følgende SQL-spørringer. Disse gjør følgende:
+- Setter kontingentnivå 1 til 90 kr
+- Setter kontingentnivå 3 (spesialkontingent) til 50 kr
+- Setter alle deltakere under 17 år til kontingentnivå 3 (spesialkontingent)
+- Setter alle deltakere uten fødselsdato eller minst 17 år gamle til kontingentnivå 1
+
+```sql
+update class set entryfee1 = 90, entryfee2 = 0, entryfee3 = 50;
+update name set feelevel = 3 where year(date()) - year(fodt) < 17;
+update name set feelevel = 1 where fodt is null;
+update name set feelevel = 1 where year(date()) - year(fodt) >= 17;
+```
