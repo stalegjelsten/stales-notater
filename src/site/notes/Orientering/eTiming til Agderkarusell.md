@@ -142,9 +142,9 @@ Etter løpet skal man levere løpsrapport til Norges Orienteringsforbund. Denne 
 Løpsrapporten består kun av antall løpere over og under 17 år. Du kan telle disse ganske enkelt selv i løper-oversikten (velg listevisning og sorter etter Født-kolonnen). Du kan også telle dem ved å bruke de to spørringene under. Husk: spørringene må kjøres separat fra `Diverse → Spørring`. Resultatet av spørringene er antallet startede over eller lik 17 år, og under 17 år.
 
 ```sql
-select count(*) from name where status not like '[IV]' and (year(date())-year(fodt) >= 17 or (fodt is null and class not like 'NOCLAS'));
+select count(*) from name where status like '[ABDSXZY]' and class not like 'NOCLAS' and ((year(date())-year(fodt) >= 17) or (fodt is null)) ;
 
-select count(*) from name where status not like '[IV]' and year(date())-year(fodt) < 17 and class not like 'NOCLAS';
+select count(*) from name where status like '[ABDSXZY]' and class not like 'NOCLAS' and year(date())-year(fodt) < 17;
 ```
 
 ## Kommentarer til guiden fra 2019
