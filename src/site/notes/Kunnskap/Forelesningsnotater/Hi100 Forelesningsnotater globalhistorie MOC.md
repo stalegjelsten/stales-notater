@@ -29,3 +29,4 @@ Min eksamensoppgave i emnet handlet om industrialiseringen i Asia på 1900-talle
 | [[Kunnskap/Forelesningsnotater/Hi100 Forelesningsnotater globalhistorie MOC\|Hi100 Forelesningsnotater globalhistorie MOC]]                                                 | <ul><li>historie</li><li>hi100</li></ul>                     | January 29, 2023   |
 | [[Kunnskap/Forelesningsnotater/Levert eksamen Hi100 globalhistorie UiA høst 2015\|Levert eksamen Hi100 globalhistorie UiA høst 2015]]                                       | <ul><li>eksamen</li><li>hi100</li><li>historie</li></ul>     | January 31, 2023   |
 
+{ .block-language-dataview}
