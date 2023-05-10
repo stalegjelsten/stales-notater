@@ -44,3 +44,4 @@ Min eksamensoppgave i dette emnet var [[Kunnskap/Eksamensoppgave om borgerkrigst
 | [[Kunnskap/Forelesningsnotater/2015-11-24 Oppsummerende forelesning Sætra\|2015-11-24 Oppsummerende forelesning Sætra]]                                                   | <ul><li>historie</li><li>hi110</li><li>forelesning</li></ul> | November 24, 2015  |
 | [[Kunnskap/Forelesningsnotater/Hi110 Forelesningsnotater eldre historie i Norge og Europa MOC\|Hi110 Forelesningsnotater eldre historie i Norge og Europa MOC]]           | <ul><li>historie</li><li>hi110</li></ul>                     | January 25, 2023   |
 
+{ .block-language-dataview}
