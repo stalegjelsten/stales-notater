@@ -29,13 +29,13 @@ Under `påmeldingsavgifter og frister` i Eventor så velger du `Rediger, avanser
 	2. Gjelder opptil 16 år. Marker alle klassene hvor vi kan finne ungdomsløpere (alle direkteløyper + alle klasser opp til og med 16 år). 
 	3. Sett kontingentrekkefølge til 3.
 
-![Pasted image 20230510155041.png](/img/user/_resources/Pasted%20image%2020230510155041.png)
+![eventor-kontingenter.png](/img/user/_resources/eventor-kontingenter.png)
 
 ## Last inn påmeldte i eTiming og fiks klasser
 I [[Orientering/eTiming\|eTiming]] velger du menyvalget `Data → Datautveksling eventor` og hent påmeldinger til løpet. Dette henter ned deltakere, klasser, klubber og informasjon om påmeldingskontingenter.
 
 ### Sette innstillinger for klassene
-Vi er nødt til å gjøre noen endringer på klassene slik at det blir riktig Agderkarusellen:
+Vi er nødt til å gjøre noen endringer på klassene slik at det blir riktig for Agderkarusellen:
 - Vi ønsker å bruke brikketid og fristart i alle klasser.
 - N1 / N-åpen skal ha urangert resultatliste uten tider. 
 - D/H-10 skal ha urangert resultatliste. (*I 2023 finnes ikke D/H-10 i Agderkarusellen så du kan se bort fra denne*)
