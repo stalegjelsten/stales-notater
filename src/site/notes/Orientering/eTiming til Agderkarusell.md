@@ -29,7 +29,7 @@ Under `påmeldingsavgifter og frister` i Eventor så velger du `Rediger, avanser
 	2. Gjelder opptil 16 år. Marker alle klassene hvor vi kan finne ungdomsløpere (alle direkteløyper + alle klasser opp til og med 16 år). 
 	3. Sett kontingentrekkefølge til 3.
 
-![eventor-kontingenter.png](/img/user/_resources/eventor-kontingenter.png)
+![/_resources/eventor-kontingenter.png](/img/user/_resources/eventor-kontingenter.png)
 
 ## Last inn påmeldte i eTiming og fiks klasser
 I [[Orientering/eTiming\|eTiming]] velger du menyvalget `Data → Datautveksling eventor` og hent påmeldinger til løpet. Dette henter ned deltakere, klasser, klubber og informasjon om påmeldingskontingenter.
@@ -56,7 +56,7 @@ update class set timingtype = 2 where class like 'N-%pen' or class = 'N1';
 update class set timingtype = 1 where class like '%10%';
 ```
 
-![etiming-sql.png](/img/user/_resources/etiming-sql.png)
+![/_resources/etiming-sql.png](/img/user/_resources/etiming-sql.png)
 
 Se [[Orientering/eTiming database\|eTiming database]] for mer informasjon om databasens oppbygning og spørringer.
 
@@ -114,7 +114,7 @@ Ikke startede løpere skal heller ikke betale startkontingent i Agderkarusellen.
 - Marker løperne du ønsker å slette ved å holde inne <kbd>shift</kbd> eller <kbd>ctrl</kbd>.
 - Trykk på slett-knappen.
 
-![Pasted image 20230510210142.png](/img/user/_resources/Pasted%20image%2020230510210142.png)
+![/_resources/etiming-merke-status.png](/img/user/_resources/etiming-merke-status.png)
 
 Hvis du heller ønsker å slette løperne med en SQL-kommando så vil følgende kommando slette alle med status Påmeldt, Ikke startet og Ledige.
 ```sql
