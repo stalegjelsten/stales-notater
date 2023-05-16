@@ -123,7 +123,7 @@ delete from name where status like '[IVN]';
 
 ### Generer fakturaer
 Generer fakturaer ved å åpne `Klubber` og deretter gå til menyvalg `Skriv ut → Kontingentrapport → Lagre hver faktura som egen pdf`. PDFer med fakturaer lagres nå i samme katalog som eTiming-databasefila. Du kan åpne denne katalogen ved å trykke på filbanen nederst i eTimingvinduet.
-![filbane-etiming.png](/img/user/_resources/filbane-etiming.png)
+![/_resources/filbane-etiming.png](/img/user/_resources/filbane-etiming.png)
 
 **Kontroller at beløpene stemmer**. Alle ungdommer skal nå stå med spesialkontingent 50 kr og alle voksne med 90 kr.
 
