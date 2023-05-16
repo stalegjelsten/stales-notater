@@ -121,6 +121,8 @@ Før spooling må du passe på at løypene er riktige (inkludert målpost). En f
 ![mtr-kommunikasjon.png](/img/user/_resources/mtr-kommunikasjon.png)
 Åpne tidtakervinduet, søk etter riktig port og åpne kommunikasjon med MTR.
 
+**Dersom klokka i MTR er feil så bør du velge `Spool data kun til logfil` og lese om [[Orientering/eTiming til sommercup#Endre tidspunkter i logfila\|#Endre tidspunkter i logfila]]**
+
 ![refresh-ie.jpg](/img/user/_resources/refresh-ie.jpg)
 Trykk på ikonet med med grønne piler som går i ring. Dette er symbolet for å spoole tider.
 
@@ -130,6 +132,16 @@ Trykk `Hent status` for å finne ut hvilke løp og brikker som ligger i minnet p
 Du kan selv velge om du vil `Spool data kun til logfil`. Jeg pleier å ikke huke av på dette valget, på denne måten går brikketidene direkte inn i eTiming. Hvis du merker av for `Spool data kun til logfil` er du nødt til å lese inn tidene fra logfila ved å trykke på `LOG` knappen i tidtakingsvinduet.
 
 Dersom du spooler alle tider så vil de nyeste tidene med brikkene overskrive gamle tider med brikkene. Dersom du ikke har slettet tidene på MTR fra tidligere vil noen av dagens påmeldte deltakere som ikke har løpt få status DSQ. Dette skjer siden vi leser inn en gammel brikketid på dem.
+
+## Endre tidspunkter i logfila
+Hvis klokka i MTR er feil så vil start- og målgangstid til hver løper bli feil når man spooler. Dette gir krøll med [[Orientering/Livelox\|Livelox]]. Det er derfor lurt å fikse på tidspunktene i logfila før man leser den inn i eTiming.
+
+- Velg `Spool data kun til logfil` når du leser inn fra MTR. 
+- Finn ut hvor mange sekunder feil klokka på MTR er ved å lese av displayet og sammenligne med ei riktig klokke.
+- Gå til [verktøyet for å endre tidspunkter i logfila](https://stalegjelsten.github.io/mtr-date-modifier/)
+- Fyll inn infoen og lim inn all teksten fra logfila i tekstvinduet
+- Du kan nå laste ned en ny logfil med riktige tidspunkter
+- Les inn den nye logfila i eTiming med `LOG`-knappen i tidtakervinduet
 
 ## Videre lesning
 Det står en god del informasjon om spooling i [dokumentasjonen til eTiming](https://eqtiming.freshdesk.com/nb-NO/support/solutions/articles/19000138212-etiming-dokumentasjon-orientering), under kapittel 4 *Hente data fra MTR*.
