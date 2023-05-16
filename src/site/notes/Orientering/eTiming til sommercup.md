@@ -116,15 +116,15 @@ Du kan telle disse ganske enkelt selv i løper-oversikten (velg listevisning og 
 
 ```sql
 --Løpere over 21 år ↓
-select count(*) from name where status like '[ABDSXZY]' and class not like 'NOCLAS' and ((year(date())-year(fodt) >= 21) or (fodt is null));
+select count(*) from name where status like '[ABDSXZY]' and class not like 'NOCLAS' and (year(date())-year(fodt) >= 21);
 
---Løpere over mellom 17 og 20 år ↓
+--Løpere mellom 17 og 20 år ↓
 select count(*) from name where status like '[ABDSXZY]' and class not like 'NOCLAS' and year(date())-year(fodt) < 21 and year(date())-year(fodt) >= 17;
 
---Løpere over mellom 13 og 16 år ↓
+--Løpere mellom 13 og 16 år ↓
 select count(*) from name where status like '[ABDSXZY]' and class not like 'NOCLAS' and year(date())-year(fodt) < 17 and year(date())-year(fodt) >= 13;
 
---Løpere over opp til og med 12 år ↓
+--Løpere opp til og med 12 år ↓
 select count(*) from name where status like '[ABDSXZY]' and class not like 'NOCLAS' and year(date())-year(fodt) < 13;
 
 --Løpere med ukjent alder ↓
