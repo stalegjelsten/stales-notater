@@ -91,7 +91,7 @@ Legg inn etteranmeldte på løpet ved å åpne løper-oversikten.
 - Fyll inn navn, klasse, klubb og brikkenr. 
 	- Hvis løperen skal låne brikke så kan du trykke på avkrysningsboksen merket `Brikke`. Da blir løperen merket med blå farge når hen kommer i mål slik at du vet at du skal samle inn leiebrikken igjen.
 - Sett det nederste feltet som heter `Kontingent` til 1 hvis det er en voksen og til 3 hvis det er ungdom under 17 år. 
-- Hvis løperen er en ungdom under 17 år anbefaler jeg også at du skriver inn en fødselsdato som er mindre enn 17 år siden i `Født`-boksen, f.eks. 1.1.2015. Dette gjør at løperen får riktig kontingentnivå hvis vi gjør en automatisk spørring senere (se [[Orientering/eTiming til Agderkarusell#Fakturering\|#Fakturering]]).
+- Det er veldig lurt å skrive inn en **fødselsår** i `Født`-boksen slik at vi både får riktig kontingentnivå (se [[Orientering/eTiming til Agderkarusell#Fakturering\|#Fakturering]]) og riktige aldergrupper til [[Orientering/eTiming til Agderkarusell#Løpsrapport\|løpsrapporten]].
 
 ## Tidtaking under løpet
 Før løpet så starter du tidtakingsmodulen i eTiming og kobler til en MTR4 til avlesning. Nullstill MTR og synkroniser klokka fra PC til MTRen før du begynner å lese av brikker. [Guiden hos Agder o-krets fra 2019](http://www.orientering.no/media/filer_public/78/e3/78e35b05-4f16-4760-b6c4-edb28c884234/oppskrift_eventor_etiming_aaok_karusellen.pdf) har en god forklaring på hvordan du setter opp MTR, åpner tidtakingen og behandler disk/problemer som oppstår gjennom løpet.
@@ -147,12 +147,31 @@ Faktura PDFene sendes til kasserer på [okonomi@kok.no](mailto:okonomi@kok.no). 
 ## Løpsrapport
 Etter løpet skal man levere løpsrapport til Norges Orienteringsforbund. Denne leveres digitalt i Eventor. Etter å ha lastet opp resultatlistene vil du i arrangementssiden i Eventor se at neste steg er å levere løpsrapporten. Jeg anbefaler du gjør deg ferdig med [[Orientering/eTiming til Agderkarusell#Fakturering\|#Fakturering]] og [[Orientering/eTiming til Agderkarusell#Slett ikke startede løpere\|sletter ikke startede løpere]] før du genererer løpsrapporten. På den måten blir antallet løpere som betaler kontingent korrekt, og antallet vi skal betale løpsavgift for til NOF blir korrekt.
 
-Løpsrapporten består kun av antall løpere over og under 17 år. Du kan telle disse ganske enkelt selv i løper-oversikten (velg listevisning og sorter etter Født-kolonnen). Du kan også telle dem ved å bruke de to spørringene under. Husk: spørringene må kjøres separat fra `Diverse → Spørring`. Resultatet av spørringene er antallet startede over eller lik 17 år, og under 17 år.
+Du trenger å finne ut antall løpere i ulike aldergrupper for å levere inn løpsrapporten:
+- Fra og med 21 år
+- 17–20 år
+- 13–16 år
+- Til og med 12 år
+- Småtroll
+- Ukjent alder
+
+Du kan telle disse ganske enkelt selv i løper-oversikten (velg listevisning og sorter etter Født-kolonnen). Du kan også telle dem ved å bruke de to spørringene under. Husk: spørringene må kjøres separat fra `Diverse → Spørring`. Resultatet av spørringene er antallet startede i hver alderkategori.
 
 ```sql
-select count(*) from name where status like '[ABDSXZY]' and class not like 'NOCLAS' and ((year(date())-year(fodt) >= 17) or (fodt is null)) ;
+--Løpere over 21 år ↓
+select count(*) from name where status like '[ABDSXZY]' and class not like 'NOCLAS' and ((year(date())-year(fodt) >= 21) or (fodt is null));
 
-select count(*) from name where status like '[ABDSXZY]' and class not like 'NOCLAS' and year(date())-year(fodt) < 17;
+--Løpere mellom 17 og 20 år ↓
+select count(*) from name where status like '[ABDSXZY]' and class not like 'NOCLAS' and year(date())-year(fodt) < 21 and year(date())-year(fodt) >= 17;
+
+--Løpere mellom 13 og 16 år ↓
+select count(*) from name where status like '[ABDSXZY]' and class not like 'NOCLAS' and year(date())-year(fodt) < 17 and year(date())-year(fodt) >= 13;
+
+--Løpere opp til og med 12 år ↓
+select count(*) from name where status like '[ABDSXZY]' and class not like 'NOCLAS' and year(date())-year(fodt) < 13;
+
+--Løpere med ukjent alder ↓
+select count(*) from name where status like '[ABDSXZY]' and class not like 'NOCLAS' and fodt is null) ;
 ```
 
 ## Kommentarer til guiden fra 2019
