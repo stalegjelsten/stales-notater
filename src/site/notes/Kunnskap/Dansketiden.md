@@ -19,7 +19,7 @@ Mange bønder gikk fra å være leilendinger til å bli selveiere (se avsnittet 
 På 1600-tallet var all dyrkbar jord oppdyrket og eid. Det var derfor flere som ikke hadde mulighet til å eie egen jord – disse ble kalt husmenn. De leide en husmannsplass av en bonde, og måtte betale penger eller arbeid til boden. De hadde få rettigheter, og etter 1814 så fikk de heller ikke stemmerett slik bondeselveierene fikk.
 
 #### Borgerskapet
-Borgerskapet skaffet seg enerett til å drive sagbruk mot slutten av 1600-tallet. Det gjorde at borgerskapet fikk store inntekter (og mer innflytelse), samt at kongen økte sine skatteinntekter. Borgerskapet vokste på denne måten på bekostning av adelen.
+Borgerskapet skaffet seg enerett til å drive sagbruk mot slutten av 1600-tallet. Det gjorde at borgerskapet fikk store inntekter (og mer innflytelse), samt at kongen økte sine skatteinntekter. Borgerskapet vokste på denne måten fram på bekostning av adelen.
 
 ### Politiske forhold
 
@@ -37,9 +37,11 @@ Adelen døde nesten helt ut i Norge i løpet av 1600-tallet, men borgerskapet tr
 Kongen ønsket mer handel (for å øke skatteinntektene sine). Han la derfor tilrette for å grunnlegge flere byer (Kristiansand, Arendal m.fl.). Borgerne krevde også politisk innflytelse
 
 *Embetsmenn* var utpekt av kongen til en stilling i staten, eksempler er borgermestere, sorenskrivere, tollere, prester og fogder. De var sentrale i statsapparatet i Norge.
+
 ##### Militæret
 
 ##### Bøndene
+
 #### Eneveldet 1660–1814
 >[!todo]
 >Fyll ut med eneveldet
@@ -50,6 +52,8 @@ På 1500-tallet var Norge en *selvbergingsøkonomi*. Bøndene laget det meste de
 I løpet av dansketida begynner flere bønder ved å delta i *de nye næringene*, det vil si: [[Kunnskap/Dansketiden#Fiskeri\|#Fiskeri]], [[Kunnskap/Dansketiden#Trelasthandel\|#Trelasthandel]] og bergverk. På denne måten økte de sine inntekter betraktelig.
 
 #### Jordeiere
+
+#### De nye næringene
 I løpet av dansketiden så vi en dramatisk endring i fordelingen av jordeiendommer. 
 
 Kirken mistet mye av eiendommene sine etter reformasjonen, mens kongen økte sin andel fra 4 % i 1536 til 31 % i 1661. Andelen privat eiendom forholdt seg ganske lik.
@@ -60,12 +64,12 @@ Mot slutten av 1600-tallet så solgte kongen mye krongods i Norge for å finansi
 >![](https://alletidershistorie.cappelendamm.no/aim/cappelenprod/files/files/1/e/d/735026db1876a04ba319340c2c6585252931002955/1ed735026db1876a04ba319340c2c6585252931002955.jpg/Scale/?Scale:geometry=%3E3840x%3E)
 > Kilde: Alle tiders historie. Cappelen Damm
 
-#### Fiskeri
+##### Fiskeri
 Fiskerbønder drev både gårdsbruk og fiskeri. Fisket var sesongbasert, og mannen dro på havet i fiskesesongen mens barn og hustru drev gården.
 
 *Lofotfisket* var det viktigste fisket, og mye av fisken ble tørket og solgt til kjøpmenn i Trondheim og Bergen. Disse eksporterte fisken videre til Europa. *Baccala*/*Bacalao* er retter som ble tilberedt i Sør-Europa med norsk klippfisk (tørrfisk).
 
-#### Trelasthandel
+##### Trelasthandel
 Den viktigste nye næringen var trelasthandel. Tømmer var en svært ettertraktet handelsvare, spesielt til den enorme skipsbyggingen som foregikk i Norge og ellers i Europa. I Norge (og spesielt på Sørlandet) var det enkelt å hogge langs elvene og fløte tømmeret nedover på elva. Deretter ble tømmeret ført til sagbruk for å foredle tømmeret til plank ved hjelp av nye [[Kunnskap/Dansketiden#Sager\|#Sager]].
 
 Trefordelingen var sesongarbeid:
@@ -75,7 +79,7 @@ Trefordelingen var sesongarbeid:
 
 Trelasthandelen førte også til at Norge fikk en skipsfartsnæring. Mange borgere ønsket å eksportere tømmeret på egne skip istedenfor å selge til utlendinger som hentet tømmeret i Norge. Det ble derfor bygget mange norske skip i denne perioden.
 
-#### Bergverk
+##### Bergverk
 Etter funn av kobber ved Røros og sølv ved Kongsberg ble det etablert bergverk i Norge.
 
 ### Kulturelle forhold
@@ -85,7 +89,7 @@ Etter funn av kobber ved Røros og sølv ved Kongsberg ble det etablert bergverk
 #### Sager
 Det ble tatt i bruk mange [oppgangssager](https://snl.no/oppgangssag) som bruker vannkraft til å både føre et sagblad opp og ned, samt å flytte tømmerstokkene mot sagbladet. Dette gjorde man kunne sage opp tømmerstokker til planker og bjelker. Å gjøre råvarer til ferdige produkter kalles *foredling* og det øker både prisen og fortjenesten på produktene betraktelig.
 
-### Related
+## Related
 Forrige: [[Kunnskap/Senmiddelalderen i Norge\|Senmiddelalderen i Norge]]
 Neste: [[Norge 1814\|Norge 1814]]
 
