@@ -20,11 +20,11 @@ Påmeldingskontingenten har vært kr 0 for KOKs løpere og 30 kr for løpere fra
 
 ## Klasseoppsett, frister og kontingenter i Eventor
 Under `påmeldingsavgifter og frister` i Eventor så velger du `Rediger, avansert visning`. Bruk kun ett kontingentnivå (slett de andre).
-Navn på avgift: Påmeldingskontingent
-Beløp: 30 kr
-Til dato: Sett tidspunkt for påmeldingsfrist på Eventor
-Fra og til alder: La disse stå åpne
-Kontingentrekkefølge: sett denne til 20
+- Navn på avgift: Påmeldingskontingent
+- Beløp: 30 kr
+- Til dato: Sett tidspunkt for påmeldingsfrist på Eventor
+- Fra og til alder: La disse stå åpne
+- Kontingentrekkefølge: sett denne til 20
 
 ![påmeldingskontingenter-sommercup-eventor.png](/img/user/_resources/p%C3%A5meldingskontingenter-sommercup-eventor.png)
 
