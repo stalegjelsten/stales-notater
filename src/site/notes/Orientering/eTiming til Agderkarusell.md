@@ -48,12 +48,20 @@ Du kan sette disse valgene for klassene manuelt, eller du kan gjøre det automat
 For å gjøre det manuelt så velger `Bruk alltid brikketid` og `Fristart` for hver klasse. For klasse N1 så endrer du `Tidtakingstype` til `Ikke vis tid`. For klasser som kan vise tid, men som ikke skal være rangerte kan du velge `Tidtakingstype` til `Ikke rangert`.
 
 #### Gjøre endringer på klassene med SQL
-For å bruke SQL åpner du menyvalget `Diverse → Spørring`. Nedenfor finner du tre spørringer – du er **nødt til å kjøre dem separat**. Kopier den første linjen nedenfor lim inn i SQL-vinduet (ta bort teksten `sql` i vinduet hvis det står der allerede) og trykk på `Kjør spørring` knappen. Gjenta for de neste linjene. *I 2023 så finnes ikke klasse D/H-10 i Agderkarusellen, du trenger derfor ikke kjøre den tredje spørringen.*
+For å bruke SQL åpner du menyvalget `Diverse → Spørring`.  Kopier alle linjene nedenfor og lim inn i SQL-vinduet (ta bort teksten `sql` i vinduet hvis det står der allerede) og trykk på `Kjør spørring` knappen. Spørringen setter kjønnskoden til `X`, setter fristart og brikketid, samt påmeldingskontingenter 90 kr og 50 kr for alle klasser. Klasser med navn `N-åpen` eller `N1` blir satt som urangert resultatliste uten tider. Klasser med navn som inkluderer `10` blir satt som urangert resultatliste med tid.
 
 ```sql
-update class set sex = 'X', freestart = True, direct = True;
-update class set timingtype = 2 where class like 'N-%pen' or class = 'N1';
-update class set timingtype = 1 where class like '%10%';
+update class 
+	set 
+		sex = 'X', 
+		freestart = True, 
+		direct = True,
+		entryfee1 = 90,
+		entryfee2 = 0,
+		entryfee3 = 50,
+		timingtype = iif(
+			class like 'N-%pen' or class = 'N1', 2, iif(class like '%10%', 1, 0)
+		);
 ```
 
 ![/_resources/etiming-sql.png](/img/user/_resources/etiming-sql.png)
@@ -133,13 +141,17 @@ Hvis ikke kontingentene er blitt riktige så kan du prøve med SQL-spørringer n
 - Setter alle deltakere under 17 år til kontingentnivå 3 (spesialkontingent)
 - Setter alle deltakere uten fødselsdato eller minst 17 år gamle til kontingentnivå 1
 
-Husk: spørringene må kjøres én-og-én fra `Diverse → Spørring`.
+Husk: de to spørringene må kjøres én-og-én fra `Diverse → Spørring`.
 
 ```sql
 update class set entryfee1 = 90, entryfee2 = 0, entryfee3 = 50;
-update name set feelevel = 3 where year(date()) - year(fodt) < 17;
 
-update name set feelevel = 1 where (fodt is null) or (year(date()) - year(fodt) >= 17);
+update name
+	set feelevel = Switch(
+		year(date())-year(fodt) < 17, 3,
+		year(date())-year(fodt) >= 17, 1,
+		fodt is null, 1
+	);
 ```
 
 Faktura PDFene sendes til kasserer på [okonomi@kok.no](mailto:okonomi@kok.no). PDFene *bør* ha arrangementets navn og dato + mottakerklubb i filnavnet.
@@ -160,11 +172,11 @@ Du kan telle disse ganske enkelt selv i løper-oversikten (velg listevisning og 
 ```sql
 
 select
-abs(sum((year(date())-year(fodt) >= 21 and status like '[ABDSXZY]' and class not like 'NOCLAS'))) as Over21,
-abs(sum((year(date())-year(fodt) >= 17) and (year(date())-year(fodt) <= 20) and status like '[ABDSXZY]' and class not like 'NOCLAS')) as 17til20,
-abs(sum((year(date())-year(fodt) >= 13) and (year(date())-year(fodt) <= 16) and status like '[ABDSXZY]' and class not like 'NOCLAS')) as 13til16,
-abs(sum((year(date())-year(fodt) <= 12) and status like '[ABDSXZY]' and class not like 'NOCLAS')) as Under12,
-abs(sum((fodt is null) and status like '[ABDSXZY]' and class not like 'NOCLAS')) as UkjentAlder
+	abs(sum((year(date())-year(fodt) >= 21 and status like '[ABDSXZY]' and class not like 'NOCLAS'))) as Over21,
+	abs(sum((year(date())-year(fodt) >= 17) and (year(date())-year(fodt) <= 20) and status like '[ABDSXZY]' and class not like 'NOCLAS')) as 17til20,
+	abs(sum((year(date())-year(fodt) >= 13) and (year(date())-year(fodt) <= 16) and status like '[ABDSXZY]' and class not like 'NOCLAS')) as 13til16,
+	abs(sum((year(date())-year(fodt) <= 12) and status like '[ABDSXZY]' and class not like 'NOCLAS')) as Under12,
+	abs(sum((fodt is null) and status like '[ABDSXZY]' and class not like 'NOCLAS')) as UkjentAlder
 from name;
 ```
 
