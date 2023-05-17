@@ -39,7 +39,10 @@ Sett kontingentnivå 1 i etiming til voksenkontingent og sett kontingentnivå 3 
 Sett alle løpere under 17 år til ungdomskontingent og alle løpere som er 17 år eller eldre til voksenkontingent. Hvis ungdomsløpere melder seg på så *må du huske å sette `Født`-feltet til en dato som gir alder < 17 år*.
 
 ```sql
-update name set feelevel = 3 where year(date()) - year(fodt) < 17;
-update name set feelevel = 1 where fodt is null;
-update name set feelevel = 1 where year(date()) - year(fodt) >= 17;
+update name
+	set feelevel = Switch(
+		year(date())-year(fodt) < 17, 3,
+		year(date())-year(fodt) >= 17, 1,
+		fodt is null, 1
+	);
 ```
