@@ -43,11 +43,17 @@ Du kan sette disse valgene for klassene manuelt, eller du kan gjøre det automat
 For å gjøre det manuelt så velger `Bruk alltid brikketid` og `Fristart` for hver klasse. For klasse Nybegynner så endrer du `Tidtakingstype` til `Ikke vis tid` og kjønnskoden til `X`.
 
 #### Gjøre endringer på klassene med SQL
-For å bruke SQL åpner du menyvalget `Diverse → Spørring`. Nedenfor finner du tre spørringer – du er **nødt til å kjøre dem separat**. Kopier den første linjen nedenfor lim inn i SQL-vinduet (ta bort teksten `sql` i vinduet hvis det står der allerede) og trykk på `Kjør spørring` knappen. Gjenta for de neste linjene. 
+For å bruke SQL åpner du menyvalget `Diverse → Spørring`. Kopier alle linjene nedenfor og lim inn i SQL-vinduet (ta bort teksten `sql` i vinduet hvis det står der allerede) og trykk på `Kjør spørring` knappen. 
 
 ```sql
-update class set sex = 'X', freestart = True, direct = True;
-update class set timingtype = 2 where class like 'N-%pen' or class = 'Nybegynner';
+update class 
+	set 
+		sex = 'X', 
+		freestart = True, 
+		direct = True,
+		timingtype = iif(
+			class like 'N-%pen' or class = 'Nybegynner', 2, 0 
+		);
 ```
 
 ![/_resources/etiming-sql.png](/img/user/_resources/etiming-sql.png)
@@ -167,13 +173,12 @@ Du trenger å finne ut antall løpere i ulike aldergrupper for å levere inn lø
 Du kan telle disse ganske enkelt selv i løper-oversikten (velg listevisning og sorter etter Født-kolonnen). Du kan også telle dem ved å bruke SQL-spørringen nedenfor ved å lime inn hele spørringen i `Diverse → Spørring`. Resultatet er antallet startede i hver alderskategori.
 
 ```sql
-
 select
-abs(sum((year(date())-year(fodt) >= 21 and status like '[ABDSXZY]' and class not like 'NOCLAS'))) as Over21,
-abs(sum((year(date())-year(fodt) >= 17) and (year(date())-year(fodt) <= 20) and status like '[ABDSXZY]' and class not like 'NOCLAS')) as 17til20,
-abs(sum((year(date())-year(fodt) >= 13) and (year(date())-year(fodt) <= 16) and status like '[ABDSXZY]' and class not like 'NOCLAS')) as 13til16,
-abs(sum((year(date())-year(fodt) <= 12) and status like '[ABDSXZY]' and class not like 'NOCLAS')) as Under12,
-abs(sum((fodt is null) and status like '[ABDSXZY]' and class not like 'NOCLAS')) as UkjentAlder
+	abs(sum((year(date())-year(fodt) >= 21 and status like '[ABDSXZY]' and class not like 'NOCLAS'))) as Over21,
+	abs(sum((year(date())-year(fodt) >= 17) and (year(date())-year(fodt) <= 20) and status like '[ABDSXZY]' and class not like 'NOCLAS')) as 17til20,
+	abs(sum((year(date())-year(fodt) >= 13) and (year(date())-year(fodt) <= 16) and status like '[ABDSXZY]' and class not like 'NOCLAS')) as 13til16,
+	abs(sum((year(date())-year(fodt) <= 12) and status like '[ABDSXZY]' and class not like 'NOCLAS')) as Under12,
+	abs(sum((fodt is null) and status like '[ABDSXZY]' and class not like 'NOCLAS')) as UkjentAlder
 from name;
 ```
 
