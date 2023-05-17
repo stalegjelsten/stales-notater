@@ -49,6 +49,9 @@ For å bruke SQL åpner du menyvalget `Diverse → Spørring`. Kopier alle linje
 update class 
 	set 
 		sex = 'X', 
+		entryfee1 = 30,
+		entryfee2 = 30,
+		entryfee3 = 30,
 		freestart = True, 
 		direct = True,
 		timingtype = iif(
@@ -72,7 +75,7 @@ Jeg anbefaler å bruke oppsettet fra starten av dette dokumentet, der løype 1 e
 - Eksporter `.xml` fil med `Fil → Lag IOF XML-fil`. **Velg IOF XML 3.0** som filtype i `Lagre som`-dialogboksen som hopper opp.
 - Lagre også Purple Pen fila slik at du kan laste opp til [[Orientering/Livelox\|Livelox]].
 
-### eTiming import
+### Import av løpyer i eTiming
 - `Fil → Importer → Poster og løyper` (eller bruk venstremenyen)
 - Velg `Behold course ID / course variation`. Da får løypene samme løypekode som rekkefølgen de hadde i Purple Pen (løype 1 får kode 1)
 - Velg IOF XML-fila og pass på at filtypen her også er satt til `IOF XML 3.0`.
