@@ -164,23 +164,17 @@ Du trenger å finne ut antall løpere i ulike aldergrupper for å levere inn lø
 - Småtroll
 - Ukjent alder
 
-Du kan telle disse ganske enkelt selv i løper-oversikten (velg listevisning og sorter etter Født-kolonnen). Du kan også telle dem ved å bruke spørringene under. Husk: spørringene må kjøres separat fra `Diverse → Spørring`. Resultatet av spørringene er antallet startede i hver alderkategori.
+Du kan telle disse ganske enkelt selv i løper-oversikten (velg listevisning og sorter etter Født-kolonnen). Du kan også telle dem ved å bruke SQL-spørringen nedenfor ved å lime inn hele spørringen i `Diverse → Spørring`. Resultatet er antallet startede i hver alderskategori.
 
 ```sql
---Løpere over 21 år ↓
-select count(*) from name where status like '[ABDSXZY]' and class not like 'NOCLAS' and (year(date())-year(fodt) >= 21);
 
---Løpere mellom 17 og 20 år ↓
-select count(*) from name where status like '[ABDSXZY]' and class not like 'NOCLAS' and year(date())-year(fodt) < 21 and year(date())-year(fodt) >= 17;
-
---Løpere mellom 13 og 16 år ↓
-select count(*) from name where status like '[ABDSXZY]' and class not like 'NOCLAS' and year(date())-year(fodt) < 17 and year(date())-year(fodt) >= 13;
-
---Løpere opp til og med 12 år ↓
-select count(*) from name where status like '[ABDSXZY]' and class not like 'NOCLAS' and year(date())-year(fodt) < 13;
-
---Løpere med ukjent alder ↓
-select count(*) from name where status like '[ABDSXZY]' and class not like 'NOCLAS' and fodt is null) ;
+select
+abs(sum((year(date())-year(fodt) >= 21 and status like '[ABDSXZY]' and class not like 'NOCLAS'))) as Over21,
+abs(sum((year(date())-year(fodt) >= 17) and (year(date())-year(fodt) <= 20) and status like '[ABDSXZY]' and class not like 'NOCLAS')) as 17til20,
+abs(sum((year(date())-year(fodt) >= 13) and (year(date())-year(fodt) <= 16) and status like '[ABDSXZY]' and class not like 'NOCLAS')) as 13til16,
+abs(sum((year(date())-year(fodt) <= 12) and status like '[ABDSXZY]' and class not like 'NOCLAS')) as Under12,
+abs(sum((fodt is null) and status like '[ABDSXZY]' and class not like 'NOCLAS')) as UkjentAlder
+from name;
 ```
 
 ## Terjes guide fra 2019
