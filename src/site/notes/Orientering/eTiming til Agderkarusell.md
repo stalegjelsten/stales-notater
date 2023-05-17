@@ -48,7 +48,7 @@ Du kan sette disse valgene for klassene manuelt, eller du kan gjøre det automat
 For å gjøre det manuelt så velger `Bruk alltid brikketid` og `Fristart` for hver klasse. For klasse N1 så endrer du `Tidtakingstype` til `Ikke vis tid`. For klasser som kan vise tid, men som ikke skal være rangerte kan du velge `Tidtakingstype` til `Ikke rangert`.
 
 #### Gjøre endringer på klassene med SQL
-For å bruke SQL åpner du menyvalget `Diverse → Spørring`.  Kopier alle linjene nedenfor og lim inn i SQL-vinduet (ta bort teksten `sql` i vinduet hvis det står der allerede) og trykk på `Kjør spørring` knappen. Spørringen setter kjønnskoden til `X`, setter fristart og brikketid, samt påmeldingskontingenter 90 kr og 50 kr for alle klasser. Klasser med navn `N-åpen` eller `N1` blir satt som urangert resultatliste uten tider. Klasser med navn som inkluderer `10` blir satt som urangert resultatliste med tid.
+For å bruke SQL åpner du menyvalget `Diverse → Spørring`. Kopier alle linjene nedenfor og lim inn i SQL-vinduet (ta bort teksten `sql` i vinduet hvis det står der allerede) og trykk på `Kjør spørring` knappen. Spørringen setter kjønnskoden til `X`, setter fristart og brikketid, samt påmeldingskontingenter 90 kr og 50 kr for alle klasser. Klasser med navn `N-åpen` eller `N1` blir satt som urangert resultatliste uten tider. Klasser med navn som inkluderer `10` blir satt som urangert resultatliste med tid.
 
 ```sql
 update class 
@@ -80,7 +80,7 @@ I innbydelsene i 2023 så er løype 5 den lengste løypa og løype 1 er N-åpen.
 - Eksporter `.xml` fil med `Fil → Lag IOF XML-fil`. **Velg IOF XML 3.0** som filtype i `Lagre som`-dialogboksen som hopper opp.
 - Lagre også Purple Pen fila slik at du kan laste opp til [[Orientering/Livelox\|Livelox]].
 
-### eTiming import
+### Import av løyper i eTiming
 - `Fil → Importer → Poster og løyper` (eller bruk venstremenyen)
 - Velg `Behold course ID / course variation`. Da får løypene samme løypekode som rekkefølgen de hadde i Purple Pen (løype 1 får kode 1)
 - Velg IOF XML-fila og pass på at filtypen her også er satt til `IOF XML 3.0`.
@@ -136,12 +136,10 @@ Generer fakturaer ved å åpne `Klubber` og deretter gå til menyvalg `Skriv ut 
 **Kontroller at beløpene stemmer**. Alle ungdommer skal nå stå med spesialkontingent 50 kr og alle voksne med 90 kr.
 
 Hvis ikke kontingentene er blitt riktige så kan du prøve med SQL-spørringer nedenfor. Disse gjør følgende:
-- Setter kontingentnivå 1 til 90 kr for alle klasser
-- Setter kontingentnivå 3 (spesialkontingent) til 50 kr for alle klasser
-- Setter alle deltakere under 17 år til kontingentnivå 3 (spesialkontingent)
-- Setter alle deltakere uten fødselsdato eller minst 17 år gamle til kontingentnivå 1
+1. Setter kontingentnivå 1 til 90 kr og kontingentnivå 3 (spesialkontingent) til 50 kr for alle klasser
+2. Setter alle deltakere under 17 år til kontingentnivå 3 (spesialkontingent) og alle deltakere uten fødselsdato eller minst 17 år gamle til kontingentnivå 1
 
-Husk: de to spørringene må kjøres én-og-én fra `Diverse → Spørring`.
+Det er viktig at de to spørringene kjøres én-og-én fra `Diverse → Spørring`.
 
 ```sql
 update class set entryfee1 = 90, entryfee2 = 0, entryfee3 = 50;
