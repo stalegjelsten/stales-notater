@@ -4,17 +4,20 @@
 
 
 # Løsningsforslag S2 eksempelsett 2022
-Uendelig geometrisk rekke konv mot 6.
+
+## Del 1 oppgave 3
+### Om oppgaveteksten
+Denne oppgaven finnes i to ulike varianter (sannsynligvis på grunn av en skrivefeil i løsningsforslag eller oppgavesettet. Den ene varianten sier at summen av de tre første leddene er 38/9, mens den andre varianten sier at summen av de seks første leddene er 38/9. Løsningsmetoden min vil fungere uansett hvilken variant man tenker seg, men det er nok lurt å heller formel for sum av geometrisk rekke ($s_{n} = a_{1} \frac{k^n-1}{k-1}$) enn min framgangsmåte dersom man får oppgitt summen av et høyt antall ledd. Min metode er enkel når du bare trenger å tenke på 3 ledd, men skal du ta hensyn til 100 så må du regne mye!
+
+### Oppgavetekst
+Summen av en uendelig geometrisk rekke konvergerer mot 6.
 
 Sum av tre første ledd er 38/9
 
 Hva er sum av de fire første?
 
-*obs: leser i løsningsforslaget at 38/9 er sum av seks første ledd. Feil i oppgaveteksten??*🤔
-
----
-
-Kaller første ledd for $x$. Vet da at de tre første leddene må være:
+### Løsningsforslag
+Jeg kaller første ledd i rekka for $x$. Vet da at de tre første leddene må være:
 
 $$x+xk+xk^2=\frac{38}{9}$$
 
@@ -26,17 +29,18 @@ Summen for uendelig geometrisk rekke gir:
 
 $$\frac{x}{1-k}=6$$
 
-Løser den for $x$ og setter inn i uttrykket for sum av 3 første ledd 
+Løser den likningen for $x$ og setter inn i uttrykket for sum av 3 første ledd 
 
 $$x=6(1-k)$$
 
+$$6(1-k)(1+k+k^2)=\frac{38}{9}$$
 $$(1-k)(1+k+k^2)=\frac{38}{9\cdot 6}=\frac{38}{54}=\frac{19}{27}$$
 
 $$1+k+k^2-k-k^2-k^3=\frac{19}{27}$$
 
 $$1-k^3=\frac{19}{27}$$
 
-$$k^3=1-\frac{19}{27}=\frac{8}{27}\Rightarrow k=\frac{2}{3}$$
+$$k^3=1-\frac{19}{27}=\frac{8}{27}\Rightarrow \underline{k=\frac{2}{3}}$$
 
 Vi har nå funnet $k$ og kan enkelt finne $x$:
 
