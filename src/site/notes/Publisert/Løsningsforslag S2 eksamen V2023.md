@@ -9,7 +9,7 @@ Skrevet av Ståle Gjelsten 24. mai 2023. Jeg setter veldig pris på om du melder
 ## Del 1
 
 ### Oppgave 1
-$$\int_0^1 \left( e^{ x }+2x^2 \right)  \,\mathrm{d}x = \left[e^x+ \cancel1 }{ \frac{3}{3} }  x^3 \right]_0^1 = e^1+1^3- \left( \underbrace{ e^0 }_{ =1 }+0^3 \right) = e+1- 1 = \underline{\underline{e}}$$
+$$\int_0^1 \left( e^{ x }+2x^2 \right)  \,\mathrm{d}x = \left[e^x+ \cancel{ \frac{3}{3} }  x^3 \right]_0^1 = e^1+1^3- \left( \underbrace{ e^0 }_{ =1 }+0^3 \right) = e+1- 1 = \underline{\underline{e}}$$
 
 ### Oppgave 2
 
