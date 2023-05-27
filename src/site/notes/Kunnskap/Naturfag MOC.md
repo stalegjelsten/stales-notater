@@ -23,7 +23,6 @@
 | [[Kunnskap/Kosmisk bakgrunnsstråling\|Kosmisk bakgrunnsstråling]]                                                                  | <ul><li>naturfag</li><li>fyikk</li></ul>                        |
 | [[Kunnskap/Absolutte nullpunkt\|Absolutte nullpunkt]]                                                                              | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Planck vorspiel av Astronytt UiO 2013\|Planck vorspiel av Astronytt UiO 2013]]                                          | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
-| [[Kunnskap/Trådløs kommunikasjon\|Trådløs kommunikasjon]]                                                                          | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Proton\|Proton]]                                                                                                        | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Kosmisk stråling\|Kosmisk stråling]]                                                                                    | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Lyd\|Lyd]]                                                                                                              | <ul><li>naturfag</li></ul>                                      |
@@ -41,13 +40,11 @@
 | [[Kunnskap/Hormese\|Hormese]]                                                                                                      | <ul><li>naturfag</li></ul>                                      |
 | [[Kunnskap/Atom\|Atom]]                                                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/DNA\|DNA]]                                                                                                              | <ul><li>naturfag</li></ul>                                      |
-| [[Kunnskap/microbit\|microbit]]                                                                                                    | <ul><li>naturfag</li><li>fysikk</li><li>programmering</li></ul> |
 | [[Kunnskap/Stråledose\|Stråledose]]                                                                                                | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Elektronegativitet\|Elektronegativitet]]                                                                                | <ul><li>kjemi</li><li>naturfag</li></ul>                        |
 | [[Kunnskap/Foton\|Foton]]                                                                                                          | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Radium i gamle urvisere\|Radium i gamle urvisere]]                                                                      | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Estere\|Estere]]                                                                                                        | <ul><li>naturfag</li><li>kjemi</li></ul>                        |
-| [[Kunnskap/Universet\|Universet]]                                                                                                  | <ul><li>fysikk</li><li>naturfag</li></ul>                       |
 | [[Kunnskap/Infrarød stråling\|Infrarød stråling]]                                                                                  | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Svingning\|Svingning]]                                                                                                  | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Radium\|Radium]]                                                                                                        | <ul><li>naturfag</li></ul>                                      |
@@ -61,5 +58,8 @@
 | [[Etse bort brusboks\|Etse bort brusboks]]                                                                                         | <ul><li>naturfag</li><li>forsøk</li></ul>                       |
 | [[Karbohydrater\|Karbohydrater]]                                                                                                   | <ul><li>biologi</li><li>naturfag</li></ul>                      |
 | [[Evernote import/Cut a Glass Bottle Using Nail Polish, String, and Fire\|Cut a Glass Bottle Using Nail Polish, String, and Fire]] | <ul><li>naturfag</li><li>forsøk</li></ul>                       |
+| [[Kunnskap/Trådløs kommunikasjon\|Trådløs kommunikasjon]]                                                                          | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
+| [[Kunnskap/Universet\|Universet]]                                                                                                  | <ul><li>fysikk</li><li>naturfag</li></ul>                       |
+| [[Kunnskap/microbit\|microbit]]                                                                                                    | <ul><li>naturfag</li><li>fysikk</li><li>programmering</li></ul> |
 
 { .block-language-dataview}
