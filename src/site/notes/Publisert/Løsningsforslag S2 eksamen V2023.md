@@ -82,18 +82,18 @@ Mengden virkestoff hos Knut vil aldri overstige 70 mg. **Legens påstand er rikt
 ### Oppgave 6
 
 #### 6a
-Siden vi skal finne $P(X>600)$ og 600 ligger nøyaktig to standardavvik over forventningsverdien kan vi bare slå opp på $z=2.0$ i normalfordelingstabellen for å bestemme $P(X<600) = \Phi(2) = 0.9772$.
+Siden vi skal finne $P(X>600)$ og 600 ligger nøyaktig to standardavvik over forventningsverdien kan vi bare slå opp på $z=2.0$ i normalfordelingstabellen for å bestemme $P(X<600) = \Phi(2) = 0,9772$.
 
-$$P(X>600) = 1-P(X<600) = 1-0,9772 = \underline{ \underline{0.0228}}$$
+$$P(X>600) = 1-P(X<600) = 1-0,9772 = \underline{ \underline{0,0228}}$$
 
 #### 6b
-Sannsynligheten for at levetiden er *kortere* enn $t$ timer er 24,2 prosent. Jeg bruker normalfordelingstabellen og finner $\Phi(z) = 0.242 \implies z=-0.70$.
+Sannsynligheten for at levetiden er *kortere* enn $t$ timer er 24,2 prosent. Jeg bruker normalfordelingstabellen og finner $\Phi(z) = 0,242 \implies z=-0,70$.
 
 $$
 \begin{aligned}
 z &= \frac{t-\mu}{\sigma}\\
 z\sigma + \mu &\overset{ \rightleftarrows  }{ = } t\\
-t &= -0.70\cdot 50 + 500\\
+t &= -0,70\cdot 50 + 500\\
 t &= -35 + 500\\
 t &= 465
 \end{aligned}
