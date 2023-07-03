@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Publisert/Løsningsforslag 1T eksamen V2023/","title":"Løsningsforslag 1T eksamen V2023","tags":["matematikk","løsningsforslag","1T"]}
+{"dg-publish":true,"permalink":"/Publisert/Løsningsforslag 1T eksamen V2023/","title":"Løsningsforslag 1T eksamen V2023","tags":["matematikk","løsningsforslag2222","1T"]}
 ---
 
 
@@ -14,7 +14,11 @@ Jeg blir veldig glad om du melder ifra om feil enten direkte til meg eller via f
 Vi har at $\sin u=\frac{8}{10}$ og $\cos u =\frac{6}{10}$. 
 
 $$
-\sin^2 u+\cos^2 u=\left( \frac{8}{10} \right)^2+\left( \frac{6}{10} \right)^2=\frac{64}{100} +\frac{36}{100}=\frac{100}{100}=1
+\sin^2u+\cos^2u=\left( \frac{8}{10} \right)
+{ #2}
++\left( \frac{6}{10} \right)
+{ #2}
+=\frac{64}{100} +\frac{36}{100}=\frac{100}{100}=1
 $$
 
 #### Alternativ 2: bruke pytagoras
@@ -342,6 +346,11 @@ areal = sum(f(x)*bredde)                    # multipliserer bredde med høyde
 											# og summerer til slutt
 print(f"Arealet av rektanglene er {areal:.3f}")
 ```
+
+## Om løsningsforslaget
+Løsningsforslaget er skrevet på privat initiativ. Det kan være flere feil i løsningene, det kan være ufullstendige løsninger og det kan finnes mange ulike strategier for løsning av de ulike oppgavene. Jeg setter veldig stor pris på tilbakemeldinger (spesielt om feil). Meld fra på forumet på [matematikk.net](https://matematikk.net/matteprat) eller direkte til meg.
+
+Du står helt fritt til å bruke tekst, formler og bilder fra dette løsningsforslaget. En visning av kildedokumentet som er blitt brukt for å produsere PDF-versjonen finner du på <https://raw.githubusercontent.com/stalegjelsten/stales-notater/main/src/site/notes/Publisert/L%C3%B8sningsforslag%201T%20eksamen%20V2023.md>
 
 [^1]: $\sin^2 u$ er annen notasjon for $\left( \sin u \right)^2$. Uttrykkene betyr nøyaktig det samme.
 [^3]: Det er også mulig å gange ut parentesene på høyre side og sammenligne like ledd for å finne $a$ og $b$, men det krever nok mer arbeid.
