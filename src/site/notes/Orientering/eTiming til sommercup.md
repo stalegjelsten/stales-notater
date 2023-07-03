@@ -9,16 +9,20 @@ Dette er ment som en oppskrift på hvordan man kan bruke eTiming til tidtaking u
 ## Om KOKs sommercup
 Sommercupen er en rekke enkle o-løp gjennom sommeren. Løpene har status som nærløp og det tilbys vanligvis 4 løyper:
 
-| Løype | Løypenavn | Klasse                      |
-|:-----:|:---------:| --------------------------- |
-|   1   |  A-lang   | Herrer A-lang, Damer A-lang |
-|   2   |  A-kort   | Herrer A-kort, Damer A-kort |
-|   3   |     C     | Herrer C, Damer C           |
-|   4   |     N     | Nybegynner                  |
+| Løype | Løypenavn | Klassenavn                  | Kortnavn   |
+|:-----:|:---------:| --------------------------- | ---------- |
+|   1   |  A-lang   | Herrer A-lang, Damer A-lang | H-AL, D-AL |
+|   2   |  A-kort   | Herrer A-kort, Damer A-kort | H-AK, D-AK |
+|   3   |     C     | Herrer C, Damer C           | H-C, D-C   |
+|   4   |     N     | Nybegynner                  | N          |
 
 Påmeldingskontingenten har vært kr 0 for KOKs løpere og 30 kr for løpere fra andre klubber som betales via Vipps til #89632.
 
 ## Klasseoppsett, frister og kontingenter i Eventor
+Opprett klassene i Eventor, eller velg kopier fra tidligere arrangement for å få et passende oppsett. For å gi navn til klassene bruker du tabellen over.
+
+![](/img/user/_resources/klasseoppsett-sommercup.png)
+
 Under `påmeldingsavgifter og frister` i Eventor så velger du `Rediger, avansert visning`. Bruk kun ett kontingentnivå (slett de andre).
 - Navn på avgift: Påmeldingskontingent
 - Beløp: 30 kr
@@ -26,7 +30,7 @@ Under `påmeldingsavgifter og frister` i Eventor så velger du `Rediger, avanser
 - Fra og til alder: La disse stå åpne
 - Kontingentrekkefølge: sett denne til 20
 
-![påmeldingskontingenter-sommercup-eventor.png](/img/user/_resources/p%C3%A5meldingskontingenter-sommercup-eventor.png)
+![_resources/påmeldingskontingenter-sommercup-eventor.png](/img/user/_resources/p%C3%A5meldingskontingenter-sommercup-eventor.png)
 
 ## Last inn påmeldte i eTiming og fiks klasser
 I [[Orientering/eTiming\|eTiming]] velger du menyvalget `Data → Datautveksling eventor` og hent påmeldinger til løpet. Dette henter ned deltakere, klasser, klubber og informasjon om påmeldingskontingenter.
@@ -55,7 +59,7 @@ update class
 		freestart = True, 
 		direct = True,
 		timingtype = iif(
-			class like 'N-%pen' or class = 'Nybegynner', 2, 0 
+			class like 'N-%pen' or class = 'Nybegynner' or class = 'N', 2, 0 
 		);
 ```
 
@@ -71,7 +75,7 @@ Jeg anbefaler å bruke oppsettet fra starten av dette dokumentet, der løype 1 e
 ### Klargjøring av løyper i Purple Pen
 - Løyperekkefølgen i Purple Pen må være stigende. Altså skal løype 1 (A-lang) ligge lengst til venstre. Endre rekkefølgen med menyvalget `Løyper → Løyperekkefølge`.
 - Løypene **må** inneholde løypenummeret i navnet. Du kan gjerne kalle dem `Løype 1`, `Løype 2` osv.
-- Hver løype **må** inneholde klasselista. Denne legger du inn under `Løype → Egenskaper` i feltet `Klasseliste / sekundær tittel`. Klasselista skal inneholde *navnet på hver klasse adskilt med komma*. *Det er svært viktig at navnene på klassene skrives på nøyaktig samme måte som i Eventor*, det vil som oftest si `Herrer A-lang` osv.
+- Hver løype **må** inneholde klasselista. Denne legger du inn under `Løype → Egenskaper` i feltet `Klasseliste / sekundær tittel`. Klasselista skal inneholde *navnet på hver klasse adskilt med komma*. *Det er svært viktig at navnene på klassene skrives på nøyaktig samme måte som **kortnavnet** i Eventor*, det vil som oftest si `H-AL`, `D-AL` osv.
 - Eksporter `.xml` fil med `Fil → Lag IOF XML-fil`. **Velg IOF XML 3.0** som filtype i `Lagre som`-dialogboksen som hopper opp.
 - Lagre også Purple Pen fila slik at du kan laste opp til [[Orientering/Livelox\|Livelox]].
 
