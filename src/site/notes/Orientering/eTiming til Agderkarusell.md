@@ -66,7 +66,7 @@ update class
 
 ![/_resources/etiming-sql.png](/img/user/_resources/etiming-sql.png)
 
-Se [[eTiming database\|eTiming database]] for mer informasjon om databasens oppbygning og spørringer.
+Se [[Orientering/eTiming database\|eTiming database]] for mer informasjon om databasens oppbygning og spørringer.
 
 ## Løyper og poster i Purple Pen og eTiming
 Hovedprinsipp: **Bruk samme løypenummer i innbydelse, Purple Pen og eTiming**
