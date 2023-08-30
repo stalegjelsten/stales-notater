@@ -14,6 +14,8 @@ Databasen til [[Orientering/eTiming\|eTiming]] er i MS Access format (`.mdb`) og
 - `ecard` er tabellen med stemplinger
 - `controls` er tabellen med alle poster
 
+>[!Warning] Bruk av anførselstegn i spørringer i eTiming
+>Man er nødt til å bruke enkle anførselstegn, **'**, for å markere strenger. Doble anførselstegn blir ikke gjenkjent av eTiming
 ## Smarte tips
 
 ### Oppdatere klasseregisteret for fristart og åpne klasser
