@@ -25,7 +25,7 @@ Før spooling må du passe på at løypene i eTiming er riktige (inkludert målp
 ![](/img/user/_resources/mtr-kommunikasjon.png)
 Åpne tidtakervinduet, søk etter riktig port og åpne kommunikasjon med MTR.
 
-**Dersom klokka i MTR er feil så bør du velge `Spool data kun til logfil` og lese om [[Orientering/eTiming med spooling av resultater#Endre tidspunkter i logfila\|#Endre tidspunkter i logfila]]**
+**Dersom klokka i MTR er feil så bør du velge `Spool data kun til logfil` og lese om [[Orientering/eTiming med spooling av resultater#Endre tidspunkter i logfila\|hvordan endre tidspunkter i logfila lenger nede]].**
 
 ![refresh-ie.jpg](/img/user/_resources/refresh-ie.jpg)
 Trykk på ikonet med med grønne piler som går i ring. Dette er symbolet for å spoole tider.
