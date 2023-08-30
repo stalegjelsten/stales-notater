@@ -6,7 +6,7 @@
 # LiveRes for etiming
 LiveRes fungerer som liveresultater til [[Orientering/eTiming\|eTiming]]. Kristiansand OK har i 2023 lisens på programmet. Kontakt Ståle for brukernavn/passord for innlogging.
 
-LiveRes består av en klient (et program som kjører på samme datamaskin som [[Orientering/eTiming\|eTiming]]) og en webserver. Du må opprette løpet hos webserveren før du kan bruke tjenesten.
+LiveRes består av en klient (et program som kjører på samme datamaskin som [[Orientering/eTiming\|eTiming]]) og en webserver. Du må opprette løpet på webserveren før du kan bruke tjenesten.
 
 ## Oppsett hos LiveRes (webserver)
 - Gå til <https://liveres.live/adm/>
