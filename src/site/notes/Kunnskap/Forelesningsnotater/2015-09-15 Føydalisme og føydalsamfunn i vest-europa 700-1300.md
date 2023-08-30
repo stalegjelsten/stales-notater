@@ -82,4 +82,4 @@ Konge over kronvasaller, undervasaller og bønder
 * mange steder med bondeselveie
 	* eller få gods og svak godseiermakt
 
-![[_resources/Føydalisme.pptx]]
+![[_resources/Føydalisme.pptx\|_resources/Føydalisme.pptx]]
