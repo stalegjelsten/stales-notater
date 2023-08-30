@@ -4,30 +4,9 @@
 
 
 # Formler i OneNote og Word
+Når man skal skrive matematikk i Word så lønner det seg å bruke formeleditoren. Den formaterer tall og variabler på en pen måte, og den er svært rask å bruke når man er blitt vant til tastatursnarveiene og kommandoene. Man åpner formeleditoren ved å velge `Sett inn → Formel` i verktøylinja, eller ved å bruke en [[Kunnskap/Formler i OneNote og Word#Hurtigtaster\|hurtigtast]]. 
 
-## Hurtigtaster
-
-### Windows
-
-#### OneNote
-`alt + +` ⌥+
-
-#### Word
-`alt + shift + 0` ⌥⇧0
-
-#### Powerpoint
-`alt + +` ⌥+
-
-### MacOS
-
-#### Onenote
-`ctrl + shift + \` ⌃⇧\
-
-#### Word
-`ctrl + +` ⌃+
-
-#### PowerPoint
-Klarer ikke finne noen tastatursnarvei.
+I formeleditoren kan du finne de fleste matematiske symbolene i verktøylinja i toppen av vinduet, men det finnes også tastatursnarveier og kommandoer for alle tegnene.
 
 ## Nyttige kommandoer og tegn
 - Brøkstrek $\frac{a}{b}$: skriv `/` og mellomrom. Det er enklest å lage brøkstreken før du skriver inn telleren og nevneren.
@@ -50,6 +29,7 @@ Klarer ikke finne noen tastatursnarvei.
 - Tavle-fet skrift som tallmengder ($\mathbb{R}$): `\DoubleR`
 
 ## Smarte tips
+- Som standard skrives all skrift i formeleditoren som kursiv. Bruk doble hermetegn `"` rundt tekst for at det skal bli vanlige bokstaver. Spesielt nyttig for enheter, ord, osv.
 - Store parenteser (f.eks. hvis du skal nøste flere parenteser eller sette inn grenser for integrasjon) `\left[ x^2 \right]_0^4` gir $\left[ x^2 \right]_0^4$ og `\left( ((x)^m^n)/(2) \right)^p` gir $\left( \frac{(x^m)^n}{2} \right)^p$
 - Delt funksjonsuttrykk: `{ \cases(x:=5,x<3@x:=8,x>=3) \close`
 - Equationarray for å skrive over flere linjer: `\eqarray(x+1&=2@1+2+3+y&=z@3/x&=6)<space>`
@@ -62,6 +42,30 @@ x+1 &= 2\\
 1+2+3+y &= z\\
 x &= 6
 \end{align*}$$
+
+## Hurtigtaster
+Disse hurtigtastene setter inn en formel i dokumentet ditt.
+### Windows
+
+#### OneNote
+<kbd>alt</kbd> <kbd>+</kbd> 
+
+#### Word
+<kbd>alt</kbd> <kbd>⇧ Shift</kbd> <kbd>0</kbd> 
+
+#### Powerpoint
+<kbd>alt</kbd> <kbd>+</kbd> 
+
+### MacOS
+
+#### Onenote
+ <kbd>Ctrl</kbd> <kbd>⇧ Shift</kbd> <kbd>\</kbd>
+
+#### Word
+ <kbd>Ctrl</kbd> <kbd>+</kbd>
+
+#### PowerPoint
+Klarer ikke finne noen tastatursnarvei.
 
 ### Ressurser
 [Igal Khitrons nyttige oversikt](https://www.cs.bgu.ac.il/~khitron/Equation%20Editor.pdf)
