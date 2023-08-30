@@ -118,6 +118,12 @@ Se [[Orientering/eTiming med spooling av resultater\|eTiming med spooling av res
 ## Resultater
 Publiser resultater etter løpet via `Data → Datautveksling eventor` og last opp resultatliste. 
 
+>[!tip] Manuell opplasting av resultater
+>Hvis det ikke er mulig å gjøre Datautveksling med Eventor så kan det være at det fungerer å laste opp resultatene manuelt. For å gjøre dette må du:
+>1. Lag en IOF XML 3.0 fil med resultatene ved å gå til Data → Datautveksling Eventor → Datautveksling fra nedlastede XML filer Vis → Lag resultatlistefil
+>2. Gå til løpet i Eventor → Rediger → Dataoverføringer → Last opp resultatliste
+>3. Finn fram `iofres.xml` som ligger i databasemappa → `htmlfiler`.
+
 ## Løpsrapport
 Etter løpet skal man levere løpsrapport til Norges Orienteringsforbund. Denne leveres digitalt i Eventor. Etter å ha lastet opp resultatlistene vil du i arrangementssiden i Eventor se at neste steg er å levere løpsrapporten. 
 
