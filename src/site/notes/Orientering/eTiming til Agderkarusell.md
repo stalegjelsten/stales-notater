@@ -32,6 +32,8 @@ Under `påmeldingsavgifter og frister` i Eventor så velger du `Rediger, avanser
 ![/_resources/eventor-kontingenter.png](/img/user/_resources/eventor-kontingenter.png)
 
 ## Last inn påmeldte i eTiming og fiks klasser
+Opprett et nytt løp i [[Orientering/eTiming\|eTiming]] med riktig navn, dato og første starttid.
+
 I [[Orientering/eTiming\|eTiming]] velger du menyvalget `Data → Datautveksling eventor` og hent påmeldinger til løpet. Dette henter ned deltakere, klasser, klubber og informasjon om påmeldingskontingenter.
 
 ### Sette innstillinger for klassene
