@@ -4,7 +4,7 @@
 
 
 # eTiming til sommercup
-Dette er ment som en oppskrift på hvordan man kan bruke eTiming til tidtaking under KOKs sommercupløp. Oppskriften vil fungere både ved tidtaking under arrangementet (polling fra MTR) eller [[Orientering/eTiming med spooling av resultater\|spooling]] av resultater i etterkant av arrangementet.
+Dette er ment som en oppskrift på hvordan man kan bruke [[Orientering/eTiming\|eTiming]] til tidtaking under KOKs sommercupløp. Oppskriften vil fungere både ved tidtaking under arrangementet (polling fra MTR) eller [[Orientering/eTiming med spooling av resultater\|spooling]] av resultater i etterkant av arrangementet.
 
 ## Om KOKs sommercup
 Sommercupen er en rekke enkle o-løp gjennom sommeren. Løpene har status som nærløp og det tilbys vanligvis 4 løyper:
@@ -36,6 +36,8 @@ Merk alle klassene slik at endringen blir gjeldende for alle og trykk `Lagre`.
 ![_resources/påmeldingskontingenter-sommercup-eventor.png](/img/user/_resources/p%C3%A5meldingskontingenter-sommercup-eventor.png)
 
 ## Last inn påmeldte i eTiming og fiks klasser
+Opprett et nytt løp i [[Orientering/eTiming\|eTiming]] med riktig navn, dato og første starttid.
+
 I [[Orientering/eTiming\|eTiming]] velger du menyvalget `Data → Datautveksling eventor` og hent påmeldinger til løpet. Dette henter ned deltakere, klasser, klubber og informasjon om påmeldingskontingenter.
 
 ### Sette innstillinger for klassene
