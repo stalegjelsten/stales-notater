@@ -13,175 +13,102 @@
 
 ---
 
-## Kantlinjer og avrundede bilder
+## Kantlinjer
 
 ```css
 img {
-  width: 400px;
+  width: 200px;
   border: 15px solid burlywood;
 }
 ```
 
-<img style="border:15px solid burlywood; width:400px;" href="https://stalegjelsten.github.io/IT1/36-css-bilder/veps.jpg">
+<img style="border:15px solid burlywood; width:200px;" src="https://stalegjelsten.github.io/IT1/36-css-bilder/veps.jpg">
 
 ---
 
 ## Kantlinjer og avrundede bilder
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bilder og CSS</title>
-    <style>
-      .border {
-        width: 400px;
-        border: 15px solid burlywood;
-      }
-      .arvrundet {
-        width: 400px;
-        border: 15px solid green;
-        border-radius: 20%;
-      }
-      .bildeiboks {
-        width: 400px;
-        height: 400px;
-        object-fit: ;
-        object-position: left;
-        border: 15px solid red;
-      }
-    </style>
-  </head>
-  <body>
-    <img
-      src="veps.jpg"
-      alt="Nærbilde av flere veps som spiser syltetøy"
-      class="border"
-    />
-    <img
-      src="veps.jpg"
-      alt="Nærbilde av flere veps som spiser syltetøy"
-      class="arvrundet"
-    />
-    <img
-      src="veps.jpg"
-      alt="Nærbilde av flere veps som spiser syltetøy"
-      class="bildeiboks"
-    />
-  </body>
-</html>
+```css
+img {
+  width: 200px;
+  border: 15px solid burlywood;
+  border-radius: 20%;
+}
 ```
 
-## Kantlinjer og avrundede bilder
+<img style="border:15px solid burlywood; width:200px; border-radius:20%;" src="https://stalegjelsten.github.io/IT1/36-css-bilder/veps.jpg">
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bilder og CSS</title>
-    <style>
-      .border {
-        width: 400px;
-        border: 15px solid burlywood;
-      }
-      .arvrundet {
-        width: 400px;
-        border: 15px solid green;
-        border-radius: 20%;
-      }
-      .bildeiboks {
-        width: 400px;
-        height: 400px;
-        object-fit: ;
-        object-position: left;
-        border: 15px solid red;
-      }
-    </style>
-  </head>
-  <body>
-    <img
-      src="veps.jpg"
-      alt="Nærbilde av flere veps som spiser syltetøy"
-      class="border"
-    />
-    <img
-      src="veps.jpg"
-      alt="Nærbilde av flere veps som spiser syltetøy"
-      class="arvrundet"
-    />
-    <img
-      src="veps.jpg"
-      alt="Nærbilde av flere veps som spiser syltetøy"
-      class="bildeiboks"
-    />
-  </body>
-</html>
+---
+
+## Tilpasse bilde til rammen
+
+```css
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  border: 15px solid red;
+}
 ```
 
-## Kantlinjer og avrundede bilder
+<img style=" width: 200px;
+				height: 200px;
+				object-fit: contain;
+				border: 15px solid red;
+" src="https://stalegjelsten.github.io/IT1/36-css-bilder/veps.jpg">
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bilder og CSS</title>
-    <style>
-      .border {
-        width: 400px;
-        border: 15px solid burlywood;
-      }
-      .arvrundet {
-        width: 400px;
-        border: 15px solid green;
-        border-radius: 20%;
-      }
-      .bildeiboks {
-        width: 400px;
-        height: 400px;
-        object-fit: ;
-        object-position: left;
-        border: 15px solid red;
-      }
-    </style>
-  </head>
-  <body>
-    <img
-      src="veps.jpg"
-      alt="Nærbilde av flere veps som spiser syltetøy"
-      class="border"
-    />
-    <img
-      src="veps.jpg"
-      alt="Nærbilde av flere veps som spiser syltetøy"
-      class="arvrundet"
-    />
-    <img
-      src="veps.jpg"
-      alt="Nærbilde av flere veps som spiser syltetøy"
-      class="bildeiboks"
-    />
-  </body>
-</html>
+---
+
+## La bilder fylle HTML-elementet
+
+```css
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 15px solid red;
+}
 ```
+
+<img style=" width: 200px;
+				height: 200px;
+				object-fit: cover;
+				object-position: right;
+				border: 15px solid red;
+" src="https://stalegjelsten.github.io/IT1/36-css-bilder/veps.jpg">
+
+---
+
+## Justere posisjon til bilder
+
+```css
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: right;
+  border: 15px solid red;
+}
+```
+
+<img style="width: 200px;
+				height: 200px;
+				object-fit: cover;
+				border: 15px solid red;
+" src="https://stalegjelsten.github.io/IT1/36-css-bilder/veps.jpg">
 
 ---
 
 ## Bakgrunnsbilde som fyller nettsiden
 
-```html
-<style>
-  html {
-    background-image: url("BILDE.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    overflow: hidden;
-  }
-</style>
+```css
+html {
+  background-image: url("BILDE.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
 ```
+
+`100vh` betyr 100 % av _viewport height_ – vi setter altså høyden av html-elementet til hele høyden av det synlige vinduet i nettleseren.
