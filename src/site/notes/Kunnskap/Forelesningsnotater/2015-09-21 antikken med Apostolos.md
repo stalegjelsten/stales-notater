@@ -87,4 +87,4 @@
 ![](/img/user/Evernote import/_resources/IMG_20150921_125620.png)
 
 ![](/img/user/Evernote import/_resources/IMG_20150921_125636.png)
-![[HI-100_Antikken_1.pdf\|HI-100_Antikken_1.pdf]]
+![[HI-100_Antikken_1.pdf]]
