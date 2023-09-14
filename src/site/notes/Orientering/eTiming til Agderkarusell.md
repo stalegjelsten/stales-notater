@@ -92,8 +92,17 @@ I innbydelsene i 2023 så er løype 5 den lengste løypa og løype 1 er N-åpen.
 - Åpne klasse-oversikten og sjekk at hver klasse har fått riktige løypenummer.
 - Tildel løyper til alle løpere ved å åpne klasse-oversikten og gå til menyvalget `Klasse → Oppdater løypenr på løpere`
 
-## Last opp startliste
+## Startlister
+>[!tip] Startnummer
+>Det er lurt å tildele startnummer til alle løpere før løpet. Dette gjør det litt raskere å behandle løpere som går i mål med ukjente brikkenummer. Tildel startnummer med `Start → Startnr tildeling`.
+
+
 Gå til menyvalget `Data → Datautveksling eventor` og last opp startliste til Eventor. Sjekk på Eventor at den ser korrekt ut.
+
+### Skriv ut startlister
+Du *bør* skrive ut startlistene på papir. Det gjør det enkelt for en funksjonær som står ved starten å krysse av hvem som faktisk starter løpet – da slipper man å lure på om det fremdeles er noen igjen ute i skogen eller ikke. 
+
+Den som står ved starten *trenger ikke* skrive opp etteranmeldte manuelt. De som har etteranmeldt seg på samlingsplass kommer til å starte.
 
 ## Etteranmeldinger på løpet
 Legg inn etteranmeldte på løpet ved å åpne løper-oversikten. 
@@ -170,7 +179,6 @@ Du trenger å finne ut antall løpere i ulike aldergrupper for å levere inn lø
 Du kan telle disse ganske enkelt selv i løper-oversikten (velg listevisning og sorter etter Født-kolonnen). Du kan også telle dem ved å bruke SQL-spørringen nedenfor ved å lime inn hele spørringen i `Diverse → Spørring`. Resultatet er antallet startede i hver alderskategori.
 
 ```sql
-
 select
 	abs(sum((year(date())-year(fodt) >= 21 and status like '[ABDSXZY]' and class not like 'NOCLAS'))) as Over21,
 	abs(sum((year(date())-year(fodt) >= 17) and (year(date())-year(fodt) <= 20) and status like '[ABDSXZY]' and class not like 'NOCLAS')) as 17til20,
