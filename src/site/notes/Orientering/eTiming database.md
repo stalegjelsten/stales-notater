@@ -4,9 +4,9 @@
 
 
 # eTiming database
-Databasen til [[Orientering/eTiming\|eTiming]] er i MS Access format (`.mdb`) og kan åpnes i programmet [MDB Viewer plus](http://www.alexnolan.net/software/mdb_viewer_plus.htm). MDB Viewer kan både lese og skrive til database, samt utføre spørringer. Du kan også kjøre spørringer fra [[Orientering/eTiming\|eTiming]] ved å bruke `Diverse → Spørring`.
+Databasen til [[Orientering/eTiming\|eTiming]] er i MS Access format (`.mdb`) og kan åpnes i programmet [MDB Viewer plus](http://www.alexnolan.net/software/mdb_viewer_plus.htm). MDB Viewer kan både lese og skrive til databasen, samt utføre spørringer. Du kan også kjøre spørringer fra [[Orientering/eTiming\|eTiming]] ved å bruke `Diverse → Spørring`.
 
-## Databasens oppbygning med babeller
+## Databasens oppbygning med tabeller
 - `name` er tabellen med alle løpere
 - `class` er tabellen med klasser
 - `cource` er tabellen med løyper
@@ -29,6 +29,9 @@ update class set sex = 'X', freestart = True, direct = True;
 update class set timingtype = 2 where class like 'N-%pen';
 update class set timingtype = 1 where class like '%10%';
 ```
+
+- `timingtype = 2` er urangert resultatliste uten tider
+- `timingtype = 1` er urangert resultatliste med tider
 
 ### Få riktige kontingentnivåer til Agderkarusell
 Bruk tre kontingentnivåer: 
