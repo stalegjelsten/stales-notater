@@ -96,8 +96,17 @@ Jeg anbefaler å bruke oppsettet fra starten av dette dokumentet, der løype 1 e
 - Åpne klasse-oversikten og sjekk at hver klasse har fått riktige løypenummer.
 - Tildel løyper til alle løpere ved å åpne klasse-oversikten og gå til menyvalget `Klasse → Oppdater løypenr på løpere`
 
-## Last opp startliste
+## Startlister
+>[!tip] Startnummer
+>Det er lurt å tildele startnummer til alle løpere før løpet. Dette gjør det litt raskere å behandle løpere som går i mål med ukjente brikkenummer. Tildel startnummer med `Start → Startnr tildeling`.
+
+
 Gå til menyvalget `Data → Datautveksling eventor` og last opp startliste til Eventor. Sjekk på Eventor at den ser korrekt ut.
+
+### Skriv ut startlister
+Du *bør* skrive ut startlister. Det gjør det enkelt for en funksjonær som står ved starten å krysse av hvem som faktisk starter løpet – da slipper man å lure på om det fremdeles er noen igjen ute i skogen eller ikke. 
+
+Den som står ved starten *trenger ikke* skrive opp etteranmeldte manuelt. De som har etteranmeldt seg på samlingsplass kommer til å starte.
 
 ## Etteranmeldinger på løpet
 Legg inn etteranmeldte på løpet ved å åpne løper-oversikten. 
@@ -114,16 +123,18 @@ Før løpet så starter du tidtakingsmodulen i eTiming og kobler til en MTR4 til
 
 Bruk [[Orientering/LiveRes for etiming\|LiveRes]] for å publisere liveresultater. 
 
-### Lese inn resultater i eTiming etter løpet
-Se [[Orientering/eTiming med spooling av resultater\|eTiming med spooling av resultater]]
+Etter at siste starttid er passert (kl 18.30) så gir du status `Ikke startet` på alle løpere som ikke har startet. 
+
+>[!tip] Oversikt over løpere i skogen
+>Trykk på `4. Under arrangementet` i venstremenyen og `Ikke fullførte løpere → ✔️`.
 
 ## Resultater
 Publiser resultater etter løpet via `Data → Datautveksling eventor` og last opp resultatliste. 
 
 >[!tip] Manuell opplasting av resultater
 >Hvis det ikke er mulig å gjøre Datautveksling med Eventor så kan det være at det fungerer å laste opp resultatene manuelt. For å gjøre dette må du:
->1. Lag en IOF XML 3.0 fil med resultatene ved å gå til Data → Datautveksling Eventor → Datautveksling fra nedlastede XML filer Vis → Lag resultatlistefil
->2. Gå til løpet i Eventor → Rediger → Dataoverføringer → Last opp resultatliste
+>1. Lag en IOF XML 3.0 fil med resultatene ved å gå til `Data → Datautveksling Eventor`. I linjen  `Datautveksling fra nedlastede XML filer` velger du `Vis → Lag resultatlistefil`.
+>2. Gå til løpet i `Eventor → Rediger → Dataoverføringer → Last opp resultatliste`
 >3. Finn fram `iofres.xml` som ligger i databasemappa → `htmlfiler`.
 
 ## Løpsrapport
