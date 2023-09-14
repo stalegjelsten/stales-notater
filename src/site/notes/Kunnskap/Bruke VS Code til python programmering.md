@@ -12,15 +12,26 @@ I matematikkfagene (og kanskje andre realfag) skal du programmere i programmerin
 - Du kan skrive Pythonkode i [Jupyter notebooks](https://jupyter.org/). Dette lar deg skrive tekst, matematikk, HTML-kode og Pythonkode i samme dokument. Det lar deg også dele opp koden i ulike blokker som kan kjøres uavhengig av hverandre.
 
 ## Oppsett
-For å kunne bruke Python i VS Code så må du først installere Python på datamaskinen din. Da du installerte Mu så ble det allerede installert en Python-versjon, men denne er ofte utdatert. Jeg anbefaler derfor følgende framgangsmåte: 
+For å kunne bruke Python i VS Code så må du først installere Python på datamaskinen din. Da du installerte Mu så ble det allerede installert en Python-versjon, men denne er ofte utdatert. 
 
-1. Åpne *Microsoft Store* på datamaskinen og søk etter *Python*. Installer den nyeste versjonen. I 2023 er Python 3.11 den nyeste versjonen som er tilgjengelig i Microsoft Store.
-2. Åpne Visual Studio Code og aktiver IT1-profilen (hvis dette ikke ble gjort automatisk).
-3. Velg *Open folder*. Velg en mappe som inneholder pythonfiler.
-4. Åpne en av pythonfilene. 
-5. Hvis teksten *Select interpreter* kommer opp, så velger du den linja som sier inneholder teksten `(microsoft store)`. I mitt tilfelle heter den `★ Python 3.11.5 64-bit (microsoft store)`.
+Hvis du ønsker en pythoninstallasjon som har alle nødvendige pakker for realfag (+ veldig mange andre) så anbefaler jeg at du velger løsningen fra *Anaconda*. Hvis du går P-matte så fungerer det nok veldig fint å installere Python fra *Microsoft Store*.
 
-Nå skal du være klar til å bruke python i Visual Studio code. 
+### Anaconda
+Anaconda er en samling av Python pluss mange ekstra pakker som gir ekstra funksjoner til Python, blant annet innen statistikk, sannsynlighet, databehandling, tegning av grafer og så videre.
+
+For å installere Anaconda går du til [anaconda.com/download](https://www.anaconda.com/download) og trykker på `Download`-knappen. Du er nødt til å dobbeltklikke på fila og installere den på egen datamaskin. Dette tar en stund siden Anaconda er et stort program.
+
+### Python fra Microsoft store
+Åpne *Microsoft Store* på datamaskinen og søk etter *Python*. Installer den nyeste versjonen. I 2023 er Python 3.11 den nyeste versjonen som er tilgjengelig i Microsoft Store.
+
+### Oppsett av Visual Studio Code
+1. Åpne Visual Studio Code og aktiver IT1-profilen (hvis dette ikke ble gjort automatisk).
+2. Velg *Open folder*. Velg en mappe som inneholder pythonfiler.
+3. Åpne en av pythonfilene. 
+4. Hvis teksten *Select interpreter* kommer opp, så velger du den linja som enten inneholder teksten `conda` (hvis du installerte Anaconda) eller `(microsoft store)`. I mitt tilfelle heter den `★ Python 3.11.5 64-bit (microsoft store)`.
+5. Hvis ikke *Select interpreter* dukker opp så kan du skrive inn kommandoen `Python: Select interpreter` i kommandolinja (<kbd>Ctrl</kbd> <kbd>↑Shift</kbd> <kbd>P</kbd>)
+
+Nå skal du være klar til å bruke Python i Visual Studio code. 
 
 ## Kjøre pythonfila
 For å kjøre pythonkode så er du nødt til å lagre fila (<kbd>Ctrl</kbd> <kbd>S</kbd>). Trykk deretter på play-symbolet (▷) i øvre høyre del av skjermen.
