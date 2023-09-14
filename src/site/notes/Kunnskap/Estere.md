@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Estere/","tags":["naturfag","kjemi"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Estere/","title":"Estere","tags":["naturfag","kjemi"]}
 ---
+
 
 # Estere
 Hvis vi kombinerer en [[Kunnskap/Karboksylsyrer\|karboksylsyre]] og et [[Alkoholer\|alkohol]] får vi en ester og vann. Det vanlig å tenke på estere som syrerester.
@@ -10,7 +11,9 @@ Mange estere lukter godt, spesielt mange frukter får lukten sin fra estere. De 
 ## Dannelse av estere
 <center>Etanol + etansyre ⇋ etyletanat + vann</center>
 
-$$\mathrm{CH}_3\mathrm{CH}_{2} \mathrm{OH} + \mathrm{C}\mathrm{H}_3\mathrm{COOH} \rightleftharpoons \mathrm{CH}_3\mathrm{COOCH}_2\mathrm{CH}_{3}+ \mathrm{H}_2\mathrm{O} $$
+$$
+\ce{ CH_{3}CH_{2}OH + CH_{3}COOH <=> CH_{3}COOCH_{2}CH_{3} + H_{2}O} 
+$$
 
 ## Navngiving
 Estere er navngitt etter karboksylsyren og alkoholen. Metylbutanat er laget av metanol og butansyre (smørsyre.)
