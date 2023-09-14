@@ -1,11 +1,14 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Ståles notater på nettet/","title":"Ståles notater på nettet","tags":[null,"gardenEntry","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Ståles notater på nettet/","title":"Ståles notater på nettet","tags":[null,"gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"]}
 ---
 
 
 # Ståles notater på nettet
 
 ## Fagområder
+
+### Informasjonsteknologi 1
+[[Kunnskap/Forelesninger/IT1 forelesninger\|Forelesninger fra Informasjonsteknologi 1 skoleåret 2023–24]]
 
 ### Historie
 - Tidslinje over historie som er relevant for videregående finner dere her: [[Kunnskap/Tidslinje historie\|Tidslinje historie]]
