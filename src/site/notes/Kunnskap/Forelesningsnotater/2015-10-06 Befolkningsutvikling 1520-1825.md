@@ -21,4 +21,4 @@
 ![](/img/user/_resources/IMG_20151119_112931.png)
 
 ![](/img/user/_resources/IMG_20151119_112942.png)
-![[_resources/2-Befolkningsutvikling-1520-1825.pptx]]
+![[_resources/2-Befolkningsutvikling-1520-1825.pptx\|_resources/2-Befolkningsutvikling-1520-1825.pptx]]
