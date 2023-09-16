@@ -26,15 +26,27 @@ Hvis man oppretter en mappe kalt `katt` under `src/routes/` og legger inn en `+p
 ## Svelte
 I Svelte så håndteres promises [på følgende måte](https://svelte.dev/tutorial/await-blocks):
 ```js
+<script>
   const URL = "https://api.chucknorris.io/jokes/random";
   const getActivities = async (URL) => {
     const response = await fetch(URL);
     const results = await response.json();
     return results.value;
-    /* JSON-objektet har en nøkkel som heter value som vi ønsker å lese */
+    //JSON-objektet har en nøkkel som heter value som vi ønsker å lese
   };
 
   const promise = getActivities(URL);
+</script>
+
+{#await promise}
+  <p>Laster…</p>
+{:then quote}
+  <p>
+    {quote}
+  </p>
+{:catch error}
+  {error.message}
+{/await}
 ```
 
 I Svelte bruker vi altså følgende algoritme
@@ -45,6 +57,8 @@ I Svelte bruker vi altså følgende algoritme
 5. Vi tilordner funksjonskallet til `promise`. Hvis det er aktuelt å gjøre flere API-kall så bør denne variabelen være [[Kunnskap/Svelte#Dynamiske variable\|dynamisk]].
 6. I Svelte bruker vi en `{#await}`-blokk som avventer promisen.
 
+
+tester
 
 </div></div>
 
