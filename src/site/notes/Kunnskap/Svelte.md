@@ -24,6 +24,8 @@ Hvis man oppretter en mappe kalt `katt` under `src/routes/` og legger inn en `+p
 
 
 ## Svelte
+
+`{% raw %}`
 I Svelte så håndteres promises [på følgende måte](https://svelte.dev/tutorial/await-blocks):
 ```js
 <script>
