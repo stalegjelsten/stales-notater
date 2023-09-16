@@ -5,8 +5,6 @@
 
 # Lese JSON med JavaScript
 
-`{% raw %}`
-
 ## Vanilla JavaScript
 For å lese inn JSON eller andre filer bør man bruke en `async`-funksjon slik at vi gir nettleseren tid til å lese dataene før vi går videre til neste steg i koden. Vi bruker `fetch` til å hente dataene. Følgende eksempel ville kanskje fungert i vanlig javascript
 
@@ -25,6 +23,8 @@ const results = getActivities(URL).then( activities => {
 ```
 
 ## Svelte
+
+`{% raw %}`
 I Svelte så håndteres promises [på følgende måte](https://svelte.dev/tutorial/await-blocks):
 ```js
 <script>
