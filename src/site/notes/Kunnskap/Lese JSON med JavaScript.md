@@ -24,8 +24,7 @@ const results = getActivities(URL).then( activities => {
 
 ## Svelte
 I Svelte så håndteres promises [på følgende måte](https://svelte.dev/tutorial/await-blocks):
-```svelte
-<script>
+```js
   const URL = "https://api.chucknorris.io/jokes/random";
   const getActivities = async (URL) => {
     const response = await fetch(URL);
@@ -35,17 +34,6 @@ I Svelte så håndteres promises [på følgende måte](https://svelte.dev/tutori
   };
 
   const promise = getActivities(URL);
-</script>
-
-{#await promise}
-  <p>Laster…</p>
-{:then quote}
-  <p>
-    {quote}
-  </p>
-{:catch error}
-  {error.message}
-{/await}
 ```
 
 I Svelte bruker vi altså følgende algoritme
