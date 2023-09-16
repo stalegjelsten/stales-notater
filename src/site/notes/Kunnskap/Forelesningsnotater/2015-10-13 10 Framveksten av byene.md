@@ -14,4 +14,4 @@
 	* Ladested
 	* Strandsted
 
-![[_resources/10-Framveksten-av-byene-(1).pptx]]
+![[_resources/10-Framveksten-av-byene-(1).pptx\|_resources/10-Framveksten-av-byene-(1).pptx]]
