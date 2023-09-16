@@ -25,10 +25,11 @@ Dette er en oversiktside som viser alle fagnotater i IT1.
 { .block-language-dataview}
 
 ## Svelte
-| File                                                               | tags                                                    | modified           |
-| ------------------------------------------------------------------ | ------------------------------------------------------- | ------------------ |
-| [[Kunnskap/Svelte\|Svelte]]                                     | <ul><li>it1</li><li>svelte</li></ul>                    | June 09, 2023      |
-| [[Kunnskap/Lese JSON med JavaScript\|Lese JSON med JavaScript]] | <ul><li>it1</li><li>svelte</li><li>javascript</li></ul> | September 16, 2023 |
-| [[Kunnskap/each blokker i Svelte\|each blokker i Svelte]]       | <ul><li>it1</li><li>svelte</li></ul>                    | September 16, 2023 |
+| File                                                                   | tags                                                    | modified           |
+| ---------------------------------------------------------------------- | ------------------------------------------------------- | ------------------ |
+| [[Kunnskap/Svelte\|Svelte]]                                         | <ul><li>it1</li><li>svelte</li></ul>                    | June 09, 2023      |
+| [[Kunnskap/Lese JSON med JavaScript\|Lese JSON med JavaScript]]     | <ul><li>it1</li><li>svelte</li><li>javascript</li></ul> | September 16, 2023 |
+| [[Kunnskap/each blokker i Svelte\|each blokker i Svelte]]           | <ul><li>it1</li><li>svelte</li></ul>                    | September 16, 2023 |
+| [[Kunnskap/Lese JSON med JavaScript 1\|Lese JSON med JavaScript 1]] | <ul><li>it1</li><li>svelte</li><li>javascript</li></ul> | September 16, 2023 |
 
 { .block-language-dataview}
