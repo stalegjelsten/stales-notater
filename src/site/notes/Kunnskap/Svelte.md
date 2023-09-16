@@ -38,7 +38,7 @@ I Svelte så håndteres promises [på følgende måte](https://svelte.dev/tutori
   const promise = getActivities(URL);
 </script>
 
-{ promise}
+{#await promise}
   <p>Laster…</p>
 {:then quote}
   <p>
@@ -55,7 +55,9 @@ I Svelte bruker vi altså følgende algoritme
 3. Vi bruker `await promise.json()` for å gjøre om innholdet til JSON så fort det er tilgjengelig
 4. Vi returnerer verdien vi er interesserte i.
 5. Vi tilordner funksjonskallet til `promise`. Hvis det er aktuelt å gjøre flere API-kall så bør denne variabelen være [[Kunnskap/Svelte#Dynamiske variable\|dynamisk]].
-6. I Svelte bruker vi en -blokk som avventer promisen.
+6. I Svelte bruker vi en `{#await}`-blokk som avventer promisen.
+
+`{% endraw %}`
 
 
 </div></div>
