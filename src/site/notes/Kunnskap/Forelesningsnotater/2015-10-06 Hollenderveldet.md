@@ -23,4 +23,4 @@
 		* renslighet, språk, skipsfartskompetanse
 		* de fleste ble i nederland og giftet seg der.
 
-![[_resources/3-Hollenderveldet-2-(1).pptx]]
+![[_resources/3-Hollenderveldet-2-(1).pptx\|_resources/3-Hollenderveldet-2-(1).pptx]]
