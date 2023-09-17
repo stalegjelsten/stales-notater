@@ -30,23 +30,24 @@ Det kan se ut som at fargen til høyre på forløpningen går lenger inn mot mid
 ## Tekst med fargeforløpninger
 
 Å farge tekst med en fargeforløpning gir en stilig effekt (men den bør brukes med forsiktighet – nettsiden bør alltid være godt lesbar!)
-<h3 style="background-image: linear-gradient(15deg, #a050e8 0%, #00ff88 55%, #a050e8 100%); background-clip: text; -webkit-text-fill-color: transparent;
-">Demonstrerer fargeforløpning i tekst</h3>
+
+<h3 style="background-image: linear-gradient(15deg, #a050e8 0%, #00ff88 55%, #a050e8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Demonstrerer fargeforløpning i tekst</h3>
 
 >[!example] Eksempel på bruk
 >```css
 >h3 {
 >	background-image: linear-gradient(15deg, #a050e8 0%, #00ff88 65%, #a050e8 100%);
 >	background-clip: text;
+>	-webkit-background-clip: text;
 >	-webkit-text-fill-color: transparent;
 >}
 >```
 
 For å lage tekst med en fargegradient så kan du bruke CSS til å 
 - legge til en gradient som et bakgrunnsbildet på HTML elementet
-- clippe bakgrunnen til akkurat det området der teksten er
+- clippe bakgrunnen til akkurat det området der teksten er. Dessverre er `background-clip` en uoffisiell CSS-egenskap. For at den skal virke i de fleste nettlesere må du derfor bruke både `background-clip` og `-webkit-background-clip`.
 - bruke en transparent farge på skriften for å se bakgrunnen bak
 
 #### Ressurser
 - [Sarah Fossheim](https://fossheim.io/writing/posts/css-text-gradient/) har en veldig god tutorial som viser hvordan man bruker gradients
-- [cssgradient.io](https://cssgradient.io/swatches/) er et nettsted hvor du kan finne ferdiglagde gradienter og enkelt designe dine egne stiler
+- [joshwcomeau.com/gradient-generator/](https://www.joshwcomeau.com/gradient-generator/) er et nettsted hvor du kan lage CSS koden til (og pusle med) lineære fargeforløpninger
