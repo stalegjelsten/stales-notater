@@ -5,14 +5,14 @@
 
 # Universell utforming av nettsider
 
-![Video fra Digitaliseringsdirektoratet om universell utforming](https://youtu.be/mZFpcHSDdvk)
+<iframe src="https://www.youtube.com/embed/mZFpcHSDdvk" class="youtube" title="Video fra Digitaliseringsdirektoratet om universell utforming" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Universell utforming er å utforme omgivelsene våre slik at flest mulig kan delta i samfunnet – uavhengig av funksjonsevne.
 
 Nettsteder som er rettet mot allmennheten i Norge og som enten informerer eller tilbyr tjenester må følge retningslinjer for universell utforming. De norske retningslinjene bygger de internasjonale retningslinjene <abbr>WCAG</abbr> 2.0 (Web Content Accessibility Guidelines). [Tilsynet for universell utforming av IKT](https://www.uutilsynet.no/) har laget en veileder for hvordan vi bør utforme nettsteder som ligger her: <https://www.uutilsynet.no/veiledning/nettsteder/711>
 
 ## Hovedprinsipper for universell utforming av nettsteder
-![Introduksjon til universell utforming av nettsteder](https://www.youtube.com/watch?v=KSLx3yPwGGY)
+<iframe src="https://www.youtube.com/embed/KSLx3yPwGGY" class="youtube" title="Introduksjon til universell utforming av nettsteder" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <abbr>WCAG</abbr> 2.0 gir oss fire prinsipper for universell utforming av nettsteder
 
