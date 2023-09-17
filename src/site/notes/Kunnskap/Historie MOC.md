@@ -72,7 +72,6 @@
 | [[Kunnskap/Forelesningsnotater/2015-11-17 Endringer i verdensbilde, kulturell forståelse 1350-1800\|2015-11-17 Endringer i verdensbilde, kulturell forståelse 1350-1800]]   | <ul><li>historie</li><li>hi110</li><li>forelesning</li></ul> | November 27, 2015  |
 | [[Kunnskap/Forelesningsnotater/2015-11-24 Oppsummerende forelesning Sætra\|2015-11-24 Oppsummerende forelesning Sætra]]                                                     | <ul><li>historie</li><li>hi110</li><li>forelesning</li></ul> | November 24, 2015  |
 | [[Kunnskap/Forelesningsnotater/2015-11-19 Oversjøisk ekspansjon og globale dimensjoner\|2015-11-19 Oversjøisk ekspansjon og globale dimensjoner]]                           | <ul><li>historie</li><li>hi110</li><li>forelesning</li></ul> | January 24, 2023   |
-| [[Kunnskap/Forelesningsnotater/Forelesningsnotater MOC\|Forelesningsnotater MOC]]                                                                                           | <ul><li>historie</li><li>forelesning</li></ul>               | January 24, 2023   |
 | [[Kunnskap/Forelesningsnotater/Hi100 Forelesningsnotater globalhistorie MOC\|Hi100 Forelesningsnotater globalhistorie MOC]]                                                 | <ul><li>historie</li><li>hi100</li></ul>                     | January 29, 2023   |
 | [[Kunnskap/Forelesningsnotater/Hi110 Forelesningsnotater eldre historie i Norge og Europa MOC\|Hi110 Forelesningsnotater eldre historie i Norge og Europa MOC]]             | <ul><li>historie</li><li>hi110</li></ul>                     | January 25, 2023   |
 | [[Kunnskap/Forelesningsnotater/Levert eksamen Hi100 globalhistorie UiA høst 2015\|Levert eksamen Hi100 globalhistorie UiA høst 2015]]                                       | <ul><li>eksamen</li><li>hi100</li><li>historie</li></ul>     | January 31, 2023   |
@@ -127,5 +126,6 @@
 | [[Kunnskap/Vi er alle grekere\|Vi er alle grekere]]                                                                                                                         | <ul><li>historie</li></ul>                                   | September 10, 2022 |
 | [[Kunnskap/Vikingtiden\|Vikingtiden]]                                                                                                                                       | <ul><li>historie</li></ul>                                   | January 29, 2023   |
 | [[Kunnskap/Xenofon\|Xenofon]]                                                                                                                                               | <ul><li>historie</li></ul>                                   | January 28, 2023   |
+| [[Kunnskap/Forelesningsnotater/Forelesningsnotater historie MOC\|Forelesningsnotater historie MOC]]                                                                         | <ul><li>historie</li><li>forelesning</li></ul>               | September 17, 2023 |
 
 { .block-language-dataview}
