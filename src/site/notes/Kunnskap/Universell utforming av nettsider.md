@@ -32,7 +32,9 @@ For at det skal være enkelt å lese teksten så har vi følgende krav:
 - Kontrastforholdet mellom tekst og bakgrunn skal være minst 4,5:1
 - Alle innskrivingsfelt (`input`) skal ha ledetekst som beskriver feltet
 
-Hos [a11y](https://color.a11y.com/ContrastPair/) kan du teste kontrastforholdet mellom to fargekoder.
+Hos [a11y](https://color.a11y.com/ContrastPair/) kan du teste kontrastforholdet mellom to fargekoder. Dersom du allerede har laget en nettside kan du teste kontrastforholdene der inne ved å åpne Utviklerverktøyene (<kbd>Ctrl</kbd> <kbd>↑Shift</kbd> <kbd>I</kbd>) og trykker på *Tilgjengelighet* eller *Accessibility*. Se figuren under for en sjekk av denne nettsiden foretatt 2023-09-17. 
+
+![uu-stales-notater.png](/img/user/_resources/uu-stales-notater.png)
 
 [Hovedprinsipp 1. Mulig å oppfatte hos Tilsynet for universell utforming av IKT](https://www.uutilsynet.no/wcag-standarden/1-mulig-oppfatte/714)
 
