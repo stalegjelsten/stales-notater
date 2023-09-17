@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Ståles notater på nettet/","title":"Ståles notater på nettet","tags":[null,"gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Ståles notater på nettet/","title":"Ståles notater på nettet","tags":[null,"gardenEntry","gardenEntry","gardenEntry"]}
 ---
 
 
@@ -17,7 +17,7 @@
 - En oversikt over forelesningsnotater fra universitetet (fordelt på fag)
 	- [[Kunnskap/Forelesningsnotater/Hi110 Forelesningsnotater eldre historie i Norge og Europa MOC\|Hi110 Forelesningsnotater eldre historie i Norge og Europa MOC]]
 	- [[Kunnskap/Forelesningsnotater/Hi100 Forelesningsnotater globalhistorie MOC\|Hi100 Forelesningsnotater globalhistorie MOC]]
-	- Alle forelesningsnotater (jeg skal renskrive flere etter hvert og legge ut): [[Kunnskap/Forelesningsnotater/Forelesningsnotater MOC\|Forelesningsnotater MOC]]
+	- Alle forelesningsnotater (jeg skal renskrive flere etter hvert og legge ut): [[Kunnskap/Forelesningsnotater/Forelesningsnotater historie MOC\|Forelesningsnotater historie MOC]]
 
 ### Naturfag
 - Kapittel 1 [[Kunnskap/Big bang\|Big bang]]
