@@ -6,19 +6,19 @@
 # Naturfag MOC
 | File                                                                                                                                  | tags                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| [[Kunnskap/Bølger\|Bølger]]                                                                                                        | <ul><li>fysikk</li><li>naturfag</li></ul>                       |
+| [[Kunnskap/Big bang\|Big bang]]                                                                                                    | <ul><li>fysikk</li><li>naturfag</li></ul>                       |
+| [[Kunnskap/Betastråling\|Betastråling]]                                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
+| [[Kunnskap/Baryon\|Baryon]]                                                                                                        | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
+| [[Kunnskap/Bakgrunnsstråling\|Bakgrunnsstråling]]                                                                                  | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
+| [[Kunnskap/Atom\|Atom]]                                                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
+| [[Kunnskap/Antenne\|Antenne]]                                                                                                      | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
+| [[Kunnskap/Amplitudemodulasjon\|Amplitudemodulasjon]]                                                                              | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
+| [[Kunnskap/Alfastråling\|Alfastråling]]                                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
+| [[Kunnskap/Absolutte nullpunkt\|Absolutte nullpunkt]]                                                                              | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
+| [[Karbohydrater\|Karbohydrater]]                                                                                                   | <ul><li>biologi</li><li>naturfag</li></ul>                      |
 | [[Evernote import/Cut a Glass Bottle Using Nail Polish, String, and Fire\|Cut a Glass Bottle Using Nail Polish, String, and Fire]] | <ul><li>naturfag</li><li>forsøk</li></ul>                       |
 | [[Etse bort brusboks\|Etse bort brusboks]]                                                                                         | <ul><li>naturfag</li><li>forsøk</li></ul>                       |
-| [[Karbohydrater\|Karbohydrater]]                                                                                                   | <ul><li>biologi</li><li>naturfag</li></ul>                      |
-| [[Kunnskap/Absolutte nullpunkt\|Absolutte nullpunkt]]                                                                              | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
-| [[Kunnskap/Alfastråling\|Alfastråling]]                                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
-| [[Kunnskap/Amplitudemodulasjon\|Amplitudemodulasjon]]                                                                              | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
-| [[Kunnskap/Antenne\|Antenne]]                                                                                                      | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
-| [[Kunnskap/Atom\|Atom]]                                                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
-| [[Kunnskap/Bakgrunnsstråling\|Bakgrunnsstråling]]                                                                                  | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
-| [[Kunnskap/Baryon\|Baryon]]                                                                                                        | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
-| [[Kunnskap/Betastråling\|Betastråling]]                                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
-| [[Kunnskap/Big bang\|Big bang]]                                                                                                    | <ul><li>fysikk</li><li>naturfag</li></ul>                       |
-| [[Kunnskap/Bølger\|Bølger]]                                                                                                        | <ul><li>fysikk</li><li>naturfag</li></ul>                       |
 | [[Kunnskap/DNA\|DNA]]                                                                                                              | <ul><li>naturfag</li></ul>                                      |
 | [[Kunnskap/Diagnostiering med ioniserende stråling\|Diagnostiering med ioniserende stråling]]                                      | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]                                                                  | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
