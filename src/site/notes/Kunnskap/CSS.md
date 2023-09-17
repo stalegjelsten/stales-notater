@@ -20,8 +20,8 @@ Du kan legge inn CSS-kode i et eget `<style>`-element i `<head>` av HTML dokumen
 Den vanligste løsningen er å skrive CSS-koden i et eget stilark med filendelsen `.css`. Den store fordelen med dette er at du kan bruke det samme stilarket på alle HTML-sidene du lager på nettstedet.
 
 ## Notater om CSS
+- [[Kunnskap/Fargeforløpninger i CSS\|Fargeforløpninger i CSS]]
 - [[Kunnskap/CSS pseudoselektorer\|CSS pseudoselektorer]]
 - [[Kunnskap/Display inline, block og inline-block\|Display inline, block og inline-block]]
-- [[Kunnskap/Fargeforløpninger i CSS\|Fargeforløpninger i CSS]]
 
 { .block-language-dataview}
