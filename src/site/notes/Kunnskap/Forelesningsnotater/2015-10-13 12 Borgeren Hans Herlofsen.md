@@ -4,4 +4,4 @@
 
 
 # 2015-10-13 12 Borgeren Hans Herlofsen
-![[_resources/12-Borgeren-Hans-Herlofsen.pdf]]
+![[_resources/12-Borgeren-Hans-Herlofsen.pdf\|_resources/12-Borgeren-Hans-Herlofsen.pdf]]
