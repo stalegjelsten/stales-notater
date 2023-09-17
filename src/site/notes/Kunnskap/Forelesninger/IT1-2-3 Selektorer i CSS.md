@@ -72,6 +72,8 @@ blockquote::after { content: "»"; }
 
 >«Si vis pacem, para bellum.»
 
+*Obs: CSS-filen som bestemmer stilen på denne forelesningssliden gjør at dette sitatet automatisk får flotte anførselstegn (de gule) på hver side.*
+
 ---
 
 ### Prøv selv: Pseudoselektor
