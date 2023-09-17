@@ -11,4 +11,4 @@
 * Mange uthavner i Norge. Utvikling mot oppankring i byene.
 * Partsrederiet gjør at bøndene kan komme inn i skipsfarten.
 
-![[_resources/8-Norsk-skipsfart-og-skipsbygging-1500-1814-(1).pptx\|_resources/8-Norsk-skipsfart-og-skipsbygging-1500-1814-(1).pptx]]
+![[_resources/8-Norsk-skipsfart-og-skipsbygging-1500-1814-(1).pptx]]
