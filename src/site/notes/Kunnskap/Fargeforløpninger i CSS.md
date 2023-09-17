@@ -5,13 +5,15 @@
 
 # Fargeforløpninger i CSS
 
-<div style="background: linear-gradient(90deg, #a050e8 0%, #00ff88 50%, #ff00ff 100%); height: 8rem;">&nbsp;</div>
+<div style="background: linear-gradient(90deg, #a050e8 0%, #00ff88 50%, #ff00ff 100%); aspect-ratio: 8/1; border-radius: 1vw;">&nbsp;</div>
 
-En fargeforløpning er en gradvis overgang mellom ulike farger. Boksen ovenfor er en `div` med høyde `8rem` som viser en lineær forløpning fra lilla til turkis og tilbake til lilla. For å lage effekten brukte jeg følgende CSS-kode:
+En fargeforløpning er en gradvis overgang mellom ulike farger. Boksen ovenfor er en `div` som viser en lineær forløpning fra lilla til turkis og tilbake til lilla. For å lage effekten brukte jeg følgende CSS-kode:
 
 ```css
 div {
-	background: linear-gradient(90deg, #a050e8 0%, #00ff88 50%, #ff00ff 100%);
+	background: linear-gradient(90deg, #a050e8 0%, #00ff88 50%, #ff00ff 100%); 
+	aspect-ratio: 8/1; 
+	border-radius: 1vw;
 }
 ```
 
@@ -20,8 +22,10 @@ Ved å skrive `linear-gradient` får vi en lineær (rettlinjet) forløpning. Inn
 - `#a050e8 0%` definerer at fargen `a050e8` skal ha være på sitt sterkeste helt ved starten av forløpningen
 - `#00ff88 50%` definerer at fargen `00ff88` skal ha være på sitt sterkeste ved midten av forløpningen
 - `#ff00ff 100%` definerer at fargen `a050e8` skal ha være på sitt sterkeste (igjen) helt på slutten av forløpningen
+- `aspect-ratio: 8/1` gjør at boksens høyde blir 1/8 av bredden. Jeg kunne også satt en høyde med `height`, men på denne måten så ser boksen ganske lik ut i ulike skjermoppløsninger.
+- `border-radius: 1vw` gir avrundede hjørner. Ved å bruke *viewport width* enheter så blir størrelsen på avrundingen avhengig av skjermstørrelsen.
 
-Det kan se ut som at fargen til høyre på forløpningen går lenger inn mot midten enn fargen fra venstre side av forløpningen. Dette skjer fordi fargen til høyre er sterkere (den ligger nærmere hvit) enn fargen til venstre.
+Det kan se ut som at fargen til høyre på forløpningen går lenger inn mot midten enn fargen fra venstre side av forløpningen. Det stemmer egentlig ikke, men det oppleves slik siden øynene våre oppfatter noen farger tydeligere enn andre. Denne illusjonen skjer fordi fargen til høyre er sterkere (den ligger nærmere hvit) enn fargen til venstre.
 
 ## Tekst med fargeforløpninger
 
