@@ -21,4 +21,4 @@
 	* Fellesfløtingsforening
 		
 
-![[_resources/17-bondepolitikk-før-under-og-etter-1814.pdf\|_resources/17-bondepolitikk-før-under-og-etter-1814.pdf]]
+![[_resources/17-bondepolitikk-før-under-og-etter-1814.pdf]]
