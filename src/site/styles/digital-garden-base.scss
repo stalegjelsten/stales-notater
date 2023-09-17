@@ -57,6 +57,11 @@ ul.task-list {
     padding-left: 15px;
 }
 
+iframe.youtube {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
 .sidebar {
     position: fixed;
     top: 75px;
