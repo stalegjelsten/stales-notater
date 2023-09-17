@@ -22,8 +22,8 @@ Dette er en oversiktside som viser alle fagnotater i IT1.
 ## HTML
 | File                                                                                 | tags                               | modified           |
 | ------------------------------------------------------------------------------------ | ---------------------------------- | ------------------ |
-| [[Kunnskap/Semantisk HTML\|Semantisk HTML]]                                       | <ul><li>it1</li><li>html</li></ul> | September 17, 2023 |
 | [[Kunnskap/Universell utforming av nettsider\|Universell utforming av nettsider]] | <ul><li>it1</li><li>html</li></ul> | September 17, 2023 |
+| [[Kunnskap/Semantisk HTML\|Semantisk HTML]]                                       | <ul><li>it1</li><li>html</li></ul> | September 17, 2023 |
 
 { .block-language-dataview}
 
