@@ -18,8 +18,8 @@ Nettsteder som er rettet mot allmennheten i Norge og som enten informerer eller 
 
 1. [[Kunnskap/Universell utforming av nettsider#Mulig å oppfatte\|#Mulig å oppfatte]]. Informasjon og brukergrensesnitt må være presentert på en slik måte at brukerne kan oppfatte det.
 2. [[Kunnskap/Universell utforming av nettsider#Mulig å betjene\|#Mulig å betjene]]. Det må være mulig å betjene brukergrensesnittet og navigere seg på nettstedet.
-3. **[[Forståelig\|Forståelig]]**. Det må være mulig å forstå informasjon og betjening av brukergrensesnittet.
-4. **Robust**. Innholdet må kunne tolkes på en pålitelig måte av både nettlesere og av kompenserende teknologi (som skjermlesere).
+3. [[Kunnskap/Universell utforming av nettsider#Forståelig\|#Forståelig]]. Det må være mulig å forstå informasjon og betjening av brukergrensesnittet.
+4. [[Kunnskap/Universell utforming av nettsider#Robust\|#Robust]]. Innholdet må kunne tolkes på en pålitelig måte av både nettlesere og av kompenserende teknologi (som skjermlesere).
 
 ### Mulig å oppfatte
 
@@ -34,15 +34,28 @@ For at det skal være enkelt å lese teksten så har vi følgende krav:
 
 Hos [a11y](https://color.a11y.com/ContrastPair/) kan du teste kontrastforholdet mellom to fargekoder.
 
+[Hovedprinsipp 1. Mulig å oppfatte hos Tilsynet for universell utforming av IKT](https://www.uutilsynet.no/wcag-standarden/1-mulig-oppfatte/714)
+
 ### Mulig å betjene
 Alle brukere skal kunne betjene nettsiden. For det første er det viktig at det er mulig å betjene nettsiden både fra datamaskin og fra smarttelefon eller nettbrett.
 
-I tillegg må vi legge til rette for brukere som kun kan navigere med tastatur (og ikke mus) eller med skjermleser. Ofte vil disse bruke <kbd>Tab</kbd> knappen for å navigere mellom ulike elementer på nettsiden.
+I tillegg må vi legge til rette for brukere som kun kan navigere med tastatur (og ikke mus) eller med skjermleser. Ofte vil disse bruke <kbd>Tab</kbd> knappen for å navigere mellom ulike elementer på nettsiden. Les mer om [tastaturnavigasjon hos uutilsynet](https://www.uutilsynet.no/veiledning/tastaturnavigasjon/37).
 
 Det er som oftest lett å navigere på nettsteder som er laget med [[Kunnskap/Semantisk HTML\|Semantisk HTML]]. Du bør derfor bruke semantiske tagger som `<nav>` og `<main>`.
 
+[Hovedprinsipp 2. Mulig å betjene hos Tilsynet for universell utforming av IKT](https://www.uutilsynet.no/wcag-standarden/2-mulig-betjene/716)
+
 ### Forståelig
->[!todo] Skriv dette avsnittet
+Det må være mulig å forstå informasjon og betjening av brukergrensesnitt. Nettsidene må være forutsigbare, ha enkelt språk og god hjelpefunksjonalitet.
+
+#### Språk
+Alle nettsider må ha definert språket som brukes på nettsiden med `<html lang=”no”>` (erstatt `no` med [språkkoden](https://www.loc.gov/standards/iso639-2/php/code_list.php) som gjelder for ditt språk).
+
+[Hovedprinsipp 3. Forståelig hos Tilsynet for universell utforming av IKT](https://www.uutilsynet.no/wcag-standarden/3-forstaelig/717)
 
 ### Robust
 For at innholdet på nettsiden skal fungere for flest mulig bør du i størst mulig grad velge standardelementer i HTML som er støttet av mange nettlesere. 
+
+I tillegg bør nettsiden selvsagt ikke inneholde kodefeil. Det er mulig å validere HTML-kode hos [w3c](https://validator.w3.org/).
+
+[Hovedprinsipp 4. Robust hos Tilsynet for universell utforming av IKT](https://www.uutilsynet.no/wcag-standarden/4-robust/718)
