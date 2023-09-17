@@ -4,7 +4,7 @@
 
 
 # eTiming
-eTiming kan brukes til [[Orientering/eTiming med spooling av resultater\|enkle løp med spooling]] eller til full tidtaking.
+eTiming er et tidtakingsprogram for Windows som kan brukes til [[Orientering/eTiming med spooling av resultater\|enkle løp med spooling]] eller til full tidtaking.
 
 ## Installasjon
 
