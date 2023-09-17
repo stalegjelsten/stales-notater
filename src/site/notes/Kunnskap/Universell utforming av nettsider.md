@@ -17,9 +17,9 @@ Nettsteder som er rettet mot allmennheten i Norge og som enten informerer eller 
 <abbr>WCAG</abbr> 2.0 gir oss fire prinsipper for universell utforming av nettsteder
 
 1. [[Kunnskap/Universell utforming av nettsider#Hovedprinsipp 1 Mulig å oppfatte\|#Hovedprinsipp 1 Mulig å oppfatte]]. Informasjon og brukergrensesnitt må være presentert på en slik måte at brukerne kan oppfatte det.
-2. [[Kunnskap/Universell utforming av nettsider#Mulig å betjene\|#Mulig å betjene]]. Det må være mulig å betjene brukergrensesnittet og navigere seg på nettstedet.
-3. [[Kunnskap/Universell utforming av nettsider#Forståelig\|#Forståelig]]. Det må være mulig å forstå informasjon og betjening av brukergrensesnittet.
-4. [[Kunnskap/Universell utforming av nettsider#Robust\|#Robust]]. Innholdet må kunne tolkes på en pålitelig måte av både nettlesere og av kompenserende teknologi (som skjermlesere).
+2. [[Kunnskap/Universell utforming av nettsider#Hovedprinsipp 2 Mulig å betjene\|#Hovedprinsipp 2 Mulig å betjene]]. Det må være mulig å betjene brukergrensesnittet og navigere seg på nettstedet.
+3. [[Kunnskap/Universell utforming av nettsider#Hovedprinsipp 3 Forståelig\|#Hovedprinsipp 3 Forståelig]]. Det må være mulig å forstå informasjon og betjening av brukergrensesnittet.
+4. [[Kunnskap/Universell utforming av nettsider#Hovedprinsipp 4 Robust\|#Hovedprinsipp 4 Robust]]. Innholdet må kunne tolkes på en pålitelig måte av både nettlesere og av kompenserende teknologi (som skjermlesere).
 
 ### Hovedprinsipp 1: Mulig å oppfatte
 >Informasjon og brukergrensesnittkomponenter må presenteres for brukere på måter som de kan oppfatte.
