@@ -12,7 +12,7 @@ Dette er en oversiktside som viser alle fagnotater i IT1.
 ## CSS
 | File                                                                                         | tags                              | modified           |
 | -------------------------------------------------------------------------------------------- | --------------------------------- | ------------------ |
-| [[Kunnskap/Fargeforløpninger i CSS\|Fargeforløpninger i CSS]]                             | <ul><li>css</li><li>it1</li></ul> | September 16, 2023 |
+| [[Kunnskap/Fargeforløpninger i CSS\|Fargeforløpninger i CSS]]                             | <ul><li>css</li><li>it1</li></ul> | September 17, 2023 |
 | [[Kunnskap/Display inline, block og inline-block\|Display inline, block og inline-block]] | <ul><li>it1</li><li>css</li></ul> | September 15, 2023 |
 | [[Kunnskap/CSS pseudoselektorer\|CSS pseudoselektorer]]                                   | <ul><li>it1</li><li>css</li></ul> | September 16, 2023 |
 
