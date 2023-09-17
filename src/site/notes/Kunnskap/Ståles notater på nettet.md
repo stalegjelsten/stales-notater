@@ -8,7 +8,7 @@
 ## Fagområder
 
 ### Informasjonsteknologi 1
-- Oversikt over alle notater som er relevante for IT1 finner dere her: [[Kunnskap/IT1 MOC\|IT1 MOC]]
+- [[Kunnskap/IT1 MOC\|Fagnotater til IT1]]
 - [[Kunnskap/Forelesninger/IT1 forelesninger\|Forelesninger fra Informasjonsteknologi 1 skoleåret 2023–24]]
 
 ### Historie
