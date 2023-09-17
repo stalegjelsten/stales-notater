@@ -25,7 +25,7 @@ Hvis man oppretter en mappe kalt `katt` under `src/routes/` og legger inn en `+p
 
 ## Svelte
 
-`{% raw %}`
+{% raw %}
 I Svelte så håndteres promises [på følgende måte](https://svelte.dev/tutorial/await-blocks):
 ```js
 <script>
@@ -59,7 +59,7 @@ I Svelte bruker vi altså følgende algoritme
 5. Vi tilordner funksjonskallet til `promise`. Hvis det er aktuelt å gjøre flere API-kall så bør denne variabelen være [[Kunnskap/Svelte#Dynamiske variable\|dynamisk]].
 6. I Svelte bruker vi en `{#await}`-blokk som avventer promisen.
 
-`{% endraw %}`
+{% endraw %}
 
 
 </div></div>
