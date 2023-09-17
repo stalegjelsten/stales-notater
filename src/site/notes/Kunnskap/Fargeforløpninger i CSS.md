@@ -48,6 +48,9 @@ For å lage tekst med en fargegradient så kan du bruke CSS til å
 - clippe bakgrunnen til akkurat det området der teksten er. Dessverre er `background-clip` en uoffisiell CSS-egenskap. For at den skal virke i de fleste nettlesere må du derfor bruke både `background-clip` og `-webkit-background-clip`.
 - bruke en transparent farge på skriften for å se bakgrunnen bak
 
+>[!warning] Bruk en fallback bakgrunnsfarge
+>Siden det ikke er absolutt alle nettlesere som kan vise fargeforløpninger på tekst så er det lurt å legge til `background-color: FARGENAVN` *før* `background-image: linear-gradient()`. Hvis nettleseren ikke klarer å vise fargeforløpningen kan den da vise fargen du har definert i `background-color`.
+
 #### Ressurser
 - [Sarah Fossheim](https://fossheim.io/writing/posts/css-text-gradient/) har en veldig god tutorial som viser hvordan man bruker gradients
 - [joshwcomeau.com/gradient-generator/](https://www.joshwcomeau.com/gradient-generator/) er et nettsted hvor du kan lage CSS koden til (og pusle med) lineære fargeforløpninger
