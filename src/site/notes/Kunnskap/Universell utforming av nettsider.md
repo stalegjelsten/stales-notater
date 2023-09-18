@@ -35,7 +35,10 @@ For at det skal være enkelt å lese teksten så har vi følgende krav:
 - Kontrastforholdet mellom tekst og bakgrunn skal være minst 4,5:1
 - Alle innskrivingsfelt (`input`) skal ha ledetekst som beskriver feltet
 
-Hos [a11y](https://color.a11y.com/ContrastPair/) kan du teste kontrastforholdet mellom to fargekoder. Dersom du allerede har laget en nettside kan du teste kontrastforholdene der inne ved å åpne Utviklerverktøyene (<kbd>Ctrl</kbd> <kbd>↑Shift</kbd> <kbd>I</kbd>) og trykker på *Tilgjengelighet* eller *Accessibility*. Se figuren under for en sjekk av denne nettsiden foretatt 2023-09-17. 
+Hos [a11y](https://color.a11y.com/ContrastPair/) kan du teste kontrastforholdet mellom to fargekoder. Dersom du allerede har laget en nettside kan du teste kontrastforholdene der inne ved å åpne Utviklerverktøyene (<kbd>Ctrl</kbd> <kbd>⇧ Shift</kbd> <kbd>I</kbd>) og trykker på *Tilgjengelighet* eller *Accessibility*. Se figuren under for en sjekk av denne nettsiden foretatt 2023-09-17. 
+
+>[!tip] Simulere fargeblindhet
+>Med utviklerverktøyene i de fleste nettlesere kan man simulere ulike former for fargesynhemninger (fargeblindhet). I Firefox velger man *Simulate* under *Accessibility*. Der får man valget mellom ulike typer simuleringer av fargeblindhet.
 
 ![uu-stales-notater.png](/img/user/_resources/uu-stales-notater.png)
 
