@@ -65,7 +65,7 @@ Alle nettsider må ha definert språket som brukes på nettsiden med `<html lang
 ### Hovedprinsipp 4: Robust
 >Innholdet må være robust nok til at det kan tolkes på en pålitelig måte av brukeragenter, inkludert kompenserende teknologi.
 
-For at innholdet på nettsiden skal fungere for flest mulig bør du i størst mulig grad velge standardelementer i HTML som er støttet av mange nettlesere. 
+For at innholdet på nettsiden skal fungere for flest mulig bør du i størst mulig grad velge standardelementer i [[Kunnskap/HTML\|HTML]] som er støttet av mange nettlesere. 
 
 I tillegg bør nettsiden selvsagt ikke inneholde kodefeil. Det er mulig å validere HTML-kode hos [w3c](https://validator.w3.org/).
 
