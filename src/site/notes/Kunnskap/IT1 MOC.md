@@ -8,6 +8,7 @@
 Dette er en oversiktsside som viser alle fagnotater i IT1.
 
 ## HTML
+- [[Kunnskap/HTML\|HTML]]
 - [[Kunnskap/Universell utforming av nettsider\|Universell utforming av nettsider]]
 - [[Kunnskap/Semantisk HTML\|Semantisk HTML]]
 
