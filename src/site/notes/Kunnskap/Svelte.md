@@ -6,7 +6,7 @@
 # Svelte
 Svelte er et rammeverk for å bygge nettsider med javascript.
 
-For å lage en Svelte nettside så kan du
+For å lage en Svelte nettside trenger du [[Kunnskap/node.js\|node.js]] med `npm` installert på datamaskinen. Åpne en terminal og kjør følgende kommandoer
 
 ```shell
 npm create svelte@latest my-app
