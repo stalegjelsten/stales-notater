@@ -8,17 +8,17 @@
 Dette er en oversiktsside som viser alle fagnotater i IT1.
 
 ## HTML
-- [[Kunnskap/HTML\|HTML]]
 - [[Kunnskap/Universell utforming av nettsider\|Universell utforming av nettsider]]
 - [[Kunnskap/Semantisk HTML\|Semantisk HTML]]
+- [[Kunnskap/HTML\|HTML]]
 
 { .block-language-dataview}
 
 ## CSS
 - [[Kunnskap/Fargeforløpninger i CSS\|Fargeforløpninger i CSS]]
 - [[Kunnskap/Display inline, block og inline-block\|Display inline, block og inline-block]]
-- [[Kunnskap/CSS pseudoselektorer\|CSS pseudoselektorer]]
 - [[Kunnskap/CSS\|CSS]]
+- [[Kunnskap/CSS pseudoselektorer\|CSS pseudoselektorer]]
 
 { .block-language-dataview}
 
@@ -30,6 +30,7 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 { .block-language-dataview}
 
 ## Annet
+- [[Kunnskap/node.js\|node.js]]
 - [[Kunnskap/Tillegg til Kode 1\|Tillegg til Kode 1]]
 - [[Kunnskap/Forelesninger/IT1 forelesninger\|IT1 forelesninger]]
 - [[Kunnskap/Forelesninger/IT1 Oppdrag til fagdag 1\|IT1 Oppdrag til fagdag 1]]
