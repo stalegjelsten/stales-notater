@@ -9,7 +9,7 @@
 
 Universell utforming er å utforme omgivelsene våre slik at flest mulig kan delta i samfunnet – uavhengig av funksjonsevne.
 
-Nettsteder som er rettet mot allmennheten i Norge og som enten informerer eller tilbyr tjenester må følge retningslinjer for universell utforming. De norske retningslinjene bygger de internasjonale retningslinjene <abbr>WCAG</abbr> 2.0 (Web Content Accessibility Guidelines). [Tilsynet for universell utforming av IKT](https://www.uutilsynet.no/) har laget en veileder for hvordan vi bør utforme nettsteder som ligger her: <https://www.uutilsynet.no/veiledning/nettsteder/711>
+Nettsteder som er rettet mot allmennheten i Norge og som enten informerer eller tilbyr tjenester må følge retningslinjer for universell utforming. De norske retningslinjene bygger på de internasjonale retningslinjene <abbr>WCAG</abbr> 2.0 (Web Content Accessibility Guidelines). [Tilsynet for universell utforming av IKT](https://www.uutilsynet.no/) har laget en veileder for hvordan vi bør utforme nettsteder som ligger her: <https://www.uutilsynet.no/veiledning/nettsteder/711>
 
 ## Hovedprinsipper for universell utforming av nettsteder
 <iframe src="https://www.youtube.com/embed/KSLx3yPwGGY" class="youtube" title="Introduksjon til universell utforming av nettsteder" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -27,7 +27,7 @@ Nettsteder som er rettet mot allmennheten i Norge og som enten informerer eller 
 [Les mer om hovedprinsipp 1: Mulig å oppfatte hos Tilsynet for universell utforming av IKT](https://www.uutilsynet.no/wcag-standarden/1-mulig-oppfatte/714)
 
 #### Bilder, videoer og lyd skal ha tekst som alternativ
-Alle brukere skal kunne oppfatte informasjonen på en nettside, selv om de mangler syn eller hørsel. Derfor har <abbr>WCAG</abbr> et krav om at det brukes tekst som alternativ til video, lyd og bilder. For bilder er det enkelt å legge til en god og bekskrivende `alt`-attributt, mens vi må transkribere lyd og legge på undertekster på video. Heldigvis har det kommet gode verktøy på markedet som kan gjøre dette automatisk (og de blir stadig bedre ved hjelp av AI).
+Alle brukere skal kunne oppfatte informasjonen på en nettside, selv om de mangler syn eller hørsel. Derfor har <abbr>WCAG</abbr> et krav om at det brukes tekst som alternativ til video, lyd og bilder. For bilder er det enkelt å legge til en god og beskrivende `alt`-attributt, mens vi må transkribere lyd og legge på undertekster på video. Heldigvis har det kommet gode verktøy på markedet som kan gjøre dette automatisk (og de blir stadig bedre ved hjelp av AI).
 
 #### Tekst skal være lettlest
 For at det skal være enkelt å lese teksten så har vi følgende krav:
