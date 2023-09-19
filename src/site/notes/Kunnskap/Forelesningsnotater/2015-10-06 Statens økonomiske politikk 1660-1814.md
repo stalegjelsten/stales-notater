@@ -46,4 +46,4 @@
 	* Pliktarbeid falt bort
 	* Landboreformer
 
-![[_resources/5-Statens-økonomiske-politikk-1660-1814-.pptx\|_resources/5-Statens-økonomiske-politikk-1660-1814-.pptx]]
+![[_resources/5-Statens-økonomiske-politikk-1660-1814-.pptx]]

@@ -32,7 +32,6 @@
 | [[Kunnskap/Ionebindinger\|Ionebindinger]]                                                                                          | <ul><li>naturfag</li></ul>                                      |
 | [[Kunnskap/Ion\|Ion]]                                                                                                              | <ul><li>naturfag</li></ul>                                      |
 | [[Kunnskap/Infrarød stråling\|Infrarød stråling]]                                                                                  | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
-| [[Kunnskap/Hubble-Lemaitres lov\|Hubble-Lemaitres lov]]                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Frekvensmodulasjon\|Frekvensmodulasjon]]                                                                                | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Hormese\|Hormese]]                                                                                                      | <ul><li>naturfag</li></ul>                                      |
 | [[Kunnskap/Hjernen\|Hjernen]]                                                                                                      | <ul><li>naturfag</li><li>psykologi</li></ul>                    |
@@ -61,5 +60,6 @@
 | [[Karbohydrater\|Karbohydrater]]                                                                                                   | <ul><li>biologi</li><li>naturfag</li></ul>                      |
 | [[Evernote import/Cut a Glass Bottle Using Nail Polish, String, and Fire\|Cut a Glass Bottle Using Nail Polish, String, and Fire]] | <ul><li>naturfag</li><li>forsøk</li></ul>                       |
 | [[Etse bort brusboks\|Etse bort brusboks]]                                                                                         | <ul><li>naturfag</li><li>forsøk</li></ul>                       |
+| [[Kunnskap/Hubble-Lemaitres lov\|Hubble-Lemaitres lov]]                                                                            | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 
 { .block-language-dataview}

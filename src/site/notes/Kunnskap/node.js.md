@@ -9,8 +9,8 @@ For å kunne bruke [[Kunnskap/Svelte\|Svelte]] er du nødt til å ha installert 
 ## Installere node.js og npm
 Instruksjonene gjelder for Microsoft Windows. Denne framgangsmåten installerer både node.js og <abbr>npm</abbr> (Node Package Manager).
 
-- Gå til [https://nodejs.org/en](https://nodejs.org/en) og last ned versjonen merket med <abbr>LTS</abbr> (Long-Term support).
-- Åpne installasjonsfila (den har filendelse `.msi`) etter at den er ferdig lastet ned
+- Gå til [https://nodejs.org/en](https://nodejs.org/en) og last ned versjonen merket med <abbr>LTS</abbr> ([langtidsstøtte](https://no.wikipedia.org/wiki/Langtidsstøtte)).
+- Åpne installasjonsfila (den har filendelse `.msi`) etter at nedlastingen er ferdig
 - Klikk deg gjennom hele installasjonsprosessen. Standardinnstillingene bør være ok.
 
 Etter at installasjonen er ferdig så kan du sjekke om alt er ok ved å:

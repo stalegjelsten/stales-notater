@@ -9,10 +9,10 @@ Svelte er et rammeverk for å bygge nettsider med javascript.
 For å lage en Svelte nettside trenger du [[Kunnskap/node.js\|node.js]] med `npm` installert på datamaskinen. Åpne en terminal og kjør følgende kommandoer
 
 ```shell
-npm create svelte@latest my-app
-cd my-app
+npm create svelte@latest PROSJEKTNAVN
+cd PROSJEKTNAVN
 npm install
-npm run dev
+npm run dev --open
 ```
 
 Hvis man oppretter en mappe kalt `katt` under `src/routes/` og legger inn en `+page.svelte` inn i den mappa (slik at full sti blir `src/routes/katt/+page.svelte`) så blir den Svelte-fila prosessert og tilgjengelig på URLen `katt`.

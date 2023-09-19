@@ -12,4 +12,4 @@
 	* Danmark har enerett til å selge korn til Norge og Norge har enerett på å selge jern til Danmark
 		
 
-![[_resources/12-Bergverkene.pptx\|_resources/12-Bergverkene.pptx]]
+![[_resources/12-Bergverkene.pptx]]
