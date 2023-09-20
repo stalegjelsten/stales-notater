@@ -22,6 +22,9 @@ Den vanligste løsningen er å skrive CSS-koden i et eget stilark med filendelse
 ## Notater om CSS
 - [[Kunnskap/Fargeforløpninger i CSS\|Fargeforløpninger i CSS]]
 - [[Kunnskap/Display inline, block og inline-block\|Display inline, block og inline-block]]
+- [[Kunnskap/CSS variabler\|CSS variabler]]
+- [[Kunnskap/Bytt fargemodus på nettsider\|Bytt fargemodus på nettsider]]
+- [[Kunnskap/CSS pseudoklasser\|CSS pseudoklasser]]
 - [[Kunnskap/CSS pseudoselektorer\|CSS pseudoselektorer]]
 
 { .block-language-dataview}
