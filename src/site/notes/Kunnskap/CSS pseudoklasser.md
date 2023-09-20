@@ -27,3 +27,14 @@ Det er vanlig å bruke `:root` som selektor for hele dokumentet. Det er vanlig �
 
 ### Bruk `:global` i Svelte for endre hele dokumenter
 For å få tilgang til det globale *scopet* i [[Kunnskap/Svelte\|Svelte]] og endre for eksempel `body` så bruker du `:global(body)`. [[Kunnskap/CSS\|CSS]] som skrives direkte i svelte selektere elementer i HTML elementer i samme sveltefil (samt [[Kunnskap/CSS pseudoselektorer\|CSS pseudoselektorer]] og [[Kunnskap/CSS pseudoklasser\|CSS pseudoklasser]])
+
+## Oversikt over noen typer pseudoklasser
+| Pseudoklasse       | forklaring                                  |
+| ------------------ | ------------------------------------------- |
+| `:hover`           | når markøren føres over et element          |
+| `a:link`           | en lenke                                    |
+| `a:visited`        | en lenke som er besøkt                      |
+| `:active`          | fra du klikker på et element til du slipper |
+| `:nth-child(odd)`  | velger annethvert element, oddetall         |
+| `:nth-child(even)` | velger annethvert element, partall          |
+| `:nth-child(-n+3)` | velger de tre første elementene             |

@@ -5,7 +5,7 @@
 
 # CSS pseudoselektorer
 
-En pseudoselektor i CSS begynner med to kolon, f.eks. `::before` eller `::after`. De [[Selektorer i CSS\|selekterer]] altså ikke selve [[Kunnskap/HTML\|HTML]] elementet, men elementer som er tilknyttet HTML elementet.
+En pseudoselektor i CSS begynner med to kolon, f.eks. `::before` eller `::after`. De [[Kunnskap/Selektorer i CSS\|selekterer]] altså ikke selve [[Kunnskap/HTML\|HTML]] elementet, men elementer som er tilknyttet HTML elementet.
 
 Pseudoselektorer er nært beslektet med [[Kunnskap/CSS pseudoklasser\|CSS pseudoklasser]].
 
@@ -42,3 +42,13 @@ I `blockquote::after` så gjør vi noen flere interessante saker.
 - `attr(name)` gir beskjed om at vi skal sette inn verdien fra attributten `name` som vi har definert i HTML-koden. Legg merke til at dette står utenfor hermetegnene.
 - `white-space: pre;` gjør at nettleseren kommer til å ta `\a` som en *whitespace character*. Uten å definere denne egenskapen så vil `\a` bare vises teksten `\a` i nettleseren.
 - Vi setter også teksten til å være kursiv
+
+
+## Oversikt over noen typer pseudoselektorer
+
+| Pseudoselektor     | Forklaring                                  |
+| ------------------ | ------------------------------------------- |
+| `::before`         | setter inn innhold før elementet            |
+| `::after`          | setter inn innhold etter elementet          |
+| `::first-letter`   | den første bokstaven i et avsnitt           |
+

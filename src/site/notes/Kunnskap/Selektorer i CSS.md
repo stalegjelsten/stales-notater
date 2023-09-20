@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Selektorer i CSS/","title":"Selektorer i CSS","tags":["css","it1"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Selektorer i CSS/","title":"Selektorer i CSS","tags":["css","it1"]}
 ---
 
 
@@ -21,6 +21,7 @@ h1 {
 I CSS koden over er `h1` en *typeselektor*. Alle elementer av typen `h1` på nettsiden vil få *egenskapen* `color` satt til *verdien* `blue`.
 
 `.rundKantlinje` er en *punktselektor* (også kalt klasseselektor). *Alle* HTML elementer med attributten `class="rundKantlinje"` vil få egenskapene `border` og `border-radius` slik som spesifisert i CSS-koden.
+
 ## Typer selektorer
 Vi har mange ulike typer selektorer
 
@@ -32,7 +33,6 @@ Vi har mange ulike typer selektorer
 | Punktselektorer          | Velger alle HTML elementer med attributten `class="klassenavn"`                                          | `h1.spesiell` eller `.rundKantline`                         |
 | Hashtagselektor          | Velger alle HTML elementer med attributten `id="idNavn"`. Id-navnet kan kun brukes en gang på nettsiden. | `div#container` eller `#search`                             |
 | Attributtselektor        | Velger alle HTML elementer som matcher attributten                                                       | `input[type="range"]` eller `a[href="https://example.org"]` |
-
 
 ## Spesifisitet
 CSS har et hierarki[^1] av stiler. Typeselektorene `html` og `body` gjelder hele nettsiden (alt som ligger inne i body). Dersom du setter tekstfargen til blå i body med `body {color: blue;}` så vil dette gjelde for all tekst på siden. Men dersom du også setter `p {color: green;}` så vil all tekst som ligger inne i `p`-tagger bli grønt, mens resten av teksten blir blå. Det er fordi `p` er en mer spesifikk selektor enn `body`.
@@ -52,5 +52,15 @@ h1 { color: green; }
 ```
 
 I eksempelet ovenfor blir den første overskriften grønn. I den andre overskriften så vil begge linjene med CSS gjelde for overskriften: typeselektoren sier at teksten skal bli grønn, mens punktselektoren sier at den skal bli blå. Punktselektoren er mer spesifikk, derfor blir teksten blå.
+
+## Kombinasjon av selektorer
+
+| Selektor | Forklaring               |
+| -------------- | ------------------------ |
+| `ul li`        | velger alle li inni ul   |
+| `ol li`        | velger alle li inni ol   |
+| `ul > li`      | velger første li inni ul |
+| `h1 + p`       | velger *første* p ETTER h1 |
+| `h1 ~ p`       | velger *alle* p ETTER h1   |
 
 [^1]: Hierarki: å rangere noe, over og under hverandre
