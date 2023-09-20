@@ -5,12 +5,17 @@
 
 # CSS pseudoselektorer
 
-En pseudoselektor i CSS begynner med to kolon, f.eks. `::before` eller `::after`.
+En pseudoselektor i CSS begynner med to kolon, f.eks. `::before` eller `::after`. De [[Selektorer i CSS\|selekterer]] altså ikke selve [[Kunnskap/HTML\|HTML]] elementet, men elementer som er tilknyttet HTML elementet.
+
+Pseudoselektorer er nært beslektet med [[Kunnskap/CSS pseudoklasser\|CSS pseudoklasser]].
 
 ## Eksempel på avansert bruk av ::after
-På [denne nettsiden](https://stalegjelsten.github.io/IT1/36-css-pseudoselektorer/pseudoselektor-sitatblokk.html) tester jeg pseudoselektoren `::after` i en sitatblokk (`blockqote`).
+På [denne nettsiden](https://stalegjelsten.github.io/IT1/36-css-pseudoselektorer/pseudoselektor-sitatblokk.html) tester jeg pseudoselektoren `::after` i en sitatblokk (`blockqote`). 
 
-Jeg har gitt sitatblokken en selvvalg attributt i HTML-koden: `name`. `name` er navnet på personen som har opphavet til sitatet.
+>[!attention] Universell utforming på løsningen
+>Jeg tror denne løsningen er svært dårlig for [[Kunnskap/Universell utforming av nettsider\|universell utforming]], men jeg er ikke helt sikker. Hvilke fordeler og ulemper ser dere?
+
+Jeg har gitt sitatblokken en selvvalgt attributt i HTML-koden: `name`. `name` er navnet på personen som har opphavet til sitatet.
 
 ```html
 <blockquote name="Vestigius">Si vis pacem, para bellum.</blockquote>
