@@ -34,6 +34,7 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 { .block-language-dataview}
 
 ## Annet
+- [[Kunnskap/Publisere nettsider hos GitHub pages\|Publisere nettsider hos GitHub pages]]
 - [[Kunnskap/node.js\|node.js]]
 - [[Kunnskap/Tillegg til Kode 1\|Tillegg til Kode 1]]
 - [[Kunnskap/URL\|URL]]
