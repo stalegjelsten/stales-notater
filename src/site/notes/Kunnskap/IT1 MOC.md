@@ -15,6 +15,7 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 { .block-language-dataview}
 
 ## CSS
+- [[Kunnskap/Magisk skinnende tekst med CSS\|Magisk skinnende tekst med CSS]]
 - [[Kunnskap/Selektorer i CSS\|Selektorer i CSS]]
 - [[Kunnskap/CSS variabler\|CSS variabler]]
 - [[Kunnskap/CSS pseudoklasser\|CSS pseudoklasser]]
