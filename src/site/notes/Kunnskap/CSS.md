@@ -27,5 +27,6 @@ Den vanligste løsningen er å skrive CSS-koden i et eget stilark med filendelse
 - [[Kunnskap/CSS pseudoselektorer\|CSS pseudoselektorer]]
 - [[Kunnskap/Selektorer i CSS\|Selektorer i CSS]]
 - [[Kunnskap/Bytt fargemodus på nettsider\|Bytt fargemodus på nettsider]]
+- [[Kunnskap/Magisk skinnende tekst med CSS\|Magisk skinnende tekst med CSS]]
 
 { .block-language-dataview}
