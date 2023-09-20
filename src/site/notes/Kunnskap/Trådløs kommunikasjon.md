@@ -63,6 +63,10 @@ Amplitudemodulasjon (AM) er en type modulasjon hvor vi slår sammen et signal og
 
 ![](/img/user/_resources/am.png)
 
+## Related
+[[Kunnskap/Frekvensmodulasjon\|Frekvensmodulasjon]]
+[[Radiobølger\|Radiobølger]]
+[[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]
 
 </div></div>
 
