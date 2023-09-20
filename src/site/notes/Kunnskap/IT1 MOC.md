@@ -15,6 +15,7 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 { .block-language-dataview}
 
 ## CSS
+- [[Kunnskap/Selektorer i CSS\|Selektorer i CSS]]
 - [[Kunnskap/CSS variabler\|CSS variabler]]
 - [[Kunnskap/CSS pseudoklasser\|CSS pseudoklasser]]
 - [[Kunnskap/Bytt fargemodus på nettsider\|Bytt fargemodus på nettsider]]
