@@ -7,7 +7,7 @@
 
 ![Demonstrasjon av den magiske skinnende teksten](/img/user/_resources/magic-text.gif)
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="KKBPMYE" data-user="stalegjelsten" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="KKBPMYE" data-user="stalegjelsten" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 	<span>See the Pen <a href="https://codepen.io/stalegjelsten/pen/KKBPMYE">
 	Magic text</a> by stalegjelsten (<a href="https://codepen.io/stalegjelsten">@stalegjelsten</a>)
 	on <a href="https://codepen.io">CodePen</a>.</span>
