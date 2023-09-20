@@ -7,6 +7,13 @@
 
 ![Demonstrasjon av den magiske skinnende teksten](/img/user/_resources/magic-text.gif)
 
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="KKBPMYE" data-user="stalegjelsten" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+	<span>See the Pen <a href="https://codepen.io/stalegjelsten/pen/KKBPMYE">
+	Magic text</a> by stalegjelsten (<a href="https://codepen.io/stalegjelsten">@stalegjelsten</a>)
+	on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 Dette er en veldig kul effekt hvor vi lager en [[Kunnskap/Fargeforløpninger i CSS\|bakgrunnsfargeforløpning]] som er mye større enn teksten vi ønsker å animere. Animasjonen flytter deretter denne bakgrunnen «gjennom» bokstavene slik at det ser ut som at et lys flytter seg langs bokstavene.
 
 ## CSS
