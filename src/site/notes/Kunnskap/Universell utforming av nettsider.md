@@ -51,7 +51,7 @@ Alle brukere skal kunne betjene nettsiden. For det første er det viktig at det 
 
 #### Tastaturnavigasjon
 
-I tillegg må vi legge til rette for brukere som kun kan navigere med tastatur (og ikke mus) eller med skjermleser. Ofte vil disse bruke <kbd>Tab</kbd> knappen for å navigere mellom ulike elementer på nettsiden. Les mer om [tastaturnavigasjon hos uutilsynet](https://www.uutilsynet.no/veiledning/tastaturnavigasjon/37).
+I tillegg må vi legge til rette for brukere som kun kan navigere med tastatur (og ikke mus) eller med [[Kunnskap/Skjermleser\|skjermleser]]. Ofte vil disse bruke <kbd>Tab</kbd> knappen for å navigere mellom ulike elementer på nettsiden. Les mer om [tastaturnavigasjon hos uutilsynet](https://www.uutilsynet.no/veiledning/tastaturnavigasjon/37).
 
 Det er som oftest lett å navigere på nettsteder som er laget med [[Kunnskap/Semantisk HTML\|Semantisk HTML]]. Du bør derfor bruke semantiske tagger som `<nav>` og `<main>`.
 
