@@ -23,16 +23,14 @@ IT1 2023-09-21
 ---
 
 ## Læringspunkter fra nettsider
-
-<!-- 1. Del A3-ark i 4 ved å trekke to diagonale linjer mellom motstående hjørner.
-2. Du skal nå ha 4 trekanter på arket
-3. Skriv de fire læringspunktene under i toppen av hver sin trekant -->
+Finn ut hvilke av disse punktene du har syndet mot. Diskuter med sidemannen og skriv ned en begrunnelse for hvorfor punktet er viktig.
 
 1. Lag en egen mappe til prosjektet. Bruk filnavn uten æ, ø, å eller mellomrom
 2. Lag en `index.html`
 3. **Lagre** alle filer før du leverer
 4. `<html lang="no">`
 5. Ikke last inn flere fonter enn nødvendig
+6. **Husk `ALT`-tekst**
 
 ---
 
