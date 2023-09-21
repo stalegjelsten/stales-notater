@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-09-15 befolkning, økonomi og samfunn, Norge 800-1350/","tags":["historie","hi110","forelesning"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-09-15 befolkning, økonomi og samfunn, Norge 800-1350/","tags":["hi110","forelesning"]}
 ---
 
 
