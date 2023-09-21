@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-10-06 Befolkningsutvikling 1520-1825/","tags":["historie","hi110","forelesning"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-10-06 Befolkningsutvikling 1520-1825/","tags":["hi110","forelesning"]}
 ---
 
 
