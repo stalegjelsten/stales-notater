@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-10-06 8 Norsk skipsfart og skipsbygging 1500-1814/","tags":["hi110","forelesning"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-10-06 8 Norsk skipsfart og skipsbygging 1500-1814/","tags":["historie","hi110","forelesning"]}
 ---
 
 

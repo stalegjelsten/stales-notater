@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-10-13 14 Politisk perioden 1536 til 1660/","tags":["hi110","forelesning"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-10-13 14 Politisk perioden 1536 til 1660/","tags":["historie","hi110","forelesning"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-11-10 Motreformasjon og maktpolitikk/","tags":["hi110","forelesning"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-11-10 Motreformasjon og maktpolitikk/","tags":["historie","hi110","forelesning"]}
 ---
 
 

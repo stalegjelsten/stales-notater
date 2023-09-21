@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-11-05 reformasjonen/","title":"2015-11-05 reformasjonen","tags":["hi110","forelesning"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-11-05 reformasjonen/","title":"2015-11-05 reformasjonen","tags":["historie","hi110","forelesning"]}
 ---
 
 

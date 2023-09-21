@@ -66,15 +66,15 @@ Ved å skrive `linear-gradient` får vi en lineær (rettlinjet) forløpning. Inn
 
 <h3 style="background-image: linear-gradient(15deg, #a050e8 0%, #00ff88 55%, #a050e8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Demonstrerer fargeforløpning i tekst</h3>
 
->[!example] Eksempel på bruk
->```css
->h3 {
->	background-image: linear-gradient(15deg, #a050e8 0%, #00ff88 65%, #a050e8 100%);
->	background-clip: text;
->	-webkit-background-clip: text;
->	-webkit-text-fill-color: transparent;
->}
->```
+### Eksempel på bruk
+```css
+h3 {
+	background-image: linear-gradient(15deg, #a050e8 0%, #00ff88 65%, #a050e8 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+```
 
 [Fargeløpninger i CSS hos Ståles notater](https://stales-notater.vercel.app/Kunnskap/Fargeforl%C3%B8pninger%20i%20CSS/)
 
@@ -84,7 +84,7 @@ For å lage tekst med en fargegradient så kan du bruke CSS til å
 - clippe bakgrunnen til akkurat det området der teksten er. Dessverre er `background-clip` en uoffisiell CSS-egenskap. For at den skal virke i de fleste nettlesere må du derfor bruke både `background-clip` og `-webkit-background-clip`.
 - bruke en transparent farge på skriften for å se bakgrunnen bak
 
->[!warning] Bruk en fallback bakgrunnsfarge
+>**OBS!** Bruk en fallback bakgrunnsfarge!
 >Siden det ikke er absolutt alle nettlesere som kan vise fargeforløpninger på tekst så er det lurt å legge til `background-color: FARGENAVN` *før* `background-image: linear-gradient()`. Hvis nettleseren ikke klarer å vise fargeforløpningen kan den da vise fargen du har definert i `background-color`.
 
 ---
