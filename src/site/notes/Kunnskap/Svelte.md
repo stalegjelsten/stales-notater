@@ -15,7 +15,7 @@ npm install
 npm run dev --open
 ```
 
-Hvis man oppretter en mappe kalt `katt` under `src/routes/` og legger inn en `+page.svelte` inn i den mappa (slik at full sti blir `src/routes/katt/+page.svelte`) så blir den Svelte-fila prosessert og tilgjengelig på URLen `katt`.
+Hvis man oppretter en mappe kalt `katt` under `src/routes/` og legger inn en `+page.svelte` inn i den mappa (slik at full sti blir `src/routes/katt/+page.svelte`) så blir den Svelte-fila prosessert og tilgjengelig på URLen `katt`. **Mappenavnet blir altså navnet på [[Kunnskap/URL\|URL]]en**.
 
 ## Promises i Svelte
 
