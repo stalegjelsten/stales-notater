@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-11-24 Oppsummerende forelesning Sætra/","tags":["historie","hi110","forelesning"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-11-24 Oppsummerende forelesning Sætra/","tags":["hi110","forelesning"]}
 ---
 
 

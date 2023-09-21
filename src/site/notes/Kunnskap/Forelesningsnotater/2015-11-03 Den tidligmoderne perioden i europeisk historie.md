@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-11-03 Den tidligmoderne perioden i europeisk historie/","tags":["historie","hi110","forelesning"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-11-03 Den tidligmoderne perioden i europeisk historie/","tags":["hi110","forelesning"]}
 ---
 
 
