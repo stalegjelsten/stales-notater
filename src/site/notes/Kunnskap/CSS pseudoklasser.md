@@ -4,9 +4,9 @@
 
 
 # CSS pseudoklasser
-Pseduoklasser er en type selektor i [[Kunnskap/CSS\|CSS]] som kan velge andre typer elementer enn vanlige HTML-elementer. Hver pseduoklasse starter med et kolon `:`. Pseudoklasser minner veldig om [[Kunnskap/CSS pseudoselektorer\|CSS pseudoselektorer]] som starter med to kolon `::`.
+Pseduoklasser er en type [[Kunnskap/Selektorer i CSS\|selektor]] i [[Kunnskap/CSS\|CSS]] som kan velge andre typer elementer enn vanlige HTML-elementer. Ofte endrer pseudoklassene på elementer som er i en bestemt *tilstand*.
 
-De vanligste pseduoklassene vi skal jobbe med går på statusen til [[Kunnskap/HTML\|HTML]]-elementer
+Hver pseduoklasse starter med et kolon `:`. Pseudoklasser kan lett forveksles om [[Kunnskap/CSS pseudoselektorer\|CSS pseudoselektorer]] som starter med to kolon `::`.
 
 ## Vanlige pseudoklasser
 
@@ -23,7 +23,7 @@ I tilfellet over vil alle knapper vokse med 20 % dersom man holder musen over de
 Det er nyttig å skille mellom besøkte og ikke-besøkte lenker på nettstedet. Bruk `a:visited` for å gi besøkte lenker en ny farge.
 
 ### Bruk `:root` for å velge hele dokumentet
-Det er vanlig å bruke `:root` som selektor for hele dokumentet. Det er vanlig å skrive [[Kunnskap/CSS variabler\|CSS variabler]] i `:root`. Du kan også bruke `html` eller `body` til variablene, men eksempler du finner på nettet vil nok bruke `:root`.
+`:root` er en selektor for hele dokumentet. Det er vanlig å skrive [[Kunnskap/CSS variabler\|CSS variabler]] i `:root`. Du kan også bruke `html` eller `body` til variablene, men `:root` har høyere [[Kunnskap/Selektorer i CSS#Spesifisitet\|spesifisitet]] og du finner derfor har det blitt vanlig å bruke `:root`.
 
 ### Bruk `:global` i Svelte for endre hele dokumenter
 For å få tilgang til det globale *scopet* i [[Kunnskap/Svelte\|Svelte]] og endre for eksempel `body` så bruker du `:global(body)`. [[Kunnskap/CSS\|CSS]] som skrives direkte i svelte selektere elementer i HTML elementer i samme sveltefil (samt [[Kunnskap/CSS pseudoselektorer\|CSS pseudoselektorer]] og [[Kunnskap/CSS pseudoklasser\|CSS pseudoklasser]])
@@ -34,7 +34,9 @@ For å få tilgang til det globale *scopet* i [[Kunnskap/Svelte\|Svelte]] og end
 | `:hover`           | når markøren føres over et element          |
 | `a:link`           | en lenke                                    |
 | `a:visited`        | en lenke som er besøkt                      |
+|`:root`| velger hele dokumentet |
 | `:active`          | fra du klikker på et element til du slipper |
 | `:nth-child(odd)`  | velger annethvert element, oddetall         |
 | `:nth-child(even)` | velger annethvert element, partall          |
+| `:nth-child(4n+3)` | velger element 3, 7, 11, 15, …              |
 | `:nth-child(-n+3)` | velger de tre første elementene             |
