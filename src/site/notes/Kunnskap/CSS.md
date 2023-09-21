@@ -23,10 +23,10 @@ Den vanligste løsningen er å skrive CSS-koden i et eget stilark med filendelse
 - [[Kunnskap/Fargeforløpninger i CSS\|Fargeforløpninger i CSS]]
 - [[Kunnskap/Display inline, block og inline-block\|Display inline, block og inline-block]]
 - [[Kunnskap/CSS variabler\|CSS variabler]]
-- [[Kunnskap/CSS pseudoklasser\|CSS pseudoklasser]]
 - [[Kunnskap/CSS pseudoselektorer\|CSS pseudoselektorer]]
 - [[Kunnskap/Selektorer i CSS\|Selektorer i CSS]]
 - [[Kunnskap/Bytt fargemodus på nettsider\|Bytt fargemodus på nettsider]]
 - [[Kunnskap/Magisk skinnende tekst med CSS\|Magisk skinnende tekst med CSS]]
+- [[Kunnskap/CSS pseudoklasser\|CSS pseudoklasser]]
 
 { .block-language-dataview}
