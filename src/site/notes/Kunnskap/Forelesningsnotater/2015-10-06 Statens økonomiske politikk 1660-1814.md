@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-10-06 Statens økonomiske politikk 1660-1814/","tags":["historie","hi110","forelesning"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-10-06 Statens økonomiske politikk 1660-1814/","tags":["hi110","forelesning"]}
 ---
 
 
