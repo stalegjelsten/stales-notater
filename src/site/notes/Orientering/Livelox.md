@@ -46,7 +46,15 @@ Last opp Purple Pen fila ved å trykke på `Løyper` og `Velg filer`. Du må san
 Gå til `Klasser` og velg hvilken løype hver klasse skal ha.
 
 ## Diverse problemer som kan oppstå
-- *Ingen (eller veldig få) deltakeres GPS-spor dukker opp*. Prøv å laste opp resultater på nytt. Administrer arrangementet i Livelox og ta bort koblingen til resultatene med `Slett resultatkoblinger`. Gå til `Eventor → Dataoverføringer` og last ned resultatene i XML-format. Last opp denne resultatfila til Livelox under `Importer resultat`.
-- *Alle GPS-sporene starter på feil tidspunkt*. Sannsynligvis har MTR brikkeavleseren feil klokkeslett. Det er mulig å fikse ved å prøve metoden som er beskrevet her: [[Orientering/eTiming med spooling av resultater#Endre tidspunkter i logfila\|eTiming med spooling av resultater#Endre tidspunkter i logfila]]. Du kan også forsøke menyvalget `Justere strekktider` i Livelox – jeg har ikke prøvd det selv enda.
+
+### Ingen (eller veldig få) deltakeres GPS-spor dukker opp
+Prøv å laste opp resultater på nytt. Administrer arrangementet i Livelox og ta bort koblingen til resultatene med `Slett resultatkoblinger`. Gå til `Eventor → Dataoverføringer` og last ned resultatene i XML-format. Last opp denne resultatfila til Livelox under `Importer resultat`.
+
+### Alle GPS-sporene starter på feil tidspunkt
+Dette skjer hvis MTR brikkeavleseren har feil klokkeslett. Det finnes to ulike løsninger:
+- Endre tidspunktene i log-fila som tidtakingsprogrammet genererer. Da vil du få riktige tidspunkter i tidtakningsprogrammet og WinSplits også. [[Orientering/eTiming med spooling av resultater#Endre tidspunkter i logfila\|eTiming med spooling av resultater#Endre tidspunkter i logfila]]. 
+- Bruk menyvalet `Justere strekktider` i Livelox. Skriv inn antall sekunder som tidene skal forsinkes (bruk en negativ verdi dersom tidene skal framskyndes). Merk valgene for `Bruk offset også på starttider` og `Bruk offset også på målganstider`
+
+![livelox-justere-tider.png](/img/user/_resources/livelox-justere-tider.png)
 
 [^1]: Et georeferert kart inneholder informasjon om koordinatene/posisjonen til kartet.
