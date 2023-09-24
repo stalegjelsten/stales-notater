@@ -30,14 +30,8 @@ For å oppdatere eTiming gjør du følgende:
 6. Åpne `.zip`-fila og kopier `etiming.exe` filen over til eTiming som programkatalog (ofte vil det være `C:\Program files (x86)\eTiming\`)
 7. De resterende filene i `.zip`-fila er ikke nødvendige for oppdatering.
 
-| file.inlinks                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <ul><li>[[Orientering/eTiming til sommercup.md\\|eTiming til sommercup]]</li><li>[[Orientering/eTiming.md\\|eTiming]]</li><li>[[Orientering/eTiming til Agderkarusell.md\\|eTiming til Agderkarusell]]</li><li>[[Orientering/eTiming med spooling av resultater.md\\|eTiming med spooling av resultater]]</li><li>[[Orientering/LiveRes for etiming.md\\|LiveRes for etiming]]</li><li>[[Orientering/eTiming database.md\\|eTiming database]]</li><li>[[Orientering/eTiming med gafling.md\\|eTiming med gafling]]</li><li>[[Orientering/eTiming til nærløp.md\\|eTiming til nærløp]]</li><li>[[Orientering/etiming kurs.md\\|etiming kurs]]</li></ul> |
 
-{ .block-language-dataview}
-
-[[Orientering/eTiming med gafling\|eTiming med gafling]]
-
+## Problemer med eTiming
 ### Begrensninger
 - Liveresultater fungerer mot Liveres.live, men kan ikke starte under Win xp 32 bit
 - Automatisk gjenkjenning av gafling fungerer ikke.
@@ -45,3 +39,13 @@ For å oppdatere eTiming gjør du følgende:
 ### Bugs
 - Statusene Fullført og Fullført i eTiming gir begge «utenfor konkurranse» i Eventor. Det finnes en egen status «utenfor konkurranse» i eTiming også!
 	- Hvis man ønsker å få *Fullført* som status i Eventor kan dette løses manuelt i iofres.xml ved å søk/erstatt NotCompeting med Finished. Eks: `gsed -i 's/NotCompeting/Finished/' iofres.xml`
+## Related
+- [[Orientering/LiveRes for etiming\|LiveRes for etiming]]
+- [[Orientering/eTiming database\|eTiming database]]
+- [[Orientering/eTiming til Agderkarusell\|eTiming til Agderkarusell]]
+- [[Orientering/eTiming til sommercup\|eTiming til sommercup]]
+- [[Orientering/eTiming\|eTiming]]
+- [[Orientering/etiming kurs\|etiming kurs]]
+- [[Orientering/eTiming med gafling\|eTiming med gafling]]
+
+{ .block-language-dataview}
