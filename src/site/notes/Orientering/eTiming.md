@@ -9,7 +9,7 @@ eTiming er et tidtakingsprogram for Windows som kan brukes [[Orientering/eTiming
 ## Installasjon
 
 ### Installasjon av eTiming
-EQ Timing forklarer installasjon av programmet på denne siden: <https://eqtiming.freshdesk.com/nb-NO/support/solutions/articles/19000131413-etiming-4-2022-installasjon.>
+EQ Timing forklarer installasjon av programmet på denne siden: <https://eqtiming.freshdesk.com/nb-NO/support/solutions/articles/19000131413-etiming-4-2022-installasjon.html>
 
 Informasjonen på nettsiden som står fra *SQL Server* og nedover er ikke relevant for bruk på små løp (treninger/nærløp/kretsløp). Denne informasjonen er mest relevant dersom man ønsker å bruke flere datamaskiner i nettverk til å dele på tidtakeroppgavene.
 
@@ -44,8 +44,8 @@ For å oppdatere eTiming gjør du følgende:
 - [[Orientering/eTiming database\|eTiming database]]
 - [[Orientering/eTiming til Agderkarusell\|eTiming til Agderkarusell]]
 - [[Orientering/eTiming til sommercup\|eTiming til sommercup]]
-- [[Orientering/eTiming\|eTiming]]
 - [[Orientering/etiming kurs\|etiming kurs]]
 - [[Orientering/eTiming med gafling\|eTiming med gafling]]
+- [[Orientering/eTiming\|eTiming]]
 
 { .block-language-dataview}
