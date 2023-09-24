@@ -73,7 +73,7 @@ update class
 Se [[Orientering/eTiming database\|eTiming database]] for mer informasjon om databasens oppbygning og spørringer.
 
 ## Løyper og poster i Purple Pen og eTiming
-For å få en *smooth* import av løypene fra Purple Pen til eTiming så må Purple Pen fila klargjøres etter prinsippene som blir beskrevet under. Jeg anbefaler at løypelegger gjør denne jobben før hen sender løypa til tidtaker.
+For å få en feilfri import av løypene fra Purple Pen til eTiming så må Purple Pen fila klargjøres etter prinsippene som blir beskrevet under. Jeg anbefaler at løypelegger gjør denne jobben før hen sender løypa til tidtaker.
 
 Hovedprinsipp: **Bruk samme løypenummer i innbydelse, Purple Pen og eTiming**
 
