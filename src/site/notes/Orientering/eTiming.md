@@ -4,7 +4,7 @@
 
 
 # eTiming
-eTiming er et tidtakingsprogram for Windows som kan brukes til [[Orientering/eTiming med spooling av resultater\|enkle løp med spooling]] eller til full tidtaking.
+eTiming er et tidtakingsprogram for Windows som kan brukes [[Orientering/eTiming til Agderkarusell\|under løpet]] eller til å [[Orientering/eTiming med spooling av resultater\|spoole]] resultater i etterkant.
 
 ## Installasjon
 
@@ -13,7 +13,7 @@ EQ Timing forklarer installasjon av programmet på denne siden: <https://eqtimin
 
 Informasjonen på nettsiden som står fra *SQL Server* og nedover er ikke relevant for bruk på små løp (treninger/nærløp/kretsløp). Denne informasjonen er mest relevant dersom man ønsker å bruke flere datamaskiner i nettverk til å dele på tidtakeroppgavene.
 
-Per 2023-09-03 så ser det ikke ut til at man får lastet ned nyeste versjon av programvaren her. Se instruksjonene under [[Orientering/eTiming#Oppdatering av eTiming\|eTiming#Oppdatering av eTiming]] for å oppdatere til siste versjon.
+Per 2023-09-03 så ser det ikke ut til at man får lastet ned nyeste versjon av programvaren her. Se instruksjonene under [[Orientering/eTiming#Oppdatering av eTiming\|#Oppdatering av eTiming]] for å oppdatere til siste versjon.
 
 ### Installasjon av MTR drivere
 For å lese av tider fra EMIT-brikkene bruker vi en MTR4-brikkeavleser. For å koble denne til PCen og til eTiming så trenger du å installere en driver. Last ned driveren og les mer hos [emit.no](https://emit.no/support-base/emit-mini-time-recorder-mtr4/)
@@ -32,7 +32,7 @@ For å oppdatere eTiming gjør du følgende:
 
 | file.inlinks                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <ul><li>[[Orientering/etiming kurs.md\\|etiming kurs]]</li><li>[[Orientering/eTiming.md\\|eTiming]]</li><li>[[Orientering/eTiming til sommercup.md\\|eTiming til sommercup]]</li><li>[[Orientering/eTiming til nærløp.md\\|eTiming til nærløp]]</li><li>[[Orientering/eTiming til Agderkarusell.md\\|eTiming til Agderkarusell]]</li><li>[[Orientering/eTiming med spooling av resultater.md\\|eTiming med spooling av resultater]]</li><li>[[Orientering/eTiming med gafling.md\\|eTiming med gafling]]</li><li>[[Orientering/eTiming database.md\\|eTiming database]]</li><li>[[Orientering/LiveRes for etiming.md\\|LiveRes for etiming]]</li></ul> |
+| <ul><li>[[Orientering/eTiming til sommercup.md\\|eTiming til sommercup]]</li><li>[[Orientering/eTiming.md\\|eTiming]]</li><li>[[Orientering/eTiming til Agderkarusell.md\\|eTiming til Agderkarusell]]</li><li>[[Orientering/eTiming med spooling av resultater.md\\|eTiming med spooling av resultater]]</li><li>[[Orientering/LiveRes for etiming.md\\|LiveRes for etiming]]</li><li>[[Orientering/eTiming database.md\\|eTiming database]]</li><li>[[Orientering/eTiming med gafling.md\\|eTiming med gafling]]</li><li>[[Orientering/eTiming til nærløp.md\\|eTiming til nærløp]]</li><li>[[Orientering/etiming kurs.md\\|etiming kurs]]</li></ul> |
 
 { .block-language-dataview}
 
