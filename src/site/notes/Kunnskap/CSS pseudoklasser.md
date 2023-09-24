@@ -17,7 +17,7 @@ button:hover {
 }
 ```
 
-I tilfellet over vil alle knapper vokse med 20 % dersom man holder musen over dem. Du kan sette alle mulige CSS egenskaper i hover pseudoklassen. Hvis du vil at overgangen fra vanlig tilstand til hover-tilstand skal gå gradvis så kan du bruke en [[CSS animasjoner#Enkle animasjon på hover\|CSS animasjon]].
+I tilfellet over vil alle knapper vokse med 20 % dersom man holder musen over dem. Du kan sette alle mulige CSS egenskaper i hover pseudoklassen. Hvis du vil at overgangen fra vanlig tilstand til hover-tilstand skal gå gradvis så kan du bruke en [[Kunnskap/CSS animasjoner#Enkle animasjon på hover\|CSS animasjon]].
 
 ### Bruk a:visited på besøkte lenker
 Det er nyttig å skille mellom besøkte og ikke-besøkte lenker på nettstedet. Bruk `a:visited` for å gi besøkte lenker en ny farge.
