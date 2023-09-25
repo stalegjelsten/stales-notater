@@ -11,9 +11,16 @@ eTiming er et tidtakingsprogram for Windows som kan brukes [[Orientering/eTiming
 ### Installasjon av eTiming
 EQ Timing forklarer installasjon av programmet på denne siden: <https://eqtiming.freshdesk.com/nb-NO/support/solutions/articles/19000131413-etiming-4-2022-installasjon.html>
 
-Informasjonen på nettsiden som står fra *SQL Server* og nedover er ikke relevant for bruk på små løp (treninger/nærløp/kretsløp). Denne informasjonen er mest relevant dersom man ønsker å bruke flere datamaskiner i nettverk til å dele på tidtakeroppgavene.
+Informasjonen på nettsiden fra EQ Timing som står fra *SQL Server* og nedover er ikke relevant for bruk på små løp (treninger/nærløp/kretsløp). Denne informasjonen er mest relevant dersom man ønsker å bruke flere datamaskiner i nettverk til å dele på tidtakeroppgavene.
 
 Per 2023-09-03 så ser det ikke ut til at man får lastet ned nyeste versjon av programvaren her. Se instruksjonene under [[Orientering/eTiming#Oppdatering av eTiming\|#Oppdatering av eTiming]] for å oppdatere til siste versjon.
+
+>[!note] Registrere lisensnøkkel
+>eTiming blir installert som demoprogramvare. Da har du kun mulighet til å registrere 100 løpere på arrangementet.
+>
+> For å registrere flere løpere må du legge inn en lisensnøkkel og klubbnavn under `Help → About → Lisens`.
+>
+>Restart eTiming for at lisensen skal bli gyldig.
 
 ### Installasjon av MTR drivere
 For å lese av tider fra EMIT-brikkene bruker vi en MTR4-brikkeavleser. For å koble denne til PCen og til eTiming så trenger du å installere en driver. Last ned driveren og les mer hos [emit.no](https://emit.no/support-base/emit-mini-time-recorder-mtr4/)
@@ -30,8 +37,8 @@ For å oppdatere eTiming gjør du følgende:
 6. Åpne `.zip`-fila og kopier `etiming.exe` filen over til eTiming som programkatalog (ofte vil det være `C:\Program files (x86)\eTiming\`)
 7. De resterende filene i `.zip`-fila er ikke nødvendige for oppdatering.
 
-
 ## Problemer med eTiming
+
 ### Begrensninger
 - Liveresultater fungerer mot Liveres.live, men kan ikke starte under Win xp 32 bit
 - Automatisk gjenkjenning av gafling fungerer ikke.
@@ -39,6 +46,7 @@ For å oppdatere eTiming gjør du følgende:
 ### Bugs
 - Statusene Fullført og Fullført i eTiming gir begge «utenfor konkurranse» i Eventor. Det finnes en egen status «utenfor konkurranse» i eTiming også!
 	- Hvis man ønsker å få *Fullført* som status i Eventor kan dette løses manuelt i iofres.xml ved å søk/erstatt NotCompeting med Finished. Eks: `gsed -i 's/NotCompeting/Finished/' iofres.xml`
+
 ## Related
 - [[Orientering/LiveRes for etiming\|LiveRes for etiming]]
 - [[Orientering/eTiming database\|eTiming database]]
