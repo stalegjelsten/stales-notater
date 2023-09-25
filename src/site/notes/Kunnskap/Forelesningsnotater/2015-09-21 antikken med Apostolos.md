@@ -11,8 +11,8 @@
 
 ## Generelt
 
-* tidslinje kan sees på side 1 i notatene
-*tiden er lineær: en kristen tankegang
+>[!quote] Apostolos
+> «Tiden er lineær». Dette er en kristen tankegang.
 
 ## Bystatene i Hellas
 
@@ -79,9 +79,9 @@
 	* Kristendom
 	* Demokrati
 
-[The rape of europa](https://en.wikipedia.org/wiki/The_Rape_of_Europa_(Titian)) viser hvordan Zevs stjeler den midtøstiske prinsessen Europa. Dette har skjedd om igjen mange ganger opp gjennom historien, at eruopeere stjeler ting fra andre kulturer og adopterer det.
+[The rape of europa](https://en.wikipedia.org/wiki/The_Rape_of_Europa_(Titian)) viser hvordan Zevs stjeler den midtøstiske prinsessen Europa. Dette har skjedd om igjen mange ganger opp gjennom historien, at europeere stjeler ting fra andre kulturer og adopterer det.
 
-![](/img/user/Evernote import/_resources/unknown_filename.png)
+![The Rape of Europa by Titian (c. 1560-62). Oil on canvas, 178 × 205 cm (70 × 81 in). Isabella Stewart Gardner Museum, Boston](https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Tizian_085.jpg/876px-Tizian_085.jpg)
 
 ![](/img/user/Evernote import/_resources/IMG_20150921_125604.png)
 ![](/img/user/Evernote import/_resources/IMG_20150921_125620.png)
