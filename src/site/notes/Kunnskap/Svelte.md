@@ -73,7 +73,7 @@ $: c = a + b
 ```
 
 Her er `c` deklarert som en dynamisk variabel. Dersom vi oppdaterer `a` eller `b` så vil `c`oppdateres automatisk. 
-
+	
 ## Scoping i CSS
 CSS som skrives i Svelte er *scopet* (begrenset) til den nåværende siden. Hvis man ønsker å endre på `body` eller `html` så er man nødt til å gå til det globale scopet ved `:global(body) {}`.
 
