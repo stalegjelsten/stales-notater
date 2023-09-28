@@ -55,5 +55,6 @@ For å oppdatere eTiming gjør du følgende:
 - [[Orientering/eTiming med gafling\|eTiming med gafling]]
 - [[Orientering/eTiming database\|eTiming database]]
 - [[Orientering/LiveRes for etiming\|LiveRes for etiming]]
+- [[Orientering/Importere påmeldinger fra Excel i eTiming\|Importere påmeldinger fra Excel i eTiming]]
 
 { .block-language-dataview}
