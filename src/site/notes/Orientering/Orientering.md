@@ -17,6 +17,5 @@ Oversikt over publiserte notater om orientering
 - [[Orientering/ttime brukermanual\|ttime brukermanual]]
 - [[Orientering/ttime til enkle orienteringsløp\|ttime til enkle orienteringsløp]]
 - [[Orientering/Orientering\|Orientering]]
-- [[Orientering/Importere påmeldinger fra Excel i eTiming\|Importere påmeldinger fra Excel i eTiming]]
 
 { .block-language-dataview}
