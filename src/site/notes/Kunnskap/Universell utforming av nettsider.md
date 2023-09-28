@@ -11,6 +11,8 @@ Universell utforming er å utforme omgivelsene våre slik at flest mulig kan del
 
 Nettsteder som er rettet mot allmennheten i Norge og som enten informerer eller tilbyr tjenester må følge retningslinjer for universell utforming. De norske retningslinjene bygger på de internasjonale retningslinjene <abbr>WCAG</abbr> 2.0 (Web Content Accessibility Guidelines). [Tilsynet for universell utforming av IKT](https://www.uutilsynet.no/) har laget en [veileder for hvordan vi bør utforme nettsteder](https://www.uutilsynet.no/veiledning/nettsteder/711). 
 
+I engelsk litteratur vil du ofte støte på uttrykket <abbr>a11y</abbr> (accessibility). Dette oversettes ofte med tilgjengelighet, men det betyr omtrent det samme som universell utforming når vi jobber med nettsider.
+
 ## Hovedprinsipper for universell utforming av nettsteder
 <iframe src="https://www.youtube.com/embed/KSLx3yPwGGY" class="youtube" title="Introduksjon til universell utforming av nettsteder" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -70,7 +72,9 @@ Alle nettsider må ha definert språket som brukes på nettsiden med `<html lang
 
 For at innholdet på nettsiden skal fungere for flest mulig bør du i størst mulig grad velge standardelementer i [[Kunnskap/HTML\|HTML]] som er støttet av mange nettlesere. 
 
-I tillegg bør nettsiden selvsagt ikke inneholde kodefeil. Det er mulig å validere HTML-kode hos [w3c](https://validator.w3.org/).
+I tillegg bør nettsiden selvsagt ikke inneholde kodefeil. Det finnes mange valideringstjenester på nett.
+- Du kan validere HTML-kode hos [w3c](https://validator.w3.org/#validate_by_input).
+- Du kan validere CSS hos [w3c](https://jigsaw.w3.org/css-validator/validator.html.en#validate_by_input).
 
 [Les mer om hovedprinsipp 4: Robust hos Tilsynet for universell utforming av IKT](https://www.uutilsynet.no/wcag-standarden/4-robust/718)
 
