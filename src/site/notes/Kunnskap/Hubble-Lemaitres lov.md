@@ -24,7 +24,8 @@ Hubble observerte 20 galakser og fant ut at avstanden fra jorda til galaksene va
 [[hubble.svg]]
 
 ## Hubblekonstanten
-Hubblekonstanten, $H_0$ beskriver hvor fort universet utvider seg. Siden universets utvidelse har foregått i ulikt tempo (akkurat nå ser utvidelsen ut til akselerere), så må Hubbelekonstanten ha hatt ulike verdier gjennom universets historie. Vi bruker derfor heller navnet Hubbleparameteren $H(t)$ på verdier av Hubbleparameteren i fortiden og framtiden. Nåværende beregninger av Hubblekonstanten gir en verdi rundt 70 km/s/Mpc. Ved tiden 13,8 mrd år så får vi altså $H(13.8)=H_{0} \approx 70 \,(\textrm{km}/{s})/\textrm{Mpc}$.
+Hubblekonstanten, $H_0$ beskriver hvor fort universet utvider seg. Siden universets utvidelse har foregått i ulikt tempo (akkurat nå ser utvidelsen ut til akselerere), så må Hubbelekonstanten ha hatt ulike verdier gjennom universets historie. Vi bruker derfor heller navnet Hubbleparameteren $H(t)$ på verdier av Hubbleparameteren i fortiden og framtiden. Nåværende beregninger av Hubblekonstanten gir en verdi rundt 70 km/s/Mpc. Ved tiden 13,8 mrd år så får vi altså
+$$H(13.8)=H_{0} \approx 70 \,(\text{km}/\text{s})/\text{Mpc}$$
 
 ![hubble-planck-observations.png](/img/user/_resources/hubble-planck-observations.png)
 

@@ -30,9 +30,8 @@ function transformImage(src, cls, alt, sizes, widths = ["500", "700", "auto"]) {
 }
 
 const tagRegex = /(^|\s|\>)(#[^\s!@#$%^&*()=+\.,\[{\]};:'"?><]+)(?!([^<]*>))/g;
-// const youtubeRegex = /^!\[.*\]\(.*\/\/youtube\.com\/watch\?v=(.*)\)$/g;
-// const youtubeRegex = /!\[.*\]\(.*\/\/youtu\.be\/(.*)\)/g;
-const youtubeRegex = /youtu\.be\/(.*)\)/g;
+const youtubeRegex =
+  /<img src=\"https:\/\/w*\.?(?:(?:youtube\.com\/watch\?v=)|(?:youtu\.be\/))(.*)\" alt=\"(.*)\">/g;
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.setLiquidOptions({
@@ -267,22 +266,10 @@ module.exports = function (eleventyConfig) {
       })
     );
   });
-
-  eleventyConfig.addFilter("createYouTubeEmbeds", function (str) {
-    return (
-      // str &&
-      str.replace(
-        youtubeRegex,
-        function (match, videoID) {
-          return `<iframe width="480" height="320" src="https://www.youtube.com/embed/${videoID}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
-        }
-        // '<iframe width="480" height="320" src="https://www.youtube.com/embed/$1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
-      )
-    );
-  });
-
-  eleventyConfig.addFilter("duckify", (str) => {
-    return str.replace(/!\[(.*)\]\(youtu\.be/g, "duck");
+  eleventyConfig.addFilter("youtubeEmbed", function (str) {
+    return str.replace(youtubeRegex, function (match, videoID, title) {
+      return `<iframe src="https://www.youtube.com/embed/${videoID}" class="youtube" title="${title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+    });
   });
 
   eleventyConfig.addFilter("searchableTags", function (str) {

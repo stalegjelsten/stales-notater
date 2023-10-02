@@ -4,14 +4,14 @@
 
 
 # Semantisk HTML
-Semantisk HTML er en måte å skrive HTML på hvor strukturen i dokumentet blir ekstra tydelig. Det gjør blant annet at det er enkelt å gi nettstedet [[Kunnskap/Universell utforming av nettsider\|universell utforming]] og det gjør det enkelt å endre på utseendet kun ved hjelp av CSS.
+Semantisk [[Kunnskap/HTML\|HTML]] er en måte å skrive HTML på hvor strukturen i dokumentet blir ekstra tydelig. Det gjør blant annet at det er enkelt å gi nettstedet [[Kunnskap/Universell utforming av nettsider\|universell utforming]] og det gjør det enkelt å endre på utseendet kun ved hjelp av CSS.
 
 ## Hovedprinsipper
 For å skrive semantisk HTML bør du
 - Bruke den mest spesifikke HTML-tagen til elementet du ønsker å lage. For eksempel bør du bruke `<button>` istedenfor `<div>` for å lage en knapp, selv om du enkelt kan få begge disse blokkelementene til å se like ut.
 - Legge til spesielle semantiske tagger som `<nav>` og `<main>` istedenfor `<div>` med ulike klasser. Se tabellen under.
 
-Hvis man bruker semantiske tagger som `<main>` vil det være mye enklere for en som leser kildekoden å forstå hvordan nettsiden er bygget opp. Det er også enklere for skjermlesere, da de enkelt kan gi brukeren valget mellom å til `nav` eller `main` for å navigere eller lese hovedinnholdet.
+Hvis man bruker semantiske tagger som `<main>` vil det være mye enklere for en som leser kildekoden å forstå hvordan nettsiden er bygget opp. Det er også enklere for skjermlesere, da de enkelt kan gi brukeren valget mellom å gå til `nav` eller `main` for å navigere eller lese hovedinnholdet.
 
 Tabellen nedenfor viser de vanligste semantiske taggene. Innholdet i tabellen er lisensiert med CC-BY-SA og hentet fra NDLA. Kilde: Dalsaune, K. A. (2022, 14. mars). Semantisk HTML. NDLA. <https://ndla.no/article/32841>
 
@@ -24,7 +24,6 @@ Tabellen nedenfor viser de vanligste semantiske taggene. Innholdet i tabellen er
 | `<section>` | et definert område av nettsiden med innhold som henger sammen                                                                        |
 | `<article>` | en lengre, sammenhengende tekst, som er uavhengig av annet innhold                                                                   |
 | `<aside>`   | apropos-innhold, for eksempel faktabokser, illustrasjonsbilder eller lignende                                                        |
-
 
 ## Related
 [[Kunnskap/Universell utforming av nettsider\|Universell utforming av nettsider]]

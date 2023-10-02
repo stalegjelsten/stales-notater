@@ -5,33 +5,67 @@
 
 # IT1 MOC
 
-Dette er en oversiktside som viser alle fagnotater i IT1.
+Dette er en oversiktsside som viser alle fagnotater i IT1.
 
-[[Kunnskap/Forelesninger/IT1 forelesninger\|Forelesninger i IT1 ligger på en egen side]].
-
-## CSS
-| File                                                                                         | tags                              | modified           |
-| -------------------------------------------------------------------------------------------- | --------------------------------- | ------------------ |
-| [[Kunnskap/CSS\|CSS]]                                                                     | <ul><li>it1</li><li>css</li></ul> | September 17, 2023 |
-| [[Kunnskap/Fargeforløpninger i CSS\|Fargeforløpninger i CSS]]                             | <ul><li>css</li><li>it1</li></ul> | September 17, 2023 |
-| [[Kunnskap/Display inline, block og inline-block\|Display inline, block og inline-block]] | <ul><li>it1</li><li>css</li></ul> | September 15, 2023 |
-| [[Kunnskap/CSS pseudoselektorer\|CSS pseudoselektorer]]                                   | <ul><li>it1</li><li>css</li></ul> | September 16, 2023 |
+## HTML
+- [[Kunnskap/Universell utforming av nettsider\|Universell utforming av nettsider]]
+- [[Kunnskap/Semantisk HTML\|Semantisk HTML]]
+- [[Kunnskap/HTML\|HTML]]
 
 { .block-language-dataview}
 
-## HTML
-| File                                                                                 | tags                               | modified           |
-| ------------------------------------------------------------------------------------ | ---------------------------------- | ------------------ |
-| [[Kunnskap/Semantisk HTML\|Semantisk HTML]]                                       | <ul><li>it1</li><li>html</li></ul> | September 17, 2023 |
-| [[Kunnskap/Universell utforming av nettsider\|Universell utforming av nettsider]] | <ul><li>it1</li><li>html</li></ul> | September 17, 2023 |
+## CSS
+- [[Kunnskap/Enheter og størrelser i CSS\|Enheter og størrelser i CSS]]
+- [[Kunnskap/Selektorer i CSS\|Selektorer i CSS]]
+- [[Kunnskap/Magisk skinnende tekst med CSS\|Magisk skinnende tekst med CSS]]
+- [[Kunnskap/Fargeforløpninger i CSS\|Fargeforløpninger i CSS]]
+- [[Kunnskap/Display inline, block og inline-block\|Display inline, block og inline-block]]
+- [[Kunnskap/CSS\|CSS]]
+- [[Kunnskap/CSS variabler\|CSS variabler]]
+- [[Kunnskap/CSS pseudoselektorer\|CSS pseudoselektorer]]
+- [[Kunnskap/CSS pseudoklasser\|CSS pseudoklasser]]
+- [[Kunnskap/CSS animasjoner\|CSS animasjoner]]
+- [[Kunnskap/Bytt fargemodus på nettsider\|Bytt fargemodus på nettsider]]
 
 { .block-language-dataview}
 
 ## Svelte
-| File                                                               | tags                                                    | modified           |
-| ------------------------------------------------------------------ | ------------------------------------------------------- | ------------------ |
-| [[Kunnskap/each blokker i Svelte\|each blokker i Svelte]]       | <ul><li>it1</li><li>svelte</li></ul>                    | September 16, 2023 |
-| [[Kunnskap/Svelte\|Svelte]]                                     | <ul><li>it1</li><li>svelte</li></ul>                    | June 09, 2023      |
-| [[Kunnskap/Lese JSON med JavaScript\|Lese JSON med JavaScript]] | <ul><li>it1</li><li>svelte</li><li>javascript</li></ul> | September 17, 2023 |
+- [[Kunnskap/Reaktivitet i Svelte\|Reaktivitet i Svelte]]
+- [[Kunnskap/each blokker i Svelte\|each blokker i Svelte]]
+- [[Kunnskap/Svelte\|Svelte]]
+- [[Kunnskap/Svelte stores\|Svelte stores]]
+- [[Kunnskap/Lese JSON med JavaScript\|Lese JSON med JavaScript]]
+- [[Kunnskap/Bytt fargemodus på nettsider\|Bytt fargemodus på nettsider]]
+- [[Kunnskap/Animasjoner i Svelte\|Animasjoner i Svelte]]
+
+{ .block-language-dataview}
+
+## Annet
+- [[Kunnskap/node.js\|node.js]]
+- [[Kunnskap/URL\|URL]]
+- [[Kunnskap/Tillegg til Kode 1\|Tillegg til Kode 1]]
+- [[Kunnskap/Skjermleser\|Skjermleser]]
+- [[Kunnskap/Server\|Server]]
+- [[Kunnskap/Publisere nettsider hos GitHub pages\|Publisere nettsider hos GitHub pages]]
+- [[Kunnskap/Forelesninger/IT1 forelesninger\|IT1 forelesninger]]
+- [[Kunnskap/Forelesninger/IT1 Oppdrag til fagdag 1\|IT1 Oppdrag til fagdag 1]]
+- [[Kunnskap/Bruke VS Code til python programmering\|Bruke VS Code til python programmering]]
+
+{ .block-language-dataview}
+
+## Forelesninger
+| File                                                                                                               | Dato       |
+| ------------------------------------------------------------------------------------------------------------------ | ---------- |
+| [[Kunnskap/Forelesninger/IT1-1-2 intro til HTML\|IT1-1-2 intro til HTML]]                                       | 2023-08-21 |
+| [[Kunnskap/Forelesninger/IT1-1-4 VS Code og mappestruktur\|IT1-1-4 VS Code og mappestruktur]]                   | 2023-08-24 |
+| [[Kunnskap/Forelesninger/IT1-1-5 Bilder\|IT1-1-5 Bilder]]                                                       | 2023-08-24 |
+| [[Kunnskap/Forelesninger/IT1-1-6 Lenker\|IT1-1-6 Lenker]]                                                       | 2023-08-28 |
+| [[Kunnskap/Forelesninger/IT1-1-7 Tabeller\|IT1-1-7 Tabeller]]                                                   | 2023-08-31 |
+| [[Kunnskap/Forelesninger/IT1-2-1 Intro til CSS\|IT1-2-1 Intro til CSS]]                                         | 2023-09-04 |
+| [[Kunnskap/Forelesninger/IT1-2-2 Bilder i CSS\|IT1-2-2 Bilder i CSS]]                                           | 2023-09-07 |
+| [[Kunnskap/Forelesninger/IT1-2-3 Selektorer i CSS\|IT1-2-3 Selektorer i CSS]]                                   | 2023-09-11 |
+| [[Kunnskap/Forelesninger/IT1-2-4 Oppsummering av 90-tallsnettsider\|IT1-2-4 Oppsummering av 90-tallsnettsider]] | 2023-09-21 |
+| [[Kunnskap/Forelesninger/IT1-3-1 Universell utforming av nettsider\|IT1-3-1 Universell utforming av nettsider]] | 2023-09-24 |
+| [[Kunnskap/Forelesninger/IT1-3-2 Fra skisse til nettside\|IT1-3-2 Fra skisse til nettside]]                     | 2023-09-28 |
 
 { .block-language-dataview}

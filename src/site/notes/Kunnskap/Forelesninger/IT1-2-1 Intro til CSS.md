@@ -99,4 +99,4 @@ h6 {
 ### Bruke webfonter
 
 [fonts.google.com](https://fonts.google.com/) har mange flotte, gratis fonter. Se [videoen](https://www.youtube.com/watch?v=fsPgvJxrpDE) for demonstrasjon av hvordan man bruker dem.
-![](https://www.youtube.com/watch?v=fsPgvJxrpDE)
+<iframe src="https://www.youtube.com/embed/fsPgvJxrpDE" class="youtube" title="" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

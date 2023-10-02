@@ -67,7 +67,9 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {% for imp in dynamics.notes.beforeContent %}
         {% include imp %}
       {% endfor %}
-      {{ content | hideDataview | createYouTubeEmbeds | duckify | link | safe}}
+      <article>
+        {{ content | hideDataview | link | safe}}
+      </article>
       {% for imp in dynamics.common.afterContent %}
         {% include imp %}
       {% endfor %}
@@ -76,9 +78,11 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {% endfor %}
     </main>
 
+    <aside>
     {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
       {%include "components/sidebar.njk"%}
     {% endif %}
+    </aside>
 
     {% if settings.dgLinkPreview === true %}
       {%include "components/linkPreview.njk"%}

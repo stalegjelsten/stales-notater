@@ -1,0 +1,25 @@
+iframe.youtube {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+// div.graph-title {
+//     color: rgb(203, 76, 72) !important;
+// }
+
+#depth-display {
+    color: #282f3e !important;
+    font-weight: bold;
+}
+
+.depth-control {
+    .slider {
+        datalist {
+            font-size: 0.8rem !important;
+        }
+    }
+}
+
+input[type="range"]#graph-depth {
+    background-color: #7d84a2 !important;
+}

@@ -19,7 +19,12 @@ a { display: block }
 ```
 
 ## Inline-block
-Inline-block er en spennende mellomting mellom inline og block. Den gir oss mulighet til å lage elementer med en gitt bredde og høyde. Her viser jeg med to ulike `h2` med `display: inline-block`
+Inline-block er en spennende mellomting mellom inline og block. 
+
+- Inline-block skiller seg fra inline ved vi kan sette en bredde og høyde på elementet
+- Inline-block skiller seg fra block ved at det ikke legges til et automatisk linjeskift etter elementet
+
+Den gir oss mulighet til å lage elementer med en gitt bredde og høyde. Her viser jeg med to ulike `h2` med `display: inline-block`
 
 ```css
 <h2 style="display: inline-block; width: 30%; background-color: lightyellow">Test</h2><h2 style="display: inline-block; width: 30%; background-color: lightblue">Test</h2>
