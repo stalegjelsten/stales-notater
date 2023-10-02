@@ -48,7 +48,7 @@ module.exports = async (data) => {
     bodyClasses.push("backlinks-note-icon");
     noteIconsSettings.backlinks = true;
   }
-  if(styleSettingsCss){
+  if (styleSettingsCss) {
     bodyClasses.push("css-settings-manager");
   }
 
@@ -60,6 +60,7 @@ module.exports = async (data) => {
   const meta = {
     env: process.env.ELEVENTY_ENV,
     theme: process.env.THEME,
+    mainLang: process.env.MAINLANG || "en",
     themeStyle,
     bodyClasses: bodyClasses.join(" "),
     noteIconsSettings,

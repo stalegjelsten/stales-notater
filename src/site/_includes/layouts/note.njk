@@ -2,7 +2,7 @@
 permalink: "notes/{{ page.fileSlug | slugify }}/"
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ meta.mainLang }}">
   <head>
     <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
     {%include "components/pageheader.njk"%}
@@ -67,7 +67,9 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {% for imp in dynamics.notes.beforeContent %}
         {% include imp %}
       {% endfor %}
-      {{ content | hideDataview | link | taggify | safe}}
+      <article>
+        {{ content | hideDataview | link | taggify | safe}}
+      </article>
       {% for imp in dynamics.common.afterContent %}
         {% include imp %}
       {% endfor %}
@@ -76,9 +78,11 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {% endfor %}
     </main>
 
-    {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
-      {%include "components/sidebar.njk"%}
-    {% endif %}
+    <aside>
+      {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
+        {%include "components/sidebar.njk"%}
+      {% endif %}
+    </aside>
 
     {% if settings.dgLinkPreview === true %}
       {%include "components/linkPreview.njk"%}
