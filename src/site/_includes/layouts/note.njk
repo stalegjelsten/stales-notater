@@ -2,7 +2,7 @@
 permalink: "notes/{{ page.fileSlug | slugify }}/"
 ---
 <!DOCTYPE html>
-<html lang="no">
+<html lang="{{ meta.mainLang }}">
   <head>
     <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
     {%include "components/pageheader.njk"%}
@@ -68,7 +68,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
         {% include imp %}
       {% endfor %}
       <article>
-      {{ content | hideDataview | link | safe}}
+        {{ content | hideDataview | link | safe}}
       </article>
       {% for imp in dynamics.common.afterContent %}
         {% include imp %}
