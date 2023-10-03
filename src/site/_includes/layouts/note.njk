@@ -68,7 +68,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
         {% include imp %}
       {% endfor %}
       <article>
-        {{ content | hideDataview | link | safe}}
+        {{ content | hideDataview | link | taggify | safe}}
       </article>
       {% for imp in dynamics.common.afterContent %}
         {% include imp %}
@@ -79,9 +79,9 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     </main>
 
     <aside>
-    {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
-      {%include "components/sidebar.njk"%}
-    {% endif %}
+      {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
+        {%include "components/sidebar.njk"%}
+      {% endif %}
     </aside>
 
     {% if settings.dgLinkPreview === true %}

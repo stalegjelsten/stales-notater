@@ -30,8 +30,6 @@ function transformImage(src, cls, alt, sizes, widths = ["500", "700", "auto"]) {
 }
 
 const tagRegex = /(^|\s|\>)(#[^\s!@#$%^&*()=+\.,\[{\]};:'"?><]+)(?!([^<]*>))/g;
-const youtubeRegex =
-  /<img src=\"https:\/\/w*\.?(?:(?:youtube\.com\/watch\?v=)|(?:youtu\.be\/))(.*)\" alt=\"(.*)\">/g;
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.setLiquidOptions({
@@ -158,7 +156,23 @@ module.exports = function (eleventyConfig) {
         };
       md.renderer.rules.image = (tokens, idx, options, env, self) => {
         const imageName = tokens[idx].content;
-        const [fileName, width] = imageName.split("|");
+        //"image.png|metadata?|width"
+        const [fileName, ...widthAndMetaData] = imageName.split("|");
+        const lastValue = widthAndMetaData[widthAndMetaData.length - 1];
+        const lastValueIsNumber = !isNaN(lastValue);
+        const width = lastValueIsNumber ? lastValue : null;
+
+        let metaData = "";
+        if (widthAndMetaData.length > 1) {
+          metaData = widthAndMetaData
+            .slice(0, widthAndMetaData.length - 1)
+            .join(" ");
+        }
+
+        if (!lastValueIsNumber) {
+          metaData += ` ${lastValue}`;
+        }
+
         if (width) {
           const widthIndex = tokens[idx].attrIndex("width");
           const widthAttr = `${width}px`;
@@ -266,11 +280,6 @@ module.exports = function (eleventyConfig) {
       })
     );
   });
-  eleventyConfig.addFilter("youtubeEmbed", function (str) {
-    return str.replace(youtubeRegex, function (match, videoID, title) {
-      return `<iframe src="https://www.youtube.com/embed/${videoID}" class="youtube" title="${title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
-    });
-  });
 
   eleventyConfig.addFilter("searchableTags", function (str) {
     let tags;
@@ -311,16 +320,17 @@ module.exports = function (eleventyConfig) {
 
         let titleDiv = "";
         let calloutType = "";
+        let calloutMetaData = "";
         let isCollapsable;
         let isCollapsed;
-        const calloutMeta = /\[!([\w-]*)\](\+|\-){0,1}(\s?.*)/;
+        const calloutMeta = /\[!([\w-]*)\|?(\s?.*)\](\+|\-){0,1}(\s?.*)/;
         if (!content.match(calloutMeta)) {
           continue;
         }
 
         content = content.replace(
           calloutMeta,
-          function (metaInfoMatch, callout, collapse, title) {
+          function (metaInfoMatch, callout, metaData, collapse, title) {
             isCollapsable = Boolean(collapse);
             isCollapsed = collapse === "-";
             const titleText = title.replace(/(<\/{0,1}\w+>)/, "")
@@ -333,6 +343,7 @@ module.exports = function (eleventyConfig) {
               : ``;
 
             calloutType = callout;
+            calloutMetaData = metaData;
             titleDiv = `<div class="callout-title"><div class="callout-title-inner">${titleText}</div>${fold}</div>`;
             return "";
           }
@@ -343,6 +354,8 @@ module.exports = function (eleventyConfig) {
         blockquote.classList.add(isCollapsable ? "is-collapsible" : "");
         blockquote.classList.add(isCollapsed ? "is-collapsed" : "");
         blockquote.setAttribute("data-callout", calloutType.toLowerCase());
+        calloutMetaData &&
+          blockquote.setAttribute("data-callout-metadata", calloutMetaData);
         blockquote.innerHTML = `${titleDiv}\n<div class="callout-content">${content}</div>`;
       }
     };
@@ -501,7 +514,7 @@ module.exports = function (eleventyConfig) {
     },
     templateFormats: ["njk", "md", "11ty.js"],
     htmlTemplateEngine: "njk",
-    markdownTemplateEngine: "njk",
+    markdownTemplateEngine: false,
     passthroughFileCopy: true,
   };
 };
