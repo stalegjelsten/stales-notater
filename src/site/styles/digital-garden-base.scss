@@ -13,6 +13,10 @@ body {
     --graph-muted: var(--text-muted);
 }
 
+img {
+    max-width: 100%;
+}
+
 .content {
     max-width: 700px;
     margin: auto;
@@ -510,7 +514,7 @@ ul.task-list {
     font-size: 1.4rem;
 }
 
-.search-button {
+#search-button {
     background-color: var(--background-primary);
     border-radius: 20px;
     height: 2.5em;
