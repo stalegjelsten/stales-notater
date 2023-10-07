@@ -8,7 +8,7 @@ Big bang er teorien om starten på vårt univers for ca. 13,8 milliarder år sid
 
 Vi kan ikke si så mye om selve big bang, siden det ville krevd en fungerende teori for kvantegravitasjon som kan utkonkurrere teoriene om [[Kunnskap/Generell relativitetsteori\|Generell relativitetsteori]] og [[Kunnskap/Kvantemekanikk\|Kvantemekanikk]]. Vi vet likevel at alle de fire kreftene i universet må ha vært samlet, og ved hjelp av big bang teorien kan vi forklare store deler av universets utvikling.
 
-Big bang teorien er en av de mest gjennomtestede teoriene i verdenshistorien. Vi skal i [[Kunnskap/Naturfag MOC\|naturfag]] se på tre observasjoner som støtter teorien:
+Big bang teorien er en av de mest gjennomtestede teoriene i verdenshistorien. Vi skal i [[Naturfag MOC\|naturfag]] se på tre observasjoner som støtter teorien:
 1. Universets utvidelse
 2. Bakgrunnsstrålingen
 3. Fordelingen av grunnstoffer i Universet
