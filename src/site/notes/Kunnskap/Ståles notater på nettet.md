@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Ståles notater på nettet/","title":"Ståles notater på nettet","tags":[null,"gardenEntry"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Ståles notater på nettet/","title":"Ståles notater på nettet","tags":[null,"gardenEntry","gardenEntry"]}
 ---
 
 
@@ -8,12 +8,12 @@
 ## Fagområder
 
 ### Informasjonsteknologi 1
-- [[Kunnskap/IT1 MOC\|Fagnotater til IT1]]
+- [[IT1 MOC\|Fagnotater til IT1]]
 - [[Kunnskap/Forelesninger/IT1 forelesninger\|Forelesninger fra Informasjonsteknologi 1 skoleåret 2023–24]]
 
 ### Historie
 - Tidslinje over historie som er relevant for videregående finner dere her: [[Kunnskap/Tidslinje historie\|Tidslinje historie]]
-- En oversikt over alle notatene tagget med historie: [[Kunnskap/Historie MOC\|Historie MOC]]
+- En oversikt over alle notatene tagget med historie: [[Historie MOC\|Historie MOC]]
 - En oversikt over forelesningsnotater fra universitetet (fordelt på fag)
 	- [[Kunnskap/Forelesningsnotater/Hi110 Forelesningsnotater eldre historie i Norge og Europa MOC\|Hi110 Forelesningsnotater eldre historie i Norge og Europa MOC]]
 	- [[Kunnskap/Forelesningsnotater/Hi100 Forelesningsnotater globalhistorie MOC\|Hi100 Forelesningsnotater globalhistorie MOC]]
@@ -23,7 +23,7 @@
 - Kapittel 1 [[Kunnskap/Big bang\|Big bang]]
 - Kapittel 6 [[Kunnskap/Bølger\|Bølger]]
 - Kapittel 7 [[Kunnskap/Radioaktivitet\|Radioaktivitet]]
-- Oversikt over alle notater tagget med naturfag: [[Kunnskap/Naturfag MOC\|Naturfag MOC]]
+- Oversikt over alle notater tagget med naturfag: [[Naturfag MOC\|Naturfag MOC]]
 
 ## Om nettstedet
 Her vil dere finne mine (Ståles Gjelstens) notater til ulike fag som undervises i videregående skole. Jeg er på ingen måte noen ekspert på noen av disse temaene, og det vil alltid finnes bedre sekundærkilder enn denne nettsiden. Det vil nok i det hele tatt være veldig dumt å bruke dette nettstedet som kilde til noe som helst.
