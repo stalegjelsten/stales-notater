@@ -20,15 +20,15 @@ Du kan legge inn CSS-kode i et eget `<style>`-element i `<head>` av HTML dokumen
 Den vanligste løsningen er å skrive CSS-koden i et eget stilark med filendelsen `.css`. Den store fordelen med dette er at du kan bruke det samme stilarket på alle HTML-sidene du lager på nettstedet.
 
 ## Notater om CSS
-- [[Kunnskap/Bytt fargemodus på nettsider\|Bytt fargemodus på nettsider]]
-- [[Kunnskap/CSS animasjoner\|CSS animasjoner]]
+- [[Kunnskap/Selektorer i CSS\|Selektorer i CSS]]
+- [[Kunnskap/Magisk skinnende tekst med CSS\|Magisk skinnende tekst med CSS]]
+- [[Kunnskap/Enheter og størrelser i CSS\|Enheter og størrelser i CSS]]
+- [[Kunnskap/Fargeforløpninger i CSS\|Fargeforløpninger i CSS]]
+- [[Kunnskap/Display inline, block og inline-block\|Display inline, block og inline-block]]
+- [[Kunnskap/CSS pseudoselektorer\|CSS pseudoselektorer]]
 - [[Kunnskap/CSS pseudoklasser\|CSS pseudoklasser]]
 - [[Kunnskap/CSS variabler\|CSS variabler]]
-- [[Kunnskap/CSS pseudoselektorer\|CSS pseudoselektorer]]
-- [[Kunnskap/Display inline, block og inline-block\|Display inline, block og inline-block]]
-- [[Kunnskap/Fargeforløpninger i CSS\|Fargeforløpninger i CSS]]
-- [[Kunnskap/Magisk skinnende tekst med CSS\|Magisk skinnende tekst med CSS]]
-- [[Kunnskap/Selektorer i CSS\|Selektorer i CSS]]
-- [[Kunnskap/Enheter og størrelser i CSS\|Enheter og størrelser i CSS]]
+- [[Kunnskap/CSS animasjoner\|CSS animasjoner]]
+- [[Kunnskap/Bytt fargemodus på nettsider\|Bytt fargemodus på nettsider]]
 
 { .block-language-dataview}
