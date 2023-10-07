@@ -2,7 +2,7 @@
 permalink: "notes/{{ page.fileSlug | slugify }}/"
 ---
 <!DOCTYPE html>
-<html lang="{{ meta.mainLang }}">
+<html lang="{{ meta.mainLanguage }}">
   <head>
     <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
     {%include "components/pageheader.njk"%}
@@ -85,7 +85,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     </aside>
 
     {% if settings.dgLinkPreview === true %}
-      {%include "components/linkPreview.njk"%}
+    {%include "components/linkPreview.njk"%}
     {% endif %}
     {% include "components/references.njk" %}
     {% include "components/timestamps.njk" %}

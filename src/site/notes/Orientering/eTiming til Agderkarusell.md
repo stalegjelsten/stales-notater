@@ -9,7 +9,7 @@ Det er laget en fin [guide fra 2019 til bruk av eTiming for Agderkarusellen](htt
 Den guiden er utdatert på et par punkter. Jeg diskuterer disse nærmere under [[Orientering/eTiming til Agderkarusell#Kommentarer til guiden fra 2019\|#Kommentarer til guiden fra 2019]].
 
 ## Klasseoppsett, frister og kontingenter i Eventor
-I Agderkarusellen så benyttes følgende klasseoppsett
+I Agderkarusellen så benyttes følgende klasseoppsett 👇
 
 | Løype | Klasser                  |
 |:-----:| ------------------------ |
@@ -18,6 +18,8 @@ I Agderkarusellen så benyttes følgende klasseoppsett
 |   3   | D3, H3, D 13-14, H 13-14 |
 |   4   | D4, H4, D 15-16, H 15-16 |
 |   5   | D5, H5, D 17-20, H 17-20 |
+
+Legg inn klassene i Eventor. Pass på at `Kortnavn` til hver klasse stemmer overens med klassenavnet over. Navnene på hver klasse kan gjerne inneholde noe mer informasjon, slik at klassenavnet for eksempel kan være `D1 - Damer N-løype`. Det enkleste er å kopiere oppsett fra tidligere løp eller tidligere år – pass bare på at det ikke er kommet med noen nye klasser siden sist.
 
 Under `påmeldingsavgifter og frister` i Eventor så velger du `Rediger, avansert visning`. Bruk kun 2 kontingentnivåer (slett de andre):
 1. Påmeldingskontingent for voksen. 
