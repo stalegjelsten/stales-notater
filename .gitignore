@@ -8,6 +8,7 @@ src/site/styles/_theme.*.css
 .netlify
 .idea/
 .vercel
+.prettierignore
 .cache
 _site/
 **/.DS_Store
