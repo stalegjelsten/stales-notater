@@ -4,16 +4,16 @@
 
 
 # Den naturlige logaritmen
-Den naturlige logaritmen $\ln x$ er definert på følgende måte:
+Den naturlige logaritmen $\ln x$ kan defineres på følgende måte:
 
 >[!important] Definisjon av $\ln x$
-Den naturlige logaritmen $\ln x$ er den inverse funksjonen til $e^{x}$ slik at 
+Den naturlige logaritmen $\ln x$ er den [[Inverse funksjoner\|inverse funksjonen]] til $e^{x}$ slik at 
 > $$ e^{\ln x}=x $$
 > 
 > Siden $e^{x}>0$ vil også $e^{\ln x}>0$. Ut fra likheten over så ser vi at $x>0$.
 > 
-> Definisjonsmengden er dermed alle positive tall, $x \in \mathbb{R} \mid x > 0$.
-> Verdimengden er alle reelle tall $\mathbb{R}$.
+> Definisjonsmengden er dermed alle positive tall: $D_{f} = \langle 0, \infty \rangle = \{x \mid x > 0\}$.
+> Verdimengden er alle reelle tall: $V_{f}= \langle -\infty, \infty\rangle =\{x \mid x\in\mathbb{R}\}$.
 
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
@@ -802,7 +802,7 @@ plot(log(x),1/x, [-1,4],[-4,2])==?
 ```
 
 ## Den deriverte av ln x
-Den deriverte av $\ln x$ er $\frac{1}{x}$. 
+Den deriverte av $\ln x$ er $\frac{1}{x}$. Merk at selv om $g(x)=\frac{1}{x}$ er definert for $x\in \mathbb{R} \setminus 0$ så er den deriverte av logaritmefunksjonen kun definert for $x>0$. Siden $f(x)=\ln x$ har definisjonsmengde $\{ x \mid x>0 \}$ så kan ikke den deriverte ha noe *større* definisjonsmengde enn dette. Det gir ikke mening å snakke om vekstfarten til $f$ i $x=-2$ siden $f(-2)$ ikke eksisterer.
 
 >[!important] Beviset for $(\ln x)'=\frac{1}{x}$
 >Vi vet at
