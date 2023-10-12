@@ -18,5 +18,6 @@
 | [[Kunnskap/Forelesninger/IT1-2-4 Oppsummering av 90-tallsnettsider\|IT1-2-4 Oppsummering av 90-tallsnettsider]] | 2023-09-21 |
 | [[Kunnskap/Forelesninger/IT1-3-1 Universell utforming av nettsider\|IT1-3-1 Universell utforming av nettsider]] | 2023-09-24 |
 | [[Kunnskap/Forelesninger/IT1-3-2 Fra skisse til nettside\|IT1-3-2 Fra skisse til nettside]]                     | 2023-09-28 |
+| [[Kunnskap/Forelesninger/IT1-3-3 Enheter og størrelser\|IT1-3-3 Enheter og størrelser]]                         | 2023-10-09 |
 
 { .block-language-dataview}
