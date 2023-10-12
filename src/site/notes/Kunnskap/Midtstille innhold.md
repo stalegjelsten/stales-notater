@@ -4,7 +4,12 @@
 
 
 # Midtstille innhold
+{ #f26ba4}
+
+
 Å midtstille en `div` eller annet innhold i både vertikal og horisontal retning gjøres på følgende måte:
+{ #e58eb3}
+
 1. Bruk `display:flex;` på forelderen til elementet du ønsker å midtstille
 2. Bruk deretter `justify-content: center;` og `align-items: center;` for å midtstille innholdet langs begge akser.
 
@@ -20,6 +25,7 @@
 
 ![Meme som viser Boromir fra Ringenes Herre som sier "One does not simply center a div"](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*rf4QAy4yYPdfuLsZ7NrHZA.jpeg)
 
+![](https://i.imgur.com/Wy5c2Kb.jpeg)
 >[!quote]- ChatGPT forklarer hvorfor det var vanskelig å midtstille diver
 >Spørsmål: Hvorfor var det så vanskelig å midtstille en div før flexbox?
 >
