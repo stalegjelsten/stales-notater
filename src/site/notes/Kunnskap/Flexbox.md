@@ -14,7 +14,7 @@ Du lager en `flexbox` ved å skrive `display: flex;` i CSS-koden til HTML elemen
 ## Eksempler
 Eksempelet under er bygget opp av en hoved`div` (flexboxen) med blå farge. Inne i flexboxen ligger det 4 nye diver, som blir *flex items* til flexboxen. Se CSS-koden lenger nede.
 
-<section style="display: flex; background-color: blue; height: 5rem; gap: 1rem; padding: 1rem; font-size: 30px;"><div style="background-color: darkgreen; display: flex; justify-content: center; align-items: center; flex: 1;">Item 1</div><div style="background-color: darkgreen; display: flex; justify-content: center; align-items: center; flex: 1;">Item 2</div><div style="background-color: darkgreen; display: flex; justify-content: center; align-items: center; flex: 1;">Item 3</div><div style="background-color: darkgreen; display: flex; justify-content: center; align-items: center; flex: 1;">Item 4</div></section>
+<section style="display: flex; background-color: blue; height: 5rem; gap: 1rem; padding: 1rem; font-size: 30px;"><div style="background-color: darkgreen;">Item 1</div><div style="background-color: darkgreen;">Item 2</div><div style="background-color: darkgreen;">Item 3</div><div style="background-color: darkgreen;">Item 4</div></section>
 
 ```css
 div.container {
@@ -27,10 +27,17 @@ div.container {
 }
 div.item {
 	background-color: darkgreen;
-	display: flex; /* for å kunne midtstille teksten "Item 1" */
-	justify-content: center; /* midtstiller langs hovedaksen */
-	align-items: center; /* midtstiller langs tverraksen */
-	flex: 1; /* alle items skal være like store */
+}
+```
+
+Hvis man ønsker at *flex items* skal bruke opp plassen i flexboxen så kan kan man legge til `flex: 1;` til hver av *flex itemene*.
+
+<section style="display: flex; background-color: blue; height: 5rem; gap: 1rem; padding: 1rem; font-size: 30px;"><div style="background-color: darkgreen; flex: 1;">Item 1</div><div style="background-color: darkgreen; flex: 1;">Item 2</div><div style="background-color: darkgreen; flex: 1;">Item 3</div><div style="background-color: darkgreen; flex: 1;">Item 4</div></section>
+
+```css
+div.item {
+	background-color: darkgreen;
+	flex: 1;
 }
 ```
 
