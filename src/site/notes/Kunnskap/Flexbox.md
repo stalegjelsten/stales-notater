@@ -14,7 +14,7 @@ Du lager en `flexbox` ved å skrive `display: flex;` i CSS-koden til HTML elemen
 ## Eksempler
 Eksempelet under er bygget opp av en hoved`div` (flexboxen) med blå farge. Inne i flexboxen ligger det 4 nye diver, som blir *flex items* til flexboxen. Se CSS-koden lenger nede.
 
-<section style="display: flex; background-color: blue; height: 5rem; gap: 1rem; padding: 1rem; font-size: 30px;"><div style="background-color: darkgreen; display: flex; justify-content: center; align-items: center; flex: 1;">Item 1</div><div style="background-color: darkgreen; display: flex; justify-content: center; align-items: center; flex: 1;">Item 2</div><div style="background-color: darkgreen; display: flex; justify-content: center; align-items: center; flex: 1;">Item 3</div><div style="background-color: darkgreen; display: flex; justify-content: center; align-items: center; flex: 1;">Item 4</div></section>
+<section style="display: flex; background-color: blue; height: 5rem; gap: 1rem; padding: 1rem; font-size: 30px;"><div style="background-color: darkgreen;">Item 1</div><div style="background-color: darkgreen;">Item 2</div><div style="background-color: darkgreen;">Item 3</div><div style="background-color: darkgreen;">Item 4</div></section>
 
 ```css
 div.container {
@@ -27,10 +27,17 @@ div.container {
 }
 div.item {
 	background-color: darkgreen;
-	display: flex; /* for å kunne midtstille teksten "Item 1" */
-	justify-content: center; /* midtstiller langs hovedaksen */
-	align-items: center; /* midtstiller langs tverraksen */
-	flex: 1; /* alle items skal være like store */
+}
+```
+
+Hvis man ønsker at *flex items* skal bruke opp plassen i flexboxen så kan kan man legge til `flex: 1;` til hver av *flex itemene*.
+
+<section style="display: flex; background-color: blue; height: 5rem; gap: 1rem; padding: 1rem; font-size: 30px;"><div style="background-color: darkgreen; flex: 1;">Item 1</div><div style="background-color: darkgreen; flex: 1;">Item 2</div><div style="background-color: darkgreen; flex: 1;">Item 3</div><div style="background-color: darkgreen; flex: 1;">Item 4</div></section>
+
+```css
+div.item {
+	background-color: darkgreen;
+	flex: 1;
 }
 ```
 
@@ -61,16 +68,14 @@ Vi kan bytte akse ved å bruke `flex-direction: column;`. Dersom vi ønsker å h
 | order           | Settes på flex items. Et tall som påvirker rekkefølgen til itemet. Standard er `order: 0;` |
 
 
-
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/kunnskap/midtstille-innhold/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
-
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/kunnskap/midtstille-innhold/#midtstille-innhold" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
 # Midtstille innhold
-Å midtstille en `div` eller annet innhold i både vertikal og horisontal retning gjøres på følgende måte:
-1. Bruk `display:flex;` på forelderen til elementet du ønsker å midtstille
+
+
+Å midtstille en `div` eller annet innhold i både vertikal og horisontal retning gjøres på følgende måte: 1. Bruk `display:flex;` på forelderen til elementet du ønsker å midtstille
 2. Bruk deretter `justify-content: center;` og `align-items: center;` for å midtstille innholdet langs begge akser.
 
 <div style="height:4rem; background-color: purple; display:flex; justify-content: center; align-items:center;"><div style="background-color: hotpink">This text is centered</div></div>
@@ -85,6 +90,7 @@ Vi kan bytte akse ved å bruke `flex-direction: column;`. Dersom vi ønsker å h
 
 ![Meme som viser Boromir fra Ringenes Herre som sier "One does not simply center a div"](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*rf4QAy4yYPdfuLsZ7NrHZA.jpeg)
 
+![](https://i.imgur.com/Wy5c2Kb.jpeg)
 >[!quote]- ChatGPT forklarer hvorfor det var vanskelig å midtstille diver
 >Spørsmål: Hvorfor var det så vanskelig å midtstille en div før flexbox?
 >
@@ -108,3 +114,7 @@ Vi kan bytte akse ved å bruke `flex-direction: column;`. Dersom vi ønsker å h
 
 
 </div></div>
+
+
+## Ressurser
+- [Shark Coder om Flexbox](https://sharkcoder.com/layout/flexbox) – en helt super forklaring av FlexBox og alle egenskaper.

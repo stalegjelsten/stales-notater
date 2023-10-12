@@ -48,13 +48,13 @@ For å oppdatere eTiming gjør du følgende:
 	- Hvis man ønsker å få *Fullført* som status i Eventor kan dette løses manuelt i iofres.xml ved å søk/erstatt NotCompeting med Finished. Eks: `gsed -i 's/NotCompeting/Finished/' iofres.xml`
 
 ## Related
-- [[Orientering/LiveRes for etiming\|LiveRes for etiming]]
 - [[Orientering/Importere påmeldinger fra Excel i eTiming\|Importere påmeldinger fra Excel i eTiming]]
+- [[Orientering/etiming kurs\|etiming kurs]]
 - [[Orientering/eTiming\|eTiming]]
 - [[Orientering/eTiming til sommercup\|eTiming til sommercup]]
 - [[Orientering/eTiming til Agderkarusell\|eTiming til Agderkarusell]]
-- [[Orientering/etiming kurs\|etiming kurs]]
 - [[Orientering/eTiming med gafling\|eTiming med gafling]]
 - [[Orientering/eTiming database\|eTiming database]]
+- [[Orientering/LiveRes for etiming\|LiveRes for etiming]]
 
 { .block-language-dataview}
