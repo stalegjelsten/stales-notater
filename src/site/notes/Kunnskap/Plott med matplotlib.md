@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Plott med matplotlib/","title":"Fine plott med matplotlib","tags":["python","it"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Plott med matplotlib/","title":"Plott med matplotlib","tags":["python","it","uferdig"]}
 ---
 
 
@@ -19,27 +19,19 @@ Du kan installere Matplotlib i gjennom [Mu](https://codewith.mu) ved å gå til 
 
 Bruker du en annen tekstbehandler så installerer du Matplotlib på samme måte som du installerer andre pakker – for eksempel med `pip install matplotlib` eller `conda install matplotlib`
 
-## Grunnleggende bruk
+## Bruk matplotlib til å lage graf
 
-### Bruk subplots
-Det finnes flere måter å opprette et plott på. Den moderne måten å gjøre dette er ved hjelp av subplots.
+Det finnes flere måter å opprette et plott på. Den enkleste moderne måten å gjøre dette er ved hjelp av `subplots`.
 
 ```python
 import matplotlib.pyplot as plt
 fig, ax = plt.subplots()
 ```
 
-Nå vil variabelen `fig` være tilordnet et `Figure`-objekt, mens `ax` er tilordnet et plott eller koordinatsystem. Hvis du vil ha flere plott på den samme figuren så gir du argumenter til `subplots`. Hvis du ønsker å ha 2 rader med 3 plott i hver rad kan du skrive
+Nå vil variabelen `fig` være tilordnet et `Figure`-objekt, mens `ax` er tilordnet et koordinatsystemobjekt. 
+- Vi kan bruke metoder på `fig` for å endre på egenskaper for hele figuren. `fig.set_size_inches(6,4)` vil gjøre figuren 6 tommer bred og 4 tommer høy. Det er spesielt nyttig å endre på hele figuren dersom vi har [[Kunnskap/Plott med matplotlib#Lag flere subplots i samme figur\|flere enn ett plott i figuren]].
 
-```python
-fig, ax = plt.subplots(2,3)
-```
-
-Nå kan vi bruke metoder på `fig` for å endre på egenskaper for hele figuren. `fig.set_size_inches(6,4)` vil gjøre figuren 5 tommer bred og 3 tommer høy. Hvis vi har laget seks ulike subplott så vil hvert av dem være omtrent 2 $\times$ 2 tommer store.
-
-I resten av dette kapittelet kommer vi til å ha ett enkelt plott i en figur slik vi får av `fig, ax = plt.subplots()`.
-
-#### Plott data med ax.plot()
+### Plott data med ax.plot()
 Vi ønsker å vise noen data i plottet vårt. Matplotlib har mange ulike typer diagrammer og grafer innebygd. Den vanligste graftypen er linjediagrammet som er tilgjengelig med `ax.plot()`. Metoden trenger som et minimum argumentene `x` og `y`. Dette skal være to lister eller arrays med data. Listene må være like lange.
 
 ```python
@@ -876,13 +868,24 @@ Eksempelet ovenfor lager en [[Numpy\|Numpy]] array med 100 `x`-verdier mellom 0 
 
 I dette plottet har jeg også lagt inn en forklaringsboks med `ax.legend()` og en tittel på diagrammet med `ax.set_title()`. Merk at jeg har brukt `$$` rundt matematikk. All tekst som står mellom dollartegnene blir tolket som [LaTeX](https://www.mn.uio.no/ifi/tjenester/it/hjelp/latex/latex-for-nybegynnere.pdf). Til slutt er det viktig å gi beskjed om at plottet skal vises på skjermen med `fig.show()`. Du kan eventuelt lagre figuren med `fig.savefig("")`.
 
-#### Sett egenskaper ved subplottet
+### Sett egenskaper ved subplottet
 Vi har allerede endret tittelen til subplottet med `ax.set_title()`. Vi kan også endre mange andre egenskaper ved subplottet. De viktigste egenskapene er:
 - `ax.set_xlim(0, 3)` sier at `x`-verdiene som skal vises er mellom 0 og 3
 - `ax.set_ylim(-2, 3)` sier at `y`-verdiene som skal vises er mellom -2 og 3
+- `ax.set_xlabel("Navn på x-akse")` setter navnet som skal vises langs $x$-aksen. 
+- `ax.set_ylabel("Navn på y-akse")` setter navnet som skal vises langs $y$-aksen. 
 - `ax.grid()` gir et rutenett i bakgrunnen
 
 ## Tips
+
+### Lag flere subplots i samme figur
+Hvis du vil ha flere plott på den samme figuren så gir du argumenter til `subplots`. Hvis du ønsker å ha 2 rader med 3 plott i hver rad kan du skrive:
+
+```python
+fig, ax = plt.subplots(2,3)
+```
+
+`ax` er nå en liste med 6 koordinatsystemobjekter. For å plotte noe i øverste venstre koordinatsystem så bruker du `ax[0].plot(x_verdier, y_verdier)` og for å plotte til det nedre, midterste koordinatsystemet så skriver du `ax[4].plot(x_verdier, y_verdier)`.
 
 ### Lag fine plott med koordinatakser med piler
 I lærebøker så er det vanlig at koordinataksene skjærer i origo og er merket med piler i positiv retning. Du kan få denne stilen ved å følge [dette eksempelet](https://matplotlib.org/3.3.4/gallery/recipes/centered_spines_with_arrows.html).
