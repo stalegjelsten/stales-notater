@@ -3059,6 +3059,6 @@ z
 
 
 ## Related
-[[Kunnskap/Frekvensmodulasjon\|Frekvensmodulasjon]]
+[[Kunnskap/Amplitudemodulasjon\|Amplitudemodulasjon]]
 [[Radiobølger\|Radiobølger]]
 [[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]
