@@ -43,7 +43,8 @@ $$
 f(x)=\frac{1}{x}
 $$
 
-- Skrive formler over flere linjer med pen justering, se figur \ref{fig:formeljustering}:
+![Formeljustering i Word](/img/user/Kunnskap/formeljustering-i-word.png)
+- Skrive formler over flere linjer med pen justering, se figuren over.
 	- Legg inn den første linja som en frittstående formel. Lag en ny formel direkte nedenfor ved å trykke <kbd>Shift</kbd> <kbd>Enter</kbd> og skrive inn den nye formelen.
 	- Trykk så høyre musetast ved punktet som du vil justere etter (som oftest ved likhetstegnet) og `Formeljustering`. Gjenta dette på hver eneste linje.
 - Store parenteser (bl.a. nyttig hvis du skal nøste flere parenteser) `\left[ x^2 \right]_0^4` gir $\left[ x^2 \right]_0^4$ og `\left( (x^(m^n))/(2) \right)^p` gir $\left( \frac{(x^{m^n}}{2} \right)^p$
@@ -57,6 +58,3 @@ x^2 &x<3\\
 2x+3 &x\geq 3
 \end{dcases}
 $$
-
-
-![Formeljustering i Word](/img/user/Kunnskap/formeljustering-i-word.png){#fig:formeljustering width=45%}
