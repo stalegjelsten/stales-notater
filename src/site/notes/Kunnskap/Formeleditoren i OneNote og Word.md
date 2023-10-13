@@ -39,7 +39,7 @@ I formeleditoren kan du finne de fleste matematiske symbolene i verktøylinja i 
 	- Innebygde formler passer i løpende tekst slik som $f(x)=\frac{1}{x}$, men brøker og lignende kan bli veldig små.
 	- Frittstående formler ser penere ut, men de må stå på egne linjer, slik som:
  
-	 $$
+$$
 f(x)=\frac{1}{x}
 $$
 
@@ -47,9 +47,10 @@ $$
 	- Legg inn den første linja som en frittstående formel. Lag en ny formel direkte nedenfor ved å trykke <kbd>Shift</kbd> <kbd>Enter</kbd> og skrive inn den nye formelen.
 	- Trykk så høyre musetast ved punktet som du vil justere etter (som oftest ved likhetstegnet) og `Formeljustering`. Gjenta dette på hver eneste linje.
 - Store parenteser (bl.a. nyttig hvis du skal nøste flere parenteser) `\left[ x^2 \right]_0^4` gir $\left[ x^2 \right]_0^4$ og `\left( (x^(m^n))/(2) \right)^p` gir $\left( \frac{(x^{m^n}}{2} \right)^p$
-- Delt funksjonsuttrykk: `f(x)=\cases(x^2 & x<3 @ 2x+3 & x>=3)` og mellomrom gir følgende utskrift (etter å ha lagt til passende mellomrom)
+- Delt funksjonsuttrykk: `f(x)=\cases(x^2 & x<3 @ 2x+3 & x>=3)` og mellomrom gir utskriften under (etter å ha lagt til passende mellomrom).
+	- `&` bestemmer hvilket tegn linjene skal justeres etter. Her justeres linjene ved mellomrommet mellom funksjonsuttrykket og definisjonsområdet. `@` angir linjeskift.
 
- $$
+$$
 f(x)=
 \begin{dcases}
 x^2 &x<3\\
@@ -57,6 +58,5 @@ x^2 &x<3\\
 \end{dcases}
 $$
 
-	- `&` bestemmer hvilket tegn linjene skal justeres etter. Her justeres linjene ved mellomrommet mellom funksjonsuttrykket og definisjonsområdet. `@` angir linjeskift.
 
 ![Formeljustering i Word](/img/user/Kunnskap/formeljustering-i-word.png){#fig:formeljustering width=45%}
