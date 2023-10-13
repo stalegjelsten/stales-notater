@@ -829,3 +829,23 @@ x\cdot (\ln x)' &= 1 \\
 (\ln x)' &= \frac{1}{x} && {\mathbb{Q.E.D.}} \\
 \end{aligned}
 $$
+
+## Den integrerte av ln x
+
+$$
+\int \ln(x) \, \mathrm{d}x = x(\ln(x)-1)+C
+$$
+
+### Bevis
+Det er ikke så lett å integrere $\ln (x)$, du er nødt til å bruke et triks og delvis integrasjon.
+
+La $f(x)=\ln (x)$. Ved å sette $\ln (x)=1\cdot \ln (x)$ så kan vi bruke delvis integrasjon
+
+$$
+\int \ln (x) \, \mathrm{d}x \\
+=\int 1\cdot \ln (x) \, \mathrm{d}x =x\cdot \ln (x)-\int x\cdot \frac{1}{x} \, \mathrm{d}x 
+$$
+Vi trekker sammen og får
+$$
+x\cdot\ln (x)-\int 1 \, \mathrm{d}x =x \cdot\ln (x)-x+C=x(\ln(x)-1)+C
+$$
