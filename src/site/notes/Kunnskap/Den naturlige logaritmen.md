@@ -15,10 +15,8 @@ Den naturlige logaritmen $\ln x$ er den [[Inverse funksjoner\|inverse funksjonen
 > Definisjonsmengden er dermed alle positive tall: $D_{f} = \langle 0, \infty \rangle = \{x \mid x > 0\}$.
 > Verdimengden er alle reelle tall: $V_{f}= \langle -\infty, \infty\rangle =\{x \mid x\in\mathbb{R}\}$.
 
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="360pt" height="216pt" viewBox="0 0 360 216" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+<svg xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 360 216" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
@@ -802,7 +800,13 @@ plot(log(x),1/x, [-1,4],[-4,2])==?
 ```
 
 ## Den deriverte av ln x
-Den deriverte av $\ln x$ er $\frac{1}{x}$. Merk at selv om $g(x)=\frac{1}{x}$ er definert for $x\in \mathbb{R} \setminus 0$ så er den deriverte av logaritmefunksjonen kun definert for $x>0$. Siden $f(x)=\ln x$ har definisjonsmengde $\{ x \mid x>0 \}$ så kan ikke den deriverte ha noe *større* definisjonsmengde enn dette. Det gir ikke mening å snakke om vekstfarten til $f$ i $x=-2$ siden $f(-2)$ ikke eksisterer.
+$$
+\big( \ln (x) \big) '=\frac{1}{x}
+$$
+
+Merk at selv om $g(x)=\frac{1}{x}$ er definert for $x\in \mathbb{R} \setminus 0$ så er den deriverte av logaritmefunksjonen kun definert for $x>0$. 
+
+Funksjonen $f(x)=\ln x$ har definisjonsmengde $\{ x \mid x>0 \}$. Derfor kan ikke den deriverte ha noe *større* definisjonsmengde enn dette. For å derivere en funksjon så den være kontinuerlig i punktet. Det gir ikke mening å snakke om vekstfarten til $f$ i $x=-2$ siden $f(-2)$ ikke eksisterer.
 
 >[!important] Beviset for $(\ln x)'=\frac{1}{x}$
 >Vi vet at
@@ -836,16 +840,11 @@ $$
 \int \ln(x) \, \mathrm{d}x = x(\ln(x)-1)+C
 $$
 
-### Bevis
-Det er ikke så lett å integrere $\ln (x)$, du er nødt til å bruke et triks og delvis integrasjon.
-
-La $f(x)=\ln (x)$. Ved å sette $\ln (x)=1\cdot \ln (x)$ så kan vi bruke delvis integrasjon
-
-$$
-\int \ln (x) \, \mathrm{d}x \\
-=\int 1\cdot \ln (x) \, \mathrm{d}x =x\cdot \ln (x)-\int x\cdot \frac{1}{x} \, \mathrm{d}x 
-$$
-Vi trekker sammen og får
-$$
-x\cdot\ln (x)-\int 1 \, \mathrm{d}x =x \cdot\ln (x)-x+C=x(\ln(x)-1)+C
-$$
+> [!tip] Bevis for integralet
+> Det er ikke så lett å integrere $\ln (x)$, du er nødt til å bruke et triks og delvis integrasjon.
+>
+> La $f(x)=\ln (x)$. Ved å sette $\ln (x)=1\cdot \ln (x)$ så kan vi bruke delvis integrasjon
+>
+> $$ \int \ln (x) \, \mathrm{d}x =\int 1\cdot \ln (x) \, \mathrm{d}x =x\cdot \ln (x)-\int x\cdot \frac{1}{x} \, \mathrm{d}x $$
+> Vi trekker sammen og får
+> $$ x\cdot\ln (x)-\int 1 \, \mathrm{d}x =x \cdot\ln (x)-x+C=x(\ln(x)-1)+C $$
