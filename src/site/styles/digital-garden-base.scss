@@ -320,7 +320,7 @@ ul.task-list {
             display: none;
         }
 
-        .search-button {
+        #search-button {
             width: 100%;
             margin: 2px;
         }
@@ -336,7 +336,7 @@ ul.task-list {
         justify-content: center;
     }
 
-    .search-button {
+    #search-button {
         margin: 10px 65px 10px 65px;
     }
 }
@@ -369,7 +369,7 @@ ul.task-list {
         cursor: pointer;
     }
 
-    .search-button {
+    #search-button {
         @media (max-width: 800px) {
             min-width: 36px;
             margin: 10px 25px 10px 25px;
@@ -514,7 +514,7 @@ ul.task-list {
     font-size: 1.4rem;
 }
 
-.search-button {
+#search-button {
     background-color: var(--background-primary);
     border-radius: 20px;
     height: 2em;
