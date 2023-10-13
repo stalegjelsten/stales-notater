@@ -861,12 +861,12 @@ L 86.6 69.248562
 
 Eksempelet ovenfor lager en [[Numpy\|Numpy]] array med 100 `x`-verdier mellom 0 og 3. Deretter lager den to nye arrays `y1` og `y2` som vil inneholde funksjonsverdiene til $x^{2}$ og $2x$ for $x \in [0,3]$. 
 
-`ax.plot()` kan ta inn mange flere argumenter. Du finner en full oversikt i [dokumentasjonen](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.plot.html). I eksempelet har jeg for eksempel brukt 
+`ax.plot()` kan ta inn mange flere argumenter enn hva jeg brukte ovenfor. Du finner en full oversikt i [dokumentasjonen](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.plot.html). I eksempelet mitt brukte jeg 
 - `c` som definerer fargen på grafen.
 - `linestyle` som definerer hvordan linja mellom punktene skal tegnes.
 - `label` som definerer hvilket navn som skal stå i forklaringsboksen.
 
-I dette plottet har jeg også lagt inn en forklaringsboks med `ax.legend()` og en tittel på diagrammet med `ax.set_title()`. Merk at jeg har brukt `$$` rundt matematikk. All tekst som står mellom dollartegnene blir tolket som [LaTeX](https://www.mn.uio.no/ifi/tjenester/it/hjelp/latex/latex-for-nybegynnere.pdf). Til slutt er det viktig å gi beskjed om at plottet skal vises på skjermen med `fig.show()`. Du kan eventuelt lagre figuren med `fig.savefig("")`.
+I dette plottet har jeg også lagt inn en forklaringsboks med `ax.legend()` og en tittel på diagrammet med `ax.set_title()`.[^1] Til slutt er det viktig å gi beskjed om at plottet skal vises på skjermen med `fig.show()`. Du kan eventuelt lagre figuren med `fig.savefig("")`.
 
 ### Sett egenskaper ved subplottet
 Vi har allerede endret tittelen til subplottet med `ax.set_title()`. Vi kan også endre mange andre egenskaper ved subplottet. De viktigste egenskapene er:
@@ -900,3 +900,5 @@ plt.style.use('default')
 ```
 
 Jeg liker `ggplot`. For bruk på sider med mørk bakgrunn bruker jeg gjerne `dark_background` og lagrer figurene mine med `fig.savefig("filnavn.svg", transparent=True)`. Da vil bakgrunnen være gjennomsiktig, men grafene får farger som fungerer fint på mørke bakgrunner.
+
+[^1]: Jeg har valgt å bruke `$$` rundt matematikk i forklaringstekster og titler. All tekst som står mellom dollartegnene blir tolket som [LaTeX](https://www.mn.uio.no/ifi/tjenester/it/hjelp/latex/latex-for-nybegynnere.pdf). Det gir et profesjonelt og flott utseende.
