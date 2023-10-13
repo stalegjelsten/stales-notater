@@ -29,7 +29,12 @@ fig, ax = plt.subplots()
 ```
 
 Nå vil variabelen `fig` være tilordnet et `Figure`-objekt, mens `ax` er tilordnet et koordinatsystemobjekt. 
-- Vi kan bruke metoder på `fig` for å endre på egenskaper for hele figuren. `fig.set_size_inches(6,4)` vil gjøre figuren 6 tommer bred og 4 tommer høy. Det er spesielt nyttig å endre på hele figuren dersom vi har [[Kunnskap/Plott med matplotlib#Lag flere subplots i samme figur\|flere enn ett plott i figuren]].
+
+>[!tip] Hva er `fig`?
+>Tenk på `fig` som lerretet som du tegner grafene oppå. Vi bruker metoder på `fig` hver gang vi ønsker å gjøre noe med lerretet.
+>
+> - `fig.set_size_inches(6,4)` vil gjøre figuren/lerretet 6 tommer bred og 4 tommer høy. 
+> - Når vi vil vise eller lagre alle grafene våre så bruker vi metodene `fig.show()` eller `fig.savefig("filnavn.svg")`.
 
 ### Lag linjediagram med ax.plot()
 Vi ønsker å vise noen data i plottet vårt. Matplotlib har mange ulike typer diagrammer og grafer innebygd. Den vanligste graftypen er linjediagrammet som er tilgjengelig med `ax.plot()`. Metoden trenger som et minimum argumentene `x` og `y`. Dette skal være to lister eller arrays med data. Listene må være like lange.
@@ -866,7 +871,7 @@ Eksempelet ovenfor lager en [[Numpy\|Numpy]] array med 100 `x`-verdier mellom 0 
 - `linestyle` som definerer hvordan linja mellom punktene skal tegnes.
 - `label` som definerer hvilket navn som skal stå i forklaringsboksen.
 
-I dette plottet har jeg også lagt inn en forklaringsboks med `ax.legend()` og en tittel på diagrammet med `ax.set_title()`.[^1] Til slutt er det viktig å gi beskjed om at plottet skal vises på skjermen med `fig.show()`. Du kan eventuelt lagre figuren med `fig.savefig("")`.
+I dette plottet har jeg også lagt inn en forklaringsboks med `ax.legend()` og en tittel på diagrammet med `ax.set_title()`.[^1] Til slutt er det viktig å gi beskjed om at plottet skal vises på skjermen med `fig.show()`. Du kan eventuelt lagre figuren med `fig.savefig("filnavn.svg")` eller `plt.savefig("filnavn.png")`.
 
 ### Sett egenskaper ved subplottet
 Vi har allerede endret tittelen til subplottet med `ax.set_title()`. Vi kan også endre mange andre egenskaper ved subplottet. De viktigste egenskapene er:
@@ -2409,6 +2414,7 @@ Jeg brukte følgende parametere på `ax.hist()`:
 - `edgecolor="white"` gjør at vi får en flott hvit kantlinje på søylene
 
 >[!todo] Legg til et enklere eksempel på histogram uten å bruke scipy
+
 ## Tips
 
 ### Lag flere subplots i samme figur
