@@ -9,7 +9,9 @@
 Du lager en `flexbox` ved å skrive `display: flex;` i CSS-koden til HTML elementet. Alle elementer inni flexboxen blir automatisk `flex items`.
 
 >[!tip] Flexbox vs grid
-> Flexbox er svært god egnet for mindre layouter. Hvis du skal lage en layout for en hel nettside kan [[Grid\|Grid]] være bedre egnet.
+> Flexbox er svært god egnet for mindre layouter. Hvis du skal lage en layout for en hel nettside kan [[Kunnskap/Grid\|Grid]] være bedre egnet.
+>
+> Flexbox er også mye bedre egnet hvis du bare skal justere layout langs én akse.
 
 ## Eksempler
 Eksempelet under er bygget opp av en hoved`div` (flexboxen) med blå farge. Inne i flexboxen ligger det 4 nye diver, som blir *flex items* til flexboxen. Se CSS-koden lenger nede.
