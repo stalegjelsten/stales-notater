@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Dokumenter/IT1 øveprøver HTML og CSS/","title":"IT1 øveprøver HTML og CSS","tags":[null]}
+{"dg-publish":true,"permalink":"/Publisert/IT1 øveprøver HTML og CSS/","title":"IT1 øveprøver HTML og CSS","tags":[null]}
 ---
 
 
