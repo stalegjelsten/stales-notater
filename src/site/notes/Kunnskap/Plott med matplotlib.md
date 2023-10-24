@@ -34,7 +34,7 @@ Nå vil variabelen `fig` være tilordnet et `Figure`-objekt, mens `ax` er tilord
 >Tenk på `fig` som lerretet som du tegner grafene oppå. Vi bruker metoder på `fig` hver gang vi ønsker å gjøre noe med lerretet.
 >
 > - `fig.set_size_inches(6,4)` vil gjøre figuren/lerretet 6 tommer bred og 4 tommer høy. 
-> - Når vi vil vise eller lagre alle grafene våre så bruker vi metodene `fig.show()` eller `fig.savefig("filnavn.svg")`.
+> - Når vi skal lagre alle grafene våre så bruker vi metoden `fig.savefig("filnavn.svg")`.
 
 ### Lag linjediagram med ax.plot()
 Vi ønsker å vise noen data i plottet vårt. Matplotlib har mange ulike typer diagrammer og grafer innebygd. Den vanligste graftypen er linjediagrammet som er tilgjengelig med `ax.plot()`. Metoden trenger som et minimum argumentene `x` og `y`. Dette skal være to lister eller arrays med data. Listene må være like lange.
@@ -51,7 +51,7 @@ ax.plot(x, y1, c="blue", label="$x^2$")
 ax.plot(x, y2, c="red", linestyle="dashed", label="$2x$")
 ax.legend()
 ax.set_title("$x^2$ og $2x$")
-fig.show()
+plt.show()
 ```
 
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 460.8 345.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -896,7 +896,7 @@ ax.bar(frukter, antall)
 
 ax.set_ylabel('Antall frukter')
 ax.set_title('Salg av ulike frukter')
-fig.show()
+plt.show()
 ```
 
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 460.8 345.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -1822,7 +1822,7 @@ X = binom.rvs(100, 0.3, size=N)
 
 antall_stolper = 10     # antall stolper i histogrammet
 ax.hist(X, bins=antall_stolper, density=True, edgecolor='white')
-fig.show()
+plt.show()
 ```
 
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 460.8 345.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -2424,7 +2424,10 @@ Hvis du vil ha flere plott på den samme figuren så gir du argumenter til `subp
 fig, ax = plt.subplots(2,3)
 ```
 
-`ax` er nå en liste med 6 koordinatsystemobjekter. For å plotte noe i øverste venstre koordinatsystem så bruker du `ax[0].plot(x_verdier, y_verdier)` og for å plotte til det nedre, midterste koordinatsystemet så skriver du `ax[4].plot(x_verdier, y_verdier)`.
+`ax` er nå en nøstet liste med 2 $\times$ 3 koordinatsystemobjekter ordnet på denne måten:
+`[ [plott1, plott2, plott3], [plott4, plott5, plott6] ]`.
+
+For å plotte noe i øverste venstre koordinatsystem (her kalt `plott1`) så bruker du `ax[0, 0].plot(x_verdier, y_verdier)` og for å plotte til det nedre, midterste koordinatsystemet (her kalt `plott5`) så skriver du `ax[1, 1].plot(x_verdier, y_verdier)`.
 
 ### Lag fine plott med koordinatakser med piler
 I lærebøker så er det vanlig at koordinataksene skjærer i origo og er merket med piler i positiv retning. Du kan få denne stilen ved å følge [dette eksempelet](https://matplotlib.org/3.3.4/gallery/recipes/centered_spines_with_arrows.html).
