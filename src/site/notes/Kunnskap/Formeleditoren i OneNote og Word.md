@@ -20,7 +20,7 @@ I formeleditoren kan du finne de fleste matematiske symbolene i verktøylinja i 
 - Bestemt integral: `\int_a^b f(x) dx` gir $\int_{a}^{b} f(x) \, dx$
 - Sum: `\sum_(i=1)^n f(x_i) \cdot \Delta x` gir $\sum_{i=1}^n f(x_i) \cdot \Delta x$
 - Greske bokstaver: `\Delta \Phi \theta \rho \mu` gir $\Delta \Phi \theta \rho \mu$
-- Tavle-fet skrift som tallmengder ($\mathbb{R}$): `\DoubleR`
+- Tavle-fet skrift som tallmengder ($\mathbb{R}$): `\doubleR`
 - Mengdeoperatorer:
 	- $\in$ `\in`
 	- $\langle$ og $\rangle$ `\langle` og `\rangle`

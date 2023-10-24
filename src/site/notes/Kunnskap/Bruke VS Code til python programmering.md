@@ -10,6 +10,7 @@ I matematikkfagene (og kanskje andre realfag) skal du programmere i programmerin
 - De ulike delene av koden din blir farget for å gi bedre oversikt
 - En mye bedre *debugger* for å finne feil i koden
 - Du kan skrive Pythonkode i [Jupyter notebooks](https://jupyter.org/). Dette lar deg skrive tekst, matematikk, HTML-kode og Pythonkode i samme dokument. Det lar deg også dele opp koden i ulike blokker som kan kjøres uavhengig av hverandre.
+- Du kan dele opp en pythonfil i ulike deler og kjøre hver enkelt del separat
 
 ## Oppsett
 For å kunne bruke Python i VS Code så må du først installere Python på datamaskinen din. Da du installerte Mu så ble det allerede installert en Python-versjon, men denne er ofte utdatert. 
@@ -32,9 +33,9 @@ For å installere Anaconda går du til [anaconda.com/download](https://www.anaco
 2. Velg *Open folder*. Velg en mappe som inneholder pythonfiler.
 3. Åpne en av pythonfilene. 
 4. Hvis teksten *Select interpreter* kommer opp, så velger du den linja som enten inneholder teksten `conda` (hvis du installerte Anaconda) eller `(microsoft store)`. I mitt tilfelle heter den `★ Python 3.11.5 64-bit (microsoft store)`.
-5. Hvis ikke *Select interpreter* dukker opp så kan du skrive inn kommandoen `Python: Select interpreter` i kommandolinja (<kbd>Ctrl</kbd> <kbd>↑Shift</kbd> <kbd>P</kbd>)
+5. Hvis ikke *Select interpreter* dukker opp så kan du skrive inn kommandoen `Python: Select interpreter` i kommandolinja (<kbd>Ctrl</kbd> <kbd>⇧ Shift</kbd> <kbd>P</kbd>)
 
 Nå skal du være klar til å bruke Python i Visual Studio code. 
 
-## Kjøre pythonfil i VS coce
+## Kjøre pythonfil i VS code
 For å kjøre pythonkode så er du nødt til å lagre fila (<kbd>Ctrl</kbd> <kbd>S</kbd>). Trykk deretter på play-symbolet (▷) i øvre høyre del av skjermen.
