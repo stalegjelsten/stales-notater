@@ -69,7 +69,7 @@ Igjen – dette er en elendig oppgave. Relativ em er bredden av bokstaven `m` ve
 [[Kunnskap/Enheter og størrelser i CSS#vh\|Enheter og størrelser i CSS#vh]]
 
 ### Oppgave 6
-Jeg tolker oppgaven som at jeg selv kan velge layout på periodesystemet. Jeg velger et horisontalt system med `flexbox` og setter en minimums-bredde slik at periodesystemet går over flere rader dersom vi ser på det i en smal nettleser. Her er det selvsagt svært mange løsninger som vil gi full uttelling. (Og ja, jeg vet at dere ikke har lært `repeat(auto-fill, størrelse)` som jeg brukte her)
+Jeg tolker oppgaven som at jeg selv kan velge layout på periodesystemet. Jeg velger et horisontalt system med `flexbox` og setter en minimums-bredde slik at periodesystemet går over flere rader dersom vi ser på det i en smal nettleser. Her er det selvsagt svært mange løsninger som vil gi full uttelling. (Og ja, jeg vet at dere ikke har lært `repeat(auto-fit, størrelse)` som jeg brukte her)
 
 <p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="XWOJyWR" data-editable="true" data-user="stalegjelsten" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 	<span>See the Pen <a href="https://codepen.io/stalegjelsten/pen/XWOJyWR">
