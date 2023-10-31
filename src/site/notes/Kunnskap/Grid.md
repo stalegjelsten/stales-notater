@@ -47,3 +47,5 @@ I tillegg har jeg definert tre kolonner med verdiene `repeat(2, 1fr) 2fr`. Det b
 - `2fr` gir en tredje kolonne med bredde 2fr
 
 `fr` er en brøkverdi som forteller hvor stor andel av den totale bredden kolonnene skal oppta. I vårt tilfelle har vi til sammen $1+1+2=4$ fr. Det betyr at 1fr tilsvarer 25% av bredden. Den siste kolonnen er `2fr`, eller 50% av bredden.
+
+## Grid som lager så mange kolonner som mulig
