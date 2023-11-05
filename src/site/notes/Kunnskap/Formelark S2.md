@@ -89,18 +89,29 @@ $$f'(x) = \lim_{\Delta x \to 0}\frac{f(x + \Delta x) - f(x)}{\Delta x}$$
 
 Den deriverte i et punkt er lik den momentane vekstfarten i punktet og dermed også lik stigningstallet til tangenten til $f$ i punktet.
 
-| Forklaring        | Formel                          | Eksempel                                                 |
-| ----------------- | ------------------------------- | -------------------------------------------------------- |
-| Konstant funksjon | $$f(x) = k$$                    | $$f'(x) = 0$$                                         |
-| Potensfunksjon    | $$f(x) = x^{r}$$                | $$f'(x) = r \cdot x^{r - 1}$$                         |
-| Konstante koeff.  | $$f(x) = k \cdot g(x)$$         | $$f'(x) = k \cdot g'(x)$$                          |
-| Summer            | $$f(x) = g(x) \pm h(x)$$        | $$f'(x) = g^{'(x)} \pm h'(x)$$                     |
-| Produkt           | $$f(x) = u(x) \cdot v(x)$$      | $$f'(x) = u'(x) \cdot v(x) + u(x) \cdot v'(x)$$ |
-| Kvotienter        | $$f(x) = \frac{u(x)}{v(x)}$$    | $$f'(x) = \frac{u'v - uv'}{v^{2}}$$             |
-| Eksponentialfunk  | $$f(x) = e^{x}$$                | $$f'(x) = e^{x}$$                                     |
-| Eksponentialfunk  | $$f(x) = a^{x}$$                | $$f'(x) = a^{x}\ln x$$                                |
-| Logaritme         | $$f(x) = \ln x$$                | $$f'(x) = \frac{1}{x}$$                               |
-| Kjerneregelen     | $$f(x) = g\left( u(x) \right)$$ | $$f'(x) = g'(u) \cdot u'(x)$$                   |
+| Forklaring        | Funksjon                          | Derivert               |
+| ----------------- | :-------------------------------: | :--------------------------: |
+| Konstant funksjon | $$k$$                    | $$0$$                                   |
+| Potensfunksjon    | $$x^{r}$$                | $$r \cdot x^{r - 1}$$                   |
+| Konstante koeff.  | $$k \cdot g(x)$$         | $$k \cdot g'(x)$$                       |
+| Summer            | $$g(x) \pm h(x)$$        | $$g'(x) \pm h'(x)$$                     |
+| Produkt           | $$u(x) \cdot v(x)$$      | $$u'(x) \cdot v(x) + u(x) \cdot v'(x)$$ |
+| Kvotienter        | $$\frac{u(x)}{v(x)}$$    | $$\frac{u'v - uv'}{v^{2}}$$             |
+| Eksponentialfunk  | $$e^{x}$$                | $$e^{x}$$                               |
+| Eksponentialfunk  | $$a^{x}$$                | $$a^{x}\ln x$$                          |
+| Logaritme         | $$\ln x$$                | $$\frac{1}{x}$$                         |
+| Kjerneregelen     | $$g\left( u(x) \right)$$ | $$g'(u) \cdot u'(x)$$                   |
+
+Huskeregel kjerneregelen: Multipliser den deriverte av den ytre funksjonen med den deriverte av kjernen.
+
+### Den deriverte av ln x
+$$
+\big( \ln (x) \big) '=\frac{1}{x}
+$$
+
+Merk at selv om $g(x)=\frac{1}{x}$ er definert for $x\in \mathbb{R} \setminus 0$ så er den deriverte av logaritmefunksjonen kun definert for $x>0$. 
+
+Funksjonen $f(x)=\ln x$ har definisjonsmengde $D_{f} = \langle 0, \to \rangle$. Derfor kan ikke den deriverte ha noe *større* definisjonsmengde enn dette. For å derivere en funksjon så den være kontinuerlig i punktet. Det gir ikke mening å snakke om vekstfarten til $f$ i $x=-2$ siden $f(-2)$ ikke eksisterer.
 
 ## Økonomi
 Her lar vi $I(x)$ være inntektene ved salg av $x$ enheter og $K(x)$ være produksjonskostnadene ved produksjon av $x$ enheter. Overskuddet $O(x)$ er da gitt ved
@@ -111,7 +122,7 @@ $$
 ### Grenseinntekt og grensekostnad
 Grenseinntekten $I'(x)$ er den deriverte av inntektsfunksjonen. Grenseinntekten $I'(x)$ forteller oss omtrent hvor mye vi tjener på å selge én mer enhet.
 
-Grensekostnaden $K'(x)$ er den deriverte av kostnadsfunksjonen. Grensekostnaden $K′(x)$ forteller oss omtrent hvor mye det koster å produsere én mer enhet.
+Grensekostnaden $K'(x)$ er den deriverte av kostnadsfunksjonen. Grensekostnaden $K'(x)$ forteller oss omtrent hvor mye det koster å produsere én mer enhet.
 
 ### Maksimalt overskudd
 Vi har maksimalt overskudd når grenseinntekt er lik grensekostnad fordi
@@ -132,12 +143,18 @@ $$
 E(x)=\frac{K(x)}{x}
 $$
 
-#### Laveste enhetskostnader
-Vi har de laveste enhetskostnadene når $E'(x)=0$ og når $K'(x)=E(x)$ fordi
+Vi kan finne de laveste enhetskostnadene på to måter, enten ved å løse $E'(x)=0$ eller ved å løse $K'(x)=E(x)$. Utledningen for den siste formelen er som følger
+
 $$
 \begin{aligned}
 E(x)&=\frac{K(x)}{x}\\
 E'(x)&=\frac{K'(x)\cdot x-K(x)\cdot1}{x^{2}}\\
+\end{aligned}
+$$
+
+Vi setter uttrykket til den deriverte lik siden vi leter etter punkter hvor $E'(x)=0$.
+$$
+\begin{aligned}
 \frac{K'(x)\cdot x-K(x)\cdot1}{x^{2}}&=0\\
 K'(x)\cdot x-K(x)\cdot1&=0\\
 K'(x)\cdot x-K(x)&=0\\
@@ -147,17 +164,15 @@ K'(x)&= E(x)\\
 \end{aligned}
 $$
 
-### Etterspørsel (fra S1)
-Etterspørselen $q$ er en funksjon av prisen $p$ slik at $q(p)$. 
+### Etterspørsel
 
-Etterspørselen er også lik antall solgte enheter $x$ slik at
+> Dette er pensum fra S1 i vårt læreverk. Andre læreverk lærer dette i S2. Jeg tror ikke det er relevant for eksamen, men jeg legger det ved her for sikkerhets skyld.
+
+Etterspørselen $q$ er en funksjon av prisen $p$ slik at $q(p)$. Etterspørselen er også lik antall solgte enheter $x$ slik at
 $$
 x=q(p)
 $$
 
-Inntektene blir $\text{pris} \times \text{antall solgte}$ slik at 
+Inntektene er $\text{pris} \times \text{antall solgte}$ eller $I(x)=p \cdot x$. Hvis vi bytter ut $x$ med $q(p)$ så får vi $I(p)=p\cdot q(p)$
 
-- $I(p)=p\cdot q(p)$
-- $I(x)=p\cdot x$
-
-Kostnadene blir $K(x)=K(q(p))$.
+På samme måte kan vi vise at kostnadene blir $K(x)=K(q(p))$.
