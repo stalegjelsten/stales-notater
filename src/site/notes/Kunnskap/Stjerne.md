@@ -29,6 +29,8 @@ Stjerner er massive himmellegemer som i store deler av sin livssyklus sender ut 
 >Figurkilde: [Hertzsprung-Russell diagram](http://www.atlasoftheuniverse.com/hr.html) av Richard Powell. CC-BY-SA 2.5. 
  Hertzsprung-Russell diagrammet ovenfor viser hvordan de fleste stjerner kan kategoriseres etter temperatur. 
 
+
+Huskeregle for spektralklasser: *Oh, Bee, a fine girl kissed me*
 ### Stjerner på hovedserien
 
 ### Røde kjemper
