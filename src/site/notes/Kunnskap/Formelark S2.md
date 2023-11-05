@@ -3,17 +3,17 @@
 ---
 
 
-## Følger og rekker
+## Følger, rekker og lån
 
 | Forklaring                           | Formel                                   |
 | ------------------------------------ | ---------------------------------------- |
-| Ledd i aritmetisk følge (rekursiv)   | $$a_{n + 1} = a_{n} + d $$               |
-| Ledd i aritmetisk følge (eksplisitt) | $$a_{n} = a_{1} + (n-1)\cdot d $$        |
-| Ledd i geometrisk følge (rekursiv)   | $$a_{n + 1} = a_{n} \cdot k $$           |
-| Ledd i geometrisk følge (eksplisitt) | $$a_{n} = a_{1} \cdot k^{n-1}$$          |
-| Aritmetisk rekke (sum av følge)      | $$s_{n}=\frac{a_{1}+a_{n}}{2}\cdot n$$   |
-| Geometrisk rekke (sum av følge)      | $$s_{n}=a_{1}\cdot \frac{k^{n}-1}{k-1}$$ |
-| Uendelig geometrisk rekke            | $$-1<k<1 \implies s=\frac{a_{1}}{k-1} $$   |
+| Ledd i aritmetisk følge (rekursiv)   | $a_{n + 1} = a_{n} + d$               |
+| Ledd i aritmetisk følge (eksplisitt) | $a_{n} = a_{1} + (n-1)\cdot d$        |
+| Ledd i geometrisk følge (rekursiv)   | $a_{n + 1} = a_{n} \cdot k$           |
+| Ledd i geometrisk følge (eksplisitt) | $a_{n} = a_{1} \cdot k^{n-1}$          |
+| Aritmetisk rekke (sum av følge)      | $s_{n}=\frac{a_{1}+a_{n}}{2}\cdot n$   |
+| Geometrisk rekke (sum av følge)      | $s_{n}=a_{1}\cdot \frac{k^{n}-1}{k-1}$ |
+| Uendelig geometrisk rekke            | $-1<k<1 \implies s=\frac{a_{1}}{k-1}$   |
 
 ### Rekker og konvergens
 Ei rekke konvergerer og har summen $s$ dersom summen $s_{n}$ av $n$ første leddene nærmer seg tallet $s$ når $n \to \infty$. Altså
@@ -25,11 +25,14 @@ $$
 
 ### Nåverdi og lån
 #### Nåverdi
+Nåverdi forteller oss hvor mye et fremtidig (eller fortidig) beløp er verdt i nåtidens penger. Det er vanlig at penger blir mindre og mindre verdt for hvert år siden vi forventer avkastning på investeringene våre.
+
 Nåverdien $N$ til et fremtidig beløp $B$ er gitt ved 
 $$
 N=\frac{B}{v^{n}}
 $$
-Der $v$ er vekstfaktoren til kalkulasjonsrenta og $n$ er antall perioder.
+
+Der $v$ er vekstfaktoren til kalkulasjonsrenta og $n$ er antall perioder. Hvis du vil finne nåverdien til et beløp bakover i tid så velger du en negativ verdi for $n$.
 
 #### Serielån
 Alle avdragene er like store, men rentene minker og derfor minker også terminbeløpene. Nåverdiene av terminebeløpene danner en aritmetisk rekke.
@@ -166,7 +169,7 @@ $$
 
 ### Etterspørsel
 
-> Dette er pensum fra S1 i vårt læreverk. Andre læreverk lærer dette i S2. Jeg tror ikke det er relevant for eksamen, men jeg legger det ved her for sikkerhets skyld.
+> Kommentar fra Ståle: Dette er pensum fra S1 i vårt læreverk. Andre læreverk lærer dette i S2. Jeg tror ikke det er relevant for eksamen, men jeg legger det ved her for sikkerhets skyld.
 
 Etterspørselen $q$ er en funksjon av prisen $p$ slik at $q(p)$. Etterspørselen er også lik antall solgte enheter $x$ slik at
 $$
