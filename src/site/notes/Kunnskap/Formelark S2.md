@@ -4,11 +4,13 @@
 
 
 ## Følger, rekker og lån
+
+### Følger og rekker
 En tallfølge er en ordnet liste med tall: $a_{1}, a_{2}, a_{3}, a_{4}, \dots, a_{n}$
 
 En rekke er summen av tallene i en tallfølge. Delsummen $s_{n}$ av de $n$ første leddene i en følge er gitt ved
 $$
-\sum_{i=1}^n a_{i}=a_{1}+ a_{2}+a_{3}+a_{4}+\dots+a_{n}
+s_{n}=\sum_{i=1}^n a_{i}=a_{1}+ a_{2}+a_{3}+a_{4}+\dots+a_{n}
 $$
 
 | Forklaring                           | Formel                                   |
@@ -24,13 +26,15 @@ $$
 ### Rekker og konvergens
 Ei rekke konvergerer og har summen $s$ dersom summen $s_{n}$ av $n$ første leddene nærmer seg tallet $s$ når $n \to \infty$. Altså
 $$\lim_{n \to \infty}{s_{n} = s}$$
-Geometriske rekker er alltid konvergente når $k \in \left\langle - 1\ ,\ 1 \right\rangle \iff -1<k<1$. Summen av denne typer rekker er gitt ved formelen
+En enkel tommelfingerregel for å sjekke om en rekke konvergerer er å sjekke om leddene går mot 0 når $n\to \infty$. Dersom rekka ikke konvergerer, så *divergerer* den.
+
+**Geometriske rekker** er alltid konvergente når $k \in \left\langle - 1\ ,\ 1 \right\rangle \iff -1<k<1$. Summen av denne typer rekker er gitt ved formelen
 $$
 s=\frac{a_{1}}{k-1}
 $$
 
 ### Programmering av følger og rekker
-Ifølge læreplanen skal dere utforske *rekursive sammenhenger* med programmering. En rekursiv sammenheng vil si at vi alltid bruker ett ledd til å regne ut det neste leddet – for å regne ut $a_{n+1}$ så trenger vi først å ha regnet ut $a_{n}$.
+Ifølge læreplanen skal dere utforske *rekursive sammenhenger* med programmering. En rekursiv sammenheng vil si at vi bruker ett ledd til å regne ut det neste leddet – for å regne ut $a_{n+1}$ så trenger vi først å ha regnet ut $a_{n}$.
 
 #### Ledd i aritmetisk tallfølge
 ```python
@@ -38,13 +42,13 @@ Ifølge læreplanen skal dere utforske *rekursive sammenhenger* med programmerin
 # med a_0 = 0 og d = 2.
 a = 0 
 d = 2
-antall_ledd = 10
-for i in range(1, antall_ledd + 1):
+n = 10
+for i in range(1, n + 1):
 	print(f"a_{i} = {a}")
 	a = a + d
 ```
 
-Ved bruk av `print(f"")` så kan vi blande tekst og variabler. Variablene skriver vi slik `{variabelnavn}`.
+Ved bruk av `print(f"")` så kan vi blande tekst og variabler. Variablene skriver vi med krøllparenteser slik: `{variabelnavn}`.
 
 #### Delsum av geometrisk rekke
 ```python
@@ -53,8 +57,8 @@ Ved bruk av `print(f"")` så kan vi blande tekst og variabler. Variablene skrive
 a = 1 
 k = 1.5
 delsum = a
-antall_ledd = 10
-for i in range(1, antall_ledd + 1):
+n = 10
+for i in range(1, n + 1):
 	print(f"a_{i} = {a:.2f}. s_{i} = {delsum:.2f}")
 	a = a * k
 	delsum = delsum + a
@@ -66,12 +70,13 @@ Vi kan avrunde desimaltall med `{variabelnavn:.2f}` der 2-tallet er antallet des
 
 #### Eksempel med følge som ikke er geometrisk eller aritmetisk
 
-> **Oppgavetekst**: Gitt følgende tallfølge: $1, 3, 4, 8, 15, 27, 50, …$. De 3 første leddene i denne følgen er spesielle. Deretter følger tallene et fast mønster.
+> **Oppgavetekst**: Gitt følgende tallfølge: $1, 3, 4, 8, 15, 27, 50, …$
+> 
+> De 3 første leddene i denne følgen er spesielle. Deretter følger tallene et fast mønster.
 >
->Lag et program som skriver ut de første n leddene i denne følgen. Hvis programmet ditt fungerer riktig vil du få $a_50  = 11986911799691$.
+> Lag et program som skriver ut de første n leddene i denne følgen. Hvis programmet ditt fungerer riktig vil du få $a_{50}  = 11986911799691$.
 
 Etter å ha funnet ut at $a_{4}=a_{1}+a_{2}+a_{3}$ og $a_{5}=a_{4}+a_{3}+a_{2}$ så kan vi tenke oss fram til at mønsteret i følgen er 
-
 $$
 a_{n} = a_{n-1} + a_{n-2} + a_{n-3},\quad n \geq 4
 $$
@@ -125,7 +130,6 @@ Nåverdien $N$ til et fremtidig beløp $B$ er gitt ved
 $$
 N=\frac{B}{v^{n}}
 $$
-
 Der $v$ er vekstfaktoren til kalkulasjonsrenta og $n$ er antall perioder. Hvis du vil finne nåverdien til et beløp bakover i tid så velger du en negativ verdi for $n$.
 
 #### Serielån
@@ -142,7 +146,6 @@ $$
 
 #### Annuitetslån
 Alle terminebeløpene er like store. Rentene synker i løpet av nedbetalingsperioden og avdragene øker. Lånebeløpet $L$ skal være lik summen av nåverdiene av terminbeløpene:
-
 $$
 L = \sum_{i=1}^n \frac{T}{v^{i}}
 $$
@@ -154,12 +157,12 @@ Vi finner terminfaktoren ved hjelp av følgende formel hvor $v$ er vekstfaktoren
 $$F = \frac{1 - \frac{1}{v^{n}}}{v - 1}$$
 
 ## Funksjonsdrøfting
-Funksjonsdrøfting er handler om å finne ut hvordan funksjoner ser ut når du tegner dem. Vi er som oftest interessert i
+Funksjonsdrøfting handler om å finne ut hvordan funksjoner ser ut når du tegner dem. 
 
 - Nullpunkter finner du ved å sette $f(x)=0$
 - Topp-, bunn- og terrassepunkter finner du ved å sette $f'(x)=0$
-- Monotoniegenskaper: når funksjonen stiger og synker finner du ved å sjekke når $f'(x)>0$ og $f'(x)<0$. Du trenger å faktorisere og tegne fortegnslinje for å finne ut av dette.
 - Vendepunkter finner du ved å sette $f''(x)=0$
+- Monotoniegenskaper (når funksjonen vokser og synker) finner du ved å sjekke når $f'(x)>0$ og $f'(x)<0$. Du trenger å faktorisere og tegne fortegnslinje for å finne ut av dette.
 - Krumning finner du ved å sjekke når $f''(x)>0$ og $f''(x)<0$. Du trenger å faktorisere og tegne fortegnslinje for å finne ut av dette.
 
 ### Logaritmer
@@ -168,9 +171,9 @@ En logaritmefunksjon er den inverse funksjonen til en eksponentialfunksjon.
 
 - Eksponentialfunksjonen $f(x)=10^{x}$ har tilhørende logaritmefunksjon $\log_{10}x$ eller ofte bare kalt $\log x=\lg x$.
 - Eksponentialfunksjonen $f(x)=e^{x}$ har tilhørende logaritmefunksjon $\ln x$
-- Eksponentialfunksjonen $f(x)=a^{x}$ har tilhørende logaritmefunksjon $\log_{a}x$ for $a>0$ (det finnes altså uendelig mange typer eksponentialfunksjoner og logaritmefunksjoner)
+- Eksponentialfunksjonen $f(x)=a^{x}$ har tilhørende logaritmefunksjon $\log_{a}x$ for $a>0$. Du kan altså velge hvilket som helst positivt tall $a$ som base i logartimefunksjonen.
 
-Siden logaritmefunksjonen og eksponentialfunksjonene er inverse så har vi følgende sammenhenger:
+Siden logaritmefunksjonen og eksponentialfunksjonene er inverse så vil disse nulle hverandre ut:
 $$
 \begin{aligned}
 \ln e^{x}=x &\iff e^{\ln x}=x\\
@@ -178,7 +181,6 @@ $$
 \log_{a}a^{x}=x & \iff a^{\log_{a} x}=x
 \end{aligned}
 $$
-
 Logaritmefunksjonene er definert for alle positive tall slik at definisjonsmengden blir $D_{f}=\langle 0 , \infty\rangle$.
 
 Vi velger som oftest den naturlige logaritmen, $\ln x$, i S2 siden denne er enklere å derivere og integrere enn de andre logaritmene.
@@ -194,7 +196,7 @@ Her bruker jeg den naturlige logaritmen som eksempel, men disse reglene gjelder 
 | Logaritme til kvotient     | $\ln \frac{a}{b}=\ln a-\ln b$ |
 | Nullpunkt til logaritmer   |           $\ln 1=0$           |
 
-Merk at den siste regelen forteller oss hvor logaritmefunksjonene har sitt eneste nullpunkt. For $f(x)=\ln x$ vil funksjonen være negativ for $0<x<1$ og positiv for alle $x>1$.
+Merk at den siste regelen forteller oss at alle typer logaritmefunksjonene har sitt eneste nullpunkt i $x=1$. For $f(x)=\ln x$ vil funksjonen være negativ for $0<x<1$ og positiv for alle $x>1$.
 
 ### Rasjonale funksjoner
 En rasjonal funksjon består av en brøk med polynomfunksjoner i teller og nevner:
@@ -211,32 +213,27 @@ Rasjonale funksjoner har følgende egenskaper:
 #### Asymptoter
 Asymptoter er tenkte linjer som en funksjon nærmer seg. Asymptoter kan være horisontale, vertikale eller skrå.
 
-- Vi får vertikale asymptoter i bruddpunktene
-	- Mulig å finne ved å løse $Q(x)=0$
-- Vi får horisontale asymptoter dersom $P$ og $Q$ har samme grad
-	- Mulig å finne ved å dividere leddene med høyest grad på hverandre
-- Vi får skrå asymptoter når graden av $P$ er én større enn graden av $Q$
-	- Mulig å finne ved å ta polynomdivisjon. Den skrå asymptoten er svaret på divisjonen når du ser bort fra resten.
+- Vi får vertikale asymptoter i bruddpunktene. Vi finner disse ved å løse $Q(x)=0$.
+- Vi får en horisontal asymptote dersom $P$ og $Q$ har samme grad. Vi finner disse ved å dividere leddene i $P$ og $Q$ med høyest grad på hverandre.
+- Vi får skrå asymptoter når graden av $P$ er én større enn graden av $Q$. Vi finner denne ved å beregne $P(x):Q(x)$ med polynomdivisjon. Den skrå asymptoten er svaret på divisjonen når du ser bort fra resten.
 
 ## Derivasjon
 Definisjon: Hvis $f(x)$ er kontinuerlig i et punkt $x$ så er den deriverte i punktet:
-
 $$f'(x) = \lim_{\Delta x \to 0}\frac{f(x + \Delta x) - f(x)}{\Delta x}$$
-
 Den deriverte i et punkt er lik den momentane vekstfarten i punktet og dermed også lik stigningstallet til tangenten til $f$ i punktet.
 
-| Forklaring        |        Funksjon        |               Derivert                |
-| ----------------- |:----------------------:|:-------------------------------------:|
-| Konstant funksjon |          $k$           |                  $0$                  |
-| Potensfunksjon    |        $x^{r}$         |          $r \cdot x^{r - 1}$          |
-| Konstante koeff.  |     $k \cdot g(x)$     |            $k \cdot g'(x)$            |
-| Summer            |    $g(x) \pm h(x)$     |           $g'(x) \pm h'(x)$           |
-| Produkt           |   $u(x) \cdot v(x)$    | $u'(x) \cdot v(x) + u(x) \cdot v'(x)$ |
-| Kvotienter        |  $\frac{u(x)}{v(x)}$   |       $\frac{u'v - uv'}{v^{2}}$       |
-| Eksponentialfunk  |        $e^{x}$         |                $e^{x}$                |
-| Eksponentialfunk  |        $a^{x}$         |             $a^{x}\ln x$              |
-| Logaritme         |        $\ln x$         |             $\frac{1}{x}$             |
-| Kjerneregelen     | $g\left( u(x) \right)$ |          $g'(u) \cdot u'(x)$          |
+| Forklaring       |        Funksjon        |               Derivert                |
+|:---------------- |:----------------------:|:-------------------------------------:|
+| Konstant         |          $k$           |                  $0$                  |
+| Potensfunksjon   |        $x^{r}$         |          $r \cdot x^{r - 1}$          |
+| Konstante koeff. |     $k \cdot g(x)$     |            $k \cdot g'(x)$            |
+| Summer           |    $g(x) \pm h(x)$     |           $g'(x) \pm h'(x)$           |
+| Produkt          |   $u(x) \cdot v(x)$    | $u'(x) \cdot v(x) + u(x) \cdot v'(x)$ |
+| Kvotienter       |  $\frac{u(x)}{v(x)}$   |       $\frac{u'v - uv'}{v^{2}}$       |
+| Eksponentialfunk |        $e^{x}$         |                $e^{x}$                |
+| Eksponentialfunk |        $a^{x}$         |             $a^{x}\ln x$              |
+| Logaritme        |        $\ln x$         |             $\frac{1}{x}$             |
+| Kjerneregelen    | $g\left( u(x) \right)$ |          $g'(u) \cdot u'(x)$          |
 
 Huskeregel kjerneregelen: Multipliser den deriverte av den ytre funksjonen med den deriverte av kjernen.
 
@@ -244,10 +241,19 @@ Huskeregel kjerneregelen: Multipliser den deriverte av den ytre funksjonen med d
 $$
 \big( \ln (x) \big) '=\frac{1}{x}
 $$
-
 Merk at selv om $g(x)=\frac{1}{x}$ er definert for $x\in \mathbb{R} \setminus 0$ så er den deriverte av logaritmefunksjonen kun definert for $x>0$. 
 
 Funksjonen $f(x)=\ln x$ har definisjonsmengde $D_{f} = \langle 0, \to \rangle$. Derfor kan ikke den deriverte ha noe *større* definisjonsmengde enn dette. For å derivere en funksjon så den være kontinuerlig i punktet. Det gir ikke mening å snakke om vekstfarten til $f$ i $x=-2$ siden $f(-2)$ ikke eksisterer.
+
+### Stigningstall og tangenter
+Stigningstallet, $a$, til tangenten til $f(x)$ i punktet $x=x_{1}$ er lik den deriverte i punktet, $f'(x_{1})$. For å finne likningen til tangenten kan vi sette inn kjente tall i likningen for rett linje
+$$
+y=ax+b
+$$
+Vi kan også bruke ettpunktsformelen
+$$
+y-y_{1}=a(x-x_{1})
+$$
 
 ## Økonomi
 Her lar vi $I(x)$ være inntektene ved salg av $x$ enheter og $K(x)$ være produksjonskostnadene ved produksjon av $x$ enheter. Overskuddet $O(x)$ er da gitt ved
@@ -261,6 +267,7 @@ Grenseinntekten $I'(x)$ er den deriverte av inntektsfunksjonen. Grenseinntekten 
 Grensekostnaden $K'(x)$ er den deriverte av kostnadsfunksjonen. Grensekostnaden $K'(x)$ forteller oss omtrent hvor mye det koster å produsere én mer enhet.
 
 Vi bruker også begrepene *marginalinntekt* og *marginalkostnad*.
+
 ### Maksimalt overskudd
 Vi har maksimalt overskudd når grenseinntekt er lik grensekostnad fordi
 $$
@@ -270,25 +277,20 @@ I'(x)-K'(x) &= 0\\
 I'(x) &= K'(x)
 \end{aligned}
 $$
-
 Hvis du får flere løsninger så bør du sjekke hvilke løsninger som er toppunkter.
 
 ### Enhetskostnader
 Enhetskostnaden $E(x)$ fordeler produksjonskostnadene $K(x)$ på antall enheter $x$.
-
 $$
 E(x)=\frac{K(x)}{x}
 $$
-
 Vi kan finne de laveste enhetskostnadene på to måter, enten ved å løse $E'(x)=0$ eller ved å løse $K'(x)=E(x)$. Utledningen for den siste formelen er som følger
-
 $$
 \begin{aligned}
 E(x)&=\frac{K(x)}{x}\\
 E'(x)&=\frac{K'(x)\cdot x-K(x)\cdot1}{x^{2}}\\
 \end{aligned}
 $$
-
 Vi setter uttrykket til den deriverte $E'(x)=0$ siden vi leter etter bunnpunktet til $E(x)$.
 $$
 \begin{aligned}
@@ -309,9 +311,60 @@ Etterspørselen $q$ er en funksjon av prisen $p$ slik at $q(p)$. Etterspørselen
 $$
 x=q(p)
 $$
-
 Inntektene er $\text{pris} \times \text{antall solgte}$ eller $I(x)=p \cdot x$. Hvis vi bytter ut $x$ med $q(p)$ så får vi $I(p)=p\cdot q(p)$
 
 På samme måte kan vi vise at kostnadene blir $K(x)=K(q(p))$.
+
+## Matematisk notasjon
+
+### Funksjoner
+
+| Notasjon           | Forklaring                                                  |
+| ------------------ | ----------------------------------------------------------- |
+| $f(x)$             | $f$ er en funksjon av den uavhengige variabelen $x$         |
+| $D_{f}=\mathbb{R}$ | Definisjonsmengden til $f$ er alle reelle tall $\mathbb{R}$ |
+| $V_{f}=\mathbb{R}$ | Verdimengden til $f$ er alle reelle tall $\mathbb{R}$       |
+
+### Mengder
+
+| Notasjon                                                                  | Forklaring                                                                                                                     |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| $0\leq x$                                                                 | 0 er mindre eller lik $x$, eller sagt på en annen måte: $x$ er større eller lik null                                           |
+| $[a, b]$                                                                   | Det lukkede intervallet fra $a$ til $b$ inneholder alle tall fra og med $a$ og opp til og med $b$                              |
+| $\langle a,b \rangle  = \left( a, b \right)$                                                     | Det åpne intervallet fra $a$ til $b$ inneholder alle tall fra (men ikke inkludert) $a$ og opp til (men ikke inkludert) $b$. Hakeparenteser er vanlig på norsk, vanlige parenteser i vanlig i engelsk litteratur.     |
+| $\langle \leftarrow,0]$                                                   | Er intervallet fra minus uendelig til og med 0                                                                                 |
+| $x \in \mathbb{R}$                                                        | $x$ er element i mengden alle reelle tall $\mathbb{R}$                                                                         |
+| $x \in \mathbb{N}$                                                        | $x$ er element i mengden alle naturlige tall $\mathbb{N}$                                                                      |
+| $x \in [0, 20]$                                                            | $x$ er et reelt tall i det lukkede intervallet fra 0 til 20                                                                    |
+| $x \in \langle \leftarrow,-1 \rangle \cup \langle 2, \rightarrow \rangle$ | $x$ er element i unionen ($\cup$) av to ulike intervaller. Du kan ofte få svar som dette når du skal løse andregradsulikheter. |
+| $D_{f}=\mathbb{R} \setminus 1$                                            | Definisjonsmengden til $f$ er mengden av alle reelle tall bortsett fra 1.                                                                                                                               |
+
+### Logikk
+
+| Notasjon | Eksempel               | Forklaring                                                         |
+| ----------- | ----------------------- | --------------------------------------------------------------- |
+| $a \iff b$ | $2x=4\iff x=2$         | Ekvivalens. $a$ er riktig hvis og bare hvis $b$ er riktig          |
+| $a \implies b$ | $x=2 \implies x^{2}=4$ | Implikasjon. $b$ er riktig hvis $a$ er riktig                      |
+| $a \wedge b$ | $x=0 \wedge x=4$       | $\wedge$ betyr og samtidig. Her må $x$ være lik 0 og 4 samtidig.   |
+| $a \vee b$  | $x=0 \vee x=2$         | $\vee$ betyr eller. Altså $x=0$ eller $x=2$ eller $x=0 \wedge x=2$ |
+
+### Spesielle tegn
+#### Sum
+Summen av en tallfølge der elementene heter $a_{1}, a_{2}, a_{3}$ og så videre er gitt ved
+$$
+s_{n}=\sum_{i=1}^n a_{i}
+$$
+
+#### Derivasjon
+La $f(x)$ være en kontinuerlig funksjon. Den deriverte kan da skrives som
+$$
+f'(x)=\frac{df}{dx}(x)=\frac{d}{dx}f(x)=\dot{f}
+$$
+
+#### Integrasjon
+Integralet av $f(x)$ fra $a$ til $b$ kan skrives som 
+$$
+\int_{a}^{b} f(x) \, \mathrm{d}x 
+$$
 
 [^1]: Merk at `python`-lister begynner på indeks 0. Det vil si at for å hente ut det første elementet i ei liste som heter `min_liste` så skriver vi `min_liste[0]`. For å hente du det fjerde elementet i lista skriver vi `min_liste[3]`.
