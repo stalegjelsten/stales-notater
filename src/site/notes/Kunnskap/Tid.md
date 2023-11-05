@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Tid/","title":"Tid","tags":["fysikk"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Tid/","title":"Tid","tags":["fysikk","naturfag"]}
 ---
 
 
 # Tid
-I moderne fysikk så er tidens retning bestemt av økende [[Kunnskap/Entropi\|Entropi]], eller av kausalitet.
+I moderne fysikk så er tidens retning bestemt av økende [[Kunnskap/Entropi\|Entropi]], eller av kausalitet. Det er usikkert om tiden og tidrommet oppstod samtidig med [[Kunnskap/Big bang\|Big bang]], eller om tid (og dermed rom) alltid har eksistert.
 
 ## Gravitasjonell tidsforlengelse
 Fra [[Kunnskap/Generell relativitetsteori\|Generell relativitetsteori]]:
