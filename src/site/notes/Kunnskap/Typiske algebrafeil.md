@@ -22,6 +22,7 @@ Som flinke og flittige elever så ønsker man gjerne å skrive dette uttrykket s
 $$
 
 **Det er ikke lov siden telleren vår består av flere ledd**. Legg merke til at telleren har to ledd i dette tilfellet:
+
 - $2x(x+2)$
 - $-1$. 
 
