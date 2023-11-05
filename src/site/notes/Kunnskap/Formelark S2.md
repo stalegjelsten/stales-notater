@@ -3,17 +3,17 @@
 ---
 
 
-## Følger og rekker
+## Følger, rekker og lån
 
 | Forklaring                           | Formel                                   |
 | ------------------------------------ | ---------------------------------------- |
-| Ledd i aritmetisk følge (rekursiv)   | $$a_{n + 1} = a_{n} + d $$               |
-| Ledd i aritmetisk følge (eksplisitt) | $$a_{n} = a_{1} + (n-1)\cdot d $$        |
-| Ledd i geometrisk følge (rekursiv)   | $$a_{n + 1} = a_{n} \cdot k $$           |
-| Ledd i geometrisk følge (eksplisitt) | $$a_{n} = a_{1} \cdot k^{n-1}$$          |
-| Aritmetisk rekke (sum av følge)      | $$s_{n}=\frac{a_{1}+a_{n}}{2}\cdot n$$   |
-| Geometrisk rekke (sum av følge)      | $$s_{n}=a_{1}\cdot \frac{k^{n}-1}{k-1}$$ |
-| Uendelig geometrisk rekke            | $$-1<k<1 \implies s=\frac{a_{1}}{k-1} $$   |
+| Ledd i aritmetisk følge (rekursiv)   | $a_{n + 1} = a_{n} + d$               |
+| Ledd i aritmetisk følge (eksplisitt) | $a_{n} = a_{1} + (n-1)\cdot d$        |
+| Ledd i geometrisk følge (rekursiv)   | $a_{n + 1} = a_{n} \cdot k$           |
+| Ledd i geometrisk følge (eksplisitt) | $a_{n} = a_{1} \cdot k^{n-1}$          |
+| Aritmetisk rekke (sum av følge)      | $s_{n}=\frac{a_{1}+a_{n}}{2}\cdot n$   |
+| Geometrisk rekke (sum av følge)      | $s_{n}=a_{1}\cdot \frac{k^{n}-1}{k-1}$ |
+| Uendelig geometrisk rekke            | $-1<k<1 \implies s=\frac{a_{1}}{k-1}$   |
 
 ### Rekker og konvergens
 Ei rekke konvergerer og har summen $s$ dersom summen $s_{n}$ av $n$ første leddene nærmer seg tallet $s$ når $n \to \infty$. Altså
@@ -25,11 +25,14 @@ $$
 
 ### Nåverdi og lån
 #### Nåverdi
+Nåverdi forteller oss hvor mye et fremtidig (eller fortidig) beløp er verdt i nåtidens penger. Det er vanlig at penger blir mindre og mindre verdt for hvert år siden vi forventer avkastning på investeringene våre.
+
 Nåverdien $N$ til et fremtidig beløp $B$ er gitt ved 
 $$
 N=\frac{B}{v^{n}}
 $$
-Der $v$ er vekstfaktoren til kalkulasjonsrenta og $n$ er antall perioder.
+
+Der $v$ er vekstfaktoren til kalkulasjonsrenta og $n$ er antall perioder. Hvis du vil finne nåverdien til et beløp bakover i tid så velger du en negativ verdi for $n$.
 
 #### Serielån
 Alle avdragene er like store, men rentene minker og derfor minker også terminbeløpene. Nåverdiene av terminebeløpene danner en aritmetisk rekke.
@@ -74,11 +77,11 @@ Her bruker jeg $\ln$ som logaritme, men disse reglene gjelder for *alle* typer l
 
 | Forklaring                 | Formel                           |
 | -------------------------- | -------------------------------- |
-| Bruke logaritme på likning | $$a=b \iff \ln a=\ln b$$         |
-| Hente ned eksponent        | $$\ln a^{x}=x\ln a$$             |
-| Logaritme til produkt      | $$ \ln (a\cdot b)=\ln a +\ln b$$ |
-| Logaritme til kvotient     | $$ \ln \frac{a}{b}=\ln a-\ln b$$ |
-| Nullpunkt til logaritmer   | $$\ln 1=0$$                                 |
+| Bruke logaritme på likning | $a=b \iff \ln a=\ln b$         |
+| Hente ned eksponent        | $\ln a^{x}=x\ln a$             |
+| Logaritme til produkt      | $ \ln (a\cdot b)=\ln a +\ln b$ |
+| Logaritme til kvotient     | $ \ln \frac{a}{b}=\ln a-\ln b$ |
+| Nullpunkt til logaritmer   | $\ln 1=0$                                 |
 
 Merk at den siste regelen forteller oss hvor logaritmefunksjonene har sitt eneste nullpunkt. For $f(x)=\ln x$ vil funksjonen være negativ for $0<x<1$ og positiv for alle $x>1$.
 
@@ -89,18 +92,18 @@ $$f'(x) = \lim_{\Delta x \to 0}\frac{f(x + \Delta x) - f(x)}{\Delta x}$$
 
 Den deriverte i et punkt er lik den momentane vekstfarten i punktet og dermed også lik stigningstallet til tangenten til $f$ i punktet.
 
-| Forklaring        | Funksjon                          | Derivert               |
-| ----------------- | :-------------------------------: | :--------------------------: |
-| Konstant funksjon | $$k$$                    | $$0$$                                   |
-| Potensfunksjon    | $$x^{r}$$                | $$r \cdot x^{r - 1}$$                   |
-| Konstante koeff.  | $$k \cdot g(x)$$         | $$k \cdot g'(x)$$                       |
-| Summer            | $$g(x) \pm h(x)$$        | $$g'(x) \pm h'(x)$$                     |
-| Produkt           | $$u(x) \cdot v(x)$$      | $$u'(x) \cdot v(x) + u(x) \cdot v'(x)$$ |
-| Kvotienter        | $$\frac{u(x)}{v(x)}$$    | $$\frac{u'v - uv'}{v^{2}}$$             |
-| Eksponentialfunk  | $$e^{x}$$                | $$e^{x}$$                               |
-| Eksponentialfunk  | $$a^{x}$$                | $$a^{x}\ln x$$                          |
-| Logaritme         | $$\ln x$$                | $$\frac{1}{x}$$                         |
-| Kjerneregelen     | $$g\left( u(x) \right)$$ | $$g'(u) \cdot u'(x)$$                   |
+| Forklaring        |        Funksjon        |               Derivert                |
+| ----------------- |:----------------------:|:-------------------------------------:|
+| Konstant funksjon |          $k$           |                  $0$                  |
+| Potensfunksjon    |        $x^{r}$         |          $r \cdot x^{r - 1}$          |
+| Konstante koeff.  |     $k \cdot g(x)$     |            $k \cdot g'(x)$            |
+| Summer            |    $g(x) \pm h(x)$     |           $g'(x) \pm h'(x)$           |
+| Produkt           |   $u(x) \cdot v(x)$    | $u'(x) \cdot v(x) + u(x) \cdot v'(x)$ |
+| Kvotienter        |  $\frac{u(x)}{v(x)}$   |       $\frac{u'v - uv'}{v^{2}}$       |
+| Eksponentialfunk  |        $e^{x}$         |                $e^{x}$                |
+| Eksponentialfunk  |        $a^{x}$         |             $a^{x}\ln x$              |
+| Logaritme         |        $\ln x$         |             $\frac{1}{x}$             |
+| Kjerneregelen     | $g\left( u(x) \right)$ |          $g'(u) \cdot u'(x)$          |
 
 Huskeregel kjerneregelen: Multipliser den deriverte av den ytre funksjonen med den deriverte av kjernen.
 
@@ -166,7 +169,7 @@ $$
 
 ### Etterspørsel
 
-> Dette er pensum fra S1 i vårt læreverk. Andre læreverk lærer dette i S2. Jeg tror ikke det er relevant for eksamen, men jeg legger det ved her for sikkerhets skyld.
+> Kommentar fra Ståle: Dette er pensum fra S1 i vårt læreverk. Andre læreverk lærer dette i S2. Jeg tror ikke det er relevant for eksamen, men jeg legger det ved her for sikkerhets skyld.
 
 Etterspørselen $q$ er en funksjon av prisen $p$ slik at $q(p)$. Etterspørselen er også lik antall solgte enheter $x$ slik at
 $$
