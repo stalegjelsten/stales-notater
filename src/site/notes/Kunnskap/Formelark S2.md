@@ -77,11 +77,11 @@ Her bruker jeg $\ln$ som logaritme, men disse reglene gjelder for *alle* typer l
 
 | Forklaring                 | Formel                           |
 | -------------------------- | -------------------------------- |
-| Bruke logaritme på likning | $$a=b \iff \ln a=\ln b$$         |
-| Hente ned eksponent        | $$\ln a^{x}=x\ln a$$             |
-| Logaritme til produkt      | $$ \ln (a\cdot b)=\ln a +\ln b$$ |
-| Logaritme til kvotient     | $$ \ln \frac{a}{b}=\ln a-\ln b$$ |
-| Nullpunkt til logaritmer   | $$\ln 1=0$$                                 |
+| Bruke logaritme på likning | $a=b \iff \ln a=\ln b$         |
+| Hente ned eksponent        | $\ln a^{x}=x\ln a$             |
+| Logaritme til produkt      | $ \ln (a\cdot b)=\ln a +\ln b$ |
+| Logaritme til kvotient     | $ \ln \frac{a}{b}=\ln a-\ln b$ |
+| Nullpunkt til logaritmer   | $\ln 1=0$                                 |
 
 Merk at den siste regelen forteller oss hvor logaritmefunksjonene har sitt eneste nullpunkt. For $f(x)=\ln x$ vil funksjonen være negativ for $0<x<1$ og positiv for alle $x>1$.
 
@@ -92,18 +92,18 @@ $$f'(x) = \lim_{\Delta x \to 0}\frac{f(x + \Delta x) - f(x)}{\Delta x}$$
 
 Den deriverte i et punkt er lik den momentane vekstfarten i punktet og dermed også lik stigningstallet til tangenten til $f$ i punktet.
 
-| Forklaring        | Funksjon                          | Derivert               |
-| ----------------- | :-------------------------------: | :--------------------------: |
-| Konstant funksjon | $$k$$                    | $$0$$                                   |
-| Potensfunksjon    | $$x^{r}$$                | $$r \cdot x^{r - 1}$$                   |
-| Konstante koeff.  | $$k \cdot g(x)$$         | $$k \cdot g'(x)$$                       |
-| Summer            | $$g(x) \pm h(x)$$        | $$g'(x) \pm h'(x)$$                     |
-| Produkt           | $$u(x) \cdot v(x)$$      | $$u'(x) \cdot v(x) + u(x) \cdot v'(x)$$ |
-| Kvotienter        | $$\frac{u(x)}{v(x)}$$    | $$\frac{u'v - uv'}{v^{2}}$$             |
-| Eksponentialfunk  | $$e^{x}$$                | $$e^{x}$$                               |
-| Eksponentialfunk  | $$a^{x}$$                | $$a^{x}\ln x$$                          |
-| Logaritme         | $$\ln x$$                | $$\frac{1}{x}$$                         |
-| Kjerneregelen     | $$g\left( u(x) \right)$$ | $$g'(u) \cdot u'(x)$$                   |
+| Forklaring        |        Funksjon        |               Derivert                |
+| ----------------- |:----------------------:|:-------------------------------------:|
+| Konstant funksjon |          $k$           |                  $0$                  |
+| Potensfunksjon    |        $x^{r}$         |          $r \cdot x^{r - 1}$          |
+| Konstante koeff.  |     $k \cdot g(x)$     |            $k \cdot g'(x)$            |
+| Summer            |    $g(x) \pm h(x)$     |           $g'(x) \pm h'(x)$           |
+| Produkt           |   $u(x) \cdot v(x)$    | $u'(x) \cdot v(x) + u(x) \cdot v'(x)$ |
+| Kvotienter        |  $\frac{u(x)}{v(x)}$   |       $\frac{u'v - uv'}{v^{2}}$       |
+| Eksponentialfunk  |        $e^{x}$         |                $e^{x}$                |
+| Eksponentialfunk  |        $a^{x}$         |             $a^{x}\ln x$              |
+| Logaritme         |        $\ln x$         |             $\frac{1}{x}$             |
+| Kjerneregelen     | $g\left( u(x) \right)$ |          $g'(u) \cdot u'(x)$          |
 
 Huskeregel kjerneregelen: Multipliser den deriverte av den ytre funksjonen med den deriverte av kjernen.
 
