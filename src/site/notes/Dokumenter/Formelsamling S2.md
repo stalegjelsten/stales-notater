@@ -19,7 +19,7 @@ $$
 | Ledd i geometrisk følge (eksplisitt) | $a_{n} = a_{1} \cdot k^{n-1}$          |
 | Aritmetisk rekke (sum av følge)      | $s_{n}=\frac{a_{1}+a_{n}}{2}\cdot n$   |
 | Geometrisk rekke (sum av følge)      | $s_{n}=a_{1}\cdot \frac{k^{n}-1}{k-1}$ |
-| Uendelig geometrisk rekke            | $-1<k<1 \implies s=\frac{a_{1}}{k-1}$   |
+| Uendelig geometrisk rekke            | $-1<k<1 \implies s=\frac{a_{1}}{1-k}$   |
 
 ### Rekker og konvergens
 Ei rekke konvergerer og har summen $s$ dersom summen $s_{n}$ av $n$ første leddene nærmer seg tallet $s$ når $n \to \infty$. Altså
@@ -68,12 +68,14 @@ Vi kan avrunde desimaltall med `{variabelnavn:.2f}` der 2-tallet er antallet des
 
 > **Oppgavetekst**: Gitt følgende tallfølge: $1, 3, 4, 8, 15, 27, 50, …$. De 3 første leddene i denne følgen er spesielle. Deretter følger tallene et fast mønster.
 >
->Lag et program som skriver ut de første n leddene i denne følgen. Hvis programmet ditt fungerer riktig vil du få $a_50  = 11986911799691$.
+>Lag et program som skriver ut de første n leddene i denne følgen. Hvis programmet ditt fungerer riktig vil du få $a_{50}  = 11986911799691$.
 
-Etter å ha funnet ut at $a_{4}=a_{1}+a_{2}+a_{3}$ og $a_{5}=a_{4}+a_{3}+a_{2}$ så kan vi tenke oss fram til at mønsteret i følgen er $$
+Etter å ha funnet ut at $a_{4}=a_{1}+a_{2}+a_{3}$ og $a_{5}=a_{4}+a_{3}+a_{2}$ så kan vi tenke oss fram til at mønsteret i følgen er 
+$$
 a_{n} = a_{n-1} + a_{n-2} + a_{n-3},\quad n \geq 4
 $$
 Vi kan programmere dette på følgende måte
+
 ```python
 a_minus3 = 1
 a_minus2 = 3
@@ -87,9 +89,11 @@ for i in range(4, n + 1):
   a_minus2 = a_minus1
   a_minus1 = a_i
 ```
+
 Her oppdaterer vi hele tiden verdiene av de tre foregående leddene.
 
 Vi kan også løse den samme oppgaven ved bruk av lister. Her bruker vi metoden `append` på lista `a`. Dette legger til et nytt element i slutten av lista. Dette nye elementet skal være lik summen av de tre foregående leddene[^1].
+
 ```python
 a = [1, 3, 4]
 antall_ledd = 50
@@ -241,6 +245,9 @@ K'(x)&= \frac{K(x)}{x}\\
 K'(x)&= E(x)\\
 \end{aligned}
 $$
+
+Vi kan også løse den siste likningen grafisk. Tegn først grafen til kostnadsfunksjonen $K(x)$. Dersom grensekostnadene skal være lik enhetskostnadene så kan vi finne ut hvilken rett linje som går gjennom origo (slik alle linjer som skal finne enhetskostnader gjør) og samtidig er tangent til kostnadsfunksjonen $K$. 
+
 
 ### Etterspørsel
 
