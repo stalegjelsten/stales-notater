@@ -21,7 +21,7 @@ $$
 | Ledd i geometrisk følge (eksplisitt) | $a_{n} = a_{1} \cdot k^{n-1}$          |
 | Aritmetisk rekke (sum av følge)      | $s_{n}=\frac{a_{1}+a_{n}}{2}\cdot n$   |
 | Geometrisk rekke (sum av følge)      | $s_{n}=a_{1}\cdot \frac{k^{n}-1}{k-1}$ |
-| Uendelig geometrisk rekke            | $-1<k<1 \implies s=\frac{a_{1}}{k-1}$   |
+| Uendelig geometrisk rekke            | $-1<k<1 \implies s=\frac{a_{1}}{1-k}$   |
 
 ### Rekker og konvergens
 Ei rekke konvergerer og har summen $s$ dersom summen $s_{n}$ av $n$ første leddene nærmer seg tallet $s$ når $n \to \infty$. Altså
@@ -254,6 +254,9 @@ Vi kan også bruke ettpunktsformelen
 $$
 y-y_{1}=a(x-x_{1})
 $$
+
+## Integrasjon
+Å integrere er å finne alle antideriverte $F(x)$ til en funksjon $f(x)$
 
 ## Økonomi
 Her lar vi $I(x)$ være inntektene ved salg av $x$ enheter og $K(x)$ være produksjonskostnadene ved produksjon av $x$ enheter. Overskuddet $O(x)$ er da gitt ved
