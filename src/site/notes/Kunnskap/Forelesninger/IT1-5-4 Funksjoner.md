@@ -37,6 +37,72 @@ IT1 torsdag 2023-12-07. Pensum: 5.6 funksjoner
 
 ---
 
+### 5.23
+```html
+<script>
+	let walks = false;
+	let quacks = false;
+</script>
+
+<label for="walk">Går som en and </label>
+<input type="checkbox" name="" id="walk" bind:checked={walks} />
+<br />
+<label for="quack">Kvekker </label>
+<input type="checkbox" name="quack" id="quack" bind:checked={quacks} />
+
+{#if walks && quacks}
+	<p>Dette er en and.</p>
+{/if}
+```
+
+---
+
+### 5.24
+```html
+<script>
+	let hoyde = 1.5;
+</script>
+
+<label for="hoyde">Høyde: </label>
+<input type="number" id="hoyde" bind:value={hoyde} />
+{#if hoyde > 3}
+	<p>
+		NB! Du kan ikke skrive inn en høydere høyere enn 3 meter; Kontakt Guinness rekordbok dersom du
+		er høyere.
+	</p>
+{:else}
+	<p>Du er {hoyde} m høy!</p>
+{/if}
+```
+
+---
+
+### 5.26
+```html
+<script>
+	let pin = 1234;
+	let saldo = 2000;
+	let inntastet_pin;
+	let inntastet_saldo;
+</script>
+
+<h3>Velkommen til Svelte minibank, Iben!</h3>
+<div>
+	<label for="pin">Skriv inn pin koden din</label><br />
+	<input type="number" name="" id="pin" bind:value={inntastet_pin} />
+</div>
+<div>
+	<label for="saldo">Hvor mye vil du ta ut?</label><br /><input type="number" name="" id="saldo" /> kr
+</div>
+
+{#if pin === inntastet_pin && inntastet_saldo <= saldo}
+	<p style="color:green;">
+		Transaksjonen er vellykket. Din nye saldo er: {saldo - inntastet_saldo} kr. Takk for besøket.
+	</p>
+{/if}
+```
+---
+
 ## Funksjoner
 
 ```html
@@ -167,14 +233,55 @@ er den nøytral <br>
 <script>
 	let a = 3;
 	let b = 8;
-	const snitt = () => {
+	$: snitt = () => {
 		return (a + b) / 2;
 	};
 </script>
-<p>a = <input type="number" name="" id="tall1" /></p>
-<p>b = <input type="number" name="" id="tall2" /></p>
+
+<p>a = <input type="number" name="" id="tall1" bind:value={a} /></p>
+<p>b = <input type="number" name="" id="tall2" bind:value={b} /></p>
 <p>Gjennomsnitt: {snitt()}</p>
 ```
+Her lar jeg `snitt` være en [[Kunnskap/Reaktivitet i Svelte\|reaktiv]] funksjon, og dermed kalles den på nytt når `a` eller `b` endrer på seg.
+
+---
+
+### 5.29 alternativ løsning
+Dette fungerer ikke:
+```html
+<script>
+	let a = 3;
+	let b = 8;
+	const gjennomsnitt = () => {
+		return (a + b) / 2;
+	};
+</script>
+
+a = <input type="number" bind:value={a} /><br />
+b = <input type="number" bind:value={b} />
+
+<h3>Gjennomsnittet av {a} og {b} er {gjennomsnitt()}</h3>
+```
+Problemet er at `gjennomsnitt()` kun blir kalt en gang – når siden blir lastet inn. Se neste side for en løsning som fungerer
+
+---
+
+### 5.29 alternativ 2
+```html
+<script>
+	let a = 3;
+	let b = 8;
+	const gjennomsnitt = (x,y) => {
+		return (x + y) / 2;
+	};
+</script>
+
+a = <input type="number" bind:value={a} /><br />
+b = <input type="number" bind:value={b} />
+
+<h3>Gjennomsnittet av {a} og {b} er {gjennomsnitt(a,b)}</h3>
+```
+Grunnen til at dette fungerer er at `a` og `b` endrer verdi, og dermed må `gjennomsnitt(a,b)` kalles på nytt med de nye verdiene.
 
 ---
 
@@ -191,4 +298,75 @@ er den nøytral <br>
 <img {src} alt="en katt" style="transform: rotate({rotasjon}deg);" on:click={roter} />
 
 <!-- her er det bedre for Universell utforming å bruke en knapp -->
+```
+
+---
+
+### 5.33
+```html
+<script>
+	let saturn = 'Saturn';
+	let jorda = 'Jorda';
+	let uranus = 'Uranus';
+	let merkur = 'Merkur';
+	let mars = 'Mars';
+	let g_jorda = 9.82;
+	let g_mars = 3.71;
+	let g_saturn = 10.4;
+	let g_uranus = 8.87;
+	let g_merkur = 3.7;
+	let masse = 75;
+	let planet = '';
+</script>
+
+<h1>Tyngde på en fremmed planet</h1>
+
+<p>Skriv inn massen din: <input type="number" bind:value={masse} /> kg.</p>
+<p>Hvilken planet er du på? <input type="text" bind:value={planet} /></p>
+{#if planet != saturn && planet != merkur && planet != mars && planet != uranus && planet != jorda}
+	<p>Vi kjenner ikke til denne planeten.</p>
+{:else if planet == saturn}
+	<p>På {planet} er tyngden din {(g_saturn * masse).toFixed(1)} N.</p>
+{:else if planet == jorda}
+	<p>På {planet} er tyngden din {(g_jorda * masse).toFixed(1)} N.</p>
+{:else if planet == uranus}
+	<p>På {planet} er tyngden din {(g_uranus * masse).toFixed(1)} N.</p>
+{:else if planet == merkur}
+	<p>På {planet} er tyngden din {(g_merkur * masse).toFixed(1)} N.</p>
+{:else if planet == mars}
+	<p>På {planet} er tyngden din {(g_mars * masse).toFixed(1)} N.</p>
+{/if}
+<!-- --------------------------------------------------------------------------------------------------------------------------------------------------- -->
+```
+
+---
+
+### 5.33 alternativ
+```html
+<script>
+	let planeter = [
+		{	navn: 'Saturn',
+			tyngdeakselerasjon: 10.4 },
+		{	navn: 'Jorda',
+			tyngdeakselerasjon: 9.81 },
+		{	navn: 'Uranus',
+			tyngdeakselerasjon: 8.87 },
+		{	navn: 'Merkur',
+			tyngdeakselerasjon: 3.7 },
+		{	navn: 'Mars',
+			tyngdeakselerasjon: 3.71 }
+	];
+	let masse = 75;
+	let planet = '';
+</script>
+<h1>Tyngde på en fremmed planet</h1>
+<p>Skriv inn massen din: <input type="number" bind:value={masse} /> kg.</p>
+<p>Hvilken planet er du på? <input type="text" bind:value={planet} /></p>
+{#if planeter.find((o) => o.navn === planet)}
+	På {planeter.find((o) => o.navn === planet).navn} er tyngden din {planeter.find(
+		(o) => o.navn === planet
+	).tyngdeakselerasjon * masse} N.
+{:else}
+	Vi kjenner ikke til denne planeten.
+{/if}
 ```
