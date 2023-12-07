@@ -256,7 +256,37 @@ y-y_{1}=a(x-x_{1})
 $$
 
 ## Integrasjon
-Å integrere er å finne alle antideriverte $F(x)$ til en funksjon $f(x)$
+Å integrere er å finne alle antideriverte $F(x)$ til en funksjon $f(x)$.
+
+| Forklaring         |    Funksjon    |                          Integrert                          |
+| ------------------ |:--------------:|:-----------------------------------------------------------:|
+| Konstant           |      $k$       |                           $kx+C$                            |
+| Koeffisient        | $k \cdot f(x)$ |             $k \cdot \int f(x) \, \mathrm{d}x$              |
+| Flere ledd         | $f(x)\pm g(x)$ | $\int f(x) \, \mathrm{d}x \pm \int g(x_{9}) \, \mathrm{d}x$ |
+| Potensfunksjon     |     $x^r$      |          $\frac{1}{r+1}x^{r+1}+C,\,\,\, r \neq 1$           |
+| Spesialtilfelle    | $\frac{1}{x}$  |             $\ln \vert x \vert +C,\,\, x\neq 0$             |
+| Eksponentialfunk   |    $e^{kx}$    |                   $\frac{1}{k}e^{kx} +C$                    |
+| Eksponentialfunk2  |    $a^{x}$     |    $\frac{a^{x}}{\ln a}+C \,\, ,\,\,a>0\wedge a \neq 1$     |
+
+### Integrasjonsteknikker
+#### Delvis integrasjon
+>[!todo]
+>Ståle: fiks opp disse avsnittene
+
+
+Delvis integrasjon brukes ofte dersom du har et produkt av to ulike funksjoner, hvor den ene faktoren er enkel å integrere og den andre faktoren er enkel å derivere.
+
+$$
+\int u' \cdot v \, \mathrm{d}x = u \cdot v - \int u \cdot v' \, \mathrm{d}x 
+$$
+
+#### Variabelskifte
+Variabelskifte brukes hvis du skal integrere en sammensatt funksjon. Variabelskifte kalles ofte for den omvendte kjerneregelen.
+
+Velg en kjerne $u$ og deriver denne slik at du finner $u'=\frac{du}{dx}$
+
+### Bestemt integral som grense for sum
+
 
 ## Økonomi
 Her lar vi $I(x)$ være inntektene ved salg av $x$ enheter og $K(x)$ være produksjonskostnadene ved produksjon av $x$ enheter. Overskuddet $O(x)$ er da gitt ved
