@@ -11,9 +11,29 @@ For at du skal kunne vise et bakgrunnsbilde på en nettside skrevet i [[Kunnskap
 	1. Enten på en nettadresse (for eksempel `https://nettside.no/bilde.jpg`)
 	2. Eller i `static`-mappa til prosjektet
 3. Du må bruke den spesielle [[Kunnskap/Selektorer i CSS\|CSS-selektoren]] `:global(html)` for å kunne endre bakgrunnsbilde for hele nettsiden.
+4. Du må starte Svelte [[Kunnskap/Server\|serveren]] selv med `npm run dev -- --open` og **ikke** bruke det innebygde *Preview*-vinduet i [[VS Code\|VS Code]]. 
 
-## Eksempel
-Dersom bakgrunnsbildet ditt ligger lagret i mappen `static` og har filnavnet `bilde.jpg` så kan du bruke følgende kode for å sette det som bakgrunnsbilde.
+## Eksempel på framgangsmåte
+Opprett et nytt `skeleton project`. 
+
+- Lag en ny mappe som du kaller `bakgrunnsbilde-test`
+- Start VS Code og åpne mappen
+- Åpne en terminal i VS Code (f.eks. ved å gå til `Terminal` → `New Terminal` i menylinja eller bruke kommandopaletten)
+- Skriv inn kommandoene under i terminalen en etter en. Trykk enter etter hver kommando.
+- Etter den første kommandoen så får du noen spørsmål. Trykk `Enter` for å bekrefte valg. Hvis den stiller spørsmål som avsluttes med `(y)` så betyr det at du skal skrive bokstaven `y` og trykke `Enter` for å bekrefte. 
+- Velg `Skeleton project`, `No` til Type checking og ja til `ESLint` og `Prettier`
+
+```shell
+npm create svelte@latest .
+npm install
+npm run dev -- --open
+```
+
+<script async id="asciicast-rJlo2iy0E0wBrjwLhpxRxjTaw" src="https://asciinema.org/a/rJlo2iy0E0wBrjwLhpxRxjTaw.js" data-size="big" data-rows="15" data-loop="1"></script>
+
+Du skal nå ha fått et helt blank Svelteprosjekt som du kan endre akkurat slik du ønsker.
+
+Legg et bakgrunnsbilde i mappen `static`. Hvis bildet har filnavnet `bilde.jpg` så kan du bruke følgende kode i Svelte for å sette det som bakgrunnsbilde.
 
 ```html
 <style>
