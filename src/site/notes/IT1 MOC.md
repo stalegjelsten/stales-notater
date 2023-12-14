@@ -26,32 +26,33 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 - [[Kunnskap/CSS\|CSS]]
 - [[Kunnskap/CSS variabler\|CSS variabler]]
 - [[Kunnskap/CSS pseudoselektorer\|CSS pseudoselektorer]]
-- [[Kunnskap/CSS pseudoklasser\|CSS pseudoklasser]]
 - [[Kunnskap/CSS animasjoner\|CSS animasjoner]]
+- [[Kunnskap/CSS pseudoklasser\|CSS pseudoklasser]]
 - [[Kunnskap/Bytt fargemodus på nettsider\|Bytt fargemodus på nettsider]]
 
 { .block-language-dataview}
 
 ## Svelte
-- [[Kunnskap/each blokker i Svelte\|each blokker i Svelte]]
+- [[Kunnskap/Bakgrunnsbilder i Svelte\|Bakgrunnsbilder i Svelte]]
 - [[Kunnskap/Svelte\|Svelte]]
 - [[Kunnskap/Svelte stores\|Svelte stores]]
 - [[Kunnskap/Reaktivitet i Svelte\|Reaktivitet i Svelte]]
 - [[Kunnskap/Lese JSON med JavaScript\|Lese JSON med JavaScript]]
+- [[Kunnskap/each blokker i Svelte\|each blokker i Svelte]]
 - [[Kunnskap/Bytt fargemodus på nettsider\|Bytt fargemodus på nettsider]]
 - [[Kunnskap/Animasjoner i Svelte\|Animasjoner i Svelte]]
 
 { .block-language-dataview}
 
 ## Annet
-- [[Kunnskap/node.js\|node.js]]
 - [[Kunnskap/URL\|URL]]
 - [[Kunnskap/Tillegg til Kode 1\|Tillegg til Kode 1]]
 - [[Kunnskap/Skjermleser\|Skjermleser]]
 - [[Kunnskap/Server\|Server]]
 - [[Kunnskap/Publisere nettsider hos GitHub pages\|Publisere nettsider hos GitHub pages]]
-- [[Kunnskap/Forelesninger/IT1 forelesninger\|IT1 forelesninger]]
+- [[Kunnskap/node.js\|node.js]]
 - [[Kunnskap/Forelesninger/IT1 Oppdrag til fagdag 1\|IT1 Oppdrag til fagdag 1]]
+- [[Kunnskap/Forelesninger/IT1 forelesninger\|IT1 forelesninger]]
 - [[Kunnskap/DNS\|DNS]]
 - [[Kunnskap/Bruke VS Code til python programmering\|Bruke VS Code til python programmering]]
 
