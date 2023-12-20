@@ -16,6 +16,6 @@ protokoll://underdomene.domene.toppdomene:port/sti/side
 - Toppdomener som for eksempel `.no`, `.com`, `.co.uk`. Det er begrenset med toppdomener i bruk.
 - Domene er delen av URLen som kommer foran toppdomene. Jeg leier for eksempel domenet `stalegjelsten` på toppdomenet `.no`. Man kjøper/leier domener av en *domeneforhandler*. Det er vanlig at man betaler for et domene.
 - Underdomener styres av den som eier domenet. Jeg kan opprette «ubegrenset» mange underdomener til [stalegjelsten.no](https://stalegjelsten.no)
-- [[Kunnskap/Server\|Serveren]] kan åpne ulike porter mot internett. For eksempel går internettrafikk på `https`-protokollen på port 80. Hvis du kjører en *Live Preview* i [[VS Code\|VS Code]] så bruker du kanskje port 3000.
+- [[Kunnskap/Server\|Serveren]] kan åpne ulike porter mot internett. For eksempel går internettrafikk på `https`-protokollen på port 80. Hvis du kjører en *Live Preview* i [[Kunnskap/Visual Studio Code\|Visual Studio Code]] så bruker du kanskje port 3000.
 - Sti er en referanse til mappen som HTML-dokumentet ligger i. Stien er relativ til [[Kunnskap/Server\|serverens]] rotmappe.
 - Side er navnet på filen som inneholder HTML-koden som vises i nettleseren.
