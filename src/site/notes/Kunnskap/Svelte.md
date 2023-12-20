@@ -23,8 +23,8 @@ For å opprette et nytt prosjekt i [[Kunnskap/Svelte\|Svelte]] kan du følge ins
 
 I videoen gjør jeg følgende steg:
 1. Oppretter enn ny mappe til prosjektet
-2. Åpner mappen i [[VS Code\|VS Code]] med menyvalget `File` → `Open Folder`
-3. Åpner en terminal i [[VS Code\|VS Code]] med menyvalget `Terminal` → `New Terminal`
+2. Åpner mappen i [[Kunnskap/Visual Studio Code\|Visual Studio Code]] med menyvalget `File` → `Open Folder`
+3. Åpner en terminal i [[Kunnskap/Visual Studio Code\|Visual Studio Code]] med menyvalget `Terminal` → `New Terminal`
 4. Skriver inn kommandoen `npm create svelte@latest .`
 	1. `npm` er navnet på programmet vi kjører: node package manager
 	2. `create` betyr at vi skal opprette et nytt prosjekt
