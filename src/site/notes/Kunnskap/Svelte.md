@@ -6,15 +6,43 @@
 # Svelte
 Svelte er et rammeverk for å bygge nettsider med javascript.
 
-For å lage en Svelte nettside trenger du [[Kunnskap/node.js\|node.js]] med `npm` installert på datamaskinen. Åpne en terminal og kjør følgende kommandoer
+For å lage en Svelte nettside trenger du [[Kunnskap/node.js\|node.js]] med `npm` installert på datamaskinen. 
 
-```shell
-npm create svelte@latest PROSJEKTNAVN
-cd PROSJEKTNAVN
-npm install
-npm run dev -- --open
-```
 
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/kunnskap/opprette-nytt-svelteprosjekt/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+
+
+
+
+
+# Opprette nytt Svelteprosjekt
+
+For å opprette et nytt prosjekt i [[Kunnskap/Svelte\|Svelte]] kan du følge instruksjonen i videoen under.
+
+<iframe src="https://www.youtube.com/embed/dIFvziknTuk" class="youtube" title="" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+I videoen gjør jeg følgende steg:
+1. Oppretter enn ny mappe til prosjektet
+2. Åpner mappen i [[VS Code\|VS Code]] med menyvalget `File` → `Open Folder`
+3. Åpner en terminal i [[VS Code\|VS Code]] med menyvalget `Terminal` → `New Terminal`
+4. Skriver inn kommandoen `npm create svelte@latest .`
+	1. `npm` er navnet på programmet vi kjører: node package manager
+	2. `create` betyr at vi skal opprette et nytt prosjekt
+	3. `svelte@latest` betyr at prosjekttypen er Svelte, og at vi skal brukes siste versjon av Svelte
+	4. `.` betyr at vi skal opprette prosjektet i vår nåværende mappe
+5. Gjør følgende valg ved hjelp av piltastene, mellomromstasten og enter
+	1. Enter for å bekrefte at vi oppretter prosjektet i nåværende mappe
+	2. Velger `Skeleton project` for å få et blankt prosjekt uten innhold
+	3. Velger ingen `Type checking` siden vi ikke bruker dette i [[IT1 MOC\|IT1]]
+	4. Velger `ESLint` for å hjelpe oss å finne feil og problemer i koden, samt `Prettier` som formaterer koden vår på en fin måte
+6. Skriver inn `npm install` for å installere alle pakkene som `npm` har funnet ut at vi trenger til prosjektet
+7. Skriver `npm run dev -- --open` for å starte en [[Kunnskap/Svelte\|Svelte]] [[Kunnskap/Server\|Server]] som kompilerer Sveltekoden vår, lager den ferdige [[Kunnskap/HTML\|HTML]]-, [[Kunnskap/CSS\|CSS]]- og [[Javascript\|Javascript]]-koden og viser oss nettsiden. Denne serveren må kjøre på datamaskinen din for at du skal kunne se nettsiden.
+
+
+</div></div>
+
+
+## Lenker i Svelte
 Hvis man oppretter en mappe kalt `katt` under `src/routes/` og legger inn en `+page.svelte` inn i den mappa (slik at full sti blir `src/routes/katt/+page.svelte`) så blir den Svelte-fila prosessert og tilgjengelig på URLen `katt`. **Mappenavnet blir altså navnet på [[Kunnskap/URL\|URL]]en**.
 
 ## Promises i Svelte
@@ -73,7 +101,7 @@ $: c = a + b
 ```
 
 Her er `c` deklarert som en dynamisk variabel. Dersom vi oppdaterer `a` eller `b` så vil `c`oppdateres automatisk. 
-	
+
 ## Scoping i CSS
 CSS som skrives i Svelte er *scopet* (begrenset) til den nåværende siden. Hvis man ønsker å endre på `body` eller `html` så er man nødt til å gå til det globale scopet ved `:global(body) {}`.
 
