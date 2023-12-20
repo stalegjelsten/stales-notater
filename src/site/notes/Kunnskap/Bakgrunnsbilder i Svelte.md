@@ -11,7 +11,7 @@ For at du skal kunne vise et bakgrunnsbilde på en nettside skrevet i [[Kunnskap
 	1. Enten på en nettadresse (for eksempel `https://nettside.no/bilde.jpg`)
 	2. Eller i `static`-mappa til prosjektet
 3. Du må bruke den spesielle [[Kunnskap/Selektorer i CSS\|CSS-selektoren]] `:global(html)` for å kunne endre bakgrunnsbilde for hele nettsiden.
-4. Du må starte Svelte [[Kunnskap/Server\|serveren]] selv med `npm run dev -- --open` og **ikke** bruke det innebygde *Preview*-vinduet i [[VS Code\|VS Code]]. 
+4. Du må starte Svelte [[Kunnskap/Server\|serveren]] selv med `npm run dev -- --open` og **ikke** bruke det innebygde *Preview*-vinduet i [[Kunnskap/Visual Studio Code\|Visual Studio Code]]. 
 
 ## Eksempel på framgangsmåte
 Opprett et nytt `skeleton project`. 
