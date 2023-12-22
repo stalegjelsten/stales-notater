@@ -26,11 +26,20 @@ update class set sex = 'X', freestart = True, direct = True;
 ``` 
 
 ### Gi tilfeldig løype til løpere i en klasse
-Dersom man har ulike løyper i samme klasse (for eksempel med ulike gaflinger), så kan man tildele gaflinger tilfeldig ved hjelp av SQL. Linja nedenfor tildeler en tilfeldig løype til alle løpere i klasse `H lang`. Løypenummeret er i dette eksempelet et tilfeldig heltall i intervallet $[3  , 6]$. Endre på tallene 6 og 3 og klassenavnet for å passe til egen bruk
+Dersom man har ulike løyper i samme klasse (for eksempel med ulike gaflinger), så kan man tildele gaflinger til løperne tilfeldig ved hjelp av SQL. For at dette skal fungere må man ha [[Orientering/eTiming til nærløp#Last inn løyper\|importert løypene i eTiming]] og notert seg hvilke løypenummer som hører til hver klasse.
+
+I eksempelet under så skal klasse `H lang` tildeles løyper fra løypenummer 3 til og med 6. Endre på tallene 6 og 3 og klassenavnet for å passe til egen bruk
 
 ```sql
 update name set cource = Int((6 - 3 + 1) * Rnd(id) + 3) where class in (select class.code from class where class.class = 'H lang');
 ```
+
+#### Forklaring på spørringen
+- Vi oppdaterer alle radene i tabellen `name` hvor feltet `class` har en klassekode som tilsvarer `H lang`
+	- Siden koblingen mellom klassekoder og klassenavn er lagret i tabellen `class` er vi nødt til å bruke en ny `select`-spørring for å få tak i klassekoden
+- Vi trekker et tilfeldig tall med `Rnd`. For å få ulike heltall for hver rad bruker vi `id` som parameter
+- Det tilfeldige tallet er et tall mellom 0 og 1. Vi multipliserer derfor med differansen mellom øvre og nedre grense (+1), og vi legger til den nedre grensa. På denne måten får vi et tall mellom øvre og nedre grense når vi gjør om tallet til et heltall (`int`)
+- Vi setter feltet `cource` til heltallet som vi beregnet i forrige steg
 
 *Merk at denne metoden ikke gir like mange løpere i hver løype. Siden vi trekker tilfeldige tall så kan det være at det blir veldig mange i noen løyper, og ingen løpere i andre løyper. Man bør nok derfor justere løypenummere manuelt i etterkant.*
 
