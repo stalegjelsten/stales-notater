@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Orientering/eTiming database/","title":"eTiming database","tags":["etiming"]}
+{"dg-publish":true,"permalink":"/Orientering/eTiming database/","title":"eTiming database","tags":["etiming","orientering"]}
 ---
 
 
@@ -16,6 +16,7 @@ Databasen til [[Orientering/eTiming\|eTiming]] er i MS Access format (`.mdb`) og
 
 >[!Warning] Bruk av anførselstegn i spørringer i eTiming
 >Man er nødt til å bruke enkle anførselstegn, **'**, for å markere strenger. Doble anførselstegn blir ikke gjenkjent av eTiming
+
 ## Smarte tips
 
 ### Oppdatere klasseregisteret for fristart og åpne klasser
@@ -23,6 +24,15 @@ Setter alle klasser til intetkjønn og gir dem bruk brikketid + fristart.
 ```sql
 update class set sex = 'X', freestart = True, direct = True;
 ``` 
+
+### Gi tilfeldig løype til løpere i en klasse
+Dersom man har ulike løyper i samme klasse (for eksempel med ulike gaflinger), så kan man tildele gaflinger tilfeldig ved hjelp av SQL. Linja nedenfor tildeler en tilfeldig løype til alle løpere i klasse `H lang`. Løypenummeret er i dette eksempelet et tilfeldig heltall i intervallet $[3  , 6]$. Endre på tallene 6 og 3 og klassenavnet for å passe til egen bruk
+
+```sql
+update name set cource = Int((6 - 3 + 1) * Rnd(id) + 3) where class in (select class.code from class where class.class = 'H lang');
+```
+
+*Merk at denne metoden ikke gir like mange løpere i hver løype. Siden vi trekker tilfeldige tall så kan det være at det blir veldig mange i noen løyper, og ingen løpere i andre løyper. Man bør nok derfor justere løypenummere manuelt i etterkant.*
 
 ### Urangerte resultatlister for barn
 ```sql
