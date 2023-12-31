@@ -33,15 +33,15 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 { .block-language-dataview}
 
 ## Svelte
-- [[Kunnskap/Opprette nytt Svelteprosjekt\|Opprette nytt Svelteprosjekt]]
-- [[Kunnskap/Bakgrunnsbilder i Svelte\|Bakgrunnsbilder i Svelte]]
 - [[Kunnskap/each blokker i Svelte\|each blokker i Svelte]]
 - [[Kunnskap/Svelte stores\|Svelte stores]]
 - [[Kunnskap/Svelte\|Svelte]]
 - [[Kunnskap/Reaktivitet i Svelte\|Reaktivitet i Svelte]]
+- [[Kunnskap/Opprette nytt Svelteprosjekt\|Opprette nytt Svelteprosjekt]]
 - [[Kunnskap/Lese JSON med JavaScript\|Lese JSON med JavaScript]]
-- [[Kunnskap/Animasjoner i Svelte\|Animasjoner i Svelte]]
+- [[Kunnskap/Bakgrunnsbilder i Svelte\|Bakgrunnsbilder i Svelte]]
 - [[Kunnskap/Bytt fargemodus på nettsider\|Bytt fargemodus på nettsider]]
+- [[Kunnskap/Animasjoner i Svelte\|Animasjoner i Svelte]]
 
 { .block-language-dataview}
 
@@ -52,8 +52,9 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 - [[Kunnskap/Skjermleser\|Skjermleser]]
 - [[Kunnskap/Server\|Server]]
 - [[Kunnskap/Publisere nettsider hos GitHub pages\|Publisere nettsider hos GitHub pages]]
-- [[Kunnskap/Forelesninger/IT1 Oppdrag til fagdag 1\|IT1 Oppdrag til fagdag 1]]
+- [[Kunnskap/Javascript objekter\|Javascript objekter]]
 - [[Kunnskap/Forelesninger/IT1 forelesninger\|IT1 forelesninger]]
+- [[Kunnskap/Forelesninger/IT1 Oppdrag til fagdag 1\|IT1 Oppdrag til fagdag 1]]
 - [[Kunnskap/DNS\|DNS]]
 - [[Kunnskap/Bruke VS Code til python programmering\|Bruke VS Code til python programmering]]
 

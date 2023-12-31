@@ -43,6 +43,15 @@ update name set cource = Int((6 - 3 + 1) * Rnd(id) + 3) where class in (select c
 
 *Merk at denne metoden ikke gir like mange løpere i hver løype. Siden vi trekker tilfeldige tall så kan det være at det blir veldig mange i noen løyper, og ingen løpere i andre løyper. Man bør nok derfor justere løypenummere manuelt i etterkant.*
 
+
+#### Bør testes til senere
+```sql
+
+update cource = 
+select * from name order by Rnd(id) 
+```
+
+
 ### Urangerte resultatlister for barn
 ```sql
 update class set timingtype = 2 where class like 'N-%pen';
