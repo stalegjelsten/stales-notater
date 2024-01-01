@@ -11,9 +11,9 @@ Hvis du er godt kjent med microbit, og har mer lyst til å fikle med sensorer, e
 *For deg som aldri har programmert en microbit tidligere.*
 
 - Gå til [https://makecode.microbit.org/](https://makecode.microbit.org/). Bruk enten Microsoft Edge eller Google Chrome som nettleser. Dette er siden du skal bruke for å programmere microbiten.
-- Se [[Dokumenter/Bli kjent med microbit#Video som viser hvordan programmere et hjerte med microbit\|#Video som viser hvordan programmere et hjerte med microbit]] med Sigurd fra Superbit/NRK Skole
+- Se [[Dokumenter/Bli kjent med microbit#Video som viser hvordan programmere et hjerte med microbit\|Bli kjent med microbit#Video som viser hvordan programmere et hjerte med microbit]] med Sigurd fra Superbit/NRK Skole
 - Prøv å gjøre stegene sammen med Sigurd i videoen
-- For å koble microbit til PCen så kan du se [[Dokumenter/Bli kjent med microbit#Video som viser hvordan koble microbit til PCen\|#Video som viser hvordan koble microbit til PCen]]
+- For å koble microbit til PCen så kan du se [[Dokumenter/Bli kjent med microbit#Video som viser hvordan koble microbit til PCen\|Bli kjent med microbit#Video som viser hvordan koble microbit til PCen]]
 
 ### Video som viser hvordan programmere et hjerte med microbit
 <iframe width="100%" style="aspect-ratio: 16/9;" src="https://static.nrk.no/ludo/latest/video-embed.html#id=1d39e582-7522-4391-bb04-03584963051c&amp;referrer=https%3A%2F%2Fwww.superbit.no%2Fvideo%2F"></iframe>
@@ -31,7 +31,7 @@ Hvis du er godt kjent med microbit, og har mer lyst til å fikle med sensorer, e
 ## Nivå 3: Kom i gang med bilroboten BitBot
 *Passer for de fleste som er kjent med blokkprogrammering av BitBot*
 
-- Se [[Dokumenter/Bli kjent med microbit#Video fra SuperBit som viser hvordan man kommer igang med bitbot\|#Video fra SuperBit som viser hvordan man kommer igang med bitbot]]
+- Se [[Dokumenter/Bli kjent med microbit#Video fra SuperBit som viser hvordan man kommer igang med bitbot\|Bli kjent med microbit#Video fra SuperBit som viser hvordan man kommer igang med bitbot]]
 - Gå til oppgaven [Kjør en meter med BitBot hos Superbit](https://www.superbit.no/undervisningsopplegg/kjoer-en-meter-med-bitbot/kjoer-en-meter-med-bitbot-elev/)
 - *Anbefaling*: Ved oppgave ligger et vindu med blokker som er klare for deg. Bruk knappen `↗️ Rediger` for å åpne disse blokkene i et eget Makecode-vindu
 - Løs oppgaven:
