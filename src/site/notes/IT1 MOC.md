@@ -19,8 +19,8 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 - [[Kunnskap/Midtstille innhold\|Midtstille innhold]]
 - [[Kunnskap/Magisk skinnende tekst med CSS\|Magisk skinnende tekst med CSS]]
 - [[Kunnskap/Grid\|Grid]]
-- [[Kunnskap/Flexbox\|Flexbox]]
 - [[Kunnskap/Enheter og størrelser i CSS\|Enheter og størrelser i CSS]]
+- [[Kunnskap/Flexbox\|Flexbox]]
 - [[Kunnskap/Fargeforløpninger i CSS\|Fargeforløpninger i CSS]]
 - [[Kunnskap/Display inline, block og inline-block\|Display inline, block og inline-block]]
 - [[Kunnskap/CSS pseudoselektorer\|CSS pseudoselektorer]]
@@ -64,8 +64,8 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 | File                                                                                                                               | Dato       |
 | ---------------------------------------------------------------------------------------------------------------------------------- | ---------- |
 | [[Kunnskap/Forelesninger/IT1-1-2 intro til HTML\|IT1-1-2 intro til HTML]]                                                       | 2023-08-21 |
-| [[Kunnskap/Forelesninger/IT1-1-4 VS Code og mappestruktur\|IT1-1-4 VS Code og mappestruktur]]                                   | 2023-08-24 |
 | [[Kunnskap/Forelesninger/IT1-1-5 Bilder\|IT1-1-5 Bilder]]                                                                       | 2023-08-24 |
+| [[Kunnskap/Forelesninger/IT1-1-4 VS Code og mappestruktur\|IT1-1-4 VS Code og mappestruktur]]                                   | 2023-08-24 |
 | [[Kunnskap/Forelesninger/IT1-1-6 Lenker\|IT1-1-6 Lenker]]                                                                       | 2023-08-28 |
 | [[Kunnskap/Forelesninger/IT1-1-7 Tabeller\|IT1-1-7 Tabeller]]                                                                   | 2023-08-31 |
 | [[Kunnskap/Forelesninger/IT1-2-1 Intro til CSS\|IT1-2-1 Intro til CSS]]                                                         | 2023-09-04 |

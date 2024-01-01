@@ -6,8 +6,9 @@
 # Orientering
 
 Oversikt over publiserte notater om orientering
-- [[Orientering/LiveRes for etiming\|LiveRes for etiming]]
 - [[Orientering/Livelox\|Livelox]]
+- [[Orientering/LiveRes for etiming\|LiveRes for etiming]]
+- [[Orientering/Orientering\|Orientering]]
 - [[Orientering/Printe på klubbhuset\|Printe på klubbhuset]]
 - [[Orientering/eTiming database\|eTiming database]]
 - [[Orientering/eTiming med spooling av resultater\|eTiming med spooling av resultater]]
@@ -15,7 +16,6 @@ Oversikt over publiserte notater om orientering
 - [[Orientering/eTiming til sommercup\|eTiming til sommercup]]
 - [[Orientering/eTiming\|eTiming]]
 - [[Orientering/ttime brukermanual\|ttime brukermanual]]
-- [[Orientering/Orientering\|Orientering]]
 - [[Orientering/ttime til enkle orienteringsløp\|ttime til enkle orienteringsløp]]
 
 { .block-language-dataview}

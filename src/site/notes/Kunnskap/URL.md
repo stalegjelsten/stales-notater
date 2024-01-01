@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/Kunnskap/URL/","title":"URL","tags":["it1"]}
 ---
 
-
 # URL
 <abbr>URL</abbr> (Uniform Resource Locator) er betegnelsen på adresser på internett av typen <https://nrk.no> og <https://whitehouse.gov>.
 
