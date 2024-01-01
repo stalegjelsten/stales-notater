@@ -96,7 +96,6 @@
 | [[Kunnskap/Høymiddelalderen i Norge\|Høymiddelalderen i Norge]]                                                                                                             | <ul><li>historie</li></ul>                                   | February 02, 2023  |
 | [[Kunnskap/Investiturstriden\|Investiturstriden]]                                                                                                                           | <ul><li>historie</li></ul>                                   | January 23, 2023   |
 | [[Kunnskap/Jeger- og sankersamfunnet\|Jeger- og sankersamfunnet]]                                                                                                           | <ul><li>historie</li></ul>                                   | September 04, 2022 |
-| [[Kunnskap/Johan de Witt\|Johan de Witt]]                                                                                                                                   | <ul><li>historie</li></ul>                                   | October 15, 2022   |
 | [[Kunnskap/Jyllandsslaget\|Jyllandsslaget]]                                                                                                                                 | <ul><li>historie</li></ul>                                   | October 07, 2023   |
 | [[Kunnskap/Jordbruksrevolusjonen\|Jordbruksrevolusjonen]]                                                                                                                   | <ul><li>historie</li></ul>                                   | January 28, 2023   |
 | [[Kunnskap/Keisertiden\|Keisertiden]]                                                                                                                                       | <ul><li>historie</li></ul>                                   | January 23, 2023   |
@@ -130,5 +129,6 @@
 | [[Kunnskap/Tronfølgelovene\|Tronfølgelovene]]                                                                                                                               | <ul><li>historie</li></ul>                                   | January 23, 2023   |
 | [[Kunnskap/Vikingtiden\|Vikingtiden]]                                                                                                                                       | <ul><li>historie</li></ul>                                   | January 29, 2023   |
 | [[Kunnskap/Forelesningsnotater/2015-10-12 Europa 1000–1800\|2015-10-12 Europa 1000–1800]]                                                                                   | <ul><li>forelesning</li><li>hi100</li><li>historie</li></ul> | October 12, 2015   |
+| [[Kunnskap/Johan de Witt\|Johan de Witt]]                                                                                                                                   | <ul><li>historie</li></ul>                                   | January 01, 2024   |
 
 { .block-language-dataview}
