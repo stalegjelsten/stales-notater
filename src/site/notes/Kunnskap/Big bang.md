@@ -140,8 +140,6 @@ Les mer om big bangs forutsigelser hos [Wikipedia](https://en.m.wikipedia.org/wi
 ## Related
 [[Kunnskap/Universet\|Universet]]
 
----
 
-[^1]: Læreboka Natufag 5 påstår av inflasjonen starter etter plancktiden $10^{-43}$ s, men det klarer jeg ikke finne andre kilder på.
 [^2]: Læreboka Naturfag 5 påstår at utvidelsen er en faktor $10^{43}$, men jeg forholder meg til [Wikipedia](https://en.wikipedia.org/wiki/Expansion_of_the_universe) akkurat her.
 [^3]: tidligere var det så varmt og tett at reaksjonen hvor protoner og elektroner slår seg sammen til hydrogen ville gått i begge retninger, $\ce{p^{+} + e^{-} <=> H + \gamma}$. Fotonene ville bare kollidert i elektroner og slått dem løs fra hydrogenatomene igjen
