@@ -14,11 +14,7 @@ Jeg blir veldig glad om du melder ifra om feil enten direkte til meg eller via f
 Vi har at $\sin u=\frac{8}{10}$ og $\cos u =\frac{6}{10}$. 
 
 $$
-\sin^2u+\cos^2u=\left( \frac{8}{10} \right)
-{ #2}
-+\left( \frac{6}{10} \right)
-{ #2}
-=\frac{64}{100} +\frac{36}{100}=\frac{100}{100}=1
+\sin^2 u + \cos^2 u = \left( \frac{8}{10} \right)^2 + \left( \frac{6}{10} \right)^2 = \frac{64}{100} + \frac{36}{100} = \frac{100}{100} = 1
 $$
 
 #### Alternativ 2: bruke pytagoras
