@@ -53,8 +53,8 @@ For å oppdatere eTiming gjør du følgende:
 - [[Orientering/eTiming\|eTiming]]
 - [[Orientering/eTiming til sommercup\|eTiming til sommercup]]
 - [[Orientering/eTiming til Agderkarusell\|eTiming til Agderkarusell]]
-- [[Orientering/eTiming database\|eTiming database]]
 - [[Orientering/eTiming med gafling\|eTiming med gafling]]
+- [[Orientering/eTiming database\|eTiming database]]
 - [[Orientering/LiveRes for etiming\|LiveRes for etiming]]
 
 { .block-language-dataview}

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Forelesninger/IT1-5-3-Interaktive nettsider/","title":"IT1-5-3-Interaktive nettsider","tags":["it1","forelesning"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Forelesninger/IT1-5-3 Interaktive nettsider/","title":"IT1-5-3-Interaktive nettsider","tags":["it1","forelesning"]}
 ---
 
 
