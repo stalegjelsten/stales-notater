@@ -22,6 +22,8 @@
 | [[Kunnskap/Forelesninger/IT1-4-2 Bits, bytes, analoge og digitale signaler\|IT1-4-2 Bits, bytes, analoge og digitale signaler]] | 2023-10-30 |
 | [[Kunnskap/Forelesninger/IT1-4-1 datamaskiner\|IT1-4-1 datamaskiner]]                                                           | 2023-11-06 |
 | [[Kunnskap/Forelesninger/IT1-4-3 Bilder og lyd\|IT1-4-3 Bilder og lyd]]                                                         | 2023-11-16 |
-| [[Kunnskap/Forelesninger/IT1-5-3-Interaktive nettsider\|IT1-5-3-Interaktive nettsider]]                                         | 2023-11-30 |
+| [[Kunnskap/Forelesninger/IT1-5-3 Interaktive nettsider\|IT1-5-3 Interaktive nettsider]]                                         | 2023-11-30 |
+| [[Kunnskap/Forelesninger/IT1-6-1 Arrays\|IT1-6-1 Arrays]]                                                                       | 2024-01-10 |
+| [[Kunnskap/Forelesninger/IT1-6-2 Objekter\|IT1-6-2 Objekter]]                                                                   | 2024-01-11 |
 
 { .block-language-dataview}
