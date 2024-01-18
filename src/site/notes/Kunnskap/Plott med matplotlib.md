@@ -4,7 +4,7 @@
 
 
 # Plott med matplotlib
-`matplotlib` er et bibliotek til [[Python\|Python]] som gjør det mulig å lage grafer og plott. Matplotlib er laget slik at det skal være enkelt for brukere av `MATLAB` til å gå over til Python. Det gjør at Matplotlib føles litt mindre pythonsk enn mange andre pythonbiblioteker.
+`matplotlib` er et bibliotek til [[Kunnskap/Python\|Python]] som gjør det mulig å lage grafer og plott. Matplotlib er laget slik at det skal være enkelt for brukere av `MATLAB` til å gå over til Python. Det gjør at Matplotlib føles litt mindre pythonsk enn mange andre pythonbiblioteker.
 
 ## Installasjon
 Prøv å importere Matplotlib med følgende kode
