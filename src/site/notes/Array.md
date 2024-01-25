@@ -4,7 +4,7 @@
 
 
 # Array
->[!warning] Dette notatet gjelder kun [[Javascript\|Javascript]]
+>[!warning] Dette notatet gjelder kun [[Kunnskap/Javascript\|Javascript]]
 >Dette notatet omhandler kun Javascript. Det finnes arrays i andre programmeringsspråk, blant annet finnes det [[Numpy\|Numpy]] arrays i [[Kunnskap/Python\|Python]].
 
 Et array er en samling av indekserte elementer. Jeg tenker på arrays som lister med elementer.

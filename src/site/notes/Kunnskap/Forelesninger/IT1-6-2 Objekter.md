@@ -3,6 +3,7 @@
 ---
 
 
+
 # IT1-6-2 Objekter
 2024-01-11
 
@@ -20,7 +21,7 @@
 ---
 
 ## Objekter
-Et objekt i [[Javascript\|Javascript]] er en samling av egenskaper (også kalt nøkler) og verdier. For eksempel kan objektet `bil` være definert på følgende måte
+Et objekt i [[Kunnskap/Javascript\|Javascript]] er en samling av egenskaper (også kalt nøkler) og verdier. For eksempel kan objektet `bil` være definert på følgende måte
 
 ```javascript
 let bil = {

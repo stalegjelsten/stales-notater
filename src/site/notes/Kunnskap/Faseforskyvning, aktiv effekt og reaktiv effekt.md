@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Faseforskyvning, aktiv effekt og reaktiv effekt/","title":"Faseforskyvning, aktiv effekt og reaktiv effekt","tags":["elektronikk","elektro"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Faseforskyvning, aktiv effekt og reaktiv effekt/","title":"Faseforskyvning, aktiv effekt og reaktiv effekt","tags":["elektronikk","elektro"]}
 ---
 
 

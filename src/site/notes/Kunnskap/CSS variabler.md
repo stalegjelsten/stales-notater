@@ -20,6 +20,6 @@ body {
 - Variabelnavnet `--text-color` tilordnes verdien `blue`. *Alle CSS variabelnavn må starte med to bindestreker*.
 - Vi bruker variabelen ved å skrive `var(variabelnavn)`. 
 
-Den store fordelen med å bruke variabler er at vi kan endre farger på mange elementer samtidig (og vi kan bruke [[Javascript\|Javascript]] til å endre på variablene og dermed utseendet til hele nettsiden).
+Den store fordelen med å bruke variabler er at vi kan endre farger på mange elementer samtidig (og vi kan bruke [[Kunnskap/Javascript\|Javascript]] til å endre på variablene og dermed utseendet til hele nettsiden).
 
 [^1]: Egentlig finnes ikke variabler i <abbr>CSS</abbr> – de heter custom properties eller tilpassede egenskaper
