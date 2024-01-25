@@ -34,6 +34,6 @@ h1:hover {
 ```
 
 ## Animasjoner av JavaScript states
-Man kan animere et element ut fra en variabel i [[Javascript\|Javascript]] ved å definere ulike klasser i CSS og sette inn.
+Man kan animere et element ut fra en variabel i [[Kunnskap/Javascript\|Javascript]] ved å definere ulike klasser i CSS og sette inn.
 
 >[!todo] Fullfør avsnittet om animasjoner av javascript states
