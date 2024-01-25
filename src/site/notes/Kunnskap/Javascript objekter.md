@@ -4,7 +4,7 @@
 
 
 # Javascript objekter
-Et objekt i [[Javascript\|Javascript]] er en samling av egenskaper og verdier. For eksempel kan objektet `bil` være definert på følgende måte
+Et objekt i [[Kunnskap/Javascript\|Javascript]] er en samling av egenskaper og verdier. For eksempel kan objektet `bil` være definert på følgende måte
 
 ```javascript
 let bil = {merke: "Audi", modell: "A3 Quattro", motorvolum: 2.0, eiere: ["Ståle Gjelsten", "Navn på tidligere eier"]}
