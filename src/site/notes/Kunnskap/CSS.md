@@ -26,12 +26,12 @@ Den vanligste løsningen er å skrive CSS-koden i et eget stilark med filendelse
 - [[Kunnskap/Grid\|Grid]]
 - [[Kunnskap/Flexbox\|Flexbox]]
 - [[Kunnskap/Fargeforløpninger i CSS\|Fargeforløpninger i CSS]]
-- [[Kunnskap/Display inline, block og inline-block\|Display inline, block og inline-block]]
 - [[Kunnskap/Enheter og størrelser i CSS\|Enheter og størrelser i CSS]]
-- [[Kunnskap/CSS variabler\|CSS variabler]]
+- [[Kunnskap/Display inline, block og inline-block\|Display inline, block og inline-block]]
 - [[Kunnskap/CSS pseudoselektorer\|CSS pseudoselektorer]]
 - [[Kunnskap/CSS pseudoklasser\|CSS pseudoklasser]]
-- [[Kunnskap/CSS animasjoner\|CSS animasjoner]]
 - [[Kunnskap/Bytt fargemodus på nettsider\|Bytt fargemodus på nettsider]]
+- [[Kunnskap/CSS animasjoner\|CSS animasjoner]]
+- [[Kunnskap/CSS variabler\|CSS variabler]]
 
 { .block-language-dataview}
