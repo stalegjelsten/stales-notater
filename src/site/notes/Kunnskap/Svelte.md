@@ -36,7 +36,7 @@ I videoen gjør jeg følgende steg:
 	3. Velger ingen `Type checking` siden vi ikke bruker dette i [[IT1 MOC\|IT1]]
 	4. Velger `ESLint` for å hjelpe oss å finne feil og problemer i koden, samt `Prettier` som formaterer koden vår på en fin måte
 6. Skriver inn `npm install` for å installere alle pakkene som `npm` har funnet ut at vi trenger til prosjektet
-7. Skriver `npm run dev -- --open` for å starte en [[Kunnskap/Svelte\|Svelte]] [[Kunnskap/Server\|Server]] som kompilerer Sveltekoden vår, lager den ferdige [[Kunnskap/HTML\|HTML]]-, [[Kunnskap/CSS\|CSS]]- og [[Javascript\|Javascript]]-koden og viser oss nettsiden. Denne serveren må kjøre på datamaskinen din for at du skal kunne se nettsiden.
+7. Skriver `npm run dev -- --open` for å starte en [[Kunnskap/Svelte\|Svelte]] [[Kunnskap/Server\|Server]] som kompilerer Sveltekoden vår, lager den ferdige [[Kunnskap/HTML\|HTML]]-, [[Kunnskap/CSS\|CSS]]- og [[Kunnskap/Javascript\|Javascript]]-koden og viser oss nettsiden. Denne serveren må kjøre på datamaskinen din for at du skal kunne se nettsiden.
 	1. `run dev` kjører et npm script kalt `dev` som du finner i fila `package.json`. Hvis du leter her så vil du se at `dev` egentlig kjører kommandoen `vite dev`.
 	2. `--` disse to bindestrekene gjør at Svelte [[Kunnskap/Server\|serveren]] blir tilgjengelig på nettverket på adressen `localhost:5173`.
 	3. `--open` gjør at nettsidene åpnes i nettleseren automatisk
