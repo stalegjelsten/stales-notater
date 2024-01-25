@@ -21,37 +21,39 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 - [[Kunnskap/Grid\|Grid]]
 - [[Kunnskap/Flexbox\|Flexbox]]
 - [[Kunnskap/Fargeforløpninger i CSS\|Fargeforløpninger i CSS]]
-- [[Kunnskap/Display inline, block og inline-block\|Display inline, block og inline-block]]
 - [[Kunnskap/Enheter og størrelser i CSS\|Enheter og størrelser i CSS]]
-- [[Kunnskap/CSS variabler\|CSS variabler]]
-- [[Kunnskap/CSS\|CSS]]
+- [[Kunnskap/Display inline, block og inline-block\|Display inline, block og inline-block]]
 - [[Kunnskap/CSS pseudoselektorer\|CSS pseudoselektorer]]
+- [[Kunnskap/CSS\|CSS]]
 - [[Kunnskap/CSS pseudoklasser\|CSS pseudoklasser]]
+- [[Kunnskap/CSS variabler\|CSS variabler]]
 - [[Kunnskap/CSS animasjoner\|CSS animasjoner]]
 - [[Kunnskap/Bytt fargemodus på nettsider\|Bytt fargemodus på nettsider]]
 
 { .block-language-dataview}
 
 ## Svelte
-- [[Kunnskap/each blokker i Svelte\|each blokker i Svelte]]
-- [[Kunnskap/Svelte stores\|Svelte stores]]
 - [[Kunnskap/Svelte\|Svelte]]
+- [[Kunnskap/Svelte stores\|Svelte stores]]
 - [[Kunnskap/Reaktivitet i Svelte\|Reaktivitet i Svelte]]
 - [[Kunnskap/Opprette nytt Svelteprosjekt\|Opprette nytt Svelteprosjekt]]
+- [[Kunnskap/Localstorage i Sveltekit\|Localstorage i Sveltekit]]
 - [[Kunnskap/Lese JSON med JavaScript\|Lese JSON med JavaScript]]
-- [[Kunnskap/Animasjoner i Svelte\|Animasjoner i Svelte]]
-- [[Kunnskap/Bakgrunnsbilder i Svelte\|Bakgrunnsbilder i Svelte]]
+- [[Kunnskap/each blokker i Svelte\|each blokker i Svelte]]
 - [[Kunnskap/Bytt fargemodus på nettsider\|Bytt fargemodus på nettsider]]
+- [[Kunnskap/Bakgrunnsbilder i Svelte\|Bakgrunnsbilder i Svelte]]
+- [[Kunnskap/Animasjoner i Svelte\|Animasjoner i Svelte]]
 
 { .block-language-dataview}
 
 ## Annet
-- [[Kunnskap/node.js\|node.js]]
+- [[Kunnskap/localStorage\|localStorage]]
 - [[Kunnskap/URL\|URL]]
-- [[Kunnskap/Publisere nettsider hos GitHub pages\|Publisere nettsider hos GitHub pages]]
 - [[Kunnskap/Tillegg til Kode 1\|Tillegg til Kode 1]]
+- [[Kunnskap/Publisere nettsider hos GitHub pages\|Publisere nettsider hos GitHub pages]]
 - [[Kunnskap/Skjermleser\|Skjermleser]]
 - [[Kunnskap/Server\|Server]]
+- [[Kunnskap/node.js\|node.js]]
 - [[Kunnskap/Løkker i Javascript\|Løkker i Javascript]]
 - [[Kunnskap/Javascript objekter\|Javascript objekter]]
 - [[Kunnskap/Forelesninger/IT1 fagdag 2024-01-10\|IT1 fagdag 2024-01-10]]
