@@ -4,7 +4,7 @@
 
 
 # each blokker i Svelte
-Each blokker gjør det enkelt å lage for-løkker.
+Each-blokker gjør det enkelt å iterere over [[Kunnskap/Javascript datatyper\|arrays]] i [[Kunnskap/Svelte\|Svelte]]. 
 
 {% raw %}
 ```html
@@ -26,6 +26,13 @@ Each blokker gjør det enkelt å lage for-løkker.
 		</a></li>
 	{/each}
 	<!-- close each block -->
+	
+	<!-- alternativ 2 med object destructuring -->
+		{#each cats as {id, name}, i}
+		<li><a target="_blank" href="https://www.youtube.com/watch?v={id}" rel="noreferrer">
+			{i + 1}: {name}
+		</a></li>
+	{/each}
 </ul>
 ```
 
