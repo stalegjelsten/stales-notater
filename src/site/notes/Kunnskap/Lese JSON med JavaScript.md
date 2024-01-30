@@ -33,7 +33,7 @@ I Svelte så håndteres promises [på følgende måte](https://svelte.dev/tutori
     const response = await fetch(URL);
     const results = await response.json();
     return results.value;
-    //JSON-objektet har en nøkkel som heter value som vi ønsker å lese
+    //JSON-objektet inneholder en vits i nøkkelen "value"
   };
 
   const promise = getActivities(URL);

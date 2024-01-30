@@ -26,8 +26,8 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 - [[Kunnskap/CSS pseudoselektorer\|CSS pseudoselektorer]]
 - [[Kunnskap/CSS\|CSS]]
 - [[Kunnskap/CSS pseudoklasser\|CSS pseudoklasser]]
-- [[Kunnskap/CSS variabler\|CSS variabler]]
 - [[Kunnskap/CSS animasjoner\|CSS animasjoner]]
+- [[Kunnskap/CSS variabler\|CSS variabler]]
 - [[Kunnskap/Bytt fargemodus på nettsider\|Bytt fargemodus på nettsider]]
 
 { .block-language-dataview}
@@ -47,17 +47,17 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 { .block-language-dataview}
 
 ## Annet
-- [[Kunnskap/localStorage\|localStorage]]
 - [[Kunnskap/URL\|URL]]
 - [[Kunnskap/Tillegg til Kode 1\|Tillegg til Kode 1]]
-- [[Kunnskap/Publisere nettsider hos GitHub pages\|Publisere nettsider hos GitHub pages]]
 - [[Kunnskap/Skjermleser\|Skjermleser]]
 - [[Kunnskap/Server\|Server]]
+- [[Kunnskap/Publisere nettsider hos GitHub pages\|Publisere nettsider hos GitHub pages]]
 - [[Kunnskap/node.js\|node.js]]
 - [[Kunnskap/Løkker i Javascript\|Løkker i Javascript]]
+- [[Kunnskap/localStorage\|localStorage]]
 - [[Kunnskap/Javascript objekter\|Javascript objekter]]
-- [[Kunnskap/Forelesninger/IT1 fagdag 2024-01-10\|IT1 fagdag 2024-01-10]]
 - [[Kunnskap/Forelesninger/IT1 Oppdrag til fagdag 1\|IT1 Oppdrag til fagdag 1]]
+- [[Kunnskap/Forelesninger/IT1 fagdag 2024-01-10\|IT1 fagdag 2024-01-10]]
 - [[Kunnskap/Forelesninger/IT1 forelesninger\|IT1 forelesninger]]
 - [[Kunnskap/DNS\|DNS]]
 - [[Kunnskap/Bruke VS Code til python programmering\|Bruke VS Code til python programmering]]
