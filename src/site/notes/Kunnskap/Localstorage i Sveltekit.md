@@ -4,14 +4,9 @@
 
 
 # Localstorage i Sveltekit
-Hvis man bruker [Sveltekit](https://kit.svelte.dev/) til å serve [[Kunnskap/Svelte\|Svelte]]-nettsider så kan man ikke bruke [[Kunnskap/localStorage\|localStorage]] direkte. Sveltekit kompilerer nettsiden før den blir tilgjengelig for brukeren, men det finnes ikke noe localStorage for servere. Derfor får vi feilmeldingen `ReferenceError: localStorage is not defined``.
-{ #290bb0}
-
+Hvis man bruker [Sveltekit](https://kit.svelte.dev/) til å serve [[Kunnskap/Svelte\|Svelte]]-nettsider så kan man ikke bruke [[Kunnskap/localStorage\|localStorage]] direkte. Sveltekit kompilerer nettsiden før den blir tilgjengelig for brukeren, men det finnes ikke noe localStorage for servere. Derfor får vi feilmeldingen `ReferenceError: localStorage is not defined.
 
 ## Løsning
-{ #ea2dd0}
-
-
 For å bruke `localStorage` med Sveltekit så gjør vi følgende:
 ```js
 import { browser } from '$app/environment'
