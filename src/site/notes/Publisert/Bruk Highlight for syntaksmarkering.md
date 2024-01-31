@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/Publisert/Kopier kode med syntaksmarkering/","title":"Bruk Hightlight for syntaksmarkering","tags":["lærer","programmering","python"]}
+{"dg-publish":true,"permalink":"/Publisert/Bruk Highlight for syntaksmarkering/","title":"Bruk Highlight for syntaksmarkering","tags":["lærer","programmering","python"]}
 ---
 
 
-# Bruk Hightlight for syntaksmarkering
+# Bruk Highlight for syntaksmarkering
 Kode ser mye bedre ut dersom det brukes synktaksmarkering, (englesk: *syntax highlighting*), altså ulike farger for variabelnavn, funksjoner, strenger og så videre.
 
 Hvis man skal lime inn kode i et Officeprogram eller itslearning så kan man få syntaksmarkering ved hjelp av programmet [Highlight](http://www.andre-simon.de/doku/highlight/en/highlight.php).
