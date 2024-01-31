@@ -24,14 +24,14 @@ Den vanligste løsningen er å skrive CSS-koden i et eget stilark med filendelse
 - [[Kunnskap/Midtstille innhold\|Midtstille innhold]]
 - [[Kunnskap/Magisk skinnende tekst med CSS\|Magisk skinnende tekst med CSS]]
 - [[Kunnskap/Grid\|Grid]]
+- [[Kunnskap/Enheter og størrelser i CSS\|Enheter og størrelser i CSS]]
 - [[Kunnskap/Flexbox\|Flexbox]]
 - [[Kunnskap/Fargeforløpninger i CSS\|Fargeforløpninger i CSS]]
-- [[Kunnskap/Enheter og størrelser i CSS\|Enheter og størrelser i CSS]]
 - [[Kunnskap/Display inline, block og inline-block\|Display inline, block og inline-block]]
 - [[Kunnskap/CSS pseudoselektorer\|CSS pseudoselektorer]]
 - [[Kunnskap/CSS pseudoklasser\|CSS pseudoklasser]]
-- [[Kunnskap/CSS animasjoner\|CSS animasjoner]]
 - [[Kunnskap/CSS variabler\|CSS variabler]]
+- [[Kunnskap/CSS animasjoner\|CSS animasjoner]]
 - [[Kunnskap/Bytt fargemodus på nettsider\|Bytt fargemodus på nettsider]]
 
 { .block-language-dataview}
