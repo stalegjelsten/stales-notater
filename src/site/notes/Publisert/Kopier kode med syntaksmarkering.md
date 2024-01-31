@@ -20,9 +20,9 @@ Hvis man skal lime inn kode i et Officeprogram eller itslearning så kan man få
 - Under `Formatting` så liker jeg å bruke et lyst tema: `vim earendel`.
 
 ## Bruk
-Jeg pleier å kopiere teksten til programmet mitt. Deretter trykker jeg på knappen `Paste, convert and copy`. Da legger den ferdige formaterte koden seg på utklippstavlen, og du kan lime inn i et annet program.
+Jeg pleier å markere all koden i Mu og kopiere denne (<kbd>ctrl</kbd> <kbd>A</kbd> for å merke koden og <kbd>ctrl</kbd> <kbd>C</kbd> for å kopiere den). Deretter trykker jeg på knappen `Paste, convert and copy` i Highlight. Da legger den ferdige formaterte koden seg på utklippstavlen, og du kan lime den inn i et annet program.
 
->[!danger] OneNote vil ikke lime inn koden
+>[!tip] Hva gjør jeg når OneNote ikke vil lime inn koden?
 >OneNote kan være litt vrien med tanke på hva slags tekst den ønsker å lime inn. Dersom du ikke får limt inn koden i OneNote så kan du:
 >
 >1. Lime inn koden i et tomt Word-dokument først
