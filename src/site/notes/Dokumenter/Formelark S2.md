@@ -316,17 +316,42 @@ $$
 >Ståle: fiks opp disse avsnittene
 
 
-Delvis integrasjon brukes ofte dersom du har et produkt av to ulike funksjoner, hvor den ene faktoren er enkel å integrere og den andre faktoren er enkel å derivere.
+Delvis integrasjon brukes ofte dersom du har et produkt av to ulike funksjoner. Du kan gjerne tenke på delvis integrasjon som en omvendt produktregel for derivasjon. 
+
+Delvis integrasjon er spesielt nyttig dersom den ene faktoren er enkel å integrere og den andre faktoren er enkel å derivere.
+
+Sett den ene faktoren til å være $u$, dette er den faktoren som blir derivert. Den andre faktoren setter setter du lik $v'$. Deretter bruker du formelen nedenfor.
 
 $$
-\int u' \cdot v \, \mathrm{d}x = u \cdot v - \int u \cdot v' \, \mathrm{d}x 
+\int u \cdot v' \, \mathrm{d}x = u \cdot v - \int u' \cdot v \, \mathrm{d}x 
 $$
 
+##### DI-metoden for delvis integrasjon
+Det er også mulig å bruke oppsettet kalt *DI*-metoden. Eksempelet under viser DI-metoden for $\int x^{2}e^{2x} \, \mathrm{d}x$
+
+|  | D | I |
+| :--: | :--: | :--: |
+| + | $x^{2}$ | $e^{2x}$ |
+| - | $2x$ | $\frac{1}{2}e^{2x}$ |
+| + | $2$ | $\frac{1}{4}e^{2x}$ |
+| - | $0$ | $\frac{1}{8}e^{2x}$ |
+Svaret med DI-metoden finner du ved å starte på fortegnet oppe til venstre (+), gå en til høyre ($x^{2}$) og deretter på skrå ned til høyre ($\frac{1}{2}e^{x}$ i raden under). Du fortsetter på samme måte nedover. Svaret på oppgaven vår blir
+
+$$
++x^{2} \frac{1}{2} e^{2x}-2x \frac{1}{4} e^{2x}+2 \frac{1}{8} e^{2x}+C = \frac{1}{2}e^{2x}x^{2}-\frac{1}{2}e^{2x}x+\frac{1}{4}e^{2x}+C
+$$
+
+Du lager rader i tabellen fram til du får en null, eller helt til du ser at du kan integrere produktet av faktorene i en rad. Hvis du ser at du kan integrere produktet av faktorene i en rad (for eksempel kan vi integrere produktet av 2 og $\frac{1}{4}e^{x}$ i rad 3), så kan du sette opp følgende
+
+$$
++x^{2} \frac{1}{2} e^{2x}- 2x \frac{1}{4}e^{2x}+\int 2 \frac{1}{4} e^{2x} \, \mathrm{d}x = \frac{1}{2}e^{2x}x^{2}-\frac{1}{2}e^{2x}x+2\int \frac{1}{2}e^{2x} \, \mathrm{d}x
+$$
+
+Når du løser dette vil du få samme svar som tidligere.
 #### Variabelskifte
 Variabelskifte brukes hvis du skal integrere en sammensatt funksjon. Variabelskifte kalles ofte for den omvendte kjerneregelen.
 
-Velg en kjerne $u$ og deriver denne slik at du finner $u'=\frac{du}{dx}$
-
+Velg en del av integranden som $u$, dette er variabelskiftet ditt. Substituer inn $u$ i integranden. Deretter deriverer du $u$ slik at du finner $u'=\frac{du}{dx}$. Løs likningen  med hensyn på $dx$ slik at du får $dx=\frac{du}{u'}$ og bytt ut $dx$ med $\frac{du}{u'}$ i det opprinnelige uttrykket ditt.
 ## Økonomi
 Her lar vi $I(x)$ være inntektene ved salg av $x$ enheter og $K(x)$ være produksjonskostnadene ved produksjon av $x$ enheter. Overskuddet $O(x)$ er da gitt ved
 $$

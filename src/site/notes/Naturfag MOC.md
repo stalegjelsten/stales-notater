@@ -10,11 +10,11 @@
 | [[Kunnskap/Alfastråling\|Alfastråling]]                                                       | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Amplitudemodulasjon\|Amplitudemodulasjon]]                                         | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Atom\|Atom]]                                                                       | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
-| [[Kunnskap/Bakgrunnsstråling\|Bakgrunnsstråling]]                                             | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
-| [[Kunnskap/Antenne\|Antenne]]                                                                 | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Baryon\|Baryon]]                                                                   | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Betastråling\|Betastråling]]                                                       | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Big bang\|Big bang]]                                                               | <ul><li>fysikk</li><li>naturfag</li></ul>                       |
+| [[Kunnskap/Antenne\|Antenne]]                                                                 | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
+| [[Kunnskap/Bakgrunnsstråling\|Bakgrunnsstråling]]                                             | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Bølger\|Bølger]]                                                                   | <ul><li>fysikk</li><li>naturfag</li></ul>                       |
 | [[Kunnskap/DNA\|DNA]]                                                                         | <ul><li>naturfag</li></ul>                                      |
 | [[Kunnskap/Diagnostiering med ioniserende stråling\|Diagnostiering med ioniserende stråling]] | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
@@ -27,20 +27,20 @@
 | [[Kunnskap/Frekvensmodulasjon\|Frekvensmodulasjon]]                                           | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Fusjon\|Fusjon]]                                                                   | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Gammastråling\|Gammastråling]]                                                     | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
+| [[Kunnskap/George Lemaitre\|George Lemaitre]]                                                 | <ul><li>naturfag</li></ul>                                      |
 | [[Kunnskap/Halveringstid\|Halveringstid]]                                                     | <ul><li>fysikk</li><li>naturfag</li></ul>                       |
 | [[Kunnskap/Hjernen\|Hjernen]]                                                                 | <ul><li>naturfag</li><li>psykologi</li></ul>                    |
-| [[Kunnskap/George Lemaitre\|George Lemaitre]]                                                 | <ul><li>naturfag</li></ul>                                      |
 | [[Kunnskap/Hormese\|Hormese]]                                                                 | <ul><li>naturfag</li></ul>                                      |
-| [[Kunnskap/Hubble-Lemaitres lov\|Hubble-Lemaitres lov]]                                       | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Infrarød stråling\|Infrarød stråling]]                                             | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
+| [[Kunnskap/Ion\|Ion]]                                                                         | <ul><li>naturfag</li></ul>                                      |
 | [[Kunnskap/Ionebindinger\|Ionebindinger]]                                                     | <ul><li>naturfag</li></ul>                                      |
 | [[Kunnskap/Ioniserende stråling\|Ioniserende stråling]]                                       | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
-| [[Kunnskap/Ion\|Ion]]                                                                         | <ul><li>naturfag</li></ul>                                      |
+| [[Kunnskap/Hubble-Lemaitres lov\|Hubble-Lemaitres lov]]                                       | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
+| [[Kunnskap/Karboksylsyrer\|Karboksylsyrer]]                                                   | <ul><li>naturfag</li><li>kjemi</li></ul>                        |
 | [[Kunnskap/Kjemiske bindinger\|Kjemiske bindinger]]                                           | <ul><li>naturfag</li><li>kjemi</li></ul>                        |
 | [[Kunnskap/Kosmisk bakgrunnsstråling\|Kosmisk bakgrunnsstråling]]                             | <ul><li>naturfag</li><li>fyikk</li></ul>                        |
 | [[Kunnskap/Kosmisk stråling\|Kosmisk stråling]]                                               | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Lyd\|Lyd]]                                                                         | <ul><li>naturfag</li></ul>                                      |
-| [[Kunnskap/Karboksylsyrer\|Karboksylsyrer]]                                                   | <ul><li>naturfag</li><li>kjemi</li></ul>                        |
 | [[Kunnskap/Molekyler\|Molekyler]]                                                             | <ul><li>kjemi</li><li>fysikk</li><li>naturfag</li></ul>         |
 | [[Kunnskap/Nøytron\|Nøytron]]                                                                 | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Planck vorspiel av Astronytt UiO 2013\|Planck vorspiel av Astronytt UiO 2013]]     | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
