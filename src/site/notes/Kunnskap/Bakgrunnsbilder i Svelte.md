@@ -51,3 +51,32 @@ Du vil ikke kunne se bakgrunnsbildet ditt hvis du velger `Demo project` når du 
 Alle bilder må legges i `src`-mappa i Svelte, eller i en undermappa av `src`. Det gjør at alle de ulike `+page.svelte`-filene har tilgang på de samme bildene og ressursene. Det er nyttig dersom vi lager større nettsteder eller apper.
 
 CSS-koden som skrives i `<style>`-taggen i Svelte-koden har et smalt *scope* (CSS-koden gjelder kun for en liten del av HTML-koden). Siden de ferdige nettsidene i Svelte kompileres fra kode fra ulike filer så vil CSS-koden i `<style>` kun gjelde for [[Kunnskap/HTML\|HTML]]-elementer som også finnes i Svelte koden. Dersom vi ønsker å endre på HTML-elementer som vi ikke bruker i Svelte (som for eksempel `<html>`), så er vi nødt til å endre til et *globalt scope* med selektoren `:global(html)`.
+
+## Bakgrunnsbilder i Svelte som kun gjelder en enkelt side
+Framgangsmåten ovenfor gjelder dersom du ønsker den samme bakgrunnen på hele nettstedet ditt. Du merker kanskje at så fort du navigerer bort fra en side, så blir bakgrunnen «hengende med» så lenge du ikke har satt `:global(html)` til en ny bakgrunn på den nye siden.
+
+For å kunne ha ulike bakgrunnsbilder på ulike sider så er vi nødt til å begynne med enda en ny «hack» (hentet fra [Stephan Vanraes på Stackoverflow](https://stackoverflow.com/questions/72036234/how-to-render-different-background-image-for-each-page-of-multi-page-sveltekit-s)).
+
+Lag en komponent til Svelte som du lagrer som `background.js` i mappa `src/lib` og legg inn følgende kode:
+```js
+import { onMount } from 'svelte';
+
+export function setBackground(background) {
+  onMount(() => {
+    let current = document.body.style['background-image'];
+    document.body.style['background-image'] = 'url(' + background + ')';
+    //legg inn flere linjer her som skal gjelde for body som
+    //document.body.style['background-repeat'] = 'no-repeat'
+    //document.body.style['overflow'] = 'hidden'
+    //document.body.style['background-size'] = 'cover'
+    return () =>  document.body.style['background-image'] = current;
+  })
+}
+```
+
+På siden hvor du ønsker å bruke et bakgrunnsbilde så importerer du funksjonen fra fila du nettopp laget.
+
+```javascript
+import { setBackground } from '$lib/background.js';
+setBackground('/filnavnHvisBildetLiggerIStatic');
+```
