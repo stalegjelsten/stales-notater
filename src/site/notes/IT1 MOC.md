@@ -23,18 +23,18 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 - [[Kunnskap/Fargeforløpninger i CSS\|Fargeforløpninger i CSS]]
 - [[Kunnskap/Enheter og størrelser i CSS\|Enheter og størrelser i CSS]]
 - [[Kunnskap/Display inline, block og inline-block\|Display inline, block og inline-block]]
-- [[Kunnskap/CSS pseudoselektorer\|CSS pseudoselektorer]]
-- [[Kunnskap/CSS pseudoklasser\|CSS pseudoklasser]]
 - [[Kunnskap/CSS\|CSS]]
 - [[Kunnskap/CSS variabler\|CSS variabler]]
+- [[Kunnskap/CSS pseudoselektorer\|CSS pseudoselektorer]]
+- [[Kunnskap/CSS pseudoklasser\|CSS pseudoklasser]]
 - [[Kunnskap/CSS animasjoner\|CSS animasjoner]]
 - [[Kunnskap/Bytt fargemodus på nettsider\|Bytt fargemodus på nettsider]]
 
 { .block-language-dataview}
 
 ## Svelte
-- [[Kunnskap/Svelte\|Svelte]]
 - [[Kunnskap/Svelte stores\|Svelte stores]]
+- [[Kunnskap/Svelte\|Svelte]]
 - [[Kunnskap/Reaktivitet i Svelte\|Reaktivitet i Svelte]]
 - [[Kunnskap/Opprette nytt Svelteprosjekt\|Opprette nytt Svelteprosjekt]]
 - [[Kunnskap/Lese JSON med JavaScript\|Lese JSON med JavaScript]]
@@ -58,10 +58,11 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 - [[Kunnskap/localStorage\|localStorage]]
 - [[Kunnskap/Javascript objekter\|Javascript objekter]]
 - [[Kunnskap/Forelesninger/IT1 Oppdrag til fagdag 1\|IT1 Oppdrag til fagdag 1]]
-- [[Kunnskap/Forelesninger/IT1 forelesninger\|IT1 forelesninger]]
 - [[Kunnskap/Forelesninger/IT1 fagdag 2024-01-10\|IT1 fagdag 2024-01-10]]
+- [[Kunnskap/Forelesninger/IT1 forelesninger\|IT1 forelesninger]]
 - [[Kunnskap/DNS\|DNS]]
 - [[Kunnskap/Bruke VS Code til python programmering\|Bruke VS Code til python programmering]]
+- [[Kunnskap/Array\|Array]]
 
 { .block-language-dataview}
 
