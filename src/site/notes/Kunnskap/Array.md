@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Array/","title":"Array","tags":["javascript","it1"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Array/","title":"Array","tags":["javascript","it1"]}
 ---
 
 

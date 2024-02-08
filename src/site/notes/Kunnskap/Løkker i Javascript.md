@@ -24,7 +24,7 @@ for (let i = 0; i < 10; i++;) {
 ```
 
 ### For-løkker på arrays
-Man vil ofte være nødt til å bruk ei løkke på et [[Array\|array]]. Eksempelet nedenfor viser hvordan vi kan finne tall i et array som er større enn 5. 
+Man vil ofte være nødt til å bruk ei løkke på et [[Kunnskap/Array\|array]]. Eksempelet nedenfor viser hvordan vi kan finne tall i et array som er større enn 5. 
 
 ```js
 let tall = [3, 9, 4, 8, 0, 4, 2, 5]
@@ -36,7 +36,7 @@ for (let i = 0; i < tall.length; i++;) {
 ```
 
 ### For-løkker på arrays med .forEach
-`forEach()` er en metode som kan brukes på et [[Array\|array]]. Vi gir en funksjon som parameter til `forEach()`, denne funksjonen virker på alle elementene i arrayet. Linje 1 nedenfor definerer arrayet med elementene a, b og c. Linje 2 bruker `forEach()`. Funksjonen vi gir til `forEach()` er en arrow-funksjon hvor vi angir at hvert element skal kalles `element`. Vi skal returnere `console.log(element)` for hvert element.
+`forEach()` er en metode som kan brukes på et [[Kunnskap/Array\|array]]. Vi gir en funksjon som parameter til `forEach()`, denne funksjonen virker på alle elementene i arrayet. Linje 1 nedenfor definerer arrayet med elementene a, b og c. Linje 2 bruker `forEach()`. Funksjonen vi gir til `forEach()` er en arrow-funksjon hvor vi angir at hvert element skal kalles `element`. Vi skal returnere `console.log(element)` for hvert element.
 
 Navnene `mittArray` og `element` kan erstattes med andre variabelnavn.
 

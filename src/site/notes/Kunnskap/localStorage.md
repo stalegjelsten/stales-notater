@@ -20,7 +20,7 @@ localStorage.variabelnavn = "ny verdi"
 - Alle variabler i `localStorage` blir automatisk datatype string. Det betyr at tall må gjøres om til `Number` hvis du skal regne med dem.
 
 ## Lagre array av objekter i localStorage
-Siden alt som lagres i `localStorage` er tekststrenger, så må vi gjøre noen små endringer dersom vi for eksempel ønsker å lagre et [[Array\|Array]] av objekter. 
+Siden alt som lagres i `localStorage` er tekststrenger, så må vi gjøre noen små endringer dersom vi for eksempel ønsker å lagre et [[Kunnskap/Array\|Array]] av objekter. 
 - Når vi lagrer informasjon i `localStorage` kan vi bruke `JSON.stringify(objektNavn)` til å gjøre om objekter til tekststrenger
 - Når vi henter informasjon fra `localStorage` så kan vi bruke `JSON.parse(localStorage.variabelnavn)`
 
