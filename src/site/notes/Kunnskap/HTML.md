@@ -8,8 +8,8 @@
 
 
 ## Notater om HTML
-- [[Kunnskap/Universell utforming av nettsider\|Universell utforming av nettsider]]
 - [[Kunnskap/Semantisk HTML\|Semantisk HTML]]
+- [[Kunnskap/Universell utforming av nettsider\|Universell utforming av nettsider]]
 
 { .block-language-dataview}
 
