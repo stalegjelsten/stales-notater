@@ -72,12 +72,12 @@ I Svelte bruker vi altså følgende algoritme
 I Sveltekit så får du problemer dersom du forsøker å bruke fetch – bruk heller følgende framgangsmåte for å lese inn en lokal JSON-fil.
 
 1. Legg JSON-fila i `src/lib` eller en undermappe som `src/lib/data`.
-2. I Svelte-koden så skriver du `import variabelNavn from '$lib/JSONfilnavn.json`
-3. `variabelNavn` inneholder nå alle dataene fra JSON-fila
+2. I Svelte-koden så skriver du `import variabelNavn from '$lib/JSONfilnavn.json'`.
+3. `variabelNavn` inneholder nå alle dataene fra JSON-fila.
 
 #### Eksempel på å lese inn lokal JSON-fil
 
-Vi har en JSON-fil kalt `objekter.json` som inneholder lærere og bilen de kjører.
+Vi har en JSON-fil kalt `objekter.json` som inneholder et array med objektene. Objektene er navnet på lærere og bilen de kjører.
 ```json
 [
 	{
@@ -91,13 +91,13 @@ Vi har en JSON-fil kalt `objekter.json` som inneholder lærere og bilen de kjør
 ]
 ```
 
-I Svelte-fila `+page.svelte` så kan vi vise alle lærerne fra `objekter.json` og bilen.
-
+I Svelte-fila `+page.svelte` så importerer vi arrayet med objekter til variabelen `laerere`. Deretter kan vi vise alle lærerne og bilene deres med en `{#each}`-blokk.
 ```html
 <script>
-import laerere from '$lib/objekter.json'
+	import laerere from '$lib/objekter.json'
 </script>
+
 {#each laerere as laerer}
-<p>{laerer.navn} kjører {laerer.bil}.</p>
+	<p>{laerer.navn} kjører {laerer.bil}.</p>
 {/each}
 ```
