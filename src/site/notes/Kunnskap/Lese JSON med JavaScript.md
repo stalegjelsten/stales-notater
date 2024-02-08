@@ -5,7 +5,15 @@
 
 # Lese JSON med JavaScript
 
-## Vanilla JavaScript
+## Lese inn string i JSON-format
+Der man man har en streng i JSON-format kan denne leses med `JSON.parse(teskstStreng)`.
+
+```js
+const jsonStreng = '[{"key1": 2, "key2": "hei"} , {"key1"; 3, "key2": "hallo"}]'
+console.log(JSON.parse(jsonStreng))
+```
+
+## Lese inn JSON-fil med vanilla JavaScript
 For å lese inn JSON eller andre filer bør man bruke en `async`-funksjon slik at vi gir nettleseren tid til å lese dataene før vi går videre til neste steg i koden. Vi bruker `fetch` til å hente dataene. Følgende eksempel ville kanskje fungert i vanlig javascript
 
 ```js
@@ -59,3 +67,37 @@ I Svelte bruker vi altså følgende algoritme
 6. I Svelte bruker vi en `{#await}`-blokk som avventer promisen.
 
 {% endraw %}
+
+### Lese inn lokal JSON-fil med Svelte
+I Sveltekit så får du problemer dersom du forsøker å bruke fetch – bruk heller følgende framgangsmåte for å lese inn en lokal JSON-fil.
+
+1. Legg JSON-fila i `src/lib` eller en undermappe som `src/lib/data`.
+2. I Svelte-koden så skriver du `import variabelNavn from '$lib/JSONfilnavn.json`
+3. `variabelNavn` inneholder nå alle dataene fra JSON-fila
+
+#### Eksempel på å lese inn lokal JSON-fil
+
+Vi har en JSON-fil kalt `objekter.json` som inneholder lærere og bilen de kjører.
+```json
+[
+	{
+		"navn": "Ståle",
+		"bil": "Audi A3"
+	},
+	{
+		"navn": "Lars",
+		"bil": "Volvo XC 70"
+	}
+]
+```
+
+I Svelte-fila `+page.svelte` så kan vi vise alle lærerne fra `objekter.json` og bilen.
+
+```html
+<script>
+import laerere from '$lib/objekter.json'
+</script>
+{#each laerere as laerer}
+<p>{laerer.navn} kjører {laerer.bil}.</p>
+{/each}
+```

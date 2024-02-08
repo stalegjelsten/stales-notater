@@ -231,7 +231,7 @@ Den deriverte i et punkt er lik den momentane vekstfarten i punktet og dermed og
 | Produkt          |   $u(x) \cdot v(x)$    | $u'(x) \cdot v(x) + u(x) \cdot v'(x)$ |
 | Kvotienter       |  $\frac{u(x)}{v(x)}$   |       $\frac{u'v - uv'}{v^{2}}$       |
 | Eksponentialfunk |        $e^{x}$         |                $e^{x}$                |
-| Eksponentialfunk |        $a^{x}$         |             $a^{x}\ln x$              |
+| Eksponentialfunk |        $a^{x}$         |             $a^{x}\ln a$              |
 | Logaritme        |        $\ln x$         |             $\frac{1}{x}$             |
 | Kjerneregelen    | $g\left( u(x) \right)$ |          $g'(u) \cdot u'(x)$          |
 
@@ -268,8 +268,8 @@ Vi har følgende integrasjonsregler
 | Flere ledd         | $f(x)\pm g(x)$ | $\int f(x) \, \mathrm{d}x \pm \int g(x_{9}) \, \mathrm{d}x$ |
 | Potensfunksjon     |     $x^r$      |          $\frac{1}{r+1}x^{r+1}+C,\,\,\, r \neq 1$           |
 | Spesialtilfelle    | $\frac{1}{x}$  |             $\ln \vert x \vert +C,\,\, x\neq 0$             |
-| Eksponentialfunk   |    $e^{kx}$    |                   $\frac{1}{k}e^{kx} +C$                    |
-| Eksponentialfunk2  |    $a^{x}$     |    $\frac{a^{x}}{\ln a}+C \,\, ,\,\,a>0\wedge a \neq 1$     |
+| Eksponentialfunksjon   |    $e^{kx}$    |                   $\frac{1}{k}e^{kx} +C$                    |
+| Eksponentialfunksjon  |    $a^{x}$     |    $\frac{a^{x}}{\ln a}+C \,\, ,\,\,a>0\wedge a \neq 1$     |
 
 ### Bestemt integral som grense av sum
 Vi har en funksjon $f(x)$. Vi ønsker å finne arealet under grafen fra $x = a$ til $x = b$.
@@ -306,9 +306,35 @@ $$
 
 > Denne andre delen av fundamentalsetningen forteller oss at vi kan beregne et bestemt integral ved hjelp av det ubestemte integralet
 
-### Areal under og mellom grafer
->[!todo]
->Ståle: fiks opp disse avsnittene
+### Areal under grafer
+
+La $f(x)$ være en funksjon som er positiv for alle $x \in [a,b]$. Da er arealet, $A$, av flatestykket som er avgrenset av grafen til en funksjon $f(x)$, $x$-aksen og linjene $x=a$ og $x=b$ lik integralet av 
+$$
+A=\int_{a}^{b} f(x) \, dx 
+$$
+Dersom grafen ligger under $x$-aksen så er arealet gitt ved
+$$
+A= - \int_{a}^{b} f(x) \, dx 
+$$
+Dersom funksjonen krysser $x$-aksen i intervallet $[a,b]$, så er du nødt til å dele opp integralet ved nullpunktene og legge sammen summene av arealene.
+
+### Areal mellom grafer
+Hovedprinsippet for å finne arealet mellom grafer er å ta integralet av den øverste grafen og trekke fra integralet fra den nederste grafen.
+
+La $f$ og $g$ være to funksjoner. For å finne arealet, $A$, av flatestykket mellom grafene er du først nødt til å finne skjæringspunktene mellom grafene ved å løse likningen $f=g$. 
+
+#### Areal mellom grafer med to skjæringspunkter
+Dersom du får to løsninger $x_{1}$ og $x_{2}$ fra likningen $f=g$ så er arealet 
+$$
+A=\int_{x_{1}}^{x_{2}} (f(x)-g(x)) \, dx \quad \text{der} \quad f\geq g \,\, \text{for alle} \,\, x \in [x_{1},x_{2}]
+$$
+Dersom $g\geq f$ på intervallet $[x_{1},x_{2}]$ så må du bytte om på rekkefølgen av leddene i integranden til $(g(x)-f(x))$.
+
+#### Areal mellom grafer med tre eller flere skjæringspunkter
+Hvis du har tre eller flere skjæringspunkter mellom $f$ og $g$ så er du nødt til å dele opp integralet i flere deler. La oss si at du får de tre løsningene $x_{1}$, $x_{2}$ og $x_{3}$ fra likningen $f=g$. Hvis $f\geq g$ for $x \in[x_{1},x_{2}]$ og $g\geq f$ for $x\in[x_{2},x_{3}]$ så kan du finne det samlede arealet med følgende formel
+$$
+A=\int_{x_{1}}^{x_{2}} (f(x)-g(x)) \, dx + \int_{x_{2}}^{x_{3}} (g(x)-f(x)) \, dx 
+$$
 
 ### Integrasjonsteknikker
 #### Delvis integrasjon

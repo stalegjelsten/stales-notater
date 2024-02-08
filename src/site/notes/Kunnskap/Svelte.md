@@ -92,6 +92,40 @@ I Svelte bruker vi altså følgende algoritme
 
 {% endraw %}
 
+### Lese inn lokal JSON-fil med Svelte
+I Sveltekit så får du problemer dersom du forsøker å bruke fetch – bruk heller følgende framgangsmåte for å lese inn en lokal JSON-fil.
+
+1. Legg JSON-fila i `src/lib` eller en undermappe som `src/lib/data`.
+2. I Svelte-koden så skriver du `import variabelNavn from '$lib/JSONfilnavn.json`
+3. `variabelNavn` inneholder nå alle dataene fra JSON-fila
+
+#### Eksempel på å lese inn lokal JSON-fil
+
+Vi har en JSON-fil kalt `objekter.json` som inneholder lærere og bilen de kjører.
+```json
+[
+	{
+		"navn": "Ståle",
+		"bil": "Audi A3"
+	},
+	{
+		"navn": "Lars",
+		"bil": "Volvo XC 70"
+	}
+]
+```
+
+I Svelte-fila `+page.svelte` så kan vi vise alle lærerne fra `objekter.json` og bilen.
+
+```html
+<script>
+import laerere from '$lib/objekter.json'
+</script>
+{#each laerere as laerer}
+<p>{laerer.navn} kjører {laerer.bil}.</p>
+{/each}
+```
+
 
 </div></div>
 
