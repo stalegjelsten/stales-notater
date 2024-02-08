@@ -25,5 +25,8 @@
 | [[Kunnskap/Forelesninger/IT1-5-3 Interaktive nettsider\|IT1-5-3 Interaktive nettsider]]                                         | 2023-11-30 |
 | [[Kunnskap/Forelesninger/IT1-6-1 Arrays\|IT1-6-1 Arrays]]                                                                       | 2024-01-10 |
 | [[Kunnskap/Forelesninger/IT1-6-2 Objekter\|IT1-6-2 Objekter]]                                                                   | 2024-01-11 |
+| [[Kunnskap/Forelesninger/IT1-6-5 Bruke APIer\|IT1-6-5 Bruke APIer]]                                                             | 2024-01-25 |
+| [[Kunnskap/Forelesninger/IT1-6-6 Webkamera med gif og localstorage\|IT1-6-6 Webkamera med gif og localstorage]]                 | 2024-01-28 |
+| [[Kunnskap/Forelesninger/IT1-6-7 Localstorage og lagring\|IT1-6-7 Localstorage og lagring]]                                     | 2024-02-01 |
 
 { .block-language-dataview}
