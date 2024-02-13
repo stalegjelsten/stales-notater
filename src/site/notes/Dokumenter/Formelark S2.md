@@ -438,6 +438,31 @@ Inntektene er $\text{pris} \times \text{antall solgte}$ eller $I(x)=p \cdot x$. 
 
 På samme måte kan vi vise at kostnadene blir $K(x)=K(q(p))$.
 
+## Diskrete sannsynlighetsfordelinger
+I diskrete sannsynlighetsfordelinger så inneholder utfallsrommet til den stokastiske variabelen $X$ kun visse verdier. Ofte vil utfallsrommet til en diskret stokastisk variabel kun inneholde noen heltallsverdier.
+
+>[!example] Eksempel på diskret sannsynlighetsfordeling
+>
+>Dersom du kaster to mynter og lar $X$ være antall kron du får på disse kastene så er utfallsrommet $\{ 0,1,2 \}$.  Det er ikke mulig å få 0,43 eller 1,783 mynt på to kast.
+
+### Uniform sannsynlighetsfordeling
+I en uniform sannsynlighetsfordeling er sannsynligheten for alle utfallene like stor. Et eksempel på uniform sannsynlighetsfordeling er et terningkast: her har alle de seks sidene like stor sannsynlighet.
+
+For å regne ut sannsynlighet ved uniform sannsynlighet tar vi 
+$$
+\frac{\text{antall gunstige}}{\text{antall mulige}}
+$$
+
+### Binomisk sannsynlighetsfordeling
+Vi bruker binomiske fordelinger når vi kun har to ulike utfall. Vi bruker ofte bionomisk fordeling når vi definerer at en hendelse enten inntreffer eller så inntreffer den ikke.
+
+Hvis vi gjør det samme binomiske forsøket flere ganger etter hverandre får vi en binomisk sannsynlighetsfordeling. Vi kaller antall forsøk for $n$ og observerer om hendelsen $A$ inntreffer eller ikke. Sannsynligheten for $A$ i hvert delforsøk er $p$.
+
+La $X$ være antallet ganger $A$ inntreffer på $n$ forsøk, da er sannsynligheten for at $A$ inntreffer nøyaktig $k$ ganger gitt ved
+$$
+P(X=k)= \binom{n}{k} \cdot p^{k} \cdot (1-p)^{n-k}=\frac{n!}{k! \cdot (n-k)!} \cdot p^{k} \cdot (1-p)^{n-k}
+$$
+
 ## Matematisk notasjon
 
 ### Funksjoner
