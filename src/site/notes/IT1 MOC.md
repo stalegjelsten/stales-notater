@@ -33,6 +33,7 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 { .block-language-dataview}
 
 ## Svelte
+- [[Kunnskap/Lage en liste med alle sider i et prosjekt i Svelte\|Lage en liste med alle sider i et prosjekt i Svelte]]
 - [[Kunnskap/each blokker i Svelte\|each blokker i Svelte]]
 - [[Kunnskap/Svelte stores\|Svelte stores]]
 - [[Kunnskap/Svelte\|Svelte]]
@@ -47,7 +48,6 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 { .block-language-dataview}
 
 ## Annet
-- [[Kunnskap/Array\|Array]]
 - [[Kunnskap/node.js\|node.js]]
 - [[Kunnskap/localStorage\|localStorage]]
 - [[Kunnskap/Utkast/Git\|Git]]
@@ -62,6 +62,7 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 - [[Kunnskap/Forelesninger/IT1 forelesninger\|IT1 forelesninger]]
 - [[Kunnskap/Forelesninger/IT1 Oppdrag til fagdag 1\|IT1 Oppdrag til fagdag 1]]
 - [[Kunnskap/DNS\|DNS]]
+- [[Kunnskap/Array\|Array]]
 - [[Kunnskap/Bruke VS Code til python programmering\|Bruke VS Code til python programmering]]
 
 { .block-language-dataview}
