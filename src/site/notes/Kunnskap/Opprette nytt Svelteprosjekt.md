@@ -4,6 +4,8 @@
 
 
 # Opprette nytt Svelteprosjekt
+{ #6c9b14}
+
 
 For å opprette et nytt prosjekt i [[Kunnskap/Svelte\|Svelte]] kan du følge instruksjonen i videoen under.
 

@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/Kunnskap/Formeleditoren i OneNote og Word/","title":"Formeleditoren i OneNote og Word","tags":["matematikk"]}
 ---
 
-
 # Formeleditoren i OneNote og Word
 
 Når man skal skrive matematikk i Word så lønner det seg å bruke formeleditoren. Den formaterer tall og variabler på en pen måte, og den er svært rask å bruke når man er blitt vant til tastatursnarveiene og kommandoene. Man åpner formeleditoren ved å velge `Sett inn → Formel` i verktøylinja, eller ved å bruke hurtigtastene <kbd>alt</kbd> <kbd>+</kbd> (OneNote) eller <kbd>alt</kbd> <kbd>shift</kbd> <kbd>0</kbd> (Word).
