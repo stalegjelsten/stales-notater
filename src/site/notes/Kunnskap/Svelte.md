@@ -9,13 +9,12 @@ Svelte er et rammeverk for å bygge nettsider med javascript.
 For å lage en Svelte nettside trenger du [[Kunnskap/node.js\|node.js]] med `npm` installert på datamaskinen. 
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/kunnskap/opprette-nytt-svelteprosjekt/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
-
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/kunnskap/opprette-nytt-svelteprosjekt/#opprette-nytt-svelteprosjekt" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
 # Opprette nytt Svelteprosjekt
+
 
 For å opprette et nytt prosjekt i [[Kunnskap/Svelte\|Svelte]] kan du følge instruksjonen i videoen under.
 
@@ -144,3 +143,23 @@ CSS som skrives i Svelte er *scopet* (begrenset) til den nåværende siden. Hvis
 
 ## HTML scripting / templating
 - [[Kunnskap/each blokker i Svelte\|each blokker i Svelte]]
+
+## Alle Sveltenotater
+- [[Kunnskap/Sveltekit mappestruktur\|Sveltekit mappestruktur]]
+- [[Kunnskap/each blokker i Svelte\|each blokker i Svelte]]
+- [[Kunnskap/Svelte stores\|Svelte stores]]
+- [[Kunnskap/Svelte\|Svelte]]
+- [[Kunnskap/Reaktivitet i Svelte\|Reaktivitet i Svelte]]
+- [[Kunnskap/Opprette nytt Svelteprosjekt\|Opprette nytt Svelteprosjekt]]
+- [[Kunnskap/Localstorage i Sveltekit\|Localstorage i Sveltekit]]
+- [[Kunnskap/Lese JSON med JavaScript\|Lese JSON med JavaScript]]
+- [[Kunnskap/Lage en liste med alle sider i et prosjekt i Svelte\|Lage en liste med alle sider i et prosjekt i Svelte]]
+- [[Kunnskap/Bytt fargemodus på nettsider\|Bytt fargemodus på nettsider]]
+- [[Kunnskap/Bakgrunnsbilder i Svelte\|Bakgrunnsbilder i Svelte]]
+- [[Kunnskap/Animasjoner i Svelte\|Animasjoner i Svelte]]
+- [[Kunnskap/CSS pseudoklasser\|CSS pseudoklasser]]
+- [[Kunnskap/Tillegg til Kode 1\|Tillegg til Kode 1]]
+- [[Kunnskap/localStorage\|localStorage]]
+- [[Kunnskap/node.js\|node.js]]
+
+{ .block-language-dataview}
