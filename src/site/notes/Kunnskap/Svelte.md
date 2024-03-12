@@ -146,14 +146,14 @@ CSS som skrives i Svelte er *scopet* (begrenset) til den nåværende siden. Hvis
 
 ## Alle Sveltenotater
 - [[Kunnskap/Sveltekit mappestruktur\|Sveltekit mappestruktur]]
-- [[Kunnskap/each blokker i Svelte\|each blokker i Svelte]]
-- [[Kunnskap/Svelte stores\|Svelte stores]]
 - [[Kunnskap/Svelte\|Svelte]]
+- [[Kunnskap/Svelte stores\|Svelte stores]]
 - [[Kunnskap/Reaktivitet i Svelte\|Reaktivitet i Svelte]]
 - [[Kunnskap/Opprette nytt Svelteprosjekt\|Opprette nytt Svelteprosjekt]]
-- [[Kunnskap/Localstorage i Sveltekit\|Localstorage i Sveltekit]]
 - [[Kunnskap/Lese JSON med JavaScript\|Lese JSON med JavaScript]]
+- [[Kunnskap/Localstorage i Sveltekit\|Localstorage i Sveltekit]]
 - [[Kunnskap/Lage en liste med alle sider i et prosjekt i Svelte\|Lage en liste med alle sider i et prosjekt i Svelte]]
+- [[Kunnskap/each blokker i Svelte\|each blokker i Svelte]]
 - [[Kunnskap/Bytt fargemodus på nettsider\|Bytt fargemodus på nettsider]]
 - [[Kunnskap/Bakgrunnsbilder i Svelte\|Bakgrunnsbilder i Svelte]]
 - [[Kunnskap/Animasjoner i Svelte\|Animasjoner i Svelte]]
