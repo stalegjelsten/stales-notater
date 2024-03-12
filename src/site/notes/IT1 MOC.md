@@ -18,10 +18,10 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 - [[Kunnskap/Selektorer i CSS\|Selektorer i CSS]]
 - [[Kunnskap/Midtstille innhold\|Midtstille innhold]]
 - [[Kunnskap/Magisk skinnende tekst med CSS\|Magisk skinnende tekst med CSS]]
-- [[Kunnskap/Flexbox\|Flexbox]]
 - [[Kunnskap/Grid\|Grid]]
-- [[Kunnskap/Enheter og størrelser i CSS\|Enheter og størrelser i CSS]]
+- [[Kunnskap/Flexbox\|Flexbox]]
 - [[Kunnskap/Fargeforløpninger i CSS\|Fargeforløpninger i CSS]]
+- [[Kunnskap/Enheter og størrelser i CSS\|Enheter og størrelser i CSS]]
 - [[Kunnskap/Display inline, block og inline-block\|Display inline, block og inline-block]]
 - [[Kunnskap/CSS pseudoselektorer\|CSS pseudoselektorer]]
 - [[Kunnskap/CSS\|CSS]]
@@ -34,14 +34,14 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 
 ## Svelte
 - [[Kunnskap/Sveltekit mappestruktur\|Sveltekit mappestruktur]]
-- [[Kunnskap/each blokker i Svelte\|each blokker i Svelte]]
-- [[Kunnskap/Svelte stores\|Svelte stores]]
 - [[Kunnskap/Svelte\|Svelte]]
+- [[Kunnskap/Svelte stores\|Svelte stores]]
 - [[Kunnskap/Reaktivitet i Svelte\|Reaktivitet i Svelte]]
 - [[Kunnskap/Opprette nytt Svelteprosjekt\|Opprette nytt Svelteprosjekt]]
-- [[Kunnskap/Localstorage i Sveltekit\|Localstorage i Sveltekit]]
 - [[Kunnskap/Lese JSON med JavaScript\|Lese JSON med JavaScript]]
+- [[Kunnskap/Localstorage i Sveltekit\|Localstorage i Sveltekit]]
 - [[Kunnskap/Lage en liste med alle sider i et prosjekt i Svelte\|Lage en liste med alle sider i et prosjekt i Svelte]]
+- [[Kunnskap/each blokker i Svelte\|each blokker i Svelte]]
 - [[Kunnskap/Bytt fargemodus på nettsider\|Bytt fargemodus på nettsider]]
 - [[Kunnskap/Bakgrunnsbilder i Svelte\|Bakgrunnsbilder i Svelte]]
 - [[Kunnskap/Animasjoner i Svelte\|Animasjoner i Svelte]]
@@ -49,19 +49,19 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 { .block-language-dataview}
 
 ## Annet
-- [[Kunnskap/node.js\|node.js]]
-- [[Kunnskap/localStorage\|localStorage]]
 - [[Kunnskap/Utkast/Git\|Git]]
 - [[Kunnskap/URL\|URL]]
 - [[Kunnskap/Tillegg til Kode 1\|Tillegg til Kode 1]]
 - [[Kunnskap/Skjermleser\|Skjermleser]]
 - [[Kunnskap/Server\|Server]]
 - [[Kunnskap/Publisere nettsider hos GitHub pages\|Publisere nettsider hos GitHub pages]]
+- [[Kunnskap/node.js\|node.js]]
 - [[Kunnskap/Løkker i Javascript\|Løkker i Javascript]]
+- [[Kunnskap/localStorage\|localStorage]]
 - [[Kunnskap/Javascript objekter\|Javascript objekter]]
-- [[Kunnskap/Forelesninger/IT1 fagdag 2024-01-10\|IT1 fagdag 2024-01-10]]
-- [[Kunnskap/Forelesninger/IT1 forelesninger\|IT1 forelesninger]]
 - [[Kunnskap/Forelesninger/IT1 Oppdrag til fagdag 1\|IT1 Oppdrag til fagdag 1]]
+- [[Kunnskap/Forelesninger/IT1 forelesninger\|IT1 forelesninger]]
+- [[Kunnskap/Forelesninger/IT1 fagdag 2024-01-10\|IT1 fagdag 2024-01-10]]
 - [[Kunnskap/DNS\|DNS]]
 - [[Kunnskap/Bruke VS Code til python programmering\|Bruke VS Code til python programmering]]
 - [[Kunnskap/Array\|Array]]
@@ -92,5 +92,7 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 | [[Kunnskap/Forelesninger/IT1-6-5 Bruke APIer\|IT1-6-5 Bruke APIer]]                                                             | 2024-01-25 |
 | [[Kunnskap/Forelesninger/IT1-6-6 Webkamera med gif og localstorage\|IT1-6-6 Webkamera med gif og localstorage]]                 | 2024-01-28 |
 | [[Kunnskap/Forelesninger/IT1-6-7 Localstorage og lagring\|IT1-6-7 Localstorage og lagring]]                                     | 2024-02-01 |
+| [[Kunnskap/Forelesninger/IT1-7-1 Algoritmer\|IT1-7-1 Algoritmer]]                                                               | 2024-03-04 |
+| [[Kunnskap/Forelesninger/IT1-7-2 Dekomposisjon og abstraksjon\|IT1-7-2 Dekomposisjon og abstraksjon]]                           | 2024-03-07 |
 
 { .block-language-dataview}

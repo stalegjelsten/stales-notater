@@ -28,5 +28,7 @@
 | [[Kunnskap/Forelesninger/IT1-6-5 Bruke APIer\|IT1-6-5 Bruke APIer]]                                                             | 2024-01-25 |
 | [[Kunnskap/Forelesninger/IT1-6-6 Webkamera med gif og localstorage\|IT1-6-6 Webkamera med gif og localstorage]]                 | 2024-01-28 |
 | [[Kunnskap/Forelesninger/IT1-6-7 Localstorage og lagring\|IT1-6-7 Localstorage og lagring]]                                     | 2024-02-01 |
+| [[Kunnskap/Forelesninger/IT1-7-1 Algoritmer\|IT1-7-1 Algoritmer]]                                                               | 2024-03-04 |
+| [[Kunnskap/Forelesninger/IT1-7-2 Dekomposisjon og abstraksjon\|IT1-7-2 Dekomposisjon og abstraksjon]]                           | 2024-03-07 |
 
 { .block-language-dataview}

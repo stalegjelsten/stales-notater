@@ -6361,3 +6361,7 @@ For å kunne gjøre om elektriske signaler til elektromagnetisk stråling trenge
 [[Kunnskap/Amplitudemodulasjon\|Amplitudemodulasjon]]
 [[Kunnskap/Frekvensmodulasjon\|Frekvensmodulasjon]]
 [[Kunnskap/Antenne\|Antenne]]
+
+## Ressurser
+### Forklaring av hvordan 5G-antenner fungerer
+<iframe src="https://www.youtube.com/embed/To7Ll5AGboI" class="youtube" title="Matt Parker What is 5G" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
