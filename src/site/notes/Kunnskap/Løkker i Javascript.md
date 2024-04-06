@@ -7,6 +7,7 @@
 Løkker utfører en del av koden flere ganger. Vi har ulike typer løkker Javascript, blant annet `for`-løkker og `while`-løkker.
 
 >[!todo] Dette er et uferdig notat
+
 ## For-løkker
 For-løkker kjører et bestemt antall ganger. I Javascript gir vi ofte for-løkker 3 parametre:
 
@@ -17,9 +18,9 @@ For-løkker kjører et bestemt antall ganger. I Javascript gir vi ofte for-løkk
 I koden nedenfor starter vi med `let i = 0`, og etter hver omgang så vil vi øke `i` med 1 på grunn av uttrykket `i++`. Løkka skal kjøre så lenge `i < 10`. Denne løkka vil altså kjøre 10 ganger, med `i`-verdier fra 0 til og med 9.
 
 ```js
-for (let i = 0; i < 10; i++;) {
-	const tilfeldigTall = math.random()
-	console.log("Tall nr. " + i + ": " + tilfeldigTall)
+for (let i = 0; i < 10; i++) {
+	const tilfeldigTall = Math.random();
+	console.log("Tall nr. " + i + ": " + tilfeldigTall);
 }
 ```
 
@@ -28,7 +29,7 @@ Man vil ofte være nødt til å bruk ei løkke på et [[Kunnskap/Array\|array]].
 
 ```js
 let tall = [3, 9, 4, 8, 0, 4, 2, 5]
-for (let i = 0; i < tall.length; i++;) {
+for (let i = 0; i < tall.length; i++) {
 	if (tall[i] > 5) {
 		console.log(tall[i] + " er større enn 5")
 	}
