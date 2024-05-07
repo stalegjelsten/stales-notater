@@ -122,6 +122,19 @@ Bruk [[Orientering/LiveRes for etiming\|LiveRes]] for å publisere liveresultate
 ## Resultater
 Publiser resultater etter løpet via `Data → Datautveksling eventor` og last opp resultatliste. Når du først er inne i `Datautveksling eventor` kan det være lurt å hente ned `Klubber og navn for direktepåmelding` for klubber i Agder slik adressene på fakturaene blir riktige. 
 
+
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/orientering/e-timing-til-sommercup/#ed86ad" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+
+
+
+>[!tip] Manuell opplasting av resultater
+>Hvis det ikke er mulig å gjøre Datautveksling med Eventor så kan det være at det fungerer å laste opp resultatene manuelt. For å gjøre dette må du:
+>1. Lag en IOF XML 3.0 fil med resultatene ved å gå til `Data → Datautveksling Eventor`. I linjen  `Datautveksling fra nedlastede XML filer` velger du `Vis → Lag resultatlistefil`.
+>2. Gå til løpet i `Eventor → Rediger → Dataoverføringer → Last opp resultatliste`
+>3. Finn fram `iofres.xml` som ligger i databasemappa → `htmlfiler`.
+
+</div></div>
+
 ## Fakturering
 
 ### Koble sammen Eventorkontingenter og eTiming

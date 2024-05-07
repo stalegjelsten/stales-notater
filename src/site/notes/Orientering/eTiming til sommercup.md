@@ -136,6 +136,8 @@ Publiser resultater etter løpet via `Data → Datautveksling eventor` og last o
 >1. Lag en IOF XML 3.0 fil med resultatene ved å gå til `Data → Datautveksling Eventor`. I linjen  `Datautveksling fra nedlastede XML filer` velger du `Vis → Lag resultatlistefil`.
 >2. Gå til løpet i `Eventor → Rediger → Dataoverføringer → Last opp resultatliste`
 >3. Finn fram `iofres.xml` som ligger i databasemappa → `htmlfiler`.
+{ #ed86ad}
+
 
 ## Løpsrapport
 Etter løpet skal man levere løpsrapport til Norges Orienteringsforbund. Denne leveres digitalt i Eventor. Etter å ha lastet opp resultatlistene vil du i arrangementssiden i Eventor se at neste steg er å levere løpsrapporten. 

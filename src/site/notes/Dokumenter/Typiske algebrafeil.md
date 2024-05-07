@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Typiske algebrafeil/","title":"Typiske algebrafeil","tags":["s2"]}
+{"dg-publish":true,"permalink":"/Dokumenter/Typiske algebrafeil/","title":"Typiske algebrafeil","tags":["s2"]}
 ---
 
 

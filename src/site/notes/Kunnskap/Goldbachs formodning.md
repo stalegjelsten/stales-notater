@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Goldsbachs formodning/","title":"Goldsbachs formodning","tags":["matematikk","tall"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Goldbachs formodning/","title":"Goldbachs formodning","tags":["matematikk","tall"]}
 ---
 
 
-# Goldsbachs formodning
+# Goldbachs formodning
 >Alle partall større enn to kan skrives som summen av to primtall
 
 Eksempler
