@@ -3,12 +3,12 @@
 ---
 
 
-## Innledning
+## Typiske algebrafeil
 > Algebra er vanskelig, men så lenge du ikke gjør noe ulovlig så går det som oftest greit.
 
 I T-, R- og S-matte på videregående så er du nødt til å være god i algebra for å få vist kompetansen din på del 1. I dette notatet har jeg samlet noen vanlige feil som jeg ser at mange elever gjør.
 
-## Forkorting av brøker med bokstavuttrykk
+### Forkorting av brøker med bokstavuttrykk
 Dere vil ofte komme over brøker som denne
 $$
 	\frac{2x(x+2)-1}{(x+2)^{2}}
@@ -26,7 +26,7 @@ $$
 - $2x(x+2)$
 - $-1$. 
 
-### Løsning: forkorting av brøker med bokstavuttrykk
+#### Løsning: forkorting av brøker med bokstavuttrykk
 Du har alltid lov til å forkorte dersom du faktoriserer teller og nevner først. Det er egentlig akkurat det samme som du gjør når du forkorter brøker med tall. Se hvordan jeg forkorter $\frac{14}{6}$ i dette talleksempelet $\downarrow$
 $$
 \frac{14}{6}=\frac{2\cdot 7}{2 \cdot 3} = \frac{\cancel{ 2 } \cdot 7}{\cancel{ 2 }\cdot 3}=\frac{7}{3}
@@ -46,7 +46,7 @@ Her fant jeg faktoren $x$ i hvert av de fire leddene (to ledd i teller og to i n
 >Se etter felles faktorer i **alle** ledd i teller og nevner. Felles faktorer kan alltid forkortes, men det er ofte lurt å faktorisere teller og nevner først for å unngå å gjøre feil.
 
 
-## Å løse opp parentes med eksponent
+#### Å løse opp parentes med eksponent
 Vi får ofte uttrykk som $(x+2)^{2}$ eller $(2x^{2}-4x)^{3}$ hvor vi har en parentes med flere ledd opphøyd i et tall. Det er da fristende å sette inn eksponenten på hvert av leddene i parentesen på denne måten 
 
 >[!danger] Eksempel på feil måte å løse parentes med eksponent
@@ -66,7 +66,7 @@ $$(x+2)^{2}=(x+2)\cdot (x+2) = x^{2}+4x+4$$
 > - Andre kvadratsetning: $(a-b)^{2}=a^{2}-2ab+b^{2}$
 > - Tredje kvadratsetning (konjugatsetningen): $a^{2}-b^{2}=(a+b)(a-b)$
 
-### Løsning: løse opp parentes med eksponent
+#### Løsning: løse opp parentes med eksponent
 Før du prøver å løse opp parentesen bør du spørre deg selv om det er *nødvendig* å gange den ut. For eksempel er uttrykket $(x+2)^{2}$ allerede et flott faktorisert uttrykk. 
 
 Hvis det er nødvendig å løse opp parentesen må du sjekke om den inneholder flere ledd. Dersom det kun er ett ledd inne i parentesen kan du bruke potensregelen $(a \cdot b)^{m}=a^{m} \cdot b^{m}$ på denne måten $\downarrow$
