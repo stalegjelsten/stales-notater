@@ -13,15 +13,15 @@ $$
 s_{n}=\sum_{i=1}^n a_{i}=a_{1}+ a_{2}+a_{3}+a_{4}+\dots+a_{n}
 $$
 
-| Forklaring                           | Formel                                   |
-| :------------------------------------ | :---------------------------------------- |
-| Ledd i aritmetisk følge (rekursiv)   | $a_{n + 1} = a_{n} + d$               |
-| Ledd i aritmetisk følge (eksplisitt) | $a_{n} = a_{1} + (n-1)\cdot d$        |
-| Ledd i geometrisk følge (rekursiv)   | $a_{n + 1} = a_{n} \cdot k$           |
+| Forklaring                           | Formel                                 |
+| :----------------------------------- | :------------------------------------- |
+| Ledd i aritmetisk følge (rekursiv)   | $a_{n + 1} = a_{n} + d$                |
+| Ledd i aritmetisk følge (eksplisitt) | $a_{n} = a_{1} + (n-1)\cdot d$         |
+| Ledd i geometrisk følge (rekursiv)   | $a_{n + 1} = a_{n} \cdot k$            |
 | Ledd i geometrisk følge (eksplisitt) | $a_{n} = a_{1} \cdot k^{n-1}$          |
 | Aritmetisk rekke (sum av følge)      | $s_{n}=\frac{a_{1}+a_{n}}{2}\cdot n$   |
 | Geometrisk rekke (sum av følge)      | $s_{n}=a_{1}\cdot \frac{k^{n}-1}{k-1}$ |
-| Uendelig geometrisk rekke            | $-1<k<1 \implies s=\frac{a_{1}}{1-k}$   |
+| Uendelig geometrisk rekke            | $-1<k<1 \implies s=\frac{a_{1}}{1-k}$  |
 
 ### Rekker og konvergens
 Ei rekke konvergerer og har summen $s$ dersom summen $s_{n}$ av $n$ første leddene nærmer seg tallet $s$ når $n \to \infty$. Altså
@@ -30,7 +30,7 @@ En enkel tommelfingerregel for å sjekke om en rekke konvergerer er å sjekke om
 
 **Geometriske rekker** er alltid konvergente når $k \in \left\langle - 1\ ,\ 1 \right\rangle \iff -1<k<1$. Summen av denne typer rekker er gitt ved formelen
 $$
-s=\frac{a_{1}}{k-1}
+s=\frac{a_{1}}{1-k}
 $$
 
 ### Programmering av følger og rekker
@@ -70,7 +70,7 @@ Vi kan avrunde desimaltall med `{variabelnavn:.2f}` der 2-tallet er antallet des
 
 #### Eksempel med følge som ikke er geometrisk eller aritmetisk
 
-> **Oppgavetekst**: Gitt følgende tallfølge: $1, 3, 4, 8, 15, 27, 50, …$
+> **Oppgavetekst**: Gitt følgende tallfølge: $1, 3, 4, 8, 15, 27, 50, \dots$
 > 
 > De 3 første leddene i denne følgen er spesielle. Deretter følger tallene et fast mønster.
 >
@@ -121,7 +121,7 @@ print(a)
 | Terminbeløp    | Hvor mye penger du betaler i hver termin                |
 | Renter         | Den delen av terminbeløpet som dekker rentene           |
 | Avdrag         | Den delen av terminbeløpet som betaler ned på lånet     |
-| Termingebyr    | Bankens gebyr for å sende ut faktura                    | 
+| Termingebyr    | Bankens gebyr for å sende ut faktura                    |
 
 #### Nåverdi
 Nåverdi forteller oss hvor mye et fremtidig (eller fortidig) beløp er verdt i nåtidens penger. Det er vanlig at penger blir mindre og mindre verdt for hvert år siden vi forventer avkastning på investeringene våre.
@@ -189,7 +189,7 @@ Vi velger som oftest den naturlige logaritmen, $\ln x$, i S2 siden denne er enkl
 Her bruker jeg den naturlige logaritmen som eksempel, men disse reglene gjelder for *alle* typer logaritmer.
 
 | Forklaring                 |            Formel             |
-| :-------------------------- |:-----------------------------:|
+| :-------------------------- |:---------------------------------|
 | Bruke logaritme på likning |    $a=b \iff \ln a=\ln b$     |
 | Hente ned eksponent        |      $\ln a^{x}=x\ln a$       |
 | Logaritme til produkt      | $\ln (a\cdot b)=\ln a +\ln b$ |
@@ -208,19 +208,19 @@ Rasjonale funksjoner har følgende egenskaper:
 
 - Nullpunkt når telleren $P(x)=0$
 - Bruddpunkt når nevneren $Q(x)=0$
-- Definisjonsmengde er alle $x$ bortsett fra bruddpunktet: $D_{f}=\mathbb{R} \setminus x_{\text{bruddpunkt}}$
+- Definisjonsmengden er alle $x$ bortsett fra bruddpunktet: $D_{f}=\mathbb{R} \setminus x_{\text{bruddpunkt}}$
 
 #### Asymptoter
 Asymptoter er tenkte linjer som en funksjon nærmer seg. Asymptoter kan være horisontale, vertikale eller skrå.
 
 - Vi får vertikale asymptoter i bruddpunktene. Vi finner disse ved å løse $Q(x)=0$.
-- Vi får en horisontal asymptote dersom $P$ og $Q$ har samme grad. Vi finner disse ved å dividere leddene i $P$ og $Q$ med høyest grad på hverandre.
+- Vi får en horisontal asymptote dersom $P$ og $Q$ har samme grad. Vi finner den horisontale asymptoten ved å leddene i $P$ og $Q$ med høyest grad, og dividere koeffisientene foran disse leddene på hverandre. For eksempel gir funksjonen $\frac{2x^{2}}{4x^{2}}$ asymptoten $y=\frac{2}{4}=\frac{1}{2}$.
 - Vi får skrå asymptoter når graden av $P$ er én større enn graden av $Q$. Vi finner denne ved å beregne $P(x):Q(x)$ med polynomdivisjon. Den skrå asymptoten er svaret på divisjonen når du ser bort fra resten.
 
 ## Derivasjon
 Definisjon: Hvis $f(x)$ er kontinuerlig i et punkt $x$ så er den deriverte i punktet:
 $$f'(x) = \lim_{\Delta x \to 0}\frac{f(x + \Delta x) - f(x)}{\Delta x}$$
-Den deriverte i et punkt er lik den momentane vekstfarten i punktet og dermed også lik stigningstallet til tangenten til $f$ i punktet.
+**Den deriverte i et punkt er lik den momentane vekstfarten i punktet og dermed også lik stigningstallet til tangenten til $f$ i punktet.**
 
 | Forklaring       |        Funksjon        |               Derivert                |
 |:---------------- |:----------------------:|:-------------------------------------:|
@@ -246,11 +246,11 @@ Merk at selv om $g(x)=\frac{1}{x}$ er definert for $x\in \mathbb{R} \setminus 0$
 Funksjonen $f(x)=\ln x$ har definisjonsmengde $D_{f} = \langle 0, \to \rangle$. Derfor kan ikke den deriverte ha noe *større* definisjonsmengde enn dette. For å derivere en funksjon så den være kontinuerlig i punktet. Det gir ikke mening å snakke om vekstfarten til $f$ i $x=-2$ siden $f(-2)$ ikke eksisterer.
 
 ### Stigningstall og tangenter
-Stigningstallet, $a$, til tangenten til $f(x)$ i punktet $x=x_{1}$ er lik den deriverte i punktet, $f'(x_{1})$. For å finne likningen til tangenten kan vi sette inn kjente tall i likningen for rett linje
+Stigningstallet, $a$, til tangenten til $f(x)$ i punktet ved $x=x_{1}$ er lik den deriverte i punktet, $f'(x_{1})$. For å finne likningen til tangenten kan vi sette inn kjente tall i likningen for rett linje
 $$
 y=ax+b
 $$
-Vi kan også bruke ettpunktsformelen
+Vi kan også bruke ettpunktsformelen hvor $y_{1}=f(x_{1})$
 $$
 y-y_{1}=a(x-x_{1})
 $$
@@ -261,15 +261,15 @@ Et ubestemt integral er å finne alle antideriverte $F(x)$ til en funksjon $f(x)
 
 Vi har følgende integrasjonsregler
 
-| Forklaring         |    Funksjon    |                          Integrert                          |
-| ------------------ |:--------------:|:-----------------------------------------------------------:|
-| Konstant           |      $k$       |                           $kx+C$                            |
-| Koeffisient        | $k \cdot f(x)$ |             $k \cdot \int f(x) \, \mathrm{d}x$              |
-| Flere ledd         | $f(x)\pm g(x)$ | $\int f(x) \, \mathrm{d}x \pm \int g(x_{9}) \, \mathrm{d}x$ |
-| Potensfunksjon     |     $x^r$      |          $\frac{1}{r+1}x^{r+1}+C,\,\,\, r \neq 1$           |
-| Spesialtilfelle    | $\frac{1}{x}$  |             $\ln \vert x \vert +C,\,\, x\neq 0$             |
-| Eksponentialfunksjon   |    $e^{kx}$    |                   $\frac{1}{k}e^{kx} +C$                    |
-| Eksponentialfunksjon  |    $a^{x}$     |    $\frac{a^{x}}{\ln a}+C \,\, ,\,\,a>0\wedge a \neq 1$     |
+| Forklaring           |    Funksjon    |                          Integrert                          |
+| -------------------- | :------------: | :---------------------------------------------------------: |
+| Konstant             |      $k$       |                           $kx+C$                            |
+| Koeffisient          | $k \cdot f(x)$ |             $k \cdot \int f(x) \, \mathrm{d}x$              |
+| Flere ledd           | $f(x)\pm g(x)$ | $\int f(x) \, \mathrm{d}x \pm \int g(x_{9}) \, \mathrm{d}x$ |
+| Potensfunksjon       |     $x^r$      |          $\frac{1}{r+1}x^{r+1}+C,\,\,\, r \neq -1$          |
+| Spesialtilfelle      | $\frac{1}{x}$  |             $\ln \vert x \vert +C,\,\, x\neq 0$             |
+| Eksponentialfunksjon |    $e^{kx}$    |                   $\frac{1}{k}e^{kx} +C$                    |
+| Eksponentialfunksjon |    $a^{x}$     |    $\frac{a^{x}}{\ln a}+C \,\, ,\,\,a>0\wedge a \neq 1$     |
 
 ### Bestemt integral som grense av sum
 Vi har en funksjon $f(x)$. Vi ønsker å finne arealet under grafen fra $x = a$ til $x = b$.
@@ -284,10 +284,7 @@ $$S_{n} = f\left( x_{1} \right) \cdot \Delta x + f\left( x_{2} \right) \cdot \De
 
 Hvis vi lar bredden av rektanglene bli veldig små slik at rektanglene egentlig bare blir infitesimalt smale striper får vi
 
-$$\lim_{\Delta x \rightarrow 0}{S_{n} =}\lim_{\begin{array}{r}
-n \rightarrow \infty \\
-\Delta x \rightarrow 0
-\end{array}}{\sum_{i = 1}^{n}{f\left( x_{i} \right) \cdot \Delta x}} = \int_{a}^{b}{f(x)\ \text{d}x}$$
+$$\lim_{\Delta x \rightarrow 0}{S_{n} =}\lim_{n \rightarrow \infty}{\sum_{i = 1}^{n}{f\left( x_{i} \right) \cdot \Delta x}} = \int_{a}^{b}{f(x)\ \text{d}x}$$
 
 ### Fundamentalsetningen
 Fundamentalsetningen eller analysens fundamentalteorem forteller oss at integrasjon og derivasjon er motsatte operasjoner.
@@ -337,12 +334,9 @@ A=\int_{x_{1}}^{x_{2}} (f(x)-g(x)) \, dx + \int_{x_{2}}^{x_{3}} (g(x)-f(x)) \, d
 $$
 
 ### Integrasjonsteknikker
+
 #### Delvis integrasjon
->[!todo]
->Ståle: fiks opp disse avsnittene
-
-
-Delvis integrasjon brukes ofte dersom du har et produkt av to ulike funksjoner. Du kan gjerne tenke på delvis integrasjon som en omvendt produktregel for derivasjon. 
+Delvis integrasjon brukes ofte dersom du skal integrere et produkt av ulike to ulike funksjoner. Du kan gjerne tenke på delvis integrasjon som en omvendt produktregel for derivasjon. 
 
 Delvis integrasjon er spesielt nyttig dersom den ene faktoren er enkel å integrere og den andre faktoren er enkel å derivere.
 
@@ -353,31 +347,55 @@ $$
 $$
 
 ##### DI-metoden for delvis integrasjon
-Det er også mulig å bruke oppsettet kalt *DI*-metoden. Eksempelet under viser DI-metoden for $\int x^{2}e^{2x} \, \mathrm{d}x$
+Det er også mulig å bruke oppsettet kalt *DI*-metoden. Eksempelet under viser DI-metoden for $\int x^{2}e^{2x} \, \mathrm{d}x$. Du lager en tabell med tre kolonner.
 
-|  | D | I |
-| :--: | :--: | :--: |
-| + | $x^{2}$ | $e^{2x}$ |
-| - | $2x$ | $\frac{1}{2}e^{2x}$ |
-| + | $2$ | $\frac{1}{4}e^{2x}$ |
-| - | $0$ | $\frac{1}{8}e^{2x}$ |
-Svaret med DI-metoden finner du ved å starte på fortegnet oppe til venstre (+), gå en til høyre ($x^{2}$) og deretter på skrå ned til høyre ($\frac{1}{2}e^{x}$ i raden under). Du fortsetter på samme måte nedover. Svaret på oppgaven vår blir
+1. Den første kolonnen viser fortegnet. Dette veksler mellom $+$ og $-$.
+2. Den andre kolonnen inneholder faktoren som skal deriveres (*D*). For hver rad så deriverer du faktoren.
+3. Den tredje kolonnen inneholder faktoren som skal integreres (*I*). For hver rad så integrerer du faktoren.
+
+|                         |             D              |                    I                    |
+| :---------------------: | :------------------------: | :-------------------------------------: |
+| $\textcolor{dblue}{+}$  | $\textcolor{dblue}{x^{2}}$ |                $e^{2x}$                 |
+|  $\textcolor{dred}{-}$  |   $\textcolor{dred}{2x}$   | $\textcolor{dblue}{\frac{1}{2}e^{2x}}$  |
+| $\textcolor{dgreen}{+}$ |  $\textcolor{dgreen}{2}$   |  $\textcolor{dred}{\frac{1}{4}e^{2x}}$  |
+|           $-$           |            $0$             | $\textcolor{dgreen}{\frac{1}{8}e^{2x}}$ |
+
+Svaret med DI-metoden finner du ved å starte på fortegnet oppe til venstre ($\textcolor{dblue}{+}$), gå en til høyre ($\textcolor{dblue}{x^{2}}$) og deretter på skrå ned til høyre ($\textcolor{dblue}{\frac{1}{2}e^{2x}}$ i raden under). Bruk $+$ som fortegnet og multipliser de to faktorene slik at du får $+x^{2} \cdot \frac{1}{2}e^{2x}$. Du fortsetter på samme måte nedover. Svaret på oppgaven vår blir
 
 $$
-+x^{2} \frac{1}{2} e^{2x}-2x \frac{1}{4} e^{2x}+2 \frac{1}{8} e^{2x}+C = \frac{1}{2}e^{2x}x^{2}-\frac{1}{2}e^{2x}x+\frac{1}{4}e^{2x}+C
+\textcolor{dblue}{+x^{2} \frac{1}{2} e^{2x}}\textcolor{dred}{-2x \frac{1}{4} e^{2x}}\textcolor{dgreen}{+2 \frac{1}{8} e^{2x}}+C = \frac{1}{2}e^{2x}x^{2}-\frac{1}{2}e^{2x}x+\frac{1}{4}e^{2x}+C
 $$
 
 Du lager rader i tabellen fram til du får en null, eller helt til du ser at du kan integrere produktet av faktorene i en rad. Hvis du ser at du kan integrere produktet av faktorene i en rad (for eksempel kan vi integrere produktet av 2 og $\frac{1}{4}e^{x}$ i rad 3), så kan du sette opp følgende
 
 $$
-+x^{2} \frac{1}{2} e^{2x}- 2x \frac{1}{4}e^{2x}+\int 2 \frac{1}{4} e^{2x} \, \mathrm{d}x = \frac{1}{2}e^{2x}x^{2}-\frac{1}{2}e^{2x}x+2\int \frac{1}{2}e^{2x} \, \mathrm{d}x
+\textcolor{dblue}{+x^{2} \frac{1}{2} e^{2x}}\textcolor{dred}{-2x \frac{1}{4} e^{2x}} \textcolor{dgreen}{+}\int \textcolor{dgreen}{2} \textcolor{dred}{ \frac{1}{4} e^{2x}} \, \mathrm{d}x = \frac{1}{2}e^{2x}x^{2}-\frac{1}{2}e^{2x}x+2\int \frac{1}{2}e^{2x} \, \mathrm{d}x
 $$
 
 Når du løser dette vil du få samme svar som tidligere.
+
 #### Variabelskifte
 Variabelskifte brukes hvis du skal integrere en sammensatt funksjon. Variabelskifte kalles ofte for den omvendte kjerneregelen.
 
-Velg en del av integranden som $u$, dette er variabelskiftet ditt. Substituer inn $u$ i integranden. Deretter deriverer du $u$ slik at du finner $u'=\frac{du}{dx}$. Løs likningen  med hensyn på $dx$ slik at du får $dx=\frac{du}{u'}$ og bytt ut $dx$ med $\frac{du}{u'}$ i det opprinnelige uttrykket ditt.
+1. Velg en del av integranden som $u$, dette er variabelskiftet ditt. 
+2. Substituer inn $u$ i integranden. 
+3. Deriver $u$ slik at du finner $u'=\frac{du}{dx}$. 
+4. Løs likningen med hensyn på $dx$ slik at du får $dx=\frac{du}{u'}$ 
+5. Substituer $dx$ med $\frac{du}{u'}$ i det opprinnelige uttrykket ditt.
+
+>[!example] Se etter en faktor du kan derivere
+>
+>Dersom du kan derivere en av faktorene i integranden, og den deriverte blir lik en annen faktor i integranden så bør du bruke variabelskifte. Ta for deg følgende regnestykke
+>$$ \int \frac{\ln x}{x} \, \mathrm{d}x  $$
+>Vi vet at $\left( \ln x \right)'=\frac{1}{x}$, dermed er $\ln x$ et svært godt valg for variabelskifte.
+>
+>Vi setter $u=\ln x$ og skriver den deriverte av $u$ som $\frac{du}{dx}$
+>$$\begin{aligned} u=\ln x \\ u'=\frac{du}{dx}=\frac{1}{x}\\ du = \frac{1}{x}dx \\ dx=x \cdot du \end{aligned}$$
+>Vi kan nå bytte ut $dx$ i integranden med $x \cdot du$ og vi får
+>$$ \int \frac{u}{\cancel{ x }} \cancel{ x } \, \mathrm{d}u = \int u \, \mathrm{d}u = \frac{1}{2}u^{2} + C$$
+>Vi bytter tilbake $\ln x$ for $u$ og får svaret 
+>$$\frac{1}{2}(\ln x)^{2}$$
+
 ## Økonomi
 Her lar vi $I(x)$ være inntektene ved salg av $x$ enheter og $K(x)$ være produksjonskostnadene ved produksjon av $x$ enheter. Overskuddet $O(x)$ er da gitt ved
 $$
@@ -407,7 +425,12 @@ Enhetskostnaden $E(x)$ fordeler produksjonskostnadene $K(x)$ på antall enheter 
 $$
 E(x)=\frac{K(x)}{x}
 $$
-Vi kan finne de laveste enhetskostnadene på to måter, enten ved å løse $E'(x)=0$ eller ved å løse $K'(x)=E(x)$. Utledningen for den siste formelen er som følger
+Vi kan finne de laveste enhetskostnadene på tre måter:
+
+1. Ved å løse likningen $E'(x)=0$
+2. Ved å finne en tangent til kostnadsfunksjonen som går gjennom origo
+3. Ved å løse $K'(x)=E(x)$. Utledningen for den siste formelen er som følger
+
 $$
 \begin{aligned}
 E(x)&=\frac{K(x)}{x}\\
@@ -438,14 +461,15 @@ Inntektene er $\text{pris} \times \text{antall solgte}$ eller $I(x)=p \cdot x$. 
 
 På samme måte kan vi vise at kostnadene blir $K(x)=K(q(p))$.
 
-## Diskrete sannsynlighetsfordelinger
+## Sannsynlighet og statistikk
+### Diskrete sannsynlighetsfordelinger
 I diskrete sannsynlighetsfordelinger så inneholder utfallsrommet til den stokastiske variabelen $X$ kun visse verdier. Ofte vil utfallsrommet til en diskret stokastisk variabel kun inneholde noen heltallsverdier.
 
 >[!example] Eksempel på diskret sannsynlighetsfordeling
 >
->Dersom du kaster to mynter og lar $X$ være antall kron du får på disse kastene så er utfallsrommet $\{ 0,1,2 \}$.  Det er ikke mulig å få 0,43 eller 1,783 mynt på to kast.
+>Dersom du kaster to mynter og lar $X$ være antall kron du får på disse kastene så er utfallsrommet $\{ 0,1,2 \}$. Det er ikke mulig å få 0,43 eller 1,783 mynt på to kast.
 
-### Uniform sannsynlighetsfordeling
+#### Uniform sannsynlighetsfordeling
 I en uniform sannsynlighetsfordeling er sannsynligheten for alle utfallene like stor. Et eksempel på uniform sannsynlighetsfordeling er et terningkast: her har alle de seks sidene like stor sannsynlighet.
 
 For å regne ut sannsynlighet ved uniform sannsynlighet tar vi 
@@ -453,7 +477,7 @@ $$
 \frac{\text{antall gunstige}}{\text{antall mulige}}
 $$
 
-### Binomisk sannsynlighetsfordeling
+#### Binomisk sannsynlighetsfordeling
 Vi bruker binomiske fordelinger når vi kun har to ulike utfall. Vi bruker ofte bionomisk fordeling når vi definerer at en hendelse enten inntreffer eller så inntreffer den ikke.
 
 Hvis vi gjør det samme binomiske forsøket flere ganger etter hverandre får vi en binomisk sannsynlighetsfordeling. Vi kaller antall forsøk for $n$ og observerer om hendelsen $A$ inntreffer eller ikke. Sannsynligheten for $A$ i hvert delforsøk er $p$.
@@ -462,6 +486,235 @@ La $X$ være antallet ganger $A$ inntreffer på $n$ forsøk, da er sannsynlighet
 $$
 P(X=k)= \binom{n}{k} \cdot p^{k} \cdot (1-p)^{n-k}=\frac{n!}{k! \cdot (n-k)!} \cdot p^{k} \cdot (1-p)^{n-k}
 $$
+
+>[!tip] Vilkår for binomisk sannsynlighetsfordeling
+>
+> 1. Alle delforsøkene må være uavhengige
+> 2. Sannsynligheten for suksess, $p$, er lik i alle delforsøkene
+
+#### Hypergeometrisk sannsynlighetsfordeling
+Vi bruker hypergeometrisk sannsynlighetsfordeling når vi har to ulike grupper med gjenstander og skal få et gitt antall av hver av dem. I hypergeometriske forsøk så er ikke delforsøkene uavhengige av hverandre.
+
+Du har to typer objekter i en bolle, du har $n_{1}$ objekter av type 1 og $n_{2}$ objekter av type 2. Til sammen har du $n_{1}+n_{2}=n$ objekter. Du trekker $k$ objekter fra bollen. La $X$ være antallet objekter av type 1 blant de $k$. Sannsynligheten for at du trekker $k_{1}$ objekter er gitt ved:
+
+$$
+P(X=k_{1}) = \frac{\binom{n_{1}}{k_{1}} \binom{n_{2}}{k_{2}}}{\binom{n}{k}}
+$$
+
+### Forventningsverdi, varians og standardavvik
+#### Forventningsverdi
+Forventningsverdi er den gjennomsnittlige verdien vi kan forvente over lang tid. Forventningsverdien til $X$ finner vi med
+$$
+\mu = E(X) = \sum_{i=1}^{n} x \cdot P(X=x) 
+$$
+
+Vi bruker vanligvis en tabell med sannsynlighetsfordelingen for å regne ut forventingsverdien. Nedenfor er et eksempel som viser sannsynlighetsfordelingen når $X$ er antall kron på ett myntkast.
+
+| $x$ |   $P(X=x)$    |         $x \cdot P(X=x)$         |
+| :-: | :-----------: | :------------------------------: |
+|  0  | $\frac{1}{2}$ |     $0 \cdot \frac{1}{2}=0$      |
+|  1  | $\frac{1}{2}$ | $1\cdot \frac{1}{2}=\frac{1}{2}$ |
+| Sum |       1       |          $\frac{1}{2}$           |
+
+##### Forventningsverdi i binomisk sannsynlighetsfordeling
+I binomisk sannsynlighetsfordeling hvor antall forsøk er $n$ og sannsynligheten for suksess i hvert forsøk er $p$, er forventningsverdien gitt ved:
+
+$$
+\mu = E(X) = n \cdot p
+$$
+
+##### Forventningsverdi i kontinuerlige sannsynlighetsfordelinger
+I kontinuerlige sannsynlighetsfordelinger finner vi forventningsverdien til $X$ ved å bestemme integralet
+$$
+\int_{a}^{b} x \cdot f(x) \, dx 
+$$
+hvor $f$ er sannsynlighetstettheten (også kalt tetthetsfunksjonen) med definisjonsmengde $D_{f}=[a,b]$.
+
+#### Varians og standardavvik
+Varians og standardavvik er spredningsmål – de måler variasjonen i observasjonene våre. 
+
+>[!important] Varians og standardavvik
+>
+>- Standardavviket er kvadratroten av variansen: $\sigma = \text{SD}(X) = \sqrt{ \text{Var}(X) }$
+>- Standardavvik har samme måleenhet som observasjonene våre
+>- Variansen har måleenheten til observasjonene opphøyd i andre
+
+Variansen til $X$ finner vi med
+
+$$
+\text{Var}(X)=\sum_{i=1}^{N}\left( ( x_{i}-\mu)^{2}\cdot P(X=x_{i}) \right)
+$$
+
+Vi bruker vanligvis en tabell med sannsynlighetsfordelingen for å regne ut variansen. Nedenfor er et eksempel som viser sannsynlighetsfordelingen når $X$ er antall kron på ett myntkast. Jeg har valgt å først regne ut $(x-\mu)^{2}$, før jeg multipliserer med sannsynligheten i kolonne 5.
+
+|          $x$          |             $P(X=x)$              |         $x \cdot P(X=x)$         |                                              $(x-\mu)^{2}$                                               |                    $(x-\mu)^{2} \cdot P(X=x)$                     |
+| :-------------------: | :-------------------------------: | :------------------------------: | :------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------: |
+| $\textcolor{dred}{0}$ | $\textcolor{dgreen}{\frac{1}{2}}$ |     $0 \cdot \frac{1}{2}=0$      | $\left( \textcolor{dred}{0}-\textcolor{dblue}{\frac{1}{2}} \right)^{2}=\textcolor{dorange}{\frac{1}{4}}$ | $\textcolor{dorange}{\frac{1}{4}} \cdot \textcolor{dgreen}{\frac{1}{2}} = \frac{1}{8}$ |
+| $\textcolor{dred}{1}$ | $\textcolor{dgreen}{\frac{1}{2}}$ | $1\cdot \frac{1}{2}=\frac{1}{2}$ | $\left( \textcolor{dred}{1}-\textcolor{dblue}{\frac{1}{2}} \right)^{2}=\textcolor{dorange}{\frac{1}{4}}$ | $\textcolor{dorange}{\frac{1}{4}} \cdot \textcolor{dgreen}{\frac{1}{2}} = \frac{1}{8}$ |
+|        **Sum**        |                 1                 | $\textcolor{dblue}{\frac{1}{2}}$ |                                                                                                          |                           $\frac{1}{4}$                           |
+
+Fra summen i den femte kolonnen ser vi at $\text{Var}(X)=\frac{1}{4}$.
+
+##### Varians i binomisk fordeling
+I binomisk sannsynlighetsfordeling hvor antall forsøk er $n$ og sannsynligheten for suksess i hvert forsøk er $p$, er variansen gitt ved
+$$
+\text{Var}(X)=n\cdot p\cdot(1-p)
+$$
+
+##### Varians i kontinuerlige sannsynlighetsfordelinger
+I kontinuerlige sannsynlighetsfordelinger finner vi variansen til $X$ ved å bestemme integralet
+$$
+\int_{a}^{b} (x-\mu)^{2} \cdot f(x) \, dx 
+$$
+hvor $f$ er sannsynlighetstettheten (også kalt tetthetsfunksjonen) med definisjonsmengde $D_{f}=[a,b]$, og $\mu$ er forventningsverdien til $X$.
+
+#### Regneregler for forventningsverdi og varians
+La $X$ være en stokastisk variabel og $a$ og $b$ konstanter. Da har vi følgende regler
+$$
+E(a\cdot X+b)=a \cdot E(X)+b \quad \text{og} \quad \text{Var}(a \cdot X+b)=a^{2} \cdot \text{Var}(X)
+$$
+
+##### Regneregler for sum av stokastiske variabler
+La $X_{1},X_{2},X_{3},\dots,X_{n}$ være stokastiske variabler. Da gjelder
+$$
+E(X_{1}+X_{2}+X_{3}+\cdots+X_{n})=E(X_{1})+E(X_{2})+E(X_{3})+\cdots + E(X_{n})
+$$
+
+Hvis (og bare hvis) $X_{1},X_{2},X_{3},\dots,X_{n}$ er uavhengige, så gjelder også
+$$
+\text{Var}(X_{1}+X_{2}+\cdots+X_{n})=\text{Var}(X_{1})+\text{Var}(X_{2})+\cdots + \text{Var}(X_{n})
+$$
+
+### Kontinuerlige sannsynlighetsfordelinger
+I kontinuerlige sannsynlighetsfordelinger så inneholder utfallsrommet til den stokastiske variabelen $X$ alle verdier innenfor et intervall. 
+
+Sannsynligheten for at $X$ ligger innenfor et intervall $[a,b]$ er gitt ved
+$$
+P(a<X<b)=P(a\leq X\leq b)=\int_{a}^{b} f(x) \, dx 
+$$
+
+Her er $f(x)$ sannsynlighetstettheten (eller tetthetsfunksjonen) til $X$. Legg merke til at $P(a<X<b)=P(a\leq X\leq b)$. Punktsannsynligheter i kontinuerlige sannsynlighetsfordelinger er lik null $P(X=a)=0$ siden 
+$$
+P(X=a)=\int_{a}^{a} f(x) \, dx =F(a)-F(a)=0
+$$
+
+>[!important] Krav til sannsynlighetstettheten $f(x)$
+>
+> 1. $f$ må ha en definisjonsmengde $D_{f}=[a,b]$
+> 2. $f(x)\geq 0$
+> 3. $\int_{a}^{b} f(x) \, dx=1$
+
+### Normalfordelingen
+Normalfordelingen er en kontinuerlig sannsynlighetfordeling med tetthetsfunksjon gitt ved
+$$
+f(x)=\frac{1}{\sigma \sqrt{ 2\pi }}e^{- \frac{(x-\mu)^{2}}{2\sigma^{2}}}
+$$
+
+#### Standard normalfordeling
+Alle normalfordelinger kan gjøres om til en standard normalfordeling med forventningsverdi $0$ og standardavvik $1$. Vi bruker den stokastiske variabelen $Z$ i standard normalfordeling. 
+
+La $X$ være normalfordelt med forventningsverdi $\mu$ og standardavvik $\sigma$. For å bestemme $P(X<a)$ kan vi gjøre om $X \to Z$ ved å først regne ut en $z$-verdi:
+$$
+z=\frac{x-\mu}{a}
+$$
+Deretter bestemmer vi sannsynligheten $P(Z<z)$ ved å gå inn i tabellen med standard normalfordeling.
+
+>[!important] $z$ i standard normalfordeling
+>
+>$z$ er antall standardavvik i standard normalfordeling. For eksempel betyr $z=-2$ at grensa vår ligger to standardavvik til venstre for forventningsverdien. 
+
+#### Normalfordeling som tilnærming for binomiske fordelinger
+Binomiske fordelinger blir tilnærmet normalfordelte når antall forsøk $n$ går mot uendelig, altså $\lim_{n \to \infty}$.
+
+Som tommelfingerregel sier vi at dersom $X$ er binomisk fordelt og $\text{Var}(X)\geq5$, så kan vi bruke normalfordeling som tilnærming for den binomiske fordelingen.
+
+Forventningsverdi og varians er den samme for begge fordelingene.
+$$
+\mu = np \quad \text{og} \quad \text{Var}(X)=np(1-p)
+$$
+
+### Sentralgrensesetningen
+
+>[!important] Sentralgrensesetningen
+>
+>Sentralgrensesetningen sier at dersom vi gjør tilstrekkelig mange forsøk, vil sannsynlighetsfordelingen til alle stokastiske variabler kunne tilnærmes med en normalfordeling.
+
+La $X$ være en stokastisk variabel med forventningsverdi $\mu$ og standardavvik $\sigma$. 
+
+Vi lar $S$ være summen av $n$ delforsøk med $X$ slik at
+$$
+S=X_{1}+X_{2}+\cdots+X_{n}
+$$
+
+Når $n \to \infty$ er summen $S$ tilnærmet normalfordelt med
+$$
+\begin{aligned}
+E(S)&=n \cdot E(X)=n \cdot \mu\\
+\text{Var}(S)&=n \cdot \text{Var}(X)\\
+\text{SD}(S)&=\sqrt{ \text{Var}(S) }=\sqrt{ n \cdot \text{Var}(X) }=\sqrt{ n } \cdot \sqrt{ \text{Var}(X) }=\sqrt{ n } \cdot \sigma\\
+\end{aligned}
+$$
+
+Denne tilnærmingen er best for store verdier av $n$. Som tommelfingerregel gjelder sentralgrensesetningen når $n\geq 30$.
+
+### Simuleringer med python
+>[!todo] Ståle: fyll inn her
+
+## Hypotesetesting
+Vi bruker hypotesetester til å trekke slutninger om en hel populasjon basert på et utvalg eller stikkprøve.
+
+I hypotesetester så bestemmer vi sannsynligheten for at observasjonene våre kan forekomme, gitt at en nullhypotese er sann.
+
+| Begrep                                | Forklaring                                                                                                                                              |
+| ---- | -------- |
+| Hypotesetesting                       | Gjøre et utvalg/stikkprøve av en populasjon og finne ut om vi kan forkaste en nullhypotese.                                                             |
+| Nullhypotese ($H_0$)                  | Den gjeldende hypotesen eller det vi ønsker å motbevise. Vi antar at denne er sann i hypotesetesting.                                                   |
+| Alternativ hypotese ($H_A$) | Den hypotesen vi ønsker å teste ("bevise")                                                                                                              |
+| Testobservator ($X$)                  | En stokastisk variabel med en valgt sannsynlighetsfordeling forutsatt at $H_0$ er sann                                                                  |
+| Signifikansnivå ($\alpha$)            | Er som oftest 0,05. Det betyr at vi forkaster nullhypotesen i 5 % av tilfellene hvor vi ikke burde forkastet den (at vi gjør feil i 5 % av tilfellene). |
+| $p$-verdi                             | Sannsynligheten for observasjonen, gitt at $H_0$ er sann                                                                                                |
+| Forkastningsmengde                    | De verdier av $X$ som gjør at $H_0$  forkastes                                                                                                          |
+| Aksepteringsmengde                    | De verdier av $X$ som gjør at $H_0$  beholdes                                                                                                           |
+| Venstresidig test                     | Tester om andelen er mindre enn nullhypotesen, altså $H_A$:   $p<p_0$                                                                                   |
+| Høyresidig                            | Tester om andelen er større enn nullhypotesen, altså $H_{A}$:   $p>p_0$                                                                                 |
+| Tosidig test                          | Tester om den egentlige verdien er ulik fra nullhypotesen $\mu \neq \mu_{0}$                                                                            |
+
+>[!important] Algoritme for hypotesetester
+>
+>1. Sett opp nullhypotese og alternativ hypotese. Nullhypotesen er det vi < motbevise.
+>2. Anta at nullhypotesen er sann og sett opp sannsynlighetsfordelingen for $X$
+>3. Regn ut $p$-verdien (sannsynligheten for å få observasjonene gitt at nullhypotesen er sann)
+>4. Sammenlign $p$-verdien med signifikansverdien $\alpha$.
+> 	 - $p<\alpha$ betyr at vi forkaster $H_{0}$. Sannsynligheten for at observasjonene skal oppstå tilfeldig er mindre enn signifikansnivået.
+> 	 - $p>\alpha$ betyr at vi ikke forkaster $H_{0}$. Sannsynligheten for at observasjonene skal oppstå tilfeldig er større enn signifikansnivået.
+>5. Skriv konklusjon
+
+### Hypotesetesting av andeler
+Vi undersøker om sannsynligheten $p$ i en binomisk fordeling har en bestemt verdi ved å teste $H_{0}: \, p=p_{0}$ mot
+- Venstresidig test $H_{A}: \, p<p_{0}$.
+- Høyresidig test $H_{A}: \, p>p_{0}$
+
+1. Vi velger $X$ som testobservator og tar en stikkprøve der $X$ får verdien $a$. 
+2. Vi regner ut $p$-verdien[^2]
+		- Ved venstresidig test så beregner vi $p$-verdien $P(X<a)$. 
+		- I en høyresidig test regner vi ut $p$-verdien $P(X>a)$.
+3. Hvis $p<\alpha$ så forkaster vi $H_{0}$
+
+#### Hypotesetest av andel ved å bruke normalfordeling
+Siden binomiske fordelinger kan være tilnærmet normalfordelte (se kapittel [6.4.2](#normalfordeling-som-tilnærming-for-binomiske-fordelinger)), så kan vi bruke normalfordelingen til å teste andeler når $\text{Var}(X)\geq 5$.
+
+I hypotesetesten bruker vi da en normalfordeling med $\mu=np$ og $\sigma=\sqrt{ np(1-p) }$.
+
+### Hypotesetesting av gjennomsnitt
+La $\bar{X}$ være gjennomsnittsverdien i en stikkprøve bestående av $n$ elementer av den stokastiske variabelen $X$. $X$ har forventningsverdi $\mu$ og standardavvik $\sigma$. Forventningsverdien og standardavviket til $\bar{X}$ er da
+$$
+\begin{aligned}
+E(\bar{X}) &= E(X) = \mu\\
+\text{SD}(\bar{X}) &= \frac{\text{SD}(X)}{\sqrt{ n }} = \frac{\sigma}{\sqrt{ n }}
+\end{aligned}
+$$
+
+I hypotesetesten vår så bruker vi en normalfordeling med $E(\bar{X})=\mu$ og $\text{SD}(\bar{X})=\frac{\sigma}{\sqrt{ n }}$. 
 
 ## Matematisk notasjon
 
@@ -475,17 +728,17 @@ $$
 
 ### Mengder
 
-| Notasjon                                                                  | Forklaring                                                                                                                     |
-| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| $0\leq x$                                                                 | 0 er mindre eller lik $x$, eller sagt på en annen måte: $x$ er større eller lik null                                           |
-| $[a, b]$                                                                   | Det lukkede intervallet fra $a$ til $b$ inneholder alle tall fra og med $a$ og opp til og med $b$                              |
-| $\langle a,b \rangle  = \left( a, b \right)$                                                     | Det åpne intervallet fra $a$ til $b$ inneholder alle tall fra (men ikke inkludert) $a$ og opp til (men ikke inkludert) $b$. Hakeparenteser er vanlig på norsk, vanlige parenteser i vanlig i engelsk litteratur.     |
-| $\langle \leftarrow,0]$                                                   | Er intervallet fra minus uendelig til og med 0                                                                                 |
-| $x \in \mathbb{R}$                                                        | $x$ er element i mengden alle reelle tall $\mathbb{R}$                                                                         |
-| $x \in \mathbb{N}$                                                        | $x$ er element i mengden alle naturlige tall $\mathbb{N}$                                                                      |
-| $x \in [0, 20]$                                                            | $x$ er et reelt tall i det lukkede intervallet fra 0 til 20                                                                    |
-| $x \in \langle \leftarrow,-1 \rangle \cup \langle 2, \rightarrow \rangle$ | $x$ er element i unionen ($\cup$) av to ulike intervaller. Du kan ofte få svar som dette når du skal løse andregradsulikheter. |
-| $D_{f}=\mathbb{R} \setminus 1$                                            | Definisjonsmengden til $f$ er mengden av alle reelle tall bortsett fra 1.                                                                                                                               |
+| Notasjon                                                                  | Forklaring                                                                                                                                                                                                       |
+| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| $0\leq x$                                                                 | 0 er mindre eller lik $x$, eller sagt på en annen måte: $x$ er større eller lik null                                                                                                                             |
+| $[a, b]$                                                                  | Det lukkede intervallet fra $a$ til $b$ inneholder alle tall fra og med $a$ og opp til og med $b$                                                                                                                |
+| $\langle a,b \rangle  = \left( a, b \right)$                              | Det åpne intervallet fra $a$ til $b$ inneholder alle tall fra (men ikke inkludert) $a$ og opp til (men ikke inkludert) $b$. Hakeparenteser er vanlig på norsk, vanlige parenteser i vanlig i engelsk litteratur. |
+| $\langle \leftarrow,0]$                                                   | Er intervallet fra minus uendelig til og med 0                                                                                                                                                                   |
+| $x \in \mathbb{R}$                                                        | $x$ er element i mengden alle reelle tall $\mathbb{R}$                                                                                                                                                           |
+| $x \in \mathbb{N}$                                                        | $x$ er element i mengden alle naturlige tall $\mathbb{N}$                                                                                                                                                        |
+| $x \in [0, 20]$                                                           | $x$ er et reelt tall i det lukkede intervallet fra 0 til 20                                                                                                                                                      |
+| $x \in \langle \leftarrow,-1 \rangle \cup \langle 2, \rightarrow \rangle$ | $x$ er element i unionen ($\cup$) av to ulike intervaller. Du kan ofte få svar som dette når du skal løse andregradsulikheter.                                                                                   |
+| $D_{f}=\mathbb{R} \setminus 1$                                            | Definisjonsmengden til $f$ er mengden av alle reelle tall bortsett fra 1.                                                                                                                                        |
 
 ### Logikk
 
@@ -516,3 +769,4 @@ $$
 $$
 
 [^1]: Merk at `python`-lister begynner på indeks 0. Det vil si at for å hente ut det første elementet i ei liste som heter `min_liste` så skriver vi `min_liste[0]`. For å hente du det fjerde elementet i lista skriver vi `min_liste[3]`.
+[^2]: $p$-verdi og sannsynligheten $p$ i binomisk modell er *ikke* det samme.
