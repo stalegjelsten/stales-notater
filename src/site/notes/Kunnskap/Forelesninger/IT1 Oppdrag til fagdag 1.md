@@ -59,5 +59,6 @@ En god vurderingssamtale har følgende kjennetegn:
 - [Geo for Bootstrap](http://code.divshot.com/geo-bootstrap/) (Grufullt stygt!)
 - [Renee Fleck – The Evolution of Web Design: 2000 ‑ 2004](https://dribbble.com/stories/2019/11/18/evolution-of-web-design-2000-2004)
 - [Ståle Gjelsten Ung2005](https://stalegjelsten.no/ung2005/css)
+- [Poolsuite.fm](https://poolsuite.net/)
 
 [^1]: Du kan lage en `.zip`-fil i Windows 11 ved å trykke høyre museknapp på mappa med filene og `Komprimer til ZIP`. I Windows 10 så trykker du høyre museknapp på mappa og `Send til → Komprimert (Zippet) mappe`. I macOS trykker du høyre museknapp og `Komprimer <filnavn>`.
