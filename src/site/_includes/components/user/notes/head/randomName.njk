@@ -3,6 +3,6 @@
   const random = Math.floor(Math.random() * names.length);
 
   document.addEventListener('DOMContentLoaded', function() {
-    document.querySelector("#randName").textContent = names[random];
+    document.querySelectorAll(".randName").textContent = names[random];
   });
 </script>
