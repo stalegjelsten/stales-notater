@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Dokumenter/Formelark S2/","title":"Formelark S2","tags":["s2"]}
+{"dg-publish":true,"permalink":"/Dokumenter/Formelark S2/","title":"Formelhefte S2","tags":["s2"]}
 ---
 
 
@@ -270,13 +270,14 @@ Vi har følgende integrasjonsregler
 | Spesialtilfelle      | $\frac{1}{x}$  |             $\ln \vert x \vert +C,\,\, x\neq 0$             |
 | Eksponentialfunksjon |    $e^{kx}$    |                   $\frac{1}{k}e^{kx} +C$                    |
 | Eksponentialfunksjon |    $a^{x}$     |    $\frac{a^{x}}{\ln a}+C \,\, ,\,\,a>0\wedge a \neq 1$     |
+| Naturlig logaritme   |    $\ln x$     |                     $x \cdot \ln x-x+C$                     |
 
 ### Bestemt integral som grense av sum
 Vi har en funksjon $f(x)$. Vi ønsker å finne arealet under grafen fra $x = a$ til $x = b$.
 
 Vi forsøker å dele opp området under grafen i $n$ rektangler. Bredden på hvert rektangel må da være $\Delta x = \frac{b - a}{n}$. 
 
-Hvis vi kaller $x$-verdien i starten av rektangelet for $x_{i}$ der $i = \{ 1,\ 2,\ 3,\ \ldots,\ n\}$ så vil høyden av hvert rektangelet være $f\left( x_{i} \right)$.
+Hvis vi kaller $x$-verdien i starten av rektangelet for $x_{i}$ der $i \in \{ 1,\ 2,\ 3,\ \ldots,\ n\}$ så vil høyden av hvert rektangelet være $f\left( x_{i} \right)$.
 
 Siden arealet til et rektangel er høyde multiplisert med bredde vil summen av arealene til rektanglene altså være
 
@@ -289,18 +290,18 @@ $$\lim_{\Delta x \rightarrow 0}{S_{n} =}\lim_{n \rightarrow \infty}{\sum_{i = 1}
 ### Fundamentalsetningen
 Fundamentalsetningen eller analysens fundamentalteorem forteller oss at integrasjon og derivasjon er motsatte operasjoner.
 
-La $f$ være en kontinuerlig funksjon på $[a, b]$. La
+>[!important] Fundamentalsetningen del 1
+>
+>La $f$ være en kontinuerlig funksjon på $[a, b]$. La
+>$$F'(x)=f(x) \quad \text{for alle} \quad x\in[a, b]$$
+>
+>Denne førsten delen av fundamentalsetningen forteller oss at alle kontinuerlige funksjoner $f$ har antideriverte funksjoner $F$. 
 
-$$
-F'(x)=f(x) \quad \text{for alle} \quad x\in[a, b]
-$$
-> Denne førsten delen av fundamentalsetningen forteller oss at alle kontinuerlige funksjoner $f$ har antideriverte funksjoner $F$. 
-
-Da er 
-$$
-\int_{a}^{b} f(x) \, dx = \left[ F(x) \right] _{a}^b=F(b)-F(a)
-$$
-
+>[!important] Fundamentalsetningen del 2
+>
+>Gitt $f$ fra del 1 så er
+>$$\int_{a}^{b} f(x) \, dx = \left[ F(x) \right] _{a}^b=F(b)-F(a)$$
+>
 > Denne andre delen av fundamentalsetningen forteller oss at vi kan beregne et bestemt integral ved hjelp av det ubestemte integralet
 
 ### Areal under grafer
@@ -369,7 +370,7 @@ $$
 Du lager rader i tabellen fram til du får en null, eller helt til du ser at du kan integrere produktet av faktorene i en rad. Hvis du ser at du kan integrere produktet av faktorene i en rad (for eksempel kan vi integrere produktet av 2 og $\frac{1}{4}e^{x}$ i rad 3), så kan du sette opp følgende
 
 $$
-\textcolor{dblue}{+x^{2} \frac{1}{2} e^{2x}}\textcolor{dred}{-2x \frac{1}{4} e^{2x}} \textcolor{dgreen}{+}\int \textcolor{dgreen}{2} \textcolor{dred}{ \frac{1}{4} e^{2x}} \, \mathrm{d}x = \frac{1}{2}e^{2x}x^{2}-\frac{1}{2}e^{2x}x+2\int \frac{1}{2}e^{2x} \, \mathrm{d}x
+\textcolor{dblue}{+x^{2} \frac{1}{2} e^{2x}}\textcolor{dred}{-2x \frac{1}{4} e^{2x}} \textcolor{dgreen}{+}\int \textcolor{dgreen}{2} \textcolor{dred}{ \frac{1}{4} e^{2x}} \, \mathrm{d}x = \frac{1}{2}e^{2x}x^{2}-\frac{1}{2}e^{2x}x+\int \frac{1}{2}e^{2x} \, \mathrm{d}x
 $$
 
 Når du løser dette vil du få samme svar som tidligere.
@@ -378,10 +379,12 @@ Når du løser dette vil du få samme svar som tidligere.
 Variabelskifte brukes hvis du skal integrere en sammensatt funksjon. Variabelskifte kalles ofte for den omvendte kjerneregelen.
 
 1. Velg en del av integranden som $u$, dette er variabelskiftet ditt. 
-2. Substituer inn $u$ i integranden. 
-3. Deriver $u$ slik at du finner $u'=\frac{du}{dx}$. 
-4. Løs likningen med hensyn på $dx$ slik at du får $dx=\frac{du}{u'}$ 
-5. Substituer $dx$ med $\frac{du}{u'}$ i det opprinnelige uttrykket ditt.
+2. Deriver $u$ slik at du finner $u'=\frac{du}{dx}$. 
+3. Løs likningen med hensyn på $dx$ slik at du får $dx=\frac{du}{u'}$ 
+4. Substituer $dx$ med $\frac{du}{u'}$ i det opprinnelige uttrykket ditt.
+5. Substituer inn $u$ i integranden. 
+6. Integrer uttrykket som nå har formen $\int g(u) \, \mathrm{d}u$
+7. Substituer ut alle $u$ i svaret med det opprinnelige uttrykket for $u$
 
 >[!example] Se etter en faktor du kan derivere
 >
@@ -390,7 +393,7 @@ Variabelskifte brukes hvis du skal integrere en sammensatt funksjon. Variabelski
 >Vi vet at $\left( \ln x \right)'=\frac{1}{x}$, dermed er $\ln x$ et svært godt valg for variabelskifte.
 >
 >Vi setter $u=\ln x$ og skriver den deriverte av $u$ som $\frac{du}{dx}$
->$$\begin{aligned} u=\ln x \\ u'=\frac{du}{dx}=\frac{1}{x}\\ du = \frac{1}{x}dx \\ dx=x \cdot du \end{aligned}$$
+>$$\begin{aligned} u&=\ln x \\ u'=\frac{du}{dx}&=\frac{1}{x}\\ du &= \frac{1}{x}dx \\ dx&=x \cdot du \end{aligned}$$
 >Vi kan nå bytte ut $dx$ i integranden med $x \cdot du$ og vi får
 >$$ \int \frac{u}{\cancel{ x }} \cancel{ x } \, \mathrm{d}u = \int u \, \mathrm{d}u = \frac{1}{2}u^{2} + C$$
 >Vi bytter tilbake $\ln x$ for $u$ og får svaret 
@@ -450,9 +453,6 @@ K'(x)&= E(x)\\
 $$
 
 ### Etterspørsel
-
-> **Kommentar fra Ståle**: Dette er pensum fra S1 i vårt læreverk. Andre læreverk lærer dette i S2. Jeg tror ikke det er relevant for eksamen, men jeg legger det ved her for sikkerhets skyld.
-
 Etterspørselen $q$ er en funksjon av prisen $p$ slik at $q(p)$. Etterspørselen er også lik antall solgte enheter $x$ slik at
 $$
 x=q(p)
@@ -548,7 +548,7 @@ $$
 Vi bruker vanligvis en tabell med sannsynlighetsfordelingen for å regne ut variansen. Nedenfor er et eksempel som viser sannsynlighetsfordelingen når $X$ er antall kron på ett myntkast. Jeg har valgt å først regne ut $(x-\mu)^{2}$, før jeg multipliserer med sannsynligheten i kolonne 5.
 
 |          $x$          |             $P(X=x)$              |         $x \cdot P(X=x)$         |                                              $(x-\mu)^{2}$                                               |                    $(x-\mu)^{2} \cdot P(X=x)$                     |
-| :-------------------: | :-------------------------------: | :------------------------------: | :------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------: |
+| :--: | :--: | :---: | :---: | :----: |
 | $\textcolor{dred}{0}$ | $\textcolor{dgreen}{\frac{1}{2}}$ |     $0 \cdot \frac{1}{2}=0$      | $\left( \textcolor{dred}{0}-\textcolor{dblue}{\frac{1}{2}} \right)^{2}=\textcolor{dorange}{\frac{1}{4}}$ | $\textcolor{dorange}{\frac{1}{4}} \cdot \textcolor{dgreen}{\frac{1}{2}} = \frac{1}{8}$ |
 | $\textcolor{dred}{1}$ | $\textcolor{dgreen}{\frac{1}{2}}$ | $1\cdot \frac{1}{2}=\frac{1}{2}$ | $\left( \textcolor{dred}{1}-\textcolor{dblue}{\frac{1}{2}} \right)^{2}=\textcolor{dorange}{\frac{1}{4}}$ | $\textcolor{dorange}{\frac{1}{4}} \cdot \textcolor{dgreen}{\frac{1}{2}} = \frac{1}{8}$ |
 |        **Sum**        |                 1                 | $\textcolor{dblue}{\frac{1}{2}}$ |                                                                                                          |                           $\frac{1}{4}$                           |
@@ -593,10 +593,13 @@ $$
 P(a<X<b)=P(a\leq X\leq b)=\int_{a}^{b} f(x) \, dx 
 $$
 
-Her er $f(x)$ sannsynlighetstettheten (eller tetthetsfunksjonen) til $X$. Legg merke til at $P(a<X<b)=P(a\leq X\leq b)$. Punktsannsynligheter i kontinuerlige sannsynlighetsfordelinger er lik null $P(X=a)=0$ siden 
-$$
-P(X=a)=\int_{a}^{a} f(x) \, dx =F(a)-F(a)=0
-$$
+Her er $f(x)$ sannsynlighetstettheten (eller tetthetsfunksjonen) til $X$. 
+
+>[!tip] Punktsannsynlighet i kontinuerlige sannsynlighetsfordelinger
+>Legg merke til at $P(a<X<b)=P(a\leq X\leq b)$. 
+>
+>Punktsannsynligheter i kontinuerlige sannsynlighetsfordelinger er lik null (altså $P(X=a)=0$) siden 
+>$$ P(X=a)=\int_{a}^{a} f(x) \, dx =F(a)-F(a)=0  $$
 
 >[!important] Krav til sannsynlighetstettheten $f(x)$
 >
@@ -609,6 +612,8 @@ Normalfordelingen er en kontinuerlig sannsynlighetfordeling med tetthetsfunksjon
 $$
 f(x)=\frac{1}{\sigma \sqrt{ 2\pi }}e^{- \frac{(x-\mu)^{2}}{2\sigma^{2}}}
 $$
+
+Definisjonsmengden er $D_{f}=\mathbb{R}$. Normalfordelingen er symmetrisk om linja $x=\mu$.
 
 #### Standard normalfordeling
 Alle normalfordelinger kan gjøres om til en standard normalfordeling med forventningsverdi $0$ og standardavvik $1$. Vi bruker den stokastiske variabelen $Z$ i standard normalfordeling. 
@@ -624,14 +629,26 @@ Deretter bestemmer vi sannsynligheten $P(Z<z)$ ved å gå inn i tabellen med sta
 >$z$ er antall standardavvik i standard normalfordeling. For eksempel betyr $z=-2$ at grensa vår ligger to standardavvik til venstre for forventningsverdien. 
 
 #### Normalfordeling som tilnærming for binomiske fordelinger
-Binomiske fordelinger blir tilnærmet normalfordelte når antall forsøk $n$ går mot uendelig, altså $\lim_{n \to \infty}$.
-
-Som tommelfingerregel sier vi at dersom $X$ er binomisk fordelt og $\text{Var}(X)\geq5$, så kan vi bruke normalfordeling som tilnærming for den binomiske fordelingen.
+Binomiske fordelinger blir tilnærmet normalfordelte når antall forsøk $n$ går mot uendelig, altså $\lim_{n \to \infty}$. Som tommelfingerregel sier vi at dersom $X$ er binomisk fordelt og $\text{Var}(X) \geq 5$, så kan vi bruke normalfordeling som tilnærming for den binomiske fordelingen.
 
 Forventningsverdi og varians er den samme for begge fordelingene.
 $$
 \mu = np \quad \text{og} \quad \text{Var}(X)=np(1-p)
 $$
+
+La $X$ være binomisk fordelt med $\mu = np$ og $\sigma = \sqrt{ np(1-p) }$. Hvis vi skal tilnærme med $X$ med normalfordeling må vi gjøre følgende *halvkorreksjoner*:
+$$
+\begin{aligned}
+&\textcolor{dblue}{\mathrm{Binomisk}} & &\textcolor{dred}{\mathrm{Normalfordelt}} \\
+&\textcolor{dblue}{P(a<X<b)} &\implies &\textcolor{dred}{P(a-0{,}5<X<b+0{,}5)} \\
+&\textcolor{dblue}{P(X=a)} &\implies &\textcolor{dred}{P(a-0{,}5<X<a+0{,}5)}
+\end{aligned}
+$$
+
+>[!important] Halvkorreksjon
+>
+>Siden $P(X=a)=0$ i normalfordelingen så er vi nødt til å gjøre en *halvkorreksjon* når vi finner sannsynligheter i binomiske fordelinger tilnærmet med normalfordelingen. Behovet for halvkorreksjon forsvinner når $n \to \infty$.
+
 
 ### Sentralgrensesetningen
 
@@ -658,7 +675,135 @@ $$
 Denne tilnærmingen er best for store verdier av $n$. Som tommelfingerregel gjelder sentralgrensesetningen når $n\geq 30$.
 
 ### Simuleringer med python
->[!todo] Ståle: fyll inn her
+Vi bruker ofte *Monte Carlo*-simuleringer i programmer for å finne sannsynligheter som er vanskelig å bestemme ved regning. Prinsippet for slike simuleringer er:
+
+1. Du definerer en hendelse $A$
+2. Du gjennomfører et tilfeldig forsøk $N$ ganger
+3. Du teller antall ganger $A$ inntreffer og kaller denne summen for $m$
+4. Du beregner sannsynligheten ved: $P(A) \approx \frac{m}{N}=\frac{\text{antall gunstige}}{\text{antall mulige}}$
+
+Dette er imidlertid ikke den ekte sannsynligheten, men $m/N$  gir en veldig god tilnærming når $N$ er høy. Prøv deg gjerne frem med stadig høyere $N$ (for eksempel  10000, 100 000, 1 000 000 og så videre), men stopp når du merker at programmet tar lang tid å kjøre.
+
+#### Å trekke fra et statistisk fordeling
+Vi kan trekke ut en tilfeldig prøve fra mange ulike statistiske fordelinger. I S2 skal vi fokusere på:
+
+- Uniform sannsynlighetsfordeling: *alle utfallene er like sannsynlige*
+- Binomisk sannsynlighetsfordeling
+- Hypergeometrisk sannsynlighetsfordeling
+- Normalfordeling
+
+Vi bruker funksjoner fra biblioteket `random` til å gjøre uttrekk. Vi må derfor ha med linjen `import random` i toppen av programmene våre.
+
+##### Trekke tilfeldig heltall
+For å trekke et tilfeldig heltall i intervallet $[1 , 6]$ (fra og med 1, til og med 6) så kan du bruke `random.randint(a,b)`.
+
+```python
+import random
+tilfeldig_tall = random.randint(1,6)
+```
+
+##### Trekke tilfeldig desimaltall
+For å trekke et tilfeldig desimaltall i intervallet $[0 , 1\rangle$ så kan du bruke `random.random()`. 
+
+```python
+import random
+tilfeldig_tall = random.random()
+```
+
+Hvis du trenger å ha et tilfeldig desimaltall i intervallet $[5, 15\rangle$ så kan bare gange det tilfeldige tallet med 10 og legge til 5:
+
+```python
+import random
+tilfeldig_tall = 10 * random.random() + 5
+```
+
+##### Trekke fra normalfordeling
+For å trekke et tilfeldig tall fra en normalfordeling med forventningsverdi $\mu=180$ og standardavvik $\sigma=7$ så kan du bruke `random.gauss(mu, sigma)`.
+
+```python
+import random
+tilfeldig_tall = random.gauss(180, 7)
+```
+
+#### Eksempel på simulering fra eksempeleksamen høst 2022
+
+>På en skole er det 323 jenter og 301 gutter. $X$ er høyden på en tilfeldig valgt jente. $Y$ er høyden på en tilfeldig valgt gutt.
+>
+>Anta at $X$ og $Y$ er normalfordelt med $\mu_{X}=168, \mu_{Y}=180, \sigma_{X}=6, \sigma_{Y}=8$.
+>
+>Lag et program som du kan bruke til å smulere sannsynligheten for at en tilfeldig valgt elev er høyere enn 175 cm.
+
+```python
+import random
+
+n_x = 323
+n_y = 301
+mu_x = 168
+mu_y = 180
+s_x = 6
+s_y = 8
+
+grense = 175
+antall_simuleringer = 10000
+antall_gunstige = 0
+
+for i in range(antall_simuleringer):
+    # Vi trekker en tilfeldig elev, men vi må finne ut om
+    # eleven er gutt eller jente.
+    # Det er 301 gutter. Hvis vi trekker et tilfeldig tall mellom
+    # 1 og 301+323=624 så kan vi si at dersom tallet er mindre enn
+    # eller lik 301, så er det en gutt.
+
+    if (random.randint(1, n_x + n_y) <= n_y):
+        # Her har vi altså trukket en gutt og vi trekker en tilfeldig gutt
+        # fra en normalfordeling
+        hoyde = random.gauss(mu_y, s_y)
+    else:
+        # ellers har vi trukket ei jente
+        hoyde = random.gauss(mu_x, s_x)
+    if (hoyde > grense):
+        antall_gunstige += 1
+
+sannsynlighet = antall_gunstige/antall_simuleringer
+
+print(f"Sannsynligheten for å trekke en tilfeldig elev over 175 cm er "
+      f"estimert til {sannsynlighet * 100:.1f} "
+      f"med {antall_simuleringer} simuleringer")
+```
+
+#### Eksempel på simulering fra eksamen høst 2023
+>Høyden X til en tilfeldig valgt jente på 24 måneder er tilnærmet normalfordelt med forventningsverdi $E(X)=87$ cm og standardavvik $\text{SD}(X)=3{,}3$ cm.
+>
+>Høyden Y til en tilfeldig valgt gutt på 24 måneder er tilnærmet normalfordelt med forventningsverdi $E(Y)=88$ cm og standardavvik $\text{SD}(Y)=3{,}1$ cm.
+>
+>Lag et program som du kan bruke til å anslå sannsynligheten for at høyden til et tilfeldig valgt barn på 24 måneder er mindre enn 84 cm. Gå ut ifra at det er like mange jenter som gutter i populasjonen.
+
+```python
+import random
+
+EX = 87
+SDX = 3.3
+EY = 88
+SDY = 3.1
+N = 100_000
+antall_gunstige = 0
+
+for i in range(N):
+    tilfeldig_tall = random.randint(1,2)
+
+    if tilfeldig_tall == 1:
+        # Vi har trukket en jente
+        hoyde = random.gauss(EX, SDX)
+    else:
+        # Vi har trukket en gutt
+        hoyde = random.gauss(EY, SDY)
+    if hoyde < 84:
+        antall_gunstige += 1
+
+sannsynlighet = antall_gunstige / N
+print(sannsynlighet)
+
+```
 
 ## Hypotesetesting
 Vi bruker hypotesetester til å trekke slutninger om en hel populasjon basert på et utvalg eller stikkprøve.
@@ -691,13 +836,16 @@ I hypotesetester så bestemmer vi sannsynligheten for at observasjonene våre ka
 
 ### Hypotesetesting av andeler
 Vi undersøker om sannsynligheten $p$ i en binomisk fordeling har en bestemt verdi ved å teste $H_{0}: \, p=p_{0}$ mot
+
 - Venstresidig test $H_{A}: \, p<p_{0}$.
 - Høyresidig test $H_{A}: \, p>p_{0}$
+- Dobbeltsidig test $H_{A}: p \neq p_{0}$
 
 1. Vi velger $X$ som testobservator og tar en stikkprøve der $X$ får verdien $a$. 
 2. Vi regner ut $p$-verdien[^2]
-		- Ved venstresidig test så beregner vi $p$-verdien $P(X<a)$. 
-		- I en høyresidig test regner vi ut $p$-verdien $P(X>a)$.
+	- Ved venstresidig test så beregner vi $p$-verdien $P(X<a)$. 
+	- I en høyresidig test regner vi ut $p$-verdien $P(X>a)$.
+	- I en dobbeltsidig test regner vi ut $p$-verdien $P(X<a)+P(X>a)$.
 3. Hvis $p<\alpha$ så forkaster vi $H_{0}$
 
 #### Hypotesetest av andel ved å bruke normalfordeling
@@ -715,58 +863,6 @@ E(\bar{X}) &= E(X) = \mu\\
 $$
 
 I hypotesetesten vår så bruker vi en normalfordeling med $E(\bar{X})=\mu$ og $\text{SD}(\bar{X})=\frac{\sigma}{\sqrt{ n }}$. 
-
-## Matematisk notasjon
-
-### Funksjoner
-
-| Notasjon           | Forklaring                                                  |
-| ------------------ | ----------------------------------------------------------- |
-| $f(x)$             | $f$ er en funksjon av den uavhengige variabelen $x$         |
-| $D_{f}=\mathbb{R}$ | Definisjonsmengden til $f$ er alle reelle tall $\mathbb{R}$ |
-| $V_{f}=\mathbb{R}$ | Verdimengden til $f$ er alle reelle tall $\mathbb{R}$       |
-
-### Mengder
-
-| Notasjon                                                                  | Forklaring                                                                                                                                                                                                       |
-| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| $0\leq x$                                                                 | 0 er mindre eller lik $x$, eller sagt på en annen måte: $x$ er større eller lik null                                                                                                                             |
-| $[a, b]$                                                                  | Det lukkede intervallet fra $a$ til $b$ inneholder alle tall fra og med $a$ og opp til og med $b$                                                                                                                |
-| $\langle a,b \rangle  = \left( a, b \right)$                              | Det åpne intervallet fra $a$ til $b$ inneholder alle tall fra (men ikke inkludert) $a$ og opp til (men ikke inkludert) $b$. Hakeparenteser er vanlig på norsk, vanlige parenteser i vanlig i engelsk litteratur. |
-| $\langle \leftarrow,0]$                                                   | Er intervallet fra minus uendelig til og med 0                                                                                                                                                                   |
-| $x \in \mathbb{R}$                                                        | $x$ er element i mengden alle reelle tall $\mathbb{R}$                                                                                                                                                           |
-| $x \in \mathbb{N}$                                                        | $x$ er element i mengden alle naturlige tall $\mathbb{N}$                                                                                                                                                        |
-| $x \in [0, 20]$                                                           | $x$ er et reelt tall i det lukkede intervallet fra 0 til 20                                                                                                                                                      |
-| $x \in \langle \leftarrow,-1 \rangle \cup \langle 2, \rightarrow \rangle$ | $x$ er element i unionen ($\cup$) av to ulike intervaller. Du kan ofte få svar som dette når du skal løse andregradsulikheter.                                                                                   |
-| $D_{f}=\mathbb{R} \setminus 1$                                            | Definisjonsmengden til $f$ er mengden av alle reelle tall bortsett fra 1.                                                                                                                                        |
-
-### Logikk
-
-| Notasjon | Eksempel               | Forklaring                                                         |
-| ----------- | ----------------------- | --------------------------------------------------------------- |
-| $a \iff b$ | $2x=4\iff x=2$         | Ekvivalens. $a$ er riktig hvis og bare hvis $b$ er riktig          |
-| $a \implies b$ | $x=2 \implies x^{2}=4$ | Implikasjon. $b$ er riktig hvis $a$ er riktig                      |
-| $a \wedge b$ | $x=0 \wedge x=4$       | $\wedge$ betyr og samtidig. Her må $x$ være lik 0 og 4 samtidig.   |
-| $a \vee b$  | $x=0 \vee x=2$         | $\vee$ betyr eller. Altså $x=0$ eller $x=2$ eller $x=0 \wedge x=2$ |
-
-### Spesielle tegn
-#### Sum
-Summen av en tallfølge der elementene heter $a_{1}, a_{2}, a_{3}$ og så videre er gitt ved
-$$
-s_{n}=\sum_{i=1}^n a_{i}
-$$
-
-#### Derivasjon
-La $f(x)$ være en kontinuerlig funksjon. Den deriverte kan da skrives som
-$$
-f'(x)=\frac{df}{dx}(x)=\frac{d}{dx}f(x)=\dot{f}
-$$
-
-#### Integrasjon
-Integralet av $f(x)$ fra $a$ til $b$ kan skrives som 
-$$
-\int_{a}^{b} f(x) \, \mathrm{d}x = \left[ F(x) \right] _{a}^{b}=F(b)-F(a)
-$$
 
 [^1]: Merk at `python`-lister begynner på indeks 0. Det vil si at for å hente ut det første elementet i ei liste som heter `min_liste` så skriver vi `min_liste[0]`. For å hente du det fjerde elementet i lista skriver vi `min_liste[3]`.
 [^2]: $p$-verdi og sannsynligheten $p$ i binomisk modell er *ikke* det samme.
