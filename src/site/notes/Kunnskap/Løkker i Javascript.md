@@ -19,8 +19,7 @@ I koden nedenfor starter vi med `let i = 0`, og etter hver omgang så vil vi øk
 
 ```js
 for (let i = 0; i < 10; i++) {
-	const tilfeldigTall = Math.random();
-	console.log("Tall nr. " + i + ": " + tilfeldigTall);
+	console.log(i);
 }
 ```
 
@@ -45,5 +44,8 @@ Navnene `mittArray` og `element` kan erstattes med andre variabelnavn.
 const mittArray = ['a', 'b', 'c'];
 mittArray.forEach((element) => console.log(element));
 ```
+
+## While-løkker
+En `while`-løkke kjører så lenge (engelsk: *while*) et betingelse er sann.
 
 [^1]: iterasjon: en iterasjon er en omgang i ei løkke

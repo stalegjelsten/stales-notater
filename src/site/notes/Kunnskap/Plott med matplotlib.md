@@ -63,7 +63,7 @@ Eksempelet ovenfor lager en [[Numpy\|Numpy]] array med 100 `x`-verdier mellom 0 
 - `linestyle` som definerer hvordan linja mellom punktene skal tegnes.
 - `label` som definerer hvilket navn som skal stå i forklaringsboksen.
 
-I dette plottet har jeg også lagt inn en forklaringsboks med `ax.legend()` og en tittel på diagrammet med `ax.set_title()`.[^1] Til slutt er det viktig å gi beskjed om at plottet skal vises på skjermen med `fig.show()`. Du kan eventuelt lagre figuren med `fig.savefig("filnavn.svg")` eller `plt.savefig("filnavn.png")`.
+I dette plottet har jeg også lagt inn en forklaringsboks med `ax.legend()` og en tittel på diagrammet med `ax.set_title()`.[^1] Til slutt er det viktig å gi beskjed om at plottet skal vises på skjermen med `plt.show()`. Du kan eventuelt lagre figuren med `fig.savefig("filnavn.svg")` eller `plt.savefig("filnavn.png")`.
 
 ### Sett egenskaper ved subplottet
 Vi har allerede endret tittelen til subplottet med `ax.set_title()`. Vi kan også endre mange andre egenskaper ved subplottet. De viktigste egenskapene er:

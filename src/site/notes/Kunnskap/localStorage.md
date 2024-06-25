@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/Kunnskap/localStorage/","title":"localStorage","tags":["javascript","it","it1"]}
 ---
 
-
 # localStorage
 `localStorage` er en måte å lagre informasjon i nettleseren. Hvert domene har sitt eget `localStorage`, slik du kan lagre ulik informasjon for nrk.no og facebook.com. Informasjon i `localStorage` er lagret selv om du åpner nettsiden på nytt, starter datamaskinen på nytt og så videre. 
 
