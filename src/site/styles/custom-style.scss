@@ -1,6 +1,6 @@
 iframe.youtube {
-    width: 100%;
-    aspect-ratio: 16/9;
+  width: 100%;
+  aspect-ratio: 16/9;
 }
 
 // div.graph-title {
@@ -8,18 +8,70 @@ iframe.youtube {
 // }
 
 #depth-display {
-    color: #282f3e !important;
-    font-weight: bold;
+  color: #282f3e !important;
+  font-weight: bold;
 }
 
 .depth-control {
-    .slider {
-        datalist {
-            font-size: 0.8rem !important;
-        }
+  .slider {
+    datalist {
+      font-size: 0.8rem !important;
     }
+  }
 }
 
 input[type="range"]#graph-depth {
-    background-color: #7d84a2 !important;
+  background-color: #7d84a2 !important;
+}
+
+#floating-control {
+  position: fixed;
+  color: var(--link-color);
+  bottom: 1vmax;
+  right: 1vmax;
+  font-size: 24px;
+  z-index: 999999;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 10px;
+
+  .svg-icon,
+  i {
+    cursor: pointer;
+    height: 24px;
+    width: auto;
+  }
+
+  #theme-switch {
+    .light {
+      display: none;
+    }
+
+    .dark {
+      display: none;
+    }
+
+    .auto {
+      display: none;
+    }
+  }
+
+  #theme-switch.light {
+    .light {
+      display: inline;
+    }
+  }
+
+  #theme-switch.dark {
+    .dark {
+      display: inline;
+    }
+  }
+
+  #theme-switch.auto {
+    .auto {
+      display: inline;
+    }
+  }
 }
