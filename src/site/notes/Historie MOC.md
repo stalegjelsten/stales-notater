@@ -133,5 +133,6 @@
 | [[Kunnskap/Forelesningsnotater/2015-09-01 Norge mot en stat 1130-1350\|2015-09-01 Norge mot en stat 1130-1350]]                                                             | <ul><li>historie</li><li>hi110</li><li>forelesning</li></ul> | January 24, 2023   |
 | [[Kunnskap/Forelesningsnotater/2015-11-17 Endringer i verdensbilde, kulturell forståelse 1350-1800\|2015-11-17 Endringer i verdensbilde, kulturell forståelse 1350-1800]]   | <ul><li>historie</li><li>hi110</li><li>forelesning</li></ul> | November 27, 2015  |
 | [[Kunnskap/Forelesningsnotater/2015-08-25 Høvdingmakt og kongemakt i Norge 800–1130\|2015-08-25 Høvdingmakt og kongemakt i Norge 800–1130]]                                 | <ul><li>historie</li><li>hi110</li><li>forelesning</li></ul> | January 25, 2023   |
+| [[Bakkanal\|Bakkanal]]                                                                                                                                                      | <ul><li>historie</li></ul>                                   | June 26, 2024      |
 
 { .block-language-dataview}

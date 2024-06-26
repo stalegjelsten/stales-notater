@@ -51,10 +51,10 @@ For å oppdatere eTiming gjør du følgende:
 - [[Orientering/Importere påmeldinger fra Excel i eTiming\|Importere påmeldinger fra Excel i eTiming]]
 - [[Orientering/etiming kurs\|etiming kurs]]
 - [[Orientering/eTiming\|eTiming]]
-- [[Orientering/eTiming til sommercup\|eTiming til sommercup]]
-- [[Orientering/eTiming til Agderkarusell\|eTiming til Agderkarusell]]
 - [[Orientering/eTiming med gafling\|eTiming med gafling]]
 - [[Orientering/eTiming database\|eTiming database]]
 - [[Orientering/LiveRes for etiming\|LiveRes for etiming]]
+- [[Orientering/eTiming til sommercup\|eTiming til sommercup]]
+- [[Orientering/eTiming til Agderkarusell\|eTiming til Agderkarusell]]
 
 { .block-language-dataview}

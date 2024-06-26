@@ -129,7 +129,7 @@ Etter at siste starttid er passert (kl 18.30) så gir du status `Ikke startet` p
 >Trykk på `4. Under arrangementet` i venstremenyen og `Ikke fullførte løpere → ✔️`.
 
 ## Resultater
-Publiser resultater etter løpet via `Data → Datautveksling eventor` og last opp resultatliste. 
+Publiser resultater etter løpet via `Data → Datautveksling eventor`. Kryss av for valget `Api nøkkel i opplasting` og last opp resultatliste. 
 
 >[!tip] Manuell opplasting av resultater
 >Hvis det ikke er mulig å gjøre Datautveksling med Eventor så kan det være at det fungerer å laste opp resultatene manuelt. For å gjøre dette må du:

@@ -54,3 +54,6 @@ IT1 30. oktober 2023
 - Les gjennom artikkelen [Digitalisering hos NDLA](https://ndla.no/subject:1:81b3892a-78e7-4e43-bc31-fd5f8a5090e7/topic:1:fbd3aa0a-b155-44e5-9111-e0e515775cef/topic:1:be509132-9259-4855-b724-5e0b655a785e/resource:4fcc0c20-9cb5-4c2a-b879-8908a7f1994c)
 - Gjør [Oppgavene om digitalisering hos NDLA](https://ndla.no/subject:1:81b3892a-78e7-4e43-bc31-fd5f8a5090e7/topic:1:fbd3aa0a-b155-44e5-9111-e0e515775cef/topic:1:be509132-9259-4855-b724-5e0b655a785e/resource:ddebab83-e7ef-4573-ab30-da3f8db1595e). Skriv svarene som notater for å huske dem.
 - Hvis tid: les gjennom kapittel 4.2, s. 136–140 i læreboka
+
+## Relatert
+- Hvordan kan vi bruke informasjon og bits til å vinne i «Gjett hvem» og Wordle?
