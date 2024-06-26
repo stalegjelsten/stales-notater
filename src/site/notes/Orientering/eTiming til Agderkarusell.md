@@ -120,7 +120,9 @@ Før løpet så starter du tidtakingsmodulen i eTiming og kobler til en MTR4 til
 Bruk [[Orientering/LiveRes for etiming\|LiveRes]] for å publisere liveresultater. 
 
 ## Resultater
-Publiser resultater etter løpet via `Data → Datautveksling eventor` og last opp resultatliste. Når du først er inne i `Datautveksling eventor` kan det være lurt å hente ned `Klubber og navn for direktepåmelding` for klubber i Agder slik adressene på fakturaene blir riktige. 
+Publiser resultater etter løpet via `Data → Datautveksling eventor`. Kryss av for valget `Api nøkkel i opplasting` og last opp resultatliste. 
+
+Når du først er inne i `Datautveksling eventor` kan det være lurt å hente ned `Klubber og navn for direktepåmelding` for klubber i Agder slik adressene på fakturaene blir riktige. 
 
 
 <div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/orientering/e-timing-til-sommercup/#ed86ad" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
@@ -134,6 +136,7 @@ Publiser resultater etter løpet via `Data → Datautveksling eventor` og last o
 >3. Finn fram `iofres.xml` som ligger i databasemappa → `htmlfiler`.
 
 </div></div>
+
 
 ## Fakturering
 
