@@ -6,6 +6,16 @@
 # eTiming
 eTiming er et tidtakingsprogram for Windows som kan brukes [[Orientering/eTiming til Agderkarusell\|under løpet]] eller til å [[Orientering/eTiming med spooling av resultater\|spoole]] resultater i etterkant.
 
+## Publiserte notater om eTiming
+- [[Orientering/eTiming til Agderkarusell\|eTiming til Agderkarusell]]
+- [[Orientering/LiveRes for etiming\|LiveRes for etiming]]
+- [[Orientering/eTiming til sommercup\|eTiming til sommercup]]
+- [[Orientering/eTiming database\|eTiming database]]
+- [[Orientering/eTiming med spooling av resultater\|eTiming med spooling av resultater]]
+- [[Orientering/eTiming\|eTiming]]
+
+{ .block-language-dataview}
+
 ## Installasjon
 
 ### Installasjon av eTiming
@@ -46,15 +56,3 @@ For å oppdatere eTiming gjør du følgende:
 ### Bugs
 - Statusene Fullført og Fullført i eTiming gir begge «utenfor konkurranse» i Eventor. Det finnes en egen status «utenfor konkurranse» i eTiming også!
 	- Hvis man ønsker å få *Fullført* som status i Eventor kan dette løses manuelt i iofres.xml ved å søk/erstatt NotCompeting med Finished. Eks: `gsed -i 's/NotCompeting/Finished/' iofres.xml`
-
-## Related
-- [[Orientering/Importere påmeldinger fra Excel i eTiming\|Importere påmeldinger fra Excel i eTiming]]
-- [[Orientering/etiming kurs\|etiming kurs]]
-- [[Orientering/eTiming\|eTiming]]
-- [[Orientering/eTiming med gafling\|eTiming med gafling]]
-- [[Orientering/eTiming database\|eTiming database]]
-- [[Orientering/eTiming til Agderkarusell\|eTiming til Agderkarusell]]
-- [[Orientering/eTiming til sommercup\|eTiming til sommercup]]
-- [[Orientering/LiveRes for etiming\|LiveRes for etiming]]
-
-{ .block-language-dataview}

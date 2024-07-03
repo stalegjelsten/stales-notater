@@ -26,7 +26,7 @@ update class set sex = 'X', freestart = True, direct = True;
 ``` 
 
 ### Gi tilfeldig løype til løpere i en klasse
-Dersom man har ulike løyper i samme klasse (for eksempel med ulike gaflinger), så kan man tildele gaflinger til løperne tilfeldig ved hjelp av SQL. For at dette skal fungere må man ha [[Orientering/eTiming til nærløp#Last inn løyper\|importert løypene i eTiming]] og notert seg hvilke løypenummer som hører til hver klasse.
+Dersom man har ulike løyper i samme klasse (for eksempel med ulike gaflinger), så kan man tildele gaflinger til løperne tilfeldig ved hjelp av SQL. For at dette skal fungere må man ha [[Orientering/eTiming til Agderkarusell#Last inn løyper\|importert løypene i eTiming]] og notert seg hvilke løypenummer som hører til hver klasse.
 
 I eksempelet under så skal klasse `H lang` tildeles løyper fra løypenummer 3 til og med 6. Endre på tallene 6 og 3 og klassenavnet for å passe til egen bruk
 

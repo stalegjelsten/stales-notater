@@ -147,7 +147,7 @@ Etter at siste starttid er passert (kl 18.30) så gir du status `Ikke startet` p
 >Trykk på `4. Under arrangementet` i venstremenyen og `Ikke fullførte løpere → ✔️`.
 
 ## Resultater
-Sjekk at resultatene ser riktige ut ved å velge `3. Under arrangementet → Uoffisiell resultatliste` i venstremenyen. 
+Sjekk at resultatene ser riktige ut ved å velge `4. Under arrangementet → Uoffisiell resultatliste` i venstremenyen. 
 
 Publiser resultater etter løpet via `Data → Datautveksling eventor`. Kryss av for valget `Api nøkkel i opplasting` og last opp resultatliste. 
 
