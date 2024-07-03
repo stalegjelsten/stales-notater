@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Orientering/eTiming med spooling av resultater/","title":"eTiming med spooling av resultater","tags":["orientering"]}
+{"dg-publish":true,"permalink":"/Orientering/eTiming med spooling av resultater/","title":"eTiming med spooling av resultater","tags":["orientering","etiming"]}
 ---
 
 
