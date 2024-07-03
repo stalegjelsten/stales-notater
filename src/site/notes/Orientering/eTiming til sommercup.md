@@ -6,6 +6,24 @@
 # eTiming til sommercup
 Dette er ment som en oppskrift på hvordan man kan bruke [[Orientering/eTiming\|eTiming]] til tidtaking under KOKs sommercupløp. Oppskriften vil fungere både ved tidtaking under arrangementet (polling fra MTR) eller [[Orientering/eTiming med spooling av resultater\|spooling]] av resultater i etterkant av arrangementet.
 
+## Innhold på denne siden
+På denne siden finner du informasjon om
+
+1. [[Orientering/eTiming til sommercup#Om KOKs sommercup\|Sommercupkonseptet]]
+2. **Før løpet**
+	1. [[Orientering/eTiming til sommercup#Klasseoppsett, frister og kontingenter i Eventor\|Bruke Eventor til å sette opp klasser og påmeldingskontingenter]]
+	2. [[Orientering/eTiming til sommercup#Last inn påmeldte i eTiming og fiks klasser\|Overføre påmeldinger fra Eventor til eTiming]]
+	3. [[Orientering/eTiming til sommercup#Løyper og poster i Purple Pen og eTiming\|Hvordan løypelegger bør klargjøre løypene når hen legger løypene i Purple Pen]]
+	4. [[Orientering/eTiming til sommercup#Import av løyper i eTiming\|Hvordan du laster inn postkoder og løyper fra Purple Pen til eTiming]]
+	5. [[Orientering/eTiming til sommercup#Startlister\|Trekke startlister, skrive ut startlister og publisere startliste på Eventor]]
+3. **Under løpet**
+	1. [[Orientering/eTiming til sommercup#Etteranmeldinger på løpet\|Legge inn etteranmeldinger]]
+	2. [[Orientering/eTiming til sommercup#Tidtaking\|Tidtaking]]. Her har de siste sidene av [Terje Urfjells guide fra 2019](https://www.orientering.no/storage/Preview?id=b139d37c-a4e9-4f38-8037-df8ebaf125ec) mer detaljer.
+	3. [[Orientering/eTiming til sommercup#Resultater\|Lage resultatlister og publisere på Eventor]]
+4. **Etter løpet**
+	1. [[Orientering/eTiming til sommercup#Løpsrapport\|Hente tall som er nødvendig for løpsrapport]]
+
+Du kan lese mer om bruk av [[Orientering/Livelox\|Livelox]] og [[Orientering/LiveRes for etiming\|Liveresultater med LiveRes]] på egne sider.
 ## Om KOKs sommercup
 Sommercupen er en rekke enkle o-løp gjennom sommeren. Løpene har status som nærløp og det tilbys vanligvis 4 løyper:
 
@@ -18,8 +36,7 @@ Sommercupen er en rekke enkle o-løp gjennom sommeren. Løpene har status som n�
 
 Løype A-kort kan veldig gjerne både være ganske enkel (mye B-poster) og bør være lettløpt slik at «den eldre garde» får en god opplevelse i løypa.
 
-Påmeldingskontingenten har vært kr 0 for KOKs løpere og 30 kr for løpere fra andre klubber som betales via Vipps til #89632.
-
+Påmeldingskontingenten har vært kr 0 for KOKs løpere og 30 kr for løpere fra andre klubber som betales via Vipps til #89632. Hvis vi låner kart av en annen klubb, så er sommercup gratis for disse løperne også.
 ## Klasseoppsett, frister og kontingenter i Eventor
 Opprett klassene i Eventor. Jeg anbefaler å kopiere fra tidligere Sommercup for å få et passende oppsett. Navnene på klassene skal være som tabellen over. 
 
@@ -113,6 +130,7 @@ Legg inn etteranmeldte på løpet ved å åpne løper-oversikten.
 - Trykk på `+`-tegnet i verktøylinja eller <kbd>ctrl</kbd> + <kbd>N</kbd> for legge til ny løper.
 - Fyll inn navn, klasse, klubb og brikkenr. 
 	- Hvis løperen skal låne brikke så kan du trykke på avkrysningsboksen merket `Brikke`. Da blir løperen merket med blå farge når hen kommer i mål slik at du vet at du skal samle inn leiebrikken igjen.
+	- Hvis klubben ikke finnes i lista, så er det lurt å velge menyvalget `⛓️🧾 Ny klubb` i bunnen av Løper-vinduet. 
 - Hvis løperen er under 21 år så anbefaler jeg også at du skriver inn fødselsdato (eller i det minste fødselsår) i `Født`-boksen, f.eks. 1.1.2015. Dette gjør at vi får riktig antall barn, ungdommer og voksne i løpsrapporten som skal leveres. 
 
 ## Tidtaking
@@ -129,6 +147,8 @@ Etter at siste starttid er passert (kl 18.30) så gir du status `Ikke startet` p
 >Trykk på `4. Under arrangementet` i venstremenyen og `Ikke fullførte løpere → ✔️`.
 
 ## Resultater
+Sjekk at resultatene ser riktige ut ved å velge `3. Under arrangementet → Uoffisiell resultatliste` i venstremenyen. 
+
 Publiser resultater etter løpet via `Data → Datautveksling eventor`. Kryss av for valget `Api nøkkel i opplasting` og last opp resultatliste. 
 
 >[!tip] Manuell opplasting av resultater
@@ -163,4 +183,4 @@ from name;
 ```
 
 ## Terjes guide fra 2019
-Terje Urfjell laget en fin [guide fra 2019 til bruk av eTiming for Agderkarusellen](http://www.orientering.no/media/filer_public/78/e3/78e35b05-4f16-4760-b6c4-edb28c884234/oppskrift_eventor_etiming_aaok_karusellen.pdf) som ligger på [kretsens hjemmesider](http://agderokrets.no). Det er veldig mye her som er nyttig for tidtaking til sommercup også. 
+Terje Urfjell laget en fin [guide fra 2019 til bruk av eTiming for Agderkarusellen](https://www.orientering.no/storage/Preview?id=b139d37c-a4e9-4f38-8037-df8ebaf125ec) som ligger på [kretsens hjemmesider](http://agderokrets.no). Det er veldig mye her som er nyttig for tidtaking til sommercup også. 

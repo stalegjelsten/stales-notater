@@ -207,7 +207,7 @@ from name;
 ```
 
 ## Kommentarer til guiden fra 2019
-Terje Urfjell laget en fin [guide fra 2019 til bruk av eTiming for Agderkarusellen](http://www.orientering.no/media/filer_public/78/e3/78e35b05-4f16-4760-b6c4-edb28c884234/oppskrift_eventor_etiming_aaok_karusellen.pdf) som ligger på [kretsens hjemmesider](http://agderokrets.no). Det er veldig mye som fremdeles gjelder og den forklarer mange deler av tidtakinga svært godt. Her kommer mine kommentarer til hvilke deler av guiden du *ikke* bør følge:
+Terje Urfjell laget en fin [guide fra 2019 til bruk av eTiming for Agderkarusellen](https://www.orientering.no/storage/Preview?id=b139d37c-a4e9-4f38-8037-df8ebaf125ec) som ligger på [kretsens hjemmesider](http://agderokrets.no). Det er veldig mye som fremdeles gjelder og den forklarer mange deler av tidtakinga svært godt. Her kommer mine kommentarer til hvilke deler av guiden du *ikke* bør følge:
 - s. 3 Klasser: fra 2023 skal Agderkarusellen også ha aldersklasser, se [[Orientering/eTiming til Agderkarusell#Klasseoppsett, frister og kontingenter i Eventor\|#Klasseoppsett, frister og kontingenter i Eventor]]
 - s. 3 Påmeldingsavgifter og frister: Jeg anbefaler heller avansert visning og bruk av **kun 2** kontingentnivåer slik som vist i [[Orientering/eTiming til Agderkarusell#Klasseoppsett, frister og kontingenter i Eventor\|#Klasseoppsett, frister og kontingenter i Eventor]]
 - s. 8: Post 100 brukes som oftest som *siste post i løypa*. Målpost er postkoden som står ved mållinjen. Det er som oftest 249.
