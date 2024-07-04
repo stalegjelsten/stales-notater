@@ -13,7 +13,7 @@ Så lenge løpet finnes i Eventor er det lurt å opprette Liveloxarrangementet f
 1. Resultatene synkroniseres direkte til Livelox slik at strekktider blir helt nøyaktige
 2. Hvis deltakerne har med oppvarming og nedjogg i økta si, så blir dette automatisk kuttet bort
 
-For å opprette arrangementet fra Eventor går du til arrangementet i Eventor `Rediger → Livelox → Importer arrangementet`. Logg inn med din Eventor-konto.
+For å opprette arrangementet fra Eventor går du til arrangementet i Eventor `Rediger → Livelox → Importer arrangementet`. Logg inn med din Eventor-konto. For å få tilgang til `Rediger`-menyen i Eventor så er du nødt til å ha rollen Arrangementsansvarlig eller Administrator i Eventor. Ta kontakt med Ståle dersom du trenger hjelp.
 
 De foreslåtte innstillingene bør passe fint, men det kan være at du ønsker å publisere Livelox litt tidligere enn hva som er foreslått.
 
