@@ -8,11 +8,18 @@
 
 
 
+
 Dette notatet er ment som hjelp til KOKs løpere som skal arrangere Sommercup.
 
 >[!warning] Notatet er ikke ferdig 🏗
->Todo
+>**Disse oppgavene mangler i notatet**
+> - [ ] Oppgaver på løpsdagen
+> 	- [ ] Merking
+> 	- [ ] Uthenging av siste poster
+> 	- [ ] Organisering av starten
 > - [ ] Oppgaver for tidtaker
+> 	- [ ] Import
+> 	- [ ] Startlister
 
 ## Arbeidsoppgaver
 - [[Orientering/Arrangere sommercup#Lenge før løpet\|#Lenge før løpet]]
@@ -23,6 +30,7 @@ Dette notatet er ment som hjelp til KOKs løpere som skal arrangere Sommercup.
 - [[Orientering/Arrangere sommercup#Senest dagen før løpet\|#Senest dagen før løpet]]
 	- [[Orientering/Arrangere sommercup#Henge ut poster og sjekke postplasseringer\|#Henge ut poster og sjekke postplasseringer]]
 	- [[Orientering/Arrangere sommercup#Justere løyper og sende over løypefiler\|#Justere løyper og sende over løypefiler]]
+	- [[Orientering/Arrangere sommercup#Lage Livelox\|#Lage Livelox]]
 
 ### Lenge før løpet
 Følgende arbeidsoppgaver må senest gjennomføres 14 dager før løpet.
@@ -31,7 +39,7 @@ Følgende arbeidsoppgaver må senest gjennomføres 14 dager før løpet.
 Ansvar: løypelegger
 
 - [ ] Velge passende kart for løpet i samråd med ansvarlig for sommercup (<span><span>Sandy Hott</span></span>)
-- [ ] Velge arena
+- [ ] Velge arena. Husk at du må ha lov til å bruke arenaen, og at det er greie parkeringsmuligheter.
 - [ ] Hvis KOK eier kartet så kontakter du kartansvarlig i KOK (<span><span>Fred-Arne Sivertsen</span></span>) for å få tilsendt kartet, ellers må du ta kontakt med klubben som eier kartet.
 - [ ] Spør [VDG](https://www.orientering.no/next/page/arrangor)-ansvarlig (<span><span>Tor Åmdal</span></span>) om det er OK at du bruker kartet og arenaen.
 
@@ -44,12 +52,12 @@ Ansvar: løypelegger
 
 #### Gjør ferdig løyper
 >[!tip] Legg C- og N-løypene først!
->Det er lurt å legge C-, N- og A-kort-løypene først. Det er superviktig at N og C-løypene er enkle nok, og A-kortløypa bør være løpbar og fin. 
+>Det er lurt å legge C-, N- og A-kort-løypene først. Det er superviktig at N og C-løypene er enkle nok, og A-kortløypa bør være løpbar og fin. Husk også at N-løypa skal start i nærheten av arena. 
 >
 >Fysiske strekk bør spares til A-lang-løypa 😄
 
 - [ ] Legg løypene i Purple Pen. Les hva som står i [[Orientering/eTiming til sommercup#Om KOKs sommercup\|informasjonen om løypene]] og og informasjon om [[Orientering/eTiming til sommercup#Løyper og poster i Purple Pen og eTiming\|krav til løypefila i Purple Pen]].
-- [ ] Husk å bruke riktige postkoder
+- [ ] Husk å bruke riktige postkoder.
 
 ### Senest dagen før løpet
 #### Henge ut poster og sjekke postplasseringer
@@ -58,13 +66,22 @@ Ansvarlig: løypelegger
 >[!warning] Poster langs vei og lysløyper
 >Ofte vil mange av postene være på steder med mye trafikk eller turgåere. For å begrense risikoen for at postene blir stjålet bør du vente med å henge ut disse postene fram til løpsdagen. Du **må** likevel sjekke disse postplasseringene minst dagen før løpet.
 
-Du bør henge ut så mange poster som mulig dagen før løpet. 
-Heng ut postene. Hvis du ser at kartet stemmer dårlig rundt noen av postene så er dette siste mulighet til å flytte på en post (det er derfor det er lurt å henge ut før du printer kartene). Poster i områder med veldig mye trafikk/turgåere bør settes ut samme dag som løpet, men du må sjekke at postdetaljen er OK på forhånd.
+Du bør henge ut så mange poster som mulig dagen før løpet. Postuthenging tar tid, selv om du bruker hengende EKT og små postskjermer. Jeg ville i hvert fall beregnet 4 timer til å hente utstyr, organisere uthengingen og henge ut postene til et løp.
+
+>[!tip] Bruk O-range til postutsetting hvis du har en ny Garminklokke ⌚️
+>[O-range](https://www.o-range.no/) er et norsk program til Garminklokker som gjør det mulig å løpe løyper uten poster i skogen, men det har også en løypeleggingsmodus. I denne modusen så hjelper klokka deg med å være på riktig sted når du setter ut postene. [Les mer her](https://www.o-range.no/index.php/course-setting).
 
 #### Justere løyper og sende over løypefiler
 Ansvarlig: løypelegger
 
-Juster løypene ut fra hvilke tilpasninger du måtte gjøre under postutsettingen. 
+- [ ] Juster løypene ut fra hvilke tilpasninger du måtte gjøre under postutsettingen. 
+- [ ] Husk riktig postbeskrivelse på postene.
+- [ ] I Purple Pen må du eksportere `.xml` fil med `Fil → Lag IOF XML-fil`. **Velg IOF XML 3.0** som filtype i `Lagre som`-dialogboksen som hopper opp. Send denne fila til tidtakeren.
+
+#### Lage Livelox
+Ansvarlig: løypelegger
+
+- [ ] Bruk Eventor til opprette arrangementet i Livelox. Bruk guiden her: [[Orientering/Livelox\|Livelox]]
 
 ### Senest samme dag som løpet
 #### Skrive ut løyper
