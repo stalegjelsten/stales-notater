@@ -15,7 +15,7 @@ Følgende arbeidsoppgaver må senest gjennomføres 14 dager før løpet.
 
 <p><span>Dette er fra Dataview Inline JS.</span></p>
 
-
+<span><span>Sandy Hott</span></span>
 #### Kart og arena
 Ansvar: løypelegger
 
