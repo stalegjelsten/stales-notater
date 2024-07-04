@@ -15,6 +15,15 @@ Dette notatet er ment som hjelp til KOKs løpere som skal arrangere Sommercup.
 > - [ ] Oppgaver for tidtaker
 
 ## Arbeidsoppgaver
+- [[Orientering/Arrangere sommercup#Lenge før løpet\|#Lenge før løpet]]
+	- [[Orientering/Arrangere sommercup#Kart og arena\|#Kart og arena]]
+- [[Orientering/Arrangere sommercup#Minst 2 dager før løpet\|#Minst 2 dager før løpet]]
+	- [[Orientering/Arrangere sommercup#Sjekke poster og koder\|#Sjekke poster og koder]]
+	- [[Orientering/Arrangere sommercup#Gjør ferdig løyper\|#Gjør ferdig løyper]]
+- [[Orientering/Arrangere sommercup#Senest dagen før løpet\|#Senest dagen før løpet]]
+	- [[Orientering/Arrangere sommercup#Henge ut poster og sjekke postplasseringer\|#Henge ut poster og sjekke postplasseringer]]
+	- [[Orientering/Arrangere sommercup#Justere løyper og sende over løypefiler\|#Justere løyper og sende over løypefiler]]
+
 ### Lenge før løpet
 Følgende arbeidsoppgaver må senest gjennomføres 14 dager før løpet.
 
