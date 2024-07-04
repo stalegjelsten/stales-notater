@@ -6,6 +6,7 @@
 # Orientering
 
 Oversikt over publiserte notater om orientering
+- [[Orientering/Arrangere sommercup\|Arrangere sommercup]]
 - [[Orientering/LiveRes for etiming\|LiveRes for etiming]]
 - [[Orientering/Livelox\|Livelox]]
 - [[Orientering/Printe på klubbhuset\|Printe på klubbhuset]]

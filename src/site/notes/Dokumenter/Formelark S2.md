@@ -649,7 +649,6 @@ $$
 >
 >Siden $P(X=a)=0$ i normalfordelingen så er vi nødt til å gjøre en *halvkorreksjon* når vi finner sannsynligheter i binomiske fordelinger tilnærmet med normalfordelingen. Behovet for halvkorreksjon forsvinner når $n \to \infty$.
 
-
 ### Sentralgrensesetningen
 
 >[!important] Sentralgrensesetningen
@@ -682,7 +681,7 @@ Vi bruker ofte *Monte Carlo*-simuleringer i programmer for å finne sannsynlighe
 3. Du teller antall ganger $A$ inntreffer og kaller denne summen for $m$
 4. Du beregner sannsynligheten ved: $P(A) \approx \frac{m}{N}=\frac{\text{antall gunstige}}{\text{antall mulige}}$
 
-Dette er imidlertid ikke den ekte sannsynligheten, men $m/N$  gir en veldig god tilnærming når $N$ er høy. Prøv deg gjerne frem med stadig høyere $N$ (for eksempel  10000, 100 000, 1 000 000 og så videre), men stopp når du merker at programmet tar lang tid å kjøre.
+Dette er imidlertid ikke den ekte sannsynligheten, men $m/N$ gir en veldig god tilnærming når $N$ er høy. Prøv deg gjerne frem med stadig høyere $N$ (for eksempel 10000, 100 000, 1 000 000 og så videre), men stopp når du merker at programmet tar lang tid å kjøre.
 
 #### Å trekke fra et statistisk fordeling
 Vi kan trekke ut en tilfeldig prøve fra mange ulike statistiske fordelinger. I S2 skal vi fokusere på:
@@ -862,7 +861,7 @@ E(\bar{X}) &= E(X) = \mu\\
 \end{aligned}
 $$
 
-I hypotesetesten vår så bruker vi en normalfordeling med $E(\bar{X})=\mu$ og $\text{SD}(\bar{X})=\frac{\sigma}{\sqrt{ n }}$. 
+I hypotesetesten vår så bruker vi en normalfordeling med $E(\bar{X})=\mu$ og $\text{SD}(\bar{X})=\frac{\sigma}{\sqrt{ n }}$.
 
 [^1]: Merk at `python`-lister begynner på indeks 0. Det vil si at for å hente ut det første elementet i ei liste som heter `min_liste` så skriver vi `min_liste[0]`. For å hente du det fjerde elementet i lista skriver vi `min_liste[3]`.
 [^2]: $p$-verdi og sannsynligheten $p$ i binomisk modell er *ikke* det samme.
