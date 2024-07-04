@@ -13,6 +13,8 @@ Dette notatet er ment som hjelp til KOKs løpere som skal arrangere Sommercup.
 ### Lenge før løpet
 Følgende arbeidsoppgaver må senest gjennomføres 14 dager før løpet.
 
+<p><span>Dette er fra Dataview Inline JS.</span></p>
+
 
 #### Kart og arena
 Ansvar: løypelegger
