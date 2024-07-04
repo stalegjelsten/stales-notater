@@ -9,6 +9,7 @@
 
 
 
+Fred-Arne Sivertsen
 Dette notatet er ment som hjelp til KOKs løpere som skal arrangere Sommercup.
 
 >[!warning] Notatet er ikke ferdig 🏗
@@ -94,6 +95,8 @@ Finn ut hvor mange som er påmeldt løpet. Jeg anbefaler at du skriver ut til de
 - 5 N
 
 Hvis du ikke kan vente til påmeldingsfristen er gått ut så sjekker du antall deltakere i løypene på forrige løp og legger til passelig mange ekstra.
+
+Les [[Orientering/Printe på klubbhuset\|Printe på klubbhuset]] for mer informasjon om printeren på Presteheia klubbhus.
 
 ## Oversikt over postenheter
 Denne oversikten ble oppdatert <span>3. juli 2024</span>.
