@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Orientering/LiveRes for etiming/","title":"LiveRes for etiming","tags":["etiming","orientering"]}
+{"dg-publish":true,"permalink":"/Orientering/LiveRes for eTiming/","title":"LiveRes for etiming","tags":["etiming","orientering"]}
 ---
 
 

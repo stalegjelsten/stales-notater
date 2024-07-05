@@ -117,7 +117,7 @@ Legg inn etteranmeldte på løpet ved å åpne løper-oversikten.
 ## Tidtaking under løpet
 Før løpet så starter du tidtakingsmodulen i eTiming og kobler til en MTR4 til avlesning. Nullstill MTR og synkroniser klokka fra PC til MTRen før du begynner å lese av brikker. [Guiden hos Agder o-krets fra 2019](http://www.orientering.no/media/filer_public/78/e3/78e35b05-4f16-4760-b6c4-edb28c884234/oppskrift_eventor_etiming_aaok_karusellen.pdf) har en god forklaring på hvordan du setter opp MTR, åpner tidtakingen og behandler disk/problemer som oppstår gjennom løpet.
 
-Bruk [[Orientering/LiveRes for etiming\|LiveRes]] for å publisere liveresultater. 
+Bruk [[Orientering/LiveRes for eTiming\|LiveRes]] for å publisere liveresultater. 
 
 ## Resultater
 Publiser resultater etter løpet via `Data → Datautveksling eventor`. Kryss av for valget `Api nøkkel i opplasting` og last opp resultatliste. 
@@ -131,7 +131,7 @@ Når du først er inne i `Datautveksling eventor` kan det være lurt å hente ne
 
 >[!tip] Manuell opplasting av resultater
 >Hvis det ikke er mulig å gjøre Datautveksling med Eventor så kan det være at det fungerer å laste opp resultatene manuelt. For å gjøre dette må du:
->1. Lag en IOF XML 3.0 fil med resultatene ved å gå til `Data → Datautveksling Eventor`. I linjen  `Datautveksling fra nedlastede XML filer` velger du `Vis → Lag resultatlistefil`.
+>1. Lag en IOF XML 3.0 fil med resultatene ved å gå til `Data → Datautveksling Eventor`. I linjen `Datautveksling fra nedlastede XML filer` velger du `Vis → Lag resultatlistefil`.
 >2. Gå til løpet i `Eventor → Rediger → Dataoverføringer → Last opp resultatliste`
 >3. Finn fram `iofres.xml` som ligger i databasemappa → `htmlfiler`.
 
