@@ -42,7 +42,7 @@ Følgende arbeidsoppgaver må senest gjennomføres 14 dager før løpet.
 ### Minst 2 dager før løpet
 
 #### Sjekke poster og koder
-- [ ] Sjekk at du har alle postenhetene du trenger på klubbhuset. [[Orientering/Arrangere sommercup#Oversikt over postenheter\|Oversikten med koder]] ble oppdatert 2024-07-03T00:00:00.000+02:00.
+- [ ] Sjekk at du har alle postenhetene du trenger på klubbhuset. [[Orientering/Arrangere sommercup#Oversikt over postenheter\|Oversikten med koder]] ble oppdatert <span><span>3.7.2024</span></span>.
 - [ ] Husk å sjekke at du har nullbukk (0) og målbukk (249). Målbukken bør du gi til tidtaker.
 - [ ] Dersom det er første løp for sesongen så bør du teste *alle* postenhetene ved å nulle ei brikke og legge på alle postenhetene. Skriv ut strekktider med MTR4-maskinen og sjekk hvilke postenheter som mangler stempling.
 
@@ -123,7 +123,7 @@ Les [[Orientering/Printe på klubbhuset\|Printe på klubbhuset]] for mer informa
 - [ ] Lever tilbake utstyret på klubbhuset senest torsdag kveld, slik at neste ukes arrangør finner det 
 
 ## Oversikt over postenheter
-Denne oversikten ble oppdatert 2024-07-03T00:00:00.000+02:00.
+Denne oversikten ble oppdatert <span><span>3.7.2024</span></span>.
 
 **Hengende postenheter**
 77 
