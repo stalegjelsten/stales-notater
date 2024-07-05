@@ -16,14 +16,16 @@ På denne siden finner du informasjon om
 	3. [[Orientering/eTiming til sommercup#Løyper og poster i Purple Pen og eTiming\|Hvordan løypelegger bør klargjøre løypene når hen legger løypene i Purple Pen]]
 	4. [[Orientering/eTiming til sommercup#Import av løyper i eTiming\|Hvordan du laster inn postkoder og løyper fra Purple Pen til eTiming]]
 	5. [[Orientering/eTiming til sommercup#Startlister\|Trekke startlister, skrive ut startlister og publisere startliste på Eventor]]
+	6. [[Orientering/eTiming til sommercup#Utstyrsliste til løpet\|Utstyrsliste til løpet]]
 3. **Under løpet**
-	1. [[Orientering/eTiming til sommercup#Etteranmeldinger på løpet\|Legge inn etteranmeldinger]]
-	2. [[Orientering/eTiming til sommercup#Tidtaking\|Tidtaking]]. Her har de siste sidene av [Terje Urfjells guide fra 2019](https://www.orientering.no/storage/Preview?id=b139d37c-a4e9-4f38-8037-df8ebaf125ec) mer detaljer.
-	3. [[Orientering/eTiming til sommercup#Resultater\|Lage resultatlister og publisere på Eventor]]
+	2. [[Orientering/eTiming til sommercup#Etteranmeldinger på løpet\|Legge inn etteranmeldinger]]
+	3. [[Orientering/eTiming til sommercup#Tidtaking\|Tidtaking]]. Her har de siste sidene av [Terje Urfjells guide fra 2019](https://www.orientering.no/storage/Preview?id=b139d37c-a4e9-4f38-8037-df8ebaf125ec) mer detaljer.
+	4. [[Orientering/eTiming til sommercup#Resultater\|Lage resultatlister og publisere på Eventor]]
 4. **Etter løpet**
 	1. [[Orientering/eTiming til sommercup#Løpsrapport\|Hente tall som er nødvendig for løpsrapport]]
 
-Du kan lese mer om bruk av [[Orientering/Livelox\|Livelox]] og [[Orientering/LiveRes for etiming\|Liveresultater med LiveRes]] på egne sider.
+Du kan lese mer om bruk av [[Orientering/Livelox\|Livelox]] og [[Orientering/LiveRes for eTiming\|Liveresultater med LiveRes]] på egne sider.
+
 ## Om KOKs sommercup
 Sommercupen er en rekke enkle o-løp gjennom sommeren. Løpene har status som nærløp og det tilbys vanligvis 4 løyper:
 
@@ -37,6 +39,7 @@ Sommercupen er en rekke enkle o-løp gjennom sommeren. Løpene har status som n�
 Løype A-kort kan veldig gjerne både være ganske enkel (mye B-poster) og bør være lettløpt slik at «den eldre garde» får en god opplevelse i løypa.
 
 Påmeldingskontingenten har vært kr 0 for KOKs løpere og 30 kr for løpere fra andre klubber som betales via Vipps til #89632. Hvis vi låner kart av en annen klubb, så er sommercup gratis for disse løperne også.
+
 ## Klasseoppsett, frister og kontingenter i Eventor
 Opprett klassene i Eventor. Jeg anbefaler å kopiere fra tidligere Sommercup for å få et passende oppsett. Navnene på klassene skal være som tabellen over. 
 
@@ -117,13 +120,25 @@ Jeg anbefaler å bruke oppsettet fra starten av dette dokumentet, der løype 1 e
 >[!tip] Startnummer
 >Det er lurt å tildele startnummer til alle løpere før løpet. Dette gjør det litt raskere å behandle løpere som går i mål med ukjente brikkenummer. Tildel startnummer med `Start → Startnr tildeling`.
 
-
 Gå til menyvalget `Data → Datautveksling eventor` og last opp startliste til Eventor. Sjekk på Eventor at den ser korrekt ut.
 
 ### Skriv ut startlister
 Du *bør* skrive ut startlister. Det gjør det enkelt for en funksjonær som står ved starten å krysse av hvem som faktisk starter løpet – da slipper man å lure på om det fremdeles er noen igjen ute i skogen eller ikke. 
 
 Den som står ved starten *trenger ikke* skrive opp etteranmeldte manuelt. De som har etteranmeldt seg på samlingsplass kommer til å starte.
+
+## Utstyrsliste til løpet
+Hent følgende utstyr fra Klubbhuset senest dagen før løpet og sørg for at du har sjekket at det fungerer.
+- [ ] Tidtakings PC (bruk gjerne PCen på Klubbhuset merket **Tidtakning**). Må lades opp før løpet.
+- [ ] [MTR4 brikkeavleser i koffert](https://www.idrettsbutikken.no/other-brands/2380061024/koffert-til-mtr-kun-koffert-uten-innhold)
+- [ ] 249-målbukk (snakk gjerne med løypelegger, men tidtaker bør ha ansvaret for denne)
+- [ ] Campingbord og stol
+- [ ] Leiebrikker
+
+På løpsdagen tar du i tillegg med følgende utstyr
+- [ ] Starterliste hvor man kan krysse av dem som har startet
+- [ ] Skrivesaker
+- [ ] Kart med alle poster
 
 ## Etteranmeldinger på løpet
 Legg inn etteranmeldte på løpet ved å åpne løper-oversikten. 
@@ -134,12 +149,12 @@ Legg inn etteranmeldte på løpet ved å åpne løper-oversikten.
 - Hvis løperen er under 21 år så anbefaler jeg også at du skriver inn fødselsdato (eller i det minste fødselsår) i `Født`-boksen, f.eks. 1.1.2015. Dette gjør at vi får riktig antall barn, ungdommer og voksne i løpsrapporten som skal leveres. 
 
 ## Tidtaking
-Du kan velge å ha tidtaking under løpet (*polling*) eller ved å lese inn resultatene fra MTR4 i etterkant av løpet (*spooling*). Å ha tidtaking under løpet krever at en person har dette som arbeidsoppgave, men det gjør også at det blir mindre etterarbeid og det er mulig å tilby [[Orientering/LiveRes for etiming\|liveresultater]].
+Du kan velge å ha tidtaking under løpet (*polling*) eller ved å lese inn resultatene fra MTR4 i etterkant av løpet (*spooling*). Å ha tidtaking under løpet krever at en person har dette som arbeidsoppgave, men det gjør også at det blir mindre etterarbeid og det er mulig å tilby [[Orientering/LiveRes for eTiming\|liveresultater]].
 
 ### Tidtaking under løpet
 Før løpet så starter du tidtakingsmodulen i eTiming og kobler til en MTR4 til avlesning. Nullstill MTR og synkroniser klokka fra PC til MTRen før du begynner å lese av brikker. [Guiden hos Agder o-krets fra 2019](http://www.orientering.no/media/filer_public/78/e3/78e35b05-4f16-4760-b6c4-edb28c884234/oppskrift_eventor_etiming_aaok_karusellen.pdf) har en god forklaring på hvordan du setter opp MTR, åpner tidtakingen og behandler disk/problemer som oppstår gjennom løpet.
 
-Bruk [[Orientering/LiveRes for etiming\|LiveRes]] for å publisere liveresultater. 
+Bruk [[Orientering/LiveRes for eTiming\|LiveRes]] for å publisere liveresultater. 
 
 Etter at siste starttid er passert (kl 18.30) så gir du status `Ikke startet` på alle løpere som ikke har startet. 
 
@@ -149,11 +164,11 @@ Etter at siste starttid er passert (kl 18.30) så gir du status `Ikke startet` p
 ## Resultater
 Sjekk at resultatene ser riktige ut ved å velge `4. Under arrangementet → Uoffisiell resultatliste` i venstremenyen. 
 
-Publiser resultater etter løpet via `Data → Datautveksling eventor`. Kryss av for valget `Api nøkkel i opplasting` og last opp resultatliste. 
+Publiser resultater etter løpet via `Data → Datautveksling eventor`. Hvis du får en feilmelding (for eksempel feil første starttid) så kan du forsøke å krysse av for valget `Api nøkkel i opplasting` før du laster opp på nytt, eller gjøre en manuell opplasting av resultatene 👇.
 
 >[!tip] Manuell opplasting av resultater
 >Hvis det ikke er mulig å gjøre Datautveksling med Eventor så kan det være at det fungerer å laste opp resultatene manuelt. For å gjøre dette må du:
->1. Lag en IOF XML 3.0 fil med resultatene ved å gå til `Data → Datautveksling Eventor`. I linjen  `Datautveksling fra nedlastede XML filer` velger du `Vis → Lag resultatlistefil`.
+>1. Lag en IOF XML 3.0 fil med resultatene ved å gå til `Data → Datautveksling Eventor`. I linjen `Datautveksling fra nedlastede XML filer` velger du `Vis → Lag resultatlistefil`.
 >2. Gå til løpet i `Eventor → Rediger → Dataoverføringer → Last opp resultatliste`
 >3. Finn fram `iofres.xml` som ligger i databasemappa → `htmlfiler`.
 { #ed86ad}
