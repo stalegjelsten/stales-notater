@@ -12,8 +12,8 @@
 Dette notatet er ment som hjelp til KOKs løpere som skal arrangere Sommercup. Her beskriver jeg arbeidsoppgavene til den som er løypelegger og løpsleder. Arbeidsoppgavene til tidtaker finner du i [[Orientering/eTiming til sommercup\|eTiming til sommercup]].
 
 ## Arbeidsoppgaver
-1. [[Orientering/Arrangere sommercup#Lenge før løpet\|#Lenge før løpet]]
-	2. [[Orientering/Arrangere sommercup#Kart og arena\|#Kart og arena]]
+1. [[Orientering/Arrangere sommercup#Minst 2 uker før løpet\|#Minst 2 uker før løpet]]
+	1. [[Orientering/Arrangere sommercup#Kart og arena\|#Kart og arena]]
 2. [[Orientering/Arrangere sommercup#Minst 2 dager før løpet\|#Minst 2 dager før løpet]]
 	1. [[Orientering/Arrangere sommercup#Sjekke poster og koder\|#Sjekke poster og koder]]
 	2. [[Orientering/Arrangere sommercup#Gjør ferdig løyper\|#Gjør ferdig løyper]]
@@ -22,15 +22,15 @@ Dette notatet er ment som hjelp til KOKs løpere som skal arrangere Sommercup. H
 	1. [[Orientering/Arrangere sommercup#Henge ut poster og sjekke postplasseringer\|#Henge ut poster og sjekke postplasseringer]]
 	2. [[Orientering/Arrangere sommercup#Justere løyper og sende over løypefiler\|#Justere løyper og sende over løypefiler]]
 	3. [[Orientering/Arrangere sommercup#Lage Livelox\|#Lage Livelox]]
-4. [[Orientering/Arrangere sommercup#Senest samme dag som løpet\|Senest samme dag som løpet]]
-	1. [[Orientering/Arrangere sommercup#Skrive ut løyper\|Skriv ut løyper]]
+4. [[Orientering/Arrangere sommercup#Senest samme dag som løpet\|#Senest samme dag som løpet]]
+	1. [[Orientering/Arrangere sommercup#Skrive ut løyper\|#Skrive ut løyper]]
 	2. [[Orientering/Arrangere sommercup#Hente utstyr til løpet og arena\|Hent utstyr til løpet]]
-	3. [[Orientering/Arrangere sommercup#Merking fra parkering og til start\|Merking fra parkering og til start]]
+	3. [[Orientering/Arrangere sommercup#Merking fra parkering og til start\|#Merking fra parkering og til start]]
 	4. [[Orientering/Arrangere sommercup#Start\|Start]]
-5. [[Orientering/Arrangere sommercup#Etter løpet\|Etter løpet]]
-	1. [[Orientering/Arrangere sommercup#Hente inn poster og lever tilbake\|Hente inn poster og levere tilbake utstyr]]
+5. [[Orientering/Arrangere sommercup#Etter løpet\|#Etter løpet]]
+	1. [[Orientering/Arrangere sommercup#Hente inn poster og lever tilbake\|#Hente inn poster og lever tilbake]]
 
-### Lenge før løpet
+### Minst 2 uker før løpet
 Følgende arbeidsoppgaver må senest gjennomføres 14 dager før løpet.
 
 #### Kart og arena
