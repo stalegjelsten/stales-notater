@@ -7,12 +7,12 @@
 eTiming er et tidtakingsprogram for Windows som kan brukes [[Orientering/eTiming til Agderkarusell\|under løpet]] eller til å [[Orientering/eTiming med spooling av resultater\|spoole]] resultater i etterkant.
 
 ## Publiserte notater om eTiming
-- [[Orientering/eTiming database\|eTiming database]]
-- [[Orientering/eTiming med spooling av resultater\|eTiming med spooling av resultater]]
-- [[Orientering/eTiming\|eTiming]]
-- [[Orientering/LiveRes for eTiming\|LiveRes for eTiming]]
-- [[Orientering/eTiming til Agderkarusell\|eTiming til Agderkarusell]]
 - [[Orientering/eTiming til sommercup\|eTiming til sommercup]]
+- [[Orientering/eTiming\|eTiming]]
+- [[Orientering/eTiming til Agderkarusell\|eTiming til Agderkarusell]]
+- [[Orientering/eTiming med spooling av resultater\|eTiming med spooling av resultater]]
+- [[Orientering/eTiming database\|eTiming database]]
+- [[Orientering/LiveRes for eTiming\|LiveRes for eTiming]]
 
 { .block-language-dataview}
 
