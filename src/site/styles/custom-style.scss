@@ -75,3 +75,27 @@ input[type="range"]#graph-depth {
     }
   }
 }
+
+h2::before { content: "# "; }
+h3::before { content: "## "; }
+h4::before { content: "### "; }
+h5::before { content: "#### "; }
+h6::before { content: "##### "; }
+
+
+/*
+Jeg hadde først en ide om a sette hashtaggene til venstre for margen
+på siden, men jeg tror det blir seende dårligere ut (og det er ikke
+særlig enkelt å få til fint på mobil).
+h2::before { content: "#"; left: -1em; position: absolute;}
+h3::before { content: "##"; left: -2em; position: absolute;}
+h4::before { content: "###"; left: -3em; position: absolute;}
+h5::before { content: "####"; left: -4em; position: absolute;}
+h6::before { content: "#####"; left: -5em; position: absolute;}
+
+h2 { padding-left: 1em; }
+h3 { padding-left: 2em; }
+h4 { padding-left: 3em; }
+h5 { padding-left: 4em; }
+h6 { padding-left: 5em; }
+*/
