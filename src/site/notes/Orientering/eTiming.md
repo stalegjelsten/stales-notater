@@ -56,3 +56,4 @@ For å oppdatere eTiming gjør du følgende:
 ### Bugs
 - Statusene Fullført og Fullført i eTiming gir begge «utenfor konkurranse» i Eventor. Det finnes en egen status «utenfor konkurranse» i eTiming også!
 	- Hvis man ønsker å få *Fullført* som status i Eventor kan dette løses manuelt i iofres.xml ved å søk/erstatt NotCompeting med Finished. Eks: `gsed -i 's/NotCompeting/Finished/' iofres.xml`
+- Jeg har fått feil starttid på utøvere i sommercupen 2024 – nesten alle utøvere får automatisk starttiden til første løper i klassen og dette lager krøll med tidene i Livelox. Løsning under [[Orientering/eTiming database#Feil starttid\|eTiming database#Feil starttid]]

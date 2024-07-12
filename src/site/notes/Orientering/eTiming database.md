@@ -17,6 +17,13 @@ Databasen til [[Orientering/eTiming\|eTiming]] er i MS Access format (`.mdb`) og
 >[!Warning] Bruk av anførselstegn i spørringer i eTiming
 >Man er nødt til å bruke enkle anførselstegn, **'**, for å markere strenger. Doble anførselstegn blir ikke gjenkjent av eTiming
 
+### Kolonner i name
+`name` inneholder alle løperne, og tidene deres. De fleste tidene er gitt som andeler av et døgn, for eksempel er tiden 0,75 det samme som klokka 18.00.00 siden $0{,}75 \cdot 24=18$.
+- `starttime` er tidspunktet for start
+- `intime` er tidspunktet for målgang og blir beregnet som starttid + nettotid. Hvis starttid er feil så blir også `intime` feil.
+- `readtime` er tidspunktet for brikkeavlesning med MTR4 eller 250.
+- `intime2` er kun nettotid lagret som en streng med `mm:ss` og har ingenting med målgangstid å gjøre.
+
 ## Smarte tips
 
 ### Oppdatere klasseregisteret for fristart og åpne klasser
@@ -43,14 +50,12 @@ update name set cource = Int((6 - 3 + 1) * Rnd(id) + 3) where class in (select c
 
 *Merk at denne metoden ikke gir like mange løpere i hver løype. Siden vi trekker tilfeldige tall så kan det være at det blir veldig mange i noen løyper, og ingen løpere i andre løyper. Man bør nok derfor justere løypenummere manuelt i etterkant.*
 
-
 #### Bør testes til senere
 ```sql
 
 update cource = 
 select * from name order by Rnd(id) 
 ```
-
 
 ### Urangerte resultatlister for barn
 ```sql
@@ -79,3 +84,39 @@ update name
 		fodt is null, 1
 	);
 ```
+
+### Feil starttid
+Under Sommercup 2024 fikk mange løpere automatisk samme starttid som arrangementsstart, uansett når de startet. Dette gjorde at Liveloxsporene ikke fungerte. En manuell fiks av databasen kan gjøres med (denne er laget med hjelp fra ChatGPT 4.0):
+
+1. Lag en midlertidig tabell med tiden mellom målgang og brikkeavlesning for hver løper
+2. Oppdater feltene `starttime` og `intime` i `name`-tabellen ved å lese av `readtime` og beregne seg fram til starttiden.
+
+#### Lag midlertidig tabell med tid mellom målgang og brikkeavlesning 
+I dette tilfellet er kode 249 målpost og kode 250 er postnummeret til brikkeavlesningsenheten (MTR eller 250-enhet).
+
+ ```sql
+SELECT 
+    ecard249.ecardno,
+    (ecard250.times - ecard249.times) / (24 * 60 * 60) AS waitingTime
+INTO TempWaitingTime
+FROM 
+    (SELECT ecardno, times 
+     FROM ecard 
+     WHERE control = 249) AS ecard249
+INNER JOIN 
+    (SELECT ecardno, times 
+     FROM ecard 
+     WHERE control = 250) AS ecard250
+ON ecard249.ecardno = ecard250.ecardno;
+ ```
+
+#### Oppdater name med riktig klokkeslett
+
+ ```sql
+ UPDATE name AS n
+ LEFT JOIN TempWaitingTime AS twt
+ ON n.ecard = twt.ecardno
+ SET 
+     n.intime = IIf(twt.waitingTime IS NULL, n.intime, n.readtime - twt.waitingTime),
+     n.starttime = IIf(twt.waitingTime IS NULL, n.starttime, n.readtime - twt.waitingTime - (n.intime - n.starttime));
+ ```
