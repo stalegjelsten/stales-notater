@@ -27,14 +27,14 @@ På denne siden finner du informasjon om
 Du kan lese mer om bruk av [[Orientering/Livelox\|Livelox]] og [[Orientering/LiveRes for eTiming\|Liveresultater med LiveRes]] på egne sider.
 
 ## Om KOKs sommercup
-Sommercupen er en rekke enkle o-løp gjennom sommeren. Løpene har status som nærløp og det tilbys vanligvis 4 løyper:
+Sommercupen er en rekke enkle o-løp gjennom sommeren. Vanligvis trenger vi to personer til å [[Orientering/Arrangere sommercup\|arrangere sommercup]]: en [[Orientering/Arrangere sommercup\|løpsleder/løypelegger]] og en tidtaker. Løpene har status som nærløp og det tilbys vanligvis 4 løyper:
 
-| Løype | Løypenavn | Klassenavn                  | Kortnavn   | Lengde  | 
-|:-----:|:---------:| --------------------------- | ---------- | ------- | 
-|   1   |  A-lang   | Herrer A-lang, Damer A-lang | H-AL, D-AL | 3,5–4,5 | 
-|   2   |  A-kort   | Herrer A-kort, Damer A-kort | H-AK, D-AK | 2,5–3,5 |   
-|   3   |     C     | Herrer C, Damer C           | H-C, D-C   | 2,0–2,5        | 
-|   4   |     N     | Nybegynner                  | N          | 1,5–2,0        | 
+| Løype | Løypenavn | Klassenavn                  | Kortnavn   | Lengde  |     |
+| :---: | :-------: | --------------------------- | ---------- | ------- | --- |
+|   1   |  A-lang   | Herrer A-lang, Damer A-lang | H-AL, D-AL | 3,5–4,5 |     |
+|   2   |  A-kort   | Herrer A-kort, Damer A-kort | H-AK, D-AK | 2,5–3,5 |     |
+|   3   |     C     | Herrer C, Damer C           | H-C, D-C   | 2,0–2,5 |     |
+|   4   |     N     | Nybegynner                  | N          | 1,5–2,0 |     |
 
 Løype A-kort kan veldig gjerne både være ganske enkel (mye B-poster) og bør være lettløpt slik at «den eldre garde» får en god opplevelse i løypa.
 
