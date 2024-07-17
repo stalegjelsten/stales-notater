@@ -15,5 +15,6 @@ Jeg anbefaler å skrive ut direkte fra Purple Pen-fila. Du er da nødt til å la
 - Trykk på `Endre skriver` og åpne `Egenskaper` for printeren (jeg tror den heter noe med Ricoh). Gå til fanen bildekvalitet og sjekk at denne er satt til 1200×1200 dpi
 
 ## Utskrift fra PDF
-*Jeg anbefaler egentlig ikke utskrift fra PDF da dette kan lage uventede symboler og linjer på utskriften*
+*Jeg anbefaler egentlig ikke utskrift fra PDF da dette kan lage uventede symboler og linjer på utskriften. For eksempel blir symbolet for skrent i postbeskrivelsen feil hvis du skriver ut fra PDF.*
 - Eksporter løypene til PDF fra Purple Pen eller OCAD (`Fil → Create PDFs → Courses`)
+- Åpne løypene i Adobe Acrobat og skriv ut derfra. Husk fremdeles å trykke på `Endre skriver` og åpne `Egenskaper` for printeren (jeg tror den heter noe med Ricoh). Gå til fanen bildekvalitet og sjekk at denne er satt til 1200×1200 dpi.
