@@ -29,6 +29,6 @@ Fra 350-tallet la [[Fillip 2\|Fillip 2]] under seg store deler av Hellas, og i 3
 [[Kunnskap/Alexander den Store\|Alexander den Store]] tar over etter sin far [[Fillip 2\|Fillip 2]]s død i 336 f.Kr og inntar store deler av den kjente verden helt øst til India før sin død i 323 f.Kr. 
 
 ## Hellenistisk tid
-Etter Alexanders død blir riket hans delt mellom hans generaler og andre fremtredende menn. [[Selevkideriket\|Selevkideriket]], [[Pergamon\|Pergamon]], [[Det ptolemiske kongedømme\|Det ptolemiske kongedømme]], samt det gresk-baktriske kongedømme og det ingo-greske kongedømme.
+Etter Alexanders død blir riket hans delt mellom hans generaler og andre fremtredende menn. [[Kunnskap/Selevkideriket\|Selevkideriket]], [[Pergamon\|Pergamon]], [[Det ptolemiske kongedømme\|Det ptolemiske kongedømme]], samt det gresk-baktriske kongedømme og det ingo-greske kongedømme.
 
 [[Kunnskap/Romerriket\|Romerriket]] vokser kraftig i denne perioden (de er inne i sin republikk).
