@@ -60,14 +60,12 @@
 | [[Kunnskap/Det store skisma\|Det store skisma]]                                                                                                                             | <ul><li>historie</li></ul>                                   | 25. Oct 2022 |
 | [[Kunnskap/Den romerske republikken\|Den romerske republikken]]                                                                                                             | <ul><li>historie</li></ul>                                   | 15. Oct 2022 |
 | [[Kunnskap/Den kognitive revolusjonen\|Den kognitive revolusjonen]]                                                                                                         | <ul><li>historie</li></ul>                                   | 26. Jan 2023 |
-| [[Kunnskap/Den greske antikken\|Den greske antikken]]                                                                                                                       | <ul><li>historie</li></ul>                                   | 15. Oct 2022 |
 | [[Kunnskap/De første sivilisasjoner\|De første sivilisasjoner]]                                                                                                             | <ul><li>historie</li></ul>                                   | 15. Oct 2022 |
 | [[Kunnskap/Dansketiden\|Dansketiden]]                                                                                                                                       | <ul><li>historie</li></ul>                                   | 11. May 2023 |
 | [[Kunnskap/Augustus\|Augustus]]                                                                                                                                             | <ul><li>historie</li></ul>                                   | 15. Oct 2022 |
 | [[Kunnskap/Athen\|Athen]]                                                                                                                                                   | <ul><li>historie</li></ul>                                   | 22. Jan 2023 |
 | [[Kunnskap/Antikken\|Antikken]]                                                                                                                                             | <ul><li>historie</li></ul>                                   | 15. Oct 2022 |
 | [[Kunnskap/Alexander den Store\|Alexander den Store]]                                                                                                                       | <ul><li>historie</li></ul>                                   | 29. Jan 2023 |
-| [[Historie MOC\|Historie MOC]]                                                                                                                                              | <ul><li>historie</li></ul>                                   | 23. Jan 2023 |
 | [[Kunnskap/Forelesningsnotater/Forelesningsnotater historie MOC\|Forelesningsnotater historie MOC]]                                                                         | <ul><li>historie</li><li>forelesning</li></ul>               | 17. Sep 2023 |
 | [[Kunnskap/Forelesningsnotater/Hi100 Forelesningsnotater globalhistorie MOC\|Hi100 Forelesningsnotater globalhistorie MOC]]                                                 | <ul><li>historie</li><li>hi100</li></ul>                     | 29. Jan 2023 |
 | [[Kunnskap/Forelesningsnotater/Hi110 Forelesningsnotater eldre historie i Norge og Europa MOC\|Hi110 Forelesningsnotater eldre historie i Norge og Europa MOC]]             | <ul><li>historie</li><li>hi110</li></ul>                     | 25. Jan 2023 |
@@ -115,25 +113,12 @@
 | [[Kunnskap/Tidlig middelalder i Europa\|Tidlig middelalder i Europa]]                                                                                                       | <ul><li>historie</li></ul>                                   | 23. Jan 2023 |
 | [[Kunnskap/Tidlig middelalder i Norge\|Tidlig middelalder i Norge]]                                                                                                         | <ul><li>historie</li></ul>                                   | 24. Jan 2023 |
 | [[Kunnskap/Tidslinje historie\|Tidslinje historie]]                                                                                                                         | <ul><li>historie</li></ul>                                   | 10. May 2023 |
-| [[Kunnskap/Treller\|Treller]]                                                                                                                                               | <ul><li>historie</li></ul>                                   | 28. Jan 2023 |
 | [[Kunnskap/Trettiårskrigen 1618–1648\|Trettiårskrigen 1618–1648]]                                                                                                           | <ul><li>historie</li></ul>                                   | 16. Mar 2023 |
 | [[Kunnskap/Tronfølgelovene\|Tronfølgelovene]]                                                                                                                               | <ul><li>historie</li></ul>                                   | 23. Jan 2023 |
 | [[Kunnskap/Vikingtiden\|Vikingtiden]]                                                                                                                                       | <ul><li>historie</li></ul>                                   | 29. Jan 2023 |
 | [[Kunnskap/Xenofon\|Xenofon]]                                                                                                                                               | <ul><li>historie</li></ul>                                   | 28. Jan 2023 |
-
-{ .block-language-dataview}
-
-| File                                                                                                                               | Last modified      |
-| ---------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
-| [[Kunnskap/Hormese\|Hormese]]                                                                                                   | 10.07.2024 - 20:33 |
-| [[Kunnskap/microbit\|microbit]]                                                                                                 | 10.07.2024 - 20:24 |
-| [[Kunnskap/Jorda\|Jorda]]                                                                                                       | 07.07.2024 - 13:07 |
-| [[Kunnskap/Forelesninger/IT1-4-2 Bits, bytes, analoge og digitale signaler\|IT1-4-2 Bits, bytes, analoge og digitale signaler]] | 25.06.2024 - 19:25 |
-| [[Kunnskap/localStorage\|localStorage]]                                                                                         | 25.06.2024 - 10:34 |
-| [[Kunnskap/Løkker i Javascript\|Løkker i Javascript]]                                                                           | 23.06.2024 - 17:04 |
-| [[Kunnskap/Plott med matplotlib\|Plott med matplotlib]]                                                                         | 23.06.2024 - 16:59 |
-| [[Kunnskap/URL\|URL]]                                                                                                           | 11.05.2024 - 11:22 |
-| [[Kunnskap/Typiske algebrafeil\|Typiske algebrafeil]]                                                                           | 05.05.2024 - 20:36 |
-| [[Kunnskap/Forelesninger/IT1 Oppdrag til fagdag 1\|IT1 Oppdrag til fagdag 1]]                                                   | 20.04.2024 - 11:50 |
+| [[Kunnskap/Treller\|Treller]]                                                                                                                                               | <ul><li>historie</li></ul>                                   | 28. Jan 2023 |
+| [[Kunnskap/Den greske antikken\|Den greske antikken]]                                                                                                                       | <ul><li>historie</li></ul>                                   | 15. Oct 2022 |
+| [[Historie MOC\|Historie MOC]]                                                                                                                                              | <ul><li>historie</li></ul>                                   | 18. Jul 2024 |
 
 { .block-language-dataview}
