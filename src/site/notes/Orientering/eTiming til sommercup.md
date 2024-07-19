@@ -131,9 +131,9 @@ Den som står ved starten *trenger ikke* skrive opp etteranmeldte manuelt. De so
 Hent følgende utstyr fra Klubbhuset senest dagen før løpet og sørg for at du har sjekket at det fungerer.
 - [ ] Tidtakings PC (bruk gjerne PCen på Klubbhuset merket **Tidtakning**). Må lades opp før løpet.
 - [ ] [MTR4 brikkeavleser i koffert](https://www.idrettsbutikken.no/other-brands/2380061024/koffert-til-mtr-kun-koffert-uten-innhold)
-- [ ] 249-målbukk (snakk gjerne med løypelegger, men tidtaker bør ha ansvaret for denne)
-- [ ] Campingbord og stol
+- [ ] 249-målbukk (snakk gjerne med løypelegger, men tidtaker har ansvaret for denne bukken)
 - [ ] Leiebrikker
+- [ ] Campingbord og stol
 
 På løpsdagen tar du i tillegg med følgende utstyr
 - [ ] Starterliste hvor man kan krysse av dem som har startet
