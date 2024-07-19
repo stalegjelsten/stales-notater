@@ -44,12 +44,14 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 - [[Kunnskap/Lage en liste med alle sider i et prosjekt i Svelte\|Lage en liste med alle sider i et prosjekt i Svelte]]
 - [[Kunnskap/Bytt fargemodus på nettsider\|Bytt fargemodus på nettsider]]
 - [[Kunnskap/Bakgrunnsbilder i Svelte\|Bakgrunnsbilder i Svelte]]
+- [[Kunnskap/Animasjoner i Svelte\|Animasjoner i Svelte]]
 
 { .block-language-dataview}
 
 ## Annet
 - [[Kunnskap/node.js\|node.js]]
 - [[Kunnskap/localStorage\|localStorage]]
+- [[Kunnskap/Utkast/Git\|Git]]
 - [[Kunnskap/URL\|URL]]
 - [[Kunnskap/Tillegg til Kode 1\|Tillegg til Kode 1]]
 - [[Kunnskap/Skjermleser\|Skjermleser]]
@@ -58,6 +60,7 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 - [[Kunnskap/Løkker i Javascript\|Løkker i Javascript]]
 - [[Kunnskap/Javascript objekter\|Javascript objekter]]
 - [[Kunnskap/Forelesninger/IT1 forelesninger\|IT1 forelesninger]]
+- [[Kunnskap/Forelesninger/IT1 fagdag 2024-01-10\|IT1 fagdag 2024-01-10]]
 - [[Kunnskap/Forelesninger/IT1 Oppdrag til fagdag 1\|IT1 Oppdrag til fagdag 1]]
 - [[Kunnskap/DNS\|DNS]]
 - [[Kunnskap/Bruke VS Code til python programmering\|Bruke VS Code til python programmering]]

@@ -156,6 +156,7 @@ CSS som skrives i Svelte er *scopet* (begrenset) til den nåværende siden. Hvis
 - [[Kunnskap/Lage en liste med alle sider i et prosjekt i Svelte\|Lage en liste med alle sider i et prosjekt i Svelte]]
 - [[Kunnskap/Bytt fargemodus på nettsider\|Bytt fargemodus på nettsider]]
 - [[Kunnskap/Bakgrunnsbilder i Svelte\|Bakgrunnsbilder i Svelte]]
+- [[Kunnskap/Animasjoner i Svelte\|Animasjoner i Svelte]]
 - [[Kunnskap/CSS pseudoklasser\|CSS pseudoklasser]]
 - [[Kunnskap/Tillegg til Kode 1\|Tillegg til Kode 1]]
 - [[Kunnskap/localStorage\|localStorage]]
