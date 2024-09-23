@@ -24,7 +24,7 @@ $$
 | Uendelig geometrisk rekke            | $-1<k<1 \implies s=\frac{a_{1}}{1-k}$  |
 
 ### Rekker og konvergens
-Ei rekke konvergerer og har summen $s$ dersom summen $s_{n}$ av $n$ første leddene nærmer seg tallet $s$ når $n \to \infty$. Altså
+En rekke konvergerer og har summen $s$ dersom summen $s_{n}$ av $n$ første leddene nærmer seg tallet $s$ når $n \to \infty$. Altså
 $$\lim_{n \to \infty}{s_{n} = s}$$
 En enkel tommelfingerregel for å sjekke om en rekke konvergerer er å sjekke om leddene går mot 0 når $n\to \infty$. Dersom rekka ikke konvergerer, så *divergerer* den.
 
@@ -133,7 +133,7 @@ $$
 Der $v$ er vekstfaktoren til kalkulasjonsrenta og $n$ er antall perioder. Hvis du vil finne nåverdien til et beløp bakover i tid så velger du en negativ verdi for $n$.
 
 #### Serielån
-Alle avdragene er like store, men rentene minker og derfor minker også terminbeløpene. Nåverdiene av terminebeløpene danner en aritmetisk rekke.
+I et serielån er alle avdragene like store, men rentene minker og derfor minker også terminbeløpene. 
 
 Vi finner avdragene med
 $$
@@ -143,12 +143,18 @@ Vi finner terminbeløpene med
 $$
 \text{terminbeløp} = \text{avdrag} + \text{rente av restlånet}
 $$
+Terminbeløpene danner en aritmetisk rekke hvor terminbeløp nummer $n$ er gitt ved
+$$
+T_{n}=T_{1}+(n-1) \cdot \left(\text{avdrag} \cdot \frac{\text{rentefot}}{100}\right)
+$$
 
 #### Annuitetslån
-Alle terminebeløpene er like store. Rentene synker i løpet av nedbetalingsperioden og avdragene øker. Lånebeløpet $L$ skal være lik summen av nåverdiene av terminbeløpene:
+I et annuitetslån er alle terminbeløpene like store. Rentene synker i løpet av nedbetalingsperioden og avdragene øker. Lånebeløpet $L$ skal være lik summen av nåverdiene av terminbeløpene:
 $$
 L = \sum_{i=1}^n \frac{T}{v^{i}}
 $$
+Der $T$ er terminbeløpet og $v$ er vekstfaktoren til kalkulasjonsrenta.
+
 Legg merke til at dette er en geometrisk rekke med $k=\frac{1}{v}$. Mange oppgaver med annuitetslån på del 2 kan løses ved å sette opp likningen over i CAS.
 
 Vi kan også bruke formler til å regne ut terminbeløpene eller lånebeløpet til et annuitetslån. Lånebeløpet $L$ er terminfaktoren $F$ multiplisert med terminbeløpet $T$.
