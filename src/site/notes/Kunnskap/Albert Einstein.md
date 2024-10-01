@@ -21,6 +21,7 @@ Fikk Nobelprisen i fysikk i 1921 for oppdagelsen av [[Fotoelektrisk effekt\|Foto
 - [[Kunnskap/Generell relativitetsteori\|Generell relativitetsteori]]
 - [[Fotoelektrisk effekt\|Fotoelektrisk effekt]]
 ## Bøker
+- [[Einstein om nysgjerrighet\|Einstein om nysgjerrighet]]
 
 { .block-language-dataview}
 

@@ -26,11 +26,20 @@ $$
 ### Rekker og konvergens
 En rekke konvergerer og har summen $s$ dersom summen $s_{n}$ av $n$ første leddene nærmer seg tallet $s$ når $n \to \infty$. Altså
 $$\lim_{n \to \infty}{s_{n} = s}$$
-En enkel tommelfingerregel for å sjekke om en rekke konvergerer er å sjekke om leddene går mot 0 når $n\to \infty$. Dersom rekka ikke konvergerer, så *divergerer* den.
+En enkel tommelfingerregel for å sjekke om en rekke konvergerer er å sjekke om leddene går mot 0 når $n\to \infty$. Dersom rekka ikke konvergerer, så *divergerer* den. Det er umulig å finne summen til en divergerende rekke fordi summen ikke eksisterer.
 
-**Geometriske rekker** er alltid konvergente når $k \in \left\langle - 1\ ,\ 1 \right\rangle \iff -1<k<1$. Summen av denne typer rekker er gitt ved formelen
+### Uendelige geometriske rekker
+
+Geometriske rekker er alltid konvergente når kvotiententen $k \in \left\langle - 1\ ,\ 1 \right\rangle \iff -1<k<1$. Summen av denne typen rekker er gitt ved formelen
 $$
 s=\frac{a_{1}}{1-k}
+$$
+
+En uendelig geometrisk rekke kan ha en kvotient $k(x)$ som er en funksjon av $x$ istedenfor å ha et fast tall $k$ som kvotient. Slike rekker har et *konvergensområde* i de intervallene av $x$ hvor $-1<k(x)<1$.
+
+Summen av slike rekker er gitt ved en funksjon $s(x)$ som har samme definisjonsmengde som konvergensområdet.
+$$
+s(x)=\frac{a_{1}}{1-k(x)}\,\, , \quad x \in \text{konvergensområdet}
 $$
 
 ### Programmering av følger og rekker
