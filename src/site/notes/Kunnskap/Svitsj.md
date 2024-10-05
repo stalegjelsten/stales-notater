@@ -7,7 +7,7 @@
 En svitsj sender datapakker mellom enheter i et [[Kunnskap/Nettverk\|Nettverk]]. Svitsjen bruker [[Kunnskap/MAC-adresse\|MAC-adresser]] for å avgjøre hvor pakkene skal, og den opererer i [[Datalinklaget\|Datalinklaget]] i [[Kunnskap/OSI-modellen\|OSI-modellen]].
 
 ![5-port gigabyte network switch by www.heimnetzwerke.net. CC-BY-NA 4.0](https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/5_Port_Gigabit_Netzwerk-Switch_TL-SG1005D_01.jpg/640px-5_Port_Gigabit_Netzwerk-Switch_TL-SG1005D_01.jpg)
-Figur: 5-port gigabyte network switch by www.heimnetzwerke.net. CC-BY-NA 4.0
+Figur: 5-port gigabyte network switch by <www.heimnetzwerke.net>. CC-BY-NA 4.0
 
 Svitsjen holder en <abbr>CAM</abbr>-tabell (Content Addressable Memory) à jour. Denne tabellen er en oversikt over hvilken [[Kunnskap/MAC-adresse\|MAC-adresse]] som er koblet til hvilken port på svitsjen. Enheter blir ikke registrert i CAM-tabellen før de har forsøkt å kommunisere over nettverket.
 
