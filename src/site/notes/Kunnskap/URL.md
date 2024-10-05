@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/URL/","title":"URL","tags":["it1"]}
+{"dg-publish":true,"permalink":"/Kunnskap/URL/","title":"URL","tags":["it1","nettverk","ikt100"]}
 ---
 
 # URL
@@ -38,7 +38,7 @@ flowchart LR
 protokoll://underdomene.domene.toppdomene:port/sti/side
 ```
 
-- Protokoll er ofte `https` som er kryptert form for `http` (HyperText Transfer Protocol). Dette er en protokoll for overføring av HTML. 
+- [[Kunnskap/Protokoll\|Protokoll]] er ofte `https` som er kryptert form for `http` ([[Kunnskap/HTTP\|HyperText Transfer Protocol]]). Dette er en protokoll for overføring av HTML. 
 	- Nettsider som benytter `http` bør unngås, siden all trafikken vil gå åpent gjennom nettverket. Det gjør at internettleverandør, den som har satt opp WiFI-nettverket og mange flere kan sniffe dataene du utveksler med nettsiden
 - Toppdomener er for eksempel `.no`, `.com`, `.co.uk`. Det er et begrenset antall toppdomener man kan velge mellom. For eksempel er `.gov` forbehold amerikanske, statlige institusjoner. 
 - Domene er delen av URLen som kommer før toppdomenet. Jeg leier for eksempel domenet `stalegjelsten` på toppdomenet `.no`. Man kjøper/leier domener av en *domeneforhandler*. Det er vanlig at man betaler for et domene.

@@ -5,7 +5,7 @@
 
 # IT1 forelesninger
 
-| File                                                                                                                               | Dato       |
+| Navn                                                                                                                               | Dato       |
 | ---------------------------------------------------------------------------------------------------------------------------------- | ---------- |
 | [[Kunnskap/Forelesninger/IT1-1-2 intro til HTML\|IT1-1-2 intro til HTML]]                                                       | 2023-08-21 |
 | [[Kunnskap/Forelesninger/IT1-1-5 Bilder\|IT1-1-5 Bilder]]                                                                       | 2023-08-24 |
