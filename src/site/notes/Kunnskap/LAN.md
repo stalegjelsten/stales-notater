@@ -23,4 +23,5 @@ Størrelsen på det [[Kunnskap/LAN\|lokale nettverket]] (antall enheter) er best
 
 ## Sending av pakker i LAN
 
-[[Routing\|Routing]]
+[[Ruting\|Ruting]]
+[[Kunnskap/OSI-modellen\|OSI-modellen]]
