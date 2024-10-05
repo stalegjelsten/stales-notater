@@ -4,7 +4,7 @@
 
 
 # Svitsj
-En svitsj sender datapakker mellom enheter i et [[Kunnskap/Nettverk\|Nettverk]]. Svitsjen bruker [[Kunnskap/MAC-adresse\|MAC-adresser]] for å avgjøre hvor pakkene skal, og den opererer i [[Datalinklaget\|Datalinklaget]] i [[Kunnskap/OSI-modellen\|OSI-modellen]].
+En svitsj sender datapakker mellom enheter i et [[Kunnskap/Nettverk\|Nettverk]]. Svitsjen bruker [[Kunnskap/MAC-adresse\|MAC-adresser]] for å avgjøre hvor pakkene skal, og den opererer i [[Kunnskap/Datalinklaget\|Datalinklaget]] i [[Kunnskap/OSI-modellen\|OSI-modellen]].
 
 ![5-port gigabyte network switch by www.heimnetzwerke.net. CC-BY-NA 4.0](https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/5_Port_Gigabit_Netzwerk-Switch_TL-SG1005D_01.jpg/640px-5_Port_Gigabit_Netzwerk-Switch_TL-SG1005D_01.jpg)
 Figur: 5-port gigabyte network switch by <www.heimnetzwerke.net>. CC-BY-NA 4.0
