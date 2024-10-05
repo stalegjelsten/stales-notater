@@ -9,7 +9,7 @@ Hver enhet som vil koble seg til et nettverk har en egen <abbr>MAC</abbr>-adress
 
 En DHCP-tjener tilordner en [[Kunnskap/IP-adresse\|IP-adresse]] til en MAC-adresse på nettverket.
 
-MAC-adresser bruker primært i [[Datalinklaget\|Datalinklaget]] i [[Kunnskap/OSI-modellen\|OSI-modellen]].
+MAC-adresser bruker primært i [[Kunnskap/Datalinklaget\|Datalinklaget]] i [[Kunnskap/OSI-modellen\|OSI-modellen]].
 
 ## Related
 [[Kunnskap/LAN\|LAN]]
