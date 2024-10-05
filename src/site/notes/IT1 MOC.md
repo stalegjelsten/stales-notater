@@ -49,6 +49,7 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 { .block-language-dataview}
 
 ## Annet
+- [[Kunnskap/IP-adresse\|IP-adresse]]
 - [[Kunnskap/Forelesninger/IT1 forelesninger\|IT1 forelesninger]]
 - [[Kunnskap/Forelesninger/IT1 Oppdrag til fagdag 1\|IT1 Oppdrag til fagdag 1]]
 - [[Kunnskap/Forelesninger/IT1 fagdag 2024-01-10\|IT1 fagdag 2024-01-10]]
@@ -69,7 +70,7 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 { .block-language-dataview}
 
 ## Forelesninger
-| File                                                                                                                               | Dato       |
+| Navn                                                                                                                               | Dato       |
 | ---------------------------------------------------------------------------------------------------------------------------------- | ---------- |
 | [[Kunnskap/Forelesninger/IT1-1-2 intro til HTML\|IT1-1-2 intro til HTML]]                                                       | 2023-08-21 |
 | [[Kunnskap/Forelesninger/IT1-1-5 Bilder\|IT1-1-5 Bilder]]                                                                       | 2023-08-24 |

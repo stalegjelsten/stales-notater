@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Publisert/Løsningsforslag 1T eksamen V2023/","title":"Løsningsforslag 1T eksamen V2023","tags":["matematikk","løsningsforslag2222","1T"]}
+{"dg-publish":true,"permalink":"/Publisert/Løsningsforslag 1T eksamen V2023/","title":"Løsningsforslag 1T eksamen V2023","tags":["matematikk","1T","løsningsforslag"]}
 ---
 
 

@@ -4,7 +4,7 @@
 
 - [ ] 
 # Naturfag MOC
-| File                                                                                             | tags                                                            |
+| Navn                                                                                             | tags                                                            |
 | ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------- |
 | [[Kunnskap/Hjernen\|Hjernen]]                                                                 | <ul><li>naturfag</li><li>psykologi</li></ul>                    |
 | [[Kunnskap/Elektronparbindinger\|Elektronparbindinger]]                                       | <ul><li>kjemi</li><li>naturfag</li></ul>                        |
@@ -34,6 +34,7 @@
 | [[Kunnskap/Ionebindinger\|Ionebindinger]]                                                     | <ul><li>naturfag</li></ul>                                      |
 | [[Kunnskap/Betastråling\|Betastråling]]                                                       | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Nøytron\|Nøytron]]                                                                 | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
+| [[Kunnskap/Protokoll\|Protokoll]]                                                             | <ul><li>informatikk</li><li>naturfag</li><li>ikt100</li></ul>   |
 | [[Kunnskap/Strålebehandling\|Strålebehandling]]                                               | <ul><li>naturfag</li></ul>                                      |
 | [[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]                             | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Halveringstid\|Halveringstid]]                                                     | <ul><li>fysikk</li><li>naturfag</li></ul>                       |
@@ -59,5 +60,7 @@
 | [[Kunnskap/Strålingsintensitet\|Strålingsintensitet]]                                         | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Frekvensmodulasjon\|Frekvensmodulasjon]]                                           | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
 | [[Kunnskap/Diagnostiering med ioniserende stråling\|Diagnostiering med ioniserende stråling]] | <ul><li>naturfag</li><li>fysikk</li></ul>                       |
+| [[Kunnskap/Solceller\|Solceller]]                                                             | <ul><li>fysikk</li><li>naturfag</li></ul>                       |
+| [[Kunnskap/Halvleder\|Halvleder]]                                                             | <ul><li>fysikk</li><li>naturfag</li></ul>                       |
 
 { .block-language-dataview}

@@ -5,7 +5,7 @@
 
 # Javascript
 
-| File                                                                                                                                                        | tags                                                                 |
+| Navn                                                                                                                                                        | tags                                                                 |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | [[Lyd i JavaScript\|Lyd i JavaScript]]                                                                                                                   | <ul><li>svelte</li><li>javascript</li><li>it1</li></ul>              |
 | [[Kunnskap/Javascript\|Javascript]]                                                                                                                      | <ul><li>javascript</li><li>it</li></ul>                              |
