@@ -204,7 +204,7 @@ Ladejarlene ble overvunnet i 1050 med drapet på Einar Tambarskjelve
 ### 900-1050 territoriell rikssamling
 - Harald Hardråde oppnår en territoriell politisk rikssamling.
 
-![[_resources/Frå-høvdingmakt-til.ppt]]
+![[_resources/Frå-høvdingmakt-til.ppt\|_resources/Frå-høvdingmakt-til.ppt]]
 ![](/img/user/_resources/IMG_20150825_123327.png)
 ![](/img/user/_resources/IMG_20150825_123339.png)
 ![](/img/user/_resources/IMG_20150825_123348.png)

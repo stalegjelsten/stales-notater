@@ -4,20 +4,14 @@
 
 
 # OSI-modellen
-OSI-modellen (<abbr>Open Systems Interconnection</abbr>) er en modell av [[Kunnskap/Nettverk\|nettverkssystemer]] som består av syv ulike lag
+OSI-modellen (<abbr>Open Systems Interconnection</abbr>) er en modell av [[Kunnskap/Datanettverk\|nettverkssystemer]] som består av syv ulike lag, se tabellen.
 
-
-| Lag | Navn              | Trafikk | Adressering     | Eksempler                                              |
-| :-: | ----------------- | ------- | --------------- | ------------------------------------------------------ |
-|  1  | Fysisk lag        |         |                 | Ethernetkabler, fiberoptiske kabler, trådløse signaler |
-|  2  | [[Kunnskap/Datalinklaget\|Datalinklaget]] | Rammer  | [[Kunnskap/MAC-adresse\|MAC-adresse]] | Ethernet, Wi-Fi                                        |
-|  3  |                   |         |                 |                                                        |
-
-
-1. Fysisk lag (L1). Ethernetkabler, fiberoptiske kabler, trådløse signaler.
-2. [[Kunnskap/Datalinklaget\|Datalinklaget]] (L2) er mellom enheter i samme [[Kunnskap/LAN\|lokale nettverk]]. Ethernet, Wi-Fi. Datatrafikken sendes som rammer og man bruker [[Kunnskap/MAC-adresse\|MAC-adresser]] som adresse.
-3. Nettverkslaget (L3). [[Ruting\|Ruting]] av datapakker mellom ulike nettverk. Datatrafikken sendes som pakker til og man bruker [[Kunnskap/IP-adresse\|IP-adresser]] som adresser.
-4. Transportlaget (L4). Transport av data mellom to endepunkter. [[TCP\|TCP]] og [[UDP\|UDP]]
-5. Sesjonslaget (L5)
-6. Presentasjonslaget (L6).
-7. Appllikasjonslaget (L7). Dette er laget brukeren interagerer med. [[Kunnskap/HTTP\|HTTP]]
+| Lag | Navn               | Trafikk                  | Adressering     | Eksempler                                              |
+| :-: | ------------------ | ------------------------ | --------------- | ------------------------------------------------------ |
+|  1  | Fysisk lag         | Bits                     |                 | Ethernetkabler, fiberoptiske kabler, trådløse signaler |
+|  2  | [[Kunnskap/Datalinklaget\|Datalinklaget]]  | Rammer                   | [[Kunnskap/MAC-adresse\|MAC-adresse]] | Ethernet, Wi-Fi                                        |
+|  3  | Nettverkslaget     | Pakker                   | [[Kunnskap/IP-adresse\|IP-adresse]]  | IP-pakker                                              |
+|  4  | Transportlaget     | Segmenter og datagrammer |                 | [[_resources/TCP\|TCP]], [[UDP\|UDP]]                                       |
+|  5  | Sesjonslaget       | Data                     |                 | Initierer sesjonen med *motparten*                     |
+|  6  | Presentasjonslaget | Data                     |                 | Bestemmer formatering                                  |
+|  7  | Applikasjonslaget  | Data                     |                 | [[Kunnskap/HTTP\|HTTP]]                                               |

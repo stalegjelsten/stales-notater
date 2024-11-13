@@ -25,7 +25,7 @@ I formeleditoren kan du finne de fleste matematiske symbolene i verktøylinja i 
 	- $\langle$ og $\rangle$ `\langle` og `\rangle`
 	- $\cup$ og $\cap$ `\cup` og `\cap`
 	- $\vee$ og $\wedge$ `\vee` og `\wedge`
-	- Avanserte mengdeoperatorer: $\backslash$ `\setminus`, $\mid$ `\mid`, $\forall$ `\forall`, $\therefore$ `\therefore`
+	- Avanserte operatorer: $\backslash$ `\setminus`, $\mid$ `\mid`, $\forall$ `\forall`, $\therefore$ `\therefore` $$
 
 \clearpage
 

@@ -24,8 +24,8 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 - [[Kunnskap/Fargeforløpninger i CSS\|Fargeforløpninger i CSS]]
 - [[Kunnskap/Display inline, block og inline-block\|Display inline, block og inline-block]]
 - [[Kunnskap/CSS pseudoselektorer\|CSS pseudoselektorer]]
-- [[Kunnskap/CSS\|CSS]]
 - [[Kunnskap/CSS variabler\|CSS variabler]]
+- [[Kunnskap/CSS\|CSS]]
 - [[Kunnskap/CSS pseudoklasser\|CSS pseudoklasser]]
 - [[Kunnskap/CSS animasjoner\|CSS animasjoner]]
 - [[Kunnskap/Bytt fargemodus på nettsider\|Bytt fargemodus på nettsider]]
@@ -43,8 +43,8 @@ Dette er en oversiktsside som viser alle fagnotater i IT1.
 - [[Kunnskap/Localstorage i Sveltekit\|Localstorage i Sveltekit]]
 - [[Kunnskap/Lese JSON med JavaScript\|Lese JSON med JavaScript]]
 - [[Kunnskap/Bakgrunnsbilder i Svelte\|Bakgrunnsbilder i Svelte]]
-- [[Kunnskap/Animasjoner i Svelte\|Animasjoner i Svelte]]
 - [[Kunnskap/Bytt fargemodus på nettsider\|Bytt fargemodus på nettsider]]
+- [[Kunnskap/Animasjoner i Svelte\|Animasjoner i Svelte]]
 
 { .block-language-dataview}
 
