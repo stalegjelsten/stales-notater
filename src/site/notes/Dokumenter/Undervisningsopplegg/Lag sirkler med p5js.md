@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Dokumenter/Undervisningsopplegg/Lag sirkler med p5js/","title":"Lag sirkler med p5js","tags":["prøver"]}
+{"dg-publish":true,"permalink":"/Dokumenter/Undervisningsopplegg/Lag sirkler med p5js/","tags":["prøver"]}
 ---
 
 
@@ -10,7 +10,7 @@ Matematikere elsker sirkler. De er symmetriske og de har det største arealet i 
 
 La oss tegne noen sirkler med kode på [p5js.org](https://p5js.org).
 
-```{.js caption="Kode for å tegne sirkler" #code:steg1}
+```js{.js caption="Kode for å tegne sirkler" #code:steg1}
 // Det som står etter // er kommentarer. Kommentarer har også gullfarge på dette arket.
 // Kommentarene er ikke en del av koden, og du trenger ikke skrive dem inn.
 
@@ -49,7 +49,7 @@ For å få til dette så må vi både lagre posisjonen og farten til hver eneste
 ## Steg 2.1: Sirkelklasser
 Vi trenger å fortelle datamaskinen hvilke egenskaper en sirkel skal ha. Det kan vi gjøre ved å definere en klasse som vi kaller `Sirkel`. Legg til koden i kodesnutt &code:klasse i toppen av programmet ditt.
 
-```{.js caption="Sirkelklasse" #code:klasse}
+```js{.js caption="Sirkelklasse" #code:klasse}
 class Sirkel {
   // Alt som står inni constructor skjer når vi lager en ny sirkel
   
@@ -72,7 +72,7 @@ class Sirkel {
 ## Steg 2.2: Lage liste
 Vi har lyst til å opprette mange sirkler, og vi trenger et sted å lagre informasjonen om alle disse sirklene, i tillegg må vi legge til en tyngdekraft. Tyngdekraften virker som en akselerasjon som drar hver sirkel ned mot bunnen av lerretet. Legg til kodesnutt &code:liste i toppen av programmet ditt.
 
-```{.js caption="Tyngdekraft og liste med sirkler" #code:liste}
+```js{.js caption="Tyngdekraft og liste med sirkler" #code:liste}
 const a = 0.05   // Tyngdekraft = 0.05
 let sirkler = [] // En tom liste med plass til sirklene våre
 ```
@@ -90,7 +90,7 @@ function setup() {
 }
 ```
 
-```{.js caption="Ny draw-kode" #code:draw2}
+```js{.js caption="Ny draw-kode" #code:draw2}
 function draw() {
   background(20)
   if (mouseIsPressed) {
@@ -138,7 +138,7 @@ Det vi gjør nå er egentlig å bruke *Eulers metode* for å løse differensiall
 
 Legg til følgende kode inni klassen til `Sirkel`:
 
-```{.js caption="Beregner ny fart og posisjon til sirkelen ved hjelp av Eulers metode" #code:update}
+```js{.js caption="Beregner ny fart og posisjon til sirkelen ved hjelp av Eulers metode" #code:update}
   update() {
     this.fart = this.fart + a    // Legg til akselerasjonen på farten til sirkelen
     this.y = this.y + this.fart  // Legg til farten på y-posisjonen til sirkelen
@@ -147,7 +147,7 @@ Legg til følgende kode inni klassen til `Sirkel`:
 
 Endre på `for`-løkka i `draw` slik at den blir som dette:
 
-```{.js caption="Ferdig for-løkke" #code:for}
+```js{.js caption="Ferdig for-løkke" #code:for}
   for (let i = 0; i < sirkler.length; i++) {
     sirkler[i].update() // Regner ut ny fart og posisjon til hver sirkel
     sirkler[i].tegn()   // Tegner hver sirkel på skjermen i den nye posisjonen
@@ -168,7 +168,7 @@ Endre på `for`-løkka i `draw` slik at den blir som dette:
 >d) Kan dere få sirklene til å falle mot høyre, venstre eller på skrå?
 
 \clearpage
-```{.js caption="Program etter steg 2.3" #code:steg23}
+```js{.js caption="Program etter steg 2.3" #code:steg23}
 const a = 0.05
 let sirkler = []
 
@@ -209,7 +209,7 @@ function draw() {
 
 \clearpage
 
-```{.js caption="Ferdig program" #code:ferdig}
+```js{.js caption="Ferdig program" #code:ferdig}
 const a = 0.05     // Akselerasjon (tyngdekraft)
 let sirkler = []   // Tom liste til å lagre sirklene
 
