@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Publisert/Bruk Highlight for syntaksmarkering/","title":"Bruk Highlight for syntaksmarkering","tags":["lærer","programmering","python"]}
+{"dg-publish":true,"permalink":"/Dokumenter/Bruk Highlight for syntaksmarkering/","title":"Bruk Highlight for syntaksmarkering","tags":["lærer","programmering","python"]}
 ---
 
 
