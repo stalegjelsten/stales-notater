@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Installer kart på Garmin-enheter fra Frikart.no/","title":"Installer kart på Garmin-enheter fra Frikart.no"}
+{"dg-publish":true,"permalink":"/Publisert/Installer kart på Garmin-enheter fra Frikart.no/","title":"Installer kart på Garmin-enheter fra Frikart.no","tags":["trening","tek","nerding","Instruksjoner"]}
 ---
 
 
