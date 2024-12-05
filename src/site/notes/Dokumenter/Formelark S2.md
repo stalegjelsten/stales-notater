@@ -46,7 +46,7 @@ $$
 Ifølge læreplanen skal dere utforske *rekursive sammenhenger* med programmering. En rekursiv sammenheng vil si at vi bruker ett ledd til å regne ut det neste leddet – for å regne ut $a_{n+1}$ så trenger vi først å ha regnet ut $a_{n}$.
 
 #### Ledd i aritmetisk tallfølge
-```python
+```python {.python caption="Ledd i aritmetisk rekke"}
 # Regner ut de første leddene i en aritmetisk tallfølge
 # med a_0 = 0 og d = 2.
 a = 0 
@@ -121,16 +121,16 @@ print(a)
 
 #### Ordliste
 
-| Begrep         | Forklaring                                              |
-| -------------- | ------------------------------------------------------- |
-| Rentefot/-sats | Hvor mange prosent rente vi må betale per år (pro anno) |
-| Terminer       | Antall innbetalinger                                    |
-| Lånebeløp      | Størrelsen på lånet da du tok det opp                   |
-| Restlån        | Størrelsen på lånet i dag                               |
-| Terminbeløp    | Hvor mye penger du betaler i hver termin                |
-| Renter         | Den delen av terminbeløpet som dekker rentene           |
-| Avdrag         | Den delen av terminbeløpet som betaler ned på lånet     |
-| Termingebyr    | Bankens gebyr for å sende ut faktura                    |
+| Begrep         | Forklaring                                          |
+| -------------- | --------------------------------------------------- |
+| Rentefot/-sats | Hvor mange prosent rente vi må betale per år        |
+| Terminer       | Antall innbetalinger                                |
+| Lånebeløp      | Størrelsen på lånet da du tok det opp               |
+| Restlån        | Størrelsen på lånet i dag                           |
+| Terminbeløp    | Hvor mye penger du betaler i hver termin            |
+| Renter         | Den delen av terminbeløpet som dekker rentene       |
+| Avdrag         | Den delen av terminbeløpet som betaler ned på lånet |
+| Termingebyr    | Bankens gebyr for å sende ut faktura                |
 
 #### Nåverdi
 Nåverdi forteller oss hvor mye et fremtidig (eller fortidig) beløp er verdt i nåtidens penger. Det er vanlig at penger blir mindre og mindre verdt for hvert år siden vi forventer avkastning på investeringene våre.
@@ -180,6 +180,12 @@ Funksjonsdrøfting handler om å finne ut hvordan funksjoner ser ut når du tegn
 - Monotoniegenskaper (når funksjonen vokser og synker) finner du ved å sjekke når $f'(x)>0$ og $f'(x)<0$. Du trenger å faktorisere og tegne fortegnslinje for å finne ut av dette.
 - Krumning finner du ved å sjekke når $f''(x)>0$ og $f''(x)<0$. Du trenger å faktorisere og tegne fortegnslinje for å finne ut av dette.
 
+Husk også disse viktige sammenhengene
+
+- Stigningstallet til tangenten i punktet $\left( a,f(a) \right)$ er like $f'(a)$.
+- En funksjon har sin maksimalverdi i toppunktene eller randpunktene
+- En funksjon vokser fortest eller avtar fortest i vendepunktene.
+
 ### Logaritmer
 #### Egenskaper ved logaritmefunksjoner
 En logaritmefunksjon er den inverse funksjonen til en eksponentialfunksjon.
@@ -223,7 +229,7 @@ Rasjonale funksjoner har følgende egenskaper:
 
 - Nullpunkt når telleren $P(x)=0$
 - Bruddpunkt når nevneren $Q(x)=0$
-- Definisjonsmengden er alle $x$ bortsett fra bruddpunktet: $D_{f}=\mathbb{R} \setminus x_{\text{bruddpunkt}}$
+- Definisjonsmengden er alle $x$ bortsett fra bruddpunktet: $D_{f}=\mathbb{R} \setminus \{x_{\text{bruddpunkt}}\}$
 
 #### Asymptoter
 Asymptoter er tenkte linjer som en funksjon nærmer seg. Asymptoter kan være horisontale, vertikale eller skrå.
@@ -256,7 +262,7 @@ Huskeregel kjerneregelen: Multipliser den deriverte av den ytre funksjonen med d
 $$
 \big( \ln (x) \big) '=\frac{1}{x}
 $$
-Merk at selv om $g(x)=\frac{1}{x}$ er definert for $x\in \mathbb{R} \setminus 0$ så er den deriverte av logaritmefunksjonen kun definert for $x>0$. 
+Merk at selv om $g(x)=\frac{1}{x}$ er definert for $x\in \mathbb{R} \setminus \{0\}$ så er den deriverte av logaritmefunksjonen kun definert for $x>0$. 
 
 Funksjonen $f(x)=\ln x$ har definisjonsmengde $D_{f} = \langle 0, \to \rangle$. Derfor kan ikke den deriverte ha noe *større* definisjonsmengde enn dette. For å derivere en funksjon så den være kontinuerlig i punktet. Det gir ikke mening å snakke om vekstfarten til $f$ i $x=-2$ siden $f(-2)$ ikke eksisterer.
 
@@ -274,32 +280,32 @@ $$
 ### Ubestemte integraler
 Et ubestemt integral er å finne alle antideriverte $F(x)$ til en funksjon $f(x)$ slik at $F'(x)=f(x)$.
 
-Vi har følgende integrasjonsregler
+Vi har en rekke ulike integrasjonsregler
 
-| Forklaring           |    Funksjon    |                          Integrert                          |
-| -------------------- | :------------: | :---------------------------------------------------------: |
-| Konstant             |      $k$       |                           $kx+C$                            |
-| Koeffisient          | $k \cdot f(x)$ |             $k \cdot \int f(x) \, \mathrm{d}x$              |
-| Flere ledd           | $f(x)\pm g(x)$ | $\int f(x) \, \mathrm{d}x \pm \int g(x_{9}) \, \mathrm{d}x$ |
-| Potensfunksjon       |     $x^r$      |          $\frac{1}{r+1}x^{r+1}+C,\,\,\, r \neq -1$          |
-| Spesialtilfelle      | $\frac{1}{x}$  |             $\ln \vert x \vert +C,\,\, x\neq 0$             |
-| Eksponentialfunksjon |    $e^{kx}$    |                   $\frac{1}{k}e^{kx} +C$                    |
-| Eksponentialfunksjon |    $a^{x}$     |    $\frac{a^{x}}{\ln a}+C \,\, ,\,\,a>0\wedge a \neq 1$     |
-| Naturlig logaritme   |    $\ln x$     |                     $x \cdot \ln x-x+C$                     |
+| Forklaring               |       Funksjon       |                        Integrert                        |
+| ------------------------ | :------------------: | :-----------------------------------------------------: |
+| Konstant                 |         $k$          |                         $kx+C$                          |
+| Koeffisient              |    $k \cdot f(x)$    |           $k \cdot \int f(x) \, \mathrm{d}x$            |
+| Flere ledd               |    $f(x)\pm g(x)$    | $\int f(x) \, \mathrm{d}x \pm \int g(x) \, \mathrm{d}x$ |
+| Potensfunksjon           |        $x^r$         |        $\frac{1}{r+1}x^{r+1}+C,\,\,\, r \neq -1$        |
+| Spesialtilfelle          | $\frac{1}{x}=x^{-1}$ |           $\ln \vert x \vert +C,\,\, x\neq 0$           |
+| Eksponentialfunksjon     |       $e^{kx}$       |                 $\frac{1}{k}e^{kx} +C$                  |
+| Naturlig logaritme       |       $\ln x$        |                   $x \cdot \ln x-x+C$                   |
+| Eksponentialfunksjon[^3] |       $a^{x}$        |  $\frac{1}{\ln a}a^{x}+C \,\, ,\,\,a>0\wedge a \neq 1$  |
 
 ### Bestemt integral som grense av sum
-Vi har en funksjon $f(x)$. Vi ønsker å finne arealet under grafen fra $x = a$ til $x = b$.
+Vi har en funksjon $f(x)$ og vi ønsker å finne arealet under grafen fra $x = a$ til $x = b$.
+
+![Det bestemte integralet er summen av uendelig mange rektangler under grafen](/img/user/_resources/integral-grense-for-sum.jpeg)
 
 Vi forsøker å dele opp området under grafen i $n$ rektangler. Bredden på hvert rektangel må da være $\Delta x = \frac{b - a}{n}$. 
 
-Hvis vi kaller $x$-verdien i starten av rektangelet for $x_{i}$ der $i \in \{ 1,\ 2,\ 3,\ \ldots,\ n\}$ så vil høyden av hvert rektangelet være $f\left( x_{i} \right)$.
+Hvis vi kaller $x$-verdien i starten av rektangelet for $x_{i}$ der $i \in \{ 1,\ 2,\ 3,\ \ldots,\ n\}$ så vil høyden av hvert rektangel være $f\left( x_{i} \right)$.
 
 Siden arealet til et rektangel er høyde multiplisert med bredde vil summen av arealene til rektanglene altså være
-
 $$S_{n} = f\left( x_{1} \right) \cdot \Delta x + f\left( x_{2} \right) \cdot \Delta x + f\left( x_{3} \right) \cdot \Delta x + \ldots = \sum_{i = 1}^{n}{f\left( x_{i} \right) \cdot \Delta x}$$
 
 Hvis vi lar bredden av rektanglene bli veldig små slik at rektanglene egentlig bare blir infitesimalt smale striper får vi
-
 $$\lim_{\Delta x \rightarrow 0}{S_{n} =}\lim_{n \rightarrow \infty}{\sum_{i = 1}^{n}{f\left( x_{i} \right) \cdot \Delta x}} = \int_{a}^{b}{f(x)\ \text{d}x}$$
 
 ### Fundamentalsetningen
@@ -357,7 +363,6 @@ Delvis integrasjon brukes ofte dersom du skal integrere et produkt av ulike to u
 Delvis integrasjon er spesielt nyttig dersom den ene faktoren er enkel å integrere og den andre faktoren er enkel å derivere.
 
 Sett den ene faktoren til å være $u$, dette er den faktoren som blir derivert. Den andre faktoren setter setter du lik $v'$. Deretter bruker du formelen nedenfor.
-
 $$
 \int u \cdot v' \, \mathrm{d}x = u \cdot v - \int u' \cdot v \, \mathrm{d}x 
 $$
@@ -370,20 +375,18 @@ Det er også mulig å bruke oppsettet kalt *DI*-metoden. Eksempelet under viser 
 3. Den tredje kolonnen inneholder faktoren som skal integreres (*I*). For hver rad så integrerer du faktoren.
 
 |                         |             D              |                    I                    |
-| :---------------------: | :------------------------: | :-------------------------------------: |
+| :----: | :----: | :-----: |
 | $\textcolor{dblue}{+}$  | $\textcolor{dblue}{x^{2}}$ |                $e^{2x}$                 |
 |  $\textcolor{dred}{-}$  |   $\textcolor{dred}{2x}$   | $\textcolor{dblue}{\frac{1}{2}e^{2x}}$  |
 | $\textcolor{dgreen}{+}$ |  $\textcolor{dgreen}{2}$   |  $\textcolor{dred}{\frac{1}{4}e^{2x}}$  |
 |           $-$           |            $0$             | $\textcolor{dgreen}{\frac{1}{8}e^{2x}}$ |
 
 Svaret med DI-metoden finner du ved å starte på fortegnet oppe til venstre ($\textcolor{dblue}{+}$), gå en til høyre ($\textcolor{dblue}{x^{2}}$) og deretter på skrå ned til høyre ($\textcolor{dblue}{\frac{1}{2}e^{2x}}$ i raden under). Bruk $+$ som fortegnet og multipliser de to faktorene slik at du får $+x^{2} \cdot \frac{1}{2}e^{2x}$. Du fortsetter på samme måte nedover. Svaret på oppgaven vår blir
-
 $$
 \textcolor{dblue}{+x^{2} \frac{1}{2} e^{2x}}\textcolor{dred}{-2x \frac{1}{4} e^{2x}}\textcolor{dgreen}{+2 \frac{1}{8} e^{2x}}+C = \frac{1}{2}e^{2x}x^{2}-\frac{1}{2}e^{2x}x+\frac{1}{4}e^{2x}+C
 $$
 
 Du lager rader i tabellen fram til du får en null, eller helt til du ser at du kan integrere produktet av faktorene i en rad. Hvis du ser at du kan integrere produktet av faktorene i en rad (for eksempel kan vi integrere produktet av 2 og $\frac{1}{4}e^{x}$ i rad 3), så kan du sette opp følgende
-
 $$
 \textcolor{dblue}{+x^{2} \frac{1}{2} e^{2x}}\textcolor{dred}{-2x \frac{1}{4} e^{2x}} \textcolor{dgreen}{+}\int \textcolor{dgreen}{2} \textcolor{dred}{ \frac{1}{4} e^{2x}} \, \mathrm{d}x = \frac{1}{2}e^{2x}x^{2}-\frac{1}{2}e^{2x}x+\int \frac{1}{2}e^{2x} \, \mathrm{d}x
 $$
@@ -401,7 +404,7 @@ Variabelskifte brukes hvis du skal integrere en sammensatt funksjon. Variabelski
 6. Integrer uttrykket som nå har formen $\int g(u) \, \mathrm{d}u$
 7. Substituer ut alle $u$ i svaret med det opprinnelige uttrykket for $u$
 
->[!example] Se etter en faktor du kan derivere
+>[!example] Variabelskifte – se etter en faktor du kan derivere
 >
 >Dersom du kan derivere en av faktorene i integranden, og den deriverte blir lik en annen faktor i integranden så bør du bruke variabelskifte. Ta for deg følgende regnestykke
 >$$ \int \frac{\ln x}{x} \, \mathrm{d}x  $$
@@ -413,6 +416,64 @@ Variabelskifte brukes hvis du skal integrere en sammensatt funksjon. Variabelski
 >$$ \int \frac{u}{\cancel{ x }} \cancel{ x } \, \mathrm{d}u = \int u \, \mathrm{d}u = \frac{1}{2}u^{2} + C$$
 >Vi bytter tilbake $\ln x$ for $u$ og får svaret 
 >$$\frac{1}{2}(\ln x)^{2}$$
+
+### Delbrøkoppspalting
+>[!warning] Kommer dette på eksamen?
+>
+>Jeg vet ikke om det er nødvendig å kunne delbrøkoppspalting til del 1 av eksamen. Hvis du sikter mot karakteren 6 så ville jeg definitivt lært den. Hvis du sikter mot 4 eller lavere så ville jeg definitivt prioritert andre deler av pensum.
+
+Delbrøkoppspalting er en teknikk som vi blant annet kan bruke til å løse integraler med rasjonale uttrykk (se kapittel [2.2](#rasjonale-funksjoner)). Teknikken går ut på å skrive om en komplisert rasjonal funksjon til en sum av flere enkle rasjonale funksjoner. La $f(x)$ være en rasjonal funksjon bestående av polynomene $P$ og $Q$ slik at 
+$$
+f(x)=\frac{P(x)}{Q(x)}
+$$
+For at vi skal kunne gjøre delbrøkoppspalting må $Q$ ha større grad enn $P$. Dersom det ikke er tilfellet må du starte med å gjennomføre polynomdivisjonen $\frac{P(x)}{Q(x)}$. Da sitter du igjen med et polynom som er enkelt å integrere, samt en rest som du kan bruke delbrøkoppspalting til å integrere.
+
+>[!important] Algoritmen for delbrøkoppspalting
+>
+>1. Sjekk at nevner har høyere grad enn teller, ellers må du gjennomføre polynomdivisjon først
+>2. Faktoriser uttrykket i nevneren til $n$ faktorer
+>3. Sett uttrykket lik summen av $n$ brøker: $A$ over faktor 1, $B$ over faktor 2 og så videre opp til
+>4. Multipliser begge sider av likningen med fellesnevner
+>5. Sett inn $x$-verdier som du ser at vil hjelpe deg med å bestemme $A$, $B$ og så videre
+>6. Skriv om det opprinnelige uttrykket som summen av $n$ ledd
+>7. Integrer ledd for ledd
+
+Jeg viser en delbrøkoppspalting med eksempelet $\int \frac{8}{x^{3}-4x} \, \mathrm{d}x$. Vi ser at nevneren har høyere grad enn teller, så vi kan gå videre til punkt 2 og faktoriserer nevneren.
+$$
+\frac{8}{x^{3}-4x}=\frac{8}{x(x^{2}-4)}=\frac{8}{x(x^{2}-2^{2})}=\frac{8}{x(x-2)(x+2)}
+$$
+Vi ser at vi har tre faktorer i nevneren. Vi går videre til punkt 3 og setter uttrykket vårt lik summen av tre brøker:
+$$
+\frac{8}{x(x-2)(x+2)}=\frac{A}{x}+\frac{B}{x-2}+\frac{C}{x+2}
+$$
+Vi går videre til punkt 4 og multipliserer med fellesnevneren $x(x-2)(x+2)$ på hver side
+$$
+8=A(x-2)(x+2)+B \cdot x(x+2)+C\cdot x(x-2)
+$$
+Vi går videre til punkt 5 og ser at hvis vi setter inn $x=0$, $x=-2$ og $x=2$ så vil noen av leddene multipliseres med 0 og uttrykket vil bli forenklet
+$$
+\begin{aligned}
+x=0 \, \text{ gir} \quad  8&=A(0-2)(0+2) +\cancel{ B \cdot 0 \cdot (0+2) }+\cancel{ C\cdot 0 \cdot (0-2) }\\
+ 8&=-4A\\
+ A&=-2\\
+x =-2  \, \text{ gir} \quad 8&=A(-2-2)(-2+2)+B \cdot (-2)(-2+2)+C\cdot (-2)(-2-2)\\
+8&=\cancel{ A(-4)(0) }+\cancel{ B \cdot (-2)(0) }+C\cdot (-2)(-4)\\
+8&=8C\\
+C&=1\\
+x =2  \, \text{ gir} \quad 8&=A(2-2)(2+2)+B \cdot 2(2+2)+C\cdot 2(2-2)\\
+8&=\cancel{ A(0)(4) }+B \cdot 2(4)+\cancel{ C\cdot 2(0) }\\
+8&=8B\\
+B&=1
+\end{aligned}
+$$
+Vi går videre til punkt 6 og setter opp uttrykket vårt
+$$
+\frac{8}{x^{3}-4x}=\frac{-2}{x}+\frac{1}{x-2}+\frac{1}{x+3}
+$$
+Vi kan dermed gå videre til punkt 7 og faktisk integrere uttrykket ledd for ledd
+$$
+\int \frac{8}{x^{3}-4x} \, \mathrm{d}x = \int \frac{-2}{x} \, \mathrm{d}x + \int \frac{1}{x-2} \, \mathrm{d}x + \int \frac{1}{x+2} \, \mathrm{d}x = \underline{\underline{ -2 \ln \lvert x \rvert + \ln \lvert x-2 \rvert + \ln \lvert x+2 \rvert}}
+$$
 
 ## Økonomi
 Her lar vi $I(x)$ være inntektene ved salg av $x$ enheter og $K(x)$ være produksjonskostnadene ved produksjon av $x$ enheter. Overskuddet $O(x)$ er da gitt ved
@@ -511,7 +572,6 @@ $$
 Vi bruker hypergeometrisk sannsynlighetsfordeling når vi har to ulike grupper med gjenstander og skal få et gitt antall av hver av dem. I hypergeometriske forsøk så er ikke delforsøkene uavhengige av hverandre.
 
 Du har to typer objekter i en bolle, du har $n_{1}$ objekter av type 1 og $n_{2}$ objekter av type 2. Til sammen har du $n_{1}+n_{2}=n$ objekter. Du trekker $k$ objekter fra bollen. La $X$ være antallet objekter av type 1 blant de $k$. Sannsynligheten for at du trekker $k_{1}$ objekter er gitt ved:
-
 $$
 P(X=k_{1}) = \frac{\binom{n_{1}}{k_{1}} \binom{n_{2}}{k_{2}}}{\binom{n}{k}}
 $$
@@ -533,7 +593,6 @@ Vi bruker vanligvis en tabell med sannsynlighetsfordelingen for å regne ut forv
 
 ##### Forventningsverdi i binomisk sannsynlighetsfordeling
 I binomisk sannsynlighetsfordeling hvor antall forsøk er $n$ og sannsynligheten for suksess i hvert forsøk er $p$, er forventningsverdien gitt ved:
-
 $$
 \mu = E(X) = n \cdot p
 $$
@@ -555,7 +614,6 @@ Varians og standardavvik er spredningsmål – de måler variasjonen i observas
 >- Variansen har måleenheten til observasjonene opphøyd i andre
 
 Variansen til $X$ finner vi med
-
 $$
 \text{Var}(X)=\sum_{i=1}^{N}\left( ( x_{i}-\mu)^{2}\cdot P(X=x_{i}) \right)
 $$
@@ -717,18 +775,12 @@ tilfeldig_tall = random.randint(1,6)
 ```
 
 ##### Trekke tilfeldig desimaltall
-For å trekke et tilfeldig desimaltall i intervallet $[0 , 1\rangle$ så kan du bruke `random.random()`. 
+For å trekke et tilfeldig desimaltall i intervallet $[0 , 1 \rangle$ så kan du bruke `random.random()`. Hvis du trenger å ha et tilfeldig desimaltall i intervallet $[5, 15\rangle$ så kan bare gange det tilfeldige tallet med 10 og legge til 5:
 
 ```python
 import random
 tilfeldig_tall = random.random()
-```
-
-Hvis du trenger å ha et tilfeldig desimaltall i intervallet $[5, 15\rangle$ så kan bare gange det tilfeldige tallet med 10 og legge til 5:
-
-```python
-import random
-tilfeldig_tall = 10 * random.random() + 5
+tilfeldig_tall2 = 10 * random.random() + 5
 ```
 
 ##### Trekke fra normalfordeling
@@ -824,19 +876,20 @@ Vi bruker hypotesetester til å trekke slutninger om en hel populasjon basert p�
 
 I hypotesetester så bestemmer vi sannsynligheten for at observasjonene våre kan forekomme, gitt at en nullhypotese er sann.
 
-| Begrep                                | Forklaring                                                                                                                                              |
-| ---- | -------- |
-| Hypotesetesting                       | Gjøre et utvalg/stikkprøve av en populasjon og finne ut om vi kan forkaste en nullhypotese.                                                             |
-| Nullhypotese ($H_0$)                  | Den gjeldende hypotesen eller det vi ønsker å motbevise. Vi antar at denne er sann i hypotesetesting.                                                   |
+| Begrep                      | Forklaring                                                                                                                                              |
+| --------------------------- | --------------------------------------------------------------------------------------- |
+| Hypotesetesting             | Gjøre et utvalg/stikkprøve av en populasjon og finne ut om vi kan forkaste en nullhypotese.                                                             |
+| Nullhypotese ($H_0$)        | Den gjeldende hypotesen eller det vi ønsker å motbevise. Vi antar at denne er sann i hypotesetesting.                                                   |
 | Alternativ hypotese ($H_A$) | Den hypotesen vi ønsker å teste ("bevise")                                                                                                              |
-| Testobservator ($X$)                  | En stokastisk variabel med en valgt sannsynlighetsfordeling forutsatt at $H_0$ er sann                                                                  |
-| Signifikansnivå ($\alpha$)            | Er som oftest 0,05. Det betyr at vi forkaster nullhypotesen i 5 % av tilfellene hvor vi ikke burde forkastet den (at vi gjør feil i 5 % av tilfellene). |
-| $p$-verdi                             | Sannsynligheten for observasjonen, gitt at $H_0$ er sann                                                                                                |
-| Forkastningsmengde                    | De verdier av $X$ som gjør at $H_0$  forkastes                                                                                                          |
-| Aksepteringsmengde                    | De verdier av $X$ som gjør at $H_0$  beholdes                                                                                                           |
-| Venstresidig test                     | Tester om andelen er mindre enn nullhypotesen, altså $H_A$:   $p<p_0$                                                                                   |
-| Høyresidig                            | Tester om andelen er større enn nullhypotesen, altså $H_{A}$:   $p>p_0$                                                                                 |
-| Tosidig test                          | Tester om den egentlige verdien er ulik fra nullhypotesen $\mu \neq \mu_{0}$                                                                            |
+| Testobservator ($X$)        | En stokastisk variabel med en valgt sannsynlighetsfordeling forutsatt at $H_0$ er sann                                                                  |
+| Signifikansnivå ($\alpha$)  | Er som oftest 0,05. Det betyr at vi forkaster nullhypotesen i 5 % av tilfellene hvor vi ikke burde forkastet den (at vi gjør feil i 5 % av tilfellene). |
+| $p$-verdi                   | Sannsynligheten for observasjonen, gitt at $H_0$ er sann                                                                                                |
+| Forkastningsmengde          | De verdier av $X$ som gjør at $H_0$  forkastes                                                                                                          |
+| Aksepteringsmengde          | De verdier av $X$ som gjør at $H_0$  beholdes                                                                                                           |
+| Venstresidig test           | Tester om andelen er mindre enn nullhypotesen, altså $H_A$:   $p<p_0$                                                                                   |
+| Høyresidig                  | Tester om andelen er større enn nullhypotesen, altså $H_{A}$:   $p>p_0$                                                                                 |
+| Tosidig test                | Tester om den egentlige verdien er ulik fra nullhypotesen $\mu \neq \mu_{0}$                                                                            |
+|                             |                                                                                                                                                         |
 
 >[!important] Algoritme for hypotesetester
 >
@@ -879,4 +932,5 @@ $$
 I hypotesetesten vår så bruker vi en normalfordeling med $E(\bar{X})=\mu$ og $\text{SD}(\bar{X})=\frac{\sigma}{\sqrt{ n }}$.
 
 [^1]: Merk at `python`-lister begynner på indeks 0. Det vil si at for å hente ut det første elementet i ei liste som heter `min_liste` så skriver vi `min_liste[0]`. For å hente du det fjerde elementet i lista skriver vi `min_liste[3]`.
+[^3]: Denne formelen tror jeg ikke du trenger å pugge til del 1 av eksamen.
 [^2]: $p$-verdi og sannsynligheten $p$ i binomisk modell er *ikke* det samme.
