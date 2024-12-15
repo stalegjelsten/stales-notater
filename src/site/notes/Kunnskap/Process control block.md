@@ -16,7 +16,7 @@ OSet lager en *Process control block* (<abbr>PCB</abbr>, noen ganger også kalt 
 
 
 ## Process table
-[[Modern Operating Systems av Tanenbaum\|Modern Operating Systems av Tanenbaum]] bruker også begrepet *process table* om PCB, mens [[Operating Systems Internals and Design Principles av Stallings\|Operating Systems Internals and Design Principles av Stallings]] bruker *process table* om [[Kunnskap/Operativsystem\|operativsystemets]] oversikt over alle prosessene som kjører.
+~~[[Modern Operating Systems av Tanenbaum\|Modern Operating Systems av Tanenbaum]] bruker også begrepet *process table* om PCB, mens [[Operating Systems Internals and Design Principles av Stallings\|Operating Systems Internals and Design Principles av Stallings]] bruker~~ *process table* om [[Kunnskap/Operativsystem\|operativsystemets]] oversikt over alle prosessene som kjører.
 
 Ifølge [[Operating Systems Internals and Design Principles av Stallings\|Operating Systems Internals and Design Principles av Stallings]] så har hver prosess et *process image* som består av [[Kunnskap/Prosess\|prosessens]] process control block og de tre minnesegmentene til prosessen.
 

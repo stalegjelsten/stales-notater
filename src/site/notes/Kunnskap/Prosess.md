@@ -76,7 +76,7 @@ OSet lager en *Process control block* (<abbr>PCB</abbr>, noen ganger også kalt 
 
 
 ## Process table
-[[Modern Operating Systems av Tanenbaum\|Modern Operating Systems av Tanenbaum]] bruker også begrepet *process table* om PCB, mens [[Operating Systems Internals and Design Principles av Stallings\|Operating Systems Internals and Design Principles av Stallings]] bruker *process table* om [[Kunnskap/Operativsystem\|operativsystemets]] oversikt over alle prosessene som kjører.
+~~[[Modern Operating Systems av Tanenbaum\|Modern Operating Systems av Tanenbaum]] bruker også begrepet *process table* om PCB, mens [[Operating Systems Internals and Design Principles av Stallings\|Operating Systems Internals and Design Principles av Stallings]] bruker~~ *process table* om [[Kunnskap/Operativsystem\|operativsystemets]] oversikt over alle prosessene som kjører.
 
 Ifølge [[Operating Systems Internals and Design Principles av Stallings\|Operating Systems Internals and Design Principles av Stallings]] så har hver prosess et *process image* som består av [[Kunnskap/Prosess\|prosessens]] process control block og de tre minnesegmentene til prosessen.
 
@@ -103,16 +103,8 @@ Hvis en prosess må vente på input så kan den sende et [[Kunnskap/Systemkall\|
 ### Ready
 En prosess som er ready er klar til å kjøres, men [[Kunnskap/Operativsystem\|OSet]] velger å ikke kjøre den akkurat nå – som oftest på grunn av mangel på CPU-tid. Det er [[Scedhuler\|Scedhuler]]en som styrer hvilken prosess som blir kjørt på [[Kunnskap/CPU\|CPU]]en.
 
-
-```handwritten-ink
-{
-	"versionAtEmbed": "0.2.6",
-	"filepath": "_resources/Ink/Writing/2024.10.1 - 8.36am.writing"
-}
-```
-
-
-## Tråder
-[[Kunnskap/Tråd\|Tråd]]er er 
-
 [^1]: https://chatgpt.com/share/66fa9fff-618c-8006-b7e6-d7aa36e5fc7c
+
+## Relatert
+[[Kunnskap/Tråd\|Tråder]]
+[[Kunnskap/Process control block\|Process control block]]

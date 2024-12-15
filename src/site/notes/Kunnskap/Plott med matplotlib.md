@@ -138,7 +138,7 @@ fig, ax = plt.subplots(2,3)
 For å plotte noe i øverste venstre koordinatsystem (her kalt `plott1`) så bruker du `ax[0, 0].plot(x_verdier, y_verdier)` og for å plotte til det nedre, midterste koordinatsystemet (her kalt `plott5`) så skriver du `ax[1, 1].plot(x_verdier, y_verdier)`.
 
 ### Lag fine plott med koordinatakser med piler
-I lærebøker så er det vanlig at koordinataksene skjærer i origo og er merket med piler i positiv retning. Du kan få denne stilen ved å følge [dette eksempelet](https://matplotlib.org/3.3.4/gallery/recipes/centered_spines_with_arrows.html).
+I lærebøker så er det vanlig at koordinataksene skjærer i origo og er merket med piler i positiv retning. Du kan få denne stilen ved å følge [dette eksempelet](https://matplotlib.org/stable/gallery/recipes/centered_spines_with_arrows.html).
 
 ![Plott av sinusfunksjon hvor koordinataksene skjærer origo og har piler som markerer positiv retning](https://matplotlib.org/3.3.4/_images/sphx_glr_centered_spines_with_arrows_001.png)
 
@@ -149,6 +149,6 @@ Matplotlib kommer med mange ferdige stilark, se [hjemmesiden](https://matplotlib
 plt.style.use('default')
 ```
 
-Jeg liker `ggplot`. For bruk på sider med mørk bakgrunn bruker jeg gjerne `dark_background` og lagrer figurene mine med `fig.savefig("filnavn.svg", transparent=True)`. Da vil bakgrunnen være gjennomsiktig, men grafene får farger som fungerer fint på mørke bakgrunner.
+Jeg liker `ggplot` og `seaborn-v0_8-pastel`. For bruk på sider med mørk bakgrunn bruker jeg gjerne `dark_background` og lagrer figurene mine med `fig.savefig("filnavn.svg", transparent=True)`. Da vil bakgrunnen være gjennomsiktig, men grafene får farger som fungerer fint på mørke bakgrunner.
 
 [^1]: Jeg har valgt å bruke `$$` rundt matematikk i forklaringstekster og titler. All tekst som står mellom dollartegnene blir tolket som [LaTeX](https://www.mn.uio.no/ifi/tjenester/it/hjelp/latex/latex-for-nybegynnere.pdf). Det gir et profesjonelt og flott utseende.

@@ -11,11 +11,11 @@ I prosess-tråd-modellen så vil hver [[Kunnskap/Prosess\|prosess]] bestå av é
 >En prosess med 3 tråder. Hver tråd har sin egen stack og sine egne registre og program counters, men de deler adresseområde.
 
 
-Tanenbaum \cite[97-98]{tanenbaum5} gir tre hovedargumenter for å benytte flere tråder i prosesser.
+Tanenbaum [@tanenbaum5, 97-98] gir tre hovedargumenter for å benytte flere tråder i prosesser.
 
 1. De fleste applikasjoner ønsker å gjøre flere ting om gangen. Hvis man bare har en tråd må man bruke multiprosessering til å blant annet vente på input fra brukeren.
-2. Tråder er lettere enn prosesser, og det kreves mye mindre ressurser for å skape og å avslutte tråder enn prosesser. I noen systemer er det 10–100 ganger raskere å opprette tråder enn prosesser\cite[98]{tanenbaum5}.
-3. Tråder gjør ofte at vi kan kjøre programmer raskere. Så lenge trådene ikke er begrenset av CPUen (såkalt CPU bound, se kapittel \ref{}), så vil man spare tid på å bruke flere tråder i en prosess.
+2. Tråder er lettere enn prosesser, og det kreves mye mindre ressurser for å skape og å avslutte tråder enn prosesser. I noen systemer er det 10–100 ganger raskere å opprette tråder enn prosesser [@tanenbaum5, 98].
+3. Tråder gjør ofte at vi kan kjøre programmer raskere. Så lenge trådene ikke er begrenset av CPUen (såkalt CPU bound) så vil man spare tid på å bruke flere tråder i en prosess.
 
 
 

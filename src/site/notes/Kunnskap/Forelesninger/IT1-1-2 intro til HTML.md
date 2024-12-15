@@ -18,7 +18,7 @@
 * `Jeg liker <b>fete</b> bokstaver` → Jeg liker **fete** bokstaver
 * HTML består av elementer med *tagger* som `<b> <p> <br> <a> <img>`
 
-![bg left:30% contain](/img/user/Excalidraw/html-element.excalidraw.png)
+![bg left:30% contain](Excalidraw/html-element.excalidraw.png)
 
 ---
 

@@ -46,7 +46,7 @@ Her fant jeg faktoren $x$ i hvert av de fire leddene (to ledd i teller og to i n
 >Se etter felles faktorer i **alle** ledd i teller og nevner. Felles faktorer kan alltid forkortes, men det er ofte lurt å faktorisere teller og nevner først for å unngå å gjøre feil.
 
 
-#### Å løse opp parentes med eksponent
+### Å løse opp parentes med eksponent
 Vi får ofte uttrykk som $(x+2)^{2}$ eller $(2x^{2}-4x)^{3}$ hvor vi har en parentes med flere ledd opphøyd i et tall. Det er da fristende å sette inn eksponenten på hvert av leddene i parentesen på denne måten 
 
 >[!danger] Eksempel på feil måte å løse parentes med eksponent
