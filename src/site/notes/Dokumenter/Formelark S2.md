@@ -13,6 +13,8 @@ $$
 s_{n}=\sum_{i=1}^n a_{i}=a_{1}+ a_{2}+a_{3}+a_{4}+\dots+a_{n}
 $$
 
+Table: Formler til følger og rekker {#tbl:formlerRekker}
+
 | Forklaring                           | Formel                                 |
 | :----------------------------------- | :------------------------------------- |
 | Ledd i aritmetisk følge (rekursiv)   | $a_{n + 1} = a_{n} + d$                |
@@ -34,7 +36,6 @@ Geometriske rekker er alltid konvergente når kvotiententen $k \in \left\langle 
 $$
 s=\frac{a_{1}}{1-k}
 $$
-
 En uendelig geometrisk rekke kan ha en kvotient $k(x)$ som er en funksjon av $x$ istedenfor å ha et fast tall $k$ som kvotient. Slike rekker har et *konvergensområde* i de intervallene av $x$ hvor $-1<k(x)<1$.
 
 Summen av slike rekker er gitt ved en funksjon $s(x)$ som har samme definisjonsmengde som konvergensområdet.
@@ -46,7 +47,7 @@ $$
 Ifølge læreplanen skal dere utforske *rekursive sammenhenger* med programmering. En rekursiv sammenheng vil si at vi bruker ett ledd til å regne ut det neste leddet – for å regne ut $a_{n+1}$ så trenger vi først å ha regnet ut $a_{n}$.
 
 #### Ledd i aritmetisk tallfølge
-```python {.python caption="Ledd i aritmetisk rekke"}
+```python
 # Regner ut de første leddene i en aritmetisk tallfølge
 # med a_0 = 0 og d = 2.
 a = 0 
@@ -61,8 +62,7 @@ Ved bruk av `print(f"")` så kan vi blande tekst og variabler. Variablene skrive
 
 #### Delsum av geometrisk rekke
 ```python
-# Regner ut de første leddene og delsummene i
-# geoemtrisk rekke med a_0 = 1 og k = 1.5
+# Regner ut de første leddene og delsummene i geometrisk rekke med a_0 = 1 og k = 1.5
 a = 1 
 k = 1.5
 delsum = a
@@ -98,8 +98,8 @@ a_minus1 = 4
 n = 50
 
 for i in range(4, n + 1):
-  a_i = a_minus3 + a_minus2 + a_minus1
-  print(f"a_{i} = {a_i}")
+  a = a_minus3 + a_minus2 + a_minus1
+  print(f"a_{i} = {a}")
   a_minus3 = a_minus2
   a_minus2 = a_minus1
   a_minus1 = a_i
@@ -119,7 +119,7 @@ print(a)
 
 ### Nåverdi og lån
 
-#### Ordliste
+Table: Ordliste med begreper knyttet til lån og nåverdi {#tbl:begreperLaan}
 
 | Begrep         | Forklaring                                          |
 | -------------- | --------------------------------------------------- |
@@ -182,9 +182,9 @@ Funksjonsdrøfting handler om å finne ut hvordan funksjoner ser ut når du tegn
 
 Husk også disse viktige sammenhengene
 
-- Stigningstallet til tangenten i punktet $\left( a,f(a) \right)$ er like $f'(a)$.
+- Stigningstallet til tangenten i punktet $\left( a,f(a) \right)$ er lik den deriverte i punktet $f'(a)$.
 - En funksjon har sin maksimalverdi i toppunktene eller randpunktene
-- En funksjon vokser fortest eller avtar fortest i vendepunktene.
+- En funksjon har størst vekstfart i vendepunktene.
 
 ### Logaritmer
 #### Egenskaper ved logaritmefunksjoner
@@ -209,6 +209,8 @@ Vi velger som oftest den naturlige logaritmen, $\ln x$, i S2 siden denne er enkl
 #### Regneregler for logaritmer
 Her bruker jeg den naturlige logaritmen som eksempel, men disse reglene gjelder for *alle* typer logaritmer.
 
+Table: Regneregler for logaritmer {#tbl:reglerLogaritmer}
+
 | Forklaring                 |            Formel             |
 | :-------------------------- |:---------------------------------|
 | Bruke logaritme på likning |    $a=b \iff \ln a=\ln b$     |
@@ -224,7 +226,6 @@ En rasjonal funksjon består av en brøk med polynomfunksjoner i teller og nevne
 $$
 f(x)=\frac{P(x)}{Q(x)}
 $$
-
 Rasjonale funksjoner har følgende egenskaper:
 
 - Nullpunkt når telleren $P(x)=0$
@@ -235,13 +236,17 @@ Rasjonale funksjoner har følgende egenskaper:
 Asymptoter er tenkte linjer som en funksjon nærmer seg. Asymptoter kan være horisontale, vertikale eller skrå.
 
 - Vi får vertikale asymptoter i bruddpunktene. Vi finner disse ved å løse $Q(x)=0$.
-- Vi får en horisontal asymptote dersom $P$ og $Q$ har samme grad. Vi finner den horisontale asymptoten ved å leddene i $P$ og $Q$ med høyest grad, og dividere koeffisientene foran disse leddene på hverandre. For eksempel gir funksjonen $\frac{2x^{2}}{4x^{2}}$ asymptoten $y=\frac{2}{4}=\frac{1}{2}$.
+- Vi får en horisontal asymptote dersom $P$ og $Q$ har samme grad. Vi finner den horisontale asymptoten ved å sammenligne leddene i $P$ og $Q$ med høyest grad, og dividere koeffisientene foran disse leddene på hverandre. For eksempel gir funksjonen $\frac{2x^{2}}{4x^{2}}$ asymptoten $y=\frac{2}{4}=\frac{1}{2}$.
 - Vi får skrå asymptoter når graden av $P$ er én større enn graden av $Q$. Vi finner denne ved å beregne $P(x):Q(x)$ med polynomdivisjon. Den skrå asymptoten er svaret på divisjonen når du ser bort fra resten.
 
 ## Derivasjon
 Definisjon: Hvis $f(x)$ er kontinuerlig i et punkt $x$ så er den deriverte i punktet:
 $$f'(x) = \lim_{\Delta x \to 0}\frac{f(x + \Delta x) - f(x)}{\Delta x}$$
 **Den deriverte i et punkt er lik den momentane vekstfarten i punktet og dermed også lik stigningstallet til tangenten til $f$ i punktet.**
+
+### Derivasjonsregler
+
+Table: Formler for derivasjon {#tbl:formlerDerivasjon}
 
 | Forklaring       |        Funksjon        |               Derivert                |
 |:---------------- |:----------------------:|:-------------------------------------:|
@@ -264,7 +269,7 @@ $$
 $$
 Merk at selv om $g(x)=\frac{1}{x}$ er definert for $x\in \mathbb{R} \setminus \{0\}$ så er den deriverte av logaritmefunksjonen kun definert for $x>0$. 
 
-Funksjonen $f(x)=\ln x$ har definisjonsmengde $D_{f} = \langle 0, \to \rangle$. Derfor kan ikke den deriverte ha noe *større* definisjonsmengde enn dette. For å derivere en funksjon så den være kontinuerlig i punktet. Det gir ikke mening å snakke om vekstfarten til $f$ i $x=-2$ siden $f(-2)$ ikke eksisterer.
+Funksjonen $f(x)=\ln x$ har definisjonsmengde $D_{f} = \langle 0, \to \rangle$. Derfor kan ikke den deriverte ha noe *større* definisjonsmengde enn dette. For å kunne derivere en funksjon så må den være kontinuerlig i punktet. For $\ln x$ sin del gir det ikke mening å snakke om vekstfarten i $x=-2$ siden $f(-2)$ ikke eksisterer.
 
 ### Stigningstall og tangenter
 Stigningstallet, $a$, til tangenten til $f(x)$ i punktet ved $x=x_{1}$ er lik den deriverte i punktet, $f'(x_{1})$. For å finne likningen til tangenten kan vi sette inn kjente tall i likningen for rett linje
@@ -280,7 +285,7 @@ $$
 ### Ubestemte integraler
 Et ubestemt integral er å finne alle antideriverte $F(x)$ til en funksjon $f(x)$ slik at $F'(x)=f(x)$.
 
-Vi har en rekke ulike integrasjonsregler
+Table: Formler for integrasjon {#tbl:formlerIntegrasjon}
 
 | Forklaring               |       Funksjon       |                        Integrert                        |
 | ------------------------ | :------------------: | :-----------------------------------------------------: |
@@ -304,7 +309,6 @@ Hvis vi kaller $x$-verdien i starten av rektangelet for $x_{i}$ der $i \in \{ 1,
 
 Siden arealet til et rektangel er høyde multiplisert med bredde vil summen av arealene til rektanglene altså være
 $$S_{n} = f\left( x_{1} \right) \cdot \Delta x + f\left( x_{2} \right) \cdot \Delta x + f\left( x_{3} \right) \cdot \Delta x + \ldots = \sum_{i = 1}^{n}{f\left( x_{i} \right) \cdot \Delta x}$$
-
 Hvis vi lar bredden av rektanglene bli veldig små slik at rektanglene egentlig bare blir infitesimalt smale striper får vi
 $$\lim_{\Delta x \rightarrow 0}{S_{n} =}\lim_{n \rightarrow \infty}{\sum_{i = 1}^{n}{f\left( x_{i} \right) \cdot \Delta x}} = \int_{a}^{b}{f(x)\ \text{d}x}$$
 
@@ -315,14 +319,12 @@ Fundamentalsetningen eller analysens fundamentalteorem forteller oss at integras
 >
 >La $f$ være en kontinuerlig funksjon på $[a, b]$. La
 >$$F'(x)=f(x) \quad \text{for alle} \quad x\in[a, b]$$
->
 >Denne førsten delen av fundamentalsetningen forteller oss at alle kontinuerlige funksjoner $f$ har antideriverte funksjoner $F$. 
 
 >[!important] Fundamentalsetningen del 2
 >
 >Gitt $f$ fra del 1 så er
 >$$\int_{a}^{b} f(x) \, dx = \left[ F(x) \right] _{a}^b=F(b)-F(a)$$
->
 > Denne andre delen av fundamentalsetningen forteller oss at vi kan beregne et bestemt integral ved hjelp av det ubestemte integralet
 
 ### Areal under grafer
@@ -374,7 +376,7 @@ Det er også mulig å bruke oppsettet kalt *DI*-metoden. Eksempelet under viser 
 2. Den andre kolonnen inneholder faktoren som skal deriveres (*D*). For hver rad så deriverer du faktoren.
 3. Den tredje kolonnen inneholder faktoren som skal integreres (*I*). For hver rad så integrerer du faktoren.
 
-|                         |             D              |                    I                    |
+|        |      D       |     I       |
 | :----: | :----: | :-----: |
 | $\textcolor{dblue}{+}$  | $\textcolor{dblue}{x^{2}}$ |                $e^{2x}$                 |
 |  $\textcolor{dred}{-}$  |   $\textcolor{dred}{2x}$   | $\textcolor{dblue}{\frac{1}{2}e^{2x}}$  |
@@ -385,12 +387,10 @@ Svaret med DI-metoden finner du ved å starte på fortegnet oppe til venstre ($\
 $$
 \textcolor{dblue}{+x^{2} \frac{1}{2} e^{2x}}\textcolor{dred}{-2x \frac{1}{4} e^{2x}}\textcolor{dgreen}{+2 \frac{1}{8} e^{2x}}+C = \frac{1}{2}e^{2x}x^{2}-\frac{1}{2}e^{2x}x+\frac{1}{4}e^{2x}+C
 $$
-
 Du lager rader i tabellen fram til du får en null, eller helt til du ser at du kan integrere produktet av faktorene i en rad. Hvis du ser at du kan integrere produktet av faktorene i en rad (for eksempel kan vi integrere produktet av 2 og $\frac{1}{4}e^{x}$ i rad 3), så kan du sette opp følgende
 $$
 \textcolor{dblue}{+x^{2} \frac{1}{2} e^{2x}}\textcolor{dred}{-2x \frac{1}{4} e^{2x}} \textcolor{dgreen}{+}\int \textcolor{dgreen}{2} \textcolor{dred}{ \frac{1}{4} e^{2x}} \, \mathrm{d}x = \frac{1}{2}e^{2x}x^{2}-\frac{1}{2}e^{2x}x+\int \frac{1}{2}e^{2x} \, \mathrm{d}x
 $$
-
 Når du løser dette vil du få samme svar som tidligere.
 
 #### Variabelskifte
@@ -509,7 +509,6 @@ Vi kan finne de laveste enhetskostnadene på tre måter:
 1. Ved å løse likningen $E'(x)=0$
 2. Ved å finne en tangent til kostnadsfunksjonen som går gjennom origo
 3. Ved å løse $K'(x)=E(x)$. Utledningen for den siste formelen er som følger
-
 $$
 \begin{aligned}
 E(x)&=\frac{K(x)}{x}\\
@@ -541,7 +540,7 @@ På samme måte kan vi vise at kostnadene blir $K(x)=K(q(p))$.
 ### Diskrete sannsynlighetsfordelinger
 I diskrete sannsynlighetsfordelinger så inneholder utfallsrommet til den stokastiske variabelen $X$ kun visse verdier. Ofte vil utfallsrommet til en diskret stokastisk variabel kun inneholde noen heltallsverdier.
 
->[!example] Eksempel på diskret sannsynlighetsfordeling
+>[!example] Diskret sannsynlighetsfordeling
 >
 >Dersom du kaster to mynter og lar $X$ være antall kron du får på disse kastene så er utfallsrommet $\{ 0,1,2 \}$. Det er ikke mulig å få 0,43 eller 1,783 mynt på to kast.
 
@@ -571,7 +570,7 @@ $$
 #### Hypergeometrisk sannsynlighetsfordeling
 Vi bruker hypergeometrisk sannsynlighetsfordeling når vi har to ulike grupper med gjenstander og skal få et gitt antall av hver av dem. I hypergeometriske forsøk så er ikke delforsøkene uavhengige av hverandre.
 
-Du har to typer objekter i en bolle, du har $n_{1}$ objekter av type 1 og $n_{2}$ objekter av type 2. Til sammen har du $n_{1}+n_{2}=n$ objekter. Du trekker $k$ objekter fra bollen. La $X$ være antallet objekter av type 1 blant de $k$. Sannsynligheten for at du trekker $k_{1}$ objekter er gitt ved:
+Du har to typer objekter i en bolle, hvorav $n_{1}$ objekter er av type 1 og $n_{2}$ objekter er av type 2. Til sammen har du $n_{1}+n_{2}=n$ objekter. Du trekker $k$ objekter fra bollen. La $X$ være antallet objekter av type 1 blant de $k$. Sannsynligheten for at du trekker nøyaktig $k_{1}$ objekter er gitt ved:
 $$
 P(X=k_{1}) = \frac{\binom{n_{1}}{k_{1}} \binom{n_{2}}{k_{2}}}{\binom{n}{k}}
 $$
@@ -582,7 +581,6 @@ Forventningsverdi er den gjennomsnittlige verdien vi kan forvente over lang tid.
 $$
 \mu = E(X) = \sum_{i=1}^{n} x \cdot P(X=x) 
 $$
-
 Vi bruker vanligvis en tabell med sannsynlighetsfordelingen for å regne ut forventingsverdien. Nedenfor er et eksempel som viser sannsynlighetsfordelingen når $X$ er antall kron på ett myntkast.
 
 | $x$ |   $P(X=x)$    |         $x \cdot P(X=x)$         |
@@ -617,16 +615,15 @@ Variansen til $X$ finner vi med
 $$
 \text{Var}(X)=\sum_{i=1}^{N}\left( ( x_{i}-\mu)^{2}\cdot P(X=x_{i}) \right)
 $$
-
-Vi bruker vanligvis en tabell med sannsynlighetsfordelingen for å regne ut variansen. Nedenfor er et eksempel som viser sannsynlighetsfordelingen når $X$ er antall kron på ett myntkast. Jeg har valgt å først regne ut $(x-\mu)^{2}$, før jeg multipliserer med sannsynligheten i kolonne 5.
+Hvis vi ikke allerede har fått oppgitt forventningsverdien bruker vi vanligvis en tabell med sannsynlighetsfordelingen for å regne ut variansen. Nedenfor er et eksempel som viser sannsynlighetsfordelingen når $X$ er antall kron på ett myntkast. Jeg har valgt å først regne ut $(x-\mu)^{2}$, før jeg multipliserer med sannsynligheten i kolonne 5.
 
 |          $x$          |             $P(X=x)$              |         $x \cdot P(X=x)$         |                                              $(x-\mu)^{2}$                                               |                    $(x-\mu)^{2} \cdot P(X=x)$                     |
 | :--: | :--: | :---: | :---: | :----: |
-| $\textcolor{dred}{0}$ | $\textcolor{dgreen}{\frac{1}{2}}$ |     $0 \cdot \frac{1}{2}=0$      | $\left( \textcolor{dred}{0}-\textcolor{dblue}{\frac{1}{2}} \right)^{2}=\textcolor{dorange}{\frac{1}{4}}$ | $\textcolor{dorange}{\frac{1}{4}} \cdot \textcolor{dgreen}{\frac{1}{2}} = \frac{1}{8}$ |
-| $\textcolor{dred}{1}$ | $\textcolor{dgreen}{\frac{1}{2}}$ | $1\cdot \frac{1}{2}=\frac{1}{2}$ | $\left( \textcolor{dred}{1}-\textcolor{dblue}{\frac{1}{2}} \right)^{2}=\textcolor{dorange}{\frac{1}{4}}$ | $\textcolor{dorange}{\frac{1}{4}} \cdot \textcolor{dgreen}{\frac{1}{2}} = \frac{1}{8}$ |
+| $\textcolor{dred}{0}$ | $\textcolor{dgreen}{\frac{1}{2}}$ |     $\textcolor{dred}{0} \cdot \textcolor{dgreen}{\frac{1}{2}}=0$      | $\left( \textcolor{dred}{0}-\textcolor{dblue}{\frac{1}{2}} \right)^{2}=\textcolor{dorange}{\frac{1}{4}}$ | $\textcolor{dorange}{\frac{1}{4}} \cdot \textcolor{dgreen}{\frac{1}{2}} = \frac{1}{8}$ |
+| $\textcolor{dred}{1}$ | $\textcolor{dgreen}{\frac{1}{2}}$ | $\textcolor{dred}{1}\cdot \textcolor{dgreen}{\frac{1}{2}}=\frac{1}{2}$ | $\left( \textcolor{dred}{1}-\textcolor{dblue}{\frac{1}{2}} \right)^{2}=\textcolor{dorange}{\frac{1}{4}}$ | $\textcolor{dorange}{\frac{1}{4}} \cdot \textcolor{dgreen}{\frac{1}{2}} = \frac{1}{8}$ |
 |        **Sum**        |                 1                 | $\textcolor{dblue}{\frac{1}{2}}$ |                                                                                                          |                           $\frac{1}{4}$                           |
 
-Fra summen i den femte kolonnen ser vi at $\text{Var}(X)=\frac{1}{4}$.
+Fra summen i den femte kolonnen ser vi at $\text{Var}(X)=\frac{1}{4}$, dette gir standardavviket $\sigma=\sqrt{ \text{Var}(X) }=\sqrt{ \frac{1}{4} }=\frac{\sqrt{ 1 }}{\sqrt{ 4 }}=\frac{1}{2}$.
 
 ##### Varians i binomisk fordeling
 I binomisk sannsynlighetsfordeling hvor antall forsøk er $n$ og sannsynligheten for suksess i hvert forsøk er $p$, er variansen gitt ved
@@ -652,7 +649,6 @@ La $X_{1},X_{2},X_{3},\dots,X_{n}$ være stokastiske variabler. Da gjelder
 $$
 E(X_{1}+X_{2}+X_{3}+\cdots+X_{n})=E(X_{1})+E(X_{2})+E(X_{3})+\cdots + E(X_{n})
 $$
-
 Hvis (og bare hvis) $X_{1},X_{2},X_{3},\dots,X_{n}$ er uavhengige, så gjelder også
 $$
 \text{Var}(X_{1}+X_{2}+\cdots+X_{n})=\text{Var}(X_{1})+\text{Var}(X_{2})+\cdots + \text{Var}(X_{n})
@@ -665,10 +661,10 @@ Sannsynligheten for at $X$ ligger innenfor et intervall $[a,b]$ er gitt ved
 $$
 P(a<X<b)=P(a\leq X\leq b)=\int_{a}^{b} f(x) \, dx 
 $$
-
 Her er $f(x)$ sannsynlighetstettheten (eller tetthetsfunksjonen) til $X$. 
 
 >[!tip] Punktsannsynlighet i kontinuerlige sannsynlighetsfordelinger
+>
 >Legg merke til at $P(a<X<b)=P(a\leq X\leq b)$. 
 >
 >Punktsannsynligheter i kontinuerlige sannsynlighetsfordelinger er lik null (altså $P(X=a)=0$) siden 
@@ -685,7 +681,6 @@ Normalfordelingen er en kontinuerlig sannsynlighetfordeling med tetthetsfunksjon
 $$
 f(x)=\frac{1}{\sigma \sqrt{ 2\pi }}e^{- \frac{(x-\mu)^{2}}{2\sigma^{2}}}
 $$
-
 Definisjonsmengden er $D_{f}=\mathbb{R}$. Normalfordelingen er symmetrisk om linja $x=\mu$.
 
 #### Standard normalfordeling
@@ -708,7 +703,6 @@ Forventningsverdi og varians er den samme for begge fordelingene.
 $$
 \mu = np \quad \text{og} \quad \text{Var}(X)=np(1-p)
 $$
-
 La $X$ være binomisk fordelt med $\mu = np$ og $\sigma = \sqrt{ np(1-p) }$. Hvis vi skal tilnærme med $X$ med normalfordeling må vi gjøre følgende *halvkorreksjoner*:
 $$
 \begin{aligned}
@@ -734,7 +728,6 @@ Vi lar $S$ være summen av $n$ delforsøk med $X$ slik at
 $$
 S=X_{1}+X_{2}+\cdots+X_{n}
 $$
-
 Når $n \to \infty$ er summen $S$ tilnærmet normalfordelt med
 $$
 \begin{aligned}
@@ -743,7 +736,6 @@ E(S)&=n \cdot E(X)=n \cdot \mu\\
 \text{SD}(S)&=\sqrt{ \text{Var}(S) }=\sqrt{ n \cdot \text{Var}(X) }=\sqrt{ n } \cdot \sqrt{ \text{Var}(X) }=\sqrt{ n } \cdot \sigma\\
 \end{aligned}
 $$
-
 Denne tilnærmingen er best for store verdier av $n$. Som tommelfingerregel gjelder sentralgrensesetningen når $n\geq 30$.
 
 ### Simuleringer med python
@@ -868,7 +860,6 @@ for i in range(N):
 
 sannsynlighet = antall_gunstige / N
 print(sannsynlighet)
-
 ```
 
 ## Hypotesetesting
@@ -876,8 +867,10 @@ Vi bruker hypotesetester til å trekke slutninger om en hel populasjon basert p�
 
 I hypotesetester så bestemmer vi sannsynligheten for at observasjonene våre kan forekomme, gitt at en nullhypotese er sann.
 
+Table: Begreper til hypotesetesting {#tbl:begreperHypotesetest}
+
 | Begrep                      | Forklaring                                                                                                                                              |
-| --------------------------- | --------------------------------------------------------------------------------------- |
+| ----------------------------- | ------------------------------------------------------------------------------- |
 | Hypotesetesting             | Gjøre et utvalg/stikkprøve av en populasjon og finne ut om vi kan forkaste en nullhypotese.                                                             |
 | Nullhypotese ($H_0$)        | Den gjeldende hypotesen eller det vi ønsker å motbevise. Vi antar at denne er sann i hypotesetesting.                                                   |
 | Alternativ hypotese ($H_A$) | Den hypotesen vi ønsker å teste ("bevise")                                                                                                              |
@@ -893,7 +886,7 @@ I hypotesetester så bestemmer vi sannsynligheten for at observasjonene våre ka
 
 >[!important] Algoritme for hypotesetester
 >
->1. Sett opp nullhypotese og alternativ hypotese. Nullhypotesen er det vi < motbevise.
+>1. Sett opp nullhypotese og alternativ hypotese. Nullhypotesen er det vi ønsker å motbevise.
 >2. Anta at nullhypotesen er sann og sett opp sannsynlighetsfordelingen for $X$
 >3. Regn ut $p$-verdien (sannsynligheten for å få observasjonene gitt at nullhypotesen er sann)
 >4. Sammenlign $p$-verdien med signifikansverdien $\alpha$.

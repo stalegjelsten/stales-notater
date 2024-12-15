@@ -146,8 +146,8 @@ CSS som skrives i Svelte er *scopet* (begrenset) til den nåværende siden. Hvis
 
 ## Alle Sveltenotater
 - [[Kunnskap/each blokker i Svelte\|each blokker i Svelte]]
-- [[Kunnskap/Sveltekit mappestruktur\|Sveltekit mappestruktur]]
 - [[Kunnskap/Svelte\|Svelte]]
+- [[Kunnskap/Sveltekit mappestruktur\|Sveltekit mappestruktur]]
 - [[Kunnskap/Svelte stores\|Svelte stores]]
 - [[Kunnskap/Reaktivitet i Svelte\|Reaktivitet i Svelte]]
 - [[Kunnskap/Opprette nytt Svelteprosjekt\|Opprette nytt Svelteprosjekt]]

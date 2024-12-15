@@ -4,10 +4,12 @@
 
 
 # Installer kart på Garmin-enheter fra Frikart.no
-[Frikart.no](http://frikart.no/) er en tjeneste som tilbyr gratis kart til Garmin GPS-enheter basert på [OpenStreetMap](https://OpenStreetMap.org). Her forklarer jeg hvordan man kan laste ned et topografisk kart med høydekurver og alle stier.
+[Frikart.no](http://frikart.no/) er en tjeneste som tilbyr gratis kart til Garmin GPS-enheter basert på [OpenStreetMap](https://OpenStreetMap.org). Disse kartene blir oppdatert omtrent omtrent hver uke med de nyeste dataene fra OpenStreetMap. 
+
+Her forklarer jeg hvordan man kan laste ned et topografisk kart fra Frikart.no med høydekurver, stier og interessepunkter.
 
 ## Framgangsmåte
-### Last ned og gjør klar kart
+### Last ned og gjør klar kartet
 1. Gå til [frikart.no](http://frikart.no/)
 2. Velg *Maps for Garmin GPS*
 3. Trykk på Norge

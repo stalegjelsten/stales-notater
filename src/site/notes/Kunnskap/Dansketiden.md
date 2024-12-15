@@ -11,7 +11,7 @@ Dansketiden refererer i dette tilfellet til perioden 1536–1814 hvor Norge ikke
 ### Sosiale forhold
 På 1500-tallet var Norge et jordbrukssamfunn, hvor 9/10 levde på landsbygda og drev med jordbruk og eller fiske. Landet opplevde stor befolkningsvekst fra 1500 fram til 1800, og rundt 1800 det omtrent like mange innbyggere i Norge som i Danmark.
 
-![Folketallet i norge i dansketida.excalidraw.png](/img/user/Excalidraw/Folketallet%20i%20norge%20i%20dansketida.excalidraw.png)
+![Folketallet i norge i dansketida.excalidraw.png](/img/user/_resources/Folketallet%20i%20norge%20i%20dansketida.excalidraw.png)
 
 Mange bønder gikk fra å være leilendinger til å bli selveiere (se avsnittet [[Kunnskap/Dansketiden#Jordeiere\|#Jordeiere]]) i løpet av perioden, men det vokste etter hvert fram en ny underklasse: *husmennene*.
 
