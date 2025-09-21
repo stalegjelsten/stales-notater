@@ -1,16 +1,17 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Universet i et nøtteskall av Stephen Hawking/","title":"Universet i et nøtteskall av Stephen Hawking","tags":["bok","fysikk"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Bøker/📗 Universet i et nøtteskall/","title":"📗 Universet i et nøtteskall","tags":["bok","fysikk"]}
 ---
 
 
-# Universet i et nøtteskall av Stephen Hawking
-Av [[Kunnskap/Stephen Hawking\|Stephen Hawking]]
+# 📗 Universet i et nøtteskall
+
+Av [[Kunnskap/Forfattere/Stephen Hawking\|Stephen Hawking]]
 
 ## Kapittel 1: En kort historie om relativitet
 Mot slutten av 1800-tallet hadde forskere trodd de visste det meste om universet. Rommet var fylt av et sammenhengende medium kalt «eter». Lys- og radiobølger var bølger i eteren, akkurat som lydbølger var bevegelser i luften.
 
 #### Einstein
-[[Kunnskap/Albert Einstein\|Albert Einstein]] beskrev først den spesielle relativitetsteorien i 1905. Der postulerer han at alle har sin egen, personlige tid. Tiden til to personer er lik hvis e er i ro i forhold til hverandre, men ikke hvis de beveger seg. Einstein postulerte også at naturens lover er de samme for alle observatører som beveger seg fritt.
+[[Kunnskap/Forfattere/Albert Einstein\|Albert Einstein]] beskrev først den spesielle relativitetsteorien i 1905. Der postulerer han at alle har sin egen, personlige tid. Tiden til to personer er lik hvis e er i ro i forhold til hverandre, men ikke hvis de beveger seg. Einstein postulerte også at naturens lover er de samme for alle observatører som beveger seg fritt.
 
 Hvis man flyr mot øst så går det mindre tid enn hvis man flyr mot vet. 
 
@@ -29,7 +30,7 @@ Siden vi aksepterer at jorden er rund så har vi ikke lenger to slike ekvivalent
 > 
 Universet er fullt av stoff og det krumme tidrommet får alt stoffet til å falle mot hverandre. At universet ikke faller sammen kan kun forklares av universet enten ekspanderer eller trekker seg sammen.
 
-For å lage en [[Kunnskap/Generell relativitetsteori\|Generell relativitetsteori]] trengte Einstein å endre perspektiv fra [[Kunnskap/Euklid\|Euklid]]isk 2D geometri til [[Bernhard Riemann\|Bernhard Riemann]]s geometri. Marcel Grossmann hjalp Einstein med med det matematiske grunnlaget, og Grossmann og Einstein la fram ideen om at det vi oppfatter som tyngdekrefter egentlig bare et uttrykk for at tidrommet er krummet i 1913. Hilbert og Eistein fant likningene som beskrev avbøyningen i 1915.
+For å lage en [[Kunnskap/Generell relativitetsteori\|Generell relativitetsteori]] trengte Einstein å endre perspektiv fra [[Kunnskap/Forfattere/Euklid\|Euklid]]isk 2D geometri til [[Bernhard Riemann\|Bernhard Riemann]]s geometri. Marcel Grossmann hjalp Einstein med med det matematiske grunnlaget, og Grossmann og Einstein la fram ideen om at det vi oppfatter som tyngdekrefter egentlig bare et uttrykk for at tidrommet er krummet i 1913. Hilbert og Eistein fant likningene som beskrev avbøyningen i 1915.
 
 Einsteins generelle relativitetsteori er et paradigmeskifte. Vi går fra å tenke oss tomt rom som fylles med objekter til at rommet er en aktiv deltaker i universets dynamikk.
 Albert Einstein trodde ikke selv på Big bang-teorien. Han trodde det kunne ha vært en tidligere sammentrekning og deretter ekspansjon, men at sammentrekningen ikke hadde vært så dramatisk som Big bang. Vi vet nå at det er feil. Einstein mente også at massive stjerner ville slå seg til ro i en endelig tilstand, men vi har brukt hans egen generelle relativitetsteori til å vise at slike stjerner blir Sorte hull.
@@ -53,6 +54,7 @@ Grunntilstanden til en pendel er ikke når den henger rett ned og er i ro – de
 ### Subtrahering av uendeligheter
 [[Kunnskap/Casimireffekten\|Casimireffekten]]
 [[Kunnskap/Supersymmetri\|Supersymmetri]]
+
 ## Kapittel 4: Å forutsi framtiden
 
 ### Videre utforskning

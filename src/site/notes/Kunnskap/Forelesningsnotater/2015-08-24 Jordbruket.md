@@ -27,18 +27,23 @@ Max Weber: den Protestantiske etikk og kapitalismens ånd
   * Zwingli
 * Calvin ga læren om predestinasjon. 
   * Gud hadde bestemt hvem som skulle til himmelen og hvem som skulle til helvete. Ingenting som blir gjort på jorden kan påvirke hans valg. Kalvinistene kunne likevel finne ut om de var utvalgt til himmelen dersom de hadde suksess i livet.
-    Hardt arbeidIkke forbruk / sparsommelighetForvaltet ressursene produktivtHvis suksess, da var man velsignet
-    
+	  * Hardt arbeid
+	  * Ikke forbruk / sparsommelighet
+	  * Forvaltet ressursene produktivt
+	  * **Hvis man fikk suksess da visste man at man var velsignet**
 * Kalvinisme -> kapitalisme
 
-Jared Diamond – Guns, germs and steel 1997
-[[Kunnskap/Guns, germs and steel av Jared Diamond\|Guns, germs and steel av Jared Diamond]]
+---
 
-* * *
+[[Kunnskap/Forfattere/Jared Diamond\|Jared Diamond]] – Guns, germs and steel 1997
+[[Kunnskap/Bøker/📗 Guns, Germs and Steel\|📗 Guns, Germs and Steel]]
 
 **Konsekvenser for verdenshistorien**
 
-* Eurasia har en fordel fra naturens side
+* Eurasia har en fordel fra naturens side ifølge [[Kunnskap/Forfattere/Jared Diamond\|Jared Diamond]]:
+	* Vi bor langs en øst-vest akse
+	* Vi har mange arter som passer for domestisering
+	* Vi klarer å lage et overskudd av mat på grunn av domestiseringen av kort og dyr
 
 ![](/img/user/Evernote import/_resources/2015-08-24_diamond_forklaring.png)
 

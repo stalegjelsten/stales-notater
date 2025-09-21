@@ -1,9 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Superhjernen/","title":"Superhjernen","tags":["Hjernen"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Bøker/📙 Superhjernen/","title":"📙 Superhjernen","tags":["Hjernen","bok"]}
 ---
 
 
-# Superhjernen
+# 📙 Superhjernen
+Vurdering:: ⭐⭐⭐⭐
 
 ### 1 Øk konsentrasjonen
 - Unngå forstyrrelser
@@ -21,7 +22,7 @@ Hjernen vår har to moduser: konsentrert modus og avslappet modus. [YouTube](htt
 
 I konsentrert modus så er du i stand til å pugge og gjøre oppgaver hvor du kjenner framgangsmåten. Du lager synapser med de omkringliggende nevronene.
 
-I avslappet modus så lar du hjernen hvile, og den knytter nye synapser mellom nevroner som ligger lengre fra hverandre. Plutselig er du i stand til å se sammenhenger du ikke har sett tidligere. [[Kunnskap/Why We Sleep#Chapter 7 - Too Extreme for the Guinness Book of World Records\|Why We Sleep#Chapter 7 - Too Extreme for the Guinness Book of World Records]]
+I avslappet modus så lar du hjernen hvile, og den knytter nye synapser mellom nevroner som ligger lengre fra hverandre. Plutselig er du i stand til å se sammenhenger du ikke har sett tidligere. [[Kunnskap/Bøker/📗 Why We Sleep#Chapter 7 - Too Extreme for the Guinness Book of World Records\|📗 Why We Sleep#Chapter 7 - Too Extreme for the Guinness Book of World Records]]
 
 ### 3 lær så du forstår og ikke så du glemmer
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Albert Einstein/","title":"Albert Einstein","tags":["forfatter","fysikk"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Forfattere/Albert Einstein/","title":"Albert Einstein","tags":["forfatter","fysikk"]}
 ---
 
 # Albert Einstein
@@ -22,9 +22,10 @@ Fikk Nobelprisen i fysikk i 1921 for oppdagelsen av [[Fotoelektrisk effekt\|Foto
 - [[Fotoelektrisk effekt\|Fotoelektrisk effekt]]
 
 ## Bøker
-- [[Einstein om nysgjerrighet\|Einstein om nysgjerrighet]]
+| Navn | Forfatter | Lest | Vurdering |
+| ---- | --------- | ---- | --------- |
 
 { .block-language-dataview}
 
 #### Related
-[[Kunnskap/Universet i et nøtteskall av Stephen Hawking\|Universet i et nøtteskall av Stephen Hawking]]
+[[Kunnskap/Bøker/📗 Universet i et nøtteskall\|📗 Universet i et nøtteskall]]
