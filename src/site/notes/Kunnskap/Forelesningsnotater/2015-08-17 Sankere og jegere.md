@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-08-17 Sankere og jegere/","tags":["forelesning","hi100","historie"]}
+{"dg-publish":true,"permalink":"/Kunnskap/Forelesningsnotater/2015-08-17 Sankere og jegere/","title":"2015-08-17 Sankere og jegere","tags":["forelesning","hi100","historie"]}
 ---
 
 

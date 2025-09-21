@@ -13,7 +13,7 @@ $$
 s_{n}=\sum_{i=1}^n a_{i}=a_{1}+ a_{2}+a_{3}+a_{4}+\dots+a_{n}
 $$
 
-Table: Formler til følger og rekker {#tbl:formlerRekker}
+<p style="text-align:center;">Tabell: Formler til følger og rekker</p>
 
 | Forklaring                           | Formel                                 |
 | :----------------------------------- | :------------------------------------- |
@@ -47,9 +47,9 @@ $$
 Ifølge læreplanen skal dere utforske *rekursive sammenhenger* med programmering. En rekursiv sammenheng vil si at vi bruker ett ledd til å regne ut det neste leddet – for å regne ut $a_{n+1}$ så trenger vi først å ha regnet ut $a_{n}$.
 
 #### Ledd i aritmetisk tallfølge
+
 ```python
-# Regner ut de første leddene i en aritmetisk tallfølge
-# med a_0 = 0 og d = 2.
+# Regner ut de første leddene i en aritmetisk tallfølge med a_0 = 0 og d = 2.
 a = 0 
 d = 2
 n = 10
@@ -58,7 +58,7 @@ for i in range(1, n + 1):
 	a = a + d
 ```
 
-Ved bruk av `print(f"")` så kan vi blande tekst og variabler. Variablene skriver vi med krøllparenteser slik: `{variabelnavn}`.
+Ved bruk av `print(f"")` så kan vi blande tekst og variabler. Du henter ut verdien av variablene ved å skrive krøllparenteser slik: `{variabelnavn}`.
 
 #### Delsum av geometrisk rekke
 ```python
@@ -119,7 +119,7 @@ print(a)
 
 ### Nåverdi og lån
 
-Table: Ordliste med begreper knyttet til lån og nåverdi {#tbl:begreperLaan}
+<p style="text-align:center;">Tabell: Ordliste med begreper knyttet til lån og nåverdi</p>
 
 | Begrep         | Forklaring                                          |
 | -------------- | --------------------------------------------------- |
@@ -164,7 +164,12 @@ L = \sum_{i=1}^n \frac{T}{v^{i}}
 $$
 Der $T$ er terminbeløpet og $v$ er vekstfaktoren til kalkulasjonsrenta.
 
-Legg merke til at dette er en geometrisk rekke med $k=\frac{1}{v}$. Mange oppgaver med annuitetslån på del 2 kan løses ved å sette opp likningen over i CAS.
+Legg merke til at dette er en geometrisk rekke med $k=\frac{1}{v}$. Mange oppgaver med annuitetslån på del 2 kan løses ved å sette opp likningen over i CAS eller ved å bruke målsøking i Excel.
+
+##### Formler for aunnuitetslån
+> [!tip] Ståles anbefaling: ikke bruk formlene
+>
+> Jeg anbefaler heller å lære seg å sette opp rekker i CAS eller å sette opp aunnuitetslån i Excel. Formlene i dette delkapittelet vil fungere, men de vil ikke hjelpe deg til å *forstå* rekker.
 
 Vi kan også bruke formler til å regne ut terminbeløpene eller lånebeløpet til et annuitetslån. Lånebeløpet $L$ er terminfaktoren $F$ multiplisert med terminbeløpet $T$.
 $$L = F \cdot T$$
@@ -209,7 +214,7 @@ Vi velger som oftest den naturlige logaritmen, $\ln x$, i S2 siden denne er enkl
 #### Regneregler for logaritmer
 Her bruker jeg den naturlige logaritmen som eksempel, men disse reglene gjelder for *alle* typer logaritmer.
 
-Table: Regneregler for logaritmer {#tbl:reglerLogaritmer}
+<p style="text-align:center;">Tabell: Regneregler for logaritmer</p>
 
 | Forklaring                 |            Formel             |
 | :-------------------------- |:---------------------------------|
@@ -246,7 +251,7 @@ $$f'(x) = \lim_{\Delta x \to 0}\frac{f(x + \Delta x) - f(x)}{\Delta x}$$
 
 ### Derivasjonsregler
 
-Table: Formler for derivasjon {#tbl:formlerDerivasjon}
+<p style="text-align:center;">Tabell: Formler for derivasjon</p>
 
 | Forklaring       |        Funksjon        |               Derivert                |
 |:---------------- |:----------------------:|:-------------------------------------:|
@@ -285,7 +290,7 @@ $$
 ### Ubestemte integraler
 Et ubestemt integral er å finne alle antideriverte $F(x)$ til en funksjon $f(x)$ slik at $F'(x)=f(x)$.
 
-Table: Formler for integrasjon {#tbl:formlerIntegrasjon}
+<p style="text-align:center;">Tabell: Formler for integrasjon</p>
 
 | Forklaring               |       Funksjon       |                        Integrert                        |
 | ------------------------ | :------------------: | :-----------------------------------------------------: |
@@ -415,9 +420,9 @@ Variabelskifte brukes hvis du skal integrere en sammensatt funksjon. Variabelski
 >Vi kan nå bytte ut $dx$ i integranden med $x \cdot du$ og vi får
 >$$ \int \frac{u}{\cancel{ x }} \cancel{ x } \, \mathrm{d}u = \int u \, \mathrm{d}u = \frac{1}{2}u^{2} + C$$
 >Vi bytter tilbake $\ln x$ for $u$ og får svaret 
->$$\frac{1}{2}(\ln x)^{2}$$
+>$$\frac{1}{2} \left(\ln \vert x \vert \right)^{2}+C$$
 
-### Delbrøkoppspalting
+#### Delbrøkoppspalting
 >[!warning] Kommer dette på eksamen?
 >
 >Jeg vet ikke om det er nødvendig å kunne delbrøkoppspalting til del 1 av eksamen. Hvis du sikter mot karakteren 6 så ville jeg definitivt lært den. Hvis du sikter mot 4 eller lavere så ville jeg definitivt prioritert andre deler av pensum.
@@ -742,7 +747,7 @@ Denne tilnærmingen er best for store verdier av $n$. Som tommelfingerregel gjel
 Vi bruker ofte *Monte Carlo*-simuleringer i programmer for å finne sannsynligheter som er vanskelig å bestemme ved regning. Prinsippet for slike simuleringer er:
 
 1. Du definerer en hendelse $A$
-2. Du gjennomfører et tilfeldig forsøk $N$ ganger
+2. Du gjennomfører et stokastisk forsøk $N$ ganger
 3. Du teller antall ganger $A$ inntreffer og kaller denne summen for $m$
 4. Du beregner sannsynligheten ved: $P(A) \approx \frac{m}{N}=\frac{\text{antall gunstige}}{\text{antall mulige}}$
 
@@ -756,7 +761,7 @@ Vi kan trekke ut en tilfeldig prøve fra mange ulike statistiske fordelinger. I 
 - Hypergeometrisk sannsynlighetsfordeling
 - Normalfordeling
 
-Vi bruker funksjoner fra biblioteket `random` til å gjøre uttrekk. Vi må derfor ha med linjen `import random` i toppen av programmene våre.
+Vi bruker funksjoner fra biblioteket `random` og `numpy.random` til å gjøre uttrekk. Vi må derfor ha med en importeringslinje som `import random` i toppen av programmene våre.
 
 ##### Trekke tilfeldig heltall
 For å trekke et tilfeldig heltall i intervallet $[1 , 6]$ (fra og med 1, til og med 6) så kan du bruke `random.randint(a,b)`.
@@ -783,6 +788,25 @@ import random
 tilfeldig_tall = random.gauss(180, 7)
 ```
 
+##### Trekke fra hypergeometrisk fordeling
+For å trekke et tilfeldig tall fra en hypergeometrisk fordeling må vi bruke `numpy.random.hypergeometric(n_1, n_2, k)`. Vi importerer biblioteket med `import numpy as np` også bruker vi funksjonen som vist under med `np.random.hypergeometric()`. 
+
+I eksempelet under så har vi 20 fotballspillere ($n_{1}=20$) og 30 volleyballspillere ($n_2=30$). I vårt stokastiske forsøk så skal vi trekke ut 3 tilfeldige personer ($k=3$) og telle hvor mange av dem som er fotballspillere (type 1).
+
+```python
+import numpy as np
+tilfeldig_tall = np.random.hypergeometric(20, 30, 3)
+```
+
+##### Trekke fra binomisk fordeling
+Vi bruker `numpy.random.binomial(n, p)` for å trekke fra en binomisk fordeling med antall $n=\texttt{n}$ og sannsynlighet for suksess $p=\texttt{p}$.
+
+For å simulere antallet frø som spirer hvis vi planter 50 frø med sannsynlighet 0,8 for å spire kan vi bruke:
+
+```python
+import numpy as np
+tilfeldig_tall = np.random.binomial(50, 0.8)
+```
 #### Eksempel på simulering fra eksempeleksamen høst 2022
 
 >På en skole er det 323 jenter og 301 gutter. $X$ er høyden på en tilfeldig valgt jente. $Y$ er høyden på en tilfeldig valgt gutt.
@@ -867,7 +891,7 @@ Vi bruker hypotesetester til å trekke slutninger om en hel populasjon basert p�
 
 I hypotesetester så bestemmer vi sannsynligheten for at observasjonene våre kan forekomme, gitt at en nullhypotese er sann.
 
-Table: Begreper til hypotesetesting {#tbl:begreperHypotesetest}
+<p style="text-align:center;">Tabell: Begreper til hypotesetesting</p>
 
 | Begrep                      | Forklaring                                                                                                                                              |
 | ----------------------------- | ------------------------------------------------------------------------------- |
