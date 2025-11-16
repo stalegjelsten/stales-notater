@@ -11,7 +11,7 @@ Generelt er [[Kunnskap/Tidlig middelalder i Norge\|Tidlig middelalder i Norge]] 
 
 ### Treller
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/kunnskap/treller/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/Kunnskap/Treller/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -68,7 +68,7 @@ Siden det ikke var skrevet noen [[Kunnskap/Tronfølgelovene\|tronfølgelov]] på
 
 ### Kongedømme og rikssamling
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/kunnskap/forelesningsnotater/2015-08-25-hovdingmakt-og-kongemakt-i-norge-800-1130/#perioden-900-1050" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/Kunnskap/Forelesningsnotater/2015-08-25 Høvdingmakt og kongemakt i Norge 800–1130/#perioden-900-1050" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -118,7 +118,7 @@ Etter [[Kunnskap/Landsloven\|Landsloven]] i 1274 ble det tydelig at man behøvde
 I starten av perioden har vi et samfunn hvor folk var selvforsynte og hvor gaveøkonomien med resiprositet stod sterkt. Utover i perioden så ser vi to utviklingstrekk
 - folk trenger et matoverskudd for å kunne handle nødvendige varer. Dette skjedde på handelsplasser (*kaupang*) eller i byene. Det ble arrangert markeder hvor bønder og håndverkere kunne selge og bytte varer.
 - bønder betaler skatter til kongen, tiende til kirken og jordleie til adelen. Vi får en økonomi bygget på redistribusjon istedenfor gaveøkonomien.
-Se [[Kunnskap/Forelesningsnotater/2015-08-17 sosiale og økonomiske systemer\|2015-08-17 sosiale og økonomiske systemer]].
+Se [[Kunnskap/Forelesningsnotater/2015-08-17 sosiale og økonomiske systemer\|Kunnskap/Forelesningsnotater/2015-08-17 sosiale og økonomiske systemer]].
 
 ## Kulturelt
 
@@ -135,6 +135,6 @@ Innføringen av kristendommen gjorde også at nordmenn begynte å tenke på synd
 ## Teknologisk
 
 ## Related
-[[Kunnskap/Forelesningsnotater/2015-09-22 Norge økonomisk og sosialt 700-1300\|2015-09-22 Norge økonomisk og sosialt 700-1300]]
+[[Kunnskap/Forelesningsnotater/2015-09-22 Norge økonomisk og sosialt 700-1300\|Kunnskap/Forelesningsnotater/2015-09-22 Norge økonomisk og sosialt 700-1300]]
 
 [^1]:<https://www.norgeshistorie.no/hoymiddelalder/0901-kongens-og-kirkens-folk-i-hoymiddelalderen.html>

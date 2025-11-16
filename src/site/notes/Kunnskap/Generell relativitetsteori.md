@@ -4,7 +4,7 @@
 
 
 # Generell relativitetsteori
-Generell relativitetsteori av [[Kunnskap/Albert Einstein\|Albert Einstein]] er en teori for gravitasjon som er mer generell enn [[Kunnskap/Isaac Newton\|Isaac Newton]]s klassiske gravitasjonsteori. Gravitasjon er ikke en kraft i tradisjonell forstand, det er heller slik at energi (og dermed masse) får hele tidrommet til å endre form. 
+Generell relativitetsteori av [[Kunnskap/Forfattere/Albert Einstein\|Albert Einstein]] er en teori for gravitasjon som er mer generell enn [[Kunnskap/Isaac Newton\|Isaac Newton]]s klassiske gravitasjonsteori. Gravitasjon er ikke en kraft i tradisjonell forstand, det er heller slik at energi (og dermed masse) får hele tidrommet til å endre form. 
 
 Generell relativitetsteori fungerer også for objekter som beveger seg med en hastighet nær lysets hastighet og for tyngdekrefter mellom svært massive objekter. F.eks. er det kun mulig å modellere Merkurs bane rundt [[Kunnskap/Sola\|Sola]] med generell relativitetsteori.
 
@@ -26,7 +26,7 @@ $e=mc^{2}$ betyr ikke at vi konvertere masse til energi, det betyr derimot at hv
 ## Gravitasjonell tidsforlengelse
 Hvis man akselererer mot en lyskilde vil bølgetoppene trykkes litt sammen, vi opplever blåforskyvning. På grunn av [[Kunnskap/Ekvivalensprinsippet\|Ekvivalensprinsippet]] vil vi oppleve det samme på jordoverflaten: vi måler en blåforskyvning her sammenlignet med satelitter i bane rundt Jorda.
 
-Hvis vi tenker på [[Kunnskap/Tid\|Tid]] som et resultat av økende [[Kunnskap/Entropi\|Entropi]] så virker det rart at vi skal få flere bølgetopper og dermed mer informasjon på [[Kunnskap/Jorda\|Jorda]] enn ved satelittene. Ifølge [[Kunnskap/Albert Einstein\|Einstein]] betyr dette at tiden går saktere i et sterkt gravitasjonsfelt.
+Hvis vi tenker på [[Kunnskap/Tid\|Tid]] som et resultat av økende [[Kunnskap/Entropi\|Entropi]] så virker det rart at vi skal få flere bølgetopper og dermed mer informasjon på [[Kunnskap/Jorda\|Jorda]] enn ved satelittene. Ifølge [[Kunnskap/Forfattere/Albert Einstein\|Einstein]] betyr dette at tiden går saktere i et sterkt gravitasjonsfelt.
 
 >[!note]
 >For vår del går tiden saktere dess nærmere jordas kjerne vi er, siden gravitasjonsfeltet er sterkere.

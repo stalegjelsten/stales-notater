@@ -6,7 +6,7 @@
 # eTiming til Agderkarusell
 Det er laget en fin [guide fra 2019 til bruk av eTiming for Agderkarusellen](http://www.orientering.no/media/filer_public/78/e3/78e35b05-4f16-4760-b6c4-edb28c884234/oppskrift_eventor_etiming_aaok_karusellen.pdf) som ligger på [kretsens hjemmesider](http://agderokrets.no).
 
-Den guiden er utdatert på et par punkter. Jeg diskuterer disse nærmere under [[Orientering/eTiming til Agderkarusell#Kommentarer til guiden fra 2019\|#Kommentarer til guiden fra 2019]].
+Den guiden er utdatert på et par punkter. Jeg diskuterer disse nærmere under [[#Kommentarer til guiden fra 2019]].
 
 ## Klasseoppsett, frister og kontingenter i Eventor
 I Agderkarusellen så benyttes følgende klasseoppsett 👇
@@ -112,7 +112,7 @@ Legg inn etteranmeldte på løpet ved å åpne løper-oversikten.
 - Fyll inn navn, klasse, klubb og brikkenr. 
 	- Hvis løperen skal låne brikke så kan du trykke på avkrysningsboksen merket `Brikke`. Da blir løperen merket med blå farge når hen kommer i mål slik at du vet at du skal samle inn leiebrikken igjen.
 - Sett det nederste feltet som heter `Kontingent` til 1 hvis det er en voksen og til 3 hvis det er ungdom under 17 år. 
-- Det er veldig lurt å skrive inn en **fødselsår** i `Født`-boksen slik at vi både får riktig kontingentnivå (se [[Orientering/eTiming til Agderkarusell#Fakturering\|#Fakturering]]) og riktige aldergrupper til [[Orientering/eTiming til Agderkarusell#Løpsrapport\|løpsrapporten]].
+- Det er veldig lurt å skrive inn en **fødselsår** i `Født`-boksen slik at vi både får riktig kontingentnivå (se [[#Fakturering]]) og riktige aldergrupper til [[#Løpsrapport|løpsrapporten]].
 
 ## Tidtaking under løpet
 Før løpet så starter du tidtakingsmodulen i eTiming og kobler til en MTR4 til avlesning. Nullstill MTR og synkroniser klokka fra PC til MTRen før du begynner å lese av brikker. [Guiden hos Agder o-krets fra 2019](http://www.orientering.no/media/filer_public/78/e3/78e35b05-4f16-4760-b6c4-edb28c884234/oppskrift_eventor_etiming_aaok_karusellen.pdf) har en god forklaring på hvordan du setter opp MTR, åpner tidtakingen og behandler disk/problemer som oppstår gjennom løpet.
@@ -125,7 +125,7 @@ Publiser resultater etter løpet via `Data → Datautveksling eventor`. Kryss av
 Når du først er inne i `Datautveksling eventor` kan det være lurt å hente ned `Klubber og navn for direktepåmelding` for klubber i Agder slik adressene på fakturaene blir riktige. 
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/orientering/e-timing-til-sommercup/#ed86ad" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/Orientering/eTiming til sommercup/#ed86ad" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -184,7 +184,7 @@ update name
 Faktura PDFene sendes til kasserer på [okonomi@kok.no](mailto:okonomi@kok.no). PDFene *bør* ha arrangementets navn og dato + mottakerklubb i filnavnet.
 
 ## Løpsrapport
-Etter løpet skal man levere løpsrapport til Norges Orienteringsforbund. Denne leveres digitalt i Eventor. Etter å ha lastet opp resultatlistene vil du i arrangementssiden i Eventor se at neste steg er å levere løpsrapporten. Jeg anbefaler du gjør deg ferdig med [[Orientering/eTiming til Agderkarusell#Fakturering\|#Fakturering]] og [[Orientering/eTiming til Agderkarusell#Slett ikke startede løpere\|sletter ikke startede løpere]] før du genererer løpsrapporten. På den måten blir antallet løpere som betaler kontingent korrekt, og antallet vi skal betale løpsavgift for til NOF blir korrekt.
+Etter løpet skal man levere løpsrapport til Norges Orienteringsforbund. Denne leveres digitalt i Eventor. Etter å ha lastet opp resultatlistene vil du i arrangementssiden i Eventor se at neste steg er å levere løpsrapporten. Jeg anbefaler du gjør deg ferdig med [[#Fakturering]] og [[#Slett ikke startede løpere|sletter ikke startede løpere]] før du genererer løpsrapporten. På den måten blir antallet løpere som betaler kontingent korrekt, og antallet vi skal betale løpsavgift for til NOF blir korrekt.
 
 Du trenger å finne ut antall løpere i ulike aldergrupper for å levere inn løpsrapporten:
 - Fra og med 21 år
@@ -208,8 +208,8 @@ from name;
 
 ## Kommentarer til guiden fra 2019
 Terje Urfjell laget en fin [guide fra 2019 til bruk av eTiming for Agderkarusellen](https://www.orientering.no/storage/Preview?id=b139d37c-a4e9-4f38-8037-df8ebaf125ec) som ligger på [kretsens hjemmesider](http://agderokrets.no). Det er veldig mye som fremdeles gjelder og den forklarer mange deler av tidtakinga svært godt. Her kommer mine kommentarer til hvilke deler av guiden du *ikke* bør følge:
-- s. 3 Klasser: fra 2023 skal Agderkarusellen også ha aldersklasser, se [[Orientering/eTiming til Agderkarusell#Klasseoppsett, frister og kontingenter i Eventor\|#Klasseoppsett, frister og kontingenter i Eventor]]
-- s. 3 Påmeldingsavgifter og frister: Jeg anbefaler heller avansert visning og bruk av **kun 2** kontingentnivåer slik som vist i [[Orientering/eTiming til Agderkarusell#Klasseoppsett, frister og kontingenter i Eventor\|#Klasseoppsett, frister og kontingenter i Eventor]]
+- s. 3 Klasser: fra 2023 skal Agderkarusellen også ha aldersklasser, se [[#Klasseoppsett, frister og kontingenter i Eventor]]
+- s. 3 Påmeldingsavgifter og frister: Jeg anbefaler heller avansert visning og bruk av **kun 2** kontingentnivåer slik som vist i [[#Klasseoppsett, frister og kontingenter i Eventor]]
 - s. 8: Post 100 brukes som oftest som *siste post i løypa*. Målpost er postkoden som står ved mållinjen. Det er som oftest 249.
 - s. 8 Etter rettelse på løyper må du starte eTiming på nytt. Det kan være at dette stemmer, men eTiming har nå et `Last inn løyper på nytt`-valg under tidtakingen. Prøv det først før du starter på nytt.
-- s. 10 Informasjon om klasse: Jeg anbefaler heller at du følger rådene i [[Orientering/eTiming til Agderkarusell#Sette innstillinger for klassene\|#Sette innstillinger for klassene]]
+- s. 10 Informasjon om klasse: Jeg anbefaler heller at du følger rådene i [[#Sette innstillinger for klassene]]

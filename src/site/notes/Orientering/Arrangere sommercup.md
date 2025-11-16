@@ -12,23 +12,23 @@
 Dette notatet er ment som hjelp til KOKs løpere som skal arrangere Sommercup. Her beskriver jeg arbeidsoppgavene til den som er løypelegger og løpsleder. Arbeidsoppgavene til tidtaker finner du i [[Orientering/eTiming til sommercup\|eTiming til sommercup]].
 
 ## Arbeidsoppgaver
-1. [[Orientering/Arrangere sommercup#Minst 2 uker før løpet\|#Minst 2 uker før løpet]]
-	1. [[Orientering/Arrangere sommercup#Kart og arena\|#Kart og arena]]
-2. [[Orientering/Arrangere sommercup#Minst 2 dager før løpet\|#Minst 2 dager før løpet]]
-	1. [[Orientering/Arrangere sommercup#Sjekke poster og koder\|#Sjekke poster og koder]]
-	2. [[Orientering/Arrangere sommercup#Gjør ferdig løyper\|#Gjør ferdig løyper]]
+1. [[#Minst 2 uker før løpet]]
+	1. [[#Kart og arena]]
+2. [[#Minst 2 dager før løpet]]
+	1. [[#Sjekke poster og koder]]
+	2. [[#Gjør ferdig løyper]]
 	3. [[Orientering/Arrangere sommercup#Skriv PM\|Skriv PM]]
-3. [[Orientering/Arrangere sommercup#Senest dagen før løpet\|#Senest dagen før løpet]]
-	1. [[Orientering/Arrangere sommercup#Henge ut poster og sjekke postplasseringer\|#Henge ut poster og sjekke postplasseringer]]
-	2. [[Orientering/Arrangere sommercup#Justere løyper og sende over løypefiler\|#Justere løyper og sende over løypefiler]]
-	3. [[Orientering/Arrangere sommercup#Lage Livelox\|#Lage Livelox]]
-4. [[Orientering/Arrangere sommercup#Senest samme dag som løpet\|#Senest samme dag som løpet]]
-	1. [[Orientering/Arrangere sommercup#Skrive ut løyper\|#Skrive ut løyper]]
-	2. [[Orientering/Arrangere sommercup#Hente utstyr til løpet og arena\|Hent utstyr til løpet]]
-	3. [[Orientering/Arrangere sommercup#Merking fra parkering og til start\|#Merking fra parkering og til start]]
-	4. [[Orientering/Arrangere sommercup#Start\|Start]]
-5. [[Orientering/Arrangere sommercup#Etter løpet\|#Etter løpet]]
-	1. [[Orientering/Arrangere sommercup#Hente inn poster og lever tilbake\|#Hente inn poster og lever tilbake]]
+3. [[#Senest dagen før løpet]]
+	1. [[#Henge ut poster og sjekke postplasseringer]]
+	2. [[#Justere løyper og sende over løypefiler]]
+	3. [[#Lage Livelox]]
+4. [[#Senest samme dag som løpet]]
+	1. [[#Skrive ut løyper]]
+	2. [[#Hente utstyr til løpet og arena|Hent utstyr til løpet]]
+	3. [[#Merking fra parkering og til start]]
+	4. [[#Start|Start]]
+5. [[#Etter løpet]]
+	1. [[#Hente inn poster og lever tilbake]]
 
 ### Minst 2 uker før løpet
 Følgende arbeidsoppgaver må senest gjennomføres 14 dager før løpet.
@@ -126,28 +126,47 @@ Les [[Orientering/Printe på klubbhuset\|Printe på klubbhuset]] for mer informa
 Denne oversikten ble oppdatert <span><span>11.11.2024</span></span>.
 
 **Hengende postenheter**
-77 
-79 
-90
-91
-92
-97
-101
-103
-105
-106
+- 77 
+- 79 
+- 90
+- 91
+- 92
+- 97
+- 101
+- 103
+- 105
+- 106
+
+- 31
+- 36
+- 37
+- 53
+- 77
+- 78
+- 79
+- 80
+- 88
+- 90
+- 91
+- 92
+- 95
+- 97
+- 101
+- 103
+- 105
+- 106
 
 **På bukk**
-52
-55
-56
-61
-62
-81
-82
-87
-100 (Bruk denne som siste post i løypa)
-249 (Bruk denne som målpost)
+- 52
+- 55
+- 56
+- 61
+- 62
+- 81
+- 82
+- 87
+- 100 (Bruk denne som siste post i løypa)
+- 249 (Bruk denne som målpost)
 
 ## Ressurser
 - [Enkle o-løp fra NOF](https://www.enkleoløp.no/)

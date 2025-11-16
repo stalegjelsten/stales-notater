@@ -8,7 +8,7 @@ Tidlig middelalder i Norge varer fra 800–1130. Perioden starter med [[Kunnskap
 
 ## Vikingtiden
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/kunnskap/vikingtiden/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/Kunnskap/Vikingtiden/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -68,7 +68,7 @@ Norge hadde en *privatkirkeordning*. Denne ordningen gikk ut på at hvis bønder
 
 ## Bønder og dagligliv
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/kunnskap/spokt-analyse-av-norge-i-middelalderen/#sosialt" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/Kunnskap/SPØKT analyse av Norge i middelalderen/#sosialt" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -77,7 +77,7 @@ Generelt er [[Kunnskap/Tidlig middelalder i Norge\|Tidlig middelalder i Norge]] 
 
 ### Treller
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/kunnskap/treller/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/Kunnskap/Treller/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -159,9 +159,9 @@ På 1000-tallet ble det bygget mange kirker på grunn av [[Kunnskap/Vikingtiden#
 [[Kunnskap/Tidslinje historie\|Tidslinje historie]]
 
 ### Forelesningsnotater
-- [[Kunnskap/Forelesningsnotater/2015-08-18 Europa og Norge 800–1750\|2015-08-18 Europa og Norge 800–1750]]
-- [[Kunnskap/Forelesningsnotater/2015-08-25 Høvdingmakt og kongemakt i Norge 800–1130\|2015-08-25 Høvdingmakt og kongemakt i Norge 800–1130]]
-- [[Kunnskap/Forelesningsnotater/2015-09-15 befolkning, økonomi og samfunn, Norge 800-1350\|2015-09-15 befolkning, økonomi og samfunn, Norge 800-1350]]
-- [[Kunnskap/Forelesningsnotater/2015-09-22 Norge økonomisk og sosialt 700-1300\|2015-09-22 Norge økonomisk og sosialt 700-1300]]
+- [[Kunnskap/Forelesningsnotater/2015-08-18 Europa og Norge 800–1750\|Kunnskap/Forelesningsnotater/2015-08-18 Europa og Norge 800–1750]]
+- [[Kunnskap/Forelesningsnotater/2015-08-25 Høvdingmakt og kongemakt i Norge 800–1130\|Kunnskap/Forelesningsnotater/2015-08-25 Høvdingmakt og kongemakt i Norge 800–1130]]
+- [[Kunnskap/Forelesningsnotater/2015-09-15 befolkning, økonomi og samfunn, Norge 800-1350\|Kunnskap/Forelesningsnotater/2015-09-15 befolkning, økonomi og samfunn, Norge 800-1350]]
+- [[Kunnskap/Forelesningsnotater/2015-09-22 Norge økonomisk og sosialt 700-1300\|Kunnskap/Forelesningsnotater/2015-09-22 Norge økonomisk og sosialt 700-1300]]
 
 Neste: [[Kunnskap/Høymiddelalderen i Norge\|Høymiddelalderen i Norge]]

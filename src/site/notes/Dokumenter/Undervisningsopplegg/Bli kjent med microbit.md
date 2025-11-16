@@ -42,7 +42,7 @@ Hvis du er godt kjent med microbit, og har mer lyst til å fikle med sensorer, e
 <iframe scrolling="no" style="width: 100%; aspect-ratio:16/9;" src="https://static.nrk.no/ludo/latest/video-embed.html#id=6efd64d9-4cc6-4aa2-b2cf-34ddfcaab6b7&amp;referrer=https%3A%2F%2Fwww.superbit.no%2Fvideo%2F" allowfullscreen="" allow="fullscreen"></iframe>
 
 ## Nivå 4: Kjør gjennom løype med BitBot
-Bruk det du lærte i [[Dokumenter/Undervisningsopplegg/Bli kjent med microbit#Nivå 3 Kom i gang med bilroboten BitBot\|#Nivå 3 Kom i gang med bilroboten BitBot]] til å programmere BitBoten til å kjøre gjennom løypa jeg har designet i klasserommet.
+Bruk det du lærte i [[#Nivå 3 Kom i gang med bilroboten BitBot]] til å programmere BitBoten til å kjøre gjennom løypa jeg har designet i klasserommet.
 
 ## Nivå 5: Lag en løype som utfordring til en kollega
 Finn en kollega som du ønsker å konkurrere mot. Lag din egen løype i klasserommet (eller utenfor) og gi den som en utfordring til en kollega. Kollegaen din lager en løype til deg. Hvem klarer å kjøre den andres løype først?

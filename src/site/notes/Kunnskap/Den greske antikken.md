@@ -17,10 +17,10 @@ Hellas var ikke en samlet stat, men det var et område med felles språk, guder 
 	- Fram til Egypt blir erobret av [[Kunnskap/Romerriket\|Romerriket]]
 
 ## Arkaisk tid
-På denne tiden fikk [[Kunnskap/Polisstaten\|Polisstaten]]e sin framvekst og det greske språket fikk sitt eget skrift[[Kunnskap/Språket\|språk]] basert på det [[Fønikiske\|Fønikiske]] alfabet.
+På denne tiden fikk [[Kunnskap/Polisstaten\|Polisstaten]]e sin framvekst og det greske språket fikk sitt eget skrift[[Kunnskap/Språk\|Språk]] basert på det [[Fønikiske\|Fønikiske]] alfabet.
 
 ## Klassisk tid
-Perserne prøver flere ganger å invadere Hellas, i de såkalte [[Kunnskap/Perserkrigene\|Perserkrigene]]. I 480 fvt blir de stoppet ved Thermopylae av kong Leonidas og de 300 [[Kunnskap/Sparta\|spartiatene]].
+Perserne prøvde flere ganger å invadere Hellas i de såkalte [[Kunnskap/Perserkrigene\|Perserkrigene]]. I 480 fvt. ble de stoppet ved Thermopylae av kong Leonidas og de 300 [[Kunnskap/Sparta\|spartiatene]].
 
 [[Kunnskap/Athen\|Athen]] og [[Kunnskap/Sparta\|Sparta]] blir de dominerende bystatene og den [[Kunnskap/Peloponnesiske krig\|Peloponnesiske krig]] (431–404) preger perioden. Sparta går etterhvert «tom» for ektefødte spartanere, og bringer inn flere og flere [[Kunnskap/Sparta#Sosiale forhold\|heloter]] i sin hær. Etter tapet mot [[Theben\|Theben]] i slaget ved Leuctra 371 f.Kr mister Sparta sin posisjon.
 

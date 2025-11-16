@@ -15,13 +15,14 @@ Vi skiller mellom ulike typer datanettverk, vanligvis etter antall enheter, men 
 - Wide Area Network (WAN) er nettverk med svært mange enheter, som [[Internett\|Internett]].
 
 ## Backlinks
-| Navn                                       |
-| ------------------------------------------ |
-| [[Kunnskap/IP-adresse\|IP-adresse]]     |
-| [[Kunnskap/LAN\|LAN]]                   |
-| [[Kunnskap/OSI-modellen\|OSI-modellen]] |
-| [[Kunnskap/Ruter\|Ruter]]               |
-| [[Kunnskap/Server\|Server]]             |
-| [[Kunnskap/Svitsj\|Svitsj]]             |
+| Navn                                           |
+| ---------------------------------------------- |
+| [[Kunnskap/IP-adresse\|IP-adresse]]         |
+| [[Kunnskap/LAN\|LAN]]                       |
+| [[Kunnskap/Nettverksmaske\|Nettverksmaske]] |
+| [[Kunnskap/OSI-modellen\|OSI-modellen]]     |
+| [[Kunnskap/Ruter\|Ruter]]                   |
+| [[Kunnskap/Server\|Server]]                 |
+| [[Kunnskap/Svitsj\|Svitsj]]                 |
 
 { .block-language-dataview}

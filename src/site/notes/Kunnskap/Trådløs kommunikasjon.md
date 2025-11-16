@@ -52,7 +52,7 @@ Modulasjon eller modulering er å kode inn signaler i en bærebølge. Vi skal se
 
 #### Amplitudemodulasjon (AM)
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/kunnskap/amplitudemodulasjon/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/Kunnskap/Amplitudemodulasjon/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -3114,7 +3114,7 @@ z
 
 
 ## Related
-[[Kunnskap/Amplitudemodulasjon\|Amplitudemodulasjon]]
+[[Kunnskap/Frekvensmodulasjon\|Frekvensmodulasjon]]
 [[Radiobølger\|Radiobølger]]
 [[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]
 
@@ -3124,7 +3124,7 @@ z
 
 #### Frekvensmodulasjon (FM)
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/kunnskap/frekvensmodulasjon/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/Kunnskap/Frekvensmodulasjon/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -6333,7 +6333,7 @@ z
 
 
 ## Eksempel på sending av radiobølger med microbit
-I dette eksempelet kommer jeg til å bruke en [[Kunnskap/microbit\|microbit]] for å forklare – disse kommuniserer med [[Kunnskap/Trådløs kommunikasjon#Digitale signaler\|digitale signaler]]. Vi tenker oss at en microbit skal kommunisere med en annen microbit. 
+I dette eksempelet kommer jeg til å bruke en [[Kunnskap/microbit\|microbit]] for å forklare – disse kommuniserer med [[#Digitale signaler|digitale signaler]]. Vi tenker oss at en microbit skal kommunisere med en annen microbit. 
 
 ### Steg 1: Protokoll
 Først må begge microbitene være enige om protokollen. De sender og mottar ved hjelp av Bluetooth på 2,4 GHz. I tillegg er de nødt til å avtale en *radiogruppe* og avtale hva slags informasjon som skal sendes, f.eks. bokstaver i en melding, bilder, kommandoer for å kjøre en bil.
@@ -6344,7 +6344,7 @@ Microbiten som skal sende må gjøre om informasjonen som skal sendes til binær
 ### Steg 3: Modulering
 Microbiten skal nå modulere inn signalet fra forrige steg inn i en bærebølge på 2,4 GHz ved hjelp av en type [[Kunnskap/Frekvensmodulasjon\|frekvensmodulasjon]]. 
 - For å representere null (lavt signal) så *reduseres* frekvensen til bærebølgen med minst 115 KHz. Hvis bærebølgen er $2{,}4\times 10^{9}$ Hz så vil det lave signalet ha frekvensen $2{,}399885 \times 10^{9}$ Hz eller lavere.
-- For å representere én (høyt signal) så *økes* frekvensen til bærebølgen med minst 115 KHz. Hvis bærebølgen er $2{,}4\times 10^{9}$ Hz så vil det lave signalet ha frekvensen $2{,}40015 \times 10^{9}$ Hz eller høyere.
+- For å representere én (høyt signal) så *økes* frekvensen til bærebølgen med minst 115 KHz. Hvis bærebølgen er $2{,}4\times 10^{9}$ Hz så vil det høye signalet ha frekvensen $2{,}40015 \times 10^{9}$ Hz eller høyere.
 
 >[!warning] Modulering i Bluetooth protokollen
 > Microbit og andre bluetoothenheter bruker (såvidt jeg klarer å finne ut) en litt modifisert versjon av frekvensmodulasjon. Se [Gaussian Frequency-shift keying](https://en.wikipedia.org/wiki/Frequency-shift_keying#Gaussian_frequency-shift_keying) hos Wikipedia.

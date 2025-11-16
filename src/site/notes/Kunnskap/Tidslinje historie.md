@@ -20,7 +20,7 @@
 - [[Kunnskap/Trettiårskrigen 1618–1648\|Trettiårskrigen]]
 * [[Kunnskap/Dansketiden\|Dansketiden]]
 - [[Opplysningstiden\|Opplysningstiden]]
-- [[Kunnskap/Forelesningsnotater/Den industrielle revolusjon\|Den industrielle revolusjon]]
+- [[Kunnskap/Forelesningsnotater/Den industrielle revolusjon\|Kunnskap/Forelesningsnotater/Den industrielle revolusjon]]
 - [[Kunnskap/Revolusjonstid\|Revolusjonstid]]
 - [[Norge 1814\|Norge 1814]]
 - [[Det moderne Norge tar form\|Det moderne Norge tar form]]

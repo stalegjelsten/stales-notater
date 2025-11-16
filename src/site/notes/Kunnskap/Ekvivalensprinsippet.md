@@ -4,7 +4,7 @@
 
 
 # Ekvivalensprinsippet
-[[Kunnskap/Albert Einstein\|Albert Einstein]]s ekvivalensprinsipp sier gravitasjon og akselerasjon er to sider av samme sak. Det er lokalt ikke mulig å skille mellom et gravitasjonsfelt og et akselerert system. 
+[[Kunnskap/Forfattere/Albert Einstein\|Albert Einstein]]s ekvivalensprinsipp sier gravitasjon og akselerasjon er to sider av samme sak. Det er lokalt ikke mulig å skille mellom et gravitasjonsfelt og et akselerert system. 
 
 [[Kunnskap/Ekvivalensprinsippet\|Ekvivalensprinsippet]] er en del av grunnlaget for [[Kunnskap/Generell relativitetsteori\|Generell relativitetsteori]]
 

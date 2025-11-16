@@ -32,7 +32,7 @@ En enkel tommelfingerregel for å sjekke om en rekke konvergerer er å sjekke om
 
 ### Uendelige geometriske rekker
 
-Geometriske rekker er alltid konvergente når kvotiententen $k \in \left\langle - 1\ ,\ 1 \right\rangle \iff -1<k<1$. Summen av denne typen rekker er gitt ved formelen
+Geometriske rekker er alltid konvergente når kvotienten $k \in \left\langle - 1\ ,\ 1 \right\rangle \iff -1<k<1$. Summen av denne typen rekker er gitt ved formelen
 $$
 s=\frac{a_{1}}{1-k}
 $$
@@ -48,8 +48,8 @@ Ifølge læreplanen skal dere utforske *rekursive sammenhenger* med programmerin
 
 #### Ledd i aritmetisk tallfølge
 
-```python
-# Regner ut de første leddene i en aritmetisk tallfølge med a_0 = 0 og d = 2.
+```Python
+# Regner ut de første leddene i en aritmetisk tallfølge med a_1 = 0 og d = 2.
 a = 0 
 d = 2
 n = 10
@@ -61,8 +61,8 @@ for i in range(1, n + 1):
 Ved bruk av `print(f"")` så kan vi blande tekst og variabler. Du henter ut verdien av variablene ved å skrive krøllparenteser slik: `{variabelnavn}`.
 
 #### Delsum av geometrisk rekke
-```python
-# Regner ut de første leddene og delsummene i geometrisk rekke med a_0 = 1 og k = 1.5
+```Python
+# Regner ut de første leddene og delsummene i geometrisk rekke med a_1 = 1 og k = 1.5
 a = 1 
 k = 1.5
 delsum = a
@@ -91,7 +91,7 @@ a_{n} = a_{n-1} + a_{n-2} + a_{n-3},\quad n \geq 4
 $$
 Vi kan programmere dette på følgende måte
 
-```python
+```Python
 a_minus3 = 1
 a_minus2 = 3
 a_minus1 = 4
@@ -102,14 +102,14 @@ for i in range(4, n + 1):
   print(f"a_{i} = {a}")
   a_minus3 = a_minus2
   a_minus2 = a_minus1
-  a_minus1 = a_i
+  a_minus1 = a
 ```
 
 Her oppdaterer vi hele tiden verdiene av de tre foregående leddene.
 
 Vi kan også løse den samme oppgaven ved bruk av lister. Her bruker vi metoden `append` på lista `a`. Dette legger til et nytt element i slutten av lista. Dette nye elementet skal være lik summen av de tre foregående leddene.[^1]
 
-```python
+```Python
 a = [1, 3, 4]
 antall_ledd = 50
 for i in range(4, antall_ledd+1):
@@ -154,7 +154,7 @@ $$
 $$
 Terminbeløpene danner en aritmetisk rekke hvor terminbeløp nummer $n$ er gitt ved
 $$
-T_{n}=T_{1}+(n-1) \cdot \left(\text{avdrag} \cdot \frac{\text{rentefot}}{100}\right)
+T_{n}=T_{1}-(n-1) \cdot \left(\text{avdrag} \cdot \frac{\text{rentefot}}{100}\right)
 $$
 
 #### Annuitetslån
@@ -166,15 +166,37 @@ Der $T$ er terminbeløpet og $v$ er vekstfaktoren til kalkulasjonsrenta.
 
 Legg merke til at dette er en geometrisk rekke med $k=\frac{1}{v}$. Mange oppgaver med annuitetslån på del 2 kan løses ved å sette opp likningen over i CAS eller ved å bruke målsøking i Excel.
 
-##### Formler for aunnuitetslån
+##### Formler for annuitetslån
 > [!tip] Ståles anbefaling: ikke bruk formlene
 >
-> Jeg anbefaler heller å lære seg å sette opp rekker i CAS eller å sette opp aunnuitetslån i Excel. Formlene i dette delkapittelet vil fungere, men de vil ikke hjelpe deg til å *forstå* rekker.
+> Jeg anbefaler heller å lære seg å sette opp rekker i CAS eller å sette opp annuitetslån i Excel. Formlene i dette delkapittelet vil fungere, men de vil ikke hjelpe deg til å *forstå* rekker.
 
 Vi kan også bruke formler til å regne ut terminbeløpene eller lånebeløpet til et annuitetslån. Lånebeløpet $L$ er terminfaktoren $F$ multiplisert med terminbeløpet $T$.
 $$L = F \cdot T$$
 Vi finner terminfaktoren ved hjelp av følgende formel hvor $v$ er vekstfaktoren til renta per termin og $n$ er antall terminer
 $$F = \frac{1 - \frac{1}{v^{n}}}{v - 1}$$
+
+### Målsøking i Excel
+_Målsøking_ er et verktøy i Excel som brukes når du vet hvilket resultat du ønsker, men ikke hvilken *inngangsverdi* som gir dette resultatet. Excel endrer automatisk på inngangsverdien og prøver seg fram helt til regnearket gir riktig svar.
+
+#### Eksempel med serielån
+La oss se på et eksempel hvor vi tar opp et serielån på 50 000 kr som skal betales ned over 5 år med én innbetaling hvert år. Vi kan sette opp en oversikt over nedbetalingene i Excel slik som figuren under viser.
+
+![Oversikt over serielån i Excel](/img/user/Dokumenter/excel-maalsok1.png)
+
+Legg merke til at vi bruker formler i så mange av cellene i tabellen som mulig. Det gjør at regnearket blir *dynamisk*, og at det kan brukes på nytt dersom vi endrer på for eksempel lånebeløpet eller rentefoten.
+
+>[!example] Finn rentefoten
+>
+> Finn hva rentefoten måtte ha vært for hvis de samlede renteutgiftene var 5 500 kr.
+
+1. Trykk i cellen `E12` siden det er denne cellen vi ønsker at skal inneholde målverdien vår, altså $5~500 \text{~kr}$.
+2. Åpne verktøyet målsøking ved å søke i søkefeltet på toppen eller ved å navigere til `Data` → `Hva-skjer-hvis-analyse` → `Målsøking`. 
+3. Målsøkingsverktøyet trenger 3 parametere. Vi ønsker at celle `E12` skal få verdien 5500. Derfor skriver vi `E12` og `5500` i de to øverste boksene. Se figur &fig:maalsok. I den nederste boksen skriver du cellen som du skal endre på for å finne målverdien. Du kan også trykke direkte på celle C3. Det er ikke nødvendig med `$`-tegn her, men det er heller ikke noe farlig med dem.
+
+![Målsøking i Excel](/img/user/Dokumenter/maalsok.png)
+
+Vi kan se i celle `E12` at rentefoten måtte ha vært $3{,}67\,\%$ hvis de totale renteutgiftene var $5~500 \text{~kr}$.
 
 ## Funksjonsdrøfting
 Funksjonsdrøfting handler om å finne ut hvordan funksjoner ser ut når du tegner dem. 
@@ -189,7 +211,7 @@ Husk også disse viktige sammenhengene
 
 - Stigningstallet til tangenten i punktet $\left( a,f(a) \right)$ er lik den deriverte i punktet $f'(a)$.
 - En funksjon har sin maksimalverdi i toppunktene eller randpunktene
-- En funksjon har størst vekstfart i vendepunktene.
+- Mange funksjoner har størst vekstfart i vendepunktene.
 
 ### Logaritmer
 #### Egenskaper ved logaritmefunksjoner
@@ -242,6 +264,7 @@ Asymptoter er tenkte linjer som en funksjon nærmer seg. Asymptoter kan være ho
 
 - Vi får vertikale asymptoter i bruddpunktene. Vi finner disse ved å løse $Q(x)=0$.
 - Vi får en horisontal asymptote dersom $P$ og $Q$ har samme grad. Vi finner den horisontale asymptoten ved å sammenligne leddene i $P$ og $Q$ med høyest grad, og dividere koeffisientene foran disse leddene på hverandre. For eksempel gir funksjonen $\frac{2x^{2}}{4x^{2}}$ asymptoten $y=\frac{2}{4}=\frac{1}{2}$.
+- Dersom graden til $Q$ er større enn graden til $P$ får vi en horisontal asymptote i $y=0$.
 - Vi får skrå asymptoter når graden av $P$ er én større enn graden av $Q$. Vi finner denne ved å beregne $P(x):Q(x)$ med polynomdivisjon. Den skrå asymptoten er svaret på divisjonen når du ser bort fra resten.
 
 ## Derivasjon
@@ -264,13 +287,15 @@ $$f'(x) = \lim_{\Delta x \to 0}\frac{f(x + \Delta x) - f(x)}{\Delta x}$$
 | Eksponentialfunk |        $e^{x}$         |                $e^{x}$                |
 | Eksponentialfunk |        $a^{x}$         |             $a^{x}\ln a$              |
 | Logaritme        |        $\ln x$         |             $\frac{1}{x}$             |
-| Kjerneregelen    | $g\left( u(x) \right)$ |          $g'(u) \cdot u'(x)$          |
+| Kjerneregelen    | $f(x)=f(x)=g\left( u(x) \right)$ |          $g'(u) \cdot u'(x)$          |
+| --- `||` --- (Leibniz')   | $f(x)=g(u(x))$ |          $\frac{\mathrm{d}f}{\mathrm{d}x} = \frac{\mathrm{d}g}{\mathrm{d}u} \cdot \frac{\mathrm{d}u}{\mathrm{d}x}$          |
+| --- `||` --- (Leibniz')   | $f(x)=g(u(x))$ |          $\frac{\mathrm{d}f}{\mathrm{d}x} = \frac{\mathrm{d}g}{\mathrm{d}u} \cdot \frac{\mathrm{d}u}{\mathrm{d}x}$          |
 
 Huskeregel kjerneregelen: Multipliser den deriverte av den ytre funksjonen med den deriverte av kjernen.
 
 ### Den deriverte av ln x
 $$
-\big( \ln (x) \big) '=\frac{1}{x}
+\big( \ln (x) \big) '=\frac{1}{x} \quad , \quad x>0
 $$
 Merk at selv om $g(x)=\frac{1}{x}$ er definert for $x\in \mathbb{R} \setminus \{0\}$ så er den deriverte av logaritmefunksjonen kun definert for $x>0$. 
 
@@ -285,6 +310,19 @@ Vi kan også bruke ettpunktsformelen hvor $y_{1}=f(x_{1})$
 $$
 y-y_{1}=a(x-x_{1})
 $$
+
+### Kontinuitet
+Tommelfingerregelen er at funksjoner som kan tegnes uten å løfte blyanten er kontinuerlige, men funksjoner kan være kontinuerlige selv om du må løfte blyanten. 
+
+> [!important] 
+> 
+> En funksjon $f(x)$ er kontinuerlig dersom den er kontinuerlig i alle punkter i sin definisjonsmengde $D_{f}$.
+
+Det finnes tre krav for at en funksjon $f(x)$ er kontinuerlig i punktet $x=a$:
+
+1. Funksjonen eksisterer i punktet, altså $f(a)$ eksisterer
+2. Grenseverdien $\lim_{ x \to a }f(x)$ må eksistere, altså må både venstre- og høyregrenseverdien være like. $\lim_{ x \to a^{-} }f(x)=\lim_{ x \to a^{-} }f(x)$
+3. Funksjonsverdien og grenseverdien må være like $f(a)=\lim_{ x \to a }f(x)$
 
 ## Integrasjon
 ### Ubestemte integraler
@@ -306,7 +344,7 @@ Et ubestemt integral er å finne alle antideriverte $F(x)$ til en funksjon $f(x)
 ### Bestemt integral som grense av sum
 Vi har en funksjon $f(x)$ og vi ønsker å finne arealet under grafen fra $x = a$ til $x = b$.
 
-![Det bestemte integralet er summen av uendelig mange rektangler under grafen](/img/user/_resources/integral-grense-for-sum.jpeg)
+![Det bestemte integralet er summen av uendelig mange rektangler under grafen](/img/user/Dokumenter/integral-grense-for-sum.jpeg)
 
 Vi forsøker å dele opp området under grafen i $n$ rektangler. Bredden på hvert rektangel må da være $\Delta x = \frac{b - a}{n}$. 
 
@@ -314,7 +352,7 @@ Hvis vi kaller $x$-verdien i starten av rektangelet for $x_{i}$ der $i \in \{ 1,
 
 Siden arealet til et rektangel er høyde multiplisert med bredde vil summen av arealene til rektanglene altså være
 $$S_{n} = f\left( x_{1} \right) \cdot \Delta x + f\left( x_{2} \right) \cdot \Delta x + f\left( x_{3} \right) \cdot \Delta x + \ldots = \sum_{i = 1}^{n}{f\left( x_{i} \right) \cdot \Delta x}$$
-Hvis vi lar bredden av rektanglene bli veldig små slik at rektanglene egentlig bare blir infitesimalt smale striper får vi
+Hvis vi lar bredden av rektanglene bli veldig små slik at rektanglene egentlig bare blir infinitesimalt smale striper får vi
 $$\lim_{\Delta x \rightarrow 0}{S_{n} =}\lim_{n \rightarrow \infty}{\sum_{i = 1}^{n}{f\left( x_{i} \right) \cdot \Delta x}} = \int_{a}^{b}{f(x)\ \text{d}x}$$
 
 ### Fundamentalsetningen
@@ -324,23 +362,23 @@ Fundamentalsetningen eller analysens fundamentalteorem forteller oss at integras
 >
 >La $f$ være en kontinuerlig funksjon på $[a, b]$. La
 >$$F'(x)=f(x) \quad \text{for alle} \quad x\in[a, b]$$
->Denne førsten delen av fundamentalsetningen forteller oss at alle kontinuerlige funksjoner $f$ har antideriverte funksjoner $F$. 
+>Denne første delen av fundamentalsetningen forteller oss at alle kontinuerlige funksjoner $f$ har antideriverte funksjoner $F$. 
 
 >[!important] Fundamentalsetningen del 2
 >
 >Gitt $f$ fra del 1 så er
->$$\int_{a}^{b} f(x) \, dx = \left[ F(x) \right] _{a}^b=F(b)-F(a)$$
+>$$\int_{a}^{b} f(x) \, \mathrm{d}x = \left[ F(x) \right] _{a}^b=F(b)-F(a)$$
 > Denne andre delen av fundamentalsetningen forteller oss at vi kan beregne et bestemt integral ved hjelp av det ubestemte integralet
 
 ### Areal under grafer
 
 La $f(x)$ være en funksjon som er positiv for alle $x \in [a,b]$. Da er arealet, $A$, av flatestykket som er avgrenset av grafen til en funksjon $f(x)$, $x$-aksen og linjene $x=a$ og $x=b$ lik integralet av 
 $$
-A=\int_{a}^{b} f(x) \, dx 
+A=\int_{a}^{b} f(x) \, \mathrm{d}x 
 $$
 Dersom grafen ligger under $x$-aksen så er arealet gitt ved
 $$
-A= - \int_{a}^{b} f(x) \, dx 
+A= - \int_{a}^{b} f(x) \, \mathrm{d}x 
 $$
 Dersom funksjonen krysser $x$-aksen i intervallet $[a,b]$, så er du nødt til å dele opp integralet ved nullpunktene og legge sammen summene av arealene.
 
@@ -352,14 +390,14 @@ La $f$ og $g$ være to funksjoner. For å finne arealet, $A$, av flatestykket me
 #### Areal mellom grafer med to skjæringspunkter
 Dersom du får to løsninger $x_{1}$ og $x_{2}$ fra likningen $f=g$ så er arealet 
 $$
-A=\int_{x_{1}}^{x_{2}} (f(x)-g(x)) \, dx \quad \text{der} \quad f\geq g \,\, \text{for alle} \,\, x \in [x_{1},x_{2}]
+A=\int_{x_{1}}^{x_{2}} (f(x)-g(x)) \, \mathrm{d}x \quad \text{der} \quad f\geq g \,\, \text{for alle} \,\, x \in [x_{1},x_{2}]
 $$
 Dersom $g\geq f$ på intervallet $[x_{1},x_{2}]$ så må du bytte om på rekkefølgen av leddene i integranden til $(g(x)-f(x))$.
 
 #### Areal mellom grafer med tre eller flere skjæringspunkter
 Hvis du har tre eller flere skjæringspunkter mellom $f$ og $g$ så er du nødt til å dele opp integralet i flere deler. La oss si at du får de tre løsningene $x_{1}$, $x_{2}$ og $x_{3}$ fra likningen $f=g$. Hvis $f\geq g$ for $x \in[x_{1},x_{2}]$ og $g\geq f$ for $x\in[x_{2},x_{3}]$ så kan du finne det samlede arealet med følgende formel
 $$
-A=\int_{x_{1}}^{x_{2}} (f(x)-g(x)) \, dx + \int_{x_{2}}^{x_{3}} (g(x)-f(x)) \, dx 
+A=\int_{x_{1}}^{x_{2}} (f(x)-g(x)) \, \mathrm{d}x + \int_{x_{2}}^{x_{3}} (g(x)-f(x)) \, \mathrm{d}x 
 $$
 
 ### Integrasjonsteknikker
@@ -418,9 +456,9 @@ Variabelskifte brukes hvis du skal integrere en sammensatt funksjon. Variabelski
 >Vi setter $u=\ln x$ og skriver den deriverte av $u$ som $\frac{du}{dx}$
 >$$\begin{aligned} u&=\ln x \\ u'=\frac{du}{dx}&=\frac{1}{x}\\ du &= \frac{1}{x}dx \\ dx&=x \cdot du \end{aligned}$$
 >Vi kan nå bytte ut $dx$ i integranden med $x \cdot du$ og vi får
->$$ \int \frac{u}{\cancel{ x }} \cancel{ x } \, \mathrm{d}u = \int u \, \mathrm{d}u = \frac{1}{2}u^{2} + C$$
+>$$ \int \frac{u}{x} \, \mathrm{d}x = \int \frac{u}{\cancel{ x }} \cancel{ x } \cdot \, \mathrm{d}u = \int u \, \mathrm{d}u = \frac{1}{2}u^{2} + C$$
 >Vi bytter tilbake $\ln x$ for $u$ og får svaret 
->$$\frac{1}{2} \left(\ln \vert x \vert \right)^{2}+C$$
+>$$\underline{\underline{\frac{1}{2} \left(\ln \vert x \vert \right)^{2}+C}}$$
 
 #### Delbrøkoppspalting
 >[!warning] Kommer dette på eksamen?
@@ -440,7 +478,7 @@ For at vi skal kunne gjøre delbrøkoppspalting må $Q$ ha større grad enn $P$.
 >3. Sett uttrykket lik summen av $n$ brøker: $A$ over faktor 1, $B$ over faktor 2 og så videre opp til
 >4. Multipliser begge sider av likningen med fellesnevner
 >5. Sett inn $x$-verdier som du ser at vil hjelpe deg med å bestemme $A$, $B$ og så videre
->6. Skriv om det opprinnelige uttrykket som summen av $n$ ledd
+>6. Skriv om det opprinnelige uttrykket som summen av $n$ brøker
 >7. Integrer ledd for ledd
 
 Jeg viser en delbrøkoppspalting med eksempelet $\int \frac{8}{x^{3}-4x} \, \mathrm{d}x$. Vi ser at nevneren har høyere grad enn teller, så vi kan gå videre til punkt 2 og faktoriserer nevneren.
@@ -471,13 +509,13 @@ x =2  \, \text{ gir} \quad 8&=A(2-2)(2+2)+B \cdot 2(2+2)+C\cdot 2(2-2)\\
 B&=1
 \end{aligned}
 $$
-Vi går videre til punkt 6 og setter opp uttrykket vårt
+Vi har altså bestemt $A=-2, B=1, C= 1$. Vi går videre til punkt 6 og setter opp uttrykket vårt
 $$
-\frac{8}{x^{3}-4x}=\frac{-2}{x}+\frac{1}{x-2}+\frac{1}{x+3}
+\frac{8}{x^{3}-4x}=\frac{-2}{x}+\frac{1}{x-2}+\frac{1}{x+2}
 $$
 Vi kan dermed gå videre til punkt 7 og faktisk integrere uttrykket ledd for ledd
 $$
-\int \frac{8}{x^{3}-4x} \, \mathrm{d}x = \int \frac{-2}{x} \, \mathrm{d}x + \int \frac{1}{x-2} \, \mathrm{d}x + \int \frac{1}{x+2} \, \mathrm{d}x = \underline{\underline{ -2 \ln \lvert x \rvert + \ln \lvert x-2 \rvert + \ln \lvert x+2 \rvert}}
+\int \frac{8}{x^{3}-4x} \, \mathrm{d}x = \int \frac{-2}{x} \, \mathrm{d}x + \int \frac{1}{x-2} \, \mathrm{d}x + \int \frac{1}{x+2} \, \mathrm{d}x = \underline{\underline{ -2 \ln \lvert x \rvert + \ln \lvert x-2 \rvert + \ln \lvert x+2 \rvert + C}}
 $$
 
 ## Økonomi
@@ -558,7 +596,7 @@ $$
 $$
 
 #### Binomisk sannsynlighetsfordeling
-Vi bruker binomiske fordelinger når vi kun har to ulike utfall. Vi bruker ofte bionomisk fordeling når vi definerer at en hendelse enten inntreffer eller så inntreffer den ikke.
+Vi bruker binomiske fordelinger når vi kun har to ulike utfall. Vi bruker ofte binomisk fordeling når vi definerer at en hendelse enten inntreffer eller så inntreffer den ikke.
 
 Hvis vi gjør det samme binomiske forsøket flere ganger etter hverandre får vi en binomisk sannsynlighetsfordeling. Vi kaller antall forsøk for $n$ og observerer om hendelsen $A$ inntreffer eller ikke. Sannsynligheten for $A$ i hvert delforsøk er $p$.
 
@@ -575,7 +613,7 @@ $$
 #### Hypergeometrisk sannsynlighetsfordeling
 Vi bruker hypergeometrisk sannsynlighetsfordeling når vi har to ulike grupper med gjenstander og skal få et gitt antall av hver av dem. I hypergeometriske forsøk så er ikke delforsøkene uavhengige av hverandre.
 
-Du har to typer objekter i en bolle, hvorav $n_{1}$ objekter er av type 1 og $n_{2}$ objekter er av type 2. Til sammen har du $n_{1}+n_{2}=n$ objekter. Du trekker $k$ objekter fra bollen. La $X$ være antallet objekter av type 1 blant de $k$. Sannsynligheten for at du trekker nøyaktig $k_{1}$ objekter er gitt ved:
+Du har to typer objekter i en bolle, hvorav $n_{1}$ objekter er av type 1 og $n_{2}$ objekter er av type 2. Til sammen har du $n_{1}+n_{2}=n$ objekter. Du trekker $k$ objekter fra bollen. La $X$ være antallet objekter av type 1 blant de $k$. Sannsynligheten for at du trekker nøyaktig $k_{1}$ objekter av type 1 (og dermed $k_{2}=k-k_{1}$ objekter av type 2) er gitt ved:
 $$
 P(X=k_{1}) = \frac{\binom{n_{1}}{k_{1}} \binom{n_{2}}{k_{2}}}{\binom{n}{k}}
 $$
@@ -603,7 +641,7 @@ $$
 ##### Forventningsverdi i kontinuerlige sannsynlighetsfordelinger
 I kontinuerlige sannsynlighetsfordelinger finner vi forventningsverdien til $X$ ved å bestemme integralet
 $$
-\int_{a}^{b} x \cdot f(x) \, dx 
+\int_{a}^{b} x \cdot f(x) \, \mathrm{d}x 
 $$
 hvor $f$ er sannsynlighetstettheten (også kalt tetthetsfunksjonen) med definisjonsmengde $D_{f}=[a,b]$.
 
@@ -639,7 +677,7 @@ $$
 ##### Varians i kontinuerlige sannsynlighetsfordelinger
 I kontinuerlige sannsynlighetsfordelinger finner vi variansen til $X$ ved å bestemme integralet
 $$
-\int_{a}^{b} (x-\mu)^{2} \cdot f(x) \, dx 
+\int_{a}^{b} (x-\mu)^{2} \cdot f(x) \, \mathrm{d}x 
 $$
 hvor $f$ er sannsynlighetstettheten (også kalt tetthetsfunksjonen) med definisjonsmengde $D_{f}=[a,b]$, og $\mu$ er forventningsverdien til $X$.
 
@@ -664,7 +702,7 @@ I kontinuerlige sannsynlighetsfordelinger så inneholder utfallsrommet til den s
 
 Sannsynligheten for at $X$ ligger innenfor et intervall $[a,b]$ er gitt ved
 $$
-P(a<X<b)=P(a\leq X\leq b)=\int_{a}^{b} f(x) \, dx 
+P(a<X<b)=P(a\leq X\leq b)=\int_{a}^{b} f(x) \, \mathrm{d}x 
 $$
 Her er $f(x)$ sannsynlighetstettheten (eller tetthetsfunksjonen) til $X$. 
 
@@ -673,16 +711,16 @@ Her er $f(x)$ sannsynlighetstettheten (eller tetthetsfunksjonen) til $X$.
 >Legg merke til at $P(a<X<b)=P(a\leq X\leq b)$. 
 >
 >Punktsannsynligheter i kontinuerlige sannsynlighetsfordelinger er lik null (altså $P(X=a)=0$) siden 
->$$ P(X=a)=\int_{a}^{a} f(x) \, dx =F(a)-F(a)=0  $$
+>$$ P(X=a)=\int_{a}^{a} f(x) \, \mathrm{d}x =F(a)-F(a)=0  $$
 
 >[!important] Krav til sannsynlighetstettheten $f(x)$
 >
-> 1. $f$ må ha en definisjonsmengde $D_{f}=[a,b]$
+> 1. $f$ må ha en definisjonsmengde $D_{f}$
 > 2. $f(x)\geq 0$
-> 3. $\int_{a}^{b} f(x) \, dx=1$
+> 3. $\int_{a}^{b} f(x) \, \mathrm{d}x=1$
 
 ### Normalfordelingen
-Normalfordelingen er en kontinuerlig sannsynlighetfordeling med tetthetsfunksjon gitt ved
+Normalfordelingen er en kontinuerlig sannsynlighetsfordeling med tetthetsfunksjon gitt ved
 $$
 f(x)=\frac{1}{\sigma \sqrt{ 2\pi }}e^{- \frac{(x-\mu)^{2}}{2\sigma^{2}}}
 $$
@@ -693,7 +731,7 @@ Alle normalfordelinger kan gjøres om til en standard normalfordeling med forven
 
 La $X$ være normalfordelt med forventningsverdi $\mu$ og standardavvik $\sigma$. For å bestemme $P(X<a)$ kan vi gjøre om $X \to Z$ ved å først regne ut en $z$-verdi:
 $$
-z=\frac{x-\mu}{a}
+z=\frac{a-\mu}{\sigma}
 $$
 Deretter bestemmer vi sannsynligheten $P(Z<z)$ ved å gå inn i tabellen med standard normalfordeling.
 
@@ -725,7 +763,10 @@ $$
 
 >[!important] Sentralgrensesetningen
 >
->Sentralgrensesetningen sier at dersom vi gjør tilstrekkelig mange forsøk, vil sannsynlighetsfordelingen til alle stokastiske variabler kunne tilnærmes med en normalfordeling.
+>Sentralgrensesetningen sier at dersom vi gjør tilstrekkelig mange forsøk, vil gjennomsnittet til alle stokastiske variabler være tilnærmet normalfordelt hvis
+>
+>1. De stokastiske variablene er uavhengige
+>2. De stokastiske variablene har samme sannsynlighetsfordeling
 
 La $X$ være en stokastisk variabel med forventningsverdi $\mu$ og standardavvik $\sigma$. 
 
@@ -743,8 +784,8 @@ E(S)&=n \cdot E(X)=n \cdot \mu\\
 $$
 Denne tilnærmingen er best for store verdier av $n$. Som tommelfingerregel gjelder sentralgrensesetningen når $n\geq 30$.
 
-### Simuleringer med python
-Vi bruker ofte *Monte Carlo*-simuleringer i programmer for å finne sannsynligheter som er vanskelig å bestemme ved regning. Prinsippet for slike simuleringer er:
+### Simuleringer med Python
+Vi bruker ofte *Monte Carlo*[^4]-simuleringer i programmer for å finne sannsynligheter som er vanskelig å bestemme ved regning. Prinsippet for slike simuleringer er:
 
 1. Du definerer en hendelse $A$
 2. Du gjennomfører et stokastisk forsøk $N$ ganger
@@ -753,7 +794,7 @@ Vi bruker ofte *Monte Carlo*-simuleringer i programmer for å finne sannsynlighe
 
 Dette er imidlertid ikke den ekte sannsynligheten, men $m/N$ gir en veldig god tilnærming når $N$ er høy. Prøv deg gjerne frem med stadig høyere $N$ (for eksempel 10000, 100 000, 1 000 000 og så videre), men stopp når du merker at programmet tar lang tid å kjøre.
 
-#### Å trekke fra et statistisk fordeling
+#### Å trekke fra en sannsynlighetsfordeling
 Vi kan trekke ut en tilfeldig prøve fra mange ulike statistiske fordelinger. I S2 skal vi fokusere på:
 
 - Uniform sannsynlighetsfordeling: *alle utfallene er like sannsynlige*
@@ -766,7 +807,7 @@ Vi bruker funksjoner fra biblioteket `random` og `numpy.random` til å gjøre ut
 ##### Trekke tilfeldig heltall
 For å trekke et tilfeldig heltall i intervallet $[1 , 6]$ (fra og med 1, til og med 6) så kan du bruke `random.randint(a,b)`.
 
-```python
+```Python
 import random
 tilfeldig_tall = random.randint(1,6)
 ```
@@ -774,7 +815,7 @@ tilfeldig_tall = random.randint(1,6)
 ##### Trekke tilfeldig desimaltall
 For å trekke et tilfeldig desimaltall i intervallet $[0 , 1 \rangle$ så kan du bruke `random.random()`. Hvis du trenger å ha et tilfeldig desimaltall i intervallet $[5, 15\rangle$ så kan bare gange det tilfeldige tallet med 10 og legge til 5:
 
-```python
+```Python
 import random
 tilfeldig_tall = random.random()
 tilfeldig_tall2 = 10 * random.random() + 5
@@ -783,7 +824,7 @@ tilfeldig_tall2 = 10 * random.random() + 5
 ##### Trekke fra normalfordeling
 For å trekke et tilfeldig tall fra en normalfordeling med forventningsverdi $\mu=180$ og standardavvik $\sigma=7$ så kan du bruke `random.gauss(mu, sigma)`.
 
-```python
+```Python
 import random
 tilfeldig_tall = random.gauss(180, 7)
 ```
@@ -793,7 +834,7 @@ For å trekke et tilfeldig tall fra en hypergeometrisk fordeling må vi bruke `n
 
 I eksempelet under så har vi 20 fotballspillere ($n_{1}=20$) og 30 volleyballspillere ($n_2=30$). I vårt stokastiske forsøk så skal vi trekke ut 3 tilfeldige personer ($k=3$) og telle hvor mange av dem som er fotballspillere (type 1).
 
-```python
+```Python
 import numpy as np
 tilfeldig_tall = np.random.hypergeometric(20, 30, 3)
 ```
@@ -803,19 +844,20 @@ Vi bruker `numpy.random.binomial(n, p)` for å trekke fra en binomisk fordeling 
 
 For å simulere antallet frø som spirer hvis vi planter 50 frø med sannsynlighet 0,8 for å spire kan vi bruke:
 
-```python
+```Python
 import numpy as np
 tilfeldig_tall = np.random.binomial(50, 0.8)
 ```
+
 #### Eksempel på simulering fra eksempeleksamen høst 2022
 
 >På en skole er det 323 jenter og 301 gutter. $X$ er høyden på en tilfeldig valgt jente. $Y$ er høyden på en tilfeldig valgt gutt.
 >
 >Anta at $X$ og $Y$ er normalfordelt med $\mu_{X}=168, \mu_{Y}=180, \sigma_{X}=6, \sigma_{Y}=8$.
 >
->Lag et program som du kan bruke til å smulere sannsynligheten for at en tilfeldig valgt elev er høyere enn 175 cm.
+>Lag et program som du kan bruke til å simulere sannsynligheten for at en tilfeldig valgt elev er høyere enn 175 cm.
 
-```python
+```Python
 import random
 
 n_x = 323
@@ -860,7 +902,7 @@ print(f"Sannsynligheten for å trekke en tilfeldig elev over 175 cm er "
 >
 >Lag et program som du kan bruke til å anslå sannsynligheten for at høyden til et tilfeldig valgt barn på 24 måneder er mindre enn 84 cm. Gå ut ifra at det er like mange jenter som gutter i populasjonen.
 
-```python
+```Python
 import random
 
 EX = 87
@@ -948,6 +990,7 @@ $$
 
 I hypotesetesten vår så bruker vi en normalfordeling med $E(\bar{X})=\mu$ og $\text{SD}(\bar{X})=\frac{\sigma}{\sqrt{ n }}$.
 
-[^1]: Merk at `python`-lister begynner på indeks 0. Det vil si at for å hente ut det første elementet i ei liste som heter `min_liste` så skriver vi `min_liste[0]`. For å hente du det fjerde elementet i lista skriver vi `min_liste[3]`.
+[^1]: Merk at `Python`-lister begynner på indeks 0. Det vil si at for å hente ut det første elementet i ei liste som heter `min_liste` så skriver vi `min_liste[0]`. For å hente du det fjerde elementet i lista skriver vi `min_liste[3]`.
 [^3]: Denne formelen tror jeg ikke du trenger å pugge til del 1 av eksamen.
+[^4]: Monte Carlo er en bydel i Monaco som er kjent for sine mange kasinoer. Metoden kalles Monte Carlo siden den er basert på tilfeldigheter og sjansespill.
 [^2]: $p$-verdi og sannsynligheten $p$ i binomisk modell er *ikke* det samme.

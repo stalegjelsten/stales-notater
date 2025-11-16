@@ -3,7 +3,7 @@
 ---
 
 # Spesiell relativitetsteori
-Av [[Kunnskap/Albert Einstein\|Albert Einstein]] i 1905. 
+Av [[Kunnskap/Forfattere/Albert Einstein\|Albert Einstein]] i 1905. 
 ## Postulater
 1. Fysikkens lover er de samme i alle [[Kunnskap/Treghetssystemer\|Treghetssystemer]]
 2. Lysets hastighet er den samme uansett hastigheten til observatøren

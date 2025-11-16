@@ -19,5 +19,5 @@ For veik, for veik er kongens bue
 ![Einar Tambarskjelve](https://media.snl.no/media/70346/standard_Einar_Tambarskjelve.jpg)
 
 ## Related
-[[Kunnskap/Forelesningsnotater/2015-08-25 Høvdingmakt og kongemakt i Norge 800–1130\|2015-08-25 Høvdingmakt og kongemakt i Norge 800–1130]]
+[[Kunnskap/Forelesningsnotater/2015-08-25 Høvdingmakt og kongemakt i Norge 800–1130\|Kunnskap/Forelesningsnotater/2015-08-25 Høvdingmakt og kongemakt i Norge 800–1130]]
 [[Kunnskap/Kongerekka\|Kongerekka]]

@@ -9,7 +9,7 @@ Spooling av resultater vil si å lese inn resultatene fra MTR4 til [[Orientering
 ## Før løp
 - **Nullstill MTR**. Dette er superviktig siden det er vanskelig å velge riktig løp ellers. 
 - Still MTR-klokke. MTR-klokka brukes til å synkronisere [[Orientering/Livelox\|Livelox]]. Man får feil starttidspunkter i Livelox dersom denne er feil.
-Begge disse punktene gjøres enklest ved å koble MTR til en datamaskin med eTiming. Gå til `Tidtakning → Start kommunikasjon` og deretter synkroniser klokke og nullstill MTR. Se oppsett under [[Orientering/eTiming med spooling av resultater#Spooling\|#Spooling]]
+Begge disse punktene gjøres enklest ved å koble MTR til en datamaskin med eTiming. Gå til `Tidtakning → Start kommunikasjon` og deretter synkroniser klokke og nullstill MTR. Se oppsett under [[#Spooling]]
 
 ## Spooling av tider
 

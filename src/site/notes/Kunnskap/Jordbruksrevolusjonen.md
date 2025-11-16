@@ -14,11 +14,11 @@ Noen av de viktgiste konsekvensene var:
 - Flere barn og befolkningsvekst
 
 ## Eurasias store fordel
-[[Kunnskap/Guns, germs and steel av Jared Diamond\|Guns, germs and steel av Jared Diamond]] argumenterer for hvorfor Eurasia fikk en så dominerende rolle i jordbruksrevolusjonen.
+[[Kunnskap/Bøker/📗 Guns, Germs and Steel\|📗 Guns, Germs and Steel]] argumenterer for hvorfor Eurasia fikk en så dominerende rolle i jordbruksrevolusjonen.
 
 * 148 pattedyr over 50 kg i verden. 14 er mulige å temme. 13 fantes i eurasia, lamaen fantes i sør-Amerika
 * De fem store: kveg, hest, sau, geit og gris
-	* Oppfatningen om at Argentina har hatt kveg (og dermed god biff) og at den amerikanske urbefolkningen red på hest er helt feil lærer vi i [[Kunnskap/Sapiens av Yuval Noah Harari\|Sapiens av Yuval Noah Harari]]. 
+	* Oppfatningen om at Argentina har hatt kveg (og dermed god biff) og at den amerikanske urbefolkningen red på hest er helt feil lærer vi i [[Kunnskap/Bøker/📗 Sapiens\|📗 Sapiens]]. 
 * Planter i Eurasia: hvete, rug, ris
 * Amerika: mais og potet
 * Eurasia har også fordeler ved at kontinentet går øst-vest
@@ -65,4 +65,4 @@ Noen av de viktgiste konsekvensene var:
 
 ## Related
 [[Kunnskap/Tidslinje historie\|Tidslinje historie]]
-[[Kunnskap/Forelesningsnotater/2015-08-24 Jordbruket\|2015-08-24 Jordbruket]]
+[[Kunnskap/Forelesningsnotater/2015-08-24 Jordbruket\|Kunnskap/Forelesningsnotater/2015-08-24 Jordbruket]]
