@@ -4,7 +4,7 @@
 
 
 # Høymiddelalderen i Norge
-Høymiddelalderen i Norge varte fra 1130–1350, fra [[Kunnskap/Høymiddelalderen i Norge#Borgerkrigstiden\|#Borgerkrigstiden]] til [[Kunnskap/Svartedauden\|Svartedauden]].
+Høymiddelalderen i Norge varte fra 1130–1350, fra [[#Borgerkrigstiden]] til [[Kunnskap/Svartedauden\|Svartedauden]].
 
 ## Borgerkrigstiden
 For Ståles eksamensoppgave om borgerkrigstiden, se [[Kunnskap/Eksamensoppgave om borgerkrigstiden\|Eksamensoppgave om borgerkrigstiden]]
@@ -49,10 +49,10 @@ Høymiddelalderen avsluttes med [[Kunnskap/Svartedauden\|Svartedauden]].
 
 #### Related
 Forelesningsnotater:
-- [[Kunnskap/Forelesningsnotater/2015-08-18 Europa og Norge 800–1750\|2015-08-18 Europa og Norge 800–1750]]
-- [[Kunnskap/Forelesningsnotater/2015-09-01 Norge mot en stat 1130-1350\|2015-09-01 Norge mot en stat 1130-1350]]
-- [[Kunnskap/Forelesningsnotater/2015-09-15 befolkning, økonomi og samfunn, Norge 800-1350\|2015-09-15 befolkning, økonomi og samfunn, Norge 800-1350]]
-- [[Kunnskap/Forelesningsnotater/2015-09-22 Norge økonomisk og sosialt 700-1300\|2015-09-22 Norge økonomisk og sosialt 700-1300]]
+- [[Kunnskap/Forelesningsnotater/2015-08-18 Europa og Norge 800–1750\|Kunnskap/Forelesningsnotater/2015-08-18 Europa og Norge 800–1750]]
+- [[Kunnskap/Forelesningsnotater/2015-09-01 Norge mot en stat 1130-1350\|Kunnskap/Forelesningsnotater/2015-09-01 Norge mot en stat 1130-1350]]
+- [[Kunnskap/Forelesningsnotater/2015-09-15 befolkning, økonomi og samfunn, Norge 800-1350\|Kunnskap/Forelesningsnotater/2015-09-15 befolkning, økonomi og samfunn, Norge 800-1350]]
+- [[Kunnskap/Forelesningsnotater/2015-09-22 Norge økonomisk og sosialt 700-1300\|Kunnskap/Forelesningsnotater/2015-09-22 Norge økonomisk og sosialt 700-1300]]
 
 Forrige: [[Kunnskap/Vikingtiden\|Vikingtiden]]
 Neste: [[Kunnskap/Senmiddelalderen i Norge\|Senmiddelalderen i Norge]]

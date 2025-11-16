@@ -59,7 +59,8 @@ Når du skriver Python-kode, vil du ofte møte på feilmeldinger. Det er kjedeli
 
 Noen vanlige typer feil er:
 
-- **`SyntaxError`**: Koden er skrevet på en måte som Python ikke forstår. For eksempel mangler det et kolon eller noen mellomrom.
+- **`SyntaxError`**: Koden er skrevet på en måte som Python ikke forstår. For eksempel mangler det et kolon eller noen mellomrom. 
+	- Hvis du får `EOL while scanning string literal` så har du mest sannsynlig glemt å avslutte en parentes eller tekststreng.
 - **`NameError`**: Du prøver å bruke en variabel eller funksjon som ikke finnes. Som oftest har du feilstavet navnet på en variabel eller funksjon.
 - **`TypeError`**: Du bruker en datatype på feil måte, f.eks. legger sammen en tekststreng og et tall.
 - **`ValueError`**: Funksjonen får en verdi som har riktig type, men er ugyldig. Eksempel: `int("hei")`.

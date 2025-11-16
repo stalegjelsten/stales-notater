@@ -20,7 +20,7 @@
 .centered {background-color: hotpink}
 ```
 
-## Historikk
+## Memes
 Å midtstille en div ble lenge (spøkefullt) betegnet som noe av det vanskeligste man kunne gjøre i [[Kunnskap/CSS\|CSS]].
 
 ![Meme som viser Boromir fra Ringenes Herre som sier "One does not simply center a div"](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*rf4QAy4yYPdfuLsZ7NrHZA.jpeg)

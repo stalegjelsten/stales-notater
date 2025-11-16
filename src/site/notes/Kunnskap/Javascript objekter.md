@@ -21,7 +21,7 @@ bil.registreringsaar = 2012
 ```
 
 ## Metoder
-En metode er en funksjon lagret som egenskapen til et objekt.
+En metode er en funksjon lagret som egenskaper til et objekt.
 
 ```javascript
 let bil = {merke: "Audi", modell: "A3 Quattro", slaaSammenMerkeOgModell() {return this.merke + " " + this.modell}}

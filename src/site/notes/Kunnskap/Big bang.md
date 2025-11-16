@@ -4,7 +4,7 @@
 
 
 # Big bang
-Big bang er en [[Kunnskap/Vitenskapelig teori\|Vitenskapelig teori]] som forklarer utviklingen av universet vårt fra ca. 13,8 milliarder år siden fram til i dag. Teorien sier at universet var enormt tett og energirikt helt i begynnelsen (ved tiden $t=0$), og at det har utvidet seg hele tiden siden dette. Vi kan ikke *vite* at universet var så lite helt i begynnelsen, men vi kan gjøre antakelser om utviklingen fra tiden $t=10^{-43} \, \mathrm{s}$ etter big bang (dette tilsvarer en [[Kunnskap/Plancks konstant\|Plancktid]])
+Big bang er en [[Kunnskap/Vitenskapelig teori\|Vitenskapelig teori]] som *forklarer utviklingen av universet vårt* fra ca. 13,8 milliarder år siden fram til i dag. Teorien sier at universet var enormt tett og energirikt helt i begynnelsen (ved tiden $t=0$), og at det har utvidet seg hele tiden siden dette. Vi kan ikke *vite* at universet var så lite helt i begynnelsen, men vi kan gjøre antakelser om utviklingen fra tiden $t=10^{-43} \, \mathrm{s}$ etter big bang (dette tilsvarer en [[Kunnskap/Plancks konstant\|Plancktid]])
 
 Vi kan ikke si så mye om selve big bang, siden det ville krevd en fungerende teori for kvantegravitasjon som kan utkonkurrere teoriene om [[Kunnskap/Generell relativitetsteori\|Generell relativitetsteori]] og [[Kunnskap/Kvantemekanikk\|Kvantemekanikk]]. Vi vet likevel at alle de fire kreftene i universet må ha vært samlet, og ved hjelp av big bang teorien kan vi forklare store deler av universets utvikling.
 
@@ -14,22 +14,25 @@ Big bang teorien er en av de mest gjennomtestede [[Kunnskap/Vitenskapelig teori\
 3. Fordelingen av grunnstoffer i Universet
 
 >[!note] Big bang som smell fra infitesimalt lite punkt
->Big bang var ikke et smell. Selve navnet Big bang ble gitt til teorien av kritikere som mente at den var fullstendig tullete.
+>Big bang var ikke et smell. Selve navnet Big bang ble gitt til teorien av [kritikere](https://en.wikipedia.org/wiki/Fred_Hoyle#Rejection_of_the_Big_Bang) som mente at den var fullstendig tullete.
 >
 > Vi vet heller ikke om universet var infitesimalt lite, altså at det var samlet i en [singularitet](https://en.m.wikipedia.org/wiki/Initial_singularity), eller universet hadde størrelse og big bang bare skjedde overalt samtidig.
 
 
 ## Tidslinje
-- $10^{-36}$ til $10^{-32} \,\mathrm{s}$: [[Kunnskap/Big bang#Inflasjon\|#Inflasjon]][^1]
+- $10^{-36}$ til $10^{-33} \,\mathrm{s}$: [[Kunnskap/Big bang#Inflasjon\|Inflasjon]][^1]
 - $10^{-6}\,\mathrm{s}$: [[Kunnskap/Proton\|Protoner]] og [[Kunnskap/Nøytron\|nøytroner]] dannes
 - 3 min: Helium, litium og tyngre atomkjerner dannes
-- 380 000 år: [[Kunnskap/Big bang#Elektroner binder seg til atomkjernene\|#Elektroner binder seg til atomkjernene]]
+- 380 000 år: [[Kunnskap/Big bang#Elektroner binder seg til atomkjernene\|Elektroner binder seg til atomkjernene]]
 - 400 millioner år: de første stjerner og galakser dannes
 - 10 milliarder år: mørk materie begynner å dominere
 - 13,8 milliarder år: i dag
 
+![](/img/user/_resources/Big-bang-tidslinje.excalidraw.png)
+Figurkilde: [Jostein Riiser Kristiansen](https://brukere.snl.no/39576)
+
 ### Inflasjon
-I denne perioden utvidet tidrommet seg fortere enn lysets hastighet. Universet utvider seg omtrent $10^{26}$[^2] ganger i alle retninger. Vi vet ikke hvor stort universet var etterpå, men det var i hvert fall fremdeles ekstremt mye mindre enn i dag (kanskje på størrelse med en rosin, appelsin eller et tankskip??). To partikler som påvirket hverandre før inflasjonen vil ikke ha mulighet til å påvirke hverandre etter inflasjonen siden informasjon ikke kan overføres med høyere hastighet enn $c$.
+I denne perioden utvidet [[Kunnskap/Tidrom\|tidrommet]] seg fortere enn lysets hastighet. Universet utvider seg omtrent $10^{26}$[^1] ganger i alle retninger. Vi vet ikke hvor stort universet var etterpå, men det var i hvert fall fremdeles ekstremt mye mindre enn i dag (kanskje på størrelse med en rosin, appelsin eller et tankskip??). To partikler som påvirket hverandre før inflasjonen vil ikke ha mulighet til å påvirke hverandre etter inflasjonen siden informasjon ikke kan overføres med høyere hastighet enn $c$.
 
 ### Tyngre atomkjerner dannes
 Ved tiden $t=10^{-6} \,\mathrm{s}$ ble det dannet protoner og nøytroner. Siden et enkelt proton også er atomkjernen til hydrogen-1 ($\ce{^1_1H}$) så fikk vi altså også våre første atomkjerner på dette tidspunktet.
@@ -37,7 +40,7 @@ Ved tiden $t=10^{-6} \,\mathrm{s}$ ble det dannet protoner og nøytroner. Siden 
 Etter hvert som universet kjølte seg ned så ble det dannet tyngre grunnstoffer. Fra omtrent 10 s fram til omtrent 20 minutter etter big bang var universet kaldt nok til at *deuterium* (hydrogen med et proton og et nøytron, $\ce{^2_1H}$) kunne eksistere, samtidig som det var varmt nok til at hydrogen kunne [[Kunnskap/Fusjon\|fusjonere]] til helium og lithium. Dette var altså de første atomkjernene som var tyngre enn hydrogen, men det skulle ta veldig lang tid før de tyngre grunnstoffene våre ble laget. Vi tror at de fleste grunnstoffer som er jern eller tyngre er blitt skapt i [[Kunnskap/Stjerne#Supernova\|supernovaer]] når andre [[Kunnskap/Stjerne\|stjerner]] har avsluttet sine liv.
 
 ### Elektroner binder seg til atomkjernene
-Etter 380 000 år (nyere estimater sier 375 000 $\pm$ 3 000 år) så var temperaturen i universet ganske nøyaktig 3000 K. Det vil si at universet var tilstrekkelig avkjølt til at elektroner kunne binde seg til atomkjerner. *Vi fikk altså de første **atomene** i universet!* Dette gjorde også at [[Kunnskap/Foton\|fotoner]] ([[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]) kunne begynne å spre seg (tidligere hadde universet vært for varmt og tett til at dette var mulig[^3]). All strålingen som var «fanget» slapp nå fri og ble sendt ut som infrarød stråling til et objekt med temperatur 3000 K. Det er denne strålingen vi kaller for [[Kunnskap/Kosmisk bakgrunnsstråling\|Kosmisk bakgrunnsstråling]].
+Etter 380 000 år (nyere estimater sier 375 000 $\pm$ 3 000 år) så var temperaturen i universet ganske nøyaktig 3000 K. Det vil si at universet var tilstrekkelig avkjølt til at elektroner kunne binde seg til atomkjerner. *Vi fikk altså de første **atomene** i universet!* Dette gjorde også at [[Kunnskap/Foton\|fotoner]] ([[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]) kunne begynne å spre seg (tidligere hadde universet vært for varmt og tett til at dette var mulig[^2]). All strålingen som var «fanget» slapp nå fri og ble sendt ut som infrarød stråling til et objekt med temperatur 3000 K. Det er denne strålingen vi kaller for [[Kunnskap/Kosmisk bakgrunnsstråling\|Kosmisk bakgrunnsstråling]].
 
 ## Observasjoner som støtter Big bang-teorien
 
@@ -45,7 +48,7 @@ Etter 380 000 år (nyere estimater sier 375 000 $\pm$ 3 000 år) så var tempera
 I 1929 observerte Edwin Hubble at de fleste galakser er på vei bort fra oss, og at farten til galaksen ser ut til å være avhengig av avstanden vår til galaksen. Galakser som er lengre borte ser ut til å bevege seg fortere bort fra oss. 
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/kunnskap/hubble-lemaitres-lov/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/Kunnskap/Hubble-Lemaitres lov/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -85,7 +88,7 @@ Den nåværende beregningen av Hubblekonstanten
 
 ### Kosmisk bakgrunnsstråling
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/kunnskap/kosmisk-bakgrunnsstraling/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/Kunnskap/Kosmisk bakgrunnsstråling/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -93,12 +96,12 @@ Den nåværende beregningen av Hubblekonstanten
 
 # Kosmisk bakgrunnsstråling
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/kunnskap/big-bang/#elektroner-binder-seg-til-atomkjernene" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/Kunnskap/Big bang/#elektroner-binder-seg-til-atomkjernene" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
 ### Elektroner binder seg til atomkjernene
-Etter 380 000 år (nyere estimater sier 375 000 $\pm$ 3 000 år) så var temperaturen i universet ganske nøyaktig 3000 K. Det vil si at universet var tilstrekkelig avkjølt til at elektroner kunne binde seg til atomkjerner. *Vi fikk altså de første **atomene** i universet!* Dette gjorde også at [[Kunnskap/Foton\|fotoner]] ([[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]) kunne begynne å spre seg (tidligere hadde universet vært for varmt og tett til at dette var mulig[^3]). All strålingen som var «fanget» slapp nå fri og ble sendt ut som infrarød stråling til et objekt med temperatur 3000 K. Det er denne strålingen vi kaller for [[Kunnskap/Kosmisk bakgrunnsstråling\|Kosmisk bakgrunnsstråling]].
+Etter 380 000 år (nyere estimater sier 375 000 $\pm$ 3 000 år) så var temperaturen i universet ganske nøyaktig 3000 K. Det vil si at universet var tilstrekkelig avkjølt til at elektroner kunne binde seg til atomkjerner. *Vi fikk altså de første **atomene** i universet!* Dette gjorde også at [[Kunnskap/Foton\|fotoner]] ([[Kunnskap/Elektromagnetisk stråling\|Elektromagnetisk stråling]]) kunne begynne å spre seg (tidligere hadde universet vært for varmt og tett til at dette var mulig[^2]). All strålingen som var «fanget» slapp nå fri og ble sendt ut som infrarød stråling til et objekt med temperatur 3000 K. Det er denne strålingen vi kaller for [[Kunnskap/Kosmisk bakgrunnsstråling\|Kosmisk bakgrunnsstråling]].
 
 
 </div></div>
@@ -141,5 +144,5 @@ Les mer om big bangs forutsigelser hos [Wikipedia](https://en.m.wikipedia.org/wi
 [[Kunnskap/Universet\|Universet]]
 
 
-[^2]: Læreboka Naturfag 5 påstår at utvidelsen er en faktor $10^{43}$, men jeg forholder meg til [Wikipedia](https://en.wikipedia.org/wiki/Expansion_of_the_universe) akkurat her.
-[^3]: tidligere var det så varmt og tett at reaksjonen hvor protoner og elektroner slår seg sammen til hydrogen ville gått i begge retninger, $\ce{p^{+} + e^{-} <=> H + \gamma}$. Fotonene ville bare kollidert i elektroner og slått dem løs fra hydrogenatomene igjen
+[^1]: Læreboka Naturfag 5 påstår at utvidelsen er en faktor $10^{43}$, men jeg forholder meg til [Wikipedia](https://en.wikipedia.org/wiki/Expansion_of_the_universe) akkurat her.
+[^2]: tidligere var det så varmt og tett at reaksjonen hvor protoner og elektroner slår seg sammen til hydrogen ville gått i begge retninger, $\ce{p^{+} + e^{-} <=> H + \gamma}$. Fotonene ville bare kollidert i elektroner og slått dem løs fra hydrogenatomene igjen

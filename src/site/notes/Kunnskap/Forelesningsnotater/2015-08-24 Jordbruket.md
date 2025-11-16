@@ -19,11 +19,11 @@ Universitetet
 * Ekspansjon, kolonisering, handel
 * Eric William Capitalism and Slavery 1944
 
-Max Weber: den Protestantiske etikk og kapitalismens ånd
+[[|Max Weber]]: den Protestantiske etikk og kapitalismens ånd
 
 * Reformasjonen
-  * Luther
-  * Calvin
+  * [[Kunnskap/Martin Luther\|Martin Luther]]
+  * [[Kunnskap/Kalvinisme#Calvin\|Calvin]]
   * Zwingli
 * Calvin ga læren om predestinasjon. 
   * Gud hadde bestemt hvem som skulle til himmelen og hvem som skulle til helvete. Ingenting som blir gjort på jorden kan påvirke hans valg. Kalvinistene kunne likevel finne ut om de var utvalgt til himmelen dersom de hadde suksess i livet.

@@ -9,7 +9,7 @@ Reformasjonen i var innføringen av Martin Luthers protestantiske kirke på beko
 Vi regner [[Kunnskap/Martin Luther\|Martin Luther]] som opphavsmannen til reformasjonen, men allerede 100 år tidligere hadde John Wycliffe og Jan Hus satt spørsmålstegn ved hvordan Paven kunne være Guds stedfortreder på Jorda ettersom de observerte mye umoralsk livsførsel blant både prester, biskoper og paver. Wycliffe og Hus ønsket at folk skulle lese Bibelen selv, og argumenterte for et mer personlig forhold til Gud. Hus ble brent på bålet som kjetter.
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/kunnskap/martin-luther/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/Kunnskap/Martin Luther/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -40,7 +40,7 @@ I [[Kunnskap/Freden i Augsburg 1555\|Freden i Augsburg 1555]] ble det slått fas
 
 ## Kalvinisme
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/kunnskap/kalvinisme/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/Kunnskap/Kalvinisme/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -62,7 +62,7 @@ I Norge var det ikke noen stor støtte for Luther eller reformasjon. Den katolsk
 
 I 1536 innførte kong Christian III protestantismen i Danmark-Norge og samtidig innførte han [[Kunnskap/Norgesparagrafen\|Norgesparagrafen]].
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/kunnskap/norgesparagrafen/#norgesparagrafen-tekst" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/Kunnskap/Norgesparagrafen/#norgesparagrafen-tekst" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -84,6 +84,6 @@ I 1536 innførte kong Christian III protestantismen i Danmark-Norge og samtidig 
 ## Related
 
 ### Forelesningsnotater
-- [[Kunnskap/Forelesningsnotater/2015-11-05 reformasjonen\|2015-11-05 reformasjonen]]
-- [[Kunnskap/Forelesningsnotater/2015-09-29 Norge 1350-1536\|2015-09-29 Norge 1350-1536]]
-- [[Kunnskap/Forelesningsnotater/2015-10-06 Norge 1536-1800\|2015-10-06 Norge 1536-1800]]
+- [[Kunnskap/Forelesningsnotater/2015-11-05 reformasjonen\|Kunnskap/Forelesningsnotater/2015-11-05 reformasjonen]]
+- [[Kunnskap/Forelesningsnotater/2015-09-29 Norge 1350-1536\|Kunnskap/Forelesningsnotater/2015-09-29 Norge 1350-1536]]
+- [[Kunnskap/Forelesningsnotater/2015-10-06 Norge 1536-1800\|Kunnskap/Forelesningsnotater/2015-10-06 Norge 1536-1800]]

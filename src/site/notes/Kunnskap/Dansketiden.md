@@ -13,7 +13,7 @@ På 1500-tallet var Norge et jordbrukssamfunn, hvor 9/10 levde på landsbygda og
 
 ![Folketallet i norge i dansketida.excalidraw.png](/img/user/_resources/Folketallet%20i%20norge%20i%20dansketida.excalidraw.png)
 
-Mange bønder gikk fra å være leilendinger til å bli selveiere (se avsnittet [[Kunnskap/Dansketiden#Jordeiere\|#Jordeiere]]) i løpet av perioden, men det vokste etter hvert fram en ny underklasse: *husmennene*.
+Mange bønder gikk fra å være leilendinger til å bli selveiere (se avsnittet [[#Jordeiere]]) i løpet av perioden, men det vokste etter hvert fram en ny underklasse: *husmennene*.
 
 #### Husmannsvesenet
 På 1600-tallet var all dyrkbar jord oppdyrket og eid. Det var derfor flere som ikke hadde mulighet til å eie egen jord – disse ble kalt husmenn. De leide en husmannsplass av en bonde, og måtte betale penger eller arbeid til boden. De hadde få rettigheter, og etter 1814 så fikk de heller ikke stemmerett slik bondeselveierene fikk.
@@ -49,7 +49,7 @@ Kongen ønsket mer handel (for å øke skatteinntektene sine). Han la derfor til
 ### Økonomiske forhold
 På 1500-tallet var Norge en *selvbergingsøkonomi*. Bøndene laget det meste de trengte selv. Dersom det var noe de ikke kunne lage selv så byttet de det til seg. Skatt og leie ble som oftest betalt i varer (f.eks. korn eller kjøtt), istedenfor penger.
 
-I løpet av dansketida begynner flere bønder ved å delta i *de nye næringene*, det vil si: [[Kunnskap/Dansketiden#Fiskeri\|#Fiskeri]], [[Kunnskap/Dansketiden#Trelasthandel\|#Trelasthandel]] og bergverk. På denne måten økte de sine inntekter betraktelig.
+I løpet av dansketida begynner flere bønder ved å delta i *de nye næringene*, det vil si: [[#Fiskeri]], [[#Trelasthandel]] og bergverk. På denne måten økte de sine inntekter betraktelig.
 
 #### Jordeiere
 
@@ -70,7 +70,7 @@ Fiskerbønder drev både gårdsbruk og fiskeri. Fisket var sesongbasert, og mann
 *Lofotfisket* var det viktigste fisket, og mye av fisken ble tørket og solgt til kjøpmenn i Trondheim og Bergen. Disse eksporterte fisken videre til Europa. *Baccala*/*Bacalao* er retter som ble tilberedt i Sør-Europa med norsk klippfisk (tørrfisk).
 
 ##### Trelasthandel
-Den viktigste nye næringen var trelasthandel. Tømmer var en svært ettertraktet handelsvare, spesielt til den enorme skipsbyggingen som foregikk i Norge og ellers i Europa. I Norge (og spesielt på Sørlandet) var det enkelt å hogge langs elvene og fløte tømmeret nedover på elva. Deretter ble tømmeret ført til sagbruk for å foredle tømmeret til plank ved hjelp av nye [[Kunnskap/Dansketiden#Sager\|#Sager]].
+Den viktigste nye næringen var trelasthandel. Tømmer var en svært ettertraktet handelsvare, spesielt til den enorme skipsbyggingen som foregikk i Norge og ellers i Europa. I Norge (og spesielt på Sørlandet) var det enkelt å hogge langs elvene og fløte tømmeret nedover på elva. Deretter ble tømmeret ført til sagbruk for å foredle tømmeret til plank ved hjelp av nye [[#Sager]].
 
 Trefordelingen var sesongarbeid:
 - Vinter: tømmer ble hugd og dratt på slede ned til elva

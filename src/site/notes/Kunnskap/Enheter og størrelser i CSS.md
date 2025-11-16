@@ -59,7 +59,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 ## Tekststørrelse
 Tekststørrelse settes med `font-size`. Dette er avstanden fra toppen av de høyeste bokstavene (som b) til bunnen av de laveste bokstavene (som y).
 
-**Standard tekststørrelse på nettsider tilsvarer 16px**, men brukeren kan selv velge en annen innstilling for standard tekststørrelse. For å tillate brukeren å velge en egen tekststørrelse så er det viktig at vi ikke definerer skriftstørrelser med [[Kunnskap/Enheter og størrelser i CSS#Absolutte lengdeenheter\|#Absolutte lengdeenheter]]. 
+**Standard tekststørrelse på nettsider tilsvarer 16px**, men brukeren kan selv velge en annen innstilling for standard tekststørrelse. For å tillate brukeren å velge en egen tekststørrelse så er det viktig at vi ikke definerer skriftstørrelser med [[#Absolutte lengdeenheter]]. 
 
 >[!tip] 62.5%-trikset gjør det enklere å regne ut størrelser
 >I læreboka Kode 1 så anbefaler forfatterne å bruke 62.5%-trikset. Dette trikset gjør at `1rem` får den samme størrelsen som `10px` for alle brukere med standard tekststørrelse.

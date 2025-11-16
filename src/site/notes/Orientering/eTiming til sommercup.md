@@ -66,7 +66,7 @@ Vi er nødt til å gjøre noen endringer på klassene slik at det blir riktig fo
 - Nybegynner skal ha urangert resultatliste uten tider. 
 - Nybegynner bør ha kjønnskode `X` for å unngå at eTiming gir oss feilmeldinger
 
-Du kan sette disse valgene for klassene [[Orientering/eTiming til sommercup#Gjøre endringer på klassene manuelt\|manuelt]], eller du kan gjøre dem [[Orientering/eTiming til sommercup#Gjøre endringer på klassene med SQL\|automatisk ved hjelp av SQL-spørringer]].
+Du kan sette disse valgene for klassene [[#Gjøre endringer på klassene manuelt|manuelt]], eller du kan gjøre dem [[#Gjøre endringer på klassene med SQL|automatisk ved hjelp av SQL-spørringer]].
 
 #### Gjøre endringer på klassene manuelt
 For å gjøre det manuelt så velger `Bruk alltid brikketid` og `Fristart` for hver klasse. For klasse Nybegynner så endrer du `Tidtakingstype` til `Ikke vis tid` og kjønnskoden til `X`.

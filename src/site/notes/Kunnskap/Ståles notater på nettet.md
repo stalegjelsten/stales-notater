@@ -15,9 +15,9 @@
 - Tidslinje over historie som er relevant for videregående finner dere her: [[Kunnskap/Tidslinje historie\|Tidslinje historie]]
 - En oversikt over alle notatene tagget med historie: [[Historie MOC\|Historie MOC]]
 - En oversikt over forelesningsnotater fra universitetet (fordelt på fag)
-	- [[Kunnskap/Forelesningsnotater/Hi110 Forelesningsnotater eldre historie i Norge og Europa MOC\|Hi110 Forelesningsnotater eldre historie i Norge og Europa MOC]]
-	- [[Kunnskap/Forelesningsnotater/Hi100 Forelesningsnotater globalhistorie MOC\|Hi100 Forelesningsnotater globalhistorie MOC]]
-	- Alle forelesningsnotater (jeg skal renskrive flere etter hvert og legge ut): [[Kunnskap/Forelesningsnotater/Forelesningsnotater historie MOC\|Forelesningsnotater historie MOC]]
+	- [[Kunnskap/Forelesningsnotater/Hi110 Forelesningsnotater eldre historie i Norge og Europa MOC\|Kunnskap/Forelesningsnotater/Hi110 Forelesningsnotater eldre historie i Norge og Europa MOC]]
+	- [[Kunnskap/Forelesningsnotater/Hi100 Forelesningsnotater globalhistorie MOC\|Kunnskap/Forelesningsnotater/Hi100 Forelesningsnotater globalhistorie MOC]]
+	- Alle forelesningsnotater (jeg skal renskrive flere etter hvert og legge ut): [[Kunnskap/Forelesningsnotater/Forelesningsnotater historie MOC\|Kunnskap/Forelesningsnotater/Forelesningsnotater historie MOC]]
 
 ### Naturfag
 - Kapittel 1 [[Kunnskap/Big bang\|Big bang]]

@@ -8,8 +8,8 @@ eTiming er et tidtakingsprogram for Windows som kan brukes [[Orientering/eTiming
 
 ## Notater om eTiming
 - [[Orientering/eTiming\|eTiming]]
-- [[Orientering/eTiming til sommercup\|eTiming til sommercup]]
 - [[Orientering/eTiming til Agderkarusell\|eTiming til Agderkarusell]]
+- [[Orientering/eTiming til sommercup\|eTiming til sommercup]]
 - [[Orientering/eTiming med spooling av resultater\|eTiming med spooling av resultater]]
 - [[Orientering/eTiming database\|eTiming database]]
 - [[Orientering/LiveRes for eTiming\|LiveRes for eTiming]]
@@ -23,7 +23,7 @@ EQ Timing forklarer installasjon av programmet på denne siden: <https://eqtimin
 
 Informasjonen på nettsiden fra EQ Timing som står fra *SQL Server* og nedover er ikke relevant for bruk på små løp (treninger/nærløp/kretsløp). Denne informasjonen er mest relevant dersom man ønsker å bruke flere datamaskiner i nettverk til å dele på tidtakeroppgavene.
 
-Per 2023-09-03 så ser det ikke ut til at man får lastet ned nyeste versjon av programvaren her. Se instruksjonene under [[Orientering/eTiming#Oppdatering av eTiming\|#Oppdatering av eTiming]] for å oppdatere til siste versjon.
+Per 2023-09-03 så ser det ikke ut til at man får lastet ned nyeste versjon av programvaren her. Se instruksjonene under [[#Oppdatering av eTiming]] for å oppdatere til siste versjon.
 
 >[!note] Registrere lisensnøkkel
 >eTiming blir installert som demoprogramvare. Da har du kun mulighet til å registrere 100 løpere på arrangementet.
