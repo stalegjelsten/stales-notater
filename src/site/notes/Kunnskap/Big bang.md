@@ -28,7 +28,7 @@ Big bang teorien er en av de mest gjennomtestede [[Kunnskap/Vitenskapelig teori\
 - 10 milliarder år: mørk materie begynner å dominere
 - 13,8 milliarder år: i dag
 
-![](Big-bang-tidslinje.excalidraw.png)
+![](/img/user/_resources/Big-bang-tidslinje.excalidraw.png)
 Figurkilde: [Jostein Riiser Kristiansen](https://brukere.snl.no/39576)
 
 ### Inflasjon
