@@ -20,10 +20,10 @@ Big bang teorien er en av de mest gjennomtestede [[Kunnskap/Vitenskapelig teori\
 
 
 ## Tidslinje
-- $10^{-36}$ til $10^{-32} \,\mathrm{s}$: [[#Inflasjon]][^1]
+- $10^{-36}$ til $10^{-33} \,\mathrm{s}$: [[Kunnskap/Big bang#Inflasjon\|Inflasjon]][^1]
 - $10^{-6}\,\mathrm{s}$: [[Kunnskap/Proton\|Protoner]] og [[Kunnskap/Nøytron\|nøytroner]] dannes
 - 3 min: Helium, litium og tyngre atomkjerner dannes
-- 380 000 år: [[#Elektroner binder seg til atomkjernene]]
+- 380 000 år: [[Kunnskap/Big bang#Elektroner binder seg til atomkjernene\|Elektroner binder seg til atomkjernene]]
 - 400 millioner år: de første stjerner og galakser dannes
 - 10 milliarder år: mørk materie begynner å dominere
 - 13,8 milliarder år: i dag
@@ -32,7 +32,7 @@ Big bang teorien er en av de mest gjennomtestede [[Kunnskap/Vitenskapelig teori\
 Figurkilde: [Jostein Riiser Kristiansen](https://brukere.snl.no/39576)
 
 ### Inflasjon
-I denne perioden utvidet tidrommet seg fortere enn lysets hastighet. Universet utvider seg omtrent $10^{26}$[^1] ganger i alle retninger. Vi vet ikke hvor stort universet var etterpå, men det var i hvert fall fremdeles ekstremt mye mindre enn i dag (kanskje på størrelse med en rosin, appelsin eller et tankskip??). To partikler som påvirket hverandre før inflasjonen vil ikke ha mulighet til å påvirke hverandre etter inflasjonen siden informasjon ikke kan overføres med høyere hastighet enn $c$.
+I denne perioden utvidet [[Kunnskap/Tidrom\|tidrommet]] seg fortere enn lysets hastighet. Universet utvider seg omtrent $10^{26}$[^1] ganger i alle retninger. Vi vet ikke hvor stort universet var etterpå, men det var i hvert fall fremdeles ekstremt mye mindre enn i dag (kanskje på størrelse med en rosin, appelsin eller et tankskip??). To partikler som påvirket hverandre før inflasjonen vil ikke ha mulighet til å påvirke hverandre etter inflasjonen siden informasjon ikke kan overføres med høyere hastighet enn $c$.
 
 ### Tyngre atomkjerner dannes
 Ved tiden $t=10^{-6} \,\mathrm{s}$ ble det dannet protoner og nøytroner. Siden et enkelt proton også er atomkjernen til hydrogen-1 ($\ce{^1_1H}$) så fikk vi altså også våre første atomkjerner på dette tidspunktet.
