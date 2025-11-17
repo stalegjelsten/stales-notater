@@ -4,16 +4,25 @@
 
 
 # Big bang
-Big bang er en [[Kunnskap/Vitenskapelig teori\|Vitenskapelig teori]] som *forklarer utviklingen av universet vårt* fra ca. 13,8 milliarder år siden fram til i dag. Teorien sier at universet var enormt tett og energirikt helt i begynnelsen (ved tiden $t=0$), og at det har utvidet seg hele tiden siden dette. Vi kan ikke *vite* at universet var så lite helt i begynnelsen, men vi kan gjøre antakelser om utviklingen fra tiden $t=10^{-43} \, \mathrm{s}$ etter big bang (dette tilsvarer en [[Kunnskap/Plancks konstant\|Plancktid]])
 
-Vi kan ikke si så mye om selve big bang, siden det ville krevd en fungerende teori for kvantegravitasjon som kan utkonkurrere teoriene om [[Kunnskap/Generell relativitetsteori\|Generell relativitetsteori]] og [[Kunnskap/Kvantemekanikk\|Kvantemekanikk]]. Vi vet likevel at alle de fire kreftene i universet må ha vært samlet, og ved hjelp av big bang teorien kan vi forklare store deler av universets utvikling.
+> [!important]
+> Begrepet big bang kan ha to ulike betydninger:
+> 
+> 1. Hendelsen som var starten på vårt univers
+> 2. Den vitenskapelige teorien om hvordan universet har oppstått og utviklet seg
+>
+> Dette notatet handler om big bang-teorien.
+
+Big bang-teorien er en [[Kunnskap/Vitenskapelig teori\|Vitenskapelig teori]] som *forklarer utviklingen av universet vårt* fra ca. 13,8 milliarder år siden fram til i dag. Teorien sier at universet var enormt tett og energirikt helt i begynnelsen (ved tiden $t=0$), og at det har utvidet seg hele tiden siden dette. Vi kan ikke *vite* at universet var så lite helt i begynnelsen, men vi kan gjøre antakelser om utviklingen fra tiden $t=10^{-43} \, \mathrm{s}$ etter big bang (dette tilsvarer en [[Kunnskap/Plancks konstant\|Plancktid]])
+
+Vi kan ikke si så mye om selve hendelsen big bang, siden det ville krevd en fungerende teori for kvantegravitasjon som kan utkonkurrere teoriene om [[Kunnskap/Generell relativitetsteori\|Generell relativitetsteori]] og [[Kunnskap/Kvantemekanikk\|Kvantemekanikk]]. Vi vet likevel at alle de fire kreftene i universet må ha vært samlet, og ved hjelp av big bang-teorien kan vi forklare store deler av universets utvikling.
 
 Big bang teorien er en av de mest gjennomtestede [[Kunnskap/Vitenskapelig teori\|teoriene]] i verdenshistorien. Vi skal i [[Naturfag MOC\|naturfag]] se på tre observasjoner som støtter teorien:
 1. Universets utvidelse
 2. Bakgrunnsstrålingen
 3. Fordelingen av grunnstoffer i Universet
 
->[!note] Big bang som smell fra infitesimalt lite punkt
+>[!note] Big bang som smell fra infinitesimalt lite punkt
 >Big bang var ikke et smell. Selve navnet Big bang ble gitt til teorien av [kritikere](https://en.wikipedia.org/wiki/Fred_Hoyle#Rejection_of_the_Big_Bang) som mente at den var fullstendig tullete.
 >
 > Vi vet heller ikke om universet var infitesimalt lite, altså at det var samlet i en [singularitet](https://en.m.wikipedia.org/wiki/Initial_singularity), eller universet hadde størrelse og big bang bare skjedde overalt samtidig.
